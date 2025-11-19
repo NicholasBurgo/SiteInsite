@@ -8,6 +8,7 @@ import trafilatura
 from backend.crawl.fetch import FetchResponse
 from backend.extract.nav_footer import extract_navigation, extract_footer
 from backend.extract.files_words_links import extract_structured_content
+from backend.insights.page_type import infer_page_type, extract_page_features, PageFeatures
 
 async def extract_html(resp: FetchResponse, run_id: str = None) -> dict:
     """
@@ -54,6 +55,20 @@ async def extract_html(resp: FetchResponse, run_id: str = None) -> dict:
         structured_content = extract_structured_content(soup, resp.url, resp.url)
         structured_content["status"] = resp.status
         
+        # Infer page type
+        # Build page data dict for feature extraction
+        page_data_for_features = {
+            "words": {"wordCount": word_count, "paragraphs": [], "headings": headings},
+            "links": {"internal": [l for l in links if resp.url.split('/')[2] in l.get("url", "")]},
+            "media": {"images": images}
+        }
+        # Count paragraphs from readable text
+        paragraphs = [p.strip() for p in readable_text.split('\n\n') if p.strip() and len(p.strip()) > 20]
+        page_data_for_features["words"]["paragraphs"] = paragraphs
+        
+        features = extract_page_features(page_data_for_features)
+        detected_page_type = infer_page_type(resp.url, features)
+        
         # Save structured content if run_id provided
         if run_id:
             _save_structured_content(run_id, page_id, structured_content)
@@ -72,7 +87,8 @@ async def extract_html(resp: FetchResponse, run_id: str = None) -> dict:
                 "path": resp.path,
                 "type": "HTML",
                 "load_time_ms": resp.load_time_ms,
-                "content_length_bytes": resp.content_length_bytes
+                "content_length_bytes": resp.content_length_bytes,
+                "page_type": detected_page_type
             },
             "meta": meta,
             "text": readable_text,
@@ -87,7 +103,8 @@ async def extract_html(resp: FetchResponse, run_id: str = None) -> dict:
                 "image_count": len(images),
                 "link_count": len(links),
                 "heading_count": len(headings),
-                "table_count": len(tables)
+                "table_count": len(tables),
+                "page_type": detected_page_type
             },
             "structuredContent": structured_content
         }
@@ -364,7 +381,8 @@ def _create_error_response(resp: FetchResponse, content_type: str) -> dict:
             "path": resp.path,
             "type": content_type,
             "load_time_ms": resp.load_time_ms,
-            "content_length_bytes": resp.content_length_bytes
+            "content_length_bytes": resp.content_length_bytes,
+            "page_type": "generic"  # Default for error pages
         },
         "meta": {},
         "text": None,

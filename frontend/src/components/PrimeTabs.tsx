@@ -2,8 +2,9 @@
  * Prime tabs component for navigation, footer, and pages management.
  */
 import React, { useState } from 'react';
+import { useParams } from 'react-router-dom';
 import { PrimeResponse, PrimeSubTab, NavNode } from '../lib/types.confirm';
-import { confirmationUtils } from '../lib/api.confirm';
+import { confirmationUtils, confirmationApi } from '../lib/api.confirm';
 import NavigationTree from './NavigationTree';
 
 interface PrimeTabsProps {
@@ -19,9 +20,23 @@ const PrimeTabs: React.FC<PrimeTabsProps> = ({
   onFooterUpdate,
   saving
 }) => {
+  const { runId } = useParams<{ runId: string }>();
   const [activeSubTab, setActiveSubTab] = useState<PrimeSubTab>('nav');
   const [editingFooter, setEditingFooter] = useState(false);
   const [footerData, setFooterData] = useState(data.footer);
+  const [pagesData, setPagesData] = useState(data.pages);
+  const [editingPageTypes, setEditingPageTypes] = useState(false);
+  
+  const PAGE_TYPES = [
+    { value: 'article', label: 'Article' },
+    { value: 'landing', label: 'Landing' },
+    { value: 'catalog', label: 'Catalog' },
+    { value: 'product', label: 'Product' },
+    { value: 'media_gallery', label: 'Media Gallery' },
+    { value: 'contact', label: 'Contact' },
+    { value: 'utility', label: 'Utility' },
+    { value: 'generic', label: 'Generic' }
+  ];
 
   const handleFooterSave = () => {
     onFooterUpdate(footerData);
@@ -242,7 +257,59 @@ const PrimeTabs: React.FC<PrimeTabsProps> = ({
       {/* All Pages Tab */}
       {activeSubTab === 'pages' && (
         <div>
-          <h3 className="text-lg font-medium text-gray-900 dark:text-gray-100 mb-4">All Pages</h3>
+          <div className="flex justify-between items-center mb-4">
+            <h3 className="text-lg font-medium text-gray-900 dark:text-gray-100">All Pages</h3>
+            <div className="space-x-2">
+              {editingPageTypes ? (
+                <>
+                  <button
+                    onClick={() => {
+                      setPagesData(data.pages);
+                      setEditingPageTypes(false);
+                    }}
+                    className="px-3 py-1 text-sm text-gray-600 dark:text-gray-400 hover:text-gray-800 dark:hover:text-gray-200"
+                  >
+                    Cancel
+                  </button>
+                  <button
+                    onClick={async () => {
+                      // Save page_type changes
+                      if (!runId) {
+                        alert('Run ID not found');
+                        return;
+                      }
+                      try {
+                        for (const page of pagesData) {
+                          const originalPage = data.pages.find(p => p.pageId === page.pageId);
+                          if (originalPage && originalPage.page_type !== page.page_type) {
+                            await confirmationApi.updatePageType(runId, page.pageId, page.page_type || 'generic');
+                          }
+                        }
+                        // Reload data
+                        const updatedData = await confirmationApi.getPrime(runId);
+                        setPagesData(updatedData.pages);
+                        setEditingPageTypes(false);
+                      } catch (error) {
+                        console.error('Error saving page types:', error);
+                        alert('Error saving page types');
+                      }
+                    }}
+                    disabled={saving}
+                    className="px-3 py-1 bg-blue-600 dark:bg-blue-700 text-white rounded text-sm hover:bg-blue-700 dark:hover:bg-blue-600 disabled:opacity-50"
+                  >
+                    {saving ? 'Saving...' : 'Save Page Types'}
+                  </button>
+                </>
+              ) : (
+                <button
+                  onClick={() => setEditingPageTypes(true)}
+                  className="px-3 py-1 bg-blue-600 dark:bg-blue-700 text-white rounded text-sm hover:bg-blue-700 dark:hover:bg-blue-600"
+                >
+                  Edit Page Types
+                </button>
+              )}
+            </div>
+          </div>
           
           <div className="bg-white dark:bg-gray-800 shadow overflow-hidden sm:rounded-md">
             <table className="min-w-full divide-y divide-gray-200 dark:divide-gray-700">
@@ -251,19 +318,41 @@ const PrimeTabs: React.FC<PrimeTabsProps> = ({
                   <th className="px-6 py-3 text-left text-xs font-medium text-gray-500 dark:text-gray-400 uppercase tracking-wider">#</th>
                   <th className="px-6 py-3 text-left text-xs font-medium text-gray-500 dark:text-gray-400 uppercase tracking-wider">Title</th>
                   <th className="px-6 py-3 text-left text-xs font-medium text-gray-500 dark:text-gray-400 uppercase tracking-wider">Path</th>
+                  <th className="px-6 py-3 text-left text-xs font-medium text-gray-500 dark:text-gray-400 uppercase tracking-wider">Page Type</th>
                   <th className="px-6 py-3 text-left text-xs font-medium text-gray-500 dark:text-gray-400 uppercase tracking-wider">Status</th>
                   <th className="px-6 py-3 text-left text-xs font-medium text-gray-500 dark:text-gray-400 uppercase tracking-wider">Words</th>
                   <th className="px-6 py-3 text-left text-xs font-medium text-gray-500 dark:text-gray-400 uppercase tracking-wider">Media</th>
                 </tr>
               </thead>
               <tbody className="bg-white dark:bg-gray-800 divide-y divide-gray-200 dark:divide-gray-700">
-                {data.pages.map((page, index) => (
+                {pagesData.map((page, index) => (
                   <tr key={page.pageId} className="hover:bg-gray-50 dark:hover:bg-gray-700">
                     <td className="px-6 py-4 whitespace-nowrap text-sm text-gray-900 dark:text-gray-100">{index + 1}</td>
                     <td className="px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-900 dark:text-gray-100">
                       {page.titleGuess || 'Untitled'}
                     </td>
                     <td className="px-6 py-4 whitespace-nowrap text-sm text-gray-500 dark:text-gray-400">{page.path}</td>
+                    <td className="px-6 py-4 whitespace-nowrap">
+                      {editingPageTypes ? (
+                        <select
+                          value={page.page_type || 'generic'}
+                          onChange={(e) => {
+                            const updated = [...pagesData];
+                            updated[index] = { ...updated[index], page_type: e.target.value };
+                            setPagesData(updated);
+                          }}
+                          className="px-2 py-1 border border-gray-300 dark:border-gray-600 bg-white dark:bg-gray-700 text-gray-900 dark:text-gray-100 rounded text-sm"
+                        >
+                          {PAGE_TYPES.map(type => (
+                            <option key={type.value} value={type.value}>{type.label}</option>
+                          ))}
+                        </select>
+                      ) : (
+                        <span className="inline-flex px-2 py-1 text-xs font-semibold rounded-full bg-blue-100 dark:bg-blue-900/50 text-blue-800 dark:text-blue-300">
+                          {PAGE_TYPES.find(t => t.value === (page.page_type || 'generic'))?.label || 'Generic'}
+                        </span>
+                      )}
+                    </td>
                     <td className="px-6 py-4 whitespace-nowrap">
                       <span className={`inline-flex px-2 py-1 text-xs font-semibold rounded-full ${
                         page.status === 200 ? 'bg-green-100 dark:bg-green-900/50 text-green-800 dark:text-green-300' : 'bg-red-100 dark:bg-red-900/50 text-red-800 dark:text-red-300'

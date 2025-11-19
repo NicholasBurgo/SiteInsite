@@ -215,3 +215,54 @@ async def generate_seed(run_id: str):
         }
     except Exception as e:
         raise HTTPException(status_code=500, detail=f"Error generating seed: {str(e)}")
+
+
+@router.patch("/{run_id}/pages/{page_id}/type")
+async def update_page_type(run_id: str, page_id: str, page_type_data: Dict[str, Any]):
+    """
+    Update page_type for a specific page.
+    Updates both pages_index.json and the page's JSON file.
+    """
+    try:
+        page_type = page_type_data.get("page_type", "generic")
+        
+        # Validate page_type
+        valid_types = ["article", "landing", "catalog", "product", "media_gallery", "contact", "utility", "generic"]
+        if page_type not in valid_types:
+            raise HTTPException(status_code=400, detail=f"Invalid page_type. Must be one of: {', '.join(valid_types)}")
+        
+        store = ConfirmationStore(run_id)
+        
+        # Update pages_index.json
+        pages_index = store.get_pages_index()
+        page_found = False
+        for page in pages_index:
+            if page.get("pageId") == page_id:
+                page["page_type"] = page_type
+                page_found = True
+                break
+        
+        if not page_found:
+            raise HTTPException(status_code=404, detail="Page not found in index")
+        
+        # Save updated pages_index
+        import json
+        import os
+        pages_index_file = os.path.join(store.run_dir, "pages_index.json")
+        with open(pages_index_file, 'w') as f:
+            json.dump(pages_index, f, indent=2)
+        
+        # Also update the page's JSON file if it exists
+        page_content = store.get_page_content(page_id)
+        if page_content:
+            # Update stats.page_type if it exists
+            if "stats" not in page_content:
+                page_content["stats"] = {}
+            page_content["stats"]["page_type"] = page_type
+            store.update_page_content(page_id, page_content)
+        
+        return {"message": "Page type updated successfully", "page_type": page_type}
+    except HTTPException:
+        raise
+    except Exception as e:
+        raise HTTPException(status_code=500, detail=f"Error updating page type: {str(e)}")

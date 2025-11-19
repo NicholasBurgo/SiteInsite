@@ -31,6 +31,7 @@ class PageSummary(BaseModel):
     load_time_ms: Optional[int] = None
     content_length_bytes: Optional[int] = None
     status_code: int | None = None
+    page_type: str | None = None  # article, landing, catalog, product, media_gallery, contact, utility, generic
 
     @root_validator(pre=True)
     def _sync_status_codes(cls, values: Dict[str, Any]) -> Dict[str, Any]:
@@ -69,6 +70,7 @@ class PageResult(BaseModel):
     type: str | None = None
     load_time_ms: Optional[int] = None
     content_length_bytes: Optional[int] = None
+    page_type: str | None = None  # article, landing, catalog, product, media_gallery, contact, utility, generic
 
     @root_validator(pre=True)
     def _sync_status_codes(cls, values: Dict[str, Any]) -> Dict[str, Any]:
@@ -170,6 +172,8 @@ class InsightStats(BaseModel):
     verySlowPagesCount: int
     avgPageSizeKb: float
     maxPageSizeKb: float
+    badPagesCount: int = 0  # 404, 410, 5xx pages
+    brokenInternalLinksCount: int = 0  # Total broken internal links found
 
 class InsightReport(BaseModel):
     runId: str

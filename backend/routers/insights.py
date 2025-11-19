@@ -311,6 +311,127 @@ async def export_insight_report_pdf(
                 return f"{sign}{diff:,.0f}" if isinstance(diff, float) else f"{sign}{diff:,}"
             return str(diff)
         
+        # Load pages_index.json for page type breakdown
+        pages_index_file = os.path.join(run_store.run_dir, "pages_index.json")
+        pages_index = []
+        if os.path.exists(pages_index_file):
+            with open(pages_index_file, 'r') as f:
+                pages_index = json.load(f)
+        
+        # Calculate page type breakdown for executive summary
+        page_type_counts = {}
+        for page in pages_index:
+            page_type = page.get("page_type", "generic")
+            page_type_counts[page_type] = page_type_counts.get(page_type, 0) + 1
+        
+        # Build appendix key to letter mapping (will be populated after collecting all data)
+        appendix_key_to_letter = {}
+        
+        # Helper function to get appendix letter for a key
+        def get_appendix_letter(appendix_key):
+            """Get the appendix letter for a given appendix key."""
+            if not appendix_key or appendix_key not in appendix_key_to_letter:
+                return None
+            return appendix_key_to_letter[appendix_key]
+        
+        # Helper function to format URLs with examples and "more" note
+        def format_urls_with_examples(affected_pages, max_examples=3, appendix_ref=None):
+            """Format URLs showing only examples, with note about remaining pages."""
+            if not affected_pages:
+                return ""
+            
+            total_count = len(affected_pages)
+            examples = affected_pages[:max_examples]
+            remaining = total_count - len(examples)
+            
+            urls_html = ""
+            for p in examples:
+                note_part = f' <span class="muted">({p.note})</span>' if p.note else ''
+                urls_html += f'<div class="url-example"><span class="url-text">• {p.url}</span>{note_part}</div>'
+            
+            if remaining > 0:
+                appendix_text = f" (see Appendix {appendix_ref})" if appendix_ref else " (see Appendix)"
+                urls_html += f'<div class="more-pages-note">(+ {remaining} more page{"s" if remaining > 1 else ""}{appendix_text})</div>'
+            
+            return urls_html
+        
+        # Helper function to get fix recommendation based on issue
+        def get_fix_recommendation(issue_title, issue_category):
+            """Return recommended fix text for common issues."""
+            title_lower = issue_title.lower()
+            
+            if "missing h1" in title_lower:
+                return "Ensure each page has exactly one <h1> describing the page's core topic."
+            elif "missing title" in title_lower:
+                return "Add unique, descriptive <title> tags to all pages. Include brand name and page purpose."
+            elif "missing meta description" in title_lower:
+                return "Add meta descriptions (150-160 characters) that summarize page content and include keywords."
+            elif "very slow" in title_lower or "slow pages" in title_lower:
+                return "Optimize images, minimize JavaScript, enable compression, and consider a CDN. Target <2000ms load time."
+            elif "thin content" in title_lower:
+                return "Add more substantive content (aim for 300+ words on important pages). Include headings, paragraphs, and relevant keywords."
+            elif "broken" in title_lower and "link" in title_lower:
+                return "Update or remove broken links. Use 301 redirects for moved pages, or return 410 Gone for permanently removed content."
+            elif "not found" in title_lower or "404" in title_lower:
+                return "Fix or redirect 404 pages. Use 301 redirects to relevant pages or return proper 404 pages with helpful navigation."
+            elif "noindex" in title_lower:
+                return "Review noindex tags. Remove them from pages you want indexed, or ensure they're intentional for duplicate/privacy pages."
+            elif "viewport" in title_lower:
+                return "Add <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\"> to all pages."
+            elif "mixed content" in title_lower:
+                return "Update all http:// URLs to https:// for images, scripts, and stylesheets on HTTPS pages."
+            elif "images missing alt" in title_lower:
+                return "Add descriptive alt text to all images. Use keywords naturally and describe what the image shows."
+            elif "large images" in title_lower:
+                return "Compress images (use WebP/AVIF formats), resize to appropriate dimensions, and lazy-load below-the-fold images."
+            elif "navigation not detected" in title_lower:
+                return "Add a clear navigation menu with links to main sections. Use semantic HTML (<nav>) and ensure it's crawlable."
+            elif "https" in title_lower and "not using" in title_lower:
+                return "Migrate site to HTTPS. Obtain SSL certificate and configure server to serve all pages over HTTPS."
+            else:
+                return "Review the issue details and implement appropriate fixes based on best practices."
+        
+        # Collect all URLs for appendix with proper categorization
+        appendix_data = {
+            "very_slow_pages": [],
+            "slow_pages": [],
+            "thin_content_pages": [],
+            "very_thin_content_pages": [],
+            "low_text_catalog_pages": [],
+            "broken_internal_links": [],
+            "error_pages": [],
+            "pages_with_broken_links": [],
+            "missing_h1": [],
+            "missing_title": [],
+            "missing_description": [],
+            "images_missing_alt": [],
+            "noindex_pages": [],
+            "no_viewport_pages": [],
+            "mixed_content_pages": []
+        }
+        
+        # Map issue titles to appendix categories
+        appendix_mapping = {
+            "very slow": "very_slow_pages",
+            "slow pages": "slow_pages",
+            "thin content": "thin_content_pages",
+            "very thin content": "very_thin_content_pages",
+            "low-text": "low_text_catalog_pages",
+            "low text": "low_text_catalog_pages",
+            "broken internal links": "broken_internal_links",
+            "broken links": "pages_with_broken_links",
+            "not found": "error_pages",
+            "error pages": "error_pages",
+            "404": "error_pages",
+            "missing h1": "missing_h1",
+            "missing page titles": "missing_title",
+            "missing meta descriptions": "missing_description",
+            "images missing alt": "images_missing_alt",
+            "noindex": "noindex_pages",
+            "viewport": "no_viewport_pages",
+            "mixed content": "mixed_content_pages"
+        }
+        
         # Build HTML report with new structure
         html = f"""<!doctype html>
 <html lang="en">
@@ -348,12 +469,13 @@ async def export_insight_report_pdf(
       margin-bottom: 16px;
     }}
     h2 {{
-      border-left: 6px solid var(--accent-alt);
+      border-left: 6px solid #A8C5DA;
       padding-left: 14px;
-      margin-top: 40px;
+      margin-top: 36px;
       margin-bottom: 12px;
       font-size: 20px;
       font-weight: bold;
+      font-family: Inter, sans-serif;
       color: #0D0F12;
     }}
     h3 {{
@@ -377,8 +499,8 @@ async def export_insight_report_pdf(
       page-break-inside: avoid;
     }}
     .card {{
-      background: var(--neutral-light);
-      padding: 14px;
+      background: #F4F5F7;
+      padding: 13px;
       margin-bottom: 8px;
       border-radius: 8px;
       border: 1px solid #E5E7EB;
@@ -409,21 +531,22 @@ async def export_insight_report_pdf(
       font-size: 12px;
     }}
     th, td {{
-      padding: 8px;
+      padding: 7px;
       text-align: left;
-      border: 1px solid rgba(31, 35, 40, 0.15);
+      border-bottom: 1px solid #E5E7EB;
       color: #0D0F12;
     }}
     th {{
-      background: var(--neutral-dark);
-      color: var(--brand-text);
+      background: #F4F5F7;
+      color: #0D0F12;
       font-weight: 700;
+      border-bottom: 2px solid #E5E7EB;
     }}
     tr:nth-child(even) {{
       background: #F9FAFB;
     }}
     tr:nth-child(odd) {{
-      background: transparent;
+      background: #FFFFFF;
     }}
     .text-right {{
       text-align: right;
@@ -434,28 +557,28 @@ async def export_insight_report_pdf(
     .badge-good {{
       display: inline-block;
       padding: 4px 8px;
-      border-radius: 4px;
+      border-radius: 9999px;
       font-size: 10px;
       color: white;
-      background: var(--good);
+      background: #00C853;
       font-weight: 600;
     }}
     .badge-bad {{
       display: inline-block;
       padding: 4px 8px;
-      border-radius: 4px;
+      border-radius: 9999px;
       font-size: 10px;
       color: white;
-      background: var(--bad);
+      background: #D32F2F;
       font-weight: 600;
     }}
     .badge-neutral {{
       display: inline-block;
       padding: 4px 8px;
-      border-radius: 4px;
+      border-radius: 9999px;
       font-size: 10px;
       color: #0D0F12;
-      background: var(--accent-alt);
+      background: #A8C5DA;
       font-weight: 600;
     }}
     ul {{
@@ -475,13 +598,119 @@ async def export_insight_report_pdf(
     .score-section {{
       margin-top: 16px;
     }}
+    .url-text {{
+      font-size: 10px;
+      color: #6B7280;
+      line-height: 1.4;
+      font-weight: 400;
+    }}
+    .url-example {{
+      margin-top: 4px;
+      margin-left: 16px;
+    }}
+    .more-pages-note {{
+      font-size: 10px;
+      color: #6B7280;
+      font-style: italic;
+      margin-top: 4px;
+      margin-left: 16px;
+    }}
+    .appendix-section {{
+      page-break-before: always;
+      margin-top: 40px;
+    }}
+    .appendix-list {{
+      margin-top: 12px;
+      margin-bottom: 24px;
+    }}
+    .appendix-list li {{
+      margin-bottom: 4px;
+      font-size: 10px;
+      color: #6B7280;
+    }}
+    .severity {{
+      display: inline-block;
+      padding: 4px 8px;
+      border-radius: 4px;
+      font-size: 10px;
+      font-weight: 600;
+      color: white;
+      margin-left: 8px;
+    }}
+    .severity.high {{
+      background: #D32F2F;
+    }}
+    .severity.medium {{
+      background: #FF9800;
+    }}
+    .severity.low {{
+      background: #4A90E2;
+    }}
+    .severity.informational {{
+      background: #9CA3AF;
+    }}
+    .issue-block {{
+      margin-bottom: 20px;
+      padding-bottom: 16px;
+      border-bottom: 1px solid #E5E7EB;
+    }}
+    .issue-block:last-child {{
+      border-bottom: none;
+    }}
+    .why-it-matters {{
+      margin-top: 8px;
+      margin-bottom: 8px;
+      font-size: 11px;
+      color: #6B7280;
+    }}
+    .fix-recommendation {{
+      margin-top: 8px;
+      padding: 8px;
+      background: #F9FAFB;
+      border-left: 3px solid #4A90E2;
+      font-size: 11px;
+      color: #0D0F12;
+    }}
+    .fix-recommendation strong {{
+      color: #0D0F12;
+      font-weight: 700;
+    }}
+    .opportunity-card {{
+      background: #F4F5F7;
+      padding: 16px;
+      margin-bottom: 12px;
+      border-radius: 8px;
+      border: 1px solid #E5E7EB;
+      border-left: 4px solid #4A90E2;
+    }}
+    .opportunity-card h4 {{
+      margin-top: 0;
+      margin-bottom: 8px;
+      font-size: 14px;
+    }}
+    .executive-summary {{
+      background: #F9FAFB;
+      padding: 20px;
+      border-radius: 8px;
+      margin-bottom: 24px;
+      border: 1px solid #E5E7EB;
+    }}
+    .executive-summary p {{
+      margin-bottom: 12px;
+      line-height: 1.6;
+      color: #0D0F12;
+    }}
+    .page-type-table {{
+      margin-top: 12px;
+      margin-bottom: 16px;
+    }}
   </style>
 </head>
 <body>
   <!-- Branded Header -->
-  <div style="background: #0D0F12; padding: 32px 0; text-align: center; border-bottom: 3px solid #4A90E2;">
-    <img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI4MDAiIGhlaWdodD0iMjAwIiB2aWV3Qm94PSIwIDAgODAwIDIwMCI+CiAgPHJlY3Qgd2lkdGg9IjgwMCIgaGVpZ2h0PSIyMDAiIGZpbGw9IiMwRDBGMTIiIC8+CiAgPHRleHQgeD0iNTAlIiB5PSI1MCUiIGRvbWluYW50LWJhc2VsaW5lPSJtaWRkbGUiIHRleHQtYW5jaG9yPSJtaWRkbGUiCiAgICAgICAgZm9udC1mYW1pbHk9IkludGVyLCBzeXN0ZW0tdWksIC1hcHBsZS1zeXN0ZW0sIEJsaW5rTWFjU3lzdGVtRm9udCwgJ1NlZ29lIFVJJywgc2Fucy1zZXJpZiIKICAgICAgICBmb250LXNpemU9IjY0IiBmaWxsPSIjRTZFQkYwIiBsZXR0ZXItc3BhY2luZz0iNiI+CiAgICBOT1ZJQU4gU1RVRElPUwogIDwvdGV4dD4KPC9zdmc+Cg==" alt="NOVIAN STUDIOS" style="width: 65%; max-width: 900px;" />
-    <div style="margin-top: 12px; font-family: Inter, sans-serif; font-size: 14px; color: #A8C5DA; letter-spacing: 0.12em;">WEBSITE INSIGHT REPORT</div>
+  <div style="background: #FFFFFF; padding: 32px 0; text-align: center; border-bottom: 3px solid #4A90E2; width: 100%;">
+    <img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI4MDAiIGhlaWdodD0iMjAwIiB2aWV3Qm94PSIwIDAgODAwIDIwMCI+CiAgPHJlY3Qgd2lkdGg9IjgwMCIgaGVpZ2h0PSIyMDAiIGZpbGw9IiNGRkZGRkYiIC8+CiAgPHRleHQgeD0iNTAlIiB5PSI1MCUiIGRvbWluYW50LWJhc2VsaW5lPSJtaWRkbGUiIHRleHQtYW5jaG9yPSJtaWRkbGUiCiAgICAgICAgZm9udC1mYW1pbHk9IkludGVyLCBzeXN0ZW0tdWksIC1hcHBsZS1zeXN0ZW0sIEJsaW5rTWFjU3lzdGVtRm9udCwgJ1NlZ29lIFVJJywgc2Fucy1zZXJpZiIKICAgICAgICBmb250LXNpemU9IjY0IiBmaWxsPSIjMEQwRjEyIiBsZXR0ZXItc3BhY2luZz0iNiI+CiAgICBOT1ZJQU4gU1RVRElPUwogIDwvdGV4dD4KPC9zdmc+Cg==" alt="NOVIAN STUDIOS" style="display: block; margin: 0 auto; max-width: 100%;" />
+    <div style="margin-top: 12px; font-family: Inter, sans-serif; font-size: 14px; color: #4A90E2; letter-spacing: 0.12em;">Website Insight Report</div>
   </div>
   
   <!-- Cover / Header Section -->
@@ -498,108 +727,324 @@ async def export_insight_report_pdf(
   </div>
 """
         
-        # Top Fixes Section
+        # Executive Summary Section
+        page_type_breakdown = []
+        for page_type, count in sorted(page_type_counts.items(), key=lambda x: x[1], reverse=True):
+            page_type_label = page_type.replace("_", " ").title()
+            page_type_breakdown.append(f"{count} {page_type_label.lower()}")
+        
+        page_type_summary = ", ".join(page_type_breakdown) if page_type_breakdown else "pages analyzed"
+        
+        # Generate top opportunities summary
+        top_opportunities_summary = []
+        for issue in top_issues[:3]:
+            top_opportunities_summary.append(issue.title.lower())
+        
+        opportunities_text = ", ".join(top_opportunities_summary) if top_opportunities_summary else "various technical issues"
+        
+        # Generate verdict based on score
+        if report.overallScore >= 80:
+            verdict = "This site demonstrates strong technical foundations with room for optimization."
+        elif report.overallScore >= 60:
+            verdict = "This site has solid fundamentals but performance and content issues limit its potential."
+        else:
+            verdict = "This site requires significant improvements in performance, SEO, and content quality to compete effectively."
+        
+        html += f"""
+  <div class="section">
+    <h1>Executive Summary</h1>
+    <div class="executive-summary">
+      <p>
+        <strong>Overall Score: {report.overallScore}/100</strong>
+      </p>
+      <p>
+        This site has {report.stats.pagesCount} pages analyzed, with a breakdown of {page_type_summary}. 
+        The analysis reveals {opportunities_text} as the primary areas for improvement.
+      </p>
+      <p>
+        {verdict}
+      </p>
+    </div>
+  </div>
+"""
+        
+        # Top Opportunities Section
         if top_issues:
             html += """
   <div class="section">
-    <h2>Top Fixes</h2>
+    <h2>Top Opportunities</h2>
     <p class="muted">Focus on these changes first for the biggest impact.</p>
 """
-            for idx, issue in enumerate(top_issues, 1):
+            for idx, issue in enumerate(top_issues[:5], 1):
+                # Determine appendix reference
+                issue_title_lower = issue.title.lower()
+                appendix_ref = None
+                for key, appendix_key in appendix_mapping.items():
+                    if key in issue_title_lower:
+                        appendix_ref = appendix_key
+                        break
+                
                 example_urls = ""
                 if issue.affectedPages:
-                    sample = issue.affectedPages[:3]
-                    urls_str = "; ".join(p.url for p in sample)
-                    if len(issue.affectedPages) > 3:
-                        urls_str += f" (+{len(issue.affectedPages) - 3} more)"
-                    example_urls = f'<div class="muted" style="margin-top: 4px;">Examples: {urls_str}</div>'
+                    # Determine appendix reference
+                    issue_title_lower = issue.title.lower()
+                    appendix_key_for_ref = None
+                    for key, appendix_cat in appendix_mapping.items():
+                        if key in issue_title_lower:
+                            appendix_key_for_ref = appendix_cat
+                            break
+                    appendix_ref = get_appendix_letter(appendix_key_for_ref) if appendix_key_for_ref else None
+                    # Show only examples (max 2 for top opportunities)
+                    example_urls_html = format_urls_with_examples(issue.affectedPages, max_examples=2, appendix_ref=appendix_ref)
+                    example_urls = f'<div style="margin-top: 8px;"><strong>Examples:</strong>{example_urls_html}</div>'
+                
+                fix_rec = get_fix_recommendation(issue.title, issue.category)
                 
                 html += f"""
-    <div class="card">
-      <strong>{idx}. {issue.title}</strong>
-      <div class="muted" style="margin-top: 4px;">{issue.description}</div>
+    <div class="opportunity-card">
+      <h4>{idx}. {issue.title} <span class="severity {issue.severity}">{issue.severity.title()}</span></h4>
+      <div class="why-it-matters">
+        <strong>Why it matters:</strong> {issue.description}
+      </div>
       {example_urls}
+      <div class="fix-recommendation">
+        <strong>Fix Recommendation:</strong> {fix_rec}
+      </div>
     </div>
 """
             html += """
   </div>
 """
         
-        # Key Stats Section
-        html += f"""
-  <div class="section">
-    <h2>Key Stats</h2>
-    <table>
-      <tr>
-        <th>Pages</th>
-        <th>Total Words</th>
-        <th>Avg Words/Page</th>
-        <th>Total Media</th>
-      </tr>
-      <tr>
-        <td>{report.stats.pagesCount}</td>
-        <td>{report.stats.totalWords:,}</td>
-        <td>{report.stats.avgWordsPerPage:.1f}</td>
-        <td>{report.stats.totalMediaItems}</td>
-      </tr>
-    </table>
-
-    <table>
-      <tr>
-        <th>Avg Load Time</th>
-        <th>Median Load Time</th>
-        <th>90th Percentile</th>
-        <th>Slow Pages</th>
-        <th>Very Slow Pages</th>
-      </tr>
-      <tr>
-        <td>{report.stats.avgLoadMs:.0f} ms</td>
-        <td>{report.stats.medianLoadMs:.0f} ms</td>
-        <td>{report.stats.p90LoadMs:.0f} ms</td>
-        <td>{report.stats.slowPagesCount}</td>
-        <td>{report.stats.verySlowPagesCount}</td>
-      </tr>
-    </table>
-  </div>
-"""
-        
-        # Category Sections
+        # First pass: Collect all URLs for appendix from all issues
         for cat in report.categories:
-            # Get summary text (first issue description or default)
-            summary_text = "Review issues below for details."
-            if cat.issues:
-                summary_text = cat.issues[0].description[:150] + "..." if len(cat.issues[0].description) > 150 else cat.issues[0].description
+            for issue in cat.issues:
+                issue_title_lower = issue.title.lower()
+                appendix_key = None
+                for key, appendix_cat in appendix_mapping.items():
+                    if key in issue_title_lower:
+                        appendix_key = appendix_cat
+                        break
+                
+                if issue.affectedPages and appendix_key:
+                    for p in issue.affectedPages:
+                        if p.url not in appendix_data.get(appendix_key, []):
+                            if appendix_key not in appendix_data:
+                                appendix_data[appendix_key] = []
+                            appendix_data[appendix_key].append(p.url)
+        
+        # Build appendix key to letter mapping based on what data we have
+        appendix_sections_order = [
+            "very_slow_pages",
+            "slow_pages",
+            "very_thin_content_pages",
+            "thin_content_pages",
+            "low_text_catalog_pages",
+            "broken_internal_links",
+            "pages_with_broken_links",
+            "error_pages",
+            "missing_h1",
+            "missing_title",
+            "missing_description",
+            "images_missing_alt",
+            "noindex_pages",
+            "no_viewport_pages",
+            "mixed_content_pages"
+        ]
+        
+        appendix_letter = ord('A')
+        for key in appendix_sections_order:
+            if len(appendix_data.get(key, [])) > 0:
+                appendix_key_to_letter[key] = chr(appendix_letter)
+                appendix_letter += 1
+        
+        # Category Sections - Reorganized
+        category_order = ["performance", "seo", "content", "structure"]
+        category_descriptions = {
+            "performance": "Page load times, image optimization, and overall site speed impact user experience and search rankings.",
+            "seo": "Technical SEO elements like titles, descriptions, headings, and indexability affect search engine visibility.",
+            "content": "Content depth, quality, and relevance determine how well pages rank and engage users.",
+            "structure": "Site navigation, URL structure, and internal linking help search engines crawl and index your site."
+        }
+        
+        # Separate errors & broken links into their own section
+        errors_and_broken_links_issues = []
+        
+        for cat in report.categories:
+            if cat.category not in category_order:
+                continue
+            
+            # Get category description
+            summary_text = category_descriptions.get(cat.category, "Review issues below for details.")
             
             html += f"""
   <div class="section">
     <h2>{cat.category.title()}</h2>
-    <div class="score-big">{cat.score}/100</div>
-    <p class="muted" style="margin-top: 8px;">
+    <p class="muted" style="margin-top: 8px; margin-bottom: 16px;">
       {summary_text}
     </p>
-    
-    <h3>Key Issues</h3>
-    <ul>
+    <div class="score-big" style="margin-bottom: 16px;">{cat.score}/100</div>
 """
-            # Show top 5 issues per category
-            for issue in cat.issues[:5]:
-                example_text = ""
+            
+            # Group issues by severity
+            high_severity = [i for i in cat.issues if i.severity == "high"]
+            medium_severity = [i for i in cat.issues if i.severity == "medium"]
+            low_severity = [i for i in cat.issues if i.severity == "low"]
+            
+            # Process issues and collect for appendix
+            all_category_issues = high_severity + medium_severity + low_severity
+            
+            for issue in all_category_issues:
+                # Determine appendix category
+                issue_title_lower = issue.title.lower()
+                appendix_key = None
+                for key, appendix_cat in appendix_mapping.items():
+                    if key in issue_title_lower:
+                        appendix_key = appendix_cat
+                        break
+                
+                # Check if this is an error/broken link issue
+                if ("broken" in issue_title_lower and "link" in issue_title_lower) or \
+                   ("not found" in issue_title_lower or "error" in issue_title_lower or "404" in issue_title_lower):
+                    errors_and_broken_links_issues.append(issue)
+                    continue  # Skip adding to main category, will add to Errors section
+                
+                # Format affected pages (max 3-4 examples)
+                affected_pages_html = ""
                 if issue.affectedPages:
-                    example_url = issue.affectedPages[0].url
-                    more_count = len(issue.affectedPages) - 1
-                    example_text = f' <span class="muted">— e.g., {example_url}' + (f', +{more_count} more' if more_count > 0 else '') + '</span>'
+                    appendix_ref = get_appendix_letter(appendix_key) if appendix_key else None
+                    affected_pages_html = format_urls_with_examples(issue.affectedPages, max_examples=3, appendix_ref=appendix_ref)
+                    if affected_pages_html:
+                        affected_pages_html = f'<div style="margin-top: 8px;"><strong>Examples:</strong>{affected_pages_html}</div>'
+                
+                fix_rec = get_fix_recommendation(issue.title, issue.category)
                 
                 html += f"""
-      <li>
-        <strong>{issue.title}</strong>{example_text}
-      </li>
+    <div class="issue-block">
+      <h3>{issue.title} <span class="severity {issue.severity}">{issue.severity.title()}</span></h3>
+      <div class="why-it-matters">
+        <strong>Why it matters:</strong> {issue.description}
+      </div>
+      {affected_pages_html}
+      <div class="fix-recommendation">
+        <strong>Fix Recommendation:</strong> {fix_rec}
+      </div>
+    </div>
 """
-            if len(cat.issues) > 5:
+            
+            html += """
+  </div>
+"""
+        
+        # Errors & Broken Links Section
+        if errors_and_broken_links_issues:
+            html += """
+  <div class="section">
+    <h2>Errors & Broken Links</h2>
+    <p class="muted" style="margin-top: 8px; margin-bottom: 16px;">
+      Broken links and error pages hurt user experience and can negatively impact SEO. Fix these issues promptly.
+    </p>
+"""
+            for issue in errors_and_broken_links_issues:
+                issue_title_lower = issue.title.lower()
+                appendix_key = None
+                for key, appendix_cat in appendix_mapping.items():
+                    if key in issue_title_lower:
+                        appendix_key = appendix_cat
+                        break
+                
+                affected_pages_html = ""
+                if issue.affectedPages:
+                    appendix_ref = get_appendix_letter(appendix_key) if appendix_key else None
+                    affected_pages_html = format_urls_with_examples(issue.affectedPages, max_examples=3, appendix_ref=appendix_ref)
+                    if affected_pages_html:
+                        affected_pages_html = f'<div style="margin-top: 8px;"><strong>Examples:</strong>{affected_pages_html}</div>'
+                
+                fix_rec = get_fix_recommendation(issue.title, issue.category)
+                
                 html += f"""
-      <li class="muted">+{len(cat.issues) - 5} more issues not shown</li>
+    <div class="issue-block">
+      <h3>{issue.title} <span class="severity {issue.severity}">{issue.severity.title()}</span></h3>
+      <div class="why-it-matters">
+        <strong>Why it matters:</strong> {issue.description}
+      </div>
+      {affected_pages_html}
+      <div class="fix-recommendation">
+        <strong>Fix Recommendation:</strong> {fix_rec}
+      </div>
+    </div>
 """
             html += """
-    </ul>
+  </div>
+"""
+        
+        # Page-Type Aware Content Section Summary Table
+        # Calculate average words per page type
+        page_type_stats = {}
+        for page in pages_index:
+            page_type = page.get("page_type", "generic")
+            words = page.get("words", 0) or 0
+            if page_type not in page_type_stats:
+                page_type_stats[page_type] = {"count": 0, "total_words": 0}
+            page_type_stats[page_type]["count"] += 1
+            page_type_stats[page_type]["total_words"] += words
+        
+        # Add content section summary if we have content issues
+        content_category = next((c for c in report.categories if c.category == "content"), None)
+        if content_category and content_category.issues:
+            html += """
+  <div class="section">
+    <h2>Content Analysis by Page Type</h2>
+    <p class="muted" style="margin-top: 8px; margin-bottom: 16px;">
+      Content requirements vary by page type. Catalog and product pages naturally have less text than articles.
+    </p>
+    <table class="page-type-table">
+      <tr>
+        <th>Page Type</th>
+        <th>Count</th>
+        <th>Avg Words</th>
+        <th>Notes</th>
+      </tr>
+"""
+            for page_type, stats in sorted(page_type_stats.items(), key=lambda x: x[1]["count"], reverse=True):
+                count = stats["count"]
+                avg_words = stats["total_words"] / count if count > 0 else 0
+                page_type_label = page_type.replace("_", " ").title()
+                
+                # Generate notes based on page type and word count
+                if page_type == "article":
+                    if avg_words >= 600:
+                        notes = "Good content depth"
+                    elif avg_words >= 300:
+                        notes = "Adequate content depth"
+                    else:
+                        notes = "Could use more content"
+                elif page_type in ["catalog", "product"]:
+                    if avg_words < 50:
+                        notes = "Low text (expected for catalog/product pages)"
+                    else:
+                        notes = "Good descriptions"
+                elif page_type == "landing":
+                    if avg_words >= 150:
+                        notes = "Good landing page content"
+                    else:
+                        notes = "Could benefit from more copy"
+                else:
+                    if avg_words >= 200:
+                        notes = "Good content depth"
+                    else:
+                        notes = "Could use more content"
+                
+                html += f"""
+      <tr>
+        <td>{page_type_label}</td>
+        <td>{count}</td>
+        <td>{avg_words:.0f}</td>
+        <td>{notes}</td>
+      </tr>
+"""
+            html += """
+    </table>
   </div>
 """
         
@@ -614,7 +1059,7 @@ async def export_insight_report_pdf(
     </p>
     
     <table>
-      <tr style="background: var(--neutral-dark); color: var(--brand-text);">
+      <tr style="background: #F4F5F7; color: #0D0F12;">
         <th style="padding: 8px; text-align:left;">Metric</th>
         <th style="padding: 8px;">Your Site</th>
         <th style="padding: 8px;">Competitor</th>
@@ -660,7 +1105,7 @@ async def export_insight_report_pdf(
   <div class="section">
     <h2>{category.title()} Comparison</h2>
     <table>
-      <tr style="background: var(--neutral-dark); color: var(--brand-text);">
+      <tr style="background: #F4F5F7; color: #0D0F12;">
         <th style="padding: 8px; text-align:left;">Metric</th>
         <th style="padding: 8px;">Your Site</th>
         <th style="padding: 8px;">Competitor</th>
@@ -745,6 +1190,59 @@ async def export_insight_report_pdf(
   </div>
 """
         
+        # Build Appendix Section
+        # Define appendix sections in order (must match appendix_sections_order)
+        appendix_sections_titles = {
+            "very_slow_pages": "Very Slow Pages",
+            "slow_pages": "Slow Pages",
+            "very_thin_content_pages": "Very Thin Content (Important Pages)",
+            "thin_content_pages": "Thin Content (Important Pages)",
+            "low_text_catalog_pages": "Low-Text Catalog/Product Pages (Optional)",
+            "broken_internal_links": "Broken Internal Links",
+            "pages_with_broken_links": "Pages with Broken Links",
+            "error_pages": "404 / Error Pages",
+            "missing_h1": "Missing H1 Tags",
+            "missing_title": "Missing Page Titles",
+            "missing_description": "Missing Meta Descriptions",
+            "images_missing_alt": "Images Missing Alt Text",
+            "noindex_pages": "Noindex Pages",
+            "no_viewport_pages": "Pages Without Viewport",
+            "mixed_content_pages": "Mixed Content Pages"
+        }
+        
+        # Use the same order as appendix_sections_order and only include sections with data
+        active_appendix_sections = [(key, appendix_sections_titles[key]) for key in appendix_sections_order if len(appendix_data.get(key, [])) > 0]
+        
+        if active_appendix_sections:
+            html += """
+  <div class="appendix-section">
+    <h1>Appendix — Full URL Listings</h1>
+    <p class="muted">Complete lists of pages referenced in the main report.</p>
+"""
+            
+            for key, title in active_appendix_sections:
+                urls = appendix_data[key]
+                # Deduplicate
+                urls = list(dict.fromkeys(urls))  # Preserves order while removing duplicates
+                
+                # Get the letter from the mapping
+                letter = appendix_key_to_letter.get(key, '?')
+                
+                html += f"""
+    <div class="appendix-list">
+      <h2>Appendix {letter} — {title}</h2>
+      <ul>
+"""
+                for url in urls:
+                    html += f'        <li>{url}</li>\n'
+                html += """      </ul>
+    </div>
+"""
+            
+            html += """
+  </div>
+"""
+        
         html += """
 </body>
 </html>"""
@@ -763,6 +1261,9 @@ async def export_insight_report_pdf(
                 )
             raise HTTPException(status_code=500, detail=f"PDF generation failed: {error_msg}")
         except Exception as e:
+            import traceback
+            error_detail = f"Error generating PDF: {str(e)}\n{traceback.format_exc()}"
+            print(error_detail)  # Log to console for debugging
             raise HTTPException(status_code=500, detail=f"Error generating PDF: {str(e)}")
         
         buffer = io.BytesIO(pdf_bytes)
@@ -1268,12 +1769,13 @@ def build_comparison_pdf_html(report: ComparisonReport) -> str:
       margin-bottom: 16px;
     }}
     h2 {{
-      border-left: 6px solid var(--accent-alt);
+      border-left: 6px solid #A8C5DA;
       padding-left: 14px;
-      margin-top: 40px;
+      margin-top: 36px;
       margin-bottom: 12px;
       font-size: 20px;
       font-weight: bold;
+      font-family: Inter, sans-serif;
       color: #0D0F12;
     }}
     h3 {{
@@ -1299,21 +1801,22 @@ def build_comparison_pdf_html(report: ComparisonReport) -> str:
       font-size: 12px;
     }}
     th, td {{
-      padding: 8px;
+      padding: 7px;
       text-align: left;
-      border: 1px solid rgba(31, 35, 40, 0.15);
+      border-bottom: 1px solid #E5E7EB;
       color: #0D0F12;
     }}
     th {{
-      background: var(--neutral-dark);
-      color: var(--brand-text);
+      background: #F4F5F7;
+      color: #0D0F12;
       font-weight: 700;
+      border-bottom: 2px solid #E5E7EB;
     }}
     tr:nth-child(even) {{
       background: #F9FAFB;
     }}
     tr:nth-child(odd) {{
-      background: transparent;
+      background: #FFFFFF;
     }}
     .small {{
       font-size: 12px;
@@ -1326,28 +1829,28 @@ def build_comparison_pdf_html(report: ComparisonReport) -> str:
     .badge-good {{
       display: inline-block;
       padding: 4px 8px;
-      border-radius: 4px;
+      border-radius: 9999px;
       font-size: 10px;
       color: white;
-      background: var(--good);
+      background: #00C853;
       font-weight: 600;
     }}
     .badge-bad {{
       display: inline-block;
       padding: 4px 8px;
-      border-radius: 4px;
+      border-radius: 9999px;
       font-size: 10px;
       color: white;
-      background: var(--bad);
+      background: #D32F2F;
       font-weight: 600;
     }}
     .badge-neutral {{
       display: inline-block;
       padding: 4px 8px;
-      border-radius: 4px;
+      border-radius: 9999px;
       font-size: 10px;
       color: #0D0F12;
-      background: var(--accent-alt);
+      background: #A8C5DA;
       font-weight: 600;
     }}
     pre {{
@@ -1372,9 +1875,9 @@ def build_comparison_pdf_html(report: ComparisonReport) -> str:
 </head>
 <body>
   <!-- Branded Header -->
-  <div style="background: #0D0F12; padding: 32px 0; text-align: center; border-bottom: 3px solid #4A90E2;">
-    <img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI4MDAiIGhlaWdodD0iMjAwIiB2aWV3Qm94PSIwIDAgODAwIDIwMCI+CiAgPHJlY3Qgd2lkdGg9IjgwMCIgaGVpZ2h0PSIyMDAiIGZpbGw9IiMwRDBGMTIiIC8+CiAgPHRleHQgeD0iNTAlIiB5PSI1MCUiIGRvbWluYW50LWJhc2VsaW5lPSJtaWRkbGUiIHRleHQtYW5jaG9yPSJtaWRkbGUiCiAgICAgICAgZm9udC1mYW1pbHk9IkludGVyLCBzeXN0ZW0tdWksIC1hcHBsZS1zeXN0ZW0sIEJsaW5rTWFjU3lzdGVtRm9udCwgJ1NlZ29lIFVJJywgc2Fucy1zZXJpZiIKICAgICAgICBmb250LXNpemU9IjY0IiBmaWxsPSIjRTZFQkYwIiBsZXR0ZXItc3BhY2luZz0iNiI+CiAgICBOT1ZJQU4gU1RVRElPUwogIDwvdGV4dD4KPC9zdmc+Cg==" alt="NOVIAN STUDIOS" style="width: 65%; max-width: 900px;" />
-    <div style="margin-top: 12px; font-family: Inter, sans-serif; font-size: 14px; color: #A8C5DA; letter-spacing: 0.12em;">WEBSITE INSIGHT REPORT</div>
+  <div style="background: #FFFFFF; padding: 32px 0; text-align: center; border-bottom: 3px solid #4A90E2; width: 100%;">
+    <img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI4MDAiIGhlaWdodD0iMjAwIiB2aWV3Qm94PSIwIDAgODAwIDIwMCI+CiAgPHJlY3Qgd2lkdGg9IjgwMCIgaGVpZ2h0PSIyMDAiIGZpbGw9IiNGRkZGRkYiIC8+CiAgPHRleHQgeD0iNTAlIiB5PSI1MCUiIGRvbWluYW50LWJhc2VsaW5lPSJtaWRkbGUiIHRleHQtYW5jaG9yPSJtaWRkbGUiCiAgICAgICAgZm9udC1mYW1pbHk9IkludGVyLCBzeXN0ZW0tdWksIC1hcHBsZS1zeXN0ZW0sIEJsaW5rTWFjU3lzdGVtRm9udCwgJ1NlZ29lIFVJJywgc2Fucy1zZXJpZiIKICAgICAgICBmb250LXNpemU9IjY0IiBmaWxsPSIjMEQwRjEyIiBsZXR0ZXItc3BhY2luZz0iNiI+CiAgICBOT1ZJQU4gU1RVRElPUwogIDwvdGV4dD4KPC9zdmc+Cg==" alt="NOVIAN STUDIOS" style="display: block; margin: 0 auto; max-width: 100%;" />
+    <div style="margin-top: 12px; font-family: Inter, sans-serif; font-size: 14px; color: #4A90E2; letter-spacing: 0.12em;">Website Insight Report</div>
   </div>
   
 """
@@ -1399,7 +1902,7 @@ def build_comparison_pdf_html(report: ComparisonReport) -> str:
       <h2>Competitive Overview</h2>
       <p class="muted">Side-by-side comparison of key metrics.</p>
       <table>
-        <tr style="background: var(--neutral-dark); color: var(--brand-text);">
+        <tr style="background: #F4F5F7; color: #0D0F12;">
           <th style="padding: 8px; text-align:left;">Metric</th>
           <th style="padding: 8px;">Your Site</th>
           <th style="padding: 8px;">{competitor_name}</th>
@@ -1439,7 +1942,7 @@ def build_comparison_pdf_html(report: ComparisonReport) -> str:
       <h2>Performance Comparison</h2>
       <p class="muted">Load times and performance metrics.</p>
       <table>
-        <tr style="background: var(--neutral-dark); color: var(--brand-text);">
+        <tr style="background: #F4F5F7; color: #0D0F12;">
           <th style="padding: 8px; text-align:left;">Metric</th>
           <th style="padding: 8px;">Your Site</th>
           <th style="padding: 8px;">{competitor_name}</th>
@@ -1468,7 +1971,7 @@ def build_comparison_pdf_html(report: ComparisonReport) -> str:
       <h2>SEO Comparison</h2>
       <p class="muted">On-page SEO and technical SEO metrics.</p>
       <table>
-        <tr style="background: var(--neutral-dark); color: var(--brand-text);">
+        <tr style="background: #F4F5F7; color: #0D0F12;">
           <th style="padding: 8px; text-align:left;">Metric</th>
           <th style="padding: 8px;">Your Site</th>
           <th style="padding: 8px;">{competitor_name}</th>
@@ -1497,7 +2000,7 @@ def build_comparison_pdf_html(report: ComparisonReport) -> str:
       <h2>Content & Depth Comparison</h2>
       <p class="muted">Content quality and depth metrics.</p>
       <table>
-        <tr style="background: var(--neutral-dark); color: var(--brand-text);">
+        <tr style="background: #F4F5F7; color: #0D0F12;">
           <th style="padding: 8px; text-align:left;">Metric</th>
           <th style="padding: 8px;">Your Site</th>
           <th style="padding: 8px;">{competitor_name}</th>
@@ -1526,7 +2029,7 @@ def build_comparison_pdf_html(report: ComparisonReport) -> str:
       <h2>Structure & Crawlability Comparison</h2>
       <p class="muted">Navigation structure and bot crawlability.</p>
       <table>
-        <tr style="background: var(--neutral-dark); color: var(--brand-text);">
+        <tr style="background: #F4F5F7; color: #0D0F12;">
           <th style="padding: 8px; text-align:left;">Metric</th>
           <th style="padding: 8px;">Your Site</th>
           <th style="padding: 8px;">{competitor_name}</th>

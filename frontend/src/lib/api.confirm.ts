@@ -115,6 +115,18 @@ export const confirmationApi = {
       method: 'POST'
     });
     return handleResponse<SeedResponse>(response);
+  },
+
+  /**
+   * Update page type for a specific page
+   */
+  async updatePageType(runId: string, pageId: string, pageType: string): Promise<void> {
+    const response = await fetch(`${API_BASE}/${runId}/pages/${pageId}/type`, {
+      method: 'PATCH',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({ page_type: pageType })
+    });
+    await handleResponse(response);
   }
 };
 

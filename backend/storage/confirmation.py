@@ -53,6 +53,8 @@ class ConfirmationStore:
     def extract_site_data(self, html_content: str, base_url: str):
         """Extract and save site-level navigation and footer data."""
         from bs4 import BeautifulSoup
+        import aiohttp
+        import asyncio
         
         soup = BeautifulSoup(html_content, 'html.parser')
         
@@ -62,16 +64,68 @@ class ConfirmationStore:
         # Extract footer
         footer = extract_footer(soup, base_url)
         
+        # Detect robots.txt and sitemap
+        robots_present, sitemap_present = self._detect_robots_and_sitemap(base_url)
+        
         # Update site.json
         site_data = {
             "baseUrl": base_url,
             "nav": nav,
             "footer": footer,
-            "brand": self._extract_brand_info(soup, base_url)
+            "brand": self._extract_brand_info(soup, base_url),
+            "robots_present": robots_present,
+            "sitemap_present": sitemap_present
         }
         
         with open(self.site_file, 'w') as f:
             json.dump(site_data, f, indent=2)
+    
+    def _detect_robots_and_sitemap(self, base_url: str) -> tuple[bool, bool]:
+        """Detect if robots.txt and sitemap exist for the site."""
+        import urllib.request
+        import urllib.error
+        from urllib.parse import urlparse
+        
+        robots_present = False
+        sitemap_present = False
+        
+        try:
+            parsed = urlparse(base_url)
+            robots_url = f"{parsed.scheme}://{parsed.netloc}/robots.txt"
+            sitemap_url = f"{parsed.scheme}://{parsed.netloc}/sitemap.xml"
+            
+            # Check robots.txt
+            try:
+                req = urllib.request.Request(robots_url)
+                req.add_header('User-Agent', 'SiteInsite/1.0')
+                with urllib.request.urlopen(req, timeout=5) as resp:
+                    if resp.status == 200:
+                        robots_present = True
+                        # Parse robots.txt for sitemap references
+                        content = resp.read().decode('utf-8', errors='ignore')
+                        for line in content.split('\n'):
+                            line = line.strip()
+                            if line.startswith('Sitemap:'):
+                                sitemap_present = True
+                                break
+            except (urllib.error.URLError, urllib.error.HTTPError, Exception):
+                pass
+            
+            # Check sitemap.xml directly if not found in robots.txt
+            if not sitemap_present:
+                try:
+                    req = urllib.request.Request(sitemap_url)
+                    req.add_header('User-Agent', 'SiteInsite/1.0')
+                    with urllib.request.urlopen(req, timeout=5) as resp:
+                        if resp.status == 200:
+                            sitemap_present = True
+                except (urllib.error.URLError, urllib.error.HTTPError, Exception):
+                    pass
+                    
+        except Exception:
+            pass
+        
+        return robots_present, sitemap_present
     
     def add_page_to_index(self, page_data: Dict[str, Any]):
         """Add page to pages_index.json."""
@@ -94,7 +148,8 @@ class ConfirmationStore:
                     "words": page_data.get("words", 0),
                     "mediaCount": page_data.get("mediaCount", 0),
                     "loadTimeMs": page_data.get("loadTimeMs"),
-                    "contentLengthBytes": page_data.get("contentLengthBytes")
+                    "contentLengthBytes": page_data.get("contentLengthBytes"),
+                    "page_type": page_data.get("page_type")  # Preserve existing or add new
                 })
             else:
                 # Add new page
@@ -108,7 +163,8 @@ class ConfirmationStore:
                     "words": page_data.get("words", 0),
                     "mediaCount": page_data.get("mediaCount", 0),
                     "loadTimeMs": page_data.get("loadTimeMs"),
-                    "contentLengthBytes": page_data.get("contentLengthBytes")
+                    "contentLengthBytes": page_data.get("contentLengthBytes"),
+                    "page_type": page_data.get("page_type", "generic")
                 })
             
             with open(self.pages_index_file, 'w') as f:

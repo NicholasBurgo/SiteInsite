@@ -390,7 +390,7 @@ def build_insight_report(run_store: RunStore, run_id: str) -> InsightReport:
     total_media_items = sum(media_counts)
     avg_media_per_page = total_media_items / pages_count if pages_count > 0 else 0.0
     
-    # Build stats
+    # Build stats (bad_pages_count and broken_internal_links_count will be updated after analysis)
     stats = InsightStats(
         pagesCount=pages_count,
         totalWords=total_words,
@@ -405,7 +405,9 @@ def build_insight_report(run_store: RunStore, run_id: str) -> InsightReport:
         slowPagesCount=len(slow_pages),
         verySlowPagesCount=len(very_slow_pages),
         avgPageSizeKb=round(avg_page_size_kb, 2),
-        maxPageSizeKb=round(max_page_size_kb, 2)
+        maxPageSizeKb=round(max_page_size_kb, 2),
+        badPagesCount=0,  # Will be updated after analysis
+        brokenInternalLinksCount=0  # Will be updated after analysis
     )
     
     # Analyze pages for SEO/content issues
@@ -417,10 +419,19 @@ def build_insight_report(run_store: RunStore, run_id: str) -> InsightReport:
     pages_missing_title = []
     pages_missing_description = []
     pages_missing_h1 = []
-    pages_thin_content = []  # < 150 words with word count
-    pages_very_thin_content = []  # < 50 words with word count
+    pages_thin_content = []  # Page-type aware thin content (important pages only)
+    pages_very_thin_content = []  # Page-type aware very thin content (important pages only)
     pages_with_broken_links = []
     images_missing_alt = []
+    # Separate tracking for catalog/product pages with low text (soft issue)
+    low_text_catalog_pages = []
+    
+    # Bad pages tracking (404/5xx)
+    bad_pages = []  # 404, 410, 5xx pages
+    
+    # Broken internal links tracking
+    broken_internal_links_global = []  # Global list of all broken internal links
+    pages_with_broken_internal_links = []  # Pages that contain broken internal links
     
     # New checks: indexability, mobile, HTTPS, images
     noindex_pages = []
@@ -432,6 +443,24 @@ def build_insight_report(run_store: RunStore, run_id: str) -> InsightReport:
     
     # Create a mapping of URL to page data from pages_index for quick lookup
     pages_index_map = {p.get("url", ""): p for p in pages_index}
+    
+    # Create status_by_url mapping for broken link detection
+    status_by_url = {}
+    for page in pages_index:
+        url = page.get("url", "")
+        status = page.get("status") or page.get("status_code")
+        if url and status:
+            status_by_url[url] = status
+    
+    # Also check pages.json for status codes
+    if pages_data:
+        for page_detail in pages_data:
+            if isinstance(page_detail, dict):
+                summary = page_detail.get("summary", {})
+                url = summary.get("url", "")
+                status = summary.get("status") or summary.get("status_code")
+                if url and status:
+                    status_by_url[url] = status
     
     # Create a mapping of URL to meta data from pages.json for meta tag checks
     pages_meta_map = {}
@@ -464,6 +493,47 @@ def build_insight_report(run_store: RunStore, run_id: str) -> InsightReport:
                 internal_links = page_data.get("links", {}).get("internal", [])
                 external_links = page_data.get("links", {}).get("external", [])
                 
+                # Check if this page itself is a bad page (404/5xx)
+                page_index_entry = pages_index_map.get(url, {})
+                status = page_index_entry.get("status") or page_index_entry.get("status_code") or page_data.get("status")
+                if status:
+                    if status == 404 or status == 410 or (status >= 500 and status < 600):
+                        bad_pages.append({
+                            "url": url,
+                            "status_code": status
+                        })
+                
+                # Check internal links for broken destinations
+                # Only mark as broken if we actually crawled the link and got a bad status
+                # Don't mark as broken just because it wasn't crawled (might be outside crawl scope)
+                broken_internal_links_on_page = []
+                if internal_links:
+                    for link in internal_links:
+                        link_url = link.get("href", "") if isinstance(link, dict) else str(link)
+                        if not link_url:
+                            continue
+                        
+                        # Check if link destination was crawled and has a bad status
+                        link_status = status_by_url.get(link_url)
+                        if link_status is not None:
+                            # Only mark as broken if we actually got a bad status code
+                            if link_status in [404, 410] or (link_status >= 500 and link_status < 600):
+                                broken_internal_links_on_page.append({
+                                    "href": link_url,
+                                    "status": link_status
+                                })
+                        # If link_status is None, the link wasn't crawled - don't mark as broken
+                        # (it might be outside crawl scope, depth limit, or just not discovered)
+                
+                # Track pages with broken internal links
+                if broken_internal_links_on_page:
+                    pages_with_broken_internal_links.append({
+                        "url": url,
+                        "broken_links": broken_internal_links_on_page,
+                        "broken_count": len(broken_internal_links_on_page)
+                    })
+                    broken_internal_links_global.extend(broken_internal_links_on_page)
+                
                 # Check for missing title
                 if not title or title.strip() == "":
                     pages_missing_title.append({"url": url, "note": None})
@@ -477,11 +547,55 @@ def build_insight_report(run_store: RunStore, run_id: str) -> InsightReport:
                 if not h1_found:
                     pages_missing_h1.append({"url": url, "note": None})
                 
-                # Check for thin content
-                if word_count < 50:
-                    pages_very_thin_content.append({"url": url, "word_count": word_count})
-                elif word_count < 150:
-                    pages_thin_content.append({"url": url, "word_count": word_count})
+                # Get page_type from pages_index or page data
+                page_index_entry = pages_index_map.get(url, {})
+                page_type = page_index_entry.get("page_type") or page_data.get("stats", {}).get("page_type") or "generic"
+                
+                # Page-type aware thin content detection
+                # Important content pages: article, landing, generic
+                # Supporting pages: catalog, product, media_gallery, contact, utility
+                is_important_content_page = page_type in ["article", "landing", "generic"]
+                is_supporting_page = page_type in ["catalog", "product", "media_gallery", "contact", "utility"]
+                
+                # Skip bad pages (404/5xx) from content scoring
+                status = page_index_entry.get("status") or page_index_entry.get("status_code") or page_data.get("status")
+                is_bad_page = status and (status == 404 or status == 410 or (status >= 500 and status < 600))
+                
+                if not is_bad_page:
+                    if is_important_content_page:
+                        # Apply stricter thresholds for important content pages
+                        if page_type == "article":
+                            very_thin = word_count < 300
+                            thin = word_count < 600
+                        elif page_type == "landing":
+                            very_thin = word_count < 80
+                            thin = word_count < 150
+                        else:  # generic
+                            very_thin = word_count < 50
+                            thin = word_count < 150
+                        
+                        if very_thin:
+                            pages_very_thin_content.append({
+                                "url": url, 
+                                "word_count": word_count,
+                                "page_type": page_type
+                            })
+                        elif thin:
+                            pages_thin_content.append({
+                                "url": url, 
+                                "word_count": word_count,
+                                "page_type": page_type
+                            })
+                    elif is_supporting_page:
+                        # Only flag if literally empty or almost empty for supporting pages
+                        if word_count < 10:
+                            # Track as low-text catalog/product page (soft issue)
+                            if page_type in ["catalog", "product"]:
+                                low_text_catalog_pages.append({
+                                    "url": url,
+                                    "word_count": word_count,
+                                    "page_type": page_type
+                                })
                 
                 # Check for broken links
                 if broken_links:
@@ -672,16 +786,51 @@ def build_insight_report(run_store: RunStore, run_id: str) -> InsightReport:
             affectedPages=[]
         ))
     
-    # Build content issues
+    # Calculate important pages metrics for content issues (needed before building issues)
+    important_content_pages_for_issues = [
+        p for p in pages_index 
+        if p.get("page_type") in ["article", "landing", "generic"] or not p.get("page_type")
+    ]
+    important_pages_count_for_issues = len(important_content_pages_for_issues) if important_content_pages_for_issues else pages_count
+    
+    # Calculate avg words for important pages only
+    important_word_counts_for_issues = [
+        p.get("words", 0) for p in important_content_pages_for_issues 
+        if isinstance(p.get("words"), (int, float))
+    ]
+    avg_words_important_pages = (
+        sum(important_word_counts_for_issues) / len(important_word_counts_for_issues) 
+        if important_word_counts_for_issues else avg_words_per_page
+    )
+    
+    # Build content issues with page-type aware messaging
     if pages_very_thin_content:
+        # Group by page type for better messaging
+        article_pages = [p for p in pages_very_thin_content if p.get("page_type") == "article"]
+        landing_pages = [p for p in pages_very_thin_content if p.get("page_type") == "landing"]
+        generic_pages = [p for p in pages_very_thin_content if p.get("page_type") == "generic" or not p.get("page_type")]
+        
+        page_type_summary = []
+        if article_pages:
+            page_type_summary.append(f"{len(article_pages)} article")
+        if landing_pages:
+            page_type_summary.append(f"{len(landing_pages)} landing")
+        if generic_pages:
+            page_type_summary.append(f"{len(generic_pages)} generic")
+        
+        type_label = ", ".join(page_type_summary) if page_type_summary else "important"
+        
         content_issues.append(InsightIssue(
             id=str(uuid.uuid4()),
             category="content",
             severity="high",
-            title="Very Thin Content Pages",
-            description=f"{len(pages_very_thin_content)} pages have less than 50 words.",
+            title="Very Thin Content (Important Pages)",
+            description=f"{len(pages_very_thin_content)} {type_label} page(s) have too little text for SEO.",
             affectedPages=[
-                InsightAffectedPage(url=p["url"], note=f"{p.get('word_count', 0)} words")
+                InsightAffectedPage(
+                    url=p["url"], 
+                    note=f"{p.get('word_count', 0)} words ({p.get('page_type', 'generic')})"
+                )
                 for p in pages_very_thin_content
             ]
         ))
@@ -691,21 +840,41 @@ def build_insight_report(run_store: RunStore, run_id: str) -> InsightReport:
             id=str(uuid.uuid4()),
             category="content",
             severity="medium",
-            title="Thin Content Pages",
-            description=f"{len(pages_thin_content)} pages have less than 150 words.",
+            title="Thin Content (Important Pages)",
+            description=f"{len(pages_thin_content)} important page(s) could benefit from more content.",
             affectedPages=[
-                InsightAffectedPage(url=p["url"], note=f"{p.get('word_count', 0)} words")
+                InsightAffectedPage(
+                    url=p["url"], 
+                    note=f"{p.get('word_count', 0)} words ({p.get('page_type', 'generic')})"
+                )
                 for p in pages_thin_content
             ]
         ))
     
-    if avg_words_per_page < 200:
+    # Soft issue for catalog/product pages with low text (optional)
+    if low_text_catalog_pages:
         content_issues.append(InsightIssue(
             id=str(uuid.uuid4()),
             category="content",
             severity="low",
-            title="Low Average Word Count",
-            description=f"Average words per page ({avg_words_per_page:.0f}) is below recommended 200 words.",
+            title="Low-text Catalog/Product Pages (Optional)",
+            description=f"{len(low_text_catalog_pages)} catalog/product page(s) have minimal descriptions. Adding more copy can help SEO but is optional.",
+            affectedPages=[
+                InsightAffectedPage(
+                    url=p["url"],
+                    note=f"{p.get('word_count', 0)} words ({p.get('page_type', 'catalog')})"
+                )
+                for p in low_text_catalog_pages  # Show all pages
+            ]
+        ))
+    
+    if avg_words_important_pages < 200 and important_pages_count_for_issues > 0:
+        content_issues.append(InsightIssue(
+            id=str(uuid.uuid4()),
+            category="content",
+            severity="low",
+            title="Low Average Word Count (Important Pages)",
+            description=f"Average words per important page ({avg_words_important_pages:.0f}) is below recommended 200 words.",
             affectedPages=[]
         ))
     
@@ -825,19 +994,14 @@ def build_insight_report(run_store: RunStore, run_id: str) -> InsightReport:
             affectedPages=[]
         ))
     
-    # Check URL depth (count path segments) and error status pages
+    # Check URL depth (count path segments)
     deep_urls = []
-    error_status_pages = []
     for page in pages_index:
         path = page.get("path", "")
         url = page.get("url", "")
-        status = page.get("status") or page.get("status_code")
         
         if path and path.count("/") > 4:  # More than 4 segments
             deep_urls.append({"url": url, "depth": path.count("/")})
-        
-        if status and status >= 400:
-            error_status_pages.append({"url": url, "status": status})
     
     if deep_urls and len(deep_urls) > pages_count * 0.2:  # More than 20% of pages
         structure_issues.append(InsightIssue(
@@ -852,18 +1016,7 @@ def build_insight_report(run_store: RunStore, run_id: str) -> InsightReport:
             ]
         ))
     
-    if error_status_pages:
-        structure_issues.append(InsightIssue(
-            id=str(uuid.uuid4()),
-            category="structure",
-            severity="high",
-            title="Error Pages (4xx/5xx)",
-            description=f"{len(error_status_pages)} pages returned 4xx/5xx status codes.",
-            affectedPages=[
-                InsightAffectedPage(url=p["url"], note=str(p.get("status", "")))
-                for p in error_status_pages
-            ]
-        ))
+    # Note: Error pages (404/410/5xx) are handled below via bad_pages to avoid duplicates
     
     # NEW: Structure - HTTPS & mobile issues
     if base_url and base_url.startswith("http://"):
@@ -901,6 +1054,56 @@ def build_insight_report(run_store: RunStore, run_id: str) -> InsightReport:
                 for p in no_viewport_pages
             ]
         ))
+    
+    # Add issues for broken internal links
+    # Only includes links that were actually crawled and returned 404/410/5xx
+    if pages_with_broken_internal_links:
+        total_broken_links = len(broken_internal_links_global)
+        structure_issues.append(InsightIssue(
+            id=str(uuid.uuid4()),
+            category="structure",
+            severity="high" if total_broken_links > 10 else "medium",
+            title="Broken Internal Links",
+            description=f"{len(pages_with_broken_internal_links)} pages contain {total_broken_links} broken internal link(s) (returned 404, 410, or server errors).",
+            affectedPages=[
+                InsightAffectedPage(
+                    url=p["url"],
+                    note=f"{p.get('broken_count', 0)} broken link(s)"
+                )
+                for p in pages_with_broken_internal_links  # Show all pages
+            ]
+        ))
+    
+    # Add issues for bad pages (404/5xx)
+    if bad_pages:
+        # Group by status code for better messaging
+        status_404 = [p for p in bad_pages if p.get("status_code") == 404]
+        status_410 = [p for p in bad_pages if p.get("status_code") == 410]
+        status_5xx = [p for p in bad_pages if p.get("status_code") and p.get("status_code") >= 500]
+        
+        if status_404 or status_410 or status_5xx:
+            status_summary = []
+            if status_404:
+                status_summary.append(f"{len(status_404)} 404")
+            if status_410:
+                status_summary.append(f"{len(status_410)} 410")
+            if status_5xx:
+                status_summary.append(f"{len(status_5xx)} 5xx")
+            
+            structure_issues.append(InsightIssue(
+                id=str(uuid.uuid4()),
+                category="structure",
+                severity="high",
+                title="Not Found / Error Pages Crawled",
+                description=f"{len(bad_pages)} URL(s) returned error responses ({', '.join(status_summary)}).",
+                affectedPages=[
+                    InsightAffectedPage(
+                        url=p["url"],
+                        note=f"Status {p.get('status_code')}"
+                    )
+                    for p in bad_pages  # Show all pages
+                ]
+            ))
     
     # Compute category scores (0-100) - stricter penalties so 100/100 is rare
     performance_score = 100
@@ -980,26 +1183,47 @@ def build_insight_report(run_store: RunStore, run_id: str) -> InsightReport:
     
     seo_score = max(0, min(100, seo_score))
     
-    # Content scoring with stricter penalties
+    # Content scoring with page-type aware penalties
+    # Only penalize based on important content pages
+    important_content_pages = [
+        p for p in pages_index 
+        if p.get("page_type") in ["article", "landing", "generic"] or not p.get("page_type")
+    ]
+    important_pages_count = len(important_content_pages) if important_content_pages else pages_count
+    
+    # Calculate avg words for important pages only
+    important_word_counts = [
+        p.get("words", 0) for p in important_content_pages 
+        if isinstance(p.get("words"), (int, float))
+    ]
+    avg_words_important_pages = (
+        sum(important_word_counts) / len(important_word_counts) 
+        if important_word_counts else avg_words_per_page
+    )
+    
+    # Initialize content_score
     content_score = 100
     
-    thin_very_ratio = len(pages_very_thin_content) / pages_count if pages_count else 0
-    thin_ratio = len(pages_thin_content) / pages_count if pages_count else 0
-    
-    if thin_very_ratio > 0.1:
-        content_score -= 10
-    if thin_very_ratio > 0.3:
-        content_score -= 10
-    
-    if thin_ratio > 0.2:
-        content_score -= 5
-    if thin_ratio > 0.4:
-        content_score -= 10
-    
-    if avg_words_per_page < 200:
-        content_score -= 5
-    if avg_words_per_page < 100:
-        content_score -= 10
+    # Only penalize based on important content pages
+    if important_pages_count > 0:
+        thin_very_ratio = len(pages_very_thin_content) / important_pages_count
+        thin_ratio = len(pages_thin_content) / important_pages_count
+        
+        if thin_very_ratio > 0.1:
+            content_score -= 10
+        if thin_very_ratio > 0.3:
+            content_score -= 10
+        
+        if thin_ratio > 0.2:
+            content_score -= 5
+        if thin_ratio > 0.4:
+            content_score -= 10
+        
+        # Use important pages average for scoring
+        if avg_words_important_pages < 200:
+            content_score -= 5
+        if avg_words_important_pages < 100:
+            content_score -= 10
     
     content_score = max(0, min(100, content_score))
     
@@ -1012,10 +1236,11 @@ def build_insight_report(run_store: RunStore, run_id: str) -> InsightReport:
     if not footer_contact.get("email") and not footer_contact.get("phone") and not footer_socials:
         structure_score -= 10
     
-    error_status_pages_count = len(error_status_pages)
-    if error_status_pages_count > 0:
+    # Penalize error pages (404/410/5xx)
+    bad_pages_count = len(bad_pages)
+    if bad_pages_count > 0:
         structure_score -= 5
-    if error_status_pages_count > 5:
+    if bad_pages_count > 5:
         structure_score -= 10
     
     if deep_urls and len(deep_urls) > 0:
@@ -1083,6 +1308,10 @@ def build_insight_report(run_store: RunStore, run_id: str) -> InsightReport:
     
     # Overall score
     overall_score = round((performance_score + seo_score + content_score + structure_score) / 4)
+    
+    # Update stats with bad pages and broken links counts
+    stats.badPagesCount = len(bad_pages)
+    stats.brokenInternalLinksCount = len(broken_internal_links_global)
     
     return InsightReport(
         runId=run_id,
