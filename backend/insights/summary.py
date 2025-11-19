@@ -355,6 +355,11 @@ def build_insight_report(run_store: RunStore, run_id: str) -> InsightReport:
     
     # Also check meta.json pageLoad data if available
     page_load_data = meta_data.get("pageLoad", {})
+    performance_summary = page_load_data.get("summary", {})
+    performance_stats = performance_summary.get("performance_stats", {})
+    performance_consistency = performance_summary.get("performance_consistency", "unknown")
+    consistency_note = performance_summary.get("consistency_note", "")
+    
     if page_load_data:
         page_load_pages = page_load_data.get("pages", [])
         for page in page_load_pages:
@@ -373,10 +378,23 @@ def build_insight_report(run_store: RunStore, run_id: str) -> InsightReport:
     if pages_count == 0:
         pages_count = 1  # Avoid division by zero
     
-    avg_load_ms = sum(load_times) / len(load_times) if load_times else 0.0
-    median_load_ms = median(load_times) if load_times else 0.0
-    p90_load_ms = percentile(load_times, 90) if load_times else 0.0
-    p95_load_ms = percentile(load_times, 95) if load_times else 0.0
+    # Use performance_stats from meta.json if available, otherwise compute from load_times
+    if performance_stats and performance_stats.get("sample_count", 0) > 0:
+        avg_load_ms = performance_stats.get("average", 0.0)
+        median_load_ms = performance_stats.get("median", 0.0)
+        p90_load_ms = performance_stats.get("p90", 0.0) or 0.0
+        p75_load_ms = performance_stats.get("p75", 0.0) or 0.0
+        p95_load_ms = percentile(load_times, 95) if load_times else 0.0  # Still compute p95
+    else:
+        # Fallback to computing from load_times
+        avg_load_ms = sum(load_times) / len(load_times) if load_times else 0.0
+        median_load_ms = median(load_times) if load_times else 0.0
+        p90_load_ms = percentile(load_times, 90) if load_times else 0.0
+        p75_load_ms = percentile(load_times, 75) if load_times else 0.0
+        p95_load_ms = percentile(load_times, 95) if load_times else 0.0
+    
+    # Get perf_mode from meta.json
+    perf_mode = meta_data.get("perf_mode", "controlled")
     
     slow_pages = [p for p in pages_index if p.get("loadTimeMs") and p.get("loadTimeMs", 0) > 1500]
     very_slow_pages = [p for p in pages_index if p.get("loadTimeMs") and p.get("loadTimeMs", 0) > 3000]
@@ -1150,18 +1168,20 @@ def build_insight_report(run_store: RunStore, run_id: str) -> InsightReport:
     missing_desc_ratio = len(pages_missing_description) / pages_count if pages_count else 0
     missing_h1_ratio = len(pages_missing_h1) / pages_count if pages_count else 0
     broken_link_count = len(pages_with_broken_links)
+    images_missing_alt_count = len(images_missing_alt)
+    images_missing_alt_ratio = images_missing_alt_count / pages_count if pages_count else 0
     
-    if missing_title_ratio > 0.1:  # 10%
+    if missing_title_ratio >= 0.1:  # 10% or more
         seo_score -= 10
     if missing_title_ratio > 0.3:
         seo_score -= 10
     
-    if missing_desc_ratio > 0.1:
+    if missing_desc_ratio >= 0.1:  # 10% or more
         seo_score -= 10
     if missing_desc_ratio > 0.3:
         seo_score -= 10
     
-    if missing_h1_ratio > 0.1:
+    if missing_h1_ratio >= 0.1:  # 10% or more
         seo_score -= 5
     if missing_h1_ratio > 0.3:
         seo_score -= 10
@@ -1170,6 +1190,14 @@ def build_insight_report(run_store: RunStore, run_id: str) -> InsightReport:
         seo_score -= 5
     if broken_link_count > 10:
         seo_score -= 10
+    
+    # Penalize images missing alt text
+    if images_missing_alt_ratio >= 0.3:  # 30% or more pages have images without alt
+        seo_score -= 10
+    elif images_missing_alt_ratio >= 0.1:  # 10% or more pages have images without alt
+        seo_score -= 5
+    elif images_missing_alt_count > 0:  # Any pages with missing alt text
+        seo_score -= 2
     
     # NEW: Penalize indexability issues
     if noindex_pages and len(noindex_pages) / pages_count > 0.3:
@@ -1321,6 +1349,9 @@ def build_insight_report(run_store: RunStore, run_id: str) -> InsightReport:
         stats=stats,
         contentDepthScore=content_depth_score,
         navType=nav_type,
-        crawlabilityScore=crawlability_score
+        crawlabilityScore=crawlability_score,
+        perfMode=perf_mode,
+        performanceConsistency=performance_consistency if performance_consistency != "unknown" else None,
+        consistencyNote=consistency_note if consistency_note else None
     )
 

@@ -1,9 +1,51 @@
 import os
 import json
 import time
+import statistics
 from typing import List, Optional, Dict, Any
 from backend.core.types import PageSummary, PageDetail, PageResult
 from backend.crawl.frontier import Frontier
+from backend.insights.crawl_quality import compute_crawl_quality
+from backend.crawl.performance import aggregate_performance_samples, compute_performance_consistency
+
+
+def percentile(data: List[float], p: float) -> float:
+    """Calculate the p-th percentile of a list of numbers."""
+    if not data:
+        return 0.0
+    sorted_data = sorted(data)
+    k = (len(sorted_data) - 1) * p / 100
+    f = int(k)
+    c = k - f
+    if f + 1 < len(sorted_data):
+        return sorted_data[f] + c * (sorted_data[f + 1] - sorted_data[f])
+    return sorted_data[f]
+
+
+def compute_stats_from_values(values: List[float]) -> Dict[str, Any]:
+    """Compute statistical metrics from a list of values."""
+    if not values:
+        return {}
+    
+    count = len(values)
+    avg = statistics.mean(values)
+    median_val = statistics.median(values)
+    p75_val = percentile(values, 75)
+    p90_val = percentile(values, 90)
+    min_val = min(values)
+    max_val = max(values)
+    stdev_val = statistics.stdev(values) if count > 1 else 0.0
+    
+    return {
+        "average": round(avg, 2),
+        "median": round(median_val, 2),
+        "p75": round(p75_val, 2),
+        "p90": round(p90_val, 2),
+        "min": round(min_val, 2),
+        "max": round(max_val, 2),
+        "stdev": round(stdev_val, 2),
+        "count": count
+    }
 
 class RunStore:
     """
@@ -305,10 +347,43 @@ class RunStore:
                     "images": result.images,
                     "links": result.links,
                     "load_time_ms": result.load_time_ms,
-                    "content_length_bytes": result.content_length_bytes
+                    "content_length_bytes": result.content_length_bytes,
+                    "performance_samples": page.get("performance_samples")  # Include samples
                 })
 
-            performance_summary = compute_performance_summary(page_results)
+            # Pass pages_data to compute_performance_summary for accessing performance_samples
+            performance_summary = compute_performance_summary(page_results, pages_data)
+            
+            # Compute crawl quality checklist
+            try:
+                crawl_quality = compute_crawl_quality(self.run_dir)
+                meta["crawl_quality"] = crawl_quality
+                
+                # Print crawl quality summary to console
+                print("\n" + "="*60)
+                print("CRAWL QUALITY CHECKLIST")
+                print("="*60)
+                print(f"Pages Crawled: {crawl_quality['pages_crawled']}")
+                print(f"Unique Paths: {crawl_quality['unique_paths']}")
+                print(f"Duplicate Pages: {crawl_quality['duplicate_pages_detected']}")
+                print(f"Avg Load Time: {crawl_quality['avg_load_time_ms']}ms")
+                print(f"P90 Load Time: {crawl_quality['p90_load_time_ms']}ms")
+                print(f"\nPage Types:")
+                print(f"  - Catalog: {crawl_quality['catalog_pages']}")
+                print(f"  - Article: {crawl_quality['article_pages']}")
+                print(f"  - Landing: {crawl_quality['landing_pages']}")
+                print(f"\nIssues:")
+                print(f"  - 404 Pages: {crawl_quality['404_pages']}")
+                print(f"  - Broken Internal Links: {crawl_quality['broken_internal_links']}")
+                print(f"  - Thin Content (Important): {crawl_quality['thin_content_important_pages']}")
+                print(f"  - Thin Content (Catalog): {crawl_quality['thin_content_catalog_pages']}")
+                print(f"\nStructure:")
+                print(f"  - Nav Discovered: {crawl_quality['nav_discovered']}")
+                print(f"  - Footer Discovered: {crawl_quality['footer_discovered']}")
+                print(f"\nOverall Health: {crawl_quality['overall_health']}")
+                print("="*60 + "\n")
+            except Exception as e:
+                print(f"Error computing crawl quality: {e}")
             
             meta["status"] = "completed"
             meta["completed_at"] = time.time()
@@ -325,25 +400,94 @@ class RunStore:
             print(f"Error finalizing run: {e}")
 
 
-def compute_performance_summary(pages: List[PageResult]) -> Dict[str, Any]:
-    """Compute aggregate performance metrics from page results."""
-    successful_pages = [
-        page for page in pages
-        if page.status == 200 and page.load_time_ms is not None
-    ]
-
-    if not successful_pages:
+def compute_performance_summary(pages: List[PageResult], pages_data: List[Dict[str, Any]] = None) -> Dict[str, Any]:
+    """
+    Compute aggregate performance metrics from page results with statistical analysis.
+    Supports multiple samples per URL and separate JS/raw stats.
+    
+    Args:
+        pages: List of PageResult objects
+        pages_data: Optional list of full page data dictionaries (for accessing performance_samples)
+    """
+    if pages_data is None:
+        pages_data = []
+    
+    # Build a mapping of URL to page data for accessing performance_samples
+    url_to_page_data = {}
+    for page_data in pages_data:
+        summary = page_data.get("summary", {})
+        url = summary.get("url")
+        if url:
+            url_to_page_data[url] = page_data
+    
+    # Collect all load times from pages and samples
+    all_load_times: List[float] = []
+    raw_load_times: List[float] = []
+    js_load_times: List[float] = []
+    
+    successful_pages = []
+    
+    for page in pages:
+        if page.status != 200:
+            continue
+        
+        # Check if page has performance_samples
+        page_data = url_to_page_data.get(page.url)
+        performance_samples = page_data.get("performance_samples") if page_data else None
+        
+        if performance_samples:
+            # Aggregate samples for this page
+            aggregated = aggregate_performance_samples(performance_samples)
+            if aggregated and aggregated.get("avg_load_ms"):
+                effective_load_ms = aggregated["avg_load_ms"]
+                render_mode = aggregated.get("render_mode", "raw")
+                
+                all_load_times.append(effective_load_ms)
+                if render_mode == "raw":
+                    raw_load_times.append(effective_load_ms)
+                elif render_mode == "js":
+                    js_load_times.append(effective_load_ms)
+                
+                # Update page with aggregated metrics
+                page.load_time_ms = int(effective_load_ms)
+                successful_pages.append(page)
+        elif page.load_time_ms is not None:
+            # Single sample (legacy or non-controlled mode)
+            all_load_times.append(float(page.load_time_ms))
+            raw_load_times.append(float(page.load_time_ms))  # Assume raw if not specified
+            successful_pages.append(page)
+    
+    if not all_load_times:
         return {}
-
-    total_load = sum(page.load_time_ms for page in successful_pages if page.load_time_ms is not None)
-    count = len(successful_pages)
-    avg_load_ms = int(round(total_load / count)) if count else None
-
+    
+    # Compute overall stats
+    overall_stats = compute_stats_from_values(all_load_times)
+    
+    # Compute raw stats
+    raw_stats = compute_stats_from_values(raw_load_times) if raw_load_times else {}
+    
+    # Compute JS stats
+    js_stats = compute_stats_from_values(js_load_times) if js_load_times else {}
+    
+    # Performance consistency check
+    consistency, consistency_note = compute_performance_consistency(all_load_times)
+    
+    # Find fastest and slowest pages
     fastest_page = min(successful_pages, key=lambda p: p.load_time_ms or float('inf'))
     slowest_page = max(successful_pages, key=lambda p: p.load_time_ms or float('-inf'))
-
-    return {
-        "avg_load_ms": avg_load_ms,
+    
+    result = {
+        # Legacy fields (backward compatibility)
+        "avg_load_ms": int(round(overall_stats.get("average", 0))),
+        "median_load_ms": int(round(overall_stats.get("median", 0))),
+        "p75_load_ms": int(round(overall_stats.get("p75", 0))),
+        "p90_load_ms": int(round(overall_stats.get("p90", 0))),
+        "min_load_ms": int(round(overall_stats.get("min", 0))),
+        "max_load_ms": int(round(overall_stats.get("max", 0))),
+        "stdev_load_ms": round(overall_stats.get("stdev", 0), 2),
+        "sample_count": overall_stats.get("count", 0),
+        "performance_consistency": consistency,
+        "consistency_note": consistency_note,
         "fastest": {
             "url": fastest_page.url,
             "load_ms": fastest_page.load_time_ms
@@ -351,5 +495,13 @@ def compute_performance_summary(pages: List[PageResult]) -> Dict[str, Any]:
         "slowest": {
             "url": slowest_page.url,
             "load_ms": slowest_page.load_time_ms
+        },
+        # Enhanced performance_stats structure
+        "performance_stats": {
+            "overall": overall_stats,
+            "raw": raw_stats if raw_stats else None,
+            "js": js_stats if js_stats else None
         }
     }
+    
+    return result

@@ -37,6 +37,7 @@ export function CompetitorStep({
   const [runningComparison, setRunningComparison] = useState(false);
   const [error, setError] = useState<string | null>(null);
   const [customInputError, setCustomInputError] = useState<string | null>(null);
+  const [botAvoidanceEnabled, setBotAvoidanceEnabled] = useState(false);
 
   // Auto-fetch suggestions when comparison mode is enabled and we have a primary URL
   useEffect(() => {
@@ -120,7 +121,7 @@ export function CompetitorStep({
     setError(null);
 
     try {
-      const result = await runComparison(primaryUrl, selected);
+      const result = await runComparison(primaryUrl, selected, botAvoidanceEnabled);
       
       // Call the callback if provided
       if (onComparisonStarted) {
@@ -307,6 +308,20 @@ export function CompetitorStep({
               </div>
             </div>
           )}
+
+          {/* Bot Avoidance Option */}
+          <div className="flex items-center gap-3">
+            <input
+              id="bot-avoidance-competitor"
+              type="checkbox"
+              checked={botAvoidanceEnabled}
+              onChange={(e) => setBotAvoidanceEnabled(e.target.checked)}
+              className="w-4 h-4 text-blue-600 bg-gray-100 dark:bg-gray-700 border-gray-300 dark:border-gray-600 rounded focus:ring-blue-500 focus:ring-2"
+            />
+            <label htmlFor="bot-avoidance-competitor" className="text-sm text-gray-600 dark:text-gray-400">
+              Enable bot-avoidance safeguards (slower, safer crawling)
+            </label>
+          </div>
 
           {/* Run Comparison Button */}
           <div className="pt-2">

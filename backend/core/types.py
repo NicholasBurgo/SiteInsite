@@ -8,6 +8,7 @@ class StartRunRequest(BaseModel):
     concurrency: int | None = None
     renderBudget: float | None = None
     botAvoidanceEnabled: bool | None = None
+    perfMode: Literal["controlled", "realistic", "stress"] | None = None
 
 class RunProgress(BaseModel):
     runId: str
@@ -185,6 +186,10 @@ class InsightReport(BaseModel):
     contentDepthScore: float | None = None  # 0-100
     navType: str | None = None  # "single_page", "simple_nav", "multi_section", "app_style", "implicit_content_links", "none_detected"
     crawlabilityScore: float | None = None  # 0-100
+    # Performance measurement metadata
+    perfMode: str | None = None  # "controlled", "realistic", "stress"
+    performanceConsistency: str | None = None  # "stable", "unstable"
+    consistencyNote: str | None = None  # Human-readable note about consistency
 
 # Competitor Comparison Models
 class ComparedSite(BaseModel):
@@ -223,3 +228,4 @@ class ComparisonReport(BaseModel):
 class ComparePayload(BaseModel):
     primaryUrl: str
     competitors: list[str]
+    botAvoidanceEnabled: bool | None = None

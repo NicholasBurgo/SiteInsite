@@ -104,7 +104,9 @@ class BotAvoidanceStrategy:
         accept_languages: Optional[List[str]] = None,
         browser_profiles: Optional[List[Dict[str, object]]] = None,
         profile_ttl: float = 900.0,
+        controlled_mode: bool = False,
     ) -> None:
+        self.controlled_mode = controlled_mode
         self.min_delay = min_delay
         self.max_delay = max_delay
         self.per_host_interval = per_host_interval
@@ -145,7 +147,12 @@ class BotAvoidanceStrategy:
     async def before_request(self, url: str) -> None:
         """
         Apply randomized delays and simple per-host pacing.
+        In controlled mode, disable randomization.
         """
+        if self.controlled_mode:
+            # Controlled mode: no delays for consistent measurement
+            return
+        
         host = urlparse(url).netloc.lower()
         now = time.monotonic()
         wait_time = random.uniform(self.min_delay, self.max_delay)
@@ -168,7 +175,25 @@ class BotAvoidanceStrategy:
     def prepare_request_kwargs(self, url: str) -> Dict[str, Dict[str, str]]:
         """
         Randomize a few headers to reduce fingerprinting.
+        In controlled mode, use static headers.
         """
+        if self.controlled_mode:
+            # Controlled mode: static headers for consistent measurement
+            headers: Dict[str, str] = {
+                "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.6613.84 Safari/537.36",
+                "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8",
+                "Accept-Language": "en-US",
+                "Accept-Encoding": "gzip, deflate, br",
+                "Cache-Control": "no-store",
+                "Connection": "keep-alive",
+                "Sec-Fetch-Dest": "document",
+                "Sec-Fetch-Mode": "navigate",
+                "Sec-Fetch-Site": "none",
+                "Sec-Fetch-User": "?1",
+                "Upgrade-Insecure-Requests": "1",
+            }
+            return {"headers": headers}
+        
         host = urlparse(url).netloc.lower()
         profile_state = self._select_host_profile(host)
         profile = profile_state["template"]

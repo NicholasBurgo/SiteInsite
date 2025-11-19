@@ -98,11 +98,43 @@ const InsightReportView: React.FC<InsightReportViewProps> = ({ report }) => {
             {report.categories.find(c => c.category === 'performance')?.score || 0}
           </div>
         </div>
+        
+        {/* Measurement Mode and Consistency */}
+        {(report.perfMode || report.performanceConsistency) && (
+          <div className="mb-4 p-3 bg-blue-50 dark:bg-blue-900/20 border border-blue-200 dark:border-blue-800 rounded-lg">
+            <div className="flex flex-wrap gap-4 text-sm">
+              {report.perfMode && (
+                <div>
+                  <span className="font-medium text-gray-700 dark:text-gray-300">Mode:</span>{' '}
+                  <span className="text-gray-900 dark:text-gray-100 capitalize">{report.perfMode}</span>
+                </div>
+              )}
+              {report.performanceConsistency && (
+                <div>
+                  <span className="font-medium text-gray-700 dark:text-gray-300">Variance:</span>{' '}
+                  <span className={`font-semibold ${
+                    report.performanceConsistency === 'stable' 
+                      ? 'text-green-600 dark:text-green-400' 
+                      : 'text-yellow-600 dark:text-yellow-400'
+                  }`}>
+                    {report.performanceConsistency === 'stable' ? 'LOW' : 'HIGH'}
+                  </span>
+                </div>
+              )}
+              {report.consistencyNote && (
+                <div className="w-full mt-2 text-xs text-gray-600 dark:text-gray-400 italic">
+                  {report.consistencyNote}
+                </div>
+              )}
+            </div>
+          </div>
+        )}
+        
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4 mb-4">
-          <StatCard title="Avg Load Time" value={`${report.stats.avgLoadMs.toFixed(0)} ms`} />
-          <StatCard title="Median Load Time" value={`${report.stats.medianLoadMs.toFixed(0)} ms`} />
-          <StatCard title="P90 Load Time" value={`${report.stats.p90LoadMs.toFixed(0)} ms`} />
-          <StatCard title="P95 Load Time" value={`${report.stats.p95LoadMs.toFixed(0)} ms`} />
+          <StatCard title="Median Load Time" value={`${report.stats.medianLoadMs.toFixed(0)} ms`} subtitle="50th percentile" />
+          <StatCard title="Average Load Time" value={`${report.stats.avgLoadMs.toFixed(0)} ms`} subtitle="Mean" />
+          <StatCard title="P90 Load Time" value={`${report.stats.p90LoadMs.toFixed(0)} ms`} subtitle="90th percentile" />
+          <StatCard title="P95 Load Time" value={`${report.stats.p95LoadMs.toFixed(0)} ms`} subtitle="95th percentile" />
         </div>
         <div className="grid grid-cols-1 md:grid-cols-2 gap-4 mb-4">
           <StatCard 

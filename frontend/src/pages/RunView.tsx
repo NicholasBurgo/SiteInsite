@@ -6,6 +6,7 @@ import { RunSummary } from '../components/RunSummary'
 import { RunFilters } from '../components/RunFilters'
 import { RunTable } from '../components/RunTable'
 import { PageDetail } from '../components/PageDetail'
+import { CrawlQualityPanel } from '../components/CrawlQualityPanel'
 import { TopBar } from '../components/TopBar'
 import type { FilterOptions, PageResult, SortOptions } from '../lib/types'
 
@@ -128,6 +129,11 @@ export function RunView() {
             progress={progress} 
             onExport={handleExport}
           />
+        </div>
+
+        {/* Crawl Quality Panel */}
+        <div className="mb-6">
+          <CrawlQualityPanel runId={runId!} />
         </div>
 
         {/* Main Content */}

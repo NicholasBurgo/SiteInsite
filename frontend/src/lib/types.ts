@@ -5,6 +5,7 @@ export interface StartRunRequest {
   concurrency?: number;
   renderBudget?: number;
   botAvoidanceEnabled?: boolean;
+  perfMode?: "controlled" | "realistic" | "stress";
 }
 
 export interface RunProgress {
@@ -181,6 +182,10 @@ export interface InsightReport {
   contentDepthScore?: number | null; // 0-100
   navType?: string | null; // "single_page", "simple_nav", "multi_section", "app_style", "implicit_content_links", "none_detected"
   crawlabilityScore?: number | null; // 0-100
+  // Performance measurement metadata
+  perfMode?: string | null; // "controlled", "realistic", "stress"
+  performanceConsistency?: string | null; // "stable", "unstable"
+  consistencyNote?: string | null; // Human-readable note about consistency
 }
 
 // Competitor Comparison Types

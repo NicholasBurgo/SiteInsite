@@ -318,11 +318,30 @@ async def export_insight_report_pdf(
             with open(pages_index_file, 'r') as f:
                 pages_index = json.load(f)
         
+        # Load meta.json for crawl date/time
+        meta_file = os.path.join(run_store.run_dir, "meta.json")
+        meta_data = {}
+        crawl_date_time = generated_at  # Fallback to generated_at
+        if os.path.exists(meta_file):
+            try:
+                with open(meta_file, 'r') as f:
+                    meta_data = json.load(f)
+                    started_at = meta_data.get("started_at")
+                    if started_at:
+                        try:
+                            crawl_date_time = datetime.fromtimestamp(float(started_at)).strftime("%Y-%m-%d %H:%M UTC")
+                        except (ValueError, TypeError, OSError):
+                            crawl_date_time = generated_at
+            except Exception:
+                crawl_date_time = generated_at
+        
         # Calculate page type breakdown for executive summary
         page_type_counts = {}
-        for page in pages_index:
-            page_type = page.get("page_type", "generic")
-            page_type_counts[page_type] = page_type_counts.get(page_type, 0) + 1
+        if pages_index and isinstance(pages_index, list):
+            for page in pages_index:
+                if isinstance(page, dict):
+                    page_type = page.get("page_type", "generic")
+                    page_type_counts[page_type] = page_type_counts.get(page_type, 0) + 1
         
         # Build appendix key to letter mapping (will be populated after collecting all data)
         appendix_key_to_letter = {}
@@ -704,6 +723,46 @@ async def export_insight_report_pdf(
       margin-top: 12px;
       margin-bottom: 16px;
     }}
+    .snapshot {{
+      background: #F4F5F7;
+      padding: 16px;
+      border-radius: 8px;
+      border: 1px solid #E5E7EB;
+      margin-bottom: 24px;
+    }}
+    .snapshot h2 {{
+      margin-top: 0;
+      margin-bottom: 12px;
+      font-size: 18px;
+      border-left: none;
+      padding-left: 0;
+    }}
+    .snapshot h3 {{
+      margin-top: 16px;
+      margin-bottom: 8px;
+      font-size: 14px;
+    }}
+    .snapshot p {{
+      margin: 8px 0;
+      color: #0D0F12;
+    }}
+    .snapshot strong {{
+      color: #0D0F12;
+      font-weight: 700;
+    }}
+    .snapshot ul {{
+      margin: 8px 0;
+      padding-left: 1.5rem;
+    }}
+    .snapshot li {{
+      margin-bottom: 4px;
+    }}
+    .exec-summary {{
+      margin-top: 12px;
+      margin-bottom: 16px;
+      line-height: 1.6;
+      color: #0D0F12;
+    }}
   </style>
 </head>
 <body>
@@ -723,6 +782,114 @@ async def export_insight_report_pdf(
     <div class="score-section">
       <div class="muted">Overall Score</div>
       <div class="score-big">{report.overallScore}/100</div>
+    </div>
+  </div>
+"""
+        
+        # Site Snapshot Section
+        # Calculate page type counts for snapshot
+        count_catalog = page_type_counts.get("catalog", 0) + page_type_counts.get("product", 0)
+        count_article = page_type_counts.get("article", 0)
+        count_landing = page_type_counts.get("landing", 0)
+        count_other = sum(v for k, v in page_type_counts.items() if k not in ["catalog", "product", "article", "landing"])
+        
+        # Format performance metrics safely
+        avg_load = report.stats.avgLoadMs if report.stats.avgLoadMs is not None else 0.0
+        median_load = report.stats.medianLoadMs if report.stats.medianLoadMs is not None else 0.0
+        p90_load = report.stats.p90LoadMs if report.stats.p90LoadMs is not None else 0.0
+        perf_mode = report.perfMode or "controlled"
+        consistency = report.performanceConsistency or "unknown"
+        
+        # Map consistency to variance label
+        if consistency == "unstable":
+            variance_label = "HIGH"
+        elif consistency == "moderate":
+            variance_label = "MODERATE"
+        elif consistency == "stable":
+            variance_label = "LOW"
+        else:
+            variance_label = "UNKNOWN"
+        
+        # Get pre-flight ping test results from meta.json
+        preflight_info = ""
+        try:
+            run_store = RunStore(run_id)
+            meta_file = os.path.join(run_store.run_dir, "meta.json")
+            if os.path.exists(meta_file):
+                with open(meta_file, 'r') as f:
+                    meta_data = json.load(f)
+                preflight = meta_data.get("preflight", {})
+                if preflight.get("samples", 0) > 0:
+                    preflight_info = f"""
+      <h3>Network Baseline (RTT)</h3>
+      <p><strong>Average RTT:</strong> {preflight.get('avg_rtt_ms', 0):.0f} ms</p>
+      <p><strong>Min RTT:</strong> {preflight.get('min_rtt_ms', 0):.0f} ms</p>
+      <p><strong>Max RTT:</strong> {preflight.get('max_rtt_ms', 0):.0f} ms</p>
+      <p><strong>Samples:</strong> {preflight.get('samples', 0)}</p>
+"""
+        except Exception as e:
+            print(f"Error loading pre-flight data: {e}")
+        
+        # Get JS vs Raw stats from performance_stats
+        js_raw_info = ""
+        try:
+            # Access performance_stats from meta.json pageLoad summary
+            run_store = RunStore(run_id)
+            meta_file = os.path.join(run_store.run_dir, "meta.json")
+            if os.path.exists(meta_file):
+                with open(meta_file, 'r') as f:
+                    meta_data = json.load(f)
+                page_load = meta_data.get("pageLoad", {})
+                perf_summary = page_load.get("summary", {})
+                perf_stats = perf_summary.get("performance_stats", {})
+                
+                raw_stats = perf_stats.get("raw")
+                js_stats = perf_stats.get("js")
+                
+                if raw_stats or js_stats:
+                    js_raw_info = """
+      <h3>JS vs Raw Benchmarks</h3>"""
+                    if raw_stats:
+                        js_raw_info += f"""
+      <p><strong>Raw Pages:</strong> avg {raw_stats.get('average', 0):.0f} ms, p90 {raw_stats.get('p90', 0):.0f} ms, count {raw_stats.get('count', 0)}</p>"""
+                    if js_stats:
+                        js_raw_info += f"""
+      <p><strong>JS Pages:</strong> avg {js_stats.get('average', 0):.0f} ms, p90 {js_stats.get('p90', 0):.0f} ms, count {js_stats.get('count', 0)}</p>"""
+        except Exception as e:
+            print(f"Error loading JS/Raw stats: {e}")
+        
+        # Build measurement mode note
+        mode_note = ""
+        if perf_mode == "controlled":
+            mode_note = "Measurements taken in controlled mode (~5 Mbps simulated)."
+        elif perf_mode == "realistic":
+            mode_note = "Measurements taken in realistic mode (normal browser behavior)."
+        else:
+            mode_note = "Measurements taken in stress mode (high concurrency)."
+        
+        consistency_note = report.consistencyNote or ""
+        if consistency_note:
+            mode_note += f" {consistency_note}"
+        
+        html += f"""
+  <!-- Site Snapshot Section -->
+  <div class="section">
+    <div class="snapshot">
+      <h2>Site Snapshot</h2>
+      <p><strong>Domain:</strong> {report.baseUrl or "Unknown"}</p>
+      <p><strong>Crawl Date:</strong> {crawl_date_time}</p>
+      <p><strong>Pages Crawled:</strong> {report.stats.pagesCount}</p>
+      <h3>Performance Metrics</h3>
+      <p><strong>Mode:</strong> {perf_mode.capitalize()}</p>
+{preflight_info}
+      <h3>Overall Performance</h3>
+      <p><strong>Average Load:</strong> {avg_load:.0f} ms</p>
+      <p><strong>Median:</strong> {median_load:.0f} ms</p>
+      <p><strong>P90:</strong> {p90_load:.0f} ms</p>
+      <p><strong>Min/Max:</strong> {report.stats.avgLoadMs - (report.stats.stdevLoadMs if hasattr(report.stats, 'stdevLoadMs') else 0):.0f} / {report.stats.avgLoadMs + (report.stats.stdevLoadMs if hasattr(report.stats, 'stdevLoadMs') else 0):.0f} ms</p>
+      <p><strong>Variance:</strong> {variance_label}</p>
+{js_raw_info}
+      <p class="muted" style="margin-top: 12px; font-size: 12px; font-style: italic;">{mode_note}</p>
     </div>
   </div>
 """
@@ -770,9 +937,42 @@ async def export_insight_report_pdf(
         
         # Top Opportunities Section
         if top_issues:
-            html += """
+            # Generate executive summary paragraph based on category scores
+            categories_list = report.categories if report.categories else []
+            perf_score = next((cat.score for cat in categories_list if cat.category == "performance"), 0)
+            content_score = next((cat.score for cat in categories_list if cat.category == "content"), 0)
+            seo_score = next((cat.score for cat in categories_list if cat.category == "seo"), 0)
+            structure_score = next((cat.score for cat in categories_list if cat.category == "structure"), 0)
+            
+            exec_summary_parts = []
+            if perf_score < 60:
+                exec_summary_parts.append("performance issues limit user experience")
+            if content_score < 70:
+                exec_summary_parts.append("content depth needs improvement")
+            if seo_score < 70:
+                exec_summary_parts.append("SEO fundamentals require attention")
+            if structure_score > 85:
+                exec_summary_parts.append("strong site structure")
+            
+            if exec_summary_parts:
+                if len(exec_summary_parts) == 1:
+                    exec_summary_text = f"This site has {exec_summary_parts[0]}. "
+                elif len(exec_summary_parts) == 2:
+                    exec_summary_text = f"This site has {exec_summary_parts[0]} and {exec_summary_parts[1]}. "
+                else:
+                    exec_summary_text = f"This site has {', '.join(exec_summary_parts[:-1])}, and {exec_summary_parts[-1]}. "
+            else:
+                exec_summary_text = "This site shows balanced performance across key areas. "
+            
+            exec_summary_text += "Focusing on the opportunities below will yield the largest benefit."
+            
+            html += f"""
   <div class="section">
     <h2>Top Opportunities</h2>
+    <p><strong>Overall Score:</strong> {report.overallScore}/100</p>
+    <p class="exec-summary">
+      {exec_summary_text}
+    </p>
     <p class="muted">Focus on these changes first for the biggest impact.</p>
 """
             for idx, issue in enumerate(top_issues[:5], 1):
@@ -1467,19 +1667,20 @@ async def wait_for_run_completion(run_id: str, timeout: int = 600) -> bool:
         await asyncio.sleep(poll_interval)
 
 
-async def run_extractor_for_url(url: str, max_pages: int = 50) -> str:
+async def run_extractor_for_url(url: str, max_pages: int = 50, bot_avoidance_enabled: bool | None = None) -> str:
     """
     Run the extraction pipeline for a URL and return the run_id.
     
     Args:
         url: The URL to extract
         max_pages: Maximum number of pages to crawl
+        bot_avoidance_enabled: Whether to enable bot avoidance (defaults to None/False)
     
     Returns:
         The run_id for the completed extraction
     """
     # Start the run
-    req = StartRunRequest(url=url, maxPages=max_pages)
+    req = StartRunRequest(url=url, maxPages=max_pages, botAvoidanceEnabled=bot_avoidance_enabled)
     run_id = await run_manager.start(req)
     
     # Wait for completion
@@ -1550,9 +1751,12 @@ async def compare_sites(payload: ComparePayload) -> ComparisonReport:
         site_reports = []
         run_ids = []
         
+        # Use botAvoidanceEnabled from payload, default to False if not specified
+        bot_avoidance = payload.botAvoidanceEnabled if payload.botAvoidanceEnabled is not None else False
+        
         for url in all_urls:
             try:
-                run_id = await run_extractor_for_url(url, max_pages=50)
+                run_id = await run_extractor_for_url(url, max_pages=50, bot_avoidance_enabled=bot_avoidance)
                 run_ids.append((url, run_id))
             except Exception as e:
                 raise HTTPException(

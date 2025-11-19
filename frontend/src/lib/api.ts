@@ -91,13 +91,14 @@ export async function suggestCompetitors(url: string) {
 }
 
 // Comparison API
-export async function runComparison(primaryUrl: string, competitors: string[]) {
+export async function runComparison(primaryUrl: string, competitors: string[], botAvoidanceEnabled?: boolean) {
   const res = await fetch("/api/compare", {
     method: "POST",
     headers: { "Content-Type": "application/json" },
     body: JSON.stringify({
       primaryUrl,
-      competitors
+      competitors,
+      botAvoidanceEnabled: botAvoidanceEnabled || undefined
     })
   });
   if (!res.ok) {
