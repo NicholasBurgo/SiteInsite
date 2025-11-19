@@ -1,0 +1,899 @@
+{
+  "url": "https://handyman.com/questions",
+  "path": "/questions",
+  "status": 200,
+  "title": "Handyman.com - Question and Answer",
+  "description": "Handyman.com is the best place to find a professional contractor. Let us help you with your home ideas including how-to books, projects ideas, gifts, home plans and more.",
+  "canonical": "https://handyman.com/questions",
+  "media": {
+    "images": [
+      {
+        "url": "https://www.stats.numberchallenge.com/piwik.php?idsite=1",
+        "alt": "",
+        "width": null,
+        "height": null
+      },
+      {
+        "url": "https://vnoclogos.s3.amazonaws.com/logo-handyman-1.png",
+        "alt": "Handyman.com",
+        "width": null,
+        "height": null
+      },
+      {
+        "url": "https://image.flaticon.com/icons/png/128/179/179336.png",
+        "alt": "",
+        "width": null,
+        "height": null
+      },
+      {
+        "url": "https://cdn.vnoc.com/handyman/icons/handyman-user.jpg",
+        "alt": "Kendy Elismond Sainfery",
+        "width": null,
+        "height": null
+      },
+      {
+        "url": "https://referrals.contrib.com/banners/codero-logo-HostingOnDemand.png",
+        "alt": "Codero - Cloud, Dedicated server, Hybrid Servers",
+        "width": null,
+        "height": null
+      }
+    ],
+    "videos": [],
+    "gifs": []
+  },
+  "files": [],
+  "words": {
+    "headings": [
+      {
+        "tag": "h4",
+        "text": "Top Cities"
+      },
+      {
+        "tag": "h1",
+        "text": "Recent questions and answers"
+      },
+      {
+        "tag": "h3",
+        "text": "Recent Contractors"
+      },
+      {
+        "tag": "h2",
+        "text": "Handyman.com"
+      },
+      {
+        "tag": "h2",
+        "text": "Get Started"
+      },
+      {
+        "tag": "h2",
+        "text": "Company"
+      },
+      {
+        "tag": "h2",
+        "text": "Partners"
+      },
+      {
+        "tag": "h2",
+        "text": "Socials"
+      }
+    ],
+    "paragraphs": [
+      "Welcome to Home improvement answers from the experts, where you can ask questions and receive answers from other members of the community.",
+      "\u00a9 2025 - Handyman.com",
+      "About Us\n Terms\n Privacy\n Contact Us"
+    ],
+    "wordCount": 32
+  },
+  "links": {
+    "internal": [
+      {
+        "label": "",
+        "href": "https://handyman.com/"
+      },
+      {
+        "label": "Home",
+        "href": "https://handyman.com/"
+      },
+      {
+        "label": "View More",
+        "href": "https://handyman.com/contractor/find-city"
+      },
+      {
+        "label": "How It Works",
+        "href": "https://handyman.com/home/how-it-works"
+      },
+      {
+        "label": "Find A Contractor",
+        "href": "https://handyman.com/contractor"
+      },
+      {
+        "label": "Post A Project",
+        "href": "https://handyman.com/projectnew/post"
+      },
+      {
+        "label": "Projects Directory",
+        "href": "https://handyman.com/services"
+      },
+      {
+        "label": "Referral Program",
+        "href": "https://handyman.com/referral"
+      },
+      {
+        "label": "Shop",
+        "href": "https://handyman.com/store"
+      },
+      {
+        "label": "Discussions",
+        "href": "https://handyman.com/questions"
+      },
+      {
+        "label": "Contractors",
+        "href": "https://handyman.com/contractor"
+      },
+      {
+        "label": "Contractor SignUp",
+        "href": "https://handyman.com/contractor/signup"
+      },
+      {
+        "label": "HomeOwner SignUp",
+        "href": "https://handyman.com/projectnew/post"
+      },
+      {
+        "label": "Referral",
+        "href": "https://handyman.com/referral"
+      },
+      {
+        "label": "Login",
+        "href": "https://handyman.com/login"
+      },
+      {
+        "label": "All Activity",
+        "href": "https://handyman.com/questions/allactivities"
+      },
+      {
+        "label": "Recent Questions",
+        "href": "https://handyman.com/questions/"
+      },
+      {
+        "label": "Unanswered",
+        "href": "https://handyman.com/questions/unanswered"
+      },
+      {
+        "label": "Categories",
+        "href": "https://handyman.com/questions/category-list"
+      },
+      {
+        "label": "Ask a Question",
+        "href": "https://handyman.com/questions/post"
+      },
+      {
+        "label": "All categories",
+        "href": "https://handyman.com/"
+      },
+      {
+        "label": "Add Attic space",
+        "href": "https://handyman.com/questions/category/cat/65/n/add-attic-space"
+      },
+      {
+        "label": "Air Conditioning",
+        "href": "https://handyman.com/questions/category/cat/1/n/air-conditioning"
+      },
+      {
+        "label": "Appliance - Repair",
+        "href": "https://handyman.com/questions/category/cat/69/n/appliance-repair"
+      },
+      {
+        "label": "Appliance Installation and Repair",
+        "href": "https://handyman.com/questions/category/cat/2/n/appliance-installation-and-repair"
+      },
+      {
+        "label": "Architect",
+        "href": "https://handyman.com/questions/category/cat/3/n/architect"
+      },
+      {
+        "label": "Asbestos Siding - Repair",
+        "href": "https://handyman.com/questions/category/cat/75/n/asbestos-siding-repair"
+      },
+      {
+        "label": "Attics",
+        "href": "https://handyman.com/questions/category/cat/64/n/attics"
+      },
+      {
+        "label": "Basements",
+        "href": "https://handyman.com/questions/category/cat/4/n/basements"
+      },
+      {
+        "label": "Bathroom Remodeling",
+        "href": "https://handyman.com/questions/category/cat/5/n/bathroom-remodeling"
+      },
+      {
+        "label": "Blown-In Insulation",
+        "href": "https://handyman.com/questions/category/cat/84/n/blown-in-insulation"
+      },
+      {
+        "label": "Cabinets",
+        "href": "https://handyman.com/questions/category/cat/6/n/cabinets"
+      },
+      {
+        "label": "Carpentry",
+        "href": "https://handyman.com/questions/category/cat/7/n/carpentry"
+      },
+      {
+        "label": "Cleaning",
+        "href": "https://handyman.com/questions/category/cat/8/n/cleaning"
+      },
+      {
+        "label": "Closet - Build",
+        "href": "https://handyman.com/questions/category/cat/109/n/closet-build"
+      },
+      {
+        "label": "Concrete",
+        "href": "https://handyman.com/questions/category/cat/62/n/concrete"
+      },
+      {
+        "label": "Countertops",
+        "href": "https://handyman.com/questions/category/cat/10/n/countertops"
+      },
+      {
+        "label": "Custom Home Building",
+        "href": "https://handyman.com/questions/category/cat/11/n/custom-home-building"
+      },
+      {
+        "label": "Customer Home Remodeling",
+        "href": "https://handyman.com/questions/category/cat/55/n/customer-home-remodeling"
+      },
+      {
+        "label": "Decks",
+        "href": "https://handyman.com/questions/category/cat/12/n/decks"
+      },
+      {
+        "label": "Designer",
+        "href": "https://handyman.com/questions/category/cat/14/n/designer"
+      },
+      {
+        "label": "Doors",
+        "href": "https://handyman.com/questions/category/cat/61/n/doors"
+      },
+      {
+        "label": "Driveways",
+        "href": "https://handyman.com/questions/category/cat/157/n/driveways"
+      },
+      {
+        "label": "Drywall and Plastering",
+        "href": "https://handyman.com/questions/category/cat/15/n/drywall-and-plastering"
+      },
+      {
+        "label": "Electrical",
+        "href": "https://handyman.com/questions/category/cat/16/n/electrical"
+      },
+      {
+        "label": "Exterior Trim - Install",
+        "href": "https://handyman.com/questions/category/cat/172/n/exterior-trim-install"
+      },
+      {
+        "label": "Fans and Ventilation",
+        "href": "https://handyman.com/questions/category/cat/19/n/fans-and-ventilation"
+      },
+      {
+        "label": "Fencing",
+        "href": "https://handyman.com/questions/category/cat/20/n/fencing"
+      },
+      {
+        "label": "Financing",
+        "href": "https://handyman.com/questions/category/cat/21/n/financing"
+      },
+      {
+        "label": "Finish Carpentry, Trim and Molding",
+        "href": "https://handyman.com/questions/category/cat/175/n/finish-carpentry,-trim-and-molding"
+      },
+      {
+        "label": "Fireplace",
+        "href": "https://handyman.com/questions/category/cat/22/n/fireplace"
+      },
+      {
+        "label": "Floor Coverings",
+        "href": "https://handyman.com/questions/category/cat/177/n/floor-coverings"
+      },
+      {
+        "label": "Flooring",
+        "href": "https://handyman.com/questions/category/cat/23/n/flooring"
+      },
+      {
+        "label": "Floors",
+        "href": "https://handyman.com/questions/category/cat/178/n/floors"
+      },
+      {
+        "label": "Foundations",
+        "href": "https://handyman.com/questions/category/cat/24/n/foundations"
+      },
+      {
+        "label": "Framing Systems",
+        "href": "https://handyman.com/questions/category/cat/25/n/framing-systems"
+      },
+      {
+        "label": "Garages and Outbuildings",
+        "href": "https://handyman.com/questions/category/cat/26/n/garages-and-outbuildings"
+      },
+      {
+        "label": "General Contractors",
+        "href": "https://handyman.com/questions/category/cat/193/n/general-contractors"
+      },
+      {
+        "label": "Glass and Screens",
+        "href": "https://handyman.com/questions/category/cat/27/n/glass-and-screens"
+      },
+      {
+        "label": "Gutters",
+        "href": "https://handyman.com/questions/category/cat/28/n/gutters"
+      },
+      {
+        "label": "Handyman",
+        "href": "https://handyman.com/questions/category/cat/29/n/handyman"
+      },
+      {
+        "label": "Handyman for Multiple Small Projects",
+        "href": "https://handyman.com/questions/category/cat/200/n/handyman-for-multiple-small-projects"
+      },
+      {
+        "label": "Heating and Ventilation",
+        "href": "https://handyman.com/questions/category/cat/30/n/heating-and-ventilation"
+      },
+      {
+        "label": "Home Additions",
+        "href": "https://handyman.com/questions/category/cat/56/n/home-additions"
+      },
+      {
+        "label": "Inspection - Roofing",
+        "href": "https://handyman.com/questions/category/cat/210/n/inspection-roofing"
+      },
+      {
+        "label": "Inspection and Appraisal",
+        "href": "https://handyman.com/questions/category/cat/33/n/inspection-and-appraisal"
+      },
+      {
+        "label": "Insulation and Weather Stripping",
+        "href": "https://handyman.com/questions/category/cat/34/n/insulation-and-weather-stripping"
+      },
+      {
+        "label": "Kitchen Remodeling",
+        "href": "https://handyman.com/questions/category/cat/35/n/kitchen-remodeling"
+      },
+      {
+        "label": "Landscaping",
+        "href": "https://handyman.com/questions/category/cat/36/n/landscaping"
+      },
+      {
+        "label": "Masonry",
+        "href": "https://handyman.com/questions/category/cat/38/n/masonry"
+      },
+      {
+        "label": "Odd-Jobs",
+        "href": "https://handyman.com/questions/category/cat/40/n/odd-jobs"
+      },
+      {
+        "label": "Other",
+        "href": "https://handyman.com/questions/category/cat/41/n/other"
+      },
+      {
+        "label": "Paint Preparation",
+        "href": "https://handyman.com/questions/category/cat/248/n/paint-preparation"
+      },
+      {
+        "label": "Paint Removal and Cleaning",
+        "href": "https://handyman.com/questions/category/cat/249/n/paint-removal-and-cleaning"
+      },
+      {
+        "label": "Painting and Wallcovering",
+        "href": "https://handyman.com/questions/category/cat/42/n/painting-and-wallcovering"
+      },
+      {
+        "label": "Paving",
+        "href": "https://handyman.com/questions/category/cat/43/n/paving"
+      },
+      {
+        "label": "Pest Control",
+        "href": "https://handyman.com/questions/category/cat/44/n/pest-control"
+      },
+      {
+        "label": "Plumbing",
+        "href": "https://handyman.com/questions/category/cat/45/n/plumbing"
+      },
+      {
+        "label": "Pools",
+        "href": "https://handyman.com/questions/category/cat/46/n/pools"
+      },
+      {
+        "label": "Railings",
+        "href": "https://handyman.com/questions/category/cat/57/n/railings"
+      },
+      {
+        "label": "Remodeling and Room Additions",
+        "href": "https://handyman.com/questions/category/cat/47/n/remodeling-and-room-additions"
+      },
+      {
+        "label": "Retaining Walls",
+        "href": "https://handyman.com/questions/category/cat/59/n/retaining-walls"
+      },
+      {
+        "label": "Roofing",
+        "href": "https://handyman.com/questions/category/cat/48/n/roofing"
+      },
+      {
+        "label": "Siding/Residing",
+        "href": "https://handyman.com/questions/category/cat/49/n/siding/residing"
+      },
+      {
+        "label": "Tile, Stone, Grout - Clean",
+        "href": "https://handyman.com/questions/category/cat/311/n/tile,-stone,-grout-clean"
+      },
+      {
+        "label": "Tile: Ceramic and Porcelain - Install",
+        "href": "https://handyman.com/questions/category/cat/312/n/tile:-ceramic-and-porcelain-install"
+      },
+      {
+        "label": "Walls",
+        "href": "https://handyman.com/questions/category/cat/326/n/walls"
+      },
+      {
+        "label": "Waterproofing",
+        "href": "https://handyman.com/questions/category/cat/52/n/waterproofing"
+      },
+      {
+        "label": "Windows",
+        "href": "https://handyman.com/questions/category/cat/53/n/windows"
+      },
+      {
+        "label": "Handyman Q&A RSS Feed",
+        "href": "https://handyman.com/feed/questions"
+      },
+      {
+        "label": "Help with painting and general cleaning",
+        "href": "https://handyman.com/questions/details/id/297/n/help-with-painting-and-general-cleaning"
+      },
+      {
+        "label": "Answered",
+        "href": "https://handyman.com/questions/details/id/297/n/help-with-painting-and-general-cleaning"
+      },
+      {
+        "label": "Cleaning",
+        "href": "https://handyman.com/questions/category/cat/8/n/cleaning"
+      },
+      {
+        "label": "Joyce Richway",
+        "href": "https://handyman.com/homeowner/profile/user/JRichway"
+      },
+      {
+        "label": "Looking for installers to do site visits nationally, is that something I can find here?",
+        "href": "https://handyman.com/questions/details/id/296/n/looking-for-installers-to-do-site-visits-nationall"
+      },
+      {
+        "label": "Answered",
+        "href": "https://handyman.com/questions/details/id/296/n/looking-for-installers-to-do-site-visits-nationall"
+      },
+      {
+        "label": "Floors",
+        "href": "https://handyman.com/questions/category/cat/178/n/floors"
+      },
+      {
+        "label": "FloorMaxUSA",
+        "href": "https://handyman.com/contractor/profile/user/Msupko"
+      },
+      {
+        "label": "Looking for installers to do site visits nationally, is that something I can find here?",
+        "href": "https://handyman.com/questions/details/id/295/n/looking-for-installers-to-do-site-visits-nationall"
+      },
+      {
+        "label": "Posted",
+        "href": "https://handyman.com/questions/details/id/295/n/looking-for-installers-to-do-site-visits-nationall"
+      },
+      {
+        "label": "Floor Coverings",
+        "href": "https://handyman.com/questions/category/cat/177/n/floor-coverings"
+      },
+      {
+        "label": "FloorMaxUSA",
+        "href": "https://handyman.com/contractor/profile/user/Msupko"
+      },
+      {
+        "label": "Looking for installers to do site visits nationally, is that something I can find here?",
+        "href": "https://handyman.com/questions/details/id/294/n/looking-for-installers-to-do-site-visits-nationall"
+      },
+      {
+        "label": "Answered",
+        "href": "https://handyman.com/questions/details/id/294/n/looking-for-installers-to-do-site-visits-nationall"
+      },
+      {
+        "label": "Flooring",
+        "href": "https://handyman.com/questions/category/cat/23/n/flooring"
+      },
+      {
+        "label": "FloorMaxUSA",
+        "href": "https://handyman.com/contractor/profile/user/Msupko"
+      },
+      {
+        "label": "Why I cannot access Homepage, cannot find projects, anything shows Uh oh! Page not found!",
+        "href": "https://handyman.com/questions/details/id/293/n/why-i-cannot-access-homepage,-cannot-find-projects"
+      },
+      {
+        "label": "Answered",
+        "href": "https://handyman.com/questions/details/id/293/n/why-i-cannot-access-homepage,-cannot-find-projects"
+      },
+      {
+        "label": "Other",
+        "href": "https://handyman.com/questions/category/cat/41/n/other"
+      },
+      {
+        "label": "Sfix Handyman Services",
+        "href": "https://handyman.com/contractor/profile/user/Sfixusa"
+      },
+      {
+        "label": "<< First",
+        "href": "https://handyman.com/questions/index"
+      },
+      {
+        "label": "Prev",
+        "href": "https://handyman.com/questions/index"
+      },
+      {
+        "label": "1",
+        "href": "https://handyman.com/questions/index"
+      },
+      {
+        "label": "2",
+        "href": "https://handyman.com/questions/index?page=2"
+      },
+      {
+        "label": "3",
+        "href": "https://handyman.com/questions/index?page=3"
+      },
+      {
+        "label": "4",
+        "href": "https://handyman.com/questions/index?page=4"
+      },
+      {
+        "label": "5",
+        "href": "https://handyman.com/questions/index?page=5"
+      },
+      {
+        "label": "6",
+        "href": "https://handyman.com/questions/index?page=6"
+      },
+      {
+        "label": "7",
+        "href": "https://handyman.com/questions/index?page=7"
+      },
+      {
+        "label": "8",
+        "href": "https://handyman.com/questions/index?page=8"
+      },
+      {
+        "label": "9",
+        "href": "https://handyman.com/questions/index?page=9"
+      },
+      {
+        "label": "10",
+        "href": "https://handyman.com/questions/index?page=10"
+      },
+      {
+        "label": "Next",
+        "href": "https://handyman.com/questions/index?page=2"
+      },
+      {
+        "label": "Last >>",
+        "href": "https://handyman.com/questions/index?page=49"
+      },
+      {
+        "label": "Kendy Elismond Sainfery",
+        "href": "https://handyman.com/contractor/profile/user/sainfery"
+      },
+      {
+        "label": "Cleanliness Janitorial Services",
+        "href": "https://handyman.com/contractor/profile/user/cleanlines"
+      },
+      {
+        "label": "Pro Quality Painting & Home Repair - Painter CT",
+        "href": "https://handyman.com/contractor/profile/user/pqpaint"
+      },
+      {
+        "label": "Sparkle Office Cleaning",
+        "href": "https://handyman.com/contractor/profile/user/sparkleoff"
+      },
+      {
+        "label": "Albany",
+        "href": "https://handyman.com/contractor/find/city/albany-ny/"
+      },
+      {
+        "label": "Albuquerque",
+        "href": "https://handyman.com/contractor/find/city/albuquerque-nm/"
+      },
+      {
+        "label": "ALL orange county",
+        "href": "https://handyman.com/contractor/find/city/dallas-tx/"
+      },
+      {
+        "label": "Atlanta",
+        "href": "https://handyman.com/contractor/find/city/atlanta-ga/"
+      },
+      {
+        "label": "Austin",
+        "href": "https://handyman.com/contractor/find/city/austin-tx/"
+      },
+      {
+        "label": "Baltimore",
+        "href": "https://handyman.com/contractor/find/city/baltimore-md/"
+      },
+      {
+        "label": "Birmingham",
+        "href": "https://handyman.com/contractor/find/city/birmingham-al/"
+      },
+      {
+        "label": "Boston",
+        "href": "https://handyman.com/contractor/find/city/boston-ma/"
+      },
+      {
+        "label": "Buffalo",
+        "href": "https://handyman.com/contractor/find/city/buffalo-ny/"
+      },
+      {
+        "label": "Charlotte",
+        "href": "https://handyman.com/contractor/find/city/charlotte-nc/"
+      },
+      {
+        "label": "Chicago",
+        "href": "https://handyman.com/contractor/find/city/chicago-il/"
+      },
+      {
+        "label": "Cincinnati",
+        "href": "https://handyman.com/contractor/find/city/cincinnati-oh/"
+      },
+      {
+        "label": "Cleveland",
+        "href": "https://handyman.com/contractor/find/city/cleveland-oh/"
+      },
+      {
+        "label": "Columbia",
+        "href": "https://handyman.com/contractor/find/city/columbia-sc/"
+      },
+      {
+        "label": "Columbus",
+        "href": "https://handyman.com/contractor/find/city/columbus-oh/"
+      },
+      {
+        "label": "Denver",
+        "href": "https://handyman.com/contractor/find/city/denver-co/"
+      },
+      {
+        "label": "Detroit",
+        "href": "https://handyman.com/contractor/find/city/detroit-mi/"
+      },
+      {
+        "label": "Grand Rapids",
+        "href": "https://handyman.com/contractor/find/city/grand-rapids-mi/"
+      },
+      {
+        "label": "Greensboro",
+        "href": "https://handyman.com/contractor/find/city/greensboro-nc/"
+      },
+      {
+        "label": "Greenville",
+        "href": "https://handyman.com/contractor/find/city/greenville-sc/"
+      },
+      {
+        "label": "Harrisburg",
+        "href": "https://handyman.com/contractor/find/city/harrisburg-pa/"
+      },
+      {
+        "label": "Hartford",
+        "href": "https://handyman.com/contractor/find/city/hartford-ct/"
+      },
+      {
+        "label": "Honolulu",
+        "href": "https://handyman.com/contractor/find/city/honolulu-hi/"
+      },
+      {
+        "label": "Houston",
+        "href": "https://handyman.com/contractor/find/city/houston-tx/"
+      },
+      {
+        "label": "Indianapolis",
+        "href": "https://handyman.com/contractor/find/city/indianapolis-in/"
+      },
+      {
+        "label": "Jacksonville",
+        "href": "https://handyman.com/contractor/find/city/jacksonville-fl/"
+      },
+      {
+        "label": "Kansas City",
+        "href": "https://handyman.com/contractor/find/city/kansas-city-mo/"
+      },
+      {
+        "label": "Knoxville",
+        "href": "https://handyman.com/contractor/find/city/knoxville-tn/"
+      },
+      {
+        "label": "Las Vegas",
+        "href": "https://handyman.com/contractor/find/city/las-vegas-nv/"
+      },
+      {
+        "label": "Little Rock",
+        "href": "https://handyman.com/contractor/find/city/little-rock-ar/"
+      },
+      {
+        "label": "Los Angeles",
+        "href": "https://handyman.com/contractor/find/city/los-angeles-ca/"
+      },
+      {
+        "label": "Louisville",
+        "href": "https://handyman.com/contractor/find/city/louisville-ky/"
+      },
+      {
+        "label": "Memphis",
+        "href": "https://handyman.com/contractor/find/city/memphis-tn/"
+      },
+      {
+        "label": "Miami",
+        "href": "https://handyman.com/contractor/find/city/miami-fl/"
+      },
+      {
+        "label": "Milwaukee",
+        "href": "https://handyman.com/contractor/find/city/milwaukee-wi/"
+      },
+      {
+        "label": "Mobile",
+        "href": "https://handyman.com/contractor/find/city/mobile-al/"
+      },
+      {
+        "label": "Nashville",
+        "href": "https://handyman.com/contractor/find/city/nashville-tn/"
+      },
+      {
+        "label": "New Orleans",
+        "href": "https://handyman.com/contractor/find/city/new-orleans-la/"
+      },
+      {
+        "label": "Norfolk",
+        "href": "https://handyman.com/contractor/find/city/norfolk-va/"
+      },
+      {
+        "label": "Oklahoma City",
+        "href": "https://handyman.com/contractor/find/city/oklahoma-city-ok/"
+      },
+      {
+        "label": "Philadelphia",
+        "href": "https://handyman.com/contractor/find/city/philadelphia-pa/"
+      },
+      {
+        "label": "Phoenix",
+        "href": "https://handyman.com/contractor/find/city/phoenix-az/"
+      },
+      {
+        "label": "Pittsburgh",
+        "href": "https://handyman.com/contractor/find/city/pittsburgh-pa/"
+      },
+      {
+        "label": "Portland",
+        "href": "https://handyman.com/contractor/find/city/portland-or/"
+      },
+      {
+        "label": "Providence",
+        "href": "https://handyman.com/contractor/find/city/providence-ri/"
+      },
+      {
+        "label": "Raleigh",
+        "href": "https://handyman.com/contractor/find/city/raleigh-nc/"
+      },
+      {
+        "label": "Richmond",
+        "href": "https://handyman.com/contractor/find/city/richmond-va/"
+      },
+      {
+        "label": "Sacramento",
+        "href": "https://handyman.com/contractor/find/city/sacramento-ca/"
+      },
+      {
+        "label": "Saint Louis",
+        "href": "https://handyman.com/contractor/find/city/saint-louis-mo/"
+      },
+      {
+        "label": "Salt Lake City",
+        "href": "https://handyman.com/contractor/find/city/salt-lake-city-ut/"
+      },
+      {
+        "label": "San Antonio",
+        "href": "https://handyman.com/contractor/find/city/san-antonio-tx/"
+      },
+      {
+        "label": "San Diego",
+        "href": "https://handyman.com/contractor/find/city/san-diego-ca/"
+      },
+      {
+        "label": "San Francisco",
+        "href": "https://handyman.com/contractor/find/city/san-francisco-ca/"
+      },
+      {
+        "label": "Seattle",
+        "href": "https://handyman.com/contractor/find/city/seattle-wa/"
+      },
+      {
+        "label": "Tampa",
+        "href": "https://handyman.com/contractor/find/city/tampa-fl/"
+      },
+      {
+        "label": "West Palm Beach",
+        "href": "https://handyman.com/contractor/find/city/west-palm-beach-fl/"
+      },
+      {
+        "label": "Post Project\r\n\r\n\t\t\t\t\t\nPlease login as a Home Owner",
+        "href": "https://handyman.com/projectnew/post"
+      },
+      {
+        "label": "Contractor Registration",
+        "href": "https://handyman.com/contractor/signup"
+      },
+      {
+        "label": "Find Contractor",
+        "href": "https://handyman.com/contractor/find"
+      },
+      {
+        "label": "Find Projects",
+        "href": "https://handyman.com/project/find"
+      },
+      {
+        "label": "FAQ",
+        "href": "https://handyman.com/faq"
+      },
+      {
+        "label": "About us",
+        "href": "https://handyman.com/home/about"
+      },
+      {
+        "label": "Privacy Policy",
+        "href": "https://handyman.com/home/privacy"
+      },
+      {
+        "label": "Terms & Conditions",
+        "href": "https://handyman.com/home/terms"
+      },
+      {
+        "label": "Partners",
+        "href": "https://handyman.com/partners"
+      },
+      {
+        "label": "Contact Us",
+        "href": "https://handyman.com/home/contactus"
+      },
+      {
+        "label": "Sitemap",
+        "href": "https://handyman.com/home/sitemap"
+      },
+      {
+        "label": "About Us",
+        "href": "https://handyman.com/home/about"
+      },
+      {
+        "label": "Terms",
+        "href": "https://handyman.com/home/terms"
+      },
+      {
+        "label": "Privacy",
+        "href": "https://handyman.com/home/privacy"
+      },
+      {
+        "label": "Contact Us",
+        "href": "https://handyman.com/home/contactus"
+      }
+    ],
+    "external": [
+      {
+        "label": "Renters Insurance",
+        "href": "https://onlinerentersinsurance.org/"
+      },
+      {
+        "label": "",
+        "href": "https://goo.gl/Z19wQg"
+      }
+    ],
+    "broken": []
+  },
+  "extractedAt": "2025-11-19T14:47:41Z"
+}

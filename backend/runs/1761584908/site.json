@@ -1,0 +1,48 @@
+{
+  "baseUrl": "https://www.northshoreexteriorupkeep.com/",
+  "nav": [
+    {
+      "id": "f0088eab",
+      "label": "Home",
+      "href": "https://www.northshoreexteriorupkeep.com/home",
+      "order": 0,
+      "path": "/home",
+      "children": []
+    },
+    {
+      "id": "a608c4dd",
+      "label": "Services",
+      "href": "https://www.northshoreexteriorupkeep.com/services",
+      "order": 1,
+      "path": "/services",
+      "children": []
+    },
+    {
+      "id": "78dcb4d7",
+      "label": "Our work",
+      "href": "https://www.northshoreexteriorupkeep.com/our-work",
+      "order": 2,
+      "path": "/our-work",
+      "children": []
+    },
+    {
+      "id": "89ce603b",
+      "label": "Contact Us",
+      "href": "https://www.northshoreexteriorupkeep.com/contact-us",
+      "order": 3,
+      "path": "/contact-us",
+      "children": []
+    }
+  ],
+  "footer": {
+    "columns": [],
+    "socials": [],
+    "contact": {
+      "email": "northshoreexteriorupkeep@gmail.com",
+      "phone": " 9853637887"
+    }
+  },
+  "brand": {
+    "name": "Call us at (985)662-8005"
+  }
+}

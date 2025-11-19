@@ -1,0 +1,55 @@
+{
+  "url": "https://www.walmart.com/blocked?url=L2lwL01PU0hVLVR3by1QaWVjZS1Xb21lbnMtUGFqYW1hLVNldHMtQnV0dG9uLURvd24tU2hpcnRzLWFuZC1EcmF3c3RyaW5nLVBhbnRzLXdpdGgtUG9ja2V0cy1Tb2xpZC1Mb3VuZ2UtU2V0cy1mb3ItV29tZW4vNzE0NDU1ODg5OD9hdGhBc3NldD1leUpoZEdoamNHbGtJam9pTnpFME5EVTFPRGc1T0NJc0ltRjBhSE4wYVdRaU9pSkRVekF5TUNJc0ltRjBhR0Z1WTJsa0lqb2lTWFJsYlVOaGNtOTFjMlZzSWl3aVlYUm9jbXNpT2pBdU1IMD0mYXRoZW5hPXRydWU=&uuid=96d1454f-bfd4-11f0-afbf-560004e6c541&vid=&g=b",
+  "path": "/blocked",
+  "status": 200,
+  "title": "Robot or human?",
+  "description": "Activate and hold the button to confirm that you\u2019re human. Thank You!",
+  "canonical": "https://www.walmart.com/blocked?url=L2lwL01PU0hVLVR3by1QaWVjZS1Xb21lbnMtUGFqYW1hLVNldHMtQnV0dG9uLURvd24tU2hpcnRzLWFuZC1EcmF3c3RyaW5nLVBhbnRzLXdpdGgtUG9ja2V0cy1Tb2xpZC1Mb3VuZ2UtU2V0cy1mb3ItV29tZW4vNzE0NDU1ODg5OD9hdGhBc3NldD1leUpoZEdoamNHbGtJam9pTnpFME5EVTFPRGc1T0NJc0ltRjBhSE4wYVdRaU9pSkRVekF5TUNJc0ltRjBhR0Z1WTJsa0lqb2lTWFJsYlVOaGNtOTFjMlZzSWl3aVlYUm9jbXNpT2pBdU1IMD0mYXRoZW5hPXRydWU=&uuid=96d1454f-bfd4-11f0-afbf-560004e6c541&vid=&g=b",
+  "media": {
+    "images": [],
+    "videos": [],
+    "gifs": []
+  },
+  "files": [],
+  "words": {
+    "headings": [
+      {
+        "tag": "h1",
+        "text": "Robot or human?"
+      }
+    ],
+    "paragraphs": [
+      "Activate and hold the button to confirm that you\u2019re human. Thank You!",
+      "\u00a9 Walmart Stores, Inc."
+    ],
+    "wordCount": 16
+  },
+  "links": {
+    "internal": [
+      {
+        "label": "",
+        "href": "https://www.walmart.com/"
+      },
+      {
+        "label": "Do Not Sell My Personal Information",
+        "href": "https://www.walmart.com/account/api/ccpa-intake?native=false&type=sod"
+      },
+      {
+        "label": "Request My Personal Information",
+        "href": "https://www.walmart.com/account/api/ccpa-intake?native=false&type=access"
+      }
+    ],
+    "external": [
+      {
+        "label": "Terms of Use",
+        "href": "https://help.walmart.com/app/answers/detail/a_id/8"
+      },
+      {
+        "label": "Privacy Policy",
+        "href": "https://corporate.walmart.com/privacy-security"
+      }
+    ],
+    "broken": []
+  },
+  "extractedAt": "2025-11-12T14:33:43Z"
+}

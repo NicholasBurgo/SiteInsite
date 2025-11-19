@@ -1,0 +1,55 @@
+{
+  "url": "https://www.walmart.com/blocked?url=L2NwL3RoZS13ZWxsbmVzcy1odWIvNTUyMzA5ND9hdGhBc3NldD1leUpoZEdoamNHbGtJam9pT1dRMFpqbGlPVEV0TTJRMllpMDBOVFZoTFdKalpqVXRNemRsT1dNMk56a3hNR05qSWl3aVlXVjNjaUk2SWsxUVgwTlVVaUo5JmF0aGVuYT10cnVl&uuid=96cef751-bfd4-11f0-a456-3f2a21760b2e&vid=&g=b",
+  "path": "/blocked",
+  "status": 200,
+  "title": "Robot or human?",
+  "description": "Activate and hold the button to confirm that you\u2019re human. Thank You!",
+  "canonical": "https://www.walmart.com/blocked?url=L2NwL3RoZS13ZWxsbmVzcy1odWIvNTUyMzA5ND9hdGhBc3NldD1leUpoZEdoamNHbGtJam9pT1dRMFpqbGlPVEV0TTJRMllpMDBOVFZoTFdKalpqVXRNemRsT1dNMk56a3hNR05qSWl3aVlXVjNjaUk2SWsxUVgwTlVVaUo5JmF0aGVuYT10cnVl&uuid=96cef751-bfd4-11f0-a456-3f2a21760b2e&vid=&g=b",
+  "media": {
+    "images": [],
+    "videos": [],
+    "gifs": []
+  },
+  "files": [],
+  "words": {
+    "headings": [
+      {
+        "tag": "h1",
+        "text": "Robot or human?"
+      }
+    ],
+    "paragraphs": [
+      "Activate and hold the button to confirm that you\u2019re human. Thank You!",
+      "\u00a9 Walmart Stores, Inc."
+    ],
+    "wordCount": 16
+  },
+  "links": {
+    "internal": [
+      {
+        "label": "",
+        "href": "https://www.walmart.com/"
+      },
+      {
+        "label": "Do Not Sell My Personal Information",
+        "href": "https://www.walmart.com/account/api/ccpa-intake?native=false&type=sod"
+      },
+      {
+        "label": "Request My Personal Information",
+        "href": "https://www.walmart.com/account/api/ccpa-intake?native=false&type=access"
+      }
+    ],
+    "external": [
+      {
+        "label": "Terms of Use",
+        "href": "https://help.walmart.com/app/answers/detail/a_id/8"
+      },
+      {
+        "label": "Privacy Policy",
+        "href": "https://corporate.walmart.com/privacy-security"
+      }
+    ],
+    "broken": []
+  },
+  "extractedAt": "2025-11-12T14:33:43Z"
+}

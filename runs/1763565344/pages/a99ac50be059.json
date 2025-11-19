@@ -1,0 +1,837 @@
+{
+  "url": "https://www.foxnews.com/books",
+  "path": "/books",
+  "status": 200,
+  "title": "Fox News Books | Order Now!",
+  "description": "Fox News Books provides readers with compelling stories from their favorite Fox News personalities. Explore new book releases, bestsellers & true life stories that will make you crave more.",
+  "canonical": "https://www.foxnews.com/books",
+  "media": {
+    "images": [
+      {
+        "url": "https://marketing.foxnews.com/app/themes/marketing/img/books/logo-fnbooks-linear.svg",
+        "alt": "Fox News Books logo",
+        "width": 223,
+        "height": null
+      },
+      {
+        "url": "https://static.foxnews.com/marketing.foxnews.com/content/uploads/bk-mau-desktop.png",
+        "alt": "",
+        "width": null,
+        "height": null
+      },
+      {
+        "url": "https://static.foxnews.com/marketing.foxnews.com/content/uploads/bk-tcod-desktop-2.png",
+        "alt": "",
+        "width": null,
+        "height": null
+      },
+      {
+        "url": "https://static.foxnews.com/marketing.foxnews.com/content/uploads/400-bk-btb.jpg",
+        "alt": "",
+        "width": null,
+        "height": null
+      },
+      {
+        "url": "https://static.foxnews.com/marketing.foxnews.com/content/uploads/bk-iwshtm-desktop.jpg",
+        "alt": "",
+        "width": null,
+        "height": null
+      },
+      {
+        "url": "https://static.foxnews.com/marketing.foxnews.com/content/uploads/bk-resolute-desktop.jpg",
+        "alt": "",
+        "width": null,
+        "height": null
+      },
+      {
+        "url": "https://static.foxnews.com/marketing.foxnews.com/content/uploads/bk-uhs-nyt-desktop.jpg",
+        "alt": "",
+        "width": null,
+        "height": null
+      },
+      {
+        "url": "https://static.foxnews.com/marketing.foxnews.com/content/uploads/bk-black-saturday-desktop.jpg",
+        "alt": "",
+        "width": null,
+        "height": null
+      },
+      {
+        "url": "https://static.foxnews.com/marketing.foxnews.com/content/uploads/400-bk-war-on-warriors.jpg",
+        "alt": "The War on Warriors: Behind the Betrayal of the Men Who Keep Us Free by Pete Hegseth",
+        "width": null,
+        "height": null
+      },
+      {
+        "url": "https://static.foxnews.com/marketing.foxnews.com/content/uploads/400-bk-lovemom.jpg",
+        "alt": "Love, Mom: Inspiring Stories Celebrating Motherhood by Nicole Saphier, MD",
+        "width": null,
+        "height": null
+      },
+      {
+        "url": "https://static.foxnews.com/marketing.foxnews.com/content/uploads/400-bk-ccd-nyt.jpg",
+        "alt": "Cancel Culture Dictionary: An A to Z Guide to Winning the War on Fun by Jimmy Failla",
+        "width": null,
+        "height": null
+      },
+      {
+        "url": "https://static.foxnews.com/marketing.foxnews.com/content/uploads/400-bk-lovestoriescb.jpg",
+        "alt": "The Love Stories of the Bible Speak Coloring Book by Shannon Bream",
+        "width": null,
+        "height": null
+      },
+      {
+        "url": "https://static.foxnews.com/marketing.foxnews.com/content/uploads/400-bk-cooking-with-friends.jpg",
+        "alt": "Cooking with Friends, by Carley Shimkus",
+        "width": null,
+        "height": null
+      },
+      {
+        "url": "https://static.foxnews.com/marketing.foxnews.com/content/uploads/400-bk-mdotbscb.jpg",
+        "alt": "The Mothers and Daughters of the Bible Speak, by Shannon Bream",
+        "width": null,
+        "height": null
+      },
+      {
+        "url": "https://static.foxnews.com/marketing.foxnews.com/content/uploads/400-bk-unbroken.jpg",
+        "alt": "Unbroken Bonds of Battle: A Book of Heroism, Patriotism, and Friendship by Johnny Joey Jones",
+        "width": null,
+        "height": null
+      },
+      {
+        "url": "https://static.foxnews.com/marketing.foxnews.com/content/uploads/400-bk-lovestories.png",
+        "alt": "The Love Stories of the Bible Speak Biblical Lessons on Romance, Friendship, and Faith by Shannon Bream",
+        "width": null,
+        "height": null
+      },
+      {
+        "url": "https://static.foxnews.com/marketing.foxnews.com/content/uploads/400-bk-lovestorieswb.jpg",
+        "alt": "The Love Stories of the Bible Speak Workbook 13 Biblical Lessons on Romance, Friendship, and Faith by Shannon Bream",
+        "width": null,
+        "height": null
+      },
+      {
+        "url": "https://static.foxnews.com/marketing.foxnews.com/content/uploads/400-bk-saved.jpg",
+        "alt": "Saved A War Reporter's Mission to Make It Home by Benjamin Hall",
+        "width": null,
+        "height": null
+      },
+      {
+        "url": "https://static.foxnews.com/marketing.foxnews.com/content/uploads/400-bk-wotbscb.jpg",
+        "alt": "The Women of the Bible Speak Coloring Book Color and Contemplate by Shannon Bream",
+        "width": null,
+        "height": null
+      },
+      {
+        "url": "https://static.foxnews.com/marketing.foxnews.com/content/uploads/400-bk-faith.png",
+        "alt": "Faith Still Moves Mountains Miraculous Stories of the Healing Power of Prayer by Harris Faulkner",
+        "width": null,
+        "height": null
+      },
+      {
+        "url": "https://static.foxnews.com/marketing.foxnews.com/content/uploads/400-bk-mdotbsw.jpg",
+        "alt": "The Mothers and Daughters of the Bible Speak Workbook Lessons on Faith from Nine Biblical Families by Shannon Bream",
+        "width": null,
+        "height": null
+      },
+      {
+        "url": "https://static.foxnews.com/marketing.foxnews.com/content/uploads/400-bk-mothers.jpg",
+        "alt": "The Mothers and Daughters of the Bible Speak Lessons on Faith from Nine Biblical Families by Shannon Bream",
+        "width": null,
+        "height": null
+      },
+      {
+        "url": "https://static.foxnews.com/marketing.foxnews.com/content/uploads/400-bk-wotbsw.jpg",
+        "alt": "The Women of the Bible Speak Workbook The Wisdom of 16 Women and Their Lessons for Today by Shannon Bream",
+        "width": null,
+        "height": null
+      },
+      {
+        "url": "https://static.foxnews.com/marketing.foxnews.com/content/uploads/400-bk-wotbs.jpg",
+        "alt": "The Women of the Bible Speak The Wisdom of 16 Women and Their Lessons for Today by Shannon Bream",
+        "width": null,
+        "height": null
+      },
+      {
+        "url": "https://static.foxnews.com/marketing.foxnews.com/content/uploads/400-bk-modernwarrior.jpg",
+        "alt": "Modern Warriors Real Stories from Real Heroes by Pete Hegseth",
+        "width": null,
+        "height": null
+      },
+      {
+        "url": "https://static.foxnews.com/marketing.foxnews.com/content/uploads/400-bk-aachristmas.jpg",
+        "alt": "All American Christmas a heart-warming Christmas Story and Memory Collection by Rachel Campos-Duffy and Sean Duffy",
+        "width": null,
+        "height": null
+      },
+      {
+        "url": "https://marketing.foxnews.com/app/themes/marketing/img/books/logo-fnbooks.svg",
+        "alt": "Fox News Books",
+        "width": null,
+        "height": null
+      }
+    ],
+    "videos": [],
+    "gifs": []
+  },
+  "files": [],
+  "words": {
+    "headings": [
+      {
+        "tag": "h1",
+        "text": "Fox News Books"
+      },
+      {
+        "tag": "h2",
+        "text": "The Miracles Among Us"
+      },
+      {
+        "tag": "h2",
+        "text": "Featured Books"
+      },
+      {
+        "tag": "h3",
+        "text": "The Miracles Among Us"
+      },
+      {
+        "tag": "h3",
+        "text": "The Color of Death"
+      },
+      {
+        "tag": "h3",
+        "text": "Behind the Badge"
+      },
+      {
+        "tag": "h3",
+        "text": "I Wish Someone Had Told Me..."
+      },
+      {
+        "tag": "h3",
+        "text": "Resolute"
+      },
+      {
+        "tag": "h3",
+        "text": "Under His Wings"
+      },
+      {
+        "tag": "h3",
+        "text": "Black Saturday"
+      },
+      {
+        "tag": "h3",
+        "text": "The War on Warriors"
+      },
+      {
+        "tag": "h3",
+        "text": "Love, Mom"
+      },
+      {
+        "tag": "h3",
+        "text": "Cancel Culture Dictionary"
+      },
+      {
+        "tag": "h3",
+        "text": "The Love Stories of the Bible Speak Coloring Book"
+      },
+      {
+        "tag": "h3",
+        "text": "Cooking with Friends"
+      },
+      {
+        "tag": "h3",
+        "text": "The Mothers and Daughters of the Bible Speak Coloring Book"
+      },
+      {
+        "tag": "h3",
+        "text": "Unbroken Bonds of Battle"
+      },
+      {
+        "tag": "h3",
+        "text": "The Love Stories of the Bible Speak"
+      },
+      {
+        "tag": "h3",
+        "text": "The Love Stories of the Bible Speak Workbook"
+      },
+      {
+        "tag": "h3",
+        "text": "Saved"
+      },
+      {
+        "tag": "h3",
+        "text": "The Women of the Bible Speak Coloring Book"
+      },
+      {
+        "tag": "h3",
+        "text": "Faith Still Moves Mountains"
+      },
+      {
+        "tag": "h3",
+        "text": "The Mothers and Daughters of the Bible Speak Workbook"
+      },
+      {
+        "tag": "h3",
+        "text": "The Mothers and Daughters of the Bible Speak"
+      },
+      {
+        "tag": "h3",
+        "text": "The Women of the Bible Speak Workbook"
+      },
+      {
+        "tag": "h3",
+        "text": "The Women of the Bible Speak"
+      },
+      {
+        "tag": "h3",
+        "text": "Modern Warriors"
+      },
+      {
+        "tag": "h3",
+        "text": "All American Christmas"
+      },
+      {
+        "tag": "h2",
+        "text": "About FOX News Books"
+      }
+    ],
+    "paragraphs": [
+      "How God's Grace Plays a Role in Healing",
+      "by Nicole Saphier, MD",
+      "by Rachel Campos-Duffy and Sean Duffy",
+      "FOX News Books features titles from FOX News personalities, including FOX & Friends First co-host Carley Shimkus, FOX News Sunday anchor Shannon Bream, The Faulkner Focus and Outnumbered host Harris Faulkner, and others. HarperCollins' Broadside Books oversees the publishing program.",
+      "Trademark & Copyright Notice: \u2122 and \u00a9 2025 FOX News Network, LLC. All rights reserved.Use of this Website (including any and all parts and components) constitutes your acceptance of these Updated Terms of Use and Updated Privacy Policy. Your Privacy Choices"
+    ],
+    "wordCount": 99
+  },
+  "links": {
+    "internal": [
+      {
+        "label": "",
+        "href": "https://www.foxnews.com/books"
+      },
+      {
+        "label": "Home",
+        "href": "https://www.foxnews.com/books"
+      },
+      {
+        "label": "The Miracles Among Us",
+        "href": "https://www.foxnews.com/books/the-miracles-among-us"
+      },
+      {
+        "label": "The Color of Death",
+        "href": "https://www.foxnews.com/books/the-color-of-death"
+      },
+      {
+        "label": "Behind the Badge",
+        "href": "https://www.foxnews.com/books/behind-the-badge"
+      },
+      {
+        "label": "I Wish Someone Had Told Me...",
+        "href": "https://www.foxnews.com/books/i-wish-someone-had-told-me"
+      },
+      {
+        "label": "Resolute",
+        "href": "https://www.foxnews.com/books/resolute"
+      },
+      {
+        "label": "Under His Wings",
+        "href": "https://www.foxnews.com/books/under-his-wings"
+      },
+      {
+        "label": "Black Saturday",
+        "href": "https://www.foxnews.com/books/black-saturday"
+      },
+      {
+        "label": "The War on Warriors",
+        "href": "https://www.foxnews.com/books/the-war-on-warriors"
+      },
+      {
+        "label": "Love, Mom",
+        "href": "https://www.foxnews.com/books/love-mom"
+      },
+      {
+        "label": "Cancel Culture Dictionary",
+        "href": "https://www.foxnews.com/books/cancel-culture-dictionary"
+      },
+      {
+        "label": "Cooking with Friends",
+        "href": "https://www.foxnews.com/books/cooking-with-friends"
+      },
+      {
+        "label": "The Love Stories of the Bible Speak Coloring Book",
+        "href": "https://www.foxnews.com/books/the-love-stories-of-the-bible-speak-coloring-book"
+      },
+      {
+        "label": "The Mothers and Daughters of the Bible Speak Coloring Book",
+        "href": "https://www.foxnews.com/books/the-mothers-and-daughters-of-the-bible-speak-coloring-book"
+      },
+      {
+        "label": "Unbroken Bonds of Battle",
+        "href": "https://www.foxnews.com/books/unbroken-bonds-of-battle"
+      },
+      {
+        "label": "The Love Stories of the Bible Speak",
+        "href": "https://www.foxnews.com/books/the-love-stories-of-the-bible-speak"
+      },
+      {
+        "label": "The Love Stories of the Bible Speak Workbook",
+        "href": "https://www.foxnews.com/books/the-love-stories-of-the-bible-speak-workbook"
+      },
+      {
+        "label": "Saved",
+        "href": "https://www.foxnews.com/books/saved"
+      },
+      {
+        "label": "The Women of the Bible Speak Coloring Book",
+        "href": "https://www.foxnews.com/books/the-women-of-the-bible-speak-coloring-book"
+      },
+      {
+        "label": "Faith Still Moves Mountains",
+        "href": "https://www.foxnews.com/books/faith-still-moves-mountains"
+      },
+      {
+        "label": "The Mothers and Daughters of the Bible Speak Workbook",
+        "href": "https://www.foxnews.com/books/the-mothers-and-daughters-of-the-bible-speak-workbook"
+      },
+      {
+        "label": "The Mothers and Daughters of the Bible Speak",
+        "href": "https://www.foxnews.com/books/the-mothers-and-daughters-of-the-bible-speak"
+      },
+      {
+        "label": "The Women of the Bible Speak Workbook",
+        "href": "https://www.foxnews.com/books/the-women-of-the-bible-speak-workbook"
+      },
+      {
+        "label": "The Women of the Bible Speak",
+        "href": "https://www.foxnews.com/books/the-women-of-the-bible-speak"
+      },
+      {
+        "label": "Modern Warriors",
+        "href": "https://www.foxnews.com/books/modern-warriors"
+      },
+      {
+        "label": "All American Christmas",
+        "href": "https://www.foxnews.com/books/all-american-christmas"
+      },
+      {
+        "label": "Order Now",
+        "href": "https://www.foxnews.com/books/the-miracles-among-us"
+      },
+      {
+        "label": "",
+        "href": "https://www.foxnews.com/books/the-miracles-among-us"
+      },
+      {
+        "label": "The Miracles Among Us",
+        "href": "https://www.foxnews.com/books/the-miracles-among-us"
+      },
+      {
+        "label": "by Dr. Marc Siegel",
+        "href": "https://www.foxnews.com/books/the-miracles-among-us"
+      },
+      {
+        "label": "Order Now",
+        "href": "https://www.foxnews.com/books/the-miracles-among-us"
+      },
+      {
+        "label": "",
+        "href": "https://www.foxnews.com/books/the-color-of-death"
+      },
+      {
+        "label": "The Color of Death",
+        "href": "https://www.foxnews.com/books/the-color-of-death"
+      },
+      {
+        "label": "by Trey Gowdy",
+        "href": "https://www.foxnews.com/books/the-color-of-death"
+      },
+      {
+        "label": "Order Now",
+        "href": "https://www.foxnews.com/books/the-color-of-death"
+      },
+      {
+        "label": "",
+        "href": "https://www.foxnews.com/books/behind-the-badge"
+      },
+      {
+        "label": "Behind the Badge",
+        "href": "https://www.foxnews.com/books/behind-the-badge"
+      },
+      {
+        "label": "by Johnny Joey Jones",
+        "href": "https://www.foxnews.com/books/behind-the-badge"
+      },
+      {
+        "label": "Order Now",
+        "href": "https://www.foxnews.com/books/behind-the-badge"
+      },
+      {
+        "label": "",
+        "href": "https://www.foxnews.com/books/i-wish-someone-had-told-me"
+      },
+      {
+        "label": "I Wish Someone Had Told Me...",
+        "href": "https://www.foxnews.com/books/i-wish-someone-had-told-me"
+      },
+      {
+        "label": "by Dana Perino",
+        "href": "https://www.foxnews.com/books/i-wish-someone-had-told-me"
+      },
+      {
+        "label": "Order Now",
+        "href": "https://www.foxnews.com/books/i-wish-someone-had-told-me"
+      },
+      {
+        "label": "",
+        "href": "https://www.foxnews.com/books/resolute"
+      },
+      {
+        "label": "Resolute",
+        "href": "https://www.foxnews.com/books/resolute"
+      },
+      {
+        "label": "by Benjamin Hall",
+        "href": "https://www.foxnews.com/books/resolute"
+      },
+      {
+        "label": "Order Now",
+        "href": "https://www.foxnews.com/books/resolute"
+      },
+      {
+        "label": "",
+        "href": "https://www.foxnews.com/books/under-his-wings"
+      },
+      {
+        "label": "Under His Wings",
+        "href": "https://www.foxnews.com/books/under-his-wings"
+      },
+      {
+        "label": "by Emily Compagno",
+        "href": "https://www.foxnews.com/books/under-his-wings"
+      },
+      {
+        "label": "Order Now",
+        "href": "https://www.foxnews.com/books/under-his-wings"
+      },
+      {
+        "label": "",
+        "href": "https://www.foxnews.com/books/black-saturday"
+      },
+      {
+        "label": "Black Saturday",
+        "href": "https://www.foxnews.com/books/black-saturday"
+      },
+      {
+        "label": "by Trey Yingst",
+        "href": "https://www.foxnews.com/books/black-saturday"
+      },
+      {
+        "label": "Order Now",
+        "href": "https://www.foxnews.com/books/black-saturday"
+      },
+      {
+        "label": "",
+        "href": "https://www.foxnews.com/books/the-war-on-warriors"
+      },
+      {
+        "label": "The War on Warriors",
+        "href": "https://www.foxnews.com/books/the-war-on-warriors"
+      },
+      {
+        "label": "by Pete Hegseth",
+        "href": "https://www.foxnews.com/books/the-war-on-warriors"
+      },
+      {
+        "label": "Order Now",
+        "href": "https://www.foxnews.com/books/the-war-on-warriors"
+      },
+      {
+        "label": "",
+        "href": "https://www.foxnews.com/books/love-mom"
+      },
+      {
+        "label": "Love, Mom",
+        "href": "https://www.foxnews.com/books/love-mom"
+      },
+      {
+        "label": "by Nicole Saphier, MD",
+        "href": "https://www.foxnews.com/books/love-mom"
+      },
+      {
+        "label": "Order Now",
+        "href": "https://www.foxnews.com/books/love-mom"
+      },
+      {
+        "label": "",
+        "href": "https://www.foxnews.com/books/cancel-culture-dictionary"
+      },
+      {
+        "label": "Cancel Culture Dictionary",
+        "href": "https://www.foxnews.com/books/cancel-culture-dictionary"
+      },
+      {
+        "label": "by Jimmy Failla",
+        "href": "https://www.foxnews.com/books/cancel-culture-dictionary"
+      },
+      {
+        "label": "Order Now",
+        "href": "https://www.foxnews.com/books/cancel-culture-dictionary"
+      },
+      {
+        "label": "",
+        "href": "https://www.foxnews.com/books/the-love-stories-of-the-bible-speak-coloring-book"
+      },
+      {
+        "label": "The Love Stories of the Bible Speak Coloring Book",
+        "href": "https://www.foxnews.com/books/the-love-stories-of-the-bible-speak-coloring-book"
+      },
+      {
+        "label": "by Shannon Bream",
+        "href": "https://www.foxnews.com/books/the-love-stories-of-the-bible-speak-coloring-book"
+      },
+      {
+        "label": "Order Now",
+        "href": "https://www.foxnews.com/books/the-love-stories-of-the-bible-speak-coloring-book"
+      },
+      {
+        "label": "",
+        "href": "https://www.foxnews.com/books/cooking-with-friends"
+      },
+      {
+        "label": "Cooking with Friends",
+        "href": "https://www.foxnews.com/books/cooking-with-friends"
+      },
+      {
+        "label": "by Carley Shimkus",
+        "href": "https://www.foxnews.com/books/cooking-with-friends"
+      },
+      {
+        "label": "Order Now",
+        "href": "https://www.foxnews.com/books/cooking-with-friends"
+      },
+      {
+        "label": "",
+        "href": "https://www.foxnews.com/books/the-mothers-and-daughters-of-the-bible-speak-coloring-book"
+      },
+      {
+        "label": "The Mothers and Daughters of the Bible Speak Coloring Book",
+        "href": "https://www.foxnews.com/books/the-mothers-and-daughters-of-the-bible-speak-coloring-book"
+      },
+      {
+        "label": "by Shannon Bream",
+        "href": "https://www.foxnews.com/books/the-mothers-and-daughters-of-the-bible-speak-coloring-book"
+      },
+      {
+        "label": "Order Now",
+        "href": "https://www.foxnews.com/books/the-mothers-and-daughters-of-the-bible-speak-coloring-book"
+      },
+      {
+        "label": "",
+        "href": "https://www.foxnews.com/books/unbroken-bonds-of-battle"
+      },
+      {
+        "label": "Unbroken Bonds of Battle",
+        "href": "https://www.foxnews.com/books/unbroken-bonds-of-battle"
+      },
+      {
+        "label": "by Johnny Joey Jones",
+        "href": "https://www.foxnews.com/books/unbroken-bonds-of-battle"
+      },
+      {
+        "label": "Order Now",
+        "href": "https://www.foxnews.com/books/unbroken-bonds-of-battle"
+      },
+      {
+        "label": "",
+        "href": "https://www.foxnews.com/books/the-love-stories-of-the-bible-speak"
+      },
+      {
+        "label": "The Love Stories of the Bible Speak",
+        "href": "https://www.foxnews.com/books/the-love-stories-of-the-bible-speak"
+      },
+      {
+        "label": "by Shannon Bream",
+        "href": "https://www.foxnews.com/books/the-love-stories-of-the-bible-speak"
+      },
+      {
+        "label": "Order Now",
+        "href": "https://www.foxnews.com/books/the-love-stories-of-the-bible-speak"
+      },
+      {
+        "label": "",
+        "href": "https://www.foxnews.com/books/the-love-stories-of-the-bible-speak-workbook"
+      },
+      {
+        "label": "The Love Stories of the Bible Speak Workbook",
+        "href": "https://www.foxnews.com/books/the-love-stories-of-the-bible-speak-workbook"
+      },
+      {
+        "label": "by Shannon Bream",
+        "href": "https://www.foxnews.com/books/the-love-stories-of-the-bible-speak-workbook"
+      },
+      {
+        "label": "Order Now",
+        "href": "https://www.foxnews.com/books/the-love-stories-of-the-bible-speak-workbook"
+      },
+      {
+        "label": "",
+        "href": "https://www.foxnews.com/books/saved"
+      },
+      {
+        "label": "Saved",
+        "href": "https://www.foxnews.com/books/saved"
+      },
+      {
+        "label": "by Benjamin Hall",
+        "href": "https://www.foxnews.com/books/saved"
+      },
+      {
+        "label": "Order Now",
+        "href": "https://www.foxnews.com/books/saved"
+      },
+      {
+        "label": "",
+        "href": "https://www.foxnews.com/books/the-women-of-the-bible-speak-coloring-book"
+      },
+      {
+        "label": "The Women of the Bible Speak Coloring Book",
+        "href": "https://www.foxnews.com/books/the-women-of-the-bible-speak-coloring-book"
+      },
+      {
+        "label": "by Shannon Bream",
+        "href": "https://www.foxnews.com/books/the-women-of-the-bible-speak-coloring-book"
+      },
+      {
+        "label": "Order Now",
+        "href": "https://www.foxnews.com/books/the-women-of-the-bible-speak-coloring-book"
+      },
+      {
+        "label": "",
+        "href": "https://www.foxnews.com/books/faith-still-moves-mountains"
+      },
+      {
+        "label": "Faith Still Moves Mountains",
+        "href": "https://www.foxnews.com/books/faith-still-moves-mountains"
+      },
+      {
+        "label": "by Harris Faulkner",
+        "href": "https://www.foxnews.com/books/faith-still-moves-mountains"
+      },
+      {
+        "label": "Order Now",
+        "href": "https://www.foxnews.com/books/faith-still-moves-mountains"
+      },
+      {
+        "label": "",
+        "href": "https://www.foxnews.com/books/the-mothers-and-daughters-of-the-bible-speak-workbook"
+      },
+      {
+        "label": "The Mothers and Daughters of the Bible Speak Workbook",
+        "href": "https://www.foxnews.com/books/the-mothers-and-daughters-of-the-bible-speak-workbook"
+      },
+      {
+        "label": "by Shannon Bream",
+        "href": "https://www.foxnews.com/books/the-mothers-and-daughters-of-the-bible-speak-workbook"
+      },
+      {
+        "label": "Order Now",
+        "href": "https://www.foxnews.com/books/the-mothers-and-daughters-of-the-bible-speak-workbook"
+      },
+      {
+        "label": "",
+        "href": "https://www.foxnews.com/books/the-mothers-and-daughters-of-the-bible-speak"
+      },
+      {
+        "label": "The Mothers and Daughters of the Bible Speak",
+        "href": "https://www.foxnews.com/books/the-mothers-and-daughters-of-the-bible-speak"
+      },
+      {
+        "label": "by Shannon Bream",
+        "href": "https://www.foxnews.com/books/the-mothers-and-daughters-of-the-bible-speak"
+      },
+      {
+        "label": "Order Now",
+        "href": "https://www.foxnews.com/books/the-mothers-and-daughters-of-the-bible-speak"
+      },
+      {
+        "label": "",
+        "href": "https://www.foxnews.com/books/the-women-of-the-bible-speak-workbook"
+      },
+      {
+        "label": "The Women of the Bible Speak Workbook",
+        "href": "https://www.foxnews.com/books/the-women-of-the-bible-speak-workbook"
+      },
+      {
+        "label": "by Shannon Bream",
+        "href": "https://www.foxnews.com/books/the-women-of-the-bible-speak-workbook"
+      },
+      {
+        "label": "Order Now",
+        "href": "https://www.foxnews.com/books/the-women-of-the-bible-speak-workbook"
+      },
+      {
+        "label": "",
+        "href": "https://www.foxnews.com/books/the-women-of-the-bible-speak"
+      },
+      {
+        "label": "The Women of the Bible Speak",
+        "href": "https://www.foxnews.com/books/the-women-of-the-bible-speak"
+      },
+      {
+        "label": "by Shannon Bream",
+        "href": "https://www.foxnews.com/books/the-women-of-the-bible-speak"
+      },
+      {
+        "label": "Order Now",
+        "href": "https://www.foxnews.com/books/the-women-of-the-bible-speak"
+      },
+      {
+        "label": "",
+        "href": "https://www.foxnews.com/books/modern-warriors"
+      },
+      {
+        "label": "Modern Warriors",
+        "href": "https://www.foxnews.com/books/modern-warriors"
+      },
+      {
+        "label": "by Pete Hegseth",
+        "href": "https://www.foxnews.com/books/modern-warriors"
+      },
+      {
+        "label": "Order Now",
+        "href": "https://www.foxnews.com/books/modern-warriors"
+      },
+      {
+        "label": "",
+        "href": "https://www.foxnews.com/books/all-american-christmas"
+      },
+      {
+        "label": "All American Christmas",
+        "href": "https://www.foxnews.com/books/all-american-christmas"
+      },
+      {
+        "label": "by Rachel Campos-Duffy and Sean Duffy",
+        "href": "https://www.foxnews.com/books/all-american-christmas"
+      },
+      {
+        "label": "Order Now",
+        "href": "https://www.foxnews.com/books/all-american-christmas"
+      },
+      {
+        "label": "Updated Terms of Use",
+        "href": "https://www.foxnews.com/terms-of-use"
+      },
+      {
+        "label": "Updated Privacy Policy",
+        "href": "https://www.foxnews.com/privacy-policy"
+      }
+    ],
+    "external": [
+      {
+        "label": "Your Privacy Choices",
+        "href": "https://privacy.foxnews.com/main/web/main"
+      }
+    ],
+    "broken": []
+  },
+  "extractedAt": "2025-11-19T15:15:45Z"
+}

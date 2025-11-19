@@ -1,0 +1,226 @@
+{
+  "url": "https://www.walmart.com/my-items",
+  "path": "/my-items",
+  "status": 200,
+  "title": "Walmart.com | My Items",
+  "description": "Your essentials will show up here for quick and easy reordering",
+  "canonical": "https://www.walmart.com/my-items",
+  "media": {
+    "images": [
+      {
+        "url": "https://i5.walmartimages.com/dfw/63fd9f59-14e2/9d304ce6-96de-4331-b8ec-c5191226d378/v1/spark-icon.svg",
+        "alt": "Walmart",
+        "width": 36,
+        "height": null
+      },
+      {
+        "url": "https://i5.walmartimages.com/dfw/4ff9c6c9-ad46/k2-_0a671c38-d307-447c-835e-7904ab143c26.v1.png",
+        "alt": "Banner title icon",
+        "width": 32,
+        "height": 32
+      },
+      {
+        "url": "https://i5.walmartimages.com/dfw/63fd9f59-30b3/629cc93a-dae2-4b74-afd7-faecce345c85/v1/wplus-indigo-rebrand-bug.svg",
+        "alt": "Walmart+",
+        "width": 16,
+        "height": 16
+      },
+      {
+        "url": "https://i5.walmartimages.com/dfw/4ff9c6c9-7717/k2-_a9270c7b-5e8d-47d5-a049-b477a2d87f05.v1.png",
+        "alt": "Sign out",
+        "width": 100,
+        "height": 100
+      },
+      {
+        "url": "https://i5.walmartimages.com/dfw/63fd9f59-4be1/0e321069-d42a-42ae-9b17-6987bf35d3ad/v1/privacy-choices-dweb.png",
+        "alt": "Privacy choices icon",
+        "width": 29,
+        "height": 14
+      }
+    ],
+    "videos": [],
+    "gifs": []
+  },
+  "files": [],
+  "words": {
+    "headings": [
+      {
+        "tag": "h1",
+        "text": "My Items"
+      }
+    ],
+    "paragraphs": [
+      "Your essentials will show up here for quick and easy reordering",
+      "We\u2019d love to hear what you think!"
+    ],
+    "wordCount": 18
+  },
+  "links": {
+    "internal": [
+      {
+        "label": "",
+        "href": "https://www.walmart.com/all-departments"
+      },
+      {
+        "label": "",
+        "href": "https://www.walmart.com/"
+      },
+      {
+        "label": "",
+        "href": "https://www.walmart.com/"
+      },
+      {
+        "label": "ReorderMy Items",
+        "href": "https://www.walmart.com/my-items"
+      },
+      {
+        "label": "Reorder",
+        "href": "https://www.walmart.com/my-items"
+      },
+      {
+        "label": "Lists",
+        "href": "https://www.walmart.com/lists"
+      },
+      {
+        "label": "Registries",
+        "href": "https://www.walmart.com/my-registries"
+      },
+      {
+        "label": "Sign InAccount",
+        "href": "https://www.walmart.com/"
+      },
+      {
+        "label": "Sign in or create account",
+        "href": "https://www.walmart.com/"
+      },
+      {
+        "label": "Purchase History",
+        "href": "https://www.walmart.com/orders"
+      },
+      {
+        "label": "Walmart+",
+        "href": "https://www.walmart.com/plus"
+      },
+      {
+        "label": "Subscriptions",
+        "href": "https://www.walmart.com/cp/subscriptions/4191733"
+      },
+      {
+        "label": "Reorder",
+        "href": "https://www.walmart.com/my-items"
+      },
+      {
+        "label": "Lists",
+        "href": "https://www.walmart.com/lists"
+      },
+      {
+        "label": "Registries",
+        "href": "https://www.walmart.com/my-registries"
+      },
+      {
+        "label": "Sign in or create account",
+        "href": "https://www.walmart.com/account/login?vid=oaoh&returnUrl=%2Fmy-items"
+      },
+      {
+        "label": "All Departments",
+        "href": "https://www.walmart.com/all-departments"
+      },
+      {
+        "label": "Store Directory",
+        "href": "https://www.walmart.com/store/directory"
+      },
+      {
+        "label": "Help",
+        "href": "https://www.walmart.com/help"
+      },
+      {
+        "label": "Accessibility",
+        "href": "https://www.walmart.com/help/article/responsible-disclosure-and-accessibility-policies/0f173dab8bd942da84b1cd7ab5ffc3cb"
+      },
+      {
+        "label": "Tax Exempt Program",
+        "href": "https://www.walmart.com/cp/tax-exemption-program/8480422"
+      },
+      {
+        "label": "Terms of Use",
+        "href": "https://www.walmart.com/help/article/walmart-com-terms-of-use/3b75080af40340d6bbd596f116fae5a0"
+      },
+      {
+        "label": "Your Privacy Choices",
+        "href": "https://www.walmart.com/account/api/ccpa-intake?native=false&app=gm&type=sod"
+      },
+      {
+        "label": "Customer Privacy Center",
+        "href": "https://www.walmart.com/privacy-center"
+      },
+      {
+        "label": "Brand Shop Directory",
+        "href": "https://www.walmart.com/brand/branddirectory"
+      },
+      {
+        "label": "Pharmacy",
+        "href": "https://www.walmart.com/cp/pharmacy/5431?povid=HWS_GlobalFooter_Pharmacy"
+      },
+      {
+        "label": "Walmart Business",
+        "href": "https://www.walmart.com/cp/walmart-business/7810722?povid=7810722_POV_WMTfooter"
+      },
+      {
+        "label": "#IYWYK",
+        "href": "https://www.walmart.com/cp/walmart-in-the-know/7781927"
+      },
+      {
+        "label": "Delete Account",
+        "href": "https://www.walmart.com/account/login?vid=oaoh&tid=0&returnUrl=%2Faccount%2Fdelete-account"
+      }
+    ],
+    "external": [
+      {
+        "label": "Careers",
+        "href": "https://careers.walmart.com/"
+      },
+      {
+        "label": "Our Company",
+        "href": "https://corporate.walmart.com/"
+      },
+      {
+        "label": "Sell on Walmart.com",
+        "href": "https://marketplace.walmart.com/?utm_source=Walmart.com&utm_medium=link&utm_campaign=footer"
+      },
+      {
+        "label": "Product Recalls",
+        "href": "https://corporate.walmart.com/recalls"
+      },
+      {
+        "label": "Get the Walmart App",
+        "href": "https://walmart.onelink.me/UIev?pid=walmart.com&af_web_dp=https%3A%2F%2Fwww.walmart.com%2Fcp%2Fwalmart-mobile-app%2F1087865&c=Walmart.com%20Site%20Footer&af_dp=walmart%3A%2F%2F"
+      },
+      {
+        "label": "Safety Data Sheet",
+        "href": "http://msds.walmartstores.com/"
+      },
+      {
+        "label": "Privacy Notice",
+        "href": "https://corporate.walmart.com/privacy-security"
+      },
+      {
+        "label": "California Supply Chain Act",
+        "href": "https://corporate.walmart.com/california-transparency"
+      },
+      {
+        "label": "Notice at Collection",
+        "href": "https://corporate.walmart.com/privacy-security/california-privacy-rights#what-are-the-categories-of-personal-information-collected"
+      },
+      {
+        "label": "AdChoices",
+        "href": "https://corporate.walmart.com/privacy-security/walmart-privacy-notice#interest-based-advertising"
+      },
+      {
+        "label": "Consumer Health Data Privacy Notices",
+        "href": "https://corporate.walmart.com/privacy-security/walmart-consumer-health-data-privacy-notices"
+      }
+    ],
+    "broken": []
+  },
+  "extractedAt": "2025-11-12T14:33:41Z"
+}

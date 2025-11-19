@@ -1,0 +1,3693 @@
+{
+  "url": "https://www.foxnews.com/lifestyle",
+  "path": "/lifestyle",
+  "status": 200,
+  "title": "Lifestyle | Fox News",
+  "description": "Check out the trending lifestyle news happening with Fox News. Stay-up-to-date with lifestyle updates and all things happening that are creating a buzz in the nation and world with Fox.",
+  "canonical": "https://www.foxnews.com/lifestyle",
+  "media": {
+    "images": [
+      {
+        "url": "https://a57.foxnews.com/static.foxnews.com/foxnews.com/content/uploads/2025/11/920/518/amelia-earhart-files-plane-fox-news.jpg?ve=1&tl=1",
+        "alt": "Government releases newly declassified Amelia Earhart disappearance records from National Archives",
+        "width": 920,
+        "height": 518
+      },
+      {
+        "url": "https://a57.foxnews.com/static.foxnews.com/foxnews.com/content/uploads/2025/11/454/256/turkey-ancient-barley-found-history-archaeology-food-6.png?ve=1&tl=1",
+        "alt": "Ancient fire reveals perfectly preserved and 'very important' 5,000-year-old food find",
+        "width": 454,
+        "height": 256
+      },
+      {
+        "url": "https://a57.foxnews.com/static.foxnews.com/foxnews.com/content/uploads/2025/11/454/256/woman-taking-saffron-supplement.jpg?ve=1&tl=1",
+        "alt": "Common spice may beat depression and boost sexual health, doctor says",
+        "width": 454,
+        "height": 256
+      },
+      {
+        "url": "https://a57.foxnews.com/static.foxnews.com/foxnews.com/content/uploads/2025/11/454/256/quiz-collage-nov16.jpg?ve=1&tl=1",
+        "alt": "American Culture Quiz: Test yourself on gridiron glory and presidential pastimes",
+        "width": 454,
+        "height": 256
+      },
+      {
+        "url": "https://a57.foxnews.com/static.foxnews.com/foxnews.com/content/uploads/2024/04/454/256/6d6c6b51-games-hub.png?ve=1&tl=1",
+        "alt": "PLAY NOW! Crosswords \u2660 Word Search \u2663 Crazy Crystals \u2666 Stack & Match \u2665 5 Across!",
+        "width": 454,
+        "height": 256
+      },
+      {
+        "url": "https://a57.foxnews.com/cf-images.us-east-1.prod.boltdns.net/v1/static/694940094001/9963b91c-53f7-4faf-8c77-8ed4fcd2404d/2630673d-b250-495a-98a9-82a21df5847d/1280x720/match/348/196/image.jpg?ve=1&tl=1",
+        "alt": "Actress Shay Mitchell releases skincare line for kids, sparks industry debate",
+        "width": null,
+        "height": null
+      },
+      {
+        "url": "https://a57.foxnews.com/cf-images.us-east-1.prod.boltdns.net/v1/static/694940094001/6fc4a038-5fc0-4429-a6f6-a3bba69df98e/89d540a1-62ac-4c4a-8f2c-3b89c103ef03/1280x720/match/348/196/image.jpg?ve=1&tl=1",
+        "alt": "Baby goose appears to 'feed' hungry fish in heartwarming lake moment",
+        "width": null,
+        "height": null
+      },
+      {
+        "url": "https://a57.foxnews.com/static.foxnews.com/foxnews.com/content/uploads/2025/11/348/196/woman-taking-saffron-supplement.jpg?ve=1&tl=1",
+        "alt": "Common spice may beat depression and boost sexual health, doctor says",
+        "width": null,
+        "height": null
+      },
+      {
+        "url": "https://a57.foxnews.com/cf-images.us-east-1.prod.boltdns.net/v1/static/694940094001/a6475e18-ee0c-4d19-ace7-4164a6624226/96da5f2f-50e4-4616-b006-489b09591d35/1280x720/match/348/196/image.jpg?ve=1&tl=1",
+        "alt": "Screen time detox camp aims to help youth phone addiction",
+        "width": null,
+        "height": null
+      },
+      {
+        "url": "https://a57.foxnews.com/static.foxnews.com/foxnews.com/content/uploads/2025/11/348/196/turkey-ancient-barley-found-history-archaeology-food-6.png?ve=1&tl=1",
+        "alt": "Ancient fire reveals perfectly preserved and 'very important' 5,000-year-old food find",
+        "width": null,
+        "height": null
+      },
+      {
+        "url": "https://a57.foxnews.com/static.foxnews.com/foxnews.com/content/uploads/2025/11/348/196/filet-o-fish-history-hacks.jpg?ve=1&tl=1",
+        "alt": "Trump's praise for McDonald's Filet-O-Fish sparks nostalgia \u2014 and a saucy debate",
+        "width": null,
+        "height": null
+      },
+      {
+        "url": "https://a57.foxnews.com/static.foxnews.com/foxnews.com/content/uploads/2025/11/348/196/thanksgiving-buffet-las-vegas.jpg?ve=1&tl=1",
+        "alt": "Las Vegas buffet binger on the Strip wanted for unusual $2K Thanksgiving eating gig",
+        "width": null,
+        "height": null
+      },
+      {
+        "url": "https://a57.foxnews.com/static.foxnews.com/foxnews.com/content/uploads/2025/11/348/196/man-in-kitchen-drinking-orange-juice.jpg?ve=1&tl=1",
+        "alt": "Daily orange juice has 'therapeutic potential' for genes and heart health, study finds",
+        "width": null,
+        "height": null
+      },
+      {
+        "url": "https://a57.foxnews.com/static.foxnews.com/foxnews.com/content/uploads/2025/11/348/196/fox_news_deals_best_sales_this_week_111825.png?ve=1&tl=1",
+        "alt": "The best sales to shop this week \u2013 up to 50% off Bose, Ulta, Jackery and more",
+        "width": null,
+        "height": null
+      },
+      {
+        "url": "https://a57.foxnews.com/static.foxnews.com/foxnews.com/content/uploads/2025/11/348/196/fox_news_deals_amazons_biggest_discounts_111825.png?ve=1&tl=1",
+        "alt": "The best early Black Friday deals on Amazon \u2013 up to 76% off Instant Pot, Nespresso and more",
+        "width": null,
+        "height": null
+      },
+      {
+        "url": "https://a57.foxnews.com/static.foxnews.com/foxnews.com/content/uploads/2025/11/348/196/thanksgiving-dinner.jpg?ve=1&tl=1",
+        "alt": "10 essentials you need to host a stress-free Thanksgiving dinner",
+        "width": null,
+        "height": null
+      },
+      {
+        "url": "https://a57.foxnews.com/static.foxnews.com/foxnews.com/content/uploads/2025/11/348/196/ckeaning-supplies.jpg?ve=1&tl=1",
+        "alt": "Hate cleaning? These 10 workhorse products will save you time and energy",
+        "width": null,
+        "height": null
+      },
+      {
+        "url": "https://a57.foxnews.com/static.foxnews.com/foxnews.com/content/uploads/2025/11/348/196/woman-getting-brain-scan.jpg?ve=1&tl=1",
+        "alt": "Alzheimer\u2019s scientists find key to halting brain decline before symptoms",
+        "width": null,
+        "height": null
+      },
+      {
+        "url": "https://a57.foxnews.com/static.foxnews.com/foxnews.com/content/uploads/2024/11/348/196/trump-serves-fries-at-mcdonalds.jpg?ve=1&tl=1",
+        "alt": "Trump jokes he\u2019s first former McDonald\u2019s fry cook to become president, hailing the chain\u2019s spirit",
+        "width": null,
+        "height": null
+      },
+      {
+        "url": "https://a57.foxnews.com/static.foxnews.com/foxnews.com/content/uploads/2025/11/348/196/food-allergy-bacteria-fox-news.jpg?ve=1&tl=1",
+        "alt": "Gut imbalance may be driving America\u2019s food allergy epidemic, experts warn",
+        "width": null,
+        "height": null
+      },
+      {
+        "url": "https://a57.foxnews.com/static.foxnews.com/foxnews.com/content/uploads/2025/11/348/196/brain-cancer-blood-pressure.jpg?ve=1&tl=1",
+        "alt": "Fast-growing cancer could be slowed by common blood pressure drug, research shows",
+        "width": null,
+        "height": null
+      },
+      {
+        "url": "https://a57.foxnews.com/static.foxnews.com/foxnews.com/content/uploads/2025/11/348/196/doordash-cheeseburger-index-where-to-find-cheap-burgers-1.jpg?ve=1&tl=1",
+        "alt": "Looking for a cheap cheeseburger? 10 American cities that deliver the best meal deals",
+        "width": null,
+        "height": null
+      },
+      {
+        "url": "https://a57.foxnews.com/static.foxnews.com/foxnews.com/content/uploads/2025/11/348/196/stress-free-city.jpg?ve=1&tl=1",
+        "alt": "Unexpected city tops list for stress-free getaways this year, according to new data",
+        "width": null,
+        "height": null
+      },
+      {
+        "url": "https://a57.foxnews.com/static.foxnews.com/foxnews.com/content/uploads/2025/11/348/196/young-woman-smoking-cigarette.jpg?ve=1&tl=1",
+        "alt": "Pop culture embraces smoking as 'cool' again \u2014 and Gen Z youth are watching",
+        "width": null,
+        "height": null
+      },
+      {
+        "url": "https://a57.foxnews.com/static.foxnews.com/foxnews.com/content/uploads/2025/11/348/196/potato-bed-split.jpg?ve=1&tl=1",
+        "alt": "Viral \u2018potato bed\u2019 sleep trend has people cozying up for their best night\u2019s rest",
+        "width": null,
+        "height": null
+      },
+      {
+        "url": "https://a57.foxnews.com/static.foxnews.com/foxnews.com/content/uploads/2025/11/348/196/jell-o-aspic-retro-trend.jpg?ve=1&tl=1",
+        "alt": "From retro to refined: Jell-O salad and savory gelatin dishes make unexpected return",
+        "width": null,
+        "height": null
+      },
+      {
+        "url": "https://a57.foxnews.com/static.foxnews.com/foxnews.com/content/uploads/2025/11/348/196/oats-fiber-benefits.png?ve=1&tl=1",
+        "alt": "Not all fiber is created equal; doctors share which kinds truly support longevity",
+        "width": null,
+        "height": null
+      },
+      {
+        "url": "https://a57.foxnews.com/static.foxnews.com/foxnews.com/content/uploads/2025/11/348/196/man-holding-burger-alpha-gal.jpg?ve=1&tl=1",
+        "alt": "Man dies hours after eating burger as researchers confirm fatal allergy",
+        "width": null,
+        "height": null
+      },
+      {
+        "url": "https://a57.foxnews.com/static.foxnews.com/foxnews.com/content/uploads/2025/11/348/196/pilgrim-cross-la-croix-glorieuse-de-dozule-france.jpg?ve=1&tl=1",
+        "alt": "Rumored supernatural sighting of Jesus in hillside town debunked by Pope Leo XIV",
+        "width": null,
+        "height": null
+      },
+      {
+        "url": "https://a57.foxnews.com/static.foxnews.com/foxnews.com/content/uploads/2025/11/348/196/woman-pouring-olive-oil-over-stir-fry.jpg?ve=1&tl=1",
+        "alt": "Cooking in her work clothes saves woman $60 a week, has millions rethinking dinner",
+        "width": null,
+        "height": null
+      },
+      {
+        "url": "https://a57.foxnews.com/static.foxnews.com/foxnews.com/content/uploads/2025/11/348/196/prayng-church-boston-2025.jpg?ve=1&tl=1",
+        "alt": "Americans report dramatic drop in importance of faith, poll finds",
+        "width": null,
+        "height": null
+      },
+      {
+        "url": "https://a57.foxnews.com/static.foxnews.com/foxnews.com/content/uploads/2025/11/348/196/woman-with-younger-man-photo-album.jpg?ve=1&tl=1",
+        "alt": "Alzheimer\u2019s could be predicted years before symptoms arise using new risk tool",
+        "width": null,
+        "height": null
+      },
+      {
+        "url": "https://a57.foxnews.com/static.foxnews.com/foxnews.com/content/uploads/2025/11/348/196/mollie-engelhart-kissing-bull.jpg?ve=1&tl=1",
+        "alt": "'My whole life was a lie': Former vegan chef sinks her teeth into cattle ranching",
+        "width": null,
+        "height": null
+      },
+      {
+        "url": "https://a57.foxnews.com/static.foxnews.com/foxnews.com/content/uploads/2025/11/348/196/man-with-stomach-pain-reflux.jpg?ve=1&tl=1",
+        "alt": "Expert warns of 'silent epidemic' that puts men\u2019s health at serious risk",
+        "width": null,
+        "height": null
+      },
+      {
+        "url": "https://a57.foxnews.com/static.foxnews.com/foxnews.com/content/uploads/2025/04/348/196/man-at-doctor.jpg?ve=1&tl=1",
+        "alt": "Some cancer patients could avoid surgery with innovative new therapy",
+        "width": null,
+        "height": null
+      },
+      {
+        "url": "https://a57.foxnews.com/static.foxnews.com/foxnews.com/content/uploads/2025/11/348/196/woman-sipping-herbal-tea.jpg?ve=1&tl=1",
+        "alt": "Brain aging may slow with green tea, walnuts and tiny swamp plant, study finds",
+        "width": null,
+        "height": null
+      },
+      {
+        "url": "https://a57.foxnews.com/static.foxnews.com/foxnews.com/content/uploads/2025/11/348/196/senior-mean-vitamin-heart-health.jpg?ve=1&tl=1",
+        "alt": "Common vitamin could protect some heart attack survivors, study shows",
+        "width": null,
+        "height": null
+      },
+      {
+        "url": "https://a57.foxnews.com/static.foxnews.com/foxnews.com/content/uploads/2025/11/348/196/drinking-coffee-heart.jpg?ve=1&tl=1",
+        "alt": "Daily coffee may protect the heart in unexpected way, study suggests",
+        "width": null,
+        "height": null
+      },
+      {
+        "url": "https://a57.foxnews.com/static.foxnews.com/foxnews.com/content/uploads/2025/11/348/196/man-travelling-india.jpg?ve=1&tl=1",
+        "alt": "Man who visited 61 countries insists world's 'most feared' places have one unexpected quality",
+        "width": null,
+        "height": null
+      },
+      {
+        "url": "https://a57.foxnews.com/static.foxnews.com/foxnews.com/content/uploads/2025/11/348/196/man-lower-back-kidney-pain.jpg?ve=1&tl=1",
+        "alt": "Killer condition lands in top 10 leading causes of death as global cases surge",
+        "width": null,
+        "height": null
+      },
+      {
+        "url": "https://a57.foxnews.com/static.foxnews.com/foxnews.com/content/uploads/2025/07/348/196/tiktok-chili-dark-chocolate-hack-2.jpg?ve=1&tl=1",
+        "alt": "Bite of dark chocolate could sharpen your memory within an hour, study suggests",
+        "width": null,
+        "height": null
+      },
+      {
+        "url": "https://a57.foxnews.com/static.foxnews.com/foxnews.com/content/uploads/2025/11/348/196/showering-in-dark.jpg?ve=1&tl=1",
+        "alt": "'Dark showering' is the new trend for better sleep",
+        "width": null,
+        "height": null
+      },
+      {
+        "url": "https://a57.foxnews.com/static.foxnews.com/foxnews.com/content/uploads/2025/11/348/196/heavy-woman-looking-in-mirror.jpg?ve=1&tl=1",
+        "alt": "America\u2019s fattest states revealed \u2014 and how Ozempic is changing the map",
+        "width": null,
+        "height": null
+      },
+      {
+        "url": "https://a57.foxnews.com/static.foxnews.com/foxnews.com/content/uploads/2025/11/348/196/tipping-1-bills-to-waitress.jpg?ve=1&tl=1",
+        "alt": "Americans are fed up with tipping culture, yet many still shell out 20% at restaurants",
+        "width": null,
+        "height": null
+      },
+      {
+        "url": "https://a57.foxnews.com/static.foxnews.com/foxnews.com/content/uploads/2025/11/348/196/notre-dame-paris-crowds-fox-news.jpg?ve=1&tl=1",
+        "alt": "One of world's most sacred landmarks expected to welcome record crowds this year",
+        "width": null,
+        "height": null
+      },
+      {
+        "url": "https://a57.foxnews.com/static.foxnews.com/foxnews.com/content/uploads/2025/11/348/196/taco-bell-mountain-dew-baja-blast.jpg?ve=1&tl=1",
+        "alt": "The latest fast-food oddity \u2014 a Mountain Dew pie from Taco Bell \u2014 sparks frenzy online",
+        "width": null,
+        "height": null
+      },
+      {
+        "url": "https://a57.foxnews.com/static.foxnews.com/foxnews.com/content/uploads/2025/11/348/196/vintage-salad-dressing-grocery-store-bw-enhanced.jpg?ve=1&tl=1",
+        "alt": "7 retro salad dressings that once ruled America's fridges are making a comeback",
+        "width": null,
+        "height": null
+      },
+      {
+        "url": "https://a57.foxnews.com/static.foxnews.com/foxnews.com/content/uploads/2025/11/348/196/man-workaholic-wife-child.jpg?ve=1&tl=1",
+        "alt": "One toxic behavior kills relationships, leading happiness expert warns",
+        "width": null,
+        "height": null
+      },
+      {
+        "url": "https://a57.foxnews.com/static.foxnews.com/foxnews.com/content/uploads/2025/11/348/196/man-sitting-edge-cliff.jpg?ve=1&tl=1",
+        "alt": "Why most people fall off a \u2018health cliff\u2019 at 75 \u2014 and 5 ways to avoid the drop",
+        "width": null,
+        "height": null
+      },
+      {
+        "url": "https://a57.foxnews.com/static.foxnews.com/foxnews.com/content/uploads/2025/11/348/196/alcohol-drinking-strokes.jpg?ve=1&tl=1",
+        "alt": "Higher stroke risk linked to consuming certain amount of alcohol, study finds",
+        "width": null,
+        "height": null
+      },
+      {
+        "url": "https://a57.foxnews.com/static.foxnews.com/foxnews.com/content/uploads/2025/11/348/196/government-shutdown-flight-delay-hosuton-fox-news.jpg?ve=1&tl=1",
+        "alt": "Shutdown's impact at airports will worsen, says TSA \u2014 travelers should 'go early' and 'be patient'",
+        "width": null,
+        "height": null
+      },
+      {
+        "url": "https://a57.foxnews.com/static.foxnews.com/foxnews.com/content/uploads/2025/11/348/196/woman-eating-oreos-holiday-collection.jpg?ve=1&tl=1",
+        "alt": "Oreo's Thanksgiving-themed cookies fly off shelves as some fans call them 'cursed'",
+        "width": null,
+        "height": null
+      },
+      {
+        "url": "https://a57.foxnews.com/static.foxnews.com/foxnews.com/content/uploads/2025/11/348/196/flight-delay-houston-airport-government-shutdown-fox-news.jpg?ve=1&tl=1",
+        "alt": "Flight chaos grips US airports as some airlines advise booking 'backup ticket': See the list",
+        "width": null,
+        "height": null
+      },
+      {
+        "url": "https://a57.foxnews.com/static.foxnews.com/foxnews.com/content/uploads/2025/11/348/196/researchers-in-lab-northwestern.jpg?ve=1&tl=1",
+        "alt": "New pancreatic cancer treatment \u2018wakes up\u2019 immune cells, researchers say",
+        "width": null,
+        "height": null
+      },
+      {
+        "url": "https://a57.foxnews.com/static.foxnews.com/foxnews.com/content/uploads/2025/11/348/196/bearista-cup-starbucks-split.jpg?ve=1&tl=1",
+        "alt": "Starbucks fans panic as adorable new holiday cup is expected to sell out instantly",
+        "width": null,
+        "height": null
+      },
+      {
+        "url": "https://a57.foxnews.com/static.foxnews.com/foxnews.com/content/uploads/2025/11/348/196/weight-lifting-study-more-effective.jpg?ve=1&tl=1",
+        "alt": "Diabetes prevention linked to specific type of exercise, study shows",
+        "width": null,
+        "height": null
+      },
+      {
+        "url": "https://a57.foxnews.com/static.foxnews.com/foxnews.com/content/uploads/2025/09/348/196/older-woman-with-insomnia.jpg?ve=1&tl=1",
+        "alt": "Experts reveal exact bedtime that could prevent late-night \u2018second wind\u2019 insomnia",
+        "width": null,
+        "height": null
+      },
+      {
+        "url": "https://a57.foxnews.com/static.foxnews.com/foxnews.com/content/uploads/2025/11/348/196/woman-reaches-into-produce-drawer-in-refrigerator.jpg?ve=1&tl=1",
+        "alt": "Easy nutrition tweak could transform your sleep \u2014 starting this evening",
+        "width": null,
+        "height": null
+      },
+      {
+        "url": "https://a57.foxnews.com/static.foxnews.com/foxnews.com/content/uploads/2025/11/348/196/older-couple-walking-outside.jpg?ve=1&tl=1",
+        "alt": "Alzheimer\u2019s decline could slow dramatically with one simple daily habit, study finds",
+        "width": null,
+        "height": null
+      },
+      {
+        "url": "https://a57.foxnews.com/static.foxnews.com/foxnews.com/content/uploads/2025/10/348/196/jamaica-damage-one.jpg?ve=1&tl=1",
+        "alt": "Influencers face backlash for 'tragedy tourism' during Hurricane Melissa",
+        "width": null,
+        "height": null
+      },
+      {
+        "url": "https://a57.foxnews.com/static.foxnews.com/foxnews.com/content/uploads/2025/11/348/196/woman-taking-melatonin.jpg?ve=1&tl=1",
+        "alt": "New health warning issued over popular sleep aid millions take nightly",
+        "width": null,
+        "height": null
+      },
+      {
+        "url": "https://a57.foxnews.com/static.foxnews.com/foxnews.com/content/uploads/2025/11/348/196/scott-adams-dilbert-cartoonist.jpg?ve=1&tl=1",
+        "alt": "'Dilbert' creator's desperate plea shines spotlight on alternative prostate cancer drug",
+        "width": null,
+        "height": null
+      },
+      {
+        "url": "https://a57.foxnews.com/static.foxnews.com/foxnews.com/content/uploads/2025/11/348/196/older-adult-memory-focus-concentration.jpg?ve=1&tl=1",
+        "alt": "Brain health warning sign could be hiding in plain sight, say researchers",
+        "width": null,
+        "height": null
+      },
+      {
+        "url": "https://a57.foxnews.com/static.foxnews.com/foxnews.com/content/uploads/2025/11/348/196/older-man-making-healthy-breakfast.jpg?ve=1&tl=1",
+        "alt": "Everyday clues that your immune system is aging \u2014 and how to fight back",
+        "width": null,
+        "height": null
+      },
+      {
+        "url": "https://a57.foxnews.com/static.foxnews.com/foxnews.com/content/uploads/2025/10/348/196/woman-pouring-supplements-hand.jpg?ve=1&tl=1",
+        "alt": "Viral \u2018energy booster\u2019 has doctors divided \u2014 here\u2019s what to know before trying it",
+        "width": null,
+        "height": null
+      },
+      {
+        "url": "https://static.foxnews.com/radio.foxnews.com/content/uploads/2024/11/NAT_CUSTOM_300x300_MARTIN_SCORSESE_PRESENTS_THE_SAINTS.png",
+        "alt": "The Saints: Joan of Arch",
+        "width": 300,
+        "height": 300
+      },
+      {
+        "url": "https://static.foxnews.com/foxnews.com/content/uploads/2022/11/NEWSLETTER_LIFESTYLE_LOGO-532x120.png",
+        "alt": "Newsletter",
+        "width": null,
+        "height": null
+      },
+      {
+        "url": "https://a57.foxnews.com/cf-images.us-east-1.prod.boltdns.net/v1/static/694940094001/b9966556-1805-4955-9cd1-95e579090ac4/f038b4a7-e199-4b3d-95aa-c00fc9c185f3/1280x720/match/348/196/image.jpg?ve=1&tl=1",
+        "alt": " \u2018The Elf on the Shelf\u2019 co-founders reveal how a family tradition became a global brand",
+        "width": null,
+        "height": null
+      },
+      {
+        "url": "https://a57.foxnews.com/cf-images.us-east-1.prod.boltdns.net/v1/static/694940094001/deca89bd-6e48-4687-aed6-e0b459462885/ca31cb77-fc9f-4b64-9818-c46eae3b4b77/1280x720/match/348/196/image.jpg?ve=1&tl=1",
+        "alt": "Holiday Shoppers Lean Into AI",
+        "width": null,
+        "height": null
+      },
+      {
+        "url": "https://a57.foxnews.com/cf-images.us-east-1.prod.boltdns.net/v1/static/694940094001/6a1425b4-6706-439a-8d8c-c45d8a02130f/9def9cef-aa53-4287-8b79-21fc2248b21a/1280x720/match/348/196/image.jpg?ve=1&tl=1",
+        "alt": "NC tree farm rebounds after Helene: \u2018We could all use a good Christmas\u2019",
+        "width": null,
+        "height": null
+      },
+      {
+        "url": "https://a57.foxnews.com/cf-images.us-east-1.prod.boltdns.net/v1/static/694940094001/cc6af428-8629-4cd6-86d0-ea2fa1050c93/bfd9863f-0957-47af-bf96-5445c4caa2ed/1280x720/match/348/196/image.jpg?ve=1&tl=1",
+        "alt": "Tech expert explains Apple\u2019s new digital ID, warns of AI fraud threat for holiday shoppers",
+        "width": null,
+        "height": null
+      },
+      {
+        "url": "https://a57.foxnews.com/cf-images.us-east-1.prod.boltdns.net/v1/static/694940094001/0ccecd6e-20d3-4308-9e3b-ae026c984bad/c59cf996-5e03-4f98-9e79-b66ea30cb016/1280x720/match/348/196/image.jpg?ve=1&tl=1",
+        "alt": "Growing number of people turning to AI for love",
+        "width": null,
+        "height": null
+      }
+    ],
+    "videos": [],
+    "gifs": []
+  },
+  "files": [],
+  "words": {
+    "headings": [
+      {
+        "tag": "h4",
+        "text": "Games"
+      },
+      {
+        "tag": "h4",
+        "text": "Deals"
+      },
+      {
+        "tag": "h4",
+        "text": "FOX Business"
+      },
+      {
+        "tag": "h4",
+        "text": "Science & Tech"
+      },
+      {
+        "tag": "h4",
+        "text": "Watch Live"
+      },
+      {
+        "tag": "h4",
+        "text": "Apps & Products"
+      },
+      {
+        "tag": "h4",
+        "text": "Games"
+      },
+      {
+        "tag": "h4",
+        "text": "Deals"
+      },
+      {
+        "tag": "h4",
+        "text": "FOX Business"
+      },
+      {
+        "tag": "h4",
+        "text": "Science & Tech"
+      },
+      {
+        "tag": "h4",
+        "text": "Watch Live"
+      },
+      {
+        "tag": "h4",
+        "text": "Apps & Products"
+      },
+      {
+        "tag": "h1",
+        "text": "Lifestyle"
+      },
+      {
+        "tag": "h2",
+        "text": "Government releases newly declassified Amelia Earhart disappearance records from National Archives"
+      },
+      {
+        "tag": "h2",
+        "text": "Ancient fire reveals perfectly preserved and 'very important' 5,000-year-old food find"
+      },
+      {
+        "tag": "h2",
+        "text": "Common spice may beat depression and boost sexual health, doctor says"
+      },
+      {
+        "tag": "h2",
+        "text": "American Culture Quiz: Test yourself on gridiron glory and presidential pastimes"
+      },
+      {
+        "tag": "h2",
+        "text": "PLAY NOW! Crosswords \u2660 Word Search \u2663 Crazy Crystals \u2666 Stack & Match \u2665 5 Across!"
+      },
+      {
+        "tag": "h3",
+        "text": "Make America Healthy Again"
+      },
+      {
+        "tag": "h4",
+        "text": "Actress Shay Mitchell releases skincare line for kids, sparks industry debate"
+      },
+      {
+        "tag": "h4",
+        "text": "Baby goose appears to 'feed' hungry fish in heartwarming lake moment"
+      },
+      {
+        "tag": "h4",
+        "text": "Common spice may beat depression and boost sexual health, doctor says"
+      },
+      {
+        "tag": "h4",
+        "text": "Screen time detox camp aims to help youth phone addiction"
+      },
+      {
+        "tag": "h3",
+        "text": "Food & Drink"
+      },
+      {
+        "tag": "h4",
+        "text": "Ancient fire reveals perfectly preserved and 'very important' 5,000-year-old food find"
+      },
+      {
+        "tag": "h4",
+        "text": "Trump's praise for McDonald's Filet-O-Fish sparks nostalgia \u2014 and a saucy debate"
+      },
+      {
+        "tag": "h4",
+        "text": "Las Vegas buffet binger on the Strip wanted for unusual $2K Thanksgiving eating gig"
+      },
+      {
+        "tag": "h4",
+        "text": "Daily orange juice has 'therapeutic potential' for genes and heart health, study finds"
+      },
+      {
+        "tag": "h3",
+        "text": "Deals"
+      },
+      {
+        "tag": "h4",
+        "text": "The best sales to shop this week \u2013 up to 50% off Bose, Ulta, Jackery and more"
+      },
+      {
+        "tag": "h4",
+        "text": "The best early Black Friday deals on Amazon \u2013 up to 76% off Instant Pot, Nespresso and more"
+      },
+      {
+        "tag": "h4",
+        "text": "10 essentials you need to host a stress-free Thanksgiving dinner"
+      },
+      {
+        "tag": "h4",
+        "text": "Hate cleaning? These 10 workhorse products will save you time and energy"
+      },
+      {
+        "tag": "h4",
+        "text": "Common spice may beat depression and boost sexual health, doctor says"
+      },
+      {
+        "tag": "h4",
+        "text": "Trump's praise for McDonald's Filet-O-Fish sparks nostalgia \u2014 and a saucy debate"
+      },
+      {
+        "tag": "h4",
+        "text": "Alzheimer\u2019s scientists find key to halting brain decline before symptoms"
+      },
+      {
+        "tag": "h4",
+        "text": "Trump jokes he\u2019s first former McDonald\u2019s fry cook to become president, hailing the chain\u2019s spirit"
+      },
+      {
+        "tag": "h4",
+        "text": "Gut imbalance may be driving America\u2019s food allergy epidemic, experts warn"
+      },
+      {
+        "tag": "h4",
+        "text": "Fast-growing cancer could be slowed by common blood pressure drug, research shows"
+      },
+      {
+        "tag": "h4",
+        "text": "Looking for a cheap cheeseburger? 10 American cities that deliver the best meal deals"
+      },
+      {
+        "tag": "h4",
+        "text": "Unexpected city tops list for stress-free getaways this year, according to new data"
+      },
+      {
+        "tag": "h4",
+        "text": "Pop culture embraces smoking as 'cool' again \u2014 and Gen Z youth are watching"
+      },
+      {
+        "tag": "h4",
+        "text": "Viral \u2018potato bed\u2019 sleep trend has people cozying up for their best night\u2019s rest"
+      },
+      {
+        "tag": "h4",
+        "text": "From retro to refined: Jell-O salad and savory gelatin dishes make unexpected return"
+      },
+      {
+        "tag": "h4",
+        "text": "Not all fiber is created equal; doctors share which kinds truly support longevity"
+      },
+      {
+        "tag": "h4",
+        "text": "Man dies hours after eating burger as researchers confirm fatal allergy"
+      },
+      {
+        "tag": "h4",
+        "text": "Rumored supernatural sighting of Jesus in hillside town debunked by Pope Leo XIV"
+      },
+      {
+        "tag": "h4",
+        "text": "Cooking in her work clothes saves woman $60 a week, has millions rethinking dinner"
+      },
+      {
+        "tag": "h4",
+        "text": "Americans report dramatic drop in importance of faith, poll finds"
+      },
+      {
+        "tag": "h4",
+        "text": "Alzheimer\u2019s could be predicted years before symptoms arise using new risk tool"
+      },
+      {
+        "tag": "h4",
+        "text": "'My whole life was a lie': Former vegan chef sinks her teeth into cattle ranching"
+      },
+      {
+        "tag": "h4",
+        "text": "Expert warns of 'silent epidemic' that puts men\u2019s health at serious risk"
+      },
+      {
+        "tag": "h4",
+        "text": "Some cancer patients could avoid surgery with innovative new therapy"
+      },
+      {
+        "tag": "h4",
+        "text": "Brain aging may slow with green tea, walnuts and tiny swamp plant, study finds"
+      },
+      {
+        "tag": "h4",
+        "text": "Common vitamin could protect some heart attack survivors, study shows"
+      },
+      {
+        "tag": "h4",
+        "text": "Daily coffee may protect the heart in unexpected way, study suggests"
+      },
+      {
+        "tag": "h4",
+        "text": "Man who visited 61 countries insists world's 'most feared' places have one unexpected quality"
+      },
+      {
+        "tag": "h4",
+        "text": "Killer condition lands in top 10 leading causes of death as global cases surge"
+      },
+      {
+        "tag": "h4",
+        "text": "Bite of dark chocolate could sharpen your memory within an hour, study suggests"
+      },
+      {
+        "tag": "h4",
+        "text": "'Dark showering' is the new trend for better sleep"
+      },
+      {
+        "tag": "h4",
+        "text": "America\u2019s fattest states revealed \u2014 and how Ozempic is changing the map"
+      },
+      {
+        "tag": "h4",
+        "text": "Americans are fed up with tipping culture, yet many still shell out 20% at restaurants"
+      },
+      {
+        "tag": "h4",
+        "text": "One of world's most sacred landmarks expected to welcome record crowds this year"
+      },
+      {
+        "tag": "h4",
+        "text": "The latest fast-food oddity \u2014 a Mountain Dew pie from Taco Bell \u2014 sparks frenzy online"
+      },
+      {
+        "tag": "h4",
+        "text": "7 retro salad dressings that once ruled America's fridges are making a comeback"
+      },
+      {
+        "tag": "h4",
+        "text": "One toxic behavior kills relationships, leading happiness expert warns"
+      },
+      {
+        "tag": "h4",
+        "text": "Why most people fall off a \u2018health cliff\u2019 at 75 \u2014 and 5 ways to avoid the drop"
+      },
+      {
+        "tag": "h4",
+        "text": "Higher stroke risk linked to consuming certain amount of alcohol, study finds"
+      },
+      {
+        "tag": "h4",
+        "text": "Shutdown's impact at airports will worsen, says TSA \u2014 travelers should 'go early' and 'be patient'"
+      },
+      {
+        "tag": "h4",
+        "text": "Oreo's Thanksgiving-themed cookies fly off shelves as some fans call them 'cursed'"
+      },
+      {
+        "tag": "h4",
+        "text": "Flight chaos grips US airports as some airlines advise booking 'backup ticket': See the list"
+      },
+      {
+        "tag": "h4",
+        "text": "New pancreatic cancer treatment \u2018wakes up\u2019 immune cells, researchers say"
+      },
+      {
+        "tag": "h4",
+        "text": "Starbucks fans panic as adorable new holiday cup is expected to sell out instantly"
+      },
+      {
+        "tag": "h4",
+        "text": "Diabetes prevention linked to specific type of exercise, study shows"
+      },
+      {
+        "tag": "h4",
+        "text": "Experts reveal exact bedtime that could prevent late-night \u2018second wind\u2019 insomnia"
+      },
+      {
+        "tag": "h4",
+        "text": "Easy nutrition tweak could transform your sleep \u2014 starting this evening"
+      },
+      {
+        "tag": "h4",
+        "text": "Alzheimer\u2019s decline could slow dramatically with one simple daily habit, study finds"
+      },
+      {
+        "tag": "h4",
+        "text": "Influencers face backlash for 'tragedy tourism' during Hurricane Melissa"
+      },
+      {
+        "tag": "h4",
+        "text": "New health warning issued over popular sleep aid millions take nightly"
+      },
+      {
+        "tag": "h4",
+        "text": "'Dilbert' creator's desperate plea shines spotlight on alternative prostate cancer drug"
+      },
+      {
+        "tag": "h4",
+        "text": "Brain health warning sign could be hiding in plain sight, say researchers"
+      },
+      {
+        "tag": "h4",
+        "text": "Everyday clues that your immune system is aging \u2014 and how to fight back"
+      },
+      {
+        "tag": "h4",
+        "text": "Viral \u2018energy booster\u2019 has doctors divided \u2014 here\u2019s what to know before trying it"
+      },
+      {
+        "tag": "h3",
+        "text": "Newsletter"
+      },
+      {
+        "tag": "h3",
+        "text": "VIDEO"
+      },
+      {
+        "tag": "h4",
+        "text": "\u2018The Elf on the Shelf\u2019 co-founders reveal how a family tradition became a global brand"
+      },
+      {
+        "tag": "h4",
+        "text": "Holiday Shoppers Lean Into AI"
+      },
+      {
+        "tag": "h4",
+        "text": "NC tree farm rebounds after Helene: \u2018We could all use a good Christmas\u2019"
+      },
+      {
+        "tag": "h4",
+        "text": "Tech expert explains Apple\u2019s new digital ID, warns of AI fraud threat for holiday shoppers"
+      },
+      {
+        "tag": "h4",
+        "text": "Growing number of people turning to AI for love"
+      },
+      {
+        "tag": "h4",
+        "text": "U.S."
+      },
+      {
+        "tag": "h4",
+        "text": "Politics"
+      },
+      {
+        "tag": "h4",
+        "text": "World"
+      },
+      {
+        "tag": "h4",
+        "text": "Opinion"
+      },
+      {
+        "tag": "h4",
+        "text": "Media"
+      },
+      {
+        "tag": "h4",
+        "text": "Entertainment"
+      },
+      {
+        "tag": "h4",
+        "text": "Sports"
+      },
+      {
+        "tag": "h4",
+        "text": "Lifestyle"
+      },
+      {
+        "tag": "h4",
+        "text": "Health"
+      },
+      {
+        "tag": "h4",
+        "text": "Deals"
+      },
+      {
+        "tag": "h4",
+        "text": "FOX Business"
+      },
+      {
+        "tag": "h4",
+        "text": "Science & Tech"
+      },
+      {
+        "tag": "h4",
+        "text": "Games"
+      },
+      {
+        "tag": "h4",
+        "text": "Watch Live"
+      },
+      {
+        "tag": "h4",
+        "text": "About"
+      },
+      {
+        "tag": "h4",
+        "text": "Apps & Products"
+      },
+      {
+        "tag": "h4",
+        "text": "U.S."
+      },
+      {
+        "tag": "h4",
+        "text": "Politics"
+      },
+      {
+        "tag": "h4",
+        "text": "World"
+      },
+      {
+        "tag": "h4",
+        "text": "Opinion"
+      },
+      {
+        "tag": "h4",
+        "text": "Media"
+      },
+      {
+        "tag": "h4",
+        "text": "Entertainment"
+      },
+      {
+        "tag": "h4",
+        "text": "Sports"
+      },
+      {
+        "tag": "h4",
+        "text": "Lifestyle"
+      },
+      {
+        "tag": "h4",
+        "text": "Health"
+      },
+      {
+        "tag": "h4",
+        "text": "Deals"
+      },
+      {
+        "tag": "h4",
+        "text": "FOX Business"
+      },
+      {
+        "tag": "h4",
+        "text": "Science & Tech"
+      },
+      {
+        "tag": "h4",
+        "text": "Games"
+      },
+      {
+        "tag": "h4",
+        "text": "Watch Live"
+      },
+      {
+        "tag": "h4",
+        "text": "About"
+      },
+      {
+        "tag": "h4",
+        "text": "Apps & Products"
+      }
+    ],
+    "paragraphs": [
+      "This material may not be published, broadcast, rewritten, or redistributed. \u00a92025 FOX News Network, LLC. All rights reserved. Quotes displayed in real-time or delayed by at least 15 minutes. Market data provided by Factset. Powered and implemented by FactSet Digital Solutions. Legal Statement. Mutual Fund and ETF data provided by Refinitiv Lipper.",
+      "Research shows saffron may be as effective as antidepressants for treating depression symptoms and could also boost sexual function, Dr. Daniel Amen shares.",
+      "President Donald Trump suggests McDonald's add more tartar sauce to the Filet-O-Fish during a recent speech, reigniting conversation about the iconic sandwich.",
+      "Researchers found that melting soft tau protein precursors before they form harmful fibrils could shift Alzheimer's treatment strategies toward early prevention.",
+      "President Trump claims title of first former McDonald's fry cook to become president after 30-minute campaign stint, joking he worked there longer than Kamala Harris ever did.",
+      "With over 32 million Americans facing food allergies, HHS Secretary RFK Jr. and FDA Chief Makary explore microbiome solutions. New gut health research may hold the key.",
+      "Scientists accidentally discovered how an old blood pressure drug hydralazine could fight aggressive brain cancer by targeting cellular oxygen sensors.",
+      "DoorDash's annual Cheeseburger Index reveals the most affordable cities for burger meals across 100 U.S. locations, with Lincoln, Nebraska, topping the list at $10.75.",
+      "Krak\u00f3w tops new study as Europe's most stress-free city break destination. Quick 17-minute airport transfers, walkable UNESCO old town and affordable prices make it a great choice.",
+      "While teen smoking drops to under 3%, health experts fear pop culture revival could undo progress as 90% of long-term smokers start before age 18.",
+      "The viral TikTok potato bed trend promises better sleep by creating a cozy nest with pillows and blankets. A sleep expert shares benefits and potential risks.",
+      "Aspic and Jell-O salads are making a comeback on social media and in fine restaurants, as chefs reimagine retro gelatin dishes for modern palates.",
+      "Longevity expert Peter Attia breaks down different fiber types amid the trending '\"fibermaxxing\" movement. Learn how different fibers affect gut health, blood sugar and weight.",
+      "A fatal allergic reaction to red meat highlights a dangerous tick-borne illness. Researchers warn of alpha-gal syndrome risks from hamburgers and steak after tick exposure.",
+      "The Vatican officially rejected the Jesus apparitions reported in Dozul\u00e9, France, during the 1970s. The supernatural claims have been declared false after decades.",
+      "A viral TikTok hack with 3.7 million views reveals a simple trick to cook more at home. A Michigan woman claims it's helped her save at least $60 a week.",
+      "A new Gallup survey shows a dramatic 17-point drop in American adults valuing religion in their daily lives since 2015, with only 49% saying faith is important.",
+      "Mayo Clinic scientists have developed a new method to predict Alzheimer's risk decades before symptoms appear, using brain scans and genetics to estimate a 10-year likelihood.",
+      "Former vegan chef Mollie Engelhart made a shocking career pivot from running five Los Angeles vegan restaurants to becoming a Texas cattle rancher and advocate.",
+      "Gut health expert reveals why acid reflux is becoming a \"silent epidemic\" among men. Discover 7 simple steps to reduce symptoms and prevent complications.",
+      "Researchers say a new drug-delivery implant could help patients with hard-to-treat bladder cancer avoid losing their bladders \u2014 and stay cancer-free for years.",
+      "Green tea, walnuts and the Mankai plant may help slow brain aging, as a new study found that a green Mediterranean diet reduced a harmful protein linked to cognitive decline.",
+      "New research found that vitamin D3 therapy, aimed at achieving optimal blood levels, significantly reduced the risk of repeat heart attacks in certain cardiac patients.",
+      "New research suggests that coffee may actually help prevent atrial fibrillation recurrence after treatment, contradicting long-held warnings about caffeine.",
+      "After traveling to more than 60 countries, Swedish explorer Daniel Bj\u00f6rnram shared what he\u2019s learned about fear, kindness and the surprising generosity of people around the world.",
+      "Chronic kidney disease now ranks as the ninth leading cause of death globally, affecting 788 million people worldwide, according to major health study.",
+      "Bitter compounds in cocoa, berries and red wine may boost memory by 30% within an hour by triggering brain's alarm system, a new Japanese study reveals.",
+      "Dark showering is the latest wellness hack trending on social media. Learn how this simple routine can reduce anxiety and improve sleep, according to brain expert Dr. Daniel Amen.",
+      "Insurance data reveals dramatic regional differences in Ozempic and Mounjaro usage, with obesity-heavy states prescribing GLP-1 medications at triple the rate of others.",
+      "A new study reveals Americans are split on restaurant tipping. Thirty-four percent still tip 20%, while others give less than 10%, showing growing fatigue with tipping culture nationwide.",
+      "Notre Dame Cathedral in Paris, France, expects 12 million visitors this year as it approaches the anniversary of its reopening after the devastating April 2019 fire.",
+      "Taco Bell's electric-blue Mountain Dew Baja Blast pie is breaking the internet with its wild tropical lime flavor and shocking neon appearance that has fans divided.",
+      "Retro salad dressings like Catalina, Mayfair and celery seed are making a comeback as nostalgic home cooks revive these 1960s and '70s favorites.",
+      "Happiness expert and behavioral scientist Arthur Brooks reveals how workaholism destroys relationships and why excessive work is often used to escape negative emotions.",
+      "Longevity expert Dr. Peter Attia reveals why most people decline sharply in their 70s, and shares his athlete-inspired approach to healthy aging and fitness.",
+      "Heavy drinking is linked to strokes 11 years earlier than light drinkers, new study reveals. Three drinks daily may accelerate brain damage significantly, according to researchers.",
+      "TSA wait times surge to over two hours at some major airports during the government shutdown, with Houston, LAX and Orlando hit hard as travelers are urged to arrive early.",
+      "Oreo released experimental Thanksgiving dinner cookie flavors as part of its test-and-learn program, with a 12-pack collection selling out after one week online.",
+      "The government shutdown has triggered 1,000-plus flight delays as the FAA cuts capacity at 40 airports. Airlines are offering refunds and policy changes amid ongoing travel disruptions.",
+      "A new pancreatic cancer therapy targets sugar molecules on cell surfaces, offering hope where traditional immunotherapies have failed in treating this deadly disease.",
+      "A Starbucks holiday bear cup is going viral, and fans predict it will sell out in mere hours when the 2025 holiday menu launches with new and returning drinks.",
+      "New research reveals that weightlifting beats cardio for blood sugar control and diabetes prevention, as resistance training offers superior metabolic benefits.",
+      "Sleep experts reveal why going to bed after a certain time disrupts cortisol and melatonin balance, causing disrupted sleep. One doctor shares the optimal bedtime window.",
+      "A new study finds that eating 5 cups of fruits and vegetables daily can improve sleep quality by 16% in less than 24 hours, offering a natural solution for better rest.",
+      "A new study reveals that walking just 3,000 to 7,500 steps daily may delay Alzheimer's cognitive decline by up to seven years for at-risk adults.",
+      "Influencers face backlash for posting TikTok and Instagram videos while traveling to Jamaica during Category 5 Hurricane Melissa, with critics calling their content insensitive.",
+      "A new study reveals that melatonin supplements may increase heart failure risk by 90% in chronic insomnia patients, challenging assumptions about this popular sleep aid.",
+      "The FDA-approved drug Pluvicto offers hope for advanced prostate cancer patients, but access barriers remain despite proven effectiveness in extending survival.",
+      "A USC study reveals that blood pressure fluctuations between heartbeats may harm brain health even when overall readings are normal, potentially affecting memory in older adults.",
+      "A longevity expert reveals how immune systems begin aging after 35, making people more susceptible to infections and immune-related disorders over time.",
+      "Experts reveal the truth about CoQ10 supplements: safe for most, but not the miracle cure many believe. They advise on dosing, side effects and interactions.",
+      "A look at the top-trending stories in food, relationships, great outdoors and more.",
+      "By entering your email and clicking the Subscribe button, you agree to the Fox News Privacy Policy and Terms of Use, and\n        agree to receive content and promotional communications from Fox News. You understand that you can\n        opt-out at any time.",
+      "You've successfully subscribed to this newsletter!",
+      "This material may not be published, broadcast, rewritten, or redistributed. \u00a92025 FOX News Network, LLC. All rights reserved. Quotes displayed in real-time or delayed by at least 15 minutes. Market data provided by\n        Factset. Powered and implemented by\n        FactSet Digital Solutions.\n        Legal Statement. Mutual Fund and ETF data provided by\n        Refinitiv Lipper."
+    ],
+    "wordCount": 1414
+  },
+  "links": {
+    "internal": [
+      {
+        "label": "Fox News Media",
+        "href": "https://www.foxnews.com/"
+      },
+      {
+        "label": "Books",
+        "href": "https://www.foxnews.com/books"
+      },
+      {
+        "label": "Fox News",
+        "href": "https://www.foxnews.com/"
+      },
+      {
+        "label": "U.S.",
+        "href": "https://www.foxnews.com/us"
+      },
+      {
+        "label": "Blue City Crime",
+        "href": "https://www.foxnews.com/category/us/blue-city-crime"
+      },
+      {
+        "label": "Campus Radicals",
+        "href": "https://www.foxnews.com/category/us/campus-radicals"
+      },
+      {
+        "label": "Border Crisis",
+        "href": "https://www.foxnews.com/category/us/immigration"
+      },
+      {
+        "label": "True Crime",
+        "href": "https://www.foxnews.com/true-crime"
+      },
+      {
+        "label": "Politics",
+        "href": "https://www.foxnews.com/politics"
+      },
+      {
+        "label": "Donald Trump",
+        "href": "https://www.foxnews.com/category/person/donald-trump"
+      },
+      {
+        "label": "Senate",
+        "href": "https://www.foxnews.com/category/politics/senate"
+      },
+      {
+        "label": "House",
+        "href": "https://www.foxnews.com/category/politics/house-of-representatives"
+      },
+      {
+        "label": "Judiciary",
+        "href": "https://www.foxnews.com/category/politics/judiciary"
+      },
+      {
+        "label": "Foreign Policy",
+        "href": "https://www.foxnews.com/category/politics/foreign-policy"
+      },
+      {
+        "label": "Fox News Polls",
+        "href": "https://www.foxnews.com/official-polls"
+      },
+      {
+        "label": "2025 Elections Coverage",
+        "href": "https://www.foxnews.com/elections"
+      },
+      {
+        "label": "World",
+        "href": "https://www.foxnews.com/world"
+      },
+      {
+        "label": "U.N.",
+        "href": "https://www.foxnews.com/category/world/united-nations"
+      },
+      {
+        "label": "Conflicts",
+        "href": "https://www.foxnews.com/category/world/conflicts"
+      },
+      {
+        "label": "Terrorism",
+        "href": "https://www.foxnews.com/category/world/terrorism"
+      },
+      {
+        "label": "Disasters",
+        "href": "https://www.foxnews.com/category/disasters"
+      },
+      {
+        "label": "Global Economy",
+        "href": "https://www.foxnews.com/category/world/global-economy"
+      },
+      {
+        "label": "Environment",
+        "href": "https://www.foxnews.com/category/environment"
+      },
+      {
+        "label": "Religion",
+        "href": "https://www.foxnews.com/category/world/religion"
+      },
+      {
+        "label": "Scandals",
+        "href": "https://www.foxnews.com/category/world/scandals"
+      },
+      {
+        "label": "Opinion",
+        "href": "https://www.foxnews.com/opinion"
+      },
+      {
+        "label": "Media",
+        "href": "https://www.foxnews.com/media"
+      },
+      {
+        "label": "Fox Nation Coverage",
+        "href": "https://www.foxnews.com/shows/fox-nation"
+      },
+      {
+        "label": "Entertainment",
+        "href": "https://www.foxnews.com/entertainment"
+      },
+      {
+        "label": "Prince Andrew",
+        "href": "https://www.foxnews.com/category/person/prince-andrew"
+      },
+      {
+        "label": "Katy Perry",
+        "href": "https://www.foxnews.com/category/person/katy-perry"
+      },
+      {
+        "label": "Royal Families",
+        "href": "https://www.foxnews.com/category/world/personalities/british-royals"
+      },
+      {
+        "label": "Country Music",
+        "href": "https://www.foxnews.com/category/entertainment/genres/country"
+      },
+      {
+        "label": "Nicole Kidman",
+        "href": "https://www.foxnews.com/category/person/nicole-kidman"
+      },
+      {
+        "label": "Sports",
+        "href": "https://www.foxnews.com/sports"
+      },
+      {
+        "label": "NFL",
+        "href": "https://www.foxnews.com/category/sports/nfl"
+      },
+      {
+        "label": "College Football",
+        "href": "https://www.foxnews.com/category/sports/ncaa-fb"
+      },
+      {
+        "label": "MLB",
+        "href": "https://www.foxnews.com/category/sports/mlb"
+      },
+      {
+        "label": "NASCAR",
+        "href": "https://www.foxnews.com/category/auto/nascar"
+      },
+      {
+        "label": "INDYCAR",
+        "href": "https://www.foxnews.com/category/auto/indycar"
+      },
+      {
+        "label": "NBA",
+        "href": "https://www.foxnews.com/category/sports/nba"
+      },
+      {
+        "label": "NHL",
+        "href": "https://www.foxnews.com/category/sports/nhl"
+      },
+      {
+        "label": "Golf",
+        "href": "https://www.foxnews.com/category/sports/golf"
+      },
+      {
+        "label": "Tennis",
+        "href": "https://www.foxnews.com/category/sports/tennis"
+      },
+      {
+        "label": "UFC",
+        "href": "https://www.foxnews.com/category/sports/ufc"
+      },
+      {
+        "label": "WWE",
+        "href": "https://www.foxnews.com/category/organization/wwe"
+      },
+      {
+        "label": "Lifestyle",
+        "href": "https://www.foxnews.com/lifestyle"
+      },
+      {
+        "label": "Travel",
+        "href": "https://www.foxnews.com/travel"
+      },
+      {
+        "label": "Food & Drink",
+        "href": "https://www.foxnews.com/food-drink"
+      },
+      {
+        "label": "Faith",
+        "href": "https://www.foxnews.com/faith-values"
+      },
+      {
+        "label": "Discovery",
+        "href": "https://www.foxnews.com/category/science/archaeology"
+      },
+      {
+        "label": "Games & Quizzes",
+        "href": "https://www.foxnews.com/games"
+      },
+      {
+        "label": "Health",
+        "href": "https://www.foxnews.com/health"
+      },
+      {
+        "label": "Weight Loss",
+        "href": "https://www.foxnews.com/category/health/nutrition-and-fitness/weight-loss"
+      },
+      {
+        "label": "Cancer",
+        "href": "https://www.foxnews.com/category/health/cancer"
+      },
+      {
+        "label": "Brain Health",
+        "href": "https://www.foxnews.com/category/health/brain-health"
+      },
+      {
+        "label": "Sleep",
+        "href": "https://www.foxnews.com/category/health/sleep-disorders"
+      },
+      {
+        "label": "Heart Health",
+        "href": "https://www.foxnews.com/category/health/heart-health"
+      },
+      {
+        "label": "Healthy Living",
+        "href": "https://www.foxnews.com/category/health/healthy-living"
+      },
+      {
+        "label": "Mental Health",
+        "href": "https://www.foxnews.com/category/health/mental-health"
+      },
+      {
+        "label": "MAHA",
+        "href": "https://www.foxnews.com/category/health/maha"
+      },
+      {
+        "label": "Video",
+        "href": "https://www.foxnews.com/video"
+      },
+      {
+        "label": "AI",
+        "href": "https://www.foxnews.com/category/tech/artificial-intelligence"
+      },
+      {
+        "label": "Watch\n            TV",
+        "href": "https://www.foxnews.com/video/5614615980001"
+      },
+      {
+        "label": "Home",
+        "href": "https://www.foxnews.com/"
+      },
+      {
+        "label": "EPSTEIN FILES",
+        "href": "https://www.foxnews.com/category/person/jeffrey-epstein"
+      },
+      {
+        "label": "TRUMP NEWS",
+        "href": "https://www.foxnews.com/category/person/donald-trump"
+      },
+      {
+        "label": "CAMPUS RADICALS",
+        "href": "https://www.foxnews.com/category/us/campus-radicals"
+      },
+      {
+        "label": "CHARLIE KIRK",
+        "href": "https://www.foxnews.com/category/media/charlie-kirk"
+      },
+      {
+        "label": "Games",
+        "href": "https://www.foxnews.com/games"
+      },
+      {
+        "label": "Scattergories Daily",
+        "href": "https://www.foxnews.com/games/scattergories-daily"
+      },
+      {
+        "label": "5 Across the Letter Word Game",
+        "href": "https://www.foxnews.com/games/5-across-word-game"
+      },
+      {
+        "label": "DownWords",
+        "href": "https://www.foxnews.com/games/lil-snack-downwords"
+      },
+      {
+        "label": "Sudoku",
+        "href": "https://www.foxnews.com/games/sudoku"
+      },
+      {
+        "label": "Swap Words",
+        "href": "https://www.foxnews.com/games/lil-snack-word-swap"
+      },
+      {
+        "label": "Word Search",
+        "href": "https://www.foxnews.com/games/word-search"
+      },
+      {
+        "label": "Icon Match",
+        "href": "https://www.foxnews.com/games/icon-match-puzzle"
+      },
+      {
+        "label": "Daily Crossword Puzzle",
+        "href": "https://www.foxnews.com/games/daily-crossword-puzzle"
+      },
+      {
+        "label": "Mini Crossword Puzzle",
+        "href": "https://www.foxnews.com/games/mini-crossword-puzzle"
+      },
+      {
+        "label": "Deals",
+        "href": "https://www.foxnews.com/deals"
+      },
+      {
+        "label": "Holiday Shopping",
+        "href": "https://www.foxnews.com/category/deals/trending"
+      },
+      {
+        "label": "Gift Guides",
+        "href": "https://www.foxnews.com/category/deals/gift"
+      },
+      {
+        "label": "Home Deals",
+        "href": "https://www.foxnews.com/category/deals/home"
+      },
+      {
+        "label": "Kitchen Deals",
+        "href": "https://www.foxnews.com/category/deals/kitchen"
+      },
+      {
+        "label": "Tech and Electronic Deals",
+        "href": "https://www.foxnews.com/category/deals/tech-and-electronic"
+      },
+      {
+        "label": "Health and Fitness Deals",
+        "href": "https://www.foxnews.com/category/deals/health-and-fitness"
+      },
+      {
+        "label": "Beauty and Fashion Deals",
+        "href": "https://www.foxnews.com/category/deals/beauty-and-fashion"
+      },
+      {
+        "label": "Science & Tech",
+        "href": "https://www.foxnews.com/tech"
+      },
+      {
+        "label": "Air & Space",
+        "href": "https://www.foxnews.com/category/science/air-and-space"
+      },
+      {
+        "label": "Security",
+        "href": "https://www.foxnews.com/category/tech/topics/security"
+      },
+      {
+        "label": "Innovation",
+        "href": "https://www.foxnews.com/category/tech/topics/innovation"
+      },
+      {
+        "label": "Video Games",
+        "href": "https://www.foxnews.com/category/tech/topics/video-games"
+      },
+      {
+        "label": "Military Tech",
+        "href": "https://www.foxnews.com/category/tech/topics/military-tech"
+      },
+      {
+        "label": "Planet Earth",
+        "href": "https://www.foxnews.com/category/science/planet-earth"
+      },
+      {
+        "label": "Wild Nature",
+        "href": "https://www.foxnews.com/category/science/wild-nature"
+      },
+      {
+        "label": "Watch Live",
+        "href": "https://www.foxnews.com/video/5614615980001"
+      },
+      {
+        "label": "FOX News Shows",
+        "href": "https://www.foxnews.com/shows"
+      },
+      {
+        "label": "Programming Schedule",
+        "href": "https://www.foxnews.com/fnctv"
+      },
+      {
+        "label": "On Air Personalities",
+        "href": "https://www.foxnews.com/person/personalities"
+      },
+      {
+        "label": "Full Episodes",
+        "href": "https://www.foxnews.com/video/shows"
+      },
+      {
+        "label": "Show Clips",
+        "href": "https://www.foxnews.com/video/topics/v-most-recent-episodes"
+      },
+      {
+        "label": "News Clips",
+        "href": "https://www.foxnews.com/video/topics/latest-news-video"
+      },
+      {
+        "label": "Apps & Products",
+        "href": "https://www.foxnews.com/apps-products"
+      },
+      {
+        "label": "FOX News Go",
+        "href": "https://www.foxnews.com/go"
+      },
+      {
+        "label": "Newsletters",
+        "href": "https://www.foxnews.com/newsletters"
+      },
+      {
+        "label": "Games",
+        "href": "https://www.foxnews.com/games"
+      },
+      {
+        "label": "Scattergories Daily",
+        "href": "https://www.foxnews.com/games/scattergories-daily"
+      },
+      {
+        "label": "5 Across the Letter Word Game",
+        "href": "https://www.foxnews.com/games/5-across-word-game"
+      },
+      {
+        "label": "DownWords",
+        "href": "https://www.foxnews.com/games/lil-snack-downwords"
+      },
+      {
+        "label": "Sudoku",
+        "href": "https://www.foxnews.com/games/sudoku"
+      },
+      {
+        "label": "Swap Words",
+        "href": "https://www.foxnews.com/games/lil-snack-word-swap"
+      },
+      {
+        "label": "Word Search",
+        "href": "https://www.foxnews.com/games/word-search"
+      },
+      {
+        "label": "Icon Match",
+        "href": "https://www.foxnews.com/games/icon-match-puzzle"
+      },
+      {
+        "label": "Daily Crossword Puzzle",
+        "href": "https://www.foxnews.com/games/daily-crossword-puzzle"
+      },
+      {
+        "label": "Mini Crossword Puzzle",
+        "href": "https://www.foxnews.com/games/mini-crossword-puzzle"
+      },
+      {
+        "label": "Deals",
+        "href": "https://www.foxnews.com/deals"
+      },
+      {
+        "label": "Holiday Shopping",
+        "href": "https://www.foxnews.com/category/deals/trending"
+      },
+      {
+        "label": "Gift Guides",
+        "href": "https://www.foxnews.com/category/deals/gift"
+      },
+      {
+        "label": "Home Deals",
+        "href": "https://www.foxnews.com/category/deals/home"
+      },
+      {
+        "label": "Kitchen Deals",
+        "href": "https://www.foxnews.com/category/deals/kitchen"
+      },
+      {
+        "label": "Tech and Electronic Deals",
+        "href": "https://www.foxnews.com/category/deals/tech-and-electronic"
+      },
+      {
+        "label": "Health and Fitness Deals",
+        "href": "https://www.foxnews.com/category/deals/health-and-fitness"
+      },
+      {
+        "label": "Beauty and Fashion Deals",
+        "href": "https://www.foxnews.com/category/deals/beauty-and-fashion"
+      },
+      {
+        "label": "Science & Tech",
+        "href": "https://www.foxnews.com/tech"
+      },
+      {
+        "label": "Air & Space",
+        "href": "https://www.foxnews.com/category/science/air-and-space"
+      },
+      {
+        "label": "Security",
+        "href": "https://www.foxnews.com/category/tech/topics/security"
+      },
+      {
+        "label": "Innovation",
+        "href": "https://www.foxnews.com/category/tech/topics/innovation"
+      },
+      {
+        "label": "Video Games",
+        "href": "https://www.foxnews.com/category/tech/topics/video-games"
+      },
+      {
+        "label": "Military Tech",
+        "href": "https://www.foxnews.com/category/tech/topics/military-tech"
+      },
+      {
+        "label": "Planet Earth",
+        "href": "https://www.foxnews.com/category/science/planet-earth"
+      },
+      {
+        "label": "Wild Nature",
+        "href": "https://www.foxnews.com/category/science/wild-nature"
+      },
+      {
+        "label": "Watch Live",
+        "href": "https://www.foxnews.com/video/5614615980001"
+      },
+      {
+        "label": "FOX News Shows",
+        "href": "https://www.foxnews.com/shows"
+      },
+      {
+        "label": "Programming Schedule",
+        "href": "https://www.foxnews.com/fnctv"
+      },
+      {
+        "label": "On Air Personalities",
+        "href": "https://www.foxnews.com/person/personalities"
+      },
+      {
+        "label": "Full Episodes",
+        "href": "https://www.foxnews.com/video/shows"
+      },
+      {
+        "label": "Show Clips",
+        "href": "https://www.foxnews.com/video/topics/v-most-recent-episodes"
+      },
+      {
+        "label": "News Clips",
+        "href": "https://www.foxnews.com/video/topics/latest-news-video"
+      },
+      {
+        "label": "Apps & Products",
+        "href": "https://www.foxnews.com/apps-products"
+      },
+      {
+        "label": "FOX News Go",
+        "href": "https://www.foxnews.com/go"
+      },
+      {
+        "label": "Newsletters",
+        "href": "https://www.foxnews.com/newsletters"
+      },
+      {
+        "label": "RSS",
+        "href": "https://www.foxnews.com/story/foxnews-com-rss-feeds"
+      },
+      {
+        "label": "Newsletters",
+        "href": "https://www.foxnews.com/newsletters"
+      },
+      {
+        "label": "Fox News",
+        "href": "https://www.foxnews.com"
+      },
+      {
+        "label": "Terms of Use",
+        "href": "https://www.foxnews.com/terms-of-use"
+      },
+      {
+        "label": "Privacy Policy",
+        "href": "https://www.foxnews.com/privacy-policy"
+      },
+      {
+        "label": "Closed Caption Policy",
+        "href": "https://www.foxnews.com/closed-captioning"
+      },
+      {
+        "label": "Contact Us",
+        "href": "https://www.foxnews.com/contact"
+      },
+      {
+        "label": "Accessibility Statement",
+        "href": "https://www.foxnews.com/accessibility-statement"
+      },
+      {
+        "label": "News Sitemap",
+        "href": "https://www.foxnews.com/html-sitemap"
+      },
+      {
+        "label": "Video Sitemap",
+        "href": "https://www.foxnews.com/html-video-sitemap"
+      },
+      {
+        "label": "",
+        "href": "https://www.foxnews.com/travel/government-releases-declassified-amelia-earhart-disappearance-records-from-national-archives"
+      },
+      {
+        "label": "Travel",
+        "href": "https://www.foxnews.com/category/travel"
+      },
+      {
+        "label": "Government releases newly declassified Amelia Earhart disappearance records from National Archives",
+        "href": "https://www.foxnews.com/travel/government-releases-declassified-amelia-earhart-disappearance-records-from-national-archives"
+      },
+      {
+        "label": "",
+        "href": "https://www.foxnews.com/food-drink/ancient-fire-reveals-preserved-important-5000-year-old-food-find"
+      },
+      {
+        "label": "Food-Drink",
+        "href": "https://www.foxnews.com/category/food-drink"
+      },
+      {
+        "label": "Ancient fire reveals perfectly preserved and 'very important' 5,000-year-old food find",
+        "href": "https://www.foxnews.com/food-drink/ancient-fire-reveals-preserved-important-5000-year-old-food-find"
+      },
+      {
+        "label": "",
+        "href": "https://www.foxnews.com/health/common-spice-may-beat-depression-boost-sexual-health-doctor-says"
+      },
+      {
+        "label": "Health",
+        "href": "https://www.foxnews.com/category/health"
+      },
+      {
+        "label": "Common spice may beat depression and boost sexual health, doctor says",
+        "href": "https://www.foxnews.com/health/common-spice-may-beat-depression-boost-sexual-health-doctor-says"
+      },
+      {
+        "label": "",
+        "href": "https://www.foxnews.com/lifestyle/american-culture-quiz-test-yourself-gridiron-glory-presidential-pastimes"
+      },
+      {
+        "label": "Quizzes",
+        "href": "https://www.foxnews.com/category/lifestyle/quizzes"
+      },
+      {
+        "label": "American Culture Quiz: Test yourself on gridiron glory and presidential pastimes",
+        "href": "https://www.foxnews.com/lifestyle/american-culture-quiz-test-yourself-gridiron-glory-presidential-pastimes"
+      },
+      {
+        "label": "",
+        "href": "https://www.foxnews.com/games"
+      },
+      {
+        "label": "PLAY NOW! Crosswords \u2660 Word Search \u2663 Crazy Crystals \u2666 Stack & Match \u2665 5 Across!",
+        "href": "https://www.foxnews.com/games"
+      },
+      {
+        "label": "More",
+        "href": "https://www.foxnews.com/category/health/maha"
+      },
+      {
+        "label": "",
+        "href": "https://www.foxnews.com/video/6385303436112"
+      },
+      {
+        "label": "0:05:02",
+        "href": "https://www.foxnews.com/video/6385303436112"
+      },
+      {
+        "label": "Actress Shay Mitchell releases skincare line for kids, sparks industry debate",
+        "href": "https://www.foxnews.com/video/6385303436112"
+      },
+      {
+        "label": "",
+        "href": "https://www.foxnews.com/video/6385268405112"
+      },
+      {
+        "label": "0:00:34",
+        "href": "https://www.foxnews.com/video/6385268405112"
+      },
+      {
+        "label": "Baby goose appears to 'feed' hungry fish in heartwarming lake moment",
+        "href": "https://www.foxnews.com/video/6385268405112"
+      },
+      {
+        "label": "",
+        "href": "https://www.foxnews.com/health/common-spice-may-beat-depression-boost-sexual-health-doctor-says"
+      },
+      {
+        "label": "Common spice may beat depression and boost sexual health, doctor says",
+        "href": "https://www.foxnews.com/health/common-spice-may-beat-depression-boost-sexual-health-doctor-says"
+      },
+      {
+        "label": "",
+        "href": "https://www.foxnews.com/video/6385280329112"
+      },
+      {
+        "label": "0:04:09",
+        "href": "https://www.foxnews.com/video/6385280329112"
+      },
+      {
+        "label": "Screen time detox camp aims to help youth phone addiction",
+        "href": "https://www.foxnews.com/video/6385280329112"
+      },
+      {
+        "label": "More",
+        "href": "https://www.foxnews.com/food-drink"
+      },
+      {
+        "label": "",
+        "href": "https://www.foxnews.com/food-drink/ancient-fire-reveals-preserved-important-5000-year-old-food-find"
+      },
+      {
+        "label": "Ancient fire reveals perfectly preserved and 'very important' 5,000-year-old food find",
+        "href": "https://www.foxnews.com/food-drink/ancient-fire-reveals-preserved-important-5000-year-old-food-find"
+      },
+      {
+        "label": "",
+        "href": "https://www.foxnews.com/food-drink/trumps-praise-mcdonalds-filet-o-fish-sparks-nostalgia-saucy-debate"
+      },
+      {
+        "label": "Trump's praise for McDonald's Filet-O-Fish sparks nostalgia \u2014 and a saucy debate",
+        "href": "https://www.foxnews.com/food-drink/trumps-praise-mcdonalds-filet-o-fish-sparks-nostalgia-saucy-debate"
+      },
+      {
+        "label": "",
+        "href": "https://www.foxnews.com/food-drink/las-vegas-buffet-binger-strip-wanted-unusual-2k-thanksgiving-eating-gig"
+      },
+      {
+        "label": "Las Vegas buffet binger on the Strip wanted for unusual $2K Thanksgiving eating gig",
+        "href": "https://www.foxnews.com/food-drink/las-vegas-buffet-binger-strip-wanted-unusual-2k-thanksgiving-eating-gig"
+      },
+      {
+        "label": "",
+        "href": "https://www.foxnews.com/food-drink/daily-orange-juice-has-therapeutic-potential-genes-heart-health-study-finds"
+      },
+      {
+        "label": "Daily orange juice has 'therapeutic potential' for genes and heart health, study finds",
+        "href": "https://www.foxnews.com/food-drink/daily-orange-juice-has-therapeutic-potential-genes-heart-health-study-finds"
+      },
+      {
+        "label": "More",
+        "href": "https://www.foxnews.com/category/deals"
+      },
+      {
+        "label": "",
+        "href": "https://www.foxnews.com/deals/best-weekly-sales"
+      },
+      {
+        "label": "The best sales to shop this week \u2013 up to 50% off Bose, Ulta, Jackery and more",
+        "href": "https://www.foxnews.com/deals/best-weekly-sales"
+      },
+      {
+        "label": "",
+        "href": "https://www.foxnews.com/deals/amazon-biggest-discounts-this-week"
+      },
+      {
+        "label": "The best early Black Friday deals on Amazon \u2013 up to 76% off Instant Pot, Nespresso and more",
+        "href": "https://www.foxnews.com/deals/amazon-biggest-discounts-this-week"
+      },
+      {
+        "label": "",
+        "href": "https://www.foxnews.com/deals/stress-free-hosting-supplies"
+      },
+      {
+        "label": "10 essentials you need to host a stress-free Thanksgiving dinner",
+        "href": "https://www.foxnews.com/deals/stress-free-hosting-supplies"
+      },
+      {
+        "label": "",
+        "href": "https://www.foxnews.com/deals/everyday-cleaning-essentials"
+      },
+      {
+        "label": "Hate cleaning? These 10 workhorse products will save you time and energy",
+        "href": "https://www.foxnews.com/deals/everyday-cleaning-essentials"
+      },
+      {
+        "label": "",
+        "href": "https://www.foxnews.com/health/common-spice-may-beat-depression-boost-sexual-health-doctor-says"
+      },
+      {
+        "label": "Common spice may beat depression and boost sexual health, doctor says",
+        "href": "https://www.foxnews.com/health/common-spice-may-beat-depression-boost-sexual-health-doctor-says"
+      },
+      {
+        "label": "Research shows saffron may be as effective as antidepressants for treating depression symptoms and could also boost sexual function, Dr. Daniel Amen shares.",
+        "href": "https://www.foxnews.com/health/common-spice-may-beat-depression-boost-sexual-health-doctor-says"
+      },
+      {
+        "label": "",
+        "href": "https://www.foxnews.com/food-drink/trumps-praise-mcdonalds-filet-o-fish-sparks-nostalgia-saucy-debate"
+      },
+      {
+        "label": "Trump's praise for McDonald's Filet-O-Fish sparks nostalgia \u2014 and a saucy debate",
+        "href": "https://www.foxnews.com/food-drink/trumps-praise-mcdonalds-filet-o-fish-sparks-nostalgia-saucy-debate"
+      },
+      {
+        "label": "President Donald Trump suggests McDonald's add more tartar sauce to the Filet-O-Fish during a recent speech, reigniting conversation about the iconic sandwich.",
+        "href": "https://www.foxnews.com/food-drink/trumps-praise-mcdonalds-filet-o-fish-sparks-nostalgia-saucy-debate"
+      },
+      {
+        "label": "",
+        "href": "https://www.foxnews.com/health/alzheimers-scientists-find-key-halting-brain-decline-before-symptoms"
+      },
+      {
+        "label": "Alzheimer\u2019s scientists find key to halting brain decline before symptoms",
+        "href": "https://www.foxnews.com/health/alzheimers-scientists-find-key-halting-brain-decline-before-symptoms"
+      },
+      {
+        "label": "Researchers found that melting soft tau protein precursors before they form harmful fibrils could shift Alzheimer's treatment strategies toward early prevention.",
+        "href": "https://www.foxnews.com/health/alzheimers-scientists-find-key-halting-brain-decline-before-symptoms"
+      },
+      {
+        "label": "",
+        "href": "https://www.foxnews.com/politics/trump-jokes-hes-first-former-mcdonalds-fry-cook-become-president-hailing-chains-spirit"
+      },
+      {
+        "label": "Trump jokes he\u2019s first former McDonald\u2019s fry cook to become president, hailing the chain\u2019s spirit",
+        "href": "https://www.foxnews.com/politics/trump-jokes-hes-first-former-mcdonalds-fry-cook-become-president-hailing-chains-spirit"
+      },
+      {
+        "label": "President Trump claims title of first former McDonald's fry cook to become president after 30-minute campaign stint, joking he worked there longer than Kamala Harris ever did.",
+        "href": "https://www.foxnews.com/politics/trump-jokes-hes-first-former-mcdonalds-fry-cook-become-president-hailing-chains-spirit"
+      },
+      {
+        "label": "",
+        "href": "https://www.foxnews.com/health/gut-imbalance-may-driving-americas-food-allergy-epidemic-experts-warn"
+      },
+      {
+        "label": "Gut imbalance may be driving America\u2019s food allergy epidemic, experts warn",
+        "href": "https://www.foxnews.com/health/gut-imbalance-may-driving-americas-food-allergy-epidemic-experts-warn"
+      },
+      {
+        "label": "With over 32 million Americans facing food allergies, HHS Secretary RFK Jr. and FDA Chief Makary explore microbiome solutions. New gut health research may hold the key.",
+        "href": "https://www.foxnews.com/health/gut-imbalance-may-driving-americas-food-allergy-epidemic-experts-warn"
+      },
+      {
+        "label": "",
+        "href": "https://www.foxnews.com/health/fast-growing-cancer-could-slowed-common-blood-pressure-drug-research-shows"
+      },
+      {
+        "label": "Fast-growing cancer could be slowed by common blood pressure drug, research shows",
+        "href": "https://www.foxnews.com/health/fast-growing-cancer-could-slowed-common-blood-pressure-drug-research-shows"
+      },
+      {
+        "label": "Scientists accidentally discovered how an old blood pressure drug hydralazine could fight aggressive brain cancer by targeting cellular oxygen sensors.",
+        "href": "https://www.foxnews.com/health/fast-growing-cancer-could-slowed-common-blood-pressure-drug-research-shows"
+      },
+      {
+        "label": "",
+        "href": "https://www.foxnews.com/food-drink/looking-cheap-cheeseburger-10-american-cities-deliver-best-meal-deals"
+      },
+      {
+        "label": "Looking for a cheap cheeseburger? 10 American cities that deliver the best meal deals",
+        "href": "https://www.foxnews.com/food-drink/looking-cheap-cheeseburger-10-american-cities-deliver-best-meal-deals"
+      },
+      {
+        "label": "DoorDash's annual Cheeseburger Index reveals the most affordable cities for burger meals across 100 U.S. locations, with Lincoln, Nebraska, topping the list at $10.75.",
+        "href": "https://www.foxnews.com/food-drink/looking-cheap-cheeseburger-10-american-cities-deliver-best-meal-deals"
+      },
+      {
+        "label": "",
+        "href": "https://www.foxnews.com/travel/unexpected-city-tops-list-stress-free-getaways-year-according-new-data"
+      },
+      {
+        "label": "Unexpected city tops list for stress-free getaways this year, according to new data",
+        "href": "https://www.foxnews.com/travel/unexpected-city-tops-list-stress-free-getaways-year-according-new-data"
+      },
+      {
+        "label": "Krak\u00f3w tops new study as Europe's most stress-free city break destination. Quick 17-minute airport transfers, walkable UNESCO old town and affordable prices make it a great choice.",
+        "href": "https://www.foxnews.com/travel/unexpected-city-tops-list-stress-free-getaways-year-according-new-data"
+      },
+      {
+        "label": "",
+        "href": "https://www.foxnews.com/health/pop-culture-embraces-smoking-cool-again-gen-z-youth-watching"
+      },
+      {
+        "label": "Pop culture embraces smoking as 'cool' again \u2014 and Gen Z youth are watching",
+        "href": "https://www.foxnews.com/health/pop-culture-embraces-smoking-cool-again-gen-z-youth-watching"
+      },
+      {
+        "label": "While teen smoking drops to under 3%, health experts fear pop culture revival could undo progress as 90% of long-term smokers start before age 18.",
+        "href": "https://www.foxnews.com/health/pop-culture-embraces-smoking-cool-again-gen-z-youth-watching"
+      },
+      {
+        "label": "",
+        "href": "https://www.foxnews.com/health/viral-potato-bed-sleep-trend-has-people-cozying-up-best-nights-rest"
+      },
+      {
+        "label": "Viral \u2018potato bed\u2019 sleep trend has people cozying up for their best night\u2019s rest",
+        "href": "https://www.foxnews.com/health/viral-potato-bed-sleep-trend-has-people-cozying-up-best-nights-rest"
+      },
+      {
+        "label": "The viral TikTok potato bed trend promises better sleep by creating a cozy nest with pillows and blankets. A sleep expert shares benefits and potential risks.",
+        "href": "https://www.foxnews.com/health/viral-potato-bed-sleep-trend-has-people-cozying-up-best-nights-rest"
+      },
+      {
+        "label": "",
+        "href": "https://www.foxnews.com/food-drink/retro-refined-jell-o-salad-savory-gelatin-dishes-make-unexpected-return"
+      },
+      {
+        "label": "From retro to refined: Jell-O salad and savory gelatin dishes make unexpected return",
+        "href": "https://www.foxnews.com/food-drink/retro-refined-jell-o-salad-savory-gelatin-dishes-make-unexpected-return"
+      },
+      {
+        "label": "Aspic and Jell-O salads are making a comeback on social media and in fine restaurants, as chefs reimagine retro gelatin dishes for modern palates.",
+        "href": "https://www.foxnews.com/food-drink/retro-refined-jell-o-salad-savory-gelatin-dishes-make-unexpected-return"
+      },
+      {
+        "label": "",
+        "href": "https://www.foxnews.com/health/not-all-fiber-created-equal-doctors-share-which-kinds-truly-support-longevity"
+      },
+      {
+        "label": "Not all fiber is created equal; doctors share which kinds truly support longevity",
+        "href": "https://www.foxnews.com/health/not-all-fiber-created-equal-doctors-share-which-kinds-truly-support-longevity"
+      },
+      {
+        "label": "Longevity expert Peter Attia breaks down different fiber types amid the trending '\"fibermaxxing\" movement. Learn how different fibers affect gut health, blood sugar and weight.",
+        "href": "https://www.foxnews.com/health/not-all-fiber-created-equal-doctors-share-which-kinds-truly-support-longevity"
+      },
+      {
+        "label": "",
+        "href": "https://www.foxnews.com/health/man-dies-hours-after-eating-burger-researchers-confirm-fatal-allergy"
+      },
+      {
+        "label": "Man dies hours after eating burger as researchers confirm fatal allergy",
+        "href": "https://www.foxnews.com/health/man-dies-hours-after-eating-burger-researchers-confirm-fatal-allergy"
+      },
+      {
+        "label": "A fatal allergic reaction to red meat highlights a dangerous tick-borne illness. Researchers warn of alpha-gal syndrome risks from hamburgers and steak after tick exposure.",
+        "href": "https://www.foxnews.com/health/man-dies-hours-after-eating-burger-researchers-confirm-fatal-allergy"
+      },
+      {
+        "label": "",
+        "href": "https://www.foxnews.com/travel/rumored-supernatural-sighting-jesus-hillside-town-debunked-pope-leo-xiv"
+      },
+      {
+        "label": "Rumored supernatural sighting of Jesus in hillside town debunked by Pope Leo XIV",
+        "href": "https://www.foxnews.com/travel/rumored-supernatural-sighting-jesus-hillside-town-debunked-pope-leo-xiv"
+      },
+      {
+        "label": "The Vatican officially rejected the Jesus apparitions reported in Dozul\u00e9, France, during the 1970s. The supernatural claims have been declared false after decades.",
+        "href": "https://www.foxnews.com/travel/rumored-supernatural-sighting-jesus-hillside-town-debunked-pope-leo-xiv"
+      },
+      {
+        "label": "",
+        "href": "https://www.foxnews.com/food-drink/cooking-work-clothes-saves-woman-60-week-has-millions-rethinking-dinner"
+      },
+      {
+        "label": "Cooking in her work clothes saves woman $60 a week, has millions rethinking dinner",
+        "href": "https://www.foxnews.com/food-drink/cooking-work-clothes-saves-woman-60-week-has-millions-rethinking-dinner"
+      },
+      {
+        "label": "A viral TikTok hack with 3.7 million views reveals a simple trick to cook more at home. A Michigan woman claims it's helped her save at least $60 a week.",
+        "href": "https://www.foxnews.com/food-drink/cooking-work-clothes-saves-woman-60-week-has-millions-rethinking-dinner"
+      },
+      {
+        "label": "",
+        "href": "https://www.foxnews.com/us/americans-report-dramatic-drop-importance-faith-poll-finds"
+      },
+      {
+        "label": "Americans report dramatic drop in importance of faith, poll finds",
+        "href": "https://www.foxnews.com/us/americans-report-dramatic-drop-importance-faith-poll-finds"
+      },
+      {
+        "label": "A new Gallup survey shows a dramatic 17-point drop in American adults valuing religion in their daily lives since 2015, with only 49% saying faith is important.",
+        "href": "https://www.foxnews.com/us/americans-report-dramatic-drop-importance-faith-poll-finds"
+      },
+      {
+        "label": "",
+        "href": "https://www.foxnews.com/health/alzheimers-could-predicted-years-before-symptoms-new-mayo-clinic-model"
+      },
+      {
+        "label": "Alzheimer\u2019s could be predicted years before symptoms arise using new risk tool",
+        "href": "https://www.foxnews.com/health/alzheimers-could-predicted-years-before-symptoms-new-mayo-clinic-model"
+      },
+      {
+        "label": "Mayo Clinic scientists have developed a new method to predict Alzheimer's risk decades before symptoms appear, using brain scans and genetics to estimate a 10-year likelihood.",
+        "href": "https://www.foxnews.com/health/alzheimers-could-predicted-years-before-symptoms-new-mayo-clinic-model"
+      },
+      {
+        "label": "",
+        "href": "https://www.foxnews.com/food-drink/my-whole-life-lie-former-vegan-chef-sinks-teeth-cattle-ranching"
+      },
+      {
+        "label": "'My whole life was a lie': Former vegan chef sinks her teeth into cattle ranching",
+        "href": "https://www.foxnews.com/food-drink/my-whole-life-lie-former-vegan-chef-sinks-teeth-cattle-ranching"
+      },
+      {
+        "label": "Former vegan chef Mollie Engelhart made a shocking career pivot from running five Los Angeles vegan restaurants to becoming a Texas cattle rancher and advocate.",
+        "href": "https://www.foxnews.com/food-drink/my-whole-life-lie-former-vegan-chef-sinks-teeth-cattle-ranching"
+      },
+      {
+        "label": "",
+        "href": "https://www.foxnews.com/health/expert-warns-silent-epidemic-puts-mens-health-serious-risk"
+      },
+      {
+        "label": "Expert warns of 'silent epidemic' that puts men\u2019s health at serious risk",
+        "href": "https://www.foxnews.com/health/expert-warns-silent-epidemic-puts-mens-health-serious-risk"
+      },
+      {
+        "label": "Gut health expert reveals why acid reflux is becoming a \"silent epidemic\" among men. Discover 7 simple steps to reduce symptoms and prevent complications.",
+        "href": "https://www.foxnews.com/health/expert-warns-silent-epidemic-puts-mens-health-serious-risk"
+      },
+      {
+        "label": "",
+        "href": "https://www.foxnews.com/health/some-cancer-patients-could-avoid-surgery-innovative-new-therapy"
+      },
+      {
+        "label": "Some cancer patients could avoid surgery with innovative new therapy",
+        "href": "https://www.foxnews.com/health/some-cancer-patients-could-avoid-surgery-innovative-new-therapy"
+      },
+      {
+        "label": "Researchers say a new drug-delivery implant could help patients with hard-to-treat bladder cancer avoid losing their bladders \u2014 and stay cancer-free for years.",
+        "href": "https://www.foxnews.com/health/some-cancer-patients-could-avoid-surgery-innovative-new-therapy"
+      },
+      {
+        "label": "",
+        "href": "https://www.foxnews.com/food-drink/brain-aging-may-slow-green-tea-walnuts-tiny-swamp-plant-study-finds"
+      },
+      {
+        "label": "Brain aging may slow with green tea, walnuts and tiny swamp plant, study finds",
+        "href": "https://www.foxnews.com/food-drink/brain-aging-may-slow-green-tea-walnuts-tiny-swamp-plant-study-finds"
+      },
+      {
+        "label": "Green tea, walnuts and the Mankai plant may help slow brain aging, as a new study found that a green Mediterranean diet reduced a harmful protein linked to cognitive decline.",
+        "href": "https://www.foxnews.com/food-drink/brain-aging-may-slow-green-tea-walnuts-tiny-swamp-plant-study-finds"
+      },
+      {
+        "label": "",
+        "href": "https://www.foxnews.com/health/common-vitamin-could-protect-some-heart-attack-survivors-study-shows"
+      },
+      {
+        "label": "Common vitamin could protect some heart attack survivors, study shows",
+        "href": "https://www.foxnews.com/health/common-vitamin-could-protect-some-heart-attack-survivors-study-shows"
+      },
+      {
+        "label": "New research found that vitamin D3 therapy, aimed at achieving optimal blood levels, significantly reduced the risk of repeat heart attacks in certain cardiac patients.",
+        "href": "https://www.foxnews.com/health/common-vitamin-could-protect-some-heart-attack-survivors-study-shows"
+      },
+      {
+        "label": "",
+        "href": "https://www.foxnews.com/health/daily-coffee-may-protect-heart-unexpected-way-study-suggests"
+      },
+      {
+        "label": "Daily coffee may protect the heart in unexpected way, study suggests",
+        "href": "https://www.foxnews.com/health/daily-coffee-may-protect-heart-unexpected-way-study-suggests"
+      },
+      {
+        "label": "New research suggests that coffee may actually help prevent atrial fibrillation recurrence after treatment, contradicting long-held warnings about caffeine.",
+        "href": "https://www.foxnews.com/health/daily-coffee-may-protect-heart-unexpected-way-study-suggests"
+      },
+      {
+        "label": "",
+        "href": "https://www.foxnews.com/lifestyle/man-visited-61-countries-worlds-most-feared-places-one-unexpected-quality"
+      },
+      {
+        "label": "Man who visited 61 countries insists world's 'most feared' places have one unexpected quality",
+        "href": "https://www.foxnews.com/lifestyle/man-visited-61-countries-worlds-most-feared-places-one-unexpected-quality"
+      },
+      {
+        "label": "After traveling to more than 60 countries, Swedish explorer Daniel Bj\u00f6rnram shared what he\u2019s learned about fear, kindness and the surprising generosity of people around the world.",
+        "href": "https://www.foxnews.com/lifestyle/man-visited-61-countries-worlds-most-feared-places-one-unexpected-quality"
+      },
+      {
+        "label": "",
+        "href": "https://www.foxnews.com/health/killer-condition-lands-top-10-leading-causes-death-global-cases-surge"
+      },
+      {
+        "label": "Killer condition lands in top 10 leading causes of death as global cases surge",
+        "href": "https://www.foxnews.com/health/killer-condition-lands-top-10-leading-causes-death-global-cases-surge"
+      },
+      {
+        "label": "Chronic kidney disease now ranks as the ninth leading cause of death globally, affecting 788 million people worldwide, according to major health study.",
+        "href": "https://www.foxnews.com/health/killer-condition-lands-top-10-leading-causes-death-global-cases-surge"
+      },
+      {
+        "label": "",
+        "href": "https://www.foxnews.com/food-drink/bite-dark-chocolate-could-sharpen-memory-within-hour-study-suggests"
+      },
+      {
+        "label": "Bite of dark chocolate could sharpen your memory within an hour, study suggests",
+        "href": "https://www.foxnews.com/food-drink/bite-dark-chocolate-could-sharpen-memory-within-hour-study-suggests"
+      },
+      {
+        "label": "Bitter compounds in cocoa, berries and red wine may boost memory by 30% within an hour by triggering brain's alarm system, a new Japanese study reveals.",
+        "href": "https://www.foxnews.com/food-drink/bite-dark-chocolate-could-sharpen-memory-within-hour-study-suggests"
+      },
+      {
+        "label": "",
+        "href": "https://www.foxnews.com/health/dark-showering-new-trend-better-sleep"
+      },
+      {
+        "label": "'Dark showering' is the new trend for better sleep",
+        "href": "https://www.foxnews.com/health/dark-showering-new-trend-better-sleep"
+      },
+      {
+        "label": "Dark showering is the latest wellness hack trending on social media. Learn how this simple routine can reduce anxiety and improve sleep, according to brain expert Dr. Daniel Amen.",
+        "href": "https://www.foxnews.com/health/dark-showering-new-trend-better-sleep"
+      },
+      {
+        "label": "",
+        "href": "https://www.foxnews.com/health/americas-fattest-states-revealed-how-ozempic-changing-map"
+      },
+      {
+        "label": "America\u2019s fattest states revealed \u2014 and how Ozempic is changing the map",
+        "href": "https://www.foxnews.com/health/americas-fattest-states-revealed-how-ozempic-changing-map"
+      },
+      {
+        "label": "Insurance data reveals dramatic regional differences in Ozempic and Mounjaro usage, with obesity-heavy states prescribing GLP-1 medications at triple the rate of others.",
+        "href": "https://www.foxnews.com/health/americas-fattest-states-revealed-how-ozempic-changing-map"
+      },
+      {
+        "label": "",
+        "href": "https://www.foxnews.com/food-drink/americans-fed-up-tipping-culture-many-shelling-out-20-restaurants"
+      },
+      {
+        "label": "Americans are fed up with tipping culture, yet many still shell out 20% at restaurants",
+        "href": "https://www.foxnews.com/food-drink/americans-fed-up-tipping-culture-many-shelling-out-20-restaurants"
+      },
+      {
+        "label": "A new study reveals Americans are split on restaurant tipping. Thirty-four percent still tip 20%, while others give less than 10%, showing growing fatigue with tipping culture nationwide.",
+        "href": "https://www.foxnews.com/food-drink/americans-fed-up-tipping-culture-many-shelling-out-20-restaurants"
+      },
+      {
+        "label": "",
+        "href": "https://www.foxnews.com/travel/one-worlds-most-sacred-landmarks-expected-welcome-record-crowds-year"
+      },
+      {
+        "label": "One of world's most sacred landmarks expected to welcome record crowds this year",
+        "href": "https://www.foxnews.com/travel/one-worlds-most-sacred-landmarks-expected-welcome-record-crowds-year"
+      },
+      {
+        "label": "Notre Dame Cathedral in Paris, France, expects 12 million visitors this year as it approaches the anniversary of its reopening after the devastating April 2019 fire.",
+        "href": "https://www.foxnews.com/travel/one-worlds-most-sacred-landmarks-expected-welcome-record-crowds-year"
+      },
+      {
+        "label": "",
+        "href": "https://www.foxnews.com/food-drink/latest-fast-food-oddity-mountain-dew-pie-from-taco-bell-sparks-frenzy-online"
+      },
+      {
+        "label": "The latest fast-food oddity \u2014 a Mountain Dew pie from Taco Bell \u2014 sparks frenzy online",
+        "href": "https://www.foxnews.com/food-drink/latest-fast-food-oddity-mountain-dew-pie-from-taco-bell-sparks-frenzy-online"
+      },
+      {
+        "label": "Taco Bell's electric-blue Mountain Dew Baja Blast pie is breaking the internet with its wild tropical lime flavor and shocking neon appearance that has fans divided.",
+        "href": "https://www.foxnews.com/food-drink/latest-fast-food-oddity-mountain-dew-pie-from-taco-bell-sparks-frenzy-online"
+      },
+      {
+        "label": "",
+        "href": "https://www.foxnews.com/food-drink/7-retro-salad-dressings-once-ruled-americas-fridges-making-comeback"
+      },
+      {
+        "label": "7 retro salad dressings that once ruled America's fridges are making a comeback",
+        "href": "https://www.foxnews.com/food-drink/7-retro-salad-dressings-once-ruled-americas-fridges-making-comeback"
+      },
+      {
+        "label": "Retro salad dressings like Catalina, Mayfair and celery seed are making a comeback as nostalgic home cooks revive these 1960s and '70s favorites.",
+        "href": "https://www.foxnews.com/food-drink/7-retro-salad-dressings-once-ruled-americas-fridges-making-comeback"
+      },
+      {
+        "label": "",
+        "href": "https://www.foxnews.com/health/one-toxic-behavior-kills-relationships-leading-happiness-expert-warns"
+      },
+      {
+        "label": "One toxic behavior kills relationships, leading happiness expert warns",
+        "href": "https://www.foxnews.com/health/one-toxic-behavior-kills-relationships-leading-happiness-expert-warns"
+      },
+      {
+        "label": "Happiness expert and behavioral scientist Arthur Brooks reveals how workaholism destroys relationships and why excessive work is often used to escape negative emotions.",
+        "href": "https://www.foxnews.com/health/one-toxic-behavior-kills-relationships-leading-happiness-expert-warns"
+      },
+      {
+        "label": "",
+        "href": "https://www.foxnews.com/health/why-most-people-fall-off-health-cliff-75-ways-avoid-drop"
+      },
+      {
+        "label": "Why most people fall off a \u2018health cliff\u2019 at 75 \u2014 and 5 ways to avoid the drop",
+        "href": "https://www.foxnews.com/health/why-most-people-fall-off-health-cliff-75-ways-avoid-drop"
+      },
+      {
+        "label": "Longevity expert Dr. Peter Attia reveals why most people decline sharply in their 70s, and shares his athlete-inspired approach to healthy aging and fitness.",
+        "href": "https://www.foxnews.com/health/why-most-people-fall-off-health-cliff-75-ways-avoid-drop"
+      },
+      {
+        "label": "",
+        "href": "https://www.foxnews.com/health/higher-stroke-risk-linked-consuming-certain-amount-alcohol-study-finds"
+      },
+      {
+        "label": "Higher stroke risk linked to consuming certain amount of alcohol, study finds",
+        "href": "https://www.foxnews.com/health/higher-stroke-risk-linked-consuming-certain-amount-alcohol-study-finds"
+      },
+      {
+        "label": "Heavy drinking is linked to strokes 11 years earlier than light drinkers, new study reveals. Three drinks daily may accelerate brain damage significantly, according to researchers.",
+        "href": "https://www.foxnews.com/health/higher-stroke-risk-linked-consuming-certain-amount-alcohol-study-finds"
+      },
+      {
+        "label": "",
+        "href": "https://www.foxnews.com/travel/shutdowns-impact-airports-worsen-tsa-travelers-should-go-early-be-patient"
+      },
+      {
+        "label": "Shutdown's impact at airports will worsen, says TSA \u2014 travelers should 'go early' and 'be patient'",
+        "href": "https://www.foxnews.com/travel/shutdowns-impact-airports-worsen-tsa-travelers-should-go-early-be-patient"
+      },
+      {
+        "label": "TSA wait times surge to over two hours at some major airports during the government shutdown, with Houston, LAX and Orlando hit hard as travelers are urged to arrive early.",
+        "href": "https://www.foxnews.com/travel/shutdowns-impact-airports-worsen-tsa-travelers-should-go-early-be-patient"
+      },
+      {
+        "label": "",
+        "href": "https://www.foxnews.com/food-drink/oreos-thanksgiving-themed-cookies-fly-off-shelves-some-fans-call-them-cursed"
+      },
+      {
+        "label": "Oreo's Thanksgiving-themed cookies fly off shelves as some fans call them 'cursed'",
+        "href": "https://www.foxnews.com/food-drink/oreos-thanksgiving-themed-cookies-fly-off-shelves-some-fans-call-them-cursed"
+      },
+      {
+        "label": "Oreo released experimental Thanksgiving dinner cookie flavors as part of its test-and-learn program, with a 12-pack collection selling out after one week online.",
+        "href": "https://www.foxnews.com/food-drink/oreos-thanksgiving-themed-cookies-fly-off-shelves-some-fans-call-them-cursed"
+      },
+      {
+        "label": "",
+        "href": "https://www.foxnews.com/travel/flight-chaos-grips-us-airports-some-airlines-advise-booking-backup-ticket-list"
+      },
+      {
+        "label": "Flight chaos grips US airports as some airlines advise booking 'backup ticket': See the list",
+        "href": "https://www.foxnews.com/travel/flight-chaos-grips-us-airports-some-airlines-advise-booking-backup-ticket-list"
+      },
+      {
+        "label": "The government shutdown has triggered 1,000-plus flight delays as the FAA cuts capacity at 40 airports. Airlines are offering refunds and policy changes amid ongoing travel disruptions.",
+        "href": "https://www.foxnews.com/travel/flight-chaos-grips-us-airports-some-airlines-advise-booking-backup-ticket-list"
+      },
+      {
+        "label": "",
+        "href": "https://www.foxnews.com/health/new-pancreatic-cancer-treatment-wakes-up-immune-cells-researchers-say"
+      },
+      {
+        "label": "New pancreatic cancer treatment \u2018wakes up\u2019 immune cells, researchers say",
+        "href": "https://www.foxnews.com/health/new-pancreatic-cancer-treatment-wakes-up-immune-cells-researchers-say"
+      },
+      {
+        "label": "A new pancreatic cancer therapy targets sugar molecules on cell surfaces, offering hope where traditional immunotherapies have failed in treating this deadly disease.",
+        "href": "https://www.foxnews.com/health/new-pancreatic-cancer-treatment-wakes-up-immune-cells-researchers-say"
+      },
+      {
+        "label": "",
+        "href": "https://www.foxnews.com/food-drink/starbucks-fans-panic-adorable-new-holiday-cup-expected-sell-out-instantly"
+      },
+      {
+        "label": "Starbucks fans panic as adorable new holiday cup is expected to sell out instantly",
+        "href": "https://www.foxnews.com/food-drink/starbucks-fans-panic-adorable-new-holiday-cup-expected-sell-out-instantly"
+      },
+      {
+        "label": "A Starbucks holiday bear cup is going viral, and fans predict it will sell out in mere hours when the 2025 holiday menu launches with new and returning drinks.",
+        "href": "https://www.foxnews.com/food-drink/starbucks-fans-panic-adorable-new-holiday-cup-expected-sell-out-instantly"
+      },
+      {
+        "label": "",
+        "href": "https://www.foxnews.com/health/diabetes-prevention-linked-specific-type-exercise-study-shows"
+      },
+      {
+        "label": "Diabetes prevention linked to specific type of exercise, study shows",
+        "href": "https://www.foxnews.com/health/diabetes-prevention-linked-specific-type-exercise-study-shows"
+      },
+      {
+        "label": "New research reveals that weightlifting beats cardio for blood sugar control and diabetes prevention, as resistance training offers superior metabolic benefits.",
+        "href": "https://www.foxnews.com/health/diabetes-prevention-linked-specific-type-exercise-study-shows"
+      },
+      {
+        "label": "",
+        "href": "https://www.foxnews.com/health/experts-reveal-exact-bedtime-could-prevent-late-night-second-wind-insomnia"
+      },
+      {
+        "label": "Experts reveal exact bedtime that could prevent late-night \u2018second wind\u2019 insomnia",
+        "href": "https://www.foxnews.com/health/experts-reveal-exact-bedtime-could-prevent-late-night-second-wind-insomnia"
+      },
+      {
+        "label": "Sleep experts reveal why going to bed after a certain time disrupts cortisol and melatonin balance, causing disrupted sleep. One doctor shares the optimal bedtime window.",
+        "href": "https://www.foxnews.com/health/experts-reveal-exact-bedtime-could-prevent-late-night-second-wind-insomnia"
+      },
+      {
+        "label": "",
+        "href": "https://www.foxnews.com/food-drink/easy-nutrition-tweak-could-transform-sleep-starting-this-evening"
+      },
+      {
+        "label": "Easy nutrition tweak could transform your sleep \u2014 starting this evening",
+        "href": "https://www.foxnews.com/food-drink/easy-nutrition-tweak-could-transform-sleep-starting-this-evening"
+      },
+      {
+        "label": "A new study finds that eating 5 cups of fruits and vegetables daily can improve sleep quality by 16% in less than 24 hours, offering a natural solution for better rest.",
+        "href": "https://www.foxnews.com/food-drink/easy-nutrition-tweak-could-transform-sleep-starting-this-evening"
+      },
+      {
+        "label": "",
+        "href": "https://www.foxnews.com/health/alzheimers-decline-could-slow-dramatically-one-simple-daily-habit-study-finds"
+      },
+      {
+        "label": "Alzheimer\u2019s decline could slow dramatically with one simple daily habit, study finds",
+        "href": "https://www.foxnews.com/health/alzheimers-decline-could-slow-dramatically-one-simple-daily-habit-study-finds"
+      },
+      {
+        "label": "A new study reveals that walking just 3,000 to 7,500 steps daily may delay Alzheimer's cognitive decline by up to seven years for at-risk adults.",
+        "href": "https://www.foxnews.com/health/alzheimers-decline-could-slow-dramatically-one-simple-daily-habit-study-finds"
+      },
+      {
+        "label": "",
+        "href": "https://www.foxnews.com/travel/influencers-face-backlash-tragedy-tourism-hurricane-melissa"
+      },
+      {
+        "label": "Influencers face backlash for 'tragedy tourism' during Hurricane Melissa",
+        "href": "https://www.foxnews.com/travel/influencers-face-backlash-tragedy-tourism-hurricane-melissa"
+      },
+      {
+        "label": "Influencers face backlash for posting TikTok and Instagram videos while traveling to Jamaica during Category 5 Hurricane Melissa, with critics calling their content insensitive.",
+        "href": "https://www.foxnews.com/travel/influencers-face-backlash-tragedy-tourism-hurricane-melissa"
+      },
+      {
+        "label": "",
+        "href": "https://www.foxnews.com/health/new-health-warning-issued-over-popular-sleep-aid-millions-take-nightly"
+      },
+      {
+        "label": "New health warning issued over popular sleep aid millions take nightly",
+        "href": "https://www.foxnews.com/health/new-health-warning-issued-over-popular-sleep-aid-millions-take-nightly"
+      },
+      {
+        "label": "A new study reveals that melatonin supplements may increase heart failure risk by 90% in chronic insomnia patients, challenging assumptions about this popular sleep aid.",
+        "href": "https://www.foxnews.com/health/new-health-warning-issued-over-popular-sleep-aid-millions-take-nightly"
+      },
+      {
+        "label": "",
+        "href": "https://www.foxnews.com/health/dilbert-creator-desperate-plea-shines-spotlight-alternative-prostate-cancer-drug"
+      },
+      {
+        "label": "'Dilbert' creator's desperate plea shines spotlight on alternative prostate cancer drug",
+        "href": "https://www.foxnews.com/health/dilbert-creator-desperate-plea-shines-spotlight-alternative-prostate-cancer-drug"
+      },
+      {
+        "label": "The FDA-approved drug Pluvicto offers hope for advanced prostate cancer patients, but access barriers remain despite proven effectiveness in extending survival.",
+        "href": "https://www.foxnews.com/health/dilbert-creator-desperate-plea-shines-spotlight-alternative-prostate-cancer-drug"
+      },
+      {
+        "label": "",
+        "href": "https://www.foxnews.com/health/brain-health-warning-sign-could-hiding-plain-sight-say-researchers"
+      },
+      {
+        "label": "Brain health warning sign could be hiding in plain sight, say researchers",
+        "href": "https://www.foxnews.com/health/brain-health-warning-sign-could-hiding-plain-sight-say-researchers"
+      },
+      {
+        "label": "A USC study reveals that blood pressure fluctuations between heartbeats may harm brain health even when overall readings are normal, potentially affecting memory in older adults.",
+        "href": "https://www.foxnews.com/health/brain-health-warning-sign-could-hiding-plain-sight-say-researchers"
+      },
+      {
+        "label": "",
+        "href": "https://www.foxnews.com/health/everyday-clues-your-immune-system-aging-how-fight-back"
+      },
+      {
+        "label": "Everyday clues that your immune system is aging \u2014 and how to fight back",
+        "href": "https://www.foxnews.com/health/everyday-clues-your-immune-system-aging-how-fight-back"
+      },
+      {
+        "label": "A longevity expert reveals how immune systems begin aging after 35, making people more susceptible to infections and immune-related disorders over time.",
+        "href": "https://www.foxnews.com/health/everyday-clues-your-immune-system-aging-how-fight-back"
+      },
+      {
+        "label": "",
+        "href": "https://www.foxnews.com/health/viral-energy-booster-has-doctors-divided-heres-what-know-before-trying"
+      },
+      {
+        "label": "Viral \u2018energy booster\u2019 has doctors divided \u2014 here\u2019s what to know before trying it",
+        "href": "https://www.foxnews.com/health/viral-energy-booster-has-doctors-divided-heres-what-know-before-trying"
+      },
+      {
+        "label": "Experts reveal the truth about CoQ10 supplements: safe for most, but not the miracle cure many believe. They advise on dosing, side effects and interactions.",
+        "href": "https://www.foxnews.com/health/viral-energy-booster-has-doctors-divided-heres-what-know-before-trying"
+      },
+      {
+        "label": "Privacy Policy",
+        "href": "https://www.foxnews.com/privacy-policy"
+      },
+      {
+        "label": "Terms of Use",
+        "href": "https://www.foxnews.com/terms-of-use"
+      },
+      {
+        "label": "",
+        "href": "https://www.foxnews.com/video/6385305454112"
+      },
+      {
+        "label": "0:04:01",
+        "href": "https://www.foxnews.com/video/6385305454112"
+      },
+      {
+        "label": "\u2018The Elf on the Shelf\u2019 co-founders reveal how a family tradition became a global brand",
+        "href": "https://www.foxnews.com/video/6385305454112"
+      },
+      {
+        "label": "",
+        "href": "https://www.foxnews.com/video/6385219605112"
+      },
+      {
+        "label": "0:01:34",
+        "href": "https://www.foxnews.com/video/6385219605112"
+      },
+      {
+        "label": "Holiday Shoppers Lean Into AI",
+        "href": "https://www.foxnews.com/video/6385219605112"
+      },
+      {
+        "label": "",
+        "href": "https://www.foxnews.com/video/6385204107112"
+      },
+      {
+        "label": "0:03:14",
+        "href": "https://www.foxnews.com/video/6385204107112"
+      },
+      {
+        "label": "NC tree farm rebounds after Helene: \u2018We could all use a good Christmas\u2019",
+        "href": "https://www.foxnews.com/video/6385204107112"
+      },
+      {
+        "label": "",
+        "href": "https://www.foxnews.com/video/6385172020112"
+      },
+      {
+        "label": "0:06:32",
+        "href": "https://www.foxnews.com/video/6385172020112"
+      },
+      {
+        "label": "Tech expert explains Apple\u2019s new digital ID, warns of AI fraud threat for holiday shoppers",
+        "href": "https://www.foxnews.com/video/6385172020112"
+      },
+      {
+        "label": "",
+        "href": "https://www.foxnews.com/video/6385169160112"
+      },
+      {
+        "label": "0:05:46",
+        "href": "https://www.foxnews.com/video/6385169160112"
+      },
+      {
+        "label": "Growing number of people turning to AI for love",
+        "href": "https://www.foxnews.com/video/6385169160112"
+      },
+      {
+        "label": "U.S.",
+        "href": "https://www.foxnews.com/us"
+      },
+      {
+        "label": "Blue City Crime",
+        "href": "https://www.foxnews.com/category/us/blue-city-crime"
+      },
+      {
+        "label": "Campus Radicals",
+        "href": "https://www.foxnews.com/category/us/campus-radicals"
+      },
+      {
+        "label": "Border Crisis",
+        "href": "https://www.foxnews.com/category/us/immigration"
+      },
+      {
+        "label": "True Crime",
+        "href": "https://www.foxnews.com/true-crime"
+      },
+      {
+        "label": "Politics",
+        "href": "https://www.foxnews.com/politics"
+      },
+      {
+        "label": "Donald Trump",
+        "href": "https://www.foxnews.com/category/person/donald-trump"
+      },
+      {
+        "label": "Senate",
+        "href": "https://www.foxnews.com/category/politics/senate"
+      },
+      {
+        "label": "House",
+        "href": "https://www.foxnews.com/category/politics/house-of-representatives"
+      },
+      {
+        "label": "Judiciary",
+        "href": "https://www.foxnews.com/category/politics/judiciary"
+      },
+      {
+        "label": "Foreign Policy",
+        "href": "https://www.foxnews.com/category/politics/foreign-policy"
+      },
+      {
+        "label": "Fox News Polls",
+        "href": "https://www.foxnews.com/official-polls"
+      },
+      {
+        "label": "2025 Elections Coverage",
+        "href": "https://www.foxnews.com/elections"
+      },
+      {
+        "label": "World",
+        "href": "https://www.foxnews.com/world"
+      },
+      {
+        "label": "U.N.",
+        "href": "https://www.foxnews.com/category/world/united-nations"
+      },
+      {
+        "label": "Conflicts",
+        "href": "https://www.foxnews.com/category/world/conflicts"
+      },
+      {
+        "label": "Terrorism",
+        "href": "https://www.foxnews.com/category/world/terrorism"
+      },
+      {
+        "label": "Disasters",
+        "href": "https://www.foxnews.com/category/disasters"
+      },
+      {
+        "label": "Global Economy",
+        "href": "https://www.foxnews.com/category/world/global-economy"
+      },
+      {
+        "label": "Environment",
+        "href": "https://www.foxnews.com/category/environment"
+      },
+      {
+        "label": "Religion",
+        "href": "https://www.foxnews.com/category/world/religion"
+      },
+      {
+        "label": "Scandals",
+        "href": "https://www.foxnews.com/category/world/scandals"
+      },
+      {
+        "label": "Opinion",
+        "href": "https://www.foxnews.com/opinion"
+      },
+      {
+        "label": "Media",
+        "href": "https://www.foxnews.com/media"
+      },
+      {
+        "label": "FOX Nation Coverage",
+        "href": "https://www.foxnews.com/shows/fox-nation"
+      },
+      {
+        "label": "Entertainment",
+        "href": "https://www.foxnews.com/entertainment"
+      },
+      {
+        "label": "Prince Andrew",
+        "href": "https://www.foxnews.com/category/person/prince-andrew"
+      },
+      {
+        "label": "Katy Perry",
+        "href": "https://www.foxnews.com/category/person/katy-perry"
+      },
+      {
+        "label": "Royal Families",
+        "href": "https://www.foxnews.com/category/world/personalities/british-royals"
+      },
+      {
+        "label": "Country Music",
+        "href": "https://www.foxnews.com/category/entertainment/genres/country"
+      },
+      {
+        "label": "Nicole Kidman",
+        "href": "https://www.foxnews.com/category/person/nicole-kidman"
+      },
+      {
+        "label": "Sports",
+        "href": "https://www.foxnews.com/sports"
+      },
+      {
+        "label": "NFL",
+        "href": "https://www.foxnews.com/category/sports/nfl"
+      },
+      {
+        "label": "College Football",
+        "href": "https://www.foxnews.com/category/sports/ncaa-fb"
+      },
+      {
+        "label": "MLB",
+        "href": "https://www.foxnews.com/category/sports/mlb"
+      },
+      {
+        "label": "NASCAR",
+        "href": "https://www.foxnews.com/category/auto/nascar"
+      },
+      {
+        "label": "INDYCAR",
+        "href": "https://www.foxnews.com/category/auto/indycar"
+      },
+      {
+        "label": "NBA",
+        "href": "https://www.foxnews.com/category/sports/nba"
+      },
+      {
+        "label": "NHL",
+        "href": "https://www.foxnews.com/category/sports/nhl"
+      },
+      {
+        "label": "Golf",
+        "href": "https://www.foxnews.com/category/sports/golf"
+      },
+      {
+        "label": "Tennis",
+        "href": "https://www.foxnews.com/category/sports/tennis"
+      },
+      {
+        "label": "UFC",
+        "href": "https://www.foxnews.com/category/sports/ufc"
+      },
+      {
+        "label": "WWE",
+        "href": "https://www.foxnews.com/category/organization/wwe"
+      },
+      {
+        "label": "Lifestyle",
+        "href": "https://www.foxnews.com/lifestyle"
+      },
+      {
+        "label": "Travel",
+        "href": "https://www.foxnews.com/travel"
+      },
+      {
+        "label": "Food & Drink",
+        "href": "https://www.foxnews.com/food-drink"
+      },
+      {
+        "label": "Faith",
+        "href": "https://www.foxnews.com/faith-values"
+      },
+      {
+        "label": "Discovery",
+        "href": "https://www.foxnews.com/category/science/archaeology"
+      },
+      {
+        "label": "Games & Quizzes",
+        "href": "https://www.foxnews.com/games"
+      },
+      {
+        "label": "Health",
+        "href": "https://www.foxnews.com/health"
+      },
+      {
+        "label": "Weight Loss",
+        "href": "https://www.foxnews.com/category/health/nutrition-and-fitness/weight-loss"
+      },
+      {
+        "label": "Cancer",
+        "href": "https://www.foxnews.com/category/health/cancer"
+      },
+      {
+        "label": "Brain Health",
+        "href": "https://www.foxnews.com/category/health/brain-health"
+      },
+      {
+        "label": "Sleep",
+        "href": "https://www.foxnews.com/category/health/sleep-disorders"
+      },
+      {
+        "label": "Heart Health",
+        "href": "https://www.foxnews.com/category/health/heart-health"
+      },
+      {
+        "label": "Healthy Living",
+        "href": "https://www.foxnews.com/category/health/healthy-living"
+      },
+      {
+        "label": "Mental Health",
+        "href": "https://www.foxnews.com/category/health/mental-health"
+      },
+      {
+        "label": "MAHA",
+        "href": "https://www.foxnews.com/category/health/maha"
+      },
+      {
+        "label": "Deals",
+        "href": "https://www.foxnews.com/deals"
+      },
+      {
+        "label": "Holiday Shopping",
+        "href": "https://www.foxnews.com/category/deals/trending"
+      },
+      {
+        "label": "Gift Guides",
+        "href": "https://www.foxnews.com/category/deals/gift"
+      },
+      {
+        "label": "Home Deals",
+        "href": "https://www.foxnews.com/category/deals/home"
+      },
+      {
+        "label": "Kitchen Deals",
+        "href": "https://www.foxnews.com/category/deals/kitchen"
+      },
+      {
+        "label": "Tech and Electronic Deals",
+        "href": "https://www.foxnews.com/category/deals/tech-and-electronic"
+      },
+      {
+        "label": "Health and Fitness Deals",
+        "href": "https://www.foxnews.com/category/deals/health-and-fitness"
+      },
+      {
+        "label": "Beauty and Fashion Deals",
+        "href": "https://www.foxnews.com/category/deals/beauty-and-fashion"
+      },
+      {
+        "label": "Science & Tech",
+        "href": "https://www.foxnews.com/tech"
+      },
+      {
+        "label": "Air & Space",
+        "href": "https://www.foxnews.com/category/science/air-and-space"
+      },
+      {
+        "label": "Security",
+        "href": "https://www.foxnews.com/category/tech/topics/security"
+      },
+      {
+        "label": "Innovation",
+        "href": "https://www.foxnews.com/category/tech/topics/innovation"
+      },
+      {
+        "label": "Video Games",
+        "href": "https://www.foxnews.com/category/tech/topics/video-games"
+      },
+      {
+        "label": "Military Tech",
+        "href": "https://www.foxnews.com/category/tech/topics/military-tech"
+      },
+      {
+        "label": "Planet Earth",
+        "href": "https://www.foxnews.com/category/science/planet-earth"
+      },
+      {
+        "label": "Wild Nature",
+        "href": "https://www.foxnews.com/category/science/wild-nature"
+      },
+      {
+        "label": "Games",
+        "href": "https://www.foxnews.com/games"
+      },
+      {
+        "label": "Scattergories Daily",
+        "href": "https://www.foxnews.com/games/scattergories-daily"
+      },
+      {
+        "label": "5 Across the Letter Word Game",
+        "href": "https://www.foxnews.com/games/5-across-word-game"
+      },
+      {
+        "label": "Downwords",
+        "href": "https://www.foxnews.com/games/lil-snack-downwords"
+      },
+      {
+        "label": "Sudoku",
+        "href": "https://www.foxnews.com/games/sudoku"
+      },
+      {
+        "label": "Word Swap",
+        "href": "https://www.foxnews.com/games/lil-snack-word-swap"
+      },
+      {
+        "label": "Word Search",
+        "href": "https://www.foxnews.com/games/word-search"
+      },
+      {
+        "label": "Icon Match",
+        "href": "https://www.foxnews.com/games/icon-match-puzzle"
+      },
+      {
+        "label": "Daily Crossword Puzzle",
+        "href": "https://www.foxnews.com/games/daily-crossword-puzzle"
+      },
+      {
+        "label": "Mini Crossword Puzzle",
+        "href": "https://www.foxnews.com/games/mini-crossword-puzzle"
+      },
+      {
+        "label": "Watch Live",
+        "href": "https://www.foxnews.com/video/5614615980001"
+      },
+      {
+        "label": "FOX News Shows",
+        "href": "https://www.foxnews.com/shows"
+      },
+      {
+        "label": "Programming Schedule",
+        "href": "https://www.foxnews.com/fnctv"
+      },
+      {
+        "label": "On Air Personalities",
+        "href": "https://www.foxnews.com/person/personalities"
+      },
+      {
+        "label": "Full Episodes",
+        "href": "https://www.foxnews.com/video/shows"
+      },
+      {
+        "label": "Show Clips",
+        "href": "https://www.foxnews.com/video/topics/v-most-recent-episodes"
+      },
+      {
+        "label": "News Clips",
+        "href": "https://www.foxnews.com/video/topics/latest-news-video"
+      },
+      {
+        "label": "About",
+        "href": "https://www.foxnews.com/about"
+      },
+      {
+        "label": "Contact Us",
+        "href": "https://www.foxnews.com/contact"
+      },
+      {
+        "label": "Fox Around the World",
+        "href": "https://www.foxnews.com/story/where-in-the-world-is-fox"
+      },
+      {
+        "label": "Compliance",
+        "href": "https://www.foxnews.com/compliance"
+      },
+      {
+        "label": "Apps & Products",
+        "href": "https://www.foxnews.com/apps-products"
+      },
+      {
+        "label": "FOX News Go",
+        "href": "https://www.foxnews.com/go"
+      },
+      {
+        "label": "FOX Nation",
+        "href": "https://www.foxnews.com/shows/fox-nation"
+      },
+      {
+        "label": "Newsletters",
+        "href": "https://www.foxnews.com/newsletters"
+      },
+      {
+        "label": "U.S.",
+        "href": "https://www.foxnews.com/us"
+      },
+      {
+        "label": "Blue City Crime",
+        "href": "https://www.foxnews.com/category/us/blue-city-crime"
+      },
+      {
+        "label": "Campus Radicals",
+        "href": "https://www.foxnews.com/category/us/campus-radicals"
+      },
+      {
+        "label": "Border Crisis",
+        "href": "https://www.foxnews.com/category/us/immigration"
+      },
+      {
+        "label": "True Crime",
+        "href": "https://www.foxnews.com/true-crime"
+      },
+      {
+        "label": "Politics",
+        "href": "https://www.foxnews.com/politics"
+      },
+      {
+        "label": "Donald Trump",
+        "href": "https://www.foxnews.com/category/person/donald-trump"
+      },
+      {
+        "label": "Senate",
+        "href": "https://www.foxnews.com/category/politics/senate"
+      },
+      {
+        "label": "House",
+        "href": "https://www.foxnews.com/category/politics/house-of-representatives"
+      },
+      {
+        "label": "Judiciary",
+        "href": "https://www.foxnews.com/category/politics/judiciary"
+      },
+      {
+        "label": "Foreign Policy",
+        "href": "https://www.foxnews.com/category/politics/foreign-policy"
+      },
+      {
+        "label": "Fox News Polls",
+        "href": "https://www.foxnews.com/official-polls"
+      },
+      {
+        "label": "2025 Elections Coverage",
+        "href": "https://www.foxnews.com/elections"
+      },
+      {
+        "label": "World",
+        "href": "https://www.foxnews.com/world"
+      },
+      {
+        "label": "U.N.",
+        "href": "https://www.foxnews.com/category/world/united-nations"
+      },
+      {
+        "label": "Conflicts",
+        "href": "https://www.foxnews.com/category/world/conflicts"
+      },
+      {
+        "label": "Terrorism",
+        "href": "https://www.foxnews.com/category/world/terrorism"
+      },
+      {
+        "label": "Disasters",
+        "href": "https://www.foxnews.com/category/disasters"
+      },
+      {
+        "label": "Global Economy",
+        "href": "https://www.foxnews.com/category/world/global-economy"
+      },
+      {
+        "label": "Environment",
+        "href": "https://www.foxnews.com/category/environment"
+      },
+      {
+        "label": "Religion",
+        "href": "https://www.foxnews.com/category/world/religion"
+      },
+      {
+        "label": "Scandals",
+        "href": "https://www.foxnews.com/category/world/scandals"
+      },
+      {
+        "label": "Opinion",
+        "href": "https://www.foxnews.com/opinion"
+      },
+      {
+        "label": "Media",
+        "href": "https://www.foxnews.com/media"
+      },
+      {
+        "label": "FOX Nation Coverage",
+        "href": "https://www.foxnews.com/shows/fox-nation"
+      },
+      {
+        "label": "Entertainment",
+        "href": "https://www.foxnews.com/entertainment"
+      },
+      {
+        "label": "Prince Andrew",
+        "href": "https://www.foxnews.com/category/person/prince-andrew"
+      },
+      {
+        "label": "Katy Perry",
+        "href": "https://www.foxnews.com/category/person/katy-perry"
+      },
+      {
+        "label": "Royal Families",
+        "href": "https://www.foxnews.com/category/world/personalities/british-royals"
+      },
+      {
+        "label": "Country Music",
+        "href": "https://www.foxnews.com/category/entertainment/genres/country"
+      },
+      {
+        "label": "Nicole Kidman",
+        "href": "https://www.foxnews.com/category/person/nicole-kidman"
+      },
+      {
+        "label": "Sports",
+        "href": "https://www.foxnews.com/sports"
+      },
+      {
+        "label": "NFL",
+        "href": "https://www.foxnews.com/category/sports/nfl"
+      },
+      {
+        "label": "College Football",
+        "href": "https://www.foxnews.com/category/sports/ncaa-fb"
+      },
+      {
+        "label": "MLB",
+        "href": "https://www.foxnews.com/category/sports/mlb"
+      },
+      {
+        "label": "NASCAR",
+        "href": "https://www.foxnews.com/category/auto/nascar"
+      },
+      {
+        "label": "INDYCAR",
+        "href": "https://www.foxnews.com/category/auto/indycar"
+      },
+      {
+        "label": "NBA",
+        "href": "https://www.foxnews.com/category/sports/nba"
+      },
+      {
+        "label": "NHL",
+        "href": "https://www.foxnews.com/category/sports/nhl"
+      },
+      {
+        "label": "Golf",
+        "href": "https://www.foxnews.com/category/sports/golf"
+      },
+      {
+        "label": "Tennis",
+        "href": "https://www.foxnews.com/category/sports/tennis"
+      },
+      {
+        "label": "UFC",
+        "href": "https://www.foxnews.com/category/sports/ufc"
+      },
+      {
+        "label": "WWE",
+        "href": "https://www.foxnews.com/category/organization/wwe"
+      },
+      {
+        "label": "Lifestyle",
+        "href": "https://www.foxnews.com/lifestyle"
+      },
+      {
+        "label": "Travel",
+        "href": "https://www.foxnews.com/travel"
+      },
+      {
+        "label": "Food & Drink",
+        "href": "https://www.foxnews.com/food-drink"
+      },
+      {
+        "label": "Faith",
+        "href": "https://www.foxnews.com/faith-values"
+      },
+      {
+        "label": "Discovery",
+        "href": "https://www.foxnews.com/category/science/archaeology"
+      },
+      {
+        "label": "Games & Quizzes",
+        "href": "https://www.foxnews.com/games"
+      },
+      {
+        "label": "Health",
+        "href": "https://www.foxnews.com/health"
+      },
+      {
+        "label": "Weight Loss",
+        "href": "https://www.foxnews.com/category/health/nutrition-and-fitness/weight-loss"
+      },
+      {
+        "label": "Cancer",
+        "href": "https://www.foxnews.com/category/health/cancer"
+      },
+      {
+        "label": "Brain Health",
+        "href": "https://www.foxnews.com/category/health/brain-health"
+      },
+      {
+        "label": "Sleep",
+        "href": "https://www.foxnews.com/category/health/sleep-disorders"
+      },
+      {
+        "label": "Heart Health",
+        "href": "https://www.foxnews.com/category/health/heart-health"
+      },
+      {
+        "label": "Healthy Living",
+        "href": "https://www.foxnews.com/category/health/healthy-living"
+      },
+      {
+        "label": "Mental Health",
+        "href": "https://www.foxnews.com/category/health/mental-health"
+      },
+      {
+        "label": "MAHA",
+        "href": "https://www.foxnews.com/category/health/maha"
+      },
+      {
+        "label": "Deals",
+        "href": "https://www.foxnews.com/deals"
+      },
+      {
+        "label": "Holiday Shopping",
+        "href": "https://www.foxnews.com/category/deals/trending"
+      },
+      {
+        "label": "Gift Guides",
+        "href": "https://www.foxnews.com/category/deals/gift"
+      },
+      {
+        "label": "Home Deals",
+        "href": "https://www.foxnews.com/category/deals/home"
+      },
+      {
+        "label": "Kitchen Deals",
+        "href": "https://www.foxnews.com/category/deals/kitchen"
+      },
+      {
+        "label": "Tech and Electronic Deals",
+        "href": "https://www.foxnews.com/category/deals/tech-and-electronic"
+      },
+      {
+        "label": "Health and Fitness Deals",
+        "href": "https://www.foxnews.com/category/deals/health-and-fitness"
+      },
+      {
+        "label": "Beauty and Fashion Deals",
+        "href": "https://www.foxnews.com/category/deals/beauty-and-fashion"
+      },
+      {
+        "label": "Science & Tech",
+        "href": "https://www.foxnews.com/tech"
+      },
+      {
+        "label": "Air & Space",
+        "href": "https://www.foxnews.com/category/science/air-and-space"
+      },
+      {
+        "label": "Security",
+        "href": "https://www.foxnews.com/category/tech/topics/security"
+      },
+      {
+        "label": "Innovation",
+        "href": "https://www.foxnews.com/category/tech/topics/innovation"
+      },
+      {
+        "label": "Video Games",
+        "href": "https://www.foxnews.com/category/tech/topics/video-games"
+      },
+      {
+        "label": "Military Tech",
+        "href": "https://www.foxnews.com/category/tech/topics/military-tech"
+      },
+      {
+        "label": "Planet Earth",
+        "href": "https://www.foxnews.com/category/science/planet-earth"
+      },
+      {
+        "label": "Wild Nature",
+        "href": "https://www.foxnews.com/category/science/wild-nature"
+      },
+      {
+        "label": "Games",
+        "href": "https://www.foxnews.com/games"
+      },
+      {
+        "label": "Scattergories Daily",
+        "href": "https://www.foxnews.com/games/scattergories-daily"
+      },
+      {
+        "label": "5 Across the Letter Word Game",
+        "href": "https://www.foxnews.com/games/5-across-word-game"
+      },
+      {
+        "label": "Downwords",
+        "href": "https://www.foxnews.com/games/lil-snack-downwords"
+      },
+      {
+        "label": "Sudoku",
+        "href": "https://www.foxnews.com/games/sudoku"
+      },
+      {
+        "label": "Word Swap",
+        "href": "https://www.foxnews.com/games/lil-snack-word-swap"
+      },
+      {
+        "label": "Word Search",
+        "href": "https://www.foxnews.com/games/word-search"
+      },
+      {
+        "label": "Icon Match",
+        "href": "https://www.foxnews.com/games/icon-match-puzzle"
+      },
+      {
+        "label": "Daily Crossword Puzzle",
+        "href": "https://www.foxnews.com/games/daily-crossword-puzzle"
+      },
+      {
+        "label": "Mini Crossword Puzzle",
+        "href": "https://www.foxnews.com/games/mini-crossword-puzzle"
+      },
+      {
+        "label": "Watch Live",
+        "href": "https://www.foxnews.com/video/5614615980001"
+      },
+      {
+        "label": "FOX News Shows",
+        "href": "https://www.foxnews.com/shows"
+      },
+      {
+        "label": "Programming Schedule",
+        "href": "https://www.foxnews.com/fnctv"
+      },
+      {
+        "label": "On Air Personalities",
+        "href": "https://www.foxnews.com/person/personalities"
+      },
+      {
+        "label": "Full Episodes",
+        "href": "https://www.foxnews.com/video/shows"
+      },
+      {
+        "label": "Show Clips",
+        "href": "https://www.foxnews.com/video/topics/v-most-recent-episodes"
+      },
+      {
+        "label": "News Clips",
+        "href": "https://www.foxnews.com/video/topics/latest-news-video"
+      },
+      {
+        "label": "About",
+        "href": "https://www.foxnews.com/about"
+      },
+      {
+        "label": "Contact Us",
+        "href": "https://www.foxnews.com/contact"
+      },
+      {
+        "label": "Fox Around the World",
+        "href": "https://www.foxnews.com/story/where-in-the-world-is-fox"
+      },
+      {
+        "label": "Compliance",
+        "href": "https://www.foxnews.com/compliance"
+      },
+      {
+        "label": "Apps & Products",
+        "href": "https://www.foxnews.com/apps-products"
+      },
+      {
+        "label": "FOX News Go",
+        "href": "https://www.foxnews.com/go"
+      },
+      {
+        "label": "FOX Nation",
+        "href": "https://www.foxnews.com/shows/fox-nation"
+      },
+      {
+        "label": "Newsletters",
+        "href": "https://www.foxnews.com/newsletters"
+      },
+      {
+        "label": "RSS",
+        "href": "https://www.foxnews.com/story/foxnews-com-rss-feeds"
+      },
+      {
+        "label": "Newsletters",
+        "href": "https://www.foxnews.com/newsletters"
+      },
+      {
+        "label": "Fox News",
+        "href": "https://www.foxnews.com"
+      },
+      {
+        "label": "Terms of Use",
+        "href": "https://www.foxnews.com/terms-of-use"
+      },
+      {
+        "label": "Privacy Policy",
+        "href": "https://www.foxnews.com/privacy-policy"
+      },
+      {
+        "label": "Closed Caption Policy",
+        "href": "https://www.foxnews.com/closed-captioning"
+      },
+      {
+        "label": "Contact Us",
+        "href": "https://www.foxnews.com/contact"
+      },
+      {
+        "label": "Accessibility Statement",
+        "href": "https://www.foxnews.com/accessibility-statement"
+      },
+      {
+        "label": "News Sitemap",
+        "href": "https://www.foxnews.com/html-sitemap"
+      },
+      {
+        "label": "Video Sitemap",
+        "href": "https://www.foxnews.com/html-video-sitemap"
+      }
+    ],
+    "external": [
+      {
+        "label": "Fox Business",
+        "href": "https://www.foxbusiness.com/"
+      },
+      {
+        "label": "Fox Nation",
+        "href": "https://nation.foxnews.com/"
+      },
+      {
+        "label": "Fox News Audio",
+        "href": "https://radio.foxnews.com/"
+      },
+      {
+        "label": "Fox Weather",
+        "href": "https://www.foxweather.com/"
+      },
+      {
+        "label": "Outkick",
+        "href": "https://www.outkick.com/"
+      },
+      {
+        "label": "Fox Noticias",
+        "href": "https://noticias.foxnews.com/"
+      },
+      {
+        "label": "FIFA WORLD CUP 26",
+        "href": "https://www.foxsports.com/soccer/fifa-world-cup"
+      },
+      {
+        "label": "FOX Business",
+        "href": "https://www.foxbusiness.com/"
+      },
+      {
+        "label": "Economy",
+        "href": "https://www.foxbusiness.com/economy"
+      },
+      {
+        "label": "Personal Finance",
+        "href": "https://www.foxbusiness.com/personal-finance"
+      },
+      {
+        "label": "Markets",
+        "href": "https://www.foxbusiness.com/markets"
+      },
+      {
+        "label": "Watchlist",
+        "href": "https://www.foxbusiness.com/watchlist"
+      },
+      {
+        "label": "Lifestyle",
+        "href": "https://www.foxbusiness.com/lifestyle"
+      },
+      {
+        "label": "Real Estate",
+        "href": "https://www.foxbusiness.com/real-estate"
+      },
+      {
+        "label": "Tech",
+        "href": "https://www.foxbusiness.com/technology"
+      },
+      {
+        "label": "FOX Weather",
+        "href": "https://www.foxweather.com"
+      },
+      {
+        "label": "FOX Nation",
+        "href": "https://nation.foxnews.com"
+      },
+      {
+        "label": "FOX Noticias",
+        "href": "https://noticias.foxnews.com/shows/fox-noticias"
+      },
+      {
+        "label": "FOX News Shop",
+        "href": "https://shop.foxnews.com/"
+      },
+      {
+        "label": "FOX News Radio",
+        "href": "https://radio.foxnews.com"
+      },
+      {
+        "label": "Outkick",
+        "href": "https://www.outkick.com"
+      },
+      {
+        "label": "Podcasts",
+        "href": "https://radio.foxnews.com/podcast"
+      },
+      {
+        "label": "FOX Business",
+        "href": "https://www.foxbusiness.com/"
+      },
+      {
+        "label": "Economy",
+        "href": "https://www.foxbusiness.com/economy"
+      },
+      {
+        "label": "Personal Finance",
+        "href": "https://www.foxbusiness.com/personal-finance"
+      },
+      {
+        "label": "Markets",
+        "href": "https://www.foxbusiness.com/markets"
+      },
+      {
+        "label": "Watchlist",
+        "href": "https://www.foxbusiness.com/watchlist"
+      },
+      {
+        "label": "Lifestyle",
+        "href": "https://www.foxbusiness.com/lifestyle"
+      },
+      {
+        "label": "Real Estate",
+        "href": "https://www.foxbusiness.com/real-estate"
+      },
+      {
+        "label": "Tech",
+        "href": "https://www.foxbusiness.com/technology"
+      },
+      {
+        "label": "FOX Weather",
+        "href": "https://www.foxweather.com"
+      },
+      {
+        "label": "FOX Nation",
+        "href": "https://nation.foxnews.com"
+      },
+      {
+        "label": "FOX Noticias",
+        "href": "https://noticias.foxnews.com/shows/fox-noticias"
+      },
+      {
+        "label": "FOX News Shop",
+        "href": "https://shop.foxnews.com/"
+      },
+      {
+        "label": "FOX News Radio",
+        "href": "https://radio.foxnews.com"
+      },
+      {
+        "label": "Outkick",
+        "href": "https://www.outkick.com"
+      },
+      {
+        "label": "Podcasts",
+        "href": "https://radio.foxnews.com/podcast"
+      },
+      {
+        "label": "Facebook",
+        "href": "https://www.facebook.com/FoxNews"
+      },
+      {
+        "label": "Twitter",
+        "href": "https://twitter.com/foxnews"
+      },
+      {
+        "label": "Instagram",
+        "href": "https://www.instagram.com/foxnews/"
+      },
+      {
+        "label": "Your Privacy Choices",
+        "href": "http://privacy.foxnews.com/main/web/main"
+      },
+      {
+        "label": "Help",
+        "href": "https://help.foxnews.com"
+      },
+      {
+        "label": "Factset",
+        "href": "https://www.factset.com/"
+      },
+      {
+        "label": "FactSet Digital Solutions",
+        "href": "https://www.factset.com/solutions/business-needs/digital-solutions"
+      },
+      {
+        "label": "Legal Statement",
+        "href": "https://www.factset.com/privacy"
+      },
+      {
+        "label": "Refinitiv Lipper",
+        "href": "https://lipperalpha.refinitiv.com/"
+      },
+      {
+        "label": "",
+        "href": "https://nation.foxnews.com/watch/ca13e6984f2594dd9cc966b881f181d4/"
+      },
+      {
+        "label": "FIFA WORLD CUP 26",
+        "href": "https://www.foxsports.com/soccer/fifa-world-cup"
+      },
+      {
+        "label": "FOX Business",
+        "href": "https://www.foxbusiness.com/"
+      },
+      {
+        "label": "Personal Finance",
+        "href": "https://www.foxbusiness.com/personal-finance"
+      },
+      {
+        "label": "Economy",
+        "href": "https://www.foxbusiness.com/economy"
+      },
+      {
+        "label": "Markets",
+        "href": "https://www.foxbusiness.com/markets"
+      },
+      {
+        "label": "Watchlist",
+        "href": "https://www.foxbusiness.com/watchlist"
+      },
+      {
+        "label": "Lifestyle",
+        "href": "https://www.foxbusiness.com/lifestyle"
+      },
+      {
+        "label": "Real Estate",
+        "href": "https://www.foxbusiness.com/real-estate"
+      },
+      {
+        "label": "Tech",
+        "href": "https://www.foxbusiness.com/technology"
+      },
+      {
+        "label": "Careers",
+        "href": "https://foxcareers.com/Search/SearchResults?brand=Fox%20News%20Careers"
+      },
+      {
+        "label": "Advertise With Us",
+        "href": "https://www.foxadvertising.com/fox-news-media/"
+      },
+      {
+        "label": "Media Relations",
+        "href": "https://press.foxnews.com/media-contacts"
+      },
+      {
+        "label": "Corporate Information",
+        "href": "https://press.foxnews.com"
+      },
+      {
+        "label": "FOX Weather",
+        "href": "https://www.foxweather.com"
+      },
+      {
+        "label": "FOX Noticias",
+        "href": "https://noticias.foxnews.com/shows/fox-noticias"
+      },
+      {
+        "label": "FOX News Shop",
+        "href": "https://shop.foxnews.com"
+      },
+      {
+        "label": "FOX News Radio",
+        "href": "https://radio.foxnews.com"
+      },
+      {
+        "label": "Outkick",
+        "href": "https://www.outkick.com"
+      },
+      {
+        "label": "Podcasts",
+        "href": "https://radio.foxnews.com/podcast"
+      },
+      {
+        "label": "FOX One",
+        "href": "https://www.fox.com/?cmpid=org=one::ag=owned::mc=referral::src=fn::cmp=10010071001::add=621a"
+      },
+      {
+        "label": "FIFA WORLD CUP 26",
+        "href": "https://www.foxsports.com/soccer/fifa-world-cup"
+      },
+      {
+        "label": "FOX Business",
+        "href": "https://www.foxbusiness.com/"
+      },
+      {
+        "label": "Personal Finance",
+        "href": "https://www.foxbusiness.com/personal-finance"
+      },
+      {
+        "label": "Economy",
+        "href": "https://www.foxbusiness.com/economy"
+      },
+      {
+        "label": "Markets",
+        "href": "https://www.foxbusiness.com/markets"
+      },
+      {
+        "label": "Watchlist",
+        "href": "https://www.foxbusiness.com/watchlist"
+      },
+      {
+        "label": "Lifestyle",
+        "href": "https://www.foxbusiness.com/lifestyle"
+      },
+      {
+        "label": "Real Estate",
+        "href": "https://www.foxbusiness.com/real-estate"
+      },
+      {
+        "label": "Tech",
+        "href": "https://www.foxbusiness.com/technology"
+      },
+      {
+        "label": "Careers",
+        "href": "https://foxcareers.com/Search/SearchResults?brand=Fox%20News%20Careers"
+      },
+      {
+        "label": "Advertise With Us",
+        "href": "https://www.foxadvertising.com/fox-news-media/"
+      },
+      {
+        "label": "Media Relations",
+        "href": "https://press.foxnews.com/media-contacts"
+      },
+      {
+        "label": "Corporate Information",
+        "href": "https://press.foxnews.com"
+      },
+      {
+        "label": "FOX Weather",
+        "href": "https://www.foxweather.com"
+      },
+      {
+        "label": "FOX Noticias",
+        "href": "https://noticias.foxnews.com/shows/fox-noticias"
+      },
+      {
+        "label": "FOX News Shop",
+        "href": "https://shop.foxnews.com"
+      },
+      {
+        "label": "FOX News Radio",
+        "href": "https://radio.foxnews.com"
+      },
+      {
+        "label": "Outkick",
+        "href": "https://www.outkick.com"
+      },
+      {
+        "label": "Podcasts",
+        "href": "https://radio.foxnews.com/podcast"
+      },
+      {
+        "label": "FOX One",
+        "href": "https://www.fox.com/?cmpid=org=one::ag=owned::mc=referral::src=fn::cmp=10010071001::add=621a"
+      },
+      {
+        "label": "Facebook",
+        "href": "https://www.facebook.com/FoxNews"
+      },
+      {
+        "label": "Twitter",
+        "href": "https://twitter.com/foxnews"
+      },
+      {
+        "label": "Instagram",
+        "href": "https://www.instagram.com/foxnews"
+      },
+      {
+        "label": "Youtube",
+        "href": "https://www.youtube.com/FoxNewsChannel"
+      },
+      {
+        "label": "Flipboard",
+        "href": "https://flipboard.com/@FoxNews"
+      },
+      {
+        "label": "LinkedIn",
+        "href": "https://www.linkedin.com/company/fox-news-channel/"
+      },
+      {
+        "label": "Slack",
+        "href": "https://foxnews.slack.com/apps/A013AUF6VMG-fox-news"
+      },
+      {
+        "label": "Spotify",
+        "href": "https://open.spotify.com/show/7A4YfyFtNOZhqMV7F3kYVu"
+      },
+      {
+        "label": "iHeartRadio",
+        "href": "https://www.iheart.com/podcast/256-the-fox-news-rundown-31090295/"
+      },
+      {
+        "label": "Your Privacy Choices",
+        "href": "http://privacy.foxnews.com/main/web/main"
+      },
+      {
+        "label": "Help",
+        "href": "https://help.foxnews.com"
+      },
+      {
+        "label": "Factset",
+        "href": "https://www.factset.com/"
+      },
+      {
+        "label": "FactSet Digital Solutions",
+        "href": "https://www.factset.com/solutions/business-needs/digital-solutions"
+      },
+      {
+        "label": "Legal Statement",
+        "href": "https://www.factset.com/privacy"
+      },
+      {
+        "label": "Refinitiv Lipper",
+        "href": "https://lipperalpha.refinitiv.com/"
+      }
+    ],
+    "broken": []
+  },
+  "extractedAt": "2025-11-19T15:33:35Z"
+}

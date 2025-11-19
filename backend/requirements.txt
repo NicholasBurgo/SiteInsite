@@ -1,0 +1,40 @@
+fastapi
+uvicorn[standard]
+aiohttp
+orjson
+beautifulsoup4
+lxml
+readability-lxml
+trafilatura
+python-magic
+pypdf
+python-docx
+pydantic
+pydantic-settings
+playwright
+Pillow
+requests
+Brotli
+curl-cffi>=0.7.0
+undetected-chromedriver>=3.5.4
+selenium>=4.15.0
+selenium-stealth>=1.0.6
+cloudscraper>=1.2.71
+pyyaml>=6.0
+httpx[http2]>=0.25.0
+fake-useragent>=1.4.0
+faker>=20.0.0
+asyncio-mqtt>=0.13.0
+psutil>=5.9.0
+numpy>=1.24.0
+pdfkit
+tldextract
+
+# System Dependencies:
+# PDF export requires wkhtmltopdf to be installed on the system.
+# Install with:
+#   Fedora/RHEL: sudo dnf install wkhtmltopdf
+#   Ubuntu/Debian: sudo apt-get install wkhtmltopdf
+#   macOS: brew install wkhtmltopdf
+#   Or download from: https://wkhtmltopdf.org/downloads.html
+#   If installed in non-standard location, set: export WKHTMLTOPDF_PATH="/path/to/wkhtmltopdf"

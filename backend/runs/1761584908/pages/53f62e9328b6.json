@@ -1,0 +1,123 @@
+{
+  "url": "https://www.northshoreexteriorupkeep.com/services",
+  "path": "/services",
+  "status": 200,
+  "title": "Services",
+  "description": "Driveway and side walk",
+  "canonical": "https://www.northshoreexteriorupkeep.com/services",
+  "media": {
+    "images": [
+      {
+        "url": "https://lh3.googleusercontent.com/sitesv/AAzXCkdlHHET806_mj72CVZP2yWOKg0CiGwAvU3kXPIT1EDtS_0EX1VLvipxl7YYFYLuy2Jzms9cajEBZd3TzjkGyNlFhp-di3AHw_KD7kN6J39Y9EFuDafCw1im7xvRP7NAkqTfyggbs1vCpgk__YUij5ARhOciYOlB5QiDt-K1lrWCjP3cTEzw-fAOa0g=w16383",
+        "alt": "",
+        "width": null,
+        "height": null
+      },
+      {
+        "url": "https://lh3.googleusercontent.com/sitesv/AAzXCkc9ILCKaEBDc0ziiW0TEGUxBHuDYNiPZyRlyV2isCl0Ng1dyW1jZBOwro0LC5wDfD9eGBEKdk6DVmoOBrYoZSmlDLVuMQy8KdnTDEthFMlGv1lviPePIp-5oD4Rmua4VNd67J_kyGiiQKQAPW1ISGX-4u4i-eT8UOaw5Vojv4VM7YrBrlnXmkJhNos=w1280",
+        "alt": "",
+        "width": null,
+        "height": null
+      },
+      {
+        "url": "https://lh3.googleusercontent.com/sitesv/AAzXCkeYlP20yRrQkJLJNL45eLRblLhWbEPVxzetLtH3ueGh9ne9-hU_FXbhe7MnUH-FInJTHgtYvQjmQ4RqkV6sKDzVmZrPvHXCpOgkFCwasm6UUBkFRskenGEdKKKJr5DWH_Ah1mBoxU8i4nKuDbOiZsfzHPots_WiJXTIg8t4yDqqkHpnC2LQdd137JN1V0ceaR7-rpVFCsyvePJG5l5BTTH99z6CkYdWawFW=w1280",
+        "alt": "",
+        "width": null,
+        "height": null
+      },
+      {
+        "url": "https://lh3.googleusercontent.com/sitesv/AAzXCkedIqfHTEUF6oY-YqfE7k8l6TDam22Lv6DRPMUlAh96wtEy8nCHGeYq7D3ATR4_woLdp6ojmxY4K-i219xipMKlHRoaoMQcomGZzoS7Oiointhbt0ogXqVRQ8pRUtSSI3j1vwAyv35-Hsbf4_srKPHvTVOC3gbdywgZ4g03GY7OUWp7xUD0BK2sIq5DlgXcy28qvCCacugkKY-FHVjj-I0mCoaj-agwS1CX=w1280",
+        "alt": "",
+        "width": null,
+        "height": null
+      }
+    ],
+    "videos": [],
+    "gifs": []
+  },
+  "files": [],
+  "words": {
+    "headings": [
+      {
+        "tag": "h1",
+        "text": "Services"
+      }
+    ],
+    "paragraphs": [
+      "Driveway and side walk",
+      "We use a surface cleaner to remove any oil stain and any other stains from the concrete",
+      "House and window  cleaning",
+      "We get rid of all the mold and stains with Eco friendly chemicals and then soft wash it off",
+      "We clean the inside and outside of trashcans",
+      "Then we use a solution to make it from smelling bad"
+    ],
+    "wordCount": 63
+  },
+  "links": {
+    "internal": [
+      {
+        "label": "",
+        "href": "https://www.northshoreexteriorupkeep.com/home"
+      },
+      {
+        "label": "Call us at (985)662-8005",
+        "href": "https://www.northshoreexteriorupkeep.com/home"
+      },
+      {
+        "label": "Home",
+        "href": "https://www.northshoreexteriorupkeep.com/home"
+      },
+      {
+        "label": "Services",
+        "href": "https://www.northshoreexteriorupkeep.com/services"
+      },
+      {
+        "label": "Our work",
+        "href": "https://www.northshoreexteriorupkeep.com/our-work"
+      },
+      {
+        "label": "Contact Us",
+        "href": "https://www.northshoreexteriorupkeep.com/contact-us"
+      },
+      {
+        "label": "Call us at (985)662-8005",
+        "href": "https://www.northshoreexteriorupkeep.com/home"
+      },
+      {
+        "label": "Home",
+        "href": "https://www.northshoreexteriorupkeep.com/home"
+      },
+      {
+        "label": "Services",
+        "href": "https://www.northshoreexteriorupkeep.com/services"
+      },
+      {
+        "label": "Our work",
+        "href": "https://www.northshoreexteriorupkeep.com/our-work"
+      },
+      {
+        "label": "Contact Us",
+        "href": "https://www.northshoreexteriorupkeep.com/contact-us"
+      },
+      {
+        "label": "Home",
+        "href": "https://www.northshoreexteriorupkeep.com/home"
+      },
+      {
+        "label": "Services",
+        "href": "https://www.northshoreexteriorupkeep.com/services"
+      },
+      {
+        "label": "Our work",
+        "href": "https://www.northshoreexteriorupkeep.com/our-work"
+      },
+      {
+        "label": "Contact Us",
+        "href": "https://www.northshoreexteriorupkeep.com/contact-us"
+      }
+    ],
+    "external": [],
+    "broken": []
+  },
+  "extractedAt": "2025-10-27T17:08:29Z"
+}

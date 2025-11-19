@@ -1,0 +1,132 @@
+{
+  "baseUrl": "https://www.walmart.com/",
+  "nav": [
+    {
+      "id": "2bf8722d",
+      "label": "ReorderMy Items",
+      "href": "https://www.walmart.com/my-items",
+      "order": 0,
+      "path": "/my-items",
+      "children": []
+    },
+    {
+      "id": "944cc020",
+      "label": "Sign InAccount",
+      "href": "https://www.walmart.com/",
+      "order": 1,
+      "path": "/",
+      "children": []
+    }
+  ],
+  "footer": {
+    "columns": [
+      {
+        "heading": null,
+        "links": [
+          {
+            "label": "All Departments",
+            "href": "https://www.walmart.com/all-departments"
+          },
+          {
+            "label": "Store Directory",
+            "href": "https://www.walmart.com/store/directory"
+          },
+          {
+            "label": "Careers",
+            "href": "https://careers.walmart.com/"
+          },
+          {
+            "label": "Our Company",
+            "href": "https://corporate.walmart.com/"
+          },
+          {
+            "label": "Sell on Walmart.com",
+            "href": "https://marketplace.walmart.com/?utm_source=Walmart.com&utm_medium=link&utm_campaign=footer"
+          },
+          {
+            "label": "Help",
+            "href": "https://www.walmart.com/help"
+          },
+          {
+            "label": "Product Recalls",
+            "href": "https://corporate.walmart.com/recalls"
+          },
+          {
+            "label": "Accessibility",
+            "href": "https://www.walmart.com/help/article/responsible-disclosure-and-accessibility-policies/0f173dab8bd942da84b1cd7ab5ffc3cb"
+          },
+          {
+            "label": "Tax Exempt Program",
+            "href": "https://www.walmart.com/cp/tax-exemption-program/8480422"
+          },
+          {
+            "label": "Get the Walmart App",
+            "href": "https://walmart.onelink.me/UIev?pid=walmart.com&af_web_dp=https%3A%2F%2Fwww.walmart.com%2Fcp%2Fwalmart-mobile-app%2F1087865&c=Walmart.com%20Site%20Footer&af_dp=walmart%3A%2F%2F"
+          },
+          {
+            "label": "Safety Data Sheet",
+            "href": "http://msds.walmartstores.com/"
+          },
+          {
+            "label": "Terms of Use",
+            "href": "https://www.walmart.com/help/article/walmart-com-terms-of-use/3b75080af40340d6bbd596f116fae5a0"
+          },
+          {
+            "label": "Privacy Notice",
+            "href": "https://corporate.walmart.com/privacy-security"
+          },
+          {
+            "label": "California Supply Chain Act",
+            "href": "https://corporate.walmart.com/california-transparency"
+          },
+          {
+            "label": "Your Privacy Choices",
+            "href": "https://www.walmart.com/account/api/ccpa-intake?native=false&app=gm&type=sod"
+          },
+          {
+            "label": "Customer Privacy Center",
+            "href": "https://www.walmart.com/privacy-center"
+          },
+          {
+            "label": "Notice at Collection",
+            "href": "https://corporate.walmart.com/privacy-security/california-privacy-rights#what-are-the-categories-of-personal-information-collected"
+          },
+          {
+            "label": "AdChoices",
+            "href": "https://corporate.walmart.com/privacy-security/walmart-privacy-notice#interest-based-advertising"
+          },
+          {
+            "label": "Consumer Health Data Privacy Notices",
+            "href": "https://corporate.walmart.com/privacy-security/walmart-consumer-health-data-privacy-notices"
+          },
+          {
+            "label": "Brand Shop Directory",
+            "href": "https://www.walmart.com/brand/branddirectory"
+          },
+          {
+            "label": "Pharmacy",
+            "href": "https://www.walmart.com/cp/pharmacy/5431?povid=HWS_GlobalFooter_Pharmacy"
+          },
+          {
+            "label": "Walmart Business",
+            "href": "https://www.walmart.com/cp/walmart-business/7810722?povid=7810722_POV_WMTfooter"
+          },
+          {
+            "label": "#IYWYK",
+            "href": "https://www.walmart.com/cp/walmart-in-the-know/7781927"
+          },
+          {
+            "label": "Delete Account",
+            "href": "https://www.walmart.com/account/login?vid=oaoh&tid=0&returnUrl=%2Faccount%2Fdelete-account"
+          }
+        ]
+      }
+    ],
+    "socials": [],
+    "contact": {}
+  },
+  "brand": {
+    "logo": "https://i5.walmartimages.com/dfw/4ff9c6c9-db09/k2-_4e215051-95a0-4cfc-a030-25d5b45898f1.v1.png",
+    "name": "Walmart | Save Money. Live better."
+  }
+}

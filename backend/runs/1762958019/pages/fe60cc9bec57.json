@@ -1,0 +1,328 @@
+{
+  "url": "https://www.walmart.com/plus?athAsset=eyJhdGhjcGlkIjoiYjk4OWRmOWMtODlmOS00ZTFhLTg1NGQtN2Y4YTVhYWI1YjBhIiwiYWV3ciI6IkNUUiJ9&athena=true",
+  "path": "/plus",
+  "status": 200,
+  "title": "Limited time!",
+  "description": "Start your free 30-day trial today to start saving more time and money! Walmart+ members save $1,300+ each year with free unlimited grocery delivery from stores, more low prices & options with free shipping, video streaming with Paramount+, fuel savings at many locations, early access to deals + so much more!",
+  "canonical": "https://www.walmart.com/plus",
+  "media": {
+    "images": [
+      {
+        "url": "https://i5.walmartimages.com/dfw/63fd9f59-9250/a6158bb2-8769-43e6-a2d7-525a4889b449/v1/walmartPlus-logo-white.svg",
+        "alt": "Walmart plus",
+        "width": null,
+        "height": 36
+      },
+      {
+        "url": "https://i5.walmartimages.com/dfw/4ff9c6c9-2b3e/k2-_b7d84c87-9234-4ebf-a433-64e91eede2f4.v1.jpg?odnBound=720",
+        "alt": "Walmart Plus",
+        "width": null,
+        "height": null
+      },
+      {
+        "url": "https://i5.walmartimages.com/dfw/4ff9c6c9-1792/k2-_ba580d9a-08f2-454a-8b2b-df7d2755b9da.v1.jpg",
+        "alt": "Walmart PlusEA",
+        "width": 373,
+        "height": 373
+      },
+      {
+        "url": "https://i5.walmartimages.com/dfw/4ff9c6c9-a220/k2-_ad11e4e7-b62b-4338-8cae-cafe785f7548.v1.png",
+        "alt": "Video Streaming Choice",
+        "width": 1000,
+        "height": 1000
+      },
+      {
+        "url": "https://i5.walmartimages.com/dfw/4ff9c6c9-d189/k2-_e3d99884-c466-4191-b773-745e805316f0.v1.png",
+        "alt": "Free Delivery",
+        "width": 500,
+        "height": 500
+      },
+      {
+        "url": "https://i5.walmartimages.com/dfw/4ff9c6c9-a64d/k2-_90f9e81a-8358-4d02-a571-eaf8d04df513.v1.png",
+        "alt": "Free Shipping",
+        "width": 500,
+        "height": 500
+      },
+      {
+        "url": "https://i5.walmartimages.com/dfw/4ff9c6c9-8ee2/k2-_7d1a143c-6575-4984-aff3-7e337bb12ac8.v1.png",
+        "alt": "Free Pharmacy Delivery",
+        "width": 500,
+        "height": 500
+      },
+      {
+        "url": "https://i5.walmartimages.com/dfw/4ff9c6c9-5b55/k2-_00fa5b22-f9f7-42f6-967f-a8695bc70ec8.v1.png",
+        "alt": "Gas Savings",
+        "width": 500,
+        "height": 500
+      },
+      {
+        "url": "https://i5.walmartimages.com/dfw/4ff9c6c9-d8f0/k2-_563ddd69-68aa-44a3-8603-b9ba80f2edc5.v1.png",
+        "alt": "Burger King\u00ae Savings",
+        "width": 500,
+        "height": 500
+      },
+      {
+        "url": "https://i5.walmartimages.com/dfw/4ff9c6c9-8888/k2-_bbfb54b8-775e-4ba6-a3b3-230582e9d398.v1.png",
+        "alt": "5% Cash Back Credit Card",
+        "width": 500,
+        "height": 500
+      },
+      {
+        "url": "https://i5.walmartimages.com/dfw/4ff9c6c9-a671/k2-_fb87e74d-9906-4ace-a015-5c1114eb88ee.v1.png",
+        "alt": "Free Online Pet Care",
+        "width": 500,
+        "height": 500
+      },
+      {
+        "url": "https://i5.walmartimages.com/dfw/4ff9c6c9-f46e/k2-_33982712-c85f-4230-9692-4e4e1b64c955.v1.png",
+        "alt": "Auto Care Savings",
+        "width": 500,
+        "height": 500
+      },
+      {
+        "url": "https://i5.walmartimages.com/dfw/4ff9c6c9-59c8/k2-_2c2b52dc-ca61-4716-ab9a-53780d01e72a.v1.png",
+        "alt": "Up to 5% Walmart Cash for Travel",
+        "width": 500,
+        "height": 500
+      },
+      {
+        "url": "https://i5.walmartimages.com/dfw/4ff9c6c9-dbed/k2-_aeee9af8-c483-43d1-83d0-8abcbcdb77ea.v1.png",
+        "alt": "Free Returns From Home",
+        "width": 500,
+        "height": 500
+      },
+      {
+        "url": "https://i5.walmartimages.com/dfw/4ff9c6c9-b573/k2-_1b00e668-d723-48e6-b762-3df1a11149b4.v1.png",
+        "alt": "Scan & Go",
+        "width": 500,
+        "height": 500
+      },
+      {
+        "url": "https://i5.walmartimages.com/dfwrs/76316474-f495/k2-_22d79c91-57a5-4981-8d4a-c13c3fc4fd9a.v1.png",
+        "alt": "Cash Logo",
+        "width": 18,
+        "height": 18
+      },
+      {
+        "url": "https://i5.walmartimages.com/dfw/4ff9c6c9-e677/k2-_14bb0af9-cb00-42d2-9ed2-a45c2e97bb95.v1.png?odnBound=375",
+        "alt": "5 out of 5 stars",
+        "width": 240,
+        "height": 63
+      },
+      {
+        "url": "https://i5.walmartimages.com/dfw/63fd9f59-4be1/0e321069-d42a-42ae-9b17-6987bf35d3ad/v1/privacy-choices-dweb.png",
+        "alt": "Privacy choices icon",
+        "width": 29,
+        "height": 14
+      }
+    ],
+    "videos": [],
+    "gifs": []
+  },
+  "files": [],
+  "words": {
+    "headings": [
+      {
+        "tag": "h1",
+        "text": "Limited time!"
+      },
+      {
+        "tag": "h2",
+        "text": "Get 50% off an annual membership Has footnote ID 1Get 50% off an annual membership\u00b9"
+      },
+      {
+        "tag": "h3",
+        "text": "Explore other Walmart+ memberships at 50% off"
+      },
+      {
+        "tag": "h2",
+        "text": "Explore Walmart+ benefits"
+      },
+      {
+        "tag": "h3",
+        "text": "Unlock Early Access on Nov. 13"
+      },
+      {
+        "tag": "h3",
+        "text": "Video Streaming Choice"
+      },
+      {
+        "tag": "h3",
+        "text": "Free Delivery"
+      },
+      {
+        "tag": "h3",
+        "text": "Free Shipping"
+      },
+      {
+        "tag": "h3",
+        "text": "Free Pharmacy Delivery"
+      },
+      {
+        "tag": "h3",
+        "text": "Gas Savings"
+      },
+      {
+        "tag": "h3",
+        "text": "Burger King\u00ae Savings"
+      },
+      {
+        "tag": "h3",
+        "text": "5% Cash Back Credit Card"
+      },
+      {
+        "tag": "h3",
+        "text": "Free Online Pet Care"
+      },
+      {
+        "tag": "h3",
+        "text": "Auto Care Savings"
+      },
+      {
+        "tag": "h3",
+        "text": "Up to 5% Walmart Cash for Travel"
+      },
+      {
+        "tag": "h3",
+        "text": "Free Returns From Home"
+      },
+      {
+        "tag": "h3",
+        "text": "Scan & Go"
+      },
+      {
+        "tag": "h2",
+        "text": "Limited-time offers"
+      },
+      {
+        "tag": "h2",
+        "text": "Check out what Walmart+ members have to say"
+      },
+      {
+        "tag": "h2",
+        "text": "Frequently Asked Questions"
+      }
+    ],
+    "paragraphs": [
+      "Enjoy all the benefits of Walmart+ for half the price! Including Early Access to Black Friday Deals\u00b2, Free Shipping\u00b3, Gas Savings & more.",
+      "Qualifying government assistance recipients & college students can join for just $49/yr or $6.47/mo.",
+      "What types of Walmart+ plans are available?",
+      "Where can I manage my plan?",
+      "Do I have access to all my Walmart+ benefits during trial?",
+      "We\u2019d love to hear what you think!"
+    ],
+    "wordCount": 68
+  },
+  "links": {
+    "internal": [
+      {
+        "label": "",
+        "href": "https://www.walmart.com/plus"
+      },
+      {
+        "label": "View All FAQ",
+        "href": "https://www.walmart.com/plus/faq"
+      },
+      {
+        "label": "All Departments",
+        "href": "https://www.walmart.com/all-departments"
+      },
+      {
+        "label": "Store Directory",
+        "href": "https://www.walmart.com/store/directory"
+      },
+      {
+        "label": "Help",
+        "href": "https://www.walmart.com/help"
+      },
+      {
+        "label": "Accessibility",
+        "href": "https://www.walmart.com/help/article/responsible-disclosure-and-accessibility-policies/0f173dab8bd942da84b1cd7ab5ffc3cb"
+      },
+      {
+        "label": "Tax Exempt Program",
+        "href": "https://www.walmart.com/cp/tax-exemption-program/8480422"
+      },
+      {
+        "label": "Terms of Use",
+        "href": "https://www.walmart.com/help/article/walmart-com-terms-of-use/3b75080af40340d6bbd596f116fae5a0"
+      },
+      {
+        "label": "Your Privacy Choices",
+        "href": "https://www.walmart.com/account/api/ccpa-intake?native=false&app=gm&type=sod"
+      },
+      {
+        "label": "Customer Privacy Center",
+        "href": "https://www.walmart.com/privacy-center"
+      },
+      {
+        "label": "Brand Shop Directory",
+        "href": "https://www.walmart.com/brand/branddirectory"
+      },
+      {
+        "label": "Pharmacy",
+        "href": "https://www.walmart.com/cp/pharmacy/5431?povid=HWS_GlobalFooter_Pharmacy"
+      },
+      {
+        "label": "Walmart Business",
+        "href": "https://www.walmart.com/cp/walmart-business/7810722?povid=7810722_POV_WMTfooter"
+      },
+      {
+        "label": "#IYWYK",
+        "href": "https://www.walmart.com/cp/walmart-in-the-know/7781927"
+      },
+      {
+        "label": "Delete Account",
+        "href": "https://www.walmart.com/account/login?vid=oaoh&tid=0&returnUrl=%2Faccount%2Fdelete-account"
+      }
+    ],
+    "external": [
+      {
+        "label": "Careers",
+        "href": "https://careers.walmart.com/"
+      },
+      {
+        "label": "Our Company",
+        "href": "https://corporate.walmart.com/"
+      },
+      {
+        "label": "Sell on Walmart.com",
+        "href": "https://marketplace.walmart.com/?utm_source=Walmart.com&utm_medium=link&utm_campaign=footer"
+      },
+      {
+        "label": "Product Recalls",
+        "href": "https://corporate.walmart.com/recalls"
+      },
+      {
+        "label": "Get the Walmart App",
+        "href": "https://walmart.onelink.me/UIev?pid=walmart.com&af_web_dp=https%3A%2F%2Fwww.walmart.com%2Fcp%2Fwalmart-mobile-app%2F1087865&c=Walmart.com%20Site%20Footer&af_dp=walmart%3A%2F%2F"
+      },
+      {
+        "label": "Safety Data Sheet",
+        "href": "http://msds.walmartstores.com/"
+      },
+      {
+        "label": "Privacy Notice",
+        "href": "https://corporate.walmart.com/privacy-security"
+      },
+      {
+        "label": "California Supply Chain Act",
+        "href": "https://corporate.walmart.com/california-transparency"
+      },
+      {
+        "label": "Notice at Collection",
+        "href": "https://corporate.walmart.com/privacy-security/california-privacy-rights#what-are-the-categories-of-personal-information-collected"
+      },
+      {
+        "label": "AdChoices",
+        "href": "https://corporate.walmart.com/privacy-security/walmart-privacy-notice#interest-based-advertising"
+      },
+      {
+        "label": "Consumer Health Data Privacy Notices",
+        "href": "https://corporate.walmart.com/privacy-security/walmart-consumer-health-data-privacy-notices"
+      }
+    ],
+    "broken": []
+  },
+  "extractedAt": "2025-11-12T14:33:42Z"
+}

@@ -1,0 +1,2490 @@
+{
+  "url": "https://www.foxnews.com/shows/fox-nation",
+  "path": "/shows/fox-nation",
+  "status": 200,
+  "title": "Fox Nation",
+  "description": "This material may not be published, broadcast, rewritten, or redistributed. \u00a92025 FOX News Network, LLC. All rights reserved. Quotes displayed in real-time or delayed by at least 15 minutes. Market da...",
+  "canonical": "https://www.foxnews.com/shows/fox-nation",
+  "media": {
+    "images": [
+      {
+        "url": "https://cf-images.us-east-1.prod.boltdns.net/v1/static/694940094001/da6dd946-3faa-46d9-990c-5dc3f5ca51f6/d5b47788-3da7-4159-9f71-d095be30a304/1280x720/match/image.jpg",
+        "alt": "Legendary director Martin Scorsese\u2019s Fox Nation series, \u2018The Saints,\u2019 returns for Season 2 this November, featuring new episodes on iconic saints from Peter to the newly-minted Saint Carlo Acutis.",
+        "width": null,
+        "height": null
+      },
+      {
+        "url": "https://a57.foxnews.com/cf-images.us-east-1.prod.boltdns.net/v1/static/694940094001/56aea31f-d418-4ddd-9242-45523e42011c/3fcb7252-bad7-4f7a-b74e-a090a75f89bb/1280x720/match/348/196/image.jpg?ve=1&tl=1",
+        "alt": " 'The Saints' star portrays St. Patrick in season two premiere",
+        "width": null,
+        "height": null
+      },
+      {
+        "url": "https://a57.foxnews.com/static.foxnews.com/foxnews.com/content/uploads/2025/11/348/196/fox-nation-st-patrick-saints.jpg?ve=1&tl=1",
+        "alt": "Actor reveals why playing St Patrick in Martin Scorsese's 'The Saints' is 'more important than ever'",
+        "width": null,
+        "height": null
+      },
+      {
+        "url": "https://a57.foxnews.com/cf-images.us-east-1.prod.boltdns.net/v1/static/694940094001/3b531256-5d3c-4396-affe-e75d1c90e5b6/4cff5d66-04ed-468c-8ab2-0c0f826cc978/1280x720/match/348/196/image.jpg?ve=1&tl=1",
+        "alt": "Witness St. Patrick\u2019s journey from slave to bishop in hit Fox Nation series",
+        "width": null,
+        "height": null
+      },
+      {
+        "url": "https://a57.foxnews.com/static.foxnews.com/foxnews.com/content/uploads/2025/11/348/196/alexa-anderson-split-fox-news-001.jpg?ve=1&tl=1",
+        "alt": "Track star who protested trans athlete alleges she wasn't given her medal for months until she filed a lawsuit",
+        "width": null,
+        "height": null
+      },
+      {
+        "url": "https://a57.foxnews.com/cf-images.us-east-1.prod.boltdns.net/v1/static/694940094001/1df86cc7-fd3c-424a-bda6-c9b1f45c3495/6abdd1bb-9fe2-459a-8eb0-6947073b7dcd/1280x720/match/348/196/image.jpg?ve=1&tl=1",
+        "alt": "Fox Nation Patriot Awards winner reveals death threats after protesting trans athlete",
+        "width": null,
+        "height": null
+      },
+      {
+        "url": "https://a57.foxnews.com/cf-images.us-east-1.prod.boltdns.net/v1/static/694940094001/6ae78e2e-45a7-4c5d-b052-4f6f31ba4c7f/7ab37186-e835-4dcf-ad4d-4afb6d524b08/1280x720/match/348/196/image.jpg?ve=1&tl=1",
+        "alt": "'PRETTY SPECIAL': Actor says it was an honor and a privilege to play St. Patrick",
+        "width": null,
+        "height": null
+      },
+      {
+        "url": "https://a57.foxnews.com/cf-images.us-east-1.prod.boltdns.net/v1/static/694940094001/4a5b3689-8160-40c5-b205-f25a18201174/7bc2c27c-ff2d-43f0-9e28-3ebfdb613a8f/1280x720/match/348/196/image.jpg?ve=1&tl=1",
+        "alt": "'Wine Nation' debuts on Fox Nation with country star Kix Brooks",
+        "width": null,
+        "height": null
+      },
+      {
+        "url": "https://a57.foxnews.com/cf-images.us-east-1.prod.boltdns.net/v1/static/694940094001/24c0a168-394b-4a3e-9efc-3dd9f6fb694b/f0aa6449-9f4a-4cb5-a69d-899a3bafc157/1280x720/match/348/196/image.jpg?ve=1&tl=1",
+        "alt": "Kayleigh McEnany recounts powerful story from 'The Saints'",
+        "width": null,
+        "height": null
+      },
+      {
+        "url": "https://a57.foxnews.com/static.foxnews.com/foxnews.com/content/uploads/2025/11/348/196/fran-scorsese.jpg?ve=1&tl=1",
+        "alt": "Martin Scorsese\u2019s daughter, Francesca, makes Fox Nation directorial debut",
+        "width": null,
+        "height": null
+      },
+      {
+        "url": "https://a57.foxnews.com/static.foxnews.com/foxnews.com/content/uploads/2019/07/168/168/hornacek_abby_headshot.jpg?ve=1&tl=1",
+        "alt": "Abby Hornacek",
+        "width": null,
+        "height": null
+      },
+      {
+        "url": "https://a57.foxnews.com/static.foxnews.com/foxnews.com/content/uploads/2019/09/168/168/Tyrus.jpg?ve=1&tl=1",
+        "alt": "Tyrus",
+        "width": null,
+        "height": null
+      },
+      {
+        "url": "https://a57.foxnews.com/static.foxnews.com/foxnews.com/content/uploads/2019/04/168/168/Lahren_Tomi.png?ve=1&tl=1",
+        "alt": "Tomi Lahren",
+        "width": null,
+        "height": null
+      }
+    ],
+    "videos": [],
+    "gifs": []
+  },
+  "files": [],
+  "words": {
+    "headings": [
+      {
+        "tag": "h4",
+        "text": "Games"
+      },
+      {
+        "tag": "h4",
+        "text": "Deals"
+      },
+      {
+        "tag": "h4",
+        "text": "FOX Business"
+      },
+      {
+        "tag": "h4",
+        "text": "Science & Tech"
+      },
+      {
+        "tag": "h4",
+        "text": "Watch Live"
+      },
+      {
+        "tag": "h4",
+        "text": "Apps & Products"
+      },
+      {
+        "tag": "h4",
+        "text": "Games"
+      },
+      {
+        "tag": "h4",
+        "text": "Deals"
+      },
+      {
+        "tag": "h4",
+        "text": "FOX Business"
+      },
+      {
+        "tag": "h4",
+        "text": "Science & Tech"
+      },
+      {
+        "tag": "h4",
+        "text": "Watch Live"
+      },
+      {
+        "tag": "h4",
+        "text": "Apps & Products"
+      },
+      {
+        "tag": "h2",
+        "text": "Martin Scorsese\u2019s \u2018The Saints\u2019 returns to Fox Nation this fall with new episodes"
+      },
+      {
+        "tag": "h4",
+        "text": "'The Saints' star portrays St. Patrick in season two premiere"
+      },
+      {
+        "tag": "h4",
+        "text": "Actor reveals why playing St Patrick in Martin Scorsese's 'The Saints' is 'more important than ever'"
+      },
+      {
+        "tag": "h4",
+        "text": "Witness St. Patrick\u2019s journey from slave to bishop in hit Fox Nation series"
+      },
+      {
+        "tag": "h4",
+        "text": "Track star who protested trans athlete alleges she wasn't given her medal for months until she filed a lawsuit"
+      },
+      {
+        "tag": "h4",
+        "text": "Fox Nation Patriot Awards winner reveals death threats after protesting trans athlete"
+      },
+      {
+        "tag": "h4",
+        "text": "Martin Scorsese explores the legacy of St Patrick to kick off new season of Fox Nation\u2019s \u2018The Saints\u2019"
+      },
+      {
+        "tag": "h4",
+        "text": "'PRETTY SPECIAL': Actor says it was an honor and a privilege to play St. Patrick"
+      },
+      {
+        "tag": "h4",
+        "text": "'Wine Nation' debuts on Fox Nation with country star Kix Brooks"
+      },
+      {
+        "tag": "h4",
+        "text": "Kayleigh McEnany recounts powerful story from 'The Saints'"
+      },
+      {
+        "tag": "h4",
+        "text": "Martin Scorsese\u2019s daughter, Francesca, makes Fox Nation directorial debut"
+      },
+      {
+        "tag": "h3",
+        "text": "Try Fox Nation Today"
+      },
+      {
+        "tag": "h3",
+        "text": "Connect with Us"
+      },
+      {
+        "tag": "h3",
+        "text": "Fox Nation Personalities"
+      },
+      {
+        "tag": "h4",
+        "text": "Abby Hornacek"
+      },
+      {
+        "tag": "h4",
+        "text": "Tyrus"
+      },
+      {
+        "tag": "h4",
+        "text": "Tomi Lahren"
+      },
+      {
+        "tag": "h3",
+        "text": "Featured Articles"
+      },
+      {
+        "tag": "h4",
+        "text": "Actor reveals why playing St Patrick in Martin Scorsese's 'The Saints' is 'more important than ever'"
+      },
+      {
+        "tag": "h4",
+        "text": "Track star who protested trans athlete alleges she wasn't given her medal for months until she filed a lawsuit"
+      },
+      {
+        "tag": "h4",
+        "text": "Martin Scorsese explores the legacy of St Patrick to kick off new season of Fox Nation\u2019s \u2018The Saints\u2019"
+      },
+      {
+        "tag": "h4",
+        "text": "U.S."
+      },
+      {
+        "tag": "h4",
+        "text": "Politics"
+      },
+      {
+        "tag": "h4",
+        "text": "World"
+      },
+      {
+        "tag": "h4",
+        "text": "Opinion"
+      },
+      {
+        "tag": "h4",
+        "text": "Media"
+      },
+      {
+        "tag": "h4",
+        "text": "Entertainment"
+      },
+      {
+        "tag": "h4",
+        "text": "Sports"
+      },
+      {
+        "tag": "h4",
+        "text": "Lifestyle"
+      },
+      {
+        "tag": "h4",
+        "text": "Health"
+      },
+      {
+        "tag": "h4",
+        "text": "Deals"
+      },
+      {
+        "tag": "h4",
+        "text": "FOX Business"
+      },
+      {
+        "tag": "h4",
+        "text": "Science & Tech"
+      },
+      {
+        "tag": "h4",
+        "text": "Games"
+      },
+      {
+        "tag": "h4",
+        "text": "Watch Live"
+      },
+      {
+        "tag": "h4",
+        "text": "About"
+      },
+      {
+        "tag": "h4",
+        "text": "Apps & Products"
+      },
+      {
+        "tag": "h4",
+        "text": "U.S."
+      },
+      {
+        "tag": "h4",
+        "text": "Politics"
+      },
+      {
+        "tag": "h4",
+        "text": "World"
+      },
+      {
+        "tag": "h4",
+        "text": "Opinion"
+      },
+      {
+        "tag": "h4",
+        "text": "Media"
+      },
+      {
+        "tag": "h4",
+        "text": "Entertainment"
+      },
+      {
+        "tag": "h4",
+        "text": "Sports"
+      },
+      {
+        "tag": "h4",
+        "text": "Lifestyle"
+      },
+      {
+        "tag": "h4",
+        "text": "Health"
+      },
+      {
+        "tag": "h4",
+        "text": "Deals"
+      },
+      {
+        "tag": "h4",
+        "text": "FOX Business"
+      },
+      {
+        "tag": "h4",
+        "text": "Science & Tech"
+      },
+      {
+        "tag": "h4",
+        "text": "Games"
+      },
+      {
+        "tag": "h4",
+        "text": "Watch Live"
+      },
+      {
+        "tag": "h4",
+        "text": "About"
+      },
+      {
+        "tag": "h4",
+        "text": "Apps & Products"
+      }
+    ],
+    "paragraphs": [
+      "This material may not be published, broadcast, rewritten, or redistributed. \u00a92025 FOX News Network, LLC. All rights reserved. Quotes displayed in real-time or delayed by at least 15 minutes. Market data provided by Factset. Powered and implemented by FactSet Digital Solutions. Legal Statement. Mutual Fund and ETF data provided by Refinitiv Lipper.",
+      "Legendary director Martin Scorsese\u2019s Fox Nation series, \u2018The Saints,\u2019 returns for Season 2 this November, featuring new episodes on iconic saints from Peter to the newly-minted Saint Carlo Acutis.",
+      "Actor Desmond Eastwood joins 'Fox & Friends' to preview season two of FOX Nation's 'The Saints.'",
+      "Actor Desmond Eastwood brings St. Patrick's incredible journey to life in Fox Nation's \"The Saints.\" Discover the true story behind Ireland's patron saint.",
+      "From acclaimed director Martin Scorsese, the Season 2 premiere of \u2018The Saints\u2019 explores St. Patrick\u2019s transformation from slave to bishop \u2014 and his lasting impact on Ireland and Christianity.",
+      "Alexa Anderson stepped off the podium to protest a trans athlete at Oregon's state championship and filed a lawsuit against OSAA over alleged medal withholding.",
+      "Oregon high school track and field medalist Alexa Anderson reveals how long her medal was kept from her after protesting trans athlete, and the death threats she received in the aftermath.",
+      "Fox Nation uncovers St. Patrick's legacy as Ireland's influential bishop in the first episode of the second season of \"The Saints,\" helmed by film icon Martin Scorsese.",
+      "Actor Desmond Eastwood discusses his experience working on Fox Nation's 'The Saints' on 'America Reports.'",
+      "Country star Kix Brooks and head winemaker of Lazarre Wines, Adam Lazarre, join 'Fox & Friends' to promote 'Wine Nation,' a three-part series hosted by Abby Hornacek on Fox Nation.",
+      "The 'Outnumbered' panel reacts to the season two trailer of Martin Scorsese's 'The Saints,' and delves into the history behind it. 'The Saints' season two premieres Sunday 11/16 on Fox Nation.",
+      "Francesca Scorsese is following in her legendary father\u2019s footsteps, making her Fox Nation directorial debut with an episode of \u201cMartin Scorsese Presents: The Saints.\"",
+      "Join the exclusive streaming service brought to you by Fox News, with entertaining and informative shows that highlight the unique stories, history, and people of America.",
+      "This material may not be published, broadcast, rewritten, or redistributed. \u00a92025 FOX News Network, LLC. All rights reserved. Quotes displayed in real-time or delayed by at least 15 minutes. Market data provided by\n        Factset. Powered and implemented by\n        FactSet Digital Solutions.\n        Legal Statement. Mutual Fund and ETF data provided by\n        Refinitiv Lipper."
+    ],
+    "wordCount": 410
+  },
+  "links": {
+    "internal": [
+      {
+        "label": "Fox News Media",
+        "href": "https://www.foxnews.com/"
+      },
+      {
+        "label": "Books",
+        "href": "https://www.foxnews.com/books"
+      },
+      {
+        "label": "Fox News",
+        "href": "https://www.foxnews.com/"
+      },
+      {
+        "label": "U.S.",
+        "href": "https://www.foxnews.com/us"
+      },
+      {
+        "label": "Blue City Crime",
+        "href": "https://www.foxnews.com/category/us/blue-city-crime"
+      },
+      {
+        "label": "Campus Radicals",
+        "href": "https://www.foxnews.com/category/us/campus-radicals"
+      },
+      {
+        "label": "Border Crisis",
+        "href": "https://www.foxnews.com/category/us/immigration"
+      },
+      {
+        "label": "True Crime",
+        "href": "https://www.foxnews.com/true-crime"
+      },
+      {
+        "label": "Politics",
+        "href": "https://www.foxnews.com/politics"
+      },
+      {
+        "label": "Donald Trump",
+        "href": "https://www.foxnews.com/category/person/donald-trump"
+      },
+      {
+        "label": "Senate",
+        "href": "https://www.foxnews.com/category/politics/senate"
+      },
+      {
+        "label": "House",
+        "href": "https://www.foxnews.com/category/politics/house-of-representatives"
+      },
+      {
+        "label": "Judiciary",
+        "href": "https://www.foxnews.com/category/politics/judiciary"
+      },
+      {
+        "label": "Foreign Policy",
+        "href": "https://www.foxnews.com/category/politics/foreign-policy"
+      },
+      {
+        "label": "Fox News Polls",
+        "href": "https://www.foxnews.com/official-polls"
+      },
+      {
+        "label": "2025 Elections Coverage",
+        "href": "https://www.foxnews.com/elections"
+      },
+      {
+        "label": "World",
+        "href": "https://www.foxnews.com/world"
+      },
+      {
+        "label": "U.N.",
+        "href": "https://www.foxnews.com/category/world/united-nations"
+      },
+      {
+        "label": "Conflicts",
+        "href": "https://www.foxnews.com/category/world/conflicts"
+      },
+      {
+        "label": "Terrorism",
+        "href": "https://www.foxnews.com/category/world/terrorism"
+      },
+      {
+        "label": "Disasters",
+        "href": "https://www.foxnews.com/category/disasters"
+      },
+      {
+        "label": "Global Economy",
+        "href": "https://www.foxnews.com/category/world/global-economy"
+      },
+      {
+        "label": "Environment",
+        "href": "https://www.foxnews.com/category/environment"
+      },
+      {
+        "label": "Religion",
+        "href": "https://www.foxnews.com/category/world/religion"
+      },
+      {
+        "label": "Scandals",
+        "href": "https://www.foxnews.com/category/world/scandals"
+      },
+      {
+        "label": "Opinion",
+        "href": "https://www.foxnews.com/opinion"
+      },
+      {
+        "label": "Media",
+        "href": "https://www.foxnews.com/media"
+      },
+      {
+        "label": "Fox Nation Coverage",
+        "href": "https://www.foxnews.com/shows/fox-nation"
+      },
+      {
+        "label": "Entertainment",
+        "href": "https://www.foxnews.com/entertainment"
+      },
+      {
+        "label": "Prince Andrew",
+        "href": "https://www.foxnews.com/category/person/prince-andrew"
+      },
+      {
+        "label": "Katy Perry",
+        "href": "https://www.foxnews.com/category/person/katy-perry"
+      },
+      {
+        "label": "Royal Families",
+        "href": "https://www.foxnews.com/category/world/personalities/british-royals"
+      },
+      {
+        "label": "Country Music",
+        "href": "https://www.foxnews.com/category/entertainment/genres/country"
+      },
+      {
+        "label": "Nicole Kidman",
+        "href": "https://www.foxnews.com/category/person/nicole-kidman"
+      },
+      {
+        "label": "Sports",
+        "href": "https://www.foxnews.com/sports"
+      },
+      {
+        "label": "NFL",
+        "href": "https://www.foxnews.com/category/sports/nfl"
+      },
+      {
+        "label": "College Football",
+        "href": "https://www.foxnews.com/category/sports/ncaa-fb"
+      },
+      {
+        "label": "MLB",
+        "href": "https://www.foxnews.com/category/sports/mlb"
+      },
+      {
+        "label": "NASCAR",
+        "href": "https://www.foxnews.com/category/auto/nascar"
+      },
+      {
+        "label": "INDYCAR",
+        "href": "https://www.foxnews.com/category/auto/indycar"
+      },
+      {
+        "label": "NBA",
+        "href": "https://www.foxnews.com/category/sports/nba"
+      },
+      {
+        "label": "NHL",
+        "href": "https://www.foxnews.com/category/sports/nhl"
+      },
+      {
+        "label": "Golf",
+        "href": "https://www.foxnews.com/category/sports/golf"
+      },
+      {
+        "label": "Tennis",
+        "href": "https://www.foxnews.com/category/sports/tennis"
+      },
+      {
+        "label": "UFC",
+        "href": "https://www.foxnews.com/category/sports/ufc"
+      },
+      {
+        "label": "WWE",
+        "href": "https://www.foxnews.com/category/organization/wwe"
+      },
+      {
+        "label": "Lifestyle",
+        "href": "https://www.foxnews.com/lifestyle"
+      },
+      {
+        "label": "Travel",
+        "href": "https://www.foxnews.com/travel"
+      },
+      {
+        "label": "Food & Drink",
+        "href": "https://www.foxnews.com/food-drink"
+      },
+      {
+        "label": "Faith",
+        "href": "https://www.foxnews.com/faith-values"
+      },
+      {
+        "label": "Discovery",
+        "href": "https://www.foxnews.com/category/science/archaeology"
+      },
+      {
+        "label": "Games & Quizzes",
+        "href": "https://www.foxnews.com/games"
+      },
+      {
+        "label": "Health",
+        "href": "https://www.foxnews.com/health"
+      },
+      {
+        "label": "Weight Loss",
+        "href": "https://www.foxnews.com/category/health/nutrition-and-fitness/weight-loss"
+      },
+      {
+        "label": "Cancer",
+        "href": "https://www.foxnews.com/category/health/cancer"
+      },
+      {
+        "label": "Brain Health",
+        "href": "https://www.foxnews.com/category/health/brain-health"
+      },
+      {
+        "label": "Sleep",
+        "href": "https://www.foxnews.com/category/health/sleep-disorders"
+      },
+      {
+        "label": "Heart Health",
+        "href": "https://www.foxnews.com/category/health/heart-health"
+      },
+      {
+        "label": "Healthy Living",
+        "href": "https://www.foxnews.com/category/health/healthy-living"
+      },
+      {
+        "label": "Mental Health",
+        "href": "https://www.foxnews.com/category/health/mental-health"
+      },
+      {
+        "label": "MAHA",
+        "href": "https://www.foxnews.com/category/health/maha"
+      },
+      {
+        "label": "Video",
+        "href": "https://www.foxnews.com/video"
+      },
+      {
+        "label": "AI",
+        "href": "https://www.foxnews.com/category/tech/artificial-intelligence"
+      },
+      {
+        "label": "Watch\n            TV",
+        "href": "https://www.foxnews.com/video/5614615980001"
+      },
+      {
+        "label": "Home",
+        "href": "https://www.foxnews.com/"
+      },
+      {
+        "label": "EPSTEIN FILES",
+        "href": "https://www.foxnews.com/category/person/jeffrey-epstein"
+      },
+      {
+        "label": "TRUMP NEWS",
+        "href": "https://www.foxnews.com/category/person/donald-trump"
+      },
+      {
+        "label": "CAMPUS RADICALS",
+        "href": "https://www.foxnews.com/category/us/campus-radicals"
+      },
+      {
+        "label": "CHARLIE KIRK",
+        "href": "https://www.foxnews.com/category/media/charlie-kirk"
+      },
+      {
+        "label": "Games",
+        "href": "https://www.foxnews.com/games"
+      },
+      {
+        "label": "Scattergories Daily",
+        "href": "https://www.foxnews.com/games/scattergories-daily"
+      },
+      {
+        "label": "5 Across the Letter Word Game",
+        "href": "https://www.foxnews.com/games/5-across-word-game"
+      },
+      {
+        "label": "DownWords",
+        "href": "https://www.foxnews.com/games/lil-snack-downwords"
+      },
+      {
+        "label": "Sudoku",
+        "href": "https://www.foxnews.com/games/sudoku"
+      },
+      {
+        "label": "Swap Words",
+        "href": "https://www.foxnews.com/games/lil-snack-word-swap"
+      },
+      {
+        "label": "Word Search",
+        "href": "https://www.foxnews.com/games/word-search"
+      },
+      {
+        "label": "Icon Match",
+        "href": "https://www.foxnews.com/games/icon-match-puzzle"
+      },
+      {
+        "label": "Daily Crossword Puzzle",
+        "href": "https://www.foxnews.com/games/daily-crossword-puzzle"
+      },
+      {
+        "label": "Mini Crossword Puzzle",
+        "href": "https://www.foxnews.com/games/mini-crossword-puzzle"
+      },
+      {
+        "label": "Deals",
+        "href": "https://www.foxnews.com/deals"
+      },
+      {
+        "label": "Holiday Shopping",
+        "href": "https://www.foxnews.com/category/deals/trending"
+      },
+      {
+        "label": "Gift Guides",
+        "href": "https://www.foxnews.com/category/deals/gift"
+      },
+      {
+        "label": "Home Deals",
+        "href": "https://www.foxnews.com/category/deals/home"
+      },
+      {
+        "label": "Kitchen Deals",
+        "href": "https://www.foxnews.com/category/deals/kitchen"
+      },
+      {
+        "label": "Tech and Electronic Deals",
+        "href": "https://www.foxnews.com/category/deals/tech-and-electronic"
+      },
+      {
+        "label": "Health and Fitness Deals",
+        "href": "https://www.foxnews.com/category/deals/health-and-fitness"
+      },
+      {
+        "label": "Beauty and Fashion Deals",
+        "href": "https://www.foxnews.com/category/deals/beauty-and-fashion"
+      },
+      {
+        "label": "Science & Tech",
+        "href": "https://www.foxnews.com/tech"
+      },
+      {
+        "label": "Air & Space",
+        "href": "https://www.foxnews.com/category/science/air-and-space"
+      },
+      {
+        "label": "Security",
+        "href": "https://www.foxnews.com/category/tech/topics/security"
+      },
+      {
+        "label": "Innovation",
+        "href": "https://www.foxnews.com/category/tech/topics/innovation"
+      },
+      {
+        "label": "Video Games",
+        "href": "https://www.foxnews.com/category/tech/topics/video-games"
+      },
+      {
+        "label": "Military Tech",
+        "href": "https://www.foxnews.com/category/tech/topics/military-tech"
+      },
+      {
+        "label": "Planet Earth",
+        "href": "https://www.foxnews.com/category/science/planet-earth"
+      },
+      {
+        "label": "Wild Nature",
+        "href": "https://www.foxnews.com/category/science/wild-nature"
+      },
+      {
+        "label": "Watch Live",
+        "href": "https://www.foxnews.com/video/5614615980001"
+      },
+      {
+        "label": "FOX News Shows",
+        "href": "https://www.foxnews.com/shows"
+      },
+      {
+        "label": "Programming Schedule",
+        "href": "https://www.foxnews.com/fnctv"
+      },
+      {
+        "label": "On Air Personalities",
+        "href": "https://www.foxnews.com/person/personalities"
+      },
+      {
+        "label": "Full Episodes",
+        "href": "https://www.foxnews.com/video/shows"
+      },
+      {
+        "label": "Show Clips",
+        "href": "https://www.foxnews.com/video/topics/v-most-recent-episodes"
+      },
+      {
+        "label": "News Clips",
+        "href": "https://www.foxnews.com/video/topics/latest-news-video"
+      },
+      {
+        "label": "Apps & Products",
+        "href": "https://www.foxnews.com/apps-products"
+      },
+      {
+        "label": "FOX News Go",
+        "href": "https://www.foxnews.com/go"
+      },
+      {
+        "label": "Newsletters",
+        "href": "https://www.foxnews.com/newsletters"
+      },
+      {
+        "label": "Games",
+        "href": "https://www.foxnews.com/games"
+      },
+      {
+        "label": "Scattergories Daily",
+        "href": "https://www.foxnews.com/games/scattergories-daily"
+      },
+      {
+        "label": "5 Across the Letter Word Game",
+        "href": "https://www.foxnews.com/games/5-across-word-game"
+      },
+      {
+        "label": "DownWords",
+        "href": "https://www.foxnews.com/games/lil-snack-downwords"
+      },
+      {
+        "label": "Sudoku",
+        "href": "https://www.foxnews.com/games/sudoku"
+      },
+      {
+        "label": "Swap Words",
+        "href": "https://www.foxnews.com/games/lil-snack-word-swap"
+      },
+      {
+        "label": "Word Search",
+        "href": "https://www.foxnews.com/games/word-search"
+      },
+      {
+        "label": "Icon Match",
+        "href": "https://www.foxnews.com/games/icon-match-puzzle"
+      },
+      {
+        "label": "Daily Crossword Puzzle",
+        "href": "https://www.foxnews.com/games/daily-crossword-puzzle"
+      },
+      {
+        "label": "Mini Crossword Puzzle",
+        "href": "https://www.foxnews.com/games/mini-crossword-puzzle"
+      },
+      {
+        "label": "Deals",
+        "href": "https://www.foxnews.com/deals"
+      },
+      {
+        "label": "Holiday Shopping",
+        "href": "https://www.foxnews.com/category/deals/trending"
+      },
+      {
+        "label": "Gift Guides",
+        "href": "https://www.foxnews.com/category/deals/gift"
+      },
+      {
+        "label": "Home Deals",
+        "href": "https://www.foxnews.com/category/deals/home"
+      },
+      {
+        "label": "Kitchen Deals",
+        "href": "https://www.foxnews.com/category/deals/kitchen"
+      },
+      {
+        "label": "Tech and Electronic Deals",
+        "href": "https://www.foxnews.com/category/deals/tech-and-electronic"
+      },
+      {
+        "label": "Health and Fitness Deals",
+        "href": "https://www.foxnews.com/category/deals/health-and-fitness"
+      },
+      {
+        "label": "Beauty and Fashion Deals",
+        "href": "https://www.foxnews.com/category/deals/beauty-and-fashion"
+      },
+      {
+        "label": "Science & Tech",
+        "href": "https://www.foxnews.com/tech"
+      },
+      {
+        "label": "Air & Space",
+        "href": "https://www.foxnews.com/category/science/air-and-space"
+      },
+      {
+        "label": "Security",
+        "href": "https://www.foxnews.com/category/tech/topics/security"
+      },
+      {
+        "label": "Innovation",
+        "href": "https://www.foxnews.com/category/tech/topics/innovation"
+      },
+      {
+        "label": "Video Games",
+        "href": "https://www.foxnews.com/category/tech/topics/video-games"
+      },
+      {
+        "label": "Military Tech",
+        "href": "https://www.foxnews.com/category/tech/topics/military-tech"
+      },
+      {
+        "label": "Planet Earth",
+        "href": "https://www.foxnews.com/category/science/planet-earth"
+      },
+      {
+        "label": "Wild Nature",
+        "href": "https://www.foxnews.com/category/science/wild-nature"
+      },
+      {
+        "label": "Watch Live",
+        "href": "https://www.foxnews.com/video/5614615980001"
+      },
+      {
+        "label": "FOX News Shows",
+        "href": "https://www.foxnews.com/shows"
+      },
+      {
+        "label": "Programming Schedule",
+        "href": "https://www.foxnews.com/fnctv"
+      },
+      {
+        "label": "On Air Personalities",
+        "href": "https://www.foxnews.com/person/personalities"
+      },
+      {
+        "label": "Full Episodes",
+        "href": "https://www.foxnews.com/video/shows"
+      },
+      {
+        "label": "Show Clips",
+        "href": "https://www.foxnews.com/video/topics/v-most-recent-episodes"
+      },
+      {
+        "label": "News Clips",
+        "href": "https://www.foxnews.com/video/topics/latest-news-video"
+      },
+      {
+        "label": "Apps & Products",
+        "href": "https://www.foxnews.com/apps-products"
+      },
+      {
+        "label": "FOX News Go",
+        "href": "https://www.foxnews.com/go"
+      },
+      {
+        "label": "Newsletters",
+        "href": "https://www.foxnews.com/newsletters"
+      },
+      {
+        "label": "RSS",
+        "href": "https://www.foxnews.com/story/foxnews-com-rss-feeds"
+      },
+      {
+        "label": "Newsletters",
+        "href": "https://www.foxnews.com/newsletters"
+      },
+      {
+        "label": "Fox News",
+        "href": "https://www.foxnews.com"
+      },
+      {
+        "label": "Terms of Use",
+        "href": "https://www.foxnews.com/terms-of-use"
+      },
+      {
+        "label": "Privacy Policy",
+        "href": "https://www.foxnews.com/privacy-policy"
+      },
+      {
+        "label": "Closed Caption Policy",
+        "href": "https://www.foxnews.com/closed-captioning"
+      },
+      {
+        "label": "Contact Us",
+        "href": "https://www.foxnews.com/contact"
+      },
+      {
+        "label": "Accessibility Statement",
+        "href": "https://www.foxnews.com/accessibility-statement"
+      },
+      {
+        "label": "News Sitemap",
+        "href": "https://www.foxnews.com/html-sitemap"
+      },
+      {
+        "label": "Video Sitemap",
+        "href": "https://www.foxnews.com/html-video-sitemap"
+      },
+      {
+        "label": "",
+        "href": "https://www.foxnews.com/video/6384143184112"
+      },
+      {
+        "label": "Martin Scorsese\u2019s \u2018The Saints\u2019 returns to Fox Nation this fall with new episodes",
+        "href": "https://www.foxnews.com/video/6384143184112"
+      },
+      {
+        "label": "",
+        "href": "https://www.foxnews.com/video/6385208360112"
+      },
+      {
+        "label": "0:03:47",
+        "href": "https://www.foxnews.com/video/6385208360112"
+      },
+      {
+        "label": "VIDEO",
+        "href": "https://www.foxnews.com/video"
+      },
+      {
+        "label": "'The Saints' star portrays St. Patrick in season two premiere",
+        "href": "https://www.foxnews.com/video/6385208360112"
+      },
+      {
+        "label": "Actor Desmond Eastwood joins 'Fox & Friends' to preview season two of FOX Nation's 'The Saints.'",
+        "href": "https://www.foxnews.com/video/6385208360112"
+      },
+      {
+        "label": "",
+        "href": "https://www.foxnews.com/media/irish-actor-reveals-why-playing-st-patrick-martin-scorseses-the-saints-feels-more-important-than-ever"
+      },
+      {
+        "label": "Fox Nation",
+        "href": "https://www.foxnews.com/category/fox-nation"
+      },
+      {
+        "label": "Actor reveals why playing St Patrick in Martin Scorsese's 'The Saints' is 'more important than ever'",
+        "href": "https://www.foxnews.com/media/irish-actor-reveals-why-playing-st-patrick-martin-scorseses-the-saints-feels-more-important-than-ever"
+      },
+      {
+        "label": "Actor Desmond Eastwood brings St. Patrick's incredible journey to life in Fox Nation's \"The Saints.\" Discover the true story behind Ireland's patron saint.",
+        "href": "https://www.foxnews.com/media/irish-actor-reveals-why-playing-st-patrick-martin-scorseses-the-saints-feels-more-important-than-ever"
+      },
+      {
+        "label": "",
+        "href": "https://www.foxnews.com/video/6385170660112"
+      },
+      {
+        "label": "0:01:00",
+        "href": "https://www.foxnews.com/video/6385170660112"
+      },
+      {
+        "label": "VIDEO",
+        "href": "https://www.foxnews.com/video"
+      },
+      {
+        "label": "Witness St. Patrick\u2019s journey from slave to bishop in hit Fox Nation series",
+        "href": "https://www.foxnews.com/video/6385170660112"
+      },
+      {
+        "label": "From acclaimed director Martin Scorsese, the Season 2 premiere of \u2018The Saints\u2019 explores St. Patrick\u2019s transformation from slave to bishop \u2014 and his lasting impact on Ireland and Christianity.",
+        "href": "https://www.foxnews.com/video/6385170660112"
+      },
+      {
+        "label": "",
+        "href": "https://www.foxnews.com/sports/track-star-who-protested-trans-athlete-alleges-she-wasnt-given-her-medal-months-until-she-filed-lawsuit"
+      },
+      {
+        "label": "Oregon",
+        "href": "https://www.foxnews.com/category/us/us-regions/west/oregon"
+      },
+      {
+        "label": "Track star who protested trans athlete alleges she wasn't given her medal for months until she filed a lawsuit",
+        "href": "https://www.foxnews.com/sports/track-star-who-protested-trans-athlete-alleges-she-wasnt-given-her-medal-months-until-she-filed-lawsuit"
+      },
+      {
+        "label": "Alexa Anderson stepped off the podium to protest a trans athlete at Oregon's state championship and filed a lawsuit against OSAA over alleged medal withholding.",
+        "href": "https://www.foxnews.com/sports/track-star-who-protested-trans-athlete-alleges-she-wasnt-given-her-medal-months-until-she-filed-lawsuit"
+      },
+      {
+        "label": "",
+        "href": "https://www.foxnews.com/video/6385153330112"
+      },
+      {
+        "label": "0:01:59",
+        "href": "https://www.foxnews.com/video/6385153330112"
+      },
+      {
+        "label": "VIDEO",
+        "href": "https://www.foxnews.com/video"
+      },
+      {
+        "label": "Fox Nation Patriot Awards winner reveals death threats after protesting trans athlete",
+        "href": "https://www.foxnews.com/video/6385153330112"
+      },
+      {
+        "label": "Oregon high school track and field medalist Alexa Anderson reveals how long her medal was kept from her after protesting trans athlete, and the death threats she received in the aftermath.",
+        "href": "https://www.foxnews.com/video/6385153330112"
+      },
+      {
+        "label": "",
+        "href": "https://www.foxnews.com/media/martin-scorsese-explores-legacy-st-patrick-kick-off-new-season-fox-nations-the-saints"
+      },
+      {
+        "label": "Fox Nation",
+        "href": "https://www.foxnews.com/category/fox-nation"
+      },
+      {
+        "label": "Martin Scorsese explores the legacy of St Patrick to kick off new season of Fox Nation\u2019s \u2018The Saints\u2019",
+        "href": "https://www.foxnews.com/media/martin-scorsese-explores-legacy-st-patrick-kick-off-new-season-fox-nations-the-saints"
+      },
+      {
+        "label": "Fox Nation uncovers St. Patrick's legacy as Ireland's influential bishop in the first episode of the second season of \"The Saints,\" helmed by film icon Martin Scorsese.",
+        "href": "https://www.foxnews.com/media/martin-scorsese-explores-legacy-st-patrick-kick-off-new-season-fox-nations-the-saints"
+      },
+      {
+        "label": "",
+        "href": "https://www.foxnews.com/video/6385112152112"
+      },
+      {
+        "label": "0:05:10",
+        "href": "https://www.foxnews.com/video/6385112152112"
+      },
+      {
+        "label": "VIDEO",
+        "href": "https://www.foxnews.com/video"
+      },
+      {
+        "label": "'PRETTY SPECIAL': Actor says it was an honor and a privilege to play St. Patrick",
+        "href": "https://www.foxnews.com/video/6385112152112"
+      },
+      {
+        "label": "Actor Desmond Eastwood discusses his experience working on Fox Nation's 'The Saints' on 'America Reports.'",
+        "href": "https://www.foxnews.com/video/6385112152112"
+      },
+      {
+        "label": "",
+        "href": "https://www.foxnews.com/video/6385098292112"
+      },
+      {
+        "label": "0:03:48",
+        "href": "https://www.foxnews.com/video/6385098292112"
+      },
+      {
+        "label": "VIDEO",
+        "href": "https://www.foxnews.com/video"
+      },
+      {
+        "label": "'Wine Nation' debuts on Fox Nation with country star Kix Brooks",
+        "href": "https://www.foxnews.com/video/6385098292112"
+      },
+      {
+        "label": "Country star Kix Brooks and head winemaker of Lazarre Wines, Adam Lazarre, join 'Fox & Friends' to promote 'Wine Nation,' a three-part series hosted by Abby Hornacek on Fox Nation.",
+        "href": "https://www.foxnews.com/video/6385098292112"
+      },
+      {
+        "label": "",
+        "href": "https://www.foxnews.com/video/6385066199112"
+      },
+      {
+        "label": "0:04:26",
+        "href": "https://www.foxnews.com/video/6385066199112"
+      },
+      {
+        "label": "VIDEO",
+        "href": "https://www.foxnews.com/video"
+      },
+      {
+        "label": "Kayleigh McEnany recounts powerful story from 'The Saints'",
+        "href": "https://www.foxnews.com/video/6385066199112"
+      },
+      {
+        "label": "The 'Outnumbered' panel reacts to the season two trailer of Martin Scorsese's 'The Saints,' and delves into the history behind it. 'The Saints' season two premieres Sunday 11/16 on Fox Nation.",
+        "href": "https://www.foxnews.com/video/6385066199112"
+      },
+      {
+        "label": "",
+        "href": "https://www.foxnews.com/media/martin-scorseses-daughter-francesca-makes-fox-nation-directorial-debut"
+      },
+      {
+        "label": "Fox Nation",
+        "href": "https://www.foxnews.com/category/fox-nation"
+      },
+      {
+        "label": "Martin Scorsese\u2019s daughter, Francesca, makes Fox Nation directorial debut",
+        "href": "https://www.foxnews.com/media/martin-scorseses-daughter-francesca-makes-fox-nation-directorial-debut"
+      },
+      {
+        "label": "Francesca Scorsese is following in her legendary father\u2019s footsteps, making her Fox Nation directorial debut with an episode of \u201cMartin Scorsese Presents: The Saints.\"",
+        "href": "https://www.foxnews.com/media/martin-scorseses-daughter-francesca-makes-fox-nation-directorial-debut"
+      },
+      {
+        "label": "",
+        "href": "https://www.foxnews.com/person/h/abby-hornacek"
+      },
+      {
+        "label": "Abby Hornacek",
+        "href": "https://www.foxnews.com/person/h/abby-hornacek"
+      },
+      {
+        "label": "",
+        "href": "https://www.foxnews.com/person/m/george-tyrus-murdoch"
+      },
+      {
+        "label": "Tyrus",
+        "href": "https://www.foxnews.com/person/m/george-tyrus-murdoch"
+      },
+      {
+        "label": "",
+        "href": "https://www.foxnews.com/person/l/tomi-lahren"
+      },
+      {
+        "label": "Tomi Lahren",
+        "href": "https://www.foxnews.com/person/l/tomi-lahren"
+      },
+      {
+        "label": "",
+        "href": "https://www.foxnews.com/media/irish-actor-reveals-why-playing-st-patrick-martin-scorseses-the-saints-feels-more-important-than-ever"
+      },
+      {
+        "label": "Fox Nation",
+        "href": "https://www.foxnews.com/category/fox-nation"
+      },
+      {
+        "label": "Actor reveals why playing St Patrick in Martin Scorsese's 'The Saints' is 'more important than ever'",
+        "href": "https://www.foxnews.com/media/irish-actor-reveals-why-playing-st-patrick-martin-scorseses-the-saints-feels-more-important-than-ever"
+      },
+      {
+        "label": "",
+        "href": "https://www.foxnews.com/sports/track-star-who-protested-trans-athlete-alleges-she-wasnt-given-her-medal-months-until-she-filed-lawsuit"
+      },
+      {
+        "label": "Oregon",
+        "href": "https://www.foxnews.com/category/us/us-regions/west/oregon"
+      },
+      {
+        "label": "Track star who protested trans athlete alleges she wasn't given her medal for months until she filed a lawsuit",
+        "href": "https://www.foxnews.com/sports/track-star-who-protested-trans-athlete-alleges-she-wasnt-given-her-medal-months-until-she-filed-lawsuit"
+      },
+      {
+        "label": "",
+        "href": "https://www.foxnews.com/media/martin-scorsese-explores-legacy-st-patrick-kick-off-new-season-fox-nations-the-saints"
+      },
+      {
+        "label": "Fox Nation",
+        "href": "https://www.foxnews.com/category/fox-nation"
+      },
+      {
+        "label": "Martin Scorsese explores the legacy of St Patrick to kick off new season of Fox Nation\u2019s \u2018The Saints\u2019",
+        "href": "https://www.foxnews.com/media/martin-scorsese-explores-legacy-st-patrick-kick-off-new-season-fox-nations-the-saints"
+      },
+      {
+        "label": "U.S.",
+        "href": "https://www.foxnews.com/us"
+      },
+      {
+        "label": "Blue City Crime",
+        "href": "https://www.foxnews.com/category/us/blue-city-crime"
+      },
+      {
+        "label": "Campus Radicals",
+        "href": "https://www.foxnews.com/category/us/campus-radicals"
+      },
+      {
+        "label": "Border Crisis",
+        "href": "https://www.foxnews.com/category/us/immigration"
+      },
+      {
+        "label": "True Crime",
+        "href": "https://www.foxnews.com/true-crime"
+      },
+      {
+        "label": "Politics",
+        "href": "https://www.foxnews.com/politics"
+      },
+      {
+        "label": "Donald Trump",
+        "href": "https://www.foxnews.com/category/person/donald-trump"
+      },
+      {
+        "label": "Senate",
+        "href": "https://www.foxnews.com/category/politics/senate"
+      },
+      {
+        "label": "House",
+        "href": "https://www.foxnews.com/category/politics/house-of-representatives"
+      },
+      {
+        "label": "Judiciary",
+        "href": "https://www.foxnews.com/category/politics/judiciary"
+      },
+      {
+        "label": "Foreign Policy",
+        "href": "https://www.foxnews.com/category/politics/foreign-policy"
+      },
+      {
+        "label": "Fox News Polls",
+        "href": "https://www.foxnews.com/official-polls"
+      },
+      {
+        "label": "2025 Elections Coverage",
+        "href": "https://www.foxnews.com/elections"
+      },
+      {
+        "label": "World",
+        "href": "https://www.foxnews.com/world"
+      },
+      {
+        "label": "U.N.",
+        "href": "https://www.foxnews.com/category/world/united-nations"
+      },
+      {
+        "label": "Conflicts",
+        "href": "https://www.foxnews.com/category/world/conflicts"
+      },
+      {
+        "label": "Terrorism",
+        "href": "https://www.foxnews.com/category/world/terrorism"
+      },
+      {
+        "label": "Disasters",
+        "href": "https://www.foxnews.com/category/disasters"
+      },
+      {
+        "label": "Global Economy",
+        "href": "https://www.foxnews.com/category/world/global-economy"
+      },
+      {
+        "label": "Environment",
+        "href": "https://www.foxnews.com/category/environment"
+      },
+      {
+        "label": "Religion",
+        "href": "https://www.foxnews.com/category/world/religion"
+      },
+      {
+        "label": "Scandals",
+        "href": "https://www.foxnews.com/category/world/scandals"
+      },
+      {
+        "label": "Opinion",
+        "href": "https://www.foxnews.com/opinion"
+      },
+      {
+        "label": "Media",
+        "href": "https://www.foxnews.com/media"
+      },
+      {
+        "label": "FOX Nation Coverage",
+        "href": "https://www.foxnews.com/shows/fox-nation"
+      },
+      {
+        "label": "Entertainment",
+        "href": "https://www.foxnews.com/entertainment"
+      },
+      {
+        "label": "Prince Andrew",
+        "href": "https://www.foxnews.com/category/person/prince-andrew"
+      },
+      {
+        "label": "Katy Perry",
+        "href": "https://www.foxnews.com/category/person/katy-perry"
+      },
+      {
+        "label": "Royal Families",
+        "href": "https://www.foxnews.com/category/world/personalities/british-royals"
+      },
+      {
+        "label": "Country Music",
+        "href": "https://www.foxnews.com/category/entertainment/genres/country"
+      },
+      {
+        "label": "Nicole Kidman",
+        "href": "https://www.foxnews.com/category/person/nicole-kidman"
+      },
+      {
+        "label": "Sports",
+        "href": "https://www.foxnews.com/sports"
+      },
+      {
+        "label": "NFL",
+        "href": "https://www.foxnews.com/category/sports/nfl"
+      },
+      {
+        "label": "College Football",
+        "href": "https://www.foxnews.com/category/sports/ncaa-fb"
+      },
+      {
+        "label": "MLB",
+        "href": "https://www.foxnews.com/category/sports/mlb"
+      },
+      {
+        "label": "NASCAR",
+        "href": "https://www.foxnews.com/category/auto/nascar"
+      },
+      {
+        "label": "INDYCAR",
+        "href": "https://www.foxnews.com/category/auto/indycar"
+      },
+      {
+        "label": "NBA",
+        "href": "https://www.foxnews.com/category/sports/nba"
+      },
+      {
+        "label": "NHL",
+        "href": "https://www.foxnews.com/category/sports/nhl"
+      },
+      {
+        "label": "Golf",
+        "href": "https://www.foxnews.com/category/sports/golf"
+      },
+      {
+        "label": "Tennis",
+        "href": "https://www.foxnews.com/category/sports/tennis"
+      },
+      {
+        "label": "UFC",
+        "href": "https://www.foxnews.com/category/sports/ufc"
+      },
+      {
+        "label": "WWE",
+        "href": "https://www.foxnews.com/category/organization/wwe"
+      },
+      {
+        "label": "Lifestyle",
+        "href": "https://www.foxnews.com/lifestyle"
+      },
+      {
+        "label": "Travel",
+        "href": "https://www.foxnews.com/travel"
+      },
+      {
+        "label": "Food & Drink",
+        "href": "https://www.foxnews.com/food-drink"
+      },
+      {
+        "label": "Faith",
+        "href": "https://www.foxnews.com/faith-values"
+      },
+      {
+        "label": "Discovery",
+        "href": "https://www.foxnews.com/category/science/archaeology"
+      },
+      {
+        "label": "Games & Quizzes",
+        "href": "https://www.foxnews.com/games"
+      },
+      {
+        "label": "Health",
+        "href": "https://www.foxnews.com/health"
+      },
+      {
+        "label": "Weight Loss",
+        "href": "https://www.foxnews.com/category/health/nutrition-and-fitness/weight-loss"
+      },
+      {
+        "label": "Cancer",
+        "href": "https://www.foxnews.com/category/health/cancer"
+      },
+      {
+        "label": "Brain Health",
+        "href": "https://www.foxnews.com/category/health/brain-health"
+      },
+      {
+        "label": "Sleep",
+        "href": "https://www.foxnews.com/category/health/sleep-disorders"
+      },
+      {
+        "label": "Heart Health",
+        "href": "https://www.foxnews.com/category/health/heart-health"
+      },
+      {
+        "label": "Healthy Living",
+        "href": "https://www.foxnews.com/category/health/healthy-living"
+      },
+      {
+        "label": "Mental Health",
+        "href": "https://www.foxnews.com/category/health/mental-health"
+      },
+      {
+        "label": "MAHA",
+        "href": "https://www.foxnews.com/category/health/maha"
+      },
+      {
+        "label": "Deals",
+        "href": "https://www.foxnews.com/deals"
+      },
+      {
+        "label": "Holiday Shopping",
+        "href": "https://www.foxnews.com/category/deals/trending"
+      },
+      {
+        "label": "Gift Guides",
+        "href": "https://www.foxnews.com/category/deals/gift"
+      },
+      {
+        "label": "Home Deals",
+        "href": "https://www.foxnews.com/category/deals/home"
+      },
+      {
+        "label": "Kitchen Deals",
+        "href": "https://www.foxnews.com/category/deals/kitchen"
+      },
+      {
+        "label": "Tech and Electronic Deals",
+        "href": "https://www.foxnews.com/category/deals/tech-and-electronic"
+      },
+      {
+        "label": "Health and Fitness Deals",
+        "href": "https://www.foxnews.com/category/deals/health-and-fitness"
+      },
+      {
+        "label": "Beauty and Fashion Deals",
+        "href": "https://www.foxnews.com/category/deals/beauty-and-fashion"
+      },
+      {
+        "label": "Science & Tech",
+        "href": "https://www.foxnews.com/tech"
+      },
+      {
+        "label": "Air & Space",
+        "href": "https://www.foxnews.com/category/science/air-and-space"
+      },
+      {
+        "label": "Security",
+        "href": "https://www.foxnews.com/category/tech/topics/security"
+      },
+      {
+        "label": "Innovation",
+        "href": "https://www.foxnews.com/category/tech/topics/innovation"
+      },
+      {
+        "label": "Video Games",
+        "href": "https://www.foxnews.com/category/tech/topics/video-games"
+      },
+      {
+        "label": "Military Tech",
+        "href": "https://www.foxnews.com/category/tech/topics/military-tech"
+      },
+      {
+        "label": "Planet Earth",
+        "href": "https://www.foxnews.com/category/science/planet-earth"
+      },
+      {
+        "label": "Wild Nature",
+        "href": "https://www.foxnews.com/category/science/wild-nature"
+      },
+      {
+        "label": "Games",
+        "href": "https://www.foxnews.com/games"
+      },
+      {
+        "label": "Scattergories Daily",
+        "href": "https://www.foxnews.com/games/scattergories-daily"
+      },
+      {
+        "label": "5 Across the Letter Word Game",
+        "href": "https://www.foxnews.com/games/5-across-word-game"
+      },
+      {
+        "label": "Downwords",
+        "href": "https://www.foxnews.com/games/lil-snack-downwords"
+      },
+      {
+        "label": "Sudoku",
+        "href": "https://www.foxnews.com/games/sudoku"
+      },
+      {
+        "label": "Word Swap",
+        "href": "https://www.foxnews.com/games/lil-snack-word-swap"
+      },
+      {
+        "label": "Word Search",
+        "href": "https://www.foxnews.com/games/word-search"
+      },
+      {
+        "label": "Icon Match",
+        "href": "https://www.foxnews.com/games/icon-match-puzzle"
+      },
+      {
+        "label": "Daily Crossword Puzzle",
+        "href": "https://www.foxnews.com/games/daily-crossword-puzzle"
+      },
+      {
+        "label": "Mini Crossword Puzzle",
+        "href": "https://www.foxnews.com/games/mini-crossword-puzzle"
+      },
+      {
+        "label": "Watch Live",
+        "href": "https://www.foxnews.com/video/5614615980001"
+      },
+      {
+        "label": "FOX News Shows",
+        "href": "https://www.foxnews.com/shows"
+      },
+      {
+        "label": "Programming Schedule",
+        "href": "https://www.foxnews.com/fnctv"
+      },
+      {
+        "label": "On Air Personalities",
+        "href": "https://www.foxnews.com/person/personalities"
+      },
+      {
+        "label": "Full Episodes",
+        "href": "https://www.foxnews.com/video/shows"
+      },
+      {
+        "label": "Show Clips",
+        "href": "https://www.foxnews.com/video/topics/v-most-recent-episodes"
+      },
+      {
+        "label": "News Clips",
+        "href": "https://www.foxnews.com/video/topics/latest-news-video"
+      },
+      {
+        "label": "About",
+        "href": "https://www.foxnews.com/about"
+      },
+      {
+        "label": "Contact Us",
+        "href": "https://www.foxnews.com/contact"
+      },
+      {
+        "label": "Fox Around the World",
+        "href": "https://www.foxnews.com/story/where-in-the-world-is-fox"
+      },
+      {
+        "label": "Compliance",
+        "href": "https://www.foxnews.com/compliance"
+      },
+      {
+        "label": "Apps & Products",
+        "href": "https://www.foxnews.com/apps-products"
+      },
+      {
+        "label": "FOX News Go",
+        "href": "https://www.foxnews.com/go"
+      },
+      {
+        "label": "FOX Nation",
+        "href": "https://www.foxnews.com/shows/fox-nation"
+      },
+      {
+        "label": "Newsletters",
+        "href": "https://www.foxnews.com/newsletters"
+      },
+      {
+        "label": "U.S.",
+        "href": "https://www.foxnews.com/us"
+      },
+      {
+        "label": "Blue City Crime",
+        "href": "https://www.foxnews.com/category/us/blue-city-crime"
+      },
+      {
+        "label": "Campus Radicals",
+        "href": "https://www.foxnews.com/category/us/campus-radicals"
+      },
+      {
+        "label": "Border Crisis",
+        "href": "https://www.foxnews.com/category/us/immigration"
+      },
+      {
+        "label": "True Crime",
+        "href": "https://www.foxnews.com/true-crime"
+      },
+      {
+        "label": "Politics",
+        "href": "https://www.foxnews.com/politics"
+      },
+      {
+        "label": "Donald Trump",
+        "href": "https://www.foxnews.com/category/person/donald-trump"
+      },
+      {
+        "label": "Senate",
+        "href": "https://www.foxnews.com/category/politics/senate"
+      },
+      {
+        "label": "House",
+        "href": "https://www.foxnews.com/category/politics/house-of-representatives"
+      },
+      {
+        "label": "Judiciary",
+        "href": "https://www.foxnews.com/category/politics/judiciary"
+      },
+      {
+        "label": "Foreign Policy",
+        "href": "https://www.foxnews.com/category/politics/foreign-policy"
+      },
+      {
+        "label": "Fox News Polls",
+        "href": "https://www.foxnews.com/official-polls"
+      },
+      {
+        "label": "2025 Elections Coverage",
+        "href": "https://www.foxnews.com/elections"
+      },
+      {
+        "label": "World",
+        "href": "https://www.foxnews.com/world"
+      },
+      {
+        "label": "U.N.",
+        "href": "https://www.foxnews.com/category/world/united-nations"
+      },
+      {
+        "label": "Conflicts",
+        "href": "https://www.foxnews.com/category/world/conflicts"
+      },
+      {
+        "label": "Terrorism",
+        "href": "https://www.foxnews.com/category/world/terrorism"
+      },
+      {
+        "label": "Disasters",
+        "href": "https://www.foxnews.com/category/disasters"
+      },
+      {
+        "label": "Global Economy",
+        "href": "https://www.foxnews.com/category/world/global-economy"
+      },
+      {
+        "label": "Environment",
+        "href": "https://www.foxnews.com/category/environment"
+      },
+      {
+        "label": "Religion",
+        "href": "https://www.foxnews.com/category/world/religion"
+      },
+      {
+        "label": "Scandals",
+        "href": "https://www.foxnews.com/category/world/scandals"
+      },
+      {
+        "label": "Opinion",
+        "href": "https://www.foxnews.com/opinion"
+      },
+      {
+        "label": "Media",
+        "href": "https://www.foxnews.com/media"
+      },
+      {
+        "label": "FOX Nation Coverage",
+        "href": "https://www.foxnews.com/shows/fox-nation"
+      },
+      {
+        "label": "Entertainment",
+        "href": "https://www.foxnews.com/entertainment"
+      },
+      {
+        "label": "Prince Andrew",
+        "href": "https://www.foxnews.com/category/person/prince-andrew"
+      },
+      {
+        "label": "Katy Perry",
+        "href": "https://www.foxnews.com/category/person/katy-perry"
+      },
+      {
+        "label": "Royal Families",
+        "href": "https://www.foxnews.com/category/world/personalities/british-royals"
+      },
+      {
+        "label": "Country Music",
+        "href": "https://www.foxnews.com/category/entertainment/genres/country"
+      },
+      {
+        "label": "Nicole Kidman",
+        "href": "https://www.foxnews.com/category/person/nicole-kidman"
+      },
+      {
+        "label": "Sports",
+        "href": "https://www.foxnews.com/sports"
+      },
+      {
+        "label": "NFL",
+        "href": "https://www.foxnews.com/category/sports/nfl"
+      },
+      {
+        "label": "College Football",
+        "href": "https://www.foxnews.com/category/sports/ncaa-fb"
+      },
+      {
+        "label": "MLB",
+        "href": "https://www.foxnews.com/category/sports/mlb"
+      },
+      {
+        "label": "NASCAR",
+        "href": "https://www.foxnews.com/category/auto/nascar"
+      },
+      {
+        "label": "INDYCAR",
+        "href": "https://www.foxnews.com/category/auto/indycar"
+      },
+      {
+        "label": "NBA",
+        "href": "https://www.foxnews.com/category/sports/nba"
+      },
+      {
+        "label": "NHL",
+        "href": "https://www.foxnews.com/category/sports/nhl"
+      },
+      {
+        "label": "Golf",
+        "href": "https://www.foxnews.com/category/sports/golf"
+      },
+      {
+        "label": "Tennis",
+        "href": "https://www.foxnews.com/category/sports/tennis"
+      },
+      {
+        "label": "UFC",
+        "href": "https://www.foxnews.com/category/sports/ufc"
+      },
+      {
+        "label": "WWE",
+        "href": "https://www.foxnews.com/category/organization/wwe"
+      },
+      {
+        "label": "Lifestyle",
+        "href": "https://www.foxnews.com/lifestyle"
+      },
+      {
+        "label": "Travel",
+        "href": "https://www.foxnews.com/travel"
+      },
+      {
+        "label": "Food & Drink",
+        "href": "https://www.foxnews.com/food-drink"
+      },
+      {
+        "label": "Faith",
+        "href": "https://www.foxnews.com/faith-values"
+      },
+      {
+        "label": "Discovery",
+        "href": "https://www.foxnews.com/category/science/archaeology"
+      },
+      {
+        "label": "Games & Quizzes",
+        "href": "https://www.foxnews.com/games"
+      },
+      {
+        "label": "Health",
+        "href": "https://www.foxnews.com/health"
+      },
+      {
+        "label": "Weight Loss",
+        "href": "https://www.foxnews.com/category/health/nutrition-and-fitness/weight-loss"
+      },
+      {
+        "label": "Cancer",
+        "href": "https://www.foxnews.com/category/health/cancer"
+      },
+      {
+        "label": "Brain Health",
+        "href": "https://www.foxnews.com/category/health/brain-health"
+      },
+      {
+        "label": "Sleep",
+        "href": "https://www.foxnews.com/category/health/sleep-disorders"
+      },
+      {
+        "label": "Heart Health",
+        "href": "https://www.foxnews.com/category/health/heart-health"
+      },
+      {
+        "label": "Healthy Living",
+        "href": "https://www.foxnews.com/category/health/healthy-living"
+      },
+      {
+        "label": "Mental Health",
+        "href": "https://www.foxnews.com/category/health/mental-health"
+      },
+      {
+        "label": "MAHA",
+        "href": "https://www.foxnews.com/category/health/maha"
+      },
+      {
+        "label": "Deals",
+        "href": "https://www.foxnews.com/deals"
+      },
+      {
+        "label": "Holiday Shopping",
+        "href": "https://www.foxnews.com/category/deals/trending"
+      },
+      {
+        "label": "Gift Guides",
+        "href": "https://www.foxnews.com/category/deals/gift"
+      },
+      {
+        "label": "Home Deals",
+        "href": "https://www.foxnews.com/category/deals/home"
+      },
+      {
+        "label": "Kitchen Deals",
+        "href": "https://www.foxnews.com/category/deals/kitchen"
+      },
+      {
+        "label": "Tech and Electronic Deals",
+        "href": "https://www.foxnews.com/category/deals/tech-and-electronic"
+      },
+      {
+        "label": "Health and Fitness Deals",
+        "href": "https://www.foxnews.com/category/deals/health-and-fitness"
+      },
+      {
+        "label": "Beauty and Fashion Deals",
+        "href": "https://www.foxnews.com/category/deals/beauty-and-fashion"
+      },
+      {
+        "label": "Science & Tech",
+        "href": "https://www.foxnews.com/tech"
+      },
+      {
+        "label": "Air & Space",
+        "href": "https://www.foxnews.com/category/science/air-and-space"
+      },
+      {
+        "label": "Security",
+        "href": "https://www.foxnews.com/category/tech/topics/security"
+      },
+      {
+        "label": "Innovation",
+        "href": "https://www.foxnews.com/category/tech/topics/innovation"
+      },
+      {
+        "label": "Video Games",
+        "href": "https://www.foxnews.com/category/tech/topics/video-games"
+      },
+      {
+        "label": "Military Tech",
+        "href": "https://www.foxnews.com/category/tech/topics/military-tech"
+      },
+      {
+        "label": "Planet Earth",
+        "href": "https://www.foxnews.com/category/science/planet-earth"
+      },
+      {
+        "label": "Wild Nature",
+        "href": "https://www.foxnews.com/category/science/wild-nature"
+      },
+      {
+        "label": "Games",
+        "href": "https://www.foxnews.com/games"
+      },
+      {
+        "label": "Scattergories Daily",
+        "href": "https://www.foxnews.com/games/scattergories-daily"
+      },
+      {
+        "label": "5 Across the Letter Word Game",
+        "href": "https://www.foxnews.com/games/5-across-word-game"
+      },
+      {
+        "label": "Downwords",
+        "href": "https://www.foxnews.com/games/lil-snack-downwords"
+      },
+      {
+        "label": "Sudoku",
+        "href": "https://www.foxnews.com/games/sudoku"
+      },
+      {
+        "label": "Word Swap",
+        "href": "https://www.foxnews.com/games/lil-snack-word-swap"
+      },
+      {
+        "label": "Word Search",
+        "href": "https://www.foxnews.com/games/word-search"
+      },
+      {
+        "label": "Icon Match",
+        "href": "https://www.foxnews.com/games/icon-match-puzzle"
+      },
+      {
+        "label": "Daily Crossword Puzzle",
+        "href": "https://www.foxnews.com/games/daily-crossword-puzzle"
+      },
+      {
+        "label": "Mini Crossword Puzzle",
+        "href": "https://www.foxnews.com/games/mini-crossword-puzzle"
+      },
+      {
+        "label": "Watch Live",
+        "href": "https://www.foxnews.com/video/5614615980001"
+      },
+      {
+        "label": "FOX News Shows",
+        "href": "https://www.foxnews.com/shows"
+      },
+      {
+        "label": "Programming Schedule",
+        "href": "https://www.foxnews.com/fnctv"
+      },
+      {
+        "label": "On Air Personalities",
+        "href": "https://www.foxnews.com/person/personalities"
+      },
+      {
+        "label": "Full Episodes",
+        "href": "https://www.foxnews.com/video/shows"
+      },
+      {
+        "label": "Show Clips",
+        "href": "https://www.foxnews.com/video/topics/v-most-recent-episodes"
+      },
+      {
+        "label": "News Clips",
+        "href": "https://www.foxnews.com/video/topics/latest-news-video"
+      },
+      {
+        "label": "About",
+        "href": "https://www.foxnews.com/about"
+      },
+      {
+        "label": "Contact Us",
+        "href": "https://www.foxnews.com/contact"
+      },
+      {
+        "label": "Fox Around the World",
+        "href": "https://www.foxnews.com/story/where-in-the-world-is-fox"
+      },
+      {
+        "label": "Compliance",
+        "href": "https://www.foxnews.com/compliance"
+      },
+      {
+        "label": "Apps & Products",
+        "href": "https://www.foxnews.com/apps-products"
+      },
+      {
+        "label": "FOX News Go",
+        "href": "https://www.foxnews.com/go"
+      },
+      {
+        "label": "FOX Nation",
+        "href": "https://www.foxnews.com/shows/fox-nation"
+      },
+      {
+        "label": "Newsletters",
+        "href": "https://www.foxnews.com/newsletters"
+      },
+      {
+        "label": "RSS",
+        "href": "https://www.foxnews.com/story/foxnews-com-rss-feeds"
+      },
+      {
+        "label": "Newsletters",
+        "href": "https://www.foxnews.com/newsletters"
+      },
+      {
+        "label": "Fox News",
+        "href": "https://www.foxnews.com"
+      },
+      {
+        "label": "Terms of Use",
+        "href": "https://www.foxnews.com/terms-of-use"
+      },
+      {
+        "label": "Privacy Policy",
+        "href": "https://www.foxnews.com/privacy-policy"
+      },
+      {
+        "label": "Closed Caption Policy",
+        "href": "https://www.foxnews.com/closed-captioning"
+      },
+      {
+        "label": "Contact Us",
+        "href": "https://www.foxnews.com/contact"
+      },
+      {
+        "label": "Accessibility Statement",
+        "href": "https://www.foxnews.com/accessibility-statement"
+      },
+      {
+        "label": "News Sitemap",
+        "href": "https://www.foxnews.com/html-sitemap"
+      },
+      {
+        "label": "Video Sitemap",
+        "href": "https://www.foxnews.com/html-video-sitemap"
+      }
+    ],
+    "external": [
+      {
+        "label": "Fox Business",
+        "href": "https://www.foxbusiness.com/"
+      },
+      {
+        "label": "Fox Nation",
+        "href": "https://nation.foxnews.com/"
+      },
+      {
+        "label": "Fox News Audio",
+        "href": "https://radio.foxnews.com/"
+      },
+      {
+        "label": "Fox Weather",
+        "href": "https://www.foxweather.com/"
+      },
+      {
+        "label": "Outkick",
+        "href": "https://www.outkick.com/"
+      },
+      {
+        "label": "Fox Noticias",
+        "href": "https://noticias.foxnews.com/"
+      },
+      {
+        "label": "FIFA WORLD CUP 26",
+        "href": "https://www.foxsports.com/soccer/fifa-world-cup"
+      },
+      {
+        "label": "FOX Business",
+        "href": "https://www.foxbusiness.com/"
+      },
+      {
+        "label": "Economy",
+        "href": "https://www.foxbusiness.com/economy"
+      },
+      {
+        "label": "Personal Finance",
+        "href": "https://www.foxbusiness.com/personal-finance"
+      },
+      {
+        "label": "Markets",
+        "href": "https://www.foxbusiness.com/markets"
+      },
+      {
+        "label": "Watchlist",
+        "href": "https://www.foxbusiness.com/watchlist"
+      },
+      {
+        "label": "Lifestyle",
+        "href": "https://www.foxbusiness.com/lifestyle"
+      },
+      {
+        "label": "Real Estate",
+        "href": "https://www.foxbusiness.com/real-estate"
+      },
+      {
+        "label": "Tech",
+        "href": "https://www.foxbusiness.com/technology"
+      },
+      {
+        "label": "FOX Weather",
+        "href": "https://www.foxweather.com"
+      },
+      {
+        "label": "FOX Nation",
+        "href": "https://nation.foxnews.com"
+      },
+      {
+        "label": "FOX Noticias",
+        "href": "https://noticias.foxnews.com/shows/fox-noticias"
+      },
+      {
+        "label": "FOX News Shop",
+        "href": "https://shop.foxnews.com/"
+      },
+      {
+        "label": "FOX News Radio",
+        "href": "https://radio.foxnews.com"
+      },
+      {
+        "label": "Outkick",
+        "href": "https://www.outkick.com"
+      },
+      {
+        "label": "Podcasts",
+        "href": "https://radio.foxnews.com/podcast"
+      },
+      {
+        "label": "FOX Business",
+        "href": "https://www.foxbusiness.com/"
+      },
+      {
+        "label": "Economy",
+        "href": "https://www.foxbusiness.com/economy"
+      },
+      {
+        "label": "Personal Finance",
+        "href": "https://www.foxbusiness.com/personal-finance"
+      },
+      {
+        "label": "Markets",
+        "href": "https://www.foxbusiness.com/markets"
+      },
+      {
+        "label": "Watchlist",
+        "href": "https://www.foxbusiness.com/watchlist"
+      },
+      {
+        "label": "Lifestyle",
+        "href": "https://www.foxbusiness.com/lifestyle"
+      },
+      {
+        "label": "Real Estate",
+        "href": "https://www.foxbusiness.com/real-estate"
+      },
+      {
+        "label": "Tech",
+        "href": "https://www.foxbusiness.com/technology"
+      },
+      {
+        "label": "FOX Weather",
+        "href": "https://www.foxweather.com"
+      },
+      {
+        "label": "FOX Nation",
+        "href": "https://nation.foxnews.com"
+      },
+      {
+        "label": "FOX Noticias",
+        "href": "https://noticias.foxnews.com/shows/fox-noticias"
+      },
+      {
+        "label": "FOX News Shop",
+        "href": "https://shop.foxnews.com/"
+      },
+      {
+        "label": "FOX News Radio",
+        "href": "https://radio.foxnews.com"
+      },
+      {
+        "label": "Outkick",
+        "href": "https://www.outkick.com"
+      },
+      {
+        "label": "Podcasts",
+        "href": "https://radio.foxnews.com/podcast"
+      },
+      {
+        "label": "Facebook",
+        "href": "https://www.facebook.com/FoxNews"
+      },
+      {
+        "label": "Twitter",
+        "href": "https://twitter.com/foxnews"
+      },
+      {
+        "label": "Instagram",
+        "href": "https://www.instagram.com/foxnews/"
+      },
+      {
+        "label": "Your Privacy Choices",
+        "href": "http://privacy.foxnews.com/main/web/main"
+      },
+      {
+        "label": "Help",
+        "href": "https://help.foxnews.com"
+      },
+      {
+        "label": "Factset",
+        "href": "https://www.factset.com/"
+      },
+      {
+        "label": "FactSet Digital Solutions",
+        "href": "https://www.factset.com/solutions/business-needs/digital-solutions"
+      },
+      {
+        "label": "Legal Statement",
+        "href": "https://www.factset.com/privacy"
+      },
+      {
+        "label": "Refinitiv Lipper",
+        "href": "https://lipperalpha.refinitiv.com/"
+      },
+      {
+        "label": "Start Your Free Trial",
+        "href": "https://bit.ly/2mnLK97"
+      },
+      {
+        "label": "fb",
+        "href": "https://www.facebook.com/FoxNation"
+      },
+      {
+        "label": "tw",
+        "href": "https://twitter.com/FoxNation"
+      },
+      {
+        "label": "ig",
+        "href": "https://www.instagram.com/foxnation"
+      },
+      {
+        "label": "FIFA WORLD CUP 26",
+        "href": "https://www.foxsports.com/soccer/fifa-world-cup"
+      },
+      {
+        "label": "FOX Business",
+        "href": "https://www.foxbusiness.com/"
+      },
+      {
+        "label": "Personal Finance",
+        "href": "https://www.foxbusiness.com/personal-finance"
+      },
+      {
+        "label": "Economy",
+        "href": "https://www.foxbusiness.com/economy"
+      },
+      {
+        "label": "Markets",
+        "href": "https://www.foxbusiness.com/markets"
+      },
+      {
+        "label": "Watchlist",
+        "href": "https://www.foxbusiness.com/watchlist"
+      },
+      {
+        "label": "Lifestyle",
+        "href": "https://www.foxbusiness.com/lifestyle"
+      },
+      {
+        "label": "Real Estate",
+        "href": "https://www.foxbusiness.com/real-estate"
+      },
+      {
+        "label": "Tech",
+        "href": "https://www.foxbusiness.com/technology"
+      },
+      {
+        "label": "Careers",
+        "href": "https://foxcareers.com/Search/SearchResults?brand=Fox%20News%20Careers"
+      },
+      {
+        "label": "Advertise With Us",
+        "href": "https://www.foxadvertising.com/fox-news-media/"
+      },
+      {
+        "label": "Media Relations",
+        "href": "https://press.foxnews.com/media-contacts"
+      },
+      {
+        "label": "Corporate Information",
+        "href": "https://press.foxnews.com"
+      },
+      {
+        "label": "FOX Weather",
+        "href": "https://www.foxweather.com"
+      },
+      {
+        "label": "FOX Noticias",
+        "href": "https://noticias.foxnews.com/shows/fox-noticias"
+      },
+      {
+        "label": "FOX News Shop",
+        "href": "https://shop.foxnews.com"
+      },
+      {
+        "label": "FOX News Radio",
+        "href": "https://radio.foxnews.com"
+      },
+      {
+        "label": "Outkick",
+        "href": "https://www.outkick.com"
+      },
+      {
+        "label": "Podcasts",
+        "href": "https://radio.foxnews.com/podcast"
+      },
+      {
+        "label": "FOX One",
+        "href": "https://www.fox.com/?cmpid=org=one::ag=owned::mc=referral::src=fn::cmp=10010071001::add=621a"
+      },
+      {
+        "label": "FIFA WORLD CUP 26",
+        "href": "https://www.foxsports.com/soccer/fifa-world-cup"
+      },
+      {
+        "label": "FOX Business",
+        "href": "https://www.foxbusiness.com/"
+      },
+      {
+        "label": "Personal Finance",
+        "href": "https://www.foxbusiness.com/personal-finance"
+      },
+      {
+        "label": "Economy",
+        "href": "https://www.foxbusiness.com/economy"
+      },
+      {
+        "label": "Markets",
+        "href": "https://www.foxbusiness.com/markets"
+      },
+      {
+        "label": "Watchlist",
+        "href": "https://www.foxbusiness.com/watchlist"
+      },
+      {
+        "label": "Lifestyle",
+        "href": "https://www.foxbusiness.com/lifestyle"
+      },
+      {
+        "label": "Real Estate",
+        "href": "https://www.foxbusiness.com/real-estate"
+      },
+      {
+        "label": "Tech",
+        "href": "https://www.foxbusiness.com/technology"
+      },
+      {
+        "label": "Careers",
+        "href": "https://foxcareers.com/Search/SearchResults?brand=Fox%20News%20Careers"
+      },
+      {
+        "label": "Advertise With Us",
+        "href": "https://www.foxadvertising.com/fox-news-media/"
+      },
+      {
+        "label": "Media Relations",
+        "href": "https://press.foxnews.com/media-contacts"
+      },
+      {
+        "label": "Corporate Information",
+        "href": "https://press.foxnews.com"
+      },
+      {
+        "label": "FOX Weather",
+        "href": "https://www.foxweather.com"
+      },
+      {
+        "label": "FOX Noticias",
+        "href": "https://noticias.foxnews.com/shows/fox-noticias"
+      },
+      {
+        "label": "FOX News Shop",
+        "href": "https://shop.foxnews.com"
+      },
+      {
+        "label": "FOX News Radio",
+        "href": "https://radio.foxnews.com"
+      },
+      {
+        "label": "Outkick",
+        "href": "https://www.outkick.com"
+      },
+      {
+        "label": "Podcasts",
+        "href": "https://radio.foxnews.com/podcast"
+      },
+      {
+        "label": "FOX One",
+        "href": "https://www.fox.com/?cmpid=org=one::ag=owned::mc=referral::src=fn::cmp=10010071001::add=621a"
+      },
+      {
+        "label": "Facebook",
+        "href": "https://www.facebook.com/FoxNews"
+      },
+      {
+        "label": "Twitter",
+        "href": "https://twitter.com/foxnews"
+      },
+      {
+        "label": "Instagram",
+        "href": "https://www.instagram.com/foxnews"
+      },
+      {
+        "label": "Youtube",
+        "href": "https://www.youtube.com/FoxNewsChannel"
+      },
+      {
+        "label": "Flipboard",
+        "href": "https://flipboard.com/@FoxNews"
+      },
+      {
+        "label": "LinkedIn",
+        "href": "https://www.linkedin.com/company/fox-news-channel/"
+      },
+      {
+        "label": "Slack",
+        "href": "https://foxnews.slack.com/apps/A013AUF6VMG-fox-news"
+      },
+      {
+        "label": "Spotify",
+        "href": "https://open.spotify.com/show/7A4YfyFtNOZhqMV7F3kYVu"
+      },
+      {
+        "label": "iHeartRadio",
+        "href": "https://www.iheart.com/podcast/256-the-fox-news-rundown-31090295/"
+      },
+      {
+        "label": "Your Privacy Choices",
+        "href": "http://privacy.foxnews.com/main/web/main"
+      },
+      {
+        "label": "Help",
+        "href": "https://help.foxnews.com"
+      },
+      {
+        "label": "Factset",
+        "href": "https://www.factset.com/"
+      },
+      {
+        "label": "FactSet Digital Solutions",
+        "href": "https://www.factset.com/solutions/business-needs/digital-solutions"
+      },
+      {
+        "label": "Legal Statement",
+        "href": "https://www.factset.com/privacy"
+      },
+      {
+        "label": "Refinitiv Lipper",
+        "href": "https://lipperalpha.refinitiv.com/"
+      }
+    ],
+    "broken": []
+  },
+  "extractedAt": "2025-11-19T15:15:57Z"
+}

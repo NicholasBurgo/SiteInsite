@@ -1,0 +1,433 @@
+{
+  "url": "https://handyman.com/referral",
+  "path": "/referral",
+  "status": 200,
+  "title": "Handyman.com - Referral",
+  "description": "Handyman.com connects you with trusted professionals for all your home improvement needs. Discover expert contractors, DIY tips, project ideas, home plans, how-to guides, and more to bring your home ideas to life.",
+  "canonical": "https://handyman.com/referral",
+  "media": {
+    "images": [
+      {
+        "url": "https://www.stats.numberchallenge.com/piwik.php?idsite=1",
+        "alt": "",
+        "width": null,
+        "height": null
+      },
+      {
+        "url": "https://cdn.vnoc.com/logos/logo-handyman.png",
+        "alt": "Handyman.com",
+        "width": null,
+        "height": null
+      }
+    ],
+    "videos": [],
+    "gifs": []
+  },
+  "files": [],
+  "words": {
+    "headings": [
+      {
+        "tag": "h4",
+        "text": "Top Cities"
+      },
+      {
+        "tag": "h1",
+        "text": "Handyman.com Referral Program"
+      },
+      {
+        "tag": "h2",
+        "text": "Do you have a great experience with Handyman?\n\u00a0Would you like to get rewarded by sharing Handyman\u2019s services to your family and friends?"
+      },
+      {
+        "tag": "h3",
+        "text": "Program Terms"
+      },
+      {
+        "tag": "h2",
+        "text": "Handyman.com"
+      },
+      {
+        "tag": "h2",
+        "text": "Get Started"
+      },
+      {
+        "tag": "h2",
+        "text": "Company"
+      },
+      {
+        "tag": "h2",
+        "text": "Socials"
+      }
+    ],
+    "paragraphs": [
+      "We want your friends and/or family to enjoy the same great comfort and customer service you\u2019ve come to expect from Handyman.com and we would like to reward you for referring them to me.",
+      "\u00a9 2025 - Handyman.com",
+      "About Us\n Terms\n Privacy\n Contact Us"
+    ],
+    "wordCount": 43
+  },
+  "links": {
+    "internal": [
+      {
+        "label": "",
+        "href": "https://handyman.com/"
+      },
+      {
+        "label": "Home",
+        "href": "https://handyman.com/"
+      },
+      {
+        "label": "View More",
+        "href": "https://handyman.com/contractor/find-city"
+      },
+      {
+        "label": "How It Works",
+        "href": "https://handyman.com/home/how-it-works"
+      },
+      {
+        "label": "Find A Contractor",
+        "href": "https://handyman.com/contractor"
+      },
+      {
+        "label": "Post A Project",
+        "href": "https://handyman.com/projectnew/post"
+      },
+      {
+        "label": "Projects Directory",
+        "href": "https://handyman.com/services"
+      },
+      {
+        "label": "Referral Program",
+        "href": "https://handyman.com/referral"
+      },
+      {
+        "label": "Discussions",
+        "href": "https://handyman.com/questions"
+      },
+      {
+        "label": "List Your Business",
+        "href": "https://handyman.com/serviceprovider"
+      },
+      {
+        "label": "Service Provider Sign Up",
+        "href": "https://handyman.com/serviceprovider/"
+      },
+      {
+        "label": "HomeOwner Sign Up",
+        "href": "https://handyman.com/projectnew/post"
+      },
+      {
+        "label": "Referral",
+        "href": "https://handyman.com/referral"
+      },
+      {
+        "label": "Login",
+        "href": "https://handyman.com/login"
+      },
+      {
+        "label": "Albany",
+        "href": "https://handyman.com/contractor/find/city/albany-ny/"
+      },
+      {
+        "label": "Albuquerque",
+        "href": "https://handyman.com/contractor/find/city/albuquerque-nm/"
+      },
+      {
+        "label": "ALL orange county",
+        "href": "https://handyman.com/contractor/find/city/dallas-tx/"
+      },
+      {
+        "label": "Atlanta",
+        "href": "https://handyman.com/contractor/find/city/atlanta-ga/"
+      },
+      {
+        "label": "Austin",
+        "href": "https://handyman.com/contractor/find/city/austin-tx/"
+      },
+      {
+        "label": "Baltimore",
+        "href": "https://handyman.com/contractor/find/city/baltimore-md/"
+      },
+      {
+        "label": "Birmingham",
+        "href": "https://handyman.com/contractor/find/city/birmingham-al/"
+      },
+      {
+        "label": "Boston",
+        "href": "https://handyman.com/contractor/find/city/boston-ma/"
+      },
+      {
+        "label": "Buffalo",
+        "href": "https://handyman.com/contractor/find/city/buffalo-ny/"
+      },
+      {
+        "label": "Charlotte",
+        "href": "https://handyman.com/contractor/find/city/charlotte-nc/"
+      },
+      {
+        "label": "Chicago",
+        "href": "https://handyman.com/contractor/find/city/chicago-il/"
+      },
+      {
+        "label": "Cincinnati",
+        "href": "https://handyman.com/contractor/find/city/cincinnati-oh/"
+      },
+      {
+        "label": "Cleveland",
+        "href": "https://handyman.com/contractor/find/city/cleveland-oh/"
+      },
+      {
+        "label": "Columbia",
+        "href": "https://handyman.com/contractor/find/city/columbia-sc/"
+      },
+      {
+        "label": "Columbus",
+        "href": "https://handyman.com/contractor/find/city/columbus-oh/"
+      },
+      {
+        "label": "Denver",
+        "href": "https://handyman.com/contractor/find/city/denver-co/"
+      },
+      {
+        "label": "Detroit",
+        "href": "https://handyman.com/contractor/find/city/detroit-mi/"
+      },
+      {
+        "label": "Grand Rapids",
+        "href": "https://handyman.com/contractor/find/city/grand-rapids-mi/"
+      },
+      {
+        "label": "Greensboro",
+        "href": "https://handyman.com/contractor/find/city/greensboro-nc/"
+      },
+      {
+        "label": "Greenville",
+        "href": "https://handyman.com/contractor/find/city/greenville-sc/"
+      },
+      {
+        "label": "Harrisburg",
+        "href": "https://handyman.com/contractor/find/city/harrisburg-pa/"
+      },
+      {
+        "label": "Hartford",
+        "href": "https://handyman.com/contractor/find/city/hartford-ct/"
+      },
+      {
+        "label": "Honolulu",
+        "href": "https://handyman.com/contractor/find/city/honolulu-hi/"
+      },
+      {
+        "label": "Houston",
+        "href": "https://handyman.com/contractor/find/city/houston-tx/"
+      },
+      {
+        "label": "Indianapolis",
+        "href": "https://handyman.com/contractor/find/city/indianapolis-in/"
+      },
+      {
+        "label": "Jacksonville",
+        "href": "https://handyman.com/contractor/find/city/jacksonville-fl/"
+      },
+      {
+        "label": "Kansas City",
+        "href": "https://handyman.com/contractor/find/city/kansas-city-mo/"
+      },
+      {
+        "label": "Knoxville",
+        "href": "https://handyman.com/contractor/find/city/knoxville-tn/"
+      },
+      {
+        "label": "Las Vegas",
+        "href": "https://handyman.com/contractor/find/city/las-vegas-nv/"
+      },
+      {
+        "label": "Little Rock",
+        "href": "https://handyman.com/contractor/find/city/little-rock-ar/"
+      },
+      {
+        "label": "Los Angeles",
+        "href": "https://handyman.com/contractor/find/city/los-angeles-ca/"
+      },
+      {
+        "label": "Louisville",
+        "href": "https://handyman.com/contractor/find/city/louisville-ky/"
+      },
+      {
+        "label": "Memphis",
+        "href": "https://handyman.com/contractor/find/city/memphis-tn/"
+      },
+      {
+        "label": "Miami",
+        "href": "https://handyman.com/contractor/find/city/miami-fl/"
+      },
+      {
+        "label": "Milwaukee",
+        "href": "https://handyman.com/contractor/find/city/milwaukee-wi/"
+      },
+      {
+        "label": "Mobile",
+        "href": "https://handyman.com/contractor/find/city/mobile-al/"
+      },
+      {
+        "label": "Nashville",
+        "href": "https://handyman.com/contractor/find/city/nashville-tn/"
+      },
+      {
+        "label": "New Orleans",
+        "href": "https://handyman.com/contractor/find/city/new-orleans-la/"
+      },
+      {
+        "label": "Norfolk",
+        "href": "https://handyman.com/contractor/find/city/norfolk-va/"
+      },
+      {
+        "label": "Oklahoma City",
+        "href": "https://handyman.com/contractor/find/city/oklahoma-city-ok/"
+      },
+      {
+        "label": "Philadelphia",
+        "href": "https://handyman.com/contractor/find/city/philadelphia-pa/"
+      },
+      {
+        "label": "Phoenix",
+        "href": "https://handyman.com/contractor/find/city/phoenix-az/"
+      },
+      {
+        "label": "Pittsburgh",
+        "href": "https://handyman.com/contractor/find/city/pittsburgh-pa/"
+      },
+      {
+        "label": "Portland",
+        "href": "https://handyman.com/contractor/find/city/portland-or/"
+      },
+      {
+        "label": "Providence",
+        "href": "https://handyman.com/contractor/find/city/providence-ri/"
+      },
+      {
+        "label": "Raleigh",
+        "href": "https://handyman.com/contractor/find/city/raleigh-nc/"
+      },
+      {
+        "label": "Richmond",
+        "href": "https://handyman.com/contractor/find/city/richmond-va/"
+      },
+      {
+        "label": "Sacramento",
+        "href": "https://handyman.com/contractor/find/city/sacramento-ca/"
+      },
+      {
+        "label": "Saint Louis",
+        "href": "https://handyman.com/contractor/find/city/saint-louis-mo/"
+      },
+      {
+        "label": "Salt Lake City",
+        "href": "https://handyman.com/contractor/find/city/salt-lake-city-ut/"
+      },
+      {
+        "label": "San Antonio",
+        "href": "https://handyman.com/contractor/find/city/san-antonio-tx/"
+      },
+      {
+        "label": "San Diego",
+        "href": "https://handyman.com/contractor/find/city/san-diego-ca/"
+      },
+      {
+        "label": "San Francisco",
+        "href": "https://handyman.com/contractor/find/city/san-francisco-ca/"
+      },
+      {
+        "label": "Seattle",
+        "href": "https://handyman.com/contractor/find/city/seattle-wa/"
+      },
+      {
+        "label": "Tampa",
+        "href": "https://handyman.com/contractor/find/city/tampa-fl/"
+      },
+      {
+        "label": "West Palm Beach",
+        "href": "https://handyman.com/contractor/find/city/west-palm-beach-fl/"
+      },
+      {
+        "label": "Post Project\n\n\t\t\t\t\t\nPlease login as a Home Owner",
+        "href": "https://handyman.com/projectnew/post"
+      },
+      {
+        "label": "Service Provider Registration",
+        "href": "https://handyman.com/serviceprovider"
+      },
+      {
+        "label": "Find Service Providers",
+        "href": "https://handyman.com/contractor/find"
+      },
+      {
+        "label": "Find Projects",
+        "href": "https://handyman.com/project/find"
+      },
+      {
+        "label": "About us",
+        "href": "https://handyman.com/home/about"
+      },
+      {
+        "label": "Privacy Policy",
+        "href": "https://handyman.com/home/privacy"
+      },
+      {
+        "label": "Terms & Conditions",
+        "href": "https://handyman.com/home/terms"
+      },
+      {
+        "label": "Partners",
+        "href": "https://handyman.com/partners"
+      },
+      {
+        "label": "Contact Us",
+        "href": "https://handyman.com/home/contactus"
+      },
+      {
+        "label": "Sitemap",
+        "href": "https://handyman.com/home/sitemap"
+      },
+      {
+        "label": "About Us",
+        "href": "https://handyman.com/home/about"
+      },
+      {
+        "label": "Terms",
+        "href": "https://handyman.com/home/terms"
+      },
+      {
+        "label": "Privacy",
+        "href": "https://handyman.com/home/privacy"
+      },
+      {
+        "label": "Contact Us",
+        "href": "https://handyman.com/home/contactus"
+      }
+    ],
+    "external": [
+      {
+        "label": "Shop",
+        "href": "https://handymanchannel.com/"
+      },
+      {
+        "label": "FAQ",
+        "href": "https://support.handyman.com/"
+      },
+      {
+        "label": "Support",
+        "href": "https://support.handyman.com"
+      },
+      {
+        "label": "Blog",
+        "href": "https://medium.com/handyman-blog"
+      },
+      {
+        "label": "Shop",
+        "href": "https://handymanchannel.com/"
+      }
+    ],
+    "broken": []
+  },
+  "extractedAt": "2025-11-19T14:44:11Z"
+}

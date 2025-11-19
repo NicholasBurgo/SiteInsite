@@ -1,0 +1,47 @@
+version: "3.9"
+services:
+  api:
+    build: ./backend
+    ports: ["5051:5051"]
+    environment:
+      - BASE_USER_AGENT=SiteInsite/1.0
+    command: uvicorn backend.app:app --host 0.0.0.0 --port 5051
+  web:
+    build: ./frontend
+    ports: ["5173:5173"]
+
+  # Advanced News Scraper Service
+  scraper:
+    build:
+      context: ./backend
+      dockerfile: scraper_advanced/Dockerfile
+    volumes:
+      - ./backend/scraper_advanced/config.yaml:/app/config.yaml:ro
+      - ./scraper_output:/app/output
+    environment:
+      - FLARESOLVERR_URL=http://flaresolverr:8191/v1
+      - PYTHONPATH=/app
+    depends_on:
+      - flaresolverr
+    networks:
+      - scraper_network
+    command: ["python", "-m", "scraper_advanced.cli", "health"]
+
+  # FlareSolverr for Cloudflare bypass
+  flaresolverr:
+    image: ghcr.io/flaresolverr/flaresolverr:latest
+    container_name: flaresolverr
+    environment:
+      - LOG_LEVEL=info
+      - CAPTCHA_SOLVER=none  # We'll handle CAPTCHAs in the scraper
+    ports:
+      - "8191:8191"
+    networks:
+      - scraper_network
+    restart: unless-stopped
+
+networks:
+  scraper_network:
+    driver: bridge
+
+

@@ -1,0 +1,129 @@
+scraper:
+  # Core settings
+  user_agent: "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
+  timeout: 30
+  max_retries: 3
+  retry_delays: [2, 8, 30]  # seconds
+
+  # Human behavior simulation
+  human_delays:
+    min_delay: 3.2
+    max_delay: 9.7
+    homepage_visit_chance: 0.15  # 15% chance to visit homepage first
+    asset_fetch_chance: 0.10     # 10% chance to fetch CSS/JS
+
+  # Proxy settings
+  proxies:
+    enabled: true
+    rotation_strategy: "round_robin"  # round_robin, random, geo_targeted
+    health_check_interval: 300  # seconds
+    max_failures_before_ban: 3
+    geo_target: "US"
+
+    # Residential proxy lists (replace with your actual proxy credentials)
+    residential:
+      - host: "proxy1.residential.proxy-provider.com"
+        port: 8080
+        username: "user1"
+        password: "pass1"
+        country: "US"
+      - host: "proxy2.residential.proxy-provider.com"
+        port: 8080
+        username: "user2"
+        password: "pass2"
+        country: "US"
+
+  # Browser fingerprinting
+  fingerprinting:
+    canvas_noise: true
+    webgl_noise: true
+    font_noise: true
+    audio_context_noise: true
+    timezone_random: true
+    screen_resolution_random: true
+    language_random: true
+
+  # Browser profiles
+  browser_profiles:
+    chrome124:
+      user_agent: "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36"
+      sec_ch_ua: '"Chromium";v="124", "Google Chrome";v="124", "Not-A.Brand";v="99"'
+      sec_ch_ua_mobile: "?0"
+      sec_ch_ua_platform: '"Windows"'
+      accept: "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7"
+      accept_encoding: "gzip, deflate, br"
+      accept_language: "en-US,en;q=0.9"
+
+    chrome126:
+      user_agent: "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36"
+      sec_ch_ua: '"Not/A)Brand";v="8", "Chromium";v="126", "Google Chrome";v="126"'
+      sec_ch_ua_mobile: "?0"
+      sec_ch_ua_platform: '"macOS"'
+      accept: "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7"
+      accept_encoding: "gzip, deflate, br"
+      accept_language: "en-US,en;q=0.9,en;q=0.8"
+
+  # Cloudflare bypass
+  cloudflare:
+    flaresolverr_url: "http://localhost:8191/v1"
+    cloudscraper_enabled: true
+    challenge_timeout: 60
+
+  # Target sites
+  targets:
+    newsmax:
+      base_url: "https://www.newsmax.com"
+      article_selectors:
+        - ".article-content"
+        - ".entry-content"
+        - "[data-testid='article-body']"
+      date_selectors:
+        - ".published-date"
+        - ".entry-date"
+        - "time"
+      author_selectors:
+        - ".author-name"
+        - ".byline"
+
+    breitbart:
+      base_url: "https://www.breitbart.com"
+      article_selectors:
+        - ".entry-content"
+        - ".article-content"
+        - "[data-testid='article-body']"
+      date_selectors:
+        - ".published-date"
+        - ".entry-date"
+        - "time"
+      author_selectors:
+        - ".author-name"
+        - ".byline"
+
+    oann:
+      base_url: "https://www.oann.com"
+      article_selectors:
+        - ".article-content"
+        - ".entry-content"
+        - "[data-testid='article-body']"
+      date_selectors:
+        - ".published-date"
+        - ".entry-date"
+        - "time"
+      author_selectors:
+        - ".author-name"
+        - ".byline"
+
+  # Output settings
+  output:
+    format: "jsonl"  # jsonl, json, csv
+    fields: ["title", "url", "publish_date", "author", "content"]
+    include_metadata: true
+    clean_content: true  # remove ads, navigation, etc.
+    output_dir: "./output"
+
+  # Performance
+  performance:
+    concurrent_requests: 5
+    rate_limit_per_minute: 30
+    session_reuse: true
+    cookie_persistence: true

@@ -1,0 +1,47 @@
+[
+  {
+    "pageId": "50c59c335d14",
+    "titleGuess": "Home",
+    "path": "https://www.northshoreexteriorupkeep.com/",
+    "url": "https://www.northshoreexteriorupkeep.com/",
+    "status": 200,
+    "words": 35,
+    "mediaCount": 5
+  },
+  {
+    "pageId": "d106c005f61c",
+    "titleGuess": "Home",
+    "path": "https://www.northshoreexteriorupkeep.com/home",
+    "url": "https://www.northshoreexteriorupkeep.com/home",
+    "status": 200,
+    "words": 35,
+    "mediaCount": 5
+  },
+  {
+    "pageId": "18a7f9f58cb1",
+    "titleGuess": "Our work",
+    "path": "https://www.northshoreexteriorupkeep.com/our-work",
+    "url": "https://www.northshoreexteriorupkeep.com/our-work",
+    "status": 200,
+    "words": 3,
+    "mediaCount": 6
+  },
+  {
+    "pageId": "53f62e9328b6",
+    "titleGuess": "Services",
+    "path": "https://www.northshoreexteriorupkeep.com/services",
+    "url": "https://www.northshoreexteriorupkeep.com/services",
+    "status": 200,
+    "words": 3,
+    "mediaCount": 5
+  },
+  {
+    "pageId": "6e742571e799",
+    "titleGuess": "Contact Info",
+    "path": "https://www.northshoreexteriorupkeep.com/contact-us",
+    "url": "https://www.northshoreexteriorupkeep.com/contact-us",
+    "status": 200,
+    "words": 3,
+    "mediaCount": 2
+  }
+]

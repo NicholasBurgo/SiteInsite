@@ -1,0 +1,2834 @@
+{
+  "url": "https://www.foxnews.com/category/us/immigration",
+  "path": "/category/us/immigration",
+  "status": 200,
+  "title": "Immigration | Fox News",
+  "description": "The latest U.S. immigration news under the Trump administration from green cards and immigration protests to ICE actions and updates on the migrant crisis at the Mexico border.",
+  "canonical": "https://www.foxnews.com/category/us/immigration",
+  "media": {
+    "images": [
+      {
+        "url": "https://static.foxnews.com/foxnews.com/content/uploads/2025/01/immigration-logo-desktop.png",
+        "alt": " logo",
+        "width": null,
+        "height": null
+      },
+      {
+        "url": "https://static.foxnews.com/foxnews.com/content/uploads/2025/01/immigration-bg-1280.png",
+        "alt": " logo",
+        "width": null,
+        "height": null
+      },
+      {
+        "url": "https://a57.foxnews.com/static.foxnews.com/foxnews.com/content/uploads/2025/10/1440/810/illegal-immigrant-truck-crash.jpg?ve=1&tl=1",
+        "alt": "Sanctuary states need crackdown as Americans pay price for illegal immigrant truckers: GOP lawmaker",
+        "width": 920,
+        "height": 518
+      },
+      {
+        "url": "https://a57.foxnews.com/static.foxnews.com/foxnews.com/content/uploads/2025/11/1440/810/border-patrol-new-orleans-swamp-sweep-1.jpg?ve=1&tl=1",
+        "alt": "250 border agents to deploy to Louisiana for 'Swamp Sweep,' report says",
+        "width": 454,
+        "height": 256
+      },
+      {
+        "url": "https://a57.foxnews.com/static.foxnews.com/foxnews.com/content/uploads/2025/11/1440/810/pope-trump-immigration-raids.png?ve=1&tl=1",
+        "alt": "Pope Leo XIV strongly supports US bishops' condemnation of Trump immigration raids: 'Extremely disrespectful'",
+        "width": 454,
+        "height": 256
+      },
+      {
+        "url": "https://a57.foxnews.com/static.foxnews.com/foxnews.com/content/uploads/2025/11/348/196/tom-homan-uzbekistan-terror-suspect-fox-news.jpg?ve=1&tl=1",
+        "alt": "ICE arrests Uzbek terror suspect working as truck driver as Homan blames Biden admin's lack of vetting",
+        "width": null,
+        "height": null
+      },
+      {
+        "url": "https://a57.foxnews.com/static.foxnews.com/foxnews.com/content/uploads/2025/11/348/196/ice-houston-october-operation-police.png?ve=1&tl=1",
+        "alt": "Houston ICE operation nets over 3,500 criminal illegal aliens in six weeks during shutdown",
+        "width": null,
+        "height": null
+      },
+      {
+        "url": "https://a57.foxnews.com/static.foxnews.com/foxnews.com/content/uploads/2025/11/348/196/gavin-newsom-california-illegal.png?ve=1&tl=1",
+        "alt": "Newsom's sanctuary policies under fire after drunk illegal immigrant kills elderly man",
+        "width": null,
+        "height": null
+      },
+      {
+        "url": "https://a57.foxnews.com/static.foxnews.com/foxnews.com/content/uploads/2025/10/348/196/donald-trump-smile-oval-office.jpg?ve=1&tl=1",
+        "alt": "Trump declares victory in Dem-run city despite \u2018extraordinary resistance\u2019 from sanctuary politicians",
+        "width": null,
+        "height": null
+      },
+      {
+        "url": "https://a57.foxnews.com/cf-images.us-east-1.prod.boltdns.net/v1/static/694940094001/b0e70437-076f-4b4c-be6a-4447c3bd4790/21276f31-9f4e-4650-87ea-5a6862bfe3ff/1280x720/match/348/196/image.jpg?ve=1&tl=1",
+        "alt": "Lawmaker warns sanctuary laws letting illegal truckers drive put lives at risk",
+        "width": null,
+        "height": null
+      },
+      {
+        "url": "https://a57.foxnews.com/cf-images.us-east-1.prod.boltdns.net/v1/static/694940094001/bef93c7e-4d53-43e8-bc76-aa98c14039ca/4cf0f6f0-96c8-4fd2-bd20-443644284fab/1280x720/match/348/196/image.jpg?ve=1&tl=1",
+        "alt": "DHS claims to have already arrested more than 200 illegal immigrants in Charlotte area",
+        "width": null,
+        "height": null
+      },
+      {
+        "url": "https://a57.foxnews.com/cf-images.us-east-1.prod.boltdns.net/v1/static/694940094001/0a6abb20-8bb9-44c1-8898-2f6501719040/12100f81-0080-4f8f-928c-ef00c272aaeb/1280x720/match/348/196/image.jpg?ve=1&tl=1",
+        "alt": "Border czar Tom Homan applauds ICE\u2019s actions and says protests are \u2018not going to stop us\u2019",
+        "width": null,
+        "height": null
+      },
+      {
+        "url": "https://a57.foxnews.com/cf-images.us-east-1.prod.boltdns.net/v1/static/694940094001/1b0755ad-cbdf-48a7-a30c-475f1fc162b3/c4e29d7f-e10f-45ba-a007-ca096ebc625a/1280x720/match/348/196/image.jpg?ve=1&tl=1",
+        "alt": "\u2018Operation Charlotte\u2019s Web\u2019 continues to draw community ire",
+        "width": null,
+        "height": null
+      },
+      {
+        "url": "https://a57.foxnews.com/static.foxnews.com/foxnews.com/content/uploads/2025/05/348/196/school-desks.jpg?ve=1&tl=1",
+        "alt": "North Carolina school district releases memo on 'supporting student absences' due to ICE raids",
+        "width": null,
+        "height": null
+      },
+      {
+        "url": "https://a57.foxnews.com/static.foxnews.com/foxnews.com/content/uploads/2025/10/348/196/illegal-immigrant-truck-crash.jpg?ve=1&tl=1",
+        "alt": "Sanctuary states need crackdown as Americans pay price for illegal immigrant truckers: GOP lawmaker",
+        "width": null,
+        "height": null
+      },
+      {
+        "url": "https://a57.foxnews.com/static.foxnews.com/foxnews.com/content/uploads/2025/11/348/196/border-patrol-new-orleans-swamp-sweep-1.jpg?ve=1&tl=1",
+        "alt": "250 border agents to deploy to Louisiana for 'Swamp Sweep,' report says",
+        "width": null,
+        "height": null
+      },
+      {
+        "url": "https://a57.foxnews.com/static.foxnews.com/foxnews.com/content/uploads/2025/08/348/196/katie-abraham-dhs-video.jpg?ve=1&tl=1",
+        "alt": "An illegal immigrant killed my daughter. Katie and Illinois are both getting justice",
+        "width": null,
+        "height": null
+      },
+      {
+        "url": "https://a57.foxnews.com/static.foxnews.com/foxnews.com/content/uploads/2025/11/348/196/pope-trump-immigration-raids.png?ve=1&tl=1",
+        "alt": "Pope Leo XIV strongly supports US bishops' condemnation of Trump immigration raids: 'Extremely disrespectful'",
+        "width": null,
+        "height": null
+      },
+      {
+        "url": "https://a57.foxnews.com/static.foxnews.com/foxnews.com/content/uploads/2021/06/348/196/border-patrol.png?ve=1&tl=1",
+        "alt": "DHS launching massive immigration operation in Louisiana, Mississippi: 'Swamp Sweep'",
+        "width": null,
+        "height": null
+      },
+      {
+        "url": "https://a57.foxnews.com/static.foxnews.com/foxnews.com/content/uploads/2025/11/348/196/ice-officer-weapon-illegal.jpg?ve=1&tl=1",
+        "alt": "Illegal immigrant accused of grabbing ICE officer's taser while shouting 'Allahu akbar' during arrest",
+        "width": null,
+        "height": null
+      },
+      {
+        "url": "https://a57.foxnews.com/static.foxnews.com/foxnews.com/content/uploads/2024/10/348/196/ice.png?ve=1&tl=1",
+        "alt": "ICE begins new, nationwide effort to arrest illegal aliens at immigration hearings",
+        "width": null,
+        "height": null
+      },
+      {
+        "url": "https://a57.foxnews.com/static.foxnews.com/foxnews.com/content/uploads/2024/11/348/196/ice-shield.jpg?ve=1&tl=1",
+        "alt": "Trump nabs 30K illegal immigrants, 1,100 gang members in 100 days: 'Crime will go down,' ex-FBI agent says",
+        "width": null,
+        "height": null
+      },
+      {
+        "url": "https://a57.foxnews.com/static.foxnews.com/foxnews.com/content/uploads/2018/09/348/196/uscis_az.jpg?ve=1&tl=1",
+        "alt": "New report reveals illegal immigrant population hit new high during Biden-era crisis",
+        "width": null,
+        "height": null
+      },
+      {
+        "url": "https://a57.foxnews.com/cf-images.us-east-1.prod.boltdns.net/v1/static/694940094001/ba50b163-d57b-4d56-8bc1-dd61f69cc254/854143f7-3934-4659-ba15-43171451b681/1280x720/match/348/196/image.jpg?ve=1&tl=1",
+        "alt": "Socialism will 'help the Republican Party if it spreads,' influencer says",
+        "width": null,
+        "height": null
+      },
+      {
+        "url": "https://a57.foxnews.com/cf-images.us-east-1.prod.boltdns.net/v1/static/694940094001/1a3bbfa1-5b7a-4ac4-bc95-35aa11306f80/0425ce2c-106d-4994-ab25-7b5acf269a70/1280x720/match/348/196/image.jpg?ve=1&tl=1",
+        "alt": "Attorney reacts to 'bombshell' twist in death of high school cheerleader found on cruise ship",
+        "width": null,
+        "height": null
+      },
+      {
+        "url": "https://a57.foxnews.com/cf-images.us-east-1.prod.boltdns.net/v1/static/694940094001/daf0e09b-2f9d-4afe-94e4-ae60c79fad2e/d001da4e-fd2d-4126-b6bc-3c942573173c/1280x720/match/348/196/image.jpg?ve=1&tl=1",
+        "alt": "Anti-Muslim protesters clash with crowd in Dearborn, Michigan",
+        "width": null,
+        "height": null
+      },
+      {
+        "url": "https://a57.foxnews.com/cf-images.us-east-1.prod.boltdns.net/v1/static/694940094001/6e229272-05a8-4f02-b301-6e10101f63de/63094358-03cd-4808-b269-fc2d81fd2812/1280x720/match/348/196/image.jpg?ve=1&tl=1",
+        "alt": "Riley Gaines speaks at first UT Chattanooga TPUSA chapter event",
+        "width": null,
+        "height": null
+      },
+      {
+        "url": "https://a57.foxnews.com/cf-images.us-east-1.prod.boltdns.net/v1/static/694940094001/5617a87a-9db6-488f-a961-7195712b7d6b/50d1f447-b12a-43c2-932e-94a2f6983374/1280x720/match/348/196/image.jpg?ve=1&tl=1",
+        "alt": "The Dept of Education has become the 'epitome of grift,' ex-Trump 2024 official says",
+        "width": null,
+        "height": null
+      }
+    ],
+    "videos": [],
+    "gifs": []
+  },
+  "files": [],
+  "words": {
+    "headings": [
+      {
+        "tag": "h4",
+        "text": "Games"
+      },
+      {
+        "tag": "h4",
+        "text": "Deals"
+      },
+      {
+        "tag": "h4",
+        "text": "FOX Business"
+      },
+      {
+        "tag": "h4",
+        "text": "Science & Tech"
+      },
+      {
+        "tag": "h4",
+        "text": "Watch Live"
+      },
+      {
+        "tag": "h4",
+        "text": "Apps & Products"
+      },
+      {
+        "tag": "h4",
+        "text": "Games"
+      },
+      {
+        "tag": "h4",
+        "text": "Deals"
+      },
+      {
+        "tag": "h4",
+        "text": "FOX Business"
+      },
+      {
+        "tag": "h4",
+        "text": "Science & Tech"
+      },
+      {
+        "tag": "h4",
+        "text": "Watch Live"
+      },
+      {
+        "tag": "h4",
+        "text": "Apps & Products"
+      },
+      {
+        "tag": "h1",
+        "text": "Immigration"
+      },
+      {
+        "tag": "h2",
+        "text": "Sanctuary states need crackdown as Americans pay price for illegal immigrant truckers: GOP lawmaker"
+      },
+      {
+        "tag": "h2",
+        "text": "250 border agents to deploy to Louisiana for 'Swamp Sweep,' report says"
+      },
+      {
+        "tag": "h2",
+        "text": "Pope Leo XIV strongly supports US bishops' condemnation of Trump immigration raids: 'Extremely disrespectful'"
+      },
+      {
+        "tag": "h3",
+        "text": "Migrant Crime"
+      },
+      {
+        "tag": "h4",
+        "text": "ICE arrests Uzbek terror suspect working as truck driver as Homan blames Biden admin's lack of vetting"
+      },
+      {
+        "tag": "h4",
+        "text": "Houston ICE operation nets over 3,500 criminal illegal aliens in six weeks during shutdown"
+      },
+      {
+        "tag": "h4",
+        "text": "Newsom's sanctuary policies under fire after drunk illegal immigrant kills elderly man"
+      },
+      {
+        "tag": "h4",
+        "text": "Trump declares victory in Dem-run city despite \u2018extraordinary resistance\u2019 from sanctuary politicians"
+      },
+      {
+        "tag": "h3",
+        "text": "Channel Clips"
+      },
+      {
+        "tag": "h4",
+        "text": "Lawmaker warns sanctuary laws letting illegal truckers drive put lives at risk"
+      },
+      {
+        "tag": "h4",
+        "text": "DHS claims to have already arrested more than 200 illegal immigrants in Charlotte area"
+      },
+      {
+        "tag": "h4",
+        "text": "Border czar Tom Homan applauds ICE\u2019s actions and says protests are \u2018not going to stop us\u2019"
+      },
+      {
+        "tag": "h4",
+        "text": "\u2018Operation Charlotte\u2019s Web\u2019 continues to draw community ire"
+      },
+      {
+        "tag": "h4",
+        "text": "North Carolina school district releases memo on 'supporting student absences' due to ICE raids"
+      },
+      {
+        "tag": "h4",
+        "text": "Sanctuary states need crackdown as Americans pay price for illegal immigrant truckers: GOP lawmaker"
+      },
+      {
+        "tag": "h4",
+        "text": "250 border agents to deploy to Louisiana for 'Swamp Sweep,' report says"
+      },
+      {
+        "tag": "h4",
+        "text": "An illegal immigrant killed my daughter. Katie and Illinois are both getting justice"
+      },
+      {
+        "tag": "h4",
+        "text": "Pope Leo XIV strongly supports US bishops' condemnation of Trump immigration raids: 'Extremely disrespectful'"
+      },
+      {
+        "tag": "h4",
+        "text": "DHS launching massive immigration operation in Louisiana, Mississippi: 'Swamp Sweep'"
+      },
+      {
+        "tag": "h4",
+        "text": "Lawmaker warns sanctuary laws letting illegal truckers drive put lives at risk"
+      },
+      {
+        "tag": "h4",
+        "text": "Illegal immigrant accused of grabbing ICE officer's taser while shouting 'Allahu akbar' during arrest"
+      },
+      {
+        "tag": "h4",
+        "text": "DHS claims to have already arrested more than 200 illegal immigrants in Charlotte area"
+      },
+      {
+        "tag": "h4",
+        "text": "Border czar Tom Homan applauds ICE\u2019s actions and says protests are \u2018not going to stop us\u2019"
+      },
+      {
+        "tag": "h2",
+        "text": "Immigration: What to know about border security, US immigration policy and more"
+      },
+      {
+        "tag": "h3",
+        "text": "More on Immigration"
+      },
+      {
+        "tag": "h4",
+        "text": "ICE begins new, nationwide effort to arrest illegal aliens at immigration hearings"
+      },
+      {
+        "tag": "h4",
+        "text": "Trump nabs 30K illegal immigrants, 1,100 gang members in 100 days: 'Crime will go down,' ex-FBI agent says"
+      },
+      {
+        "tag": "h4",
+        "text": "New report reveals illegal immigrant population hit new high during Biden-era crisis"
+      },
+      {
+        "tag": "h3",
+        "text": "Latest Videos"
+      },
+      {
+        "tag": "h4",
+        "text": "Socialism will 'help the Republican Party if it spreads,' influencer says"
+      },
+      {
+        "tag": "h4",
+        "text": "Attorney reacts to 'bombshell' twist in death of high school cheerleader found on cruise ship"
+      },
+      {
+        "tag": "h4",
+        "text": "Anti-Muslim protesters clash with crowd in Dearborn, Michigan"
+      },
+      {
+        "tag": "h4",
+        "text": "Riley Gaines speaks at first UT Chattanooga TPUSA chapter event"
+      },
+      {
+        "tag": "h4",
+        "text": "The Dept of Education has become the 'epitome of grift,' ex-Trump 2024 official says"
+      },
+      {
+        "tag": "h4",
+        "text": "U.S."
+      },
+      {
+        "tag": "h4",
+        "text": "Politics"
+      },
+      {
+        "tag": "h4",
+        "text": "World"
+      },
+      {
+        "tag": "h4",
+        "text": "Opinion"
+      },
+      {
+        "tag": "h4",
+        "text": "Media"
+      },
+      {
+        "tag": "h4",
+        "text": "Entertainment"
+      },
+      {
+        "tag": "h4",
+        "text": "Sports"
+      },
+      {
+        "tag": "h4",
+        "text": "Lifestyle"
+      },
+      {
+        "tag": "h4",
+        "text": "Health"
+      },
+      {
+        "tag": "h4",
+        "text": "Deals"
+      },
+      {
+        "tag": "h4",
+        "text": "FOX Business"
+      },
+      {
+        "tag": "h4",
+        "text": "Science & Tech"
+      },
+      {
+        "tag": "h4",
+        "text": "Games"
+      },
+      {
+        "tag": "h4",
+        "text": "Watch Live"
+      },
+      {
+        "tag": "h4",
+        "text": "About"
+      },
+      {
+        "tag": "h4",
+        "text": "Apps & Products"
+      },
+      {
+        "tag": "h4",
+        "text": "U.S."
+      },
+      {
+        "tag": "h4",
+        "text": "Politics"
+      },
+      {
+        "tag": "h4",
+        "text": "World"
+      },
+      {
+        "tag": "h4",
+        "text": "Opinion"
+      },
+      {
+        "tag": "h4",
+        "text": "Media"
+      },
+      {
+        "tag": "h4",
+        "text": "Entertainment"
+      },
+      {
+        "tag": "h4",
+        "text": "Sports"
+      },
+      {
+        "tag": "h4",
+        "text": "Lifestyle"
+      },
+      {
+        "tag": "h4",
+        "text": "Health"
+      },
+      {
+        "tag": "h4",
+        "text": "Deals"
+      },
+      {
+        "tag": "h4",
+        "text": "FOX Business"
+      },
+      {
+        "tag": "h4",
+        "text": "Science & Tech"
+      },
+      {
+        "tag": "h4",
+        "text": "Games"
+      },
+      {
+        "tag": "h4",
+        "text": "Watch Live"
+      },
+      {
+        "tag": "h4",
+        "text": "About"
+      },
+      {
+        "tag": "h4",
+        "text": "Apps & Products"
+      }
+    ],
+    "paragraphs": [
+      "This material may not be published, broadcast, rewritten, or redistributed. \u00a92025 FOX News Network, LLC. All rights reserved. Quotes displayed in real-time or delayed by at least 15 minutes. Market data provided by Factset. Powered and implemented by FactSet Digital Solutions. Legal Statement. Mutual Fund and ETF data provided by Refinitiv Lipper.",
+      "Wake County Public Schools Superintendent Robert P. Taylor issued guidance supporting student absences amid anxiety over recent ICE raids in North Carolina.",
+      "Florida congressman demands federal intervention as sanctuary states allow illegal immigrants to obtain commercial licenses, creating public safety risks nationwide.",
+      "Homeland Security is reportedly planning an operation in New Orleans, deploying 250 immigrant agents with the goal of 5,000 arrests across Louisiana.",
+      "Joe Abraham's daughter Katie was killed by an illegal alien drunken driver, so the Department of Homeland Security's \"Operation Midway Blitz\" is honoring her.",
+      "Pope Leo XIV backed U.S. Catholic bishops in condemning the Trump administration's immigration sweeps, urging Americans to treat migrants with dignity.",
+      "Trump administration reportedly deploying 250 federal border agents to Louisiana and Mississippi in massive immigration crackdown targeting nearly 5,000 people.",
+      "Rep. Byron Donalds says illegal immigrants driving 80,000-pound trucks under sanctuary laws pose a serious threat to highway safety.",
+      "Saim Irgi, a 39-year-old illegal immigrant from Turkey with prior assault charges, was arrested by ICE after allegedly fighting with officers in Buffalo, New York.",
+      "Fox News correspondent Madison Scarpino reports from Charlotte, N.C., where anti-I.C.E. protests are mounting on 'Jesse Watters Primetime.'",
+      "White House border czar Tom Homan responds to comments from Chicago Mayor Brandon Johnson and defends I.C.E.\u2019s record amid protests in Charlotte, N.C., on \u2018Jesse Watters Primetime.\u2019",
+      "Immigration in the United States has become a controversial topic in the political arena. There are several steps one must take to become a U.S. citizen, which are outlined on the U.S. Citizenship and Immigration Services website. These steps include preparing an application for naturalization, paying fees, completing an interview and taking the oath of allegiance to the United States.",
+      "President Donald Trump and his administration prioritized securing the border and cracking down on the millions of undocumented immigrants already living in the country. U.S. Immigration and Customs Enforcement is the federal agency responsible for enforcing immigration laws. Since beginning his second term in the White House, Trump has worked to initiate the deportation of undocumented immigrants.",
+      "Thousands of people gathered in downtown Los Angeles for protest demonstrations over immigration. The scene turned from peaceful to violent as rising unrest prompted police to deploy tear gas. The Los Angeles immigration protests were among other nationwide protests against federal immigration raids conducted by ICE agents. California Gov. Gavin Newsom has continued to blame Trump for the escalating protests, claiming that they were peaceful demonstrations before the National Guard and Trump's rhetoric intensified the conflict.",
+      "\u201cAlligator Alcatraz,\u201d the nation's newest detention facility for undocumented immigrants, is located in the Florida Everglades and surrounded by swampland teeming with alligators and pythons. Florida Gov. Ron DeSantis authorized the construction of the detention center on a 30-square-mile property in the swamplands of Miami-Dade County under an emergency order in June 2025. The property, a former airport, has been outfitted with sturdy tent structures to house 5,000 undocumented immigrants amid the Trump administration's deportation blitz to remove the millions of migrants who entered the country during the Biden administration.",
+      "This material may not be published, broadcast, rewritten, or redistributed. \u00a92025 FOX News Network, LLC. All rights reserved. Quotes displayed in real-time or delayed by at least 15 minutes. Market data provided by\n        Factset. Powered and implemented by\n        FactSet Digital Solutions.\n        Legal Statement. Mutual Fund and ETF data provided by\n        Refinitiv Lipper."
+    ],
+    "wordCount": 605
+  },
+  "links": {
+    "internal": [
+      {
+        "label": "Fox News Media",
+        "href": "https://www.foxnews.com/"
+      },
+      {
+        "label": "Books",
+        "href": "https://www.foxnews.com/books"
+      },
+      {
+        "label": "Fox News",
+        "href": "https://www.foxnews.com/"
+      },
+      {
+        "label": "U.S.",
+        "href": "https://www.foxnews.com/us"
+      },
+      {
+        "label": "Blue City Crime",
+        "href": "https://www.foxnews.com/category/us/blue-city-crime"
+      },
+      {
+        "label": "Campus Radicals",
+        "href": "https://www.foxnews.com/category/us/campus-radicals"
+      },
+      {
+        "label": "Border Crisis",
+        "href": "https://www.foxnews.com/category/us/immigration"
+      },
+      {
+        "label": "True Crime",
+        "href": "https://www.foxnews.com/true-crime"
+      },
+      {
+        "label": "Politics",
+        "href": "https://www.foxnews.com/politics"
+      },
+      {
+        "label": "Donald Trump",
+        "href": "https://www.foxnews.com/category/person/donald-trump"
+      },
+      {
+        "label": "Senate",
+        "href": "https://www.foxnews.com/category/politics/senate"
+      },
+      {
+        "label": "House",
+        "href": "https://www.foxnews.com/category/politics/house-of-representatives"
+      },
+      {
+        "label": "Judiciary",
+        "href": "https://www.foxnews.com/category/politics/judiciary"
+      },
+      {
+        "label": "Foreign Policy",
+        "href": "https://www.foxnews.com/category/politics/foreign-policy"
+      },
+      {
+        "label": "Fox News Polls",
+        "href": "https://www.foxnews.com/official-polls"
+      },
+      {
+        "label": "2025 Elections Coverage",
+        "href": "https://www.foxnews.com/elections"
+      },
+      {
+        "label": "World",
+        "href": "https://www.foxnews.com/world"
+      },
+      {
+        "label": "U.N.",
+        "href": "https://www.foxnews.com/category/world/united-nations"
+      },
+      {
+        "label": "Conflicts",
+        "href": "https://www.foxnews.com/category/world/conflicts"
+      },
+      {
+        "label": "Terrorism",
+        "href": "https://www.foxnews.com/category/world/terrorism"
+      },
+      {
+        "label": "Disasters",
+        "href": "https://www.foxnews.com/category/disasters"
+      },
+      {
+        "label": "Global Economy",
+        "href": "https://www.foxnews.com/category/world/global-economy"
+      },
+      {
+        "label": "Environment",
+        "href": "https://www.foxnews.com/category/environment"
+      },
+      {
+        "label": "Religion",
+        "href": "https://www.foxnews.com/category/world/religion"
+      },
+      {
+        "label": "Scandals",
+        "href": "https://www.foxnews.com/category/world/scandals"
+      },
+      {
+        "label": "Opinion",
+        "href": "https://www.foxnews.com/opinion"
+      },
+      {
+        "label": "Media",
+        "href": "https://www.foxnews.com/media"
+      },
+      {
+        "label": "Fox Nation Coverage",
+        "href": "https://www.foxnews.com/shows/fox-nation"
+      },
+      {
+        "label": "Entertainment",
+        "href": "https://www.foxnews.com/entertainment"
+      },
+      {
+        "label": "Prince Andrew",
+        "href": "https://www.foxnews.com/category/person/prince-andrew"
+      },
+      {
+        "label": "Katy Perry",
+        "href": "https://www.foxnews.com/category/person/katy-perry"
+      },
+      {
+        "label": "Royal Families",
+        "href": "https://www.foxnews.com/category/world/personalities/british-royals"
+      },
+      {
+        "label": "Country Music",
+        "href": "https://www.foxnews.com/category/entertainment/genres/country"
+      },
+      {
+        "label": "Nicole Kidman",
+        "href": "https://www.foxnews.com/category/person/nicole-kidman"
+      },
+      {
+        "label": "Sports",
+        "href": "https://www.foxnews.com/sports"
+      },
+      {
+        "label": "NFL",
+        "href": "https://www.foxnews.com/category/sports/nfl"
+      },
+      {
+        "label": "College Football",
+        "href": "https://www.foxnews.com/category/sports/ncaa-fb"
+      },
+      {
+        "label": "MLB",
+        "href": "https://www.foxnews.com/category/sports/mlb"
+      },
+      {
+        "label": "NASCAR",
+        "href": "https://www.foxnews.com/category/auto/nascar"
+      },
+      {
+        "label": "INDYCAR",
+        "href": "https://www.foxnews.com/category/auto/indycar"
+      },
+      {
+        "label": "NBA",
+        "href": "https://www.foxnews.com/category/sports/nba"
+      },
+      {
+        "label": "NHL",
+        "href": "https://www.foxnews.com/category/sports/nhl"
+      },
+      {
+        "label": "Golf",
+        "href": "https://www.foxnews.com/category/sports/golf"
+      },
+      {
+        "label": "Tennis",
+        "href": "https://www.foxnews.com/category/sports/tennis"
+      },
+      {
+        "label": "UFC",
+        "href": "https://www.foxnews.com/category/sports/ufc"
+      },
+      {
+        "label": "WWE",
+        "href": "https://www.foxnews.com/category/organization/wwe"
+      },
+      {
+        "label": "Lifestyle",
+        "href": "https://www.foxnews.com/lifestyle"
+      },
+      {
+        "label": "Travel",
+        "href": "https://www.foxnews.com/travel"
+      },
+      {
+        "label": "Food & Drink",
+        "href": "https://www.foxnews.com/food-drink"
+      },
+      {
+        "label": "Faith",
+        "href": "https://www.foxnews.com/faith-values"
+      },
+      {
+        "label": "Discovery",
+        "href": "https://www.foxnews.com/category/science/archaeology"
+      },
+      {
+        "label": "Games & Quizzes",
+        "href": "https://www.foxnews.com/games"
+      },
+      {
+        "label": "Health",
+        "href": "https://www.foxnews.com/health"
+      },
+      {
+        "label": "Weight Loss",
+        "href": "https://www.foxnews.com/category/health/nutrition-and-fitness/weight-loss"
+      },
+      {
+        "label": "Cancer",
+        "href": "https://www.foxnews.com/category/health/cancer"
+      },
+      {
+        "label": "Brain Health",
+        "href": "https://www.foxnews.com/category/health/brain-health"
+      },
+      {
+        "label": "Sleep",
+        "href": "https://www.foxnews.com/category/health/sleep-disorders"
+      },
+      {
+        "label": "Heart Health",
+        "href": "https://www.foxnews.com/category/health/heart-health"
+      },
+      {
+        "label": "Healthy Living",
+        "href": "https://www.foxnews.com/category/health/healthy-living"
+      },
+      {
+        "label": "Mental Health",
+        "href": "https://www.foxnews.com/category/health/mental-health"
+      },
+      {
+        "label": "MAHA",
+        "href": "https://www.foxnews.com/category/health/maha"
+      },
+      {
+        "label": "Video",
+        "href": "https://www.foxnews.com/video"
+      },
+      {
+        "label": "AI",
+        "href": "https://www.foxnews.com/category/tech/artificial-intelligence"
+      },
+      {
+        "label": "Watch\n            TV",
+        "href": "https://www.foxnews.com/video/5614615980001"
+      },
+      {
+        "label": "Home",
+        "href": "https://www.foxnews.com/"
+      },
+      {
+        "label": "EPSTEIN FILES",
+        "href": "https://www.foxnews.com/category/person/jeffrey-epstein"
+      },
+      {
+        "label": "TRUMP NEWS",
+        "href": "https://www.foxnews.com/category/person/donald-trump"
+      },
+      {
+        "label": "CAMPUS RADICALS",
+        "href": "https://www.foxnews.com/category/us/campus-radicals"
+      },
+      {
+        "label": "CHARLIE KIRK",
+        "href": "https://www.foxnews.com/category/media/charlie-kirk"
+      },
+      {
+        "label": "Games",
+        "href": "https://www.foxnews.com/games"
+      },
+      {
+        "label": "Scattergories Daily",
+        "href": "https://www.foxnews.com/games/scattergories-daily"
+      },
+      {
+        "label": "5 Across the Letter Word Game",
+        "href": "https://www.foxnews.com/games/5-across-word-game"
+      },
+      {
+        "label": "DownWords",
+        "href": "https://www.foxnews.com/games/lil-snack-downwords"
+      },
+      {
+        "label": "Sudoku",
+        "href": "https://www.foxnews.com/games/sudoku"
+      },
+      {
+        "label": "Swap Words",
+        "href": "https://www.foxnews.com/games/lil-snack-word-swap"
+      },
+      {
+        "label": "Word Search",
+        "href": "https://www.foxnews.com/games/word-search"
+      },
+      {
+        "label": "Icon Match",
+        "href": "https://www.foxnews.com/games/icon-match-puzzle"
+      },
+      {
+        "label": "Daily Crossword Puzzle",
+        "href": "https://www.foxnews.com/games/daily-crossword-puzzle"
+      },
+      {
+        "label": "Mini Crossword Puzzle",
+        "href": "https://www.foxnews.com/games/mini-crossword-puzzle"
+      },
+      {
+        "label": "Deals",
+        "href": "https://www.foxnews.com/deals"
+      },
+      {
+        "label": "Holiday Shopping",
+        "href": "https://www.foxnews.com/category/deals/trending"
+      },
+      {
+        "label": "Gift Guides",
+        "href": "https://www.foxnews.com/category/deals/gift"
+      },
+      {
+        "label": "Home Deals",
+        "href": "https://www.foxnews.com/category/deals/home"
+      },
+      {
+        "label": "Kitchen Deals",
+        "href": "https://www.foxnews.com/category/deals/kitchen"
+      },
+      {
+        "label": "Tech and Electronic Deals",
+        "href": "https://www.foxnews.com/category/deals/tech-and-electronic"
+      },
+      {
+        "label": "Health and Fitness Deals",
+        "href": "https://www.foxnews.com/category/deals/health-and-fitness"
+      },
+      {
+        "label": "Beauty and Fashion Deals",
+        "href": "https://www.foxnews.com/category/deals/beauty-and-fashion"
+      },
+      {
+        "label": "Science & Tech",
+        "href": "https://www.foxnews.com/tech"
+      },
+      {
+        "label": "Air & Space",
+        "href": "https://www.foxnews.com/category/science/air-and-space"
+      },
+      {
+        "label": "Security",
+        "href": "https://www.foxnews.com/category/tech/topics/security"
+      },
+      {
+        "label": "Innovation",
+        "href": "https://www.foxnews.com/category/tech/topics/innovation"
+      },
+      {
+        "label": "Video Games",
+        "href": "https://www.foxnews.com/category/tech/topics/video-games"
+      },
+      {
+        "label": "Military Tech",
+        "href": "https://www.foxnews.com/category/tech/topics/military-tech"
+      },
+      {
+        "label": "Planet Earth",
+        "href": "https://www.foxnews.com/category/science/planet-earth"
+      },
+      {
+        "label": "Wild Nature",
+        "href": "https://www.foxnews.com/category/science/wild-nature"
+      },
+      {
+        "label": "Watch Live",
+        "href": "https://www.foxnews.com/video/5614615980001"
+      },
+      {
+        "label": "FOX News Shows",
+        "href": "https://www.foxnews.com/shows"
+      },
+      {
+        "label": "Programming Schedule",
+        "href": "https://www.foxnews.com/fnctv"
+      },
+      {
+        "label": "On Air Personalities",
+        "href": "https://www.foxnews.com/person/personalities"
+      },
+      {
+        "label": "Full Episodes",
+        "href": "https://www.foxnews.com/video/shows"
+      },
+      {
+        "label": "Show Clips",
+        "href": "https://www.foxnews.com/video/topics/v-most-recent-episodes"
+      },
+      {
+        "label": "News Clips",
+        "href": "https://www.foxnews.com/video/topics/latest-news-video"
+      },
+      {
+        "label": "Apps & Products",
+        "href": "https://www.foxnews.com/apps-products"
+      },
+      {
+        "label": "FOX News Go",
+        "href": "https://www.foxnews.com/go"
+      },
+      {
+        "label": "Newsletters",
+        "href": "https://www.foxnews.com/newsletters"
+      },
+      {
+        "label": "Games",
+        "href": "https://www.foxnews.com/games"
+      },
+      {
+        "label": "Scattergories Daily",
+        "href": "https://www.foxnews.com/games/scattergories-daily"
+      },
+      {
+        "label": "5 Across the Letter Word Game",
+        "href": "https://www.foxnews.com/games/5-across-word-game"
+      },
+      {
+        "label": "DownWords",
+        "href": "https://www.foxnews.com/games/lil-snack-downwords"
+      },
+      {
+        "label": "Sudoku",
+        "href": "https://www.foxnews.com/games/sudoku"
+      },
+      {
+        "label": "Swap Words",
+        "href": "https://www.foxnews.com/games/lil-snack-word-swap"
+      },
+      {
+        "label": "Word Search",
+        "href": "https://www.foxnews.com/games/word-search"
+      },
+      {
+        "label": "Icon Match",
+        "href": "https://www.foxnews.com/games/icon-match-puzzle"
+      },
+      {
+        "label": "Daily Crossword Puzzle",
+        "href": "https://www.foxnews.com/games/daily-crossword-puzzle"
+      },
+      {
+        "label": "Mini Crossword Puzzle",
+        "href": "https://www.foxnews.com/games/mini-crossword-puzzle"
+      },
+      {
+        "label": "Deals",
+        "href": "https://www.foxnews.com/deals"
+      },
+      {
+        "label": "Holiday Shopping",
+        "href": "https://www.foxnews.com/category/deals/trending"
+      },
+      {
+        "label": "Gift Guides",
+        "href": "https://www.foxnews.com/category/deals/gift"
+      },
+      {
+        "label": "Home Deals",
+        "href": "https://www.foxnews.com/category/deals/home"
+      },
+      {
+        "label": "Kitchen Deals",
+        "href": "https://www.foxnews.com/category/deals/kitchen"
+      },
+      {
+        "label": "Tech and Electronic Deals",
+        "href": "https://www.foxnews.com/category/deals/tech-and-electronic"
+      },
+      {
+        "label": "Health and Fitness Deals",
+        "href": "https://www.foxnews.com/category/deals/health-and-fitness"
+      },
+      {
+        "label": "Beauty and Fashion Deals",
+        "href": "https://www.foxnews.com/category/deals/beauty-and-fashion"
+      },
+      {
+        "label": "Science & Tech",
+        "href": "https://www.foxnews.com/tech"
+      },
+      {
+        "label": "Air & Space",
+        "href": "https://www.foxnews.com/category/science/air-and-space"
+      },
+      {
+        "label": "Security",
+        "href": "https://www.foxnews.com/category/tech/topics/security"
+      },
+      {
+        "label": "Innovation",
+        "href": "https://www.foxnews.com/category/tech/topics/innovation"
+      },
+      {
+        "label": "Video Games",
+        "href": "https://www.foxnews.com/category/tech/topics/video-games"
+      },
+      {
+        "label": "Military Tech",
+        "href": "https://www.foxnews.com/category/tech/topics/military-tech"
+      },
+      {
+        "label": "Planet Earth",
+        "href": "https://www.foxnews.com/category/science/planet-earth"
+      },
+      {
+        "label": "Wild Nature",
+        "href": "https://www.foxnews.com/category/science/wild-nature"
+      },
+      {
+        "label": "Watch Live",
+        "href": "https://www.foxnews.com/video/5614615980001"
+      },
+      {
+        "label": "FOX News Shows",
+        "href": "https://www.foxnews.com/shows"
+      },
+      {
+        "label": "Programming Schedule",
+        "href": "https://www.foxnews.com/fnctv"
+      },
+      {
+        "label": "On Air Personalities",
+        "href": "https://www.foxnews.com/person/personalities"
+      },
+      {
+        "label": "Full Episodes",
+        "href": "https://www.foxnews.com/video/shows"
+      },
+      {
+        "label": "Show Clips",
+        "href": "https://www.foxnews.com/video/topics/v-most-recent-episodes"
+      },
+      {
+        "label": "News Clips",
+        "href": "https://www.foxnews.com/video/topics/latest-news-video"
+      },
+      {
+        "label": "Apps & Products",
+        "href": "https://www.foxnews.com/apps-products"
+      },
+      {
+        "label": "FOX News Go",
+        "href": "https://www.foxnews.com/go"
+      },
+      {
+        "label": "Newsletters",
+        "href": "https://www.foxnews.com/newsletters"
+      },
+      {
+        "label": "RSS",
+        "href": "https://www.foxnews.com/story/foxnews-com-rss-feeds"
+      },
+      {
+        "label": "Newsletters",
+        "href": "https://www.foxnews.com/newsletters"
+      },
+      {
+        "label": "Fox News",
+        "href": "https://www.foxnews.com"
+      },
+      {
+        "label": "Terms of Use",
+        "href": "https://www.foxnews.com/terms-of-use"
+      },
+      {
+        "label": "Privacy Policy",
+        "href": "https://www.foxnews.com/privacy-policy"
+      },
+      {
+        "label": "Closed Caption Policy",
+        "href": "https://www.foxnews.com/closed-captioning"
+      },
+      {
+        "label": "Contact Us",
+        "href": "https://www.foxnews.com/contact"
+      },
+      {
+        "label": "Accessibility Statement",
+        "href": "https://www.foxnews.com/accessibility-statement"
+      },
+      {
+        "label": "News Sitemap",
+        "href": "https://www.foxnews.com/html-sitemap"
+      },
+      {
+        "label": "Video Sitemap",
+        "href": "https://www.foxnews.com/html-video-sitemap"
+      },
+      {
+        "label": "",
+        "href": "https://www.foxnews.com/us/sanctuary-states-need-crackdown-americans-pay-price-illegal-immigrant-truckers-gop-lawmaker"
+      },
+      {
+        "label": "Sanctuary Cities",
+        "href": "https://www.foxnews.com/category/topic/sanctuary-cities"
+      },
+      {
+        "label": "Sanctuary states need crackdown as Americans pay price for illegal immigrant truckers: GOP lawmaker",
+        "href": "https://www.foxnews.com/us/sanctuary-states-need-crackdown-americans-pay-price-illegal-immigrant-truckers-gop-lawmaker"
+      },
+      {
+        "label": "",
+        "href": "https://www.foxnews.com/politics/250-border-agents-deploy-louisiana-swamp-sweep-report-says"
+      },
+      {
+        "label": "Immigration",
+        "href": "https://www.foxnews.com/category/us/immigration"
+      },
+      {
+        "label": "250 border agents to deploy to Louisiana for 'Swamp Sweep,' report says",
+        "href": "https://www.foxnews.com/politics/250-border-agents-deploy-louisiana-swamp-sweep-report-says"
+      },
+      {
+        "label": "",
+        "href": "https://www.foxnews.com/world/pope-leo-xiv-strongly-supports-us-bishops-condemnation-trump-immigration-raids-extremely-disrespectful"
+      },
+      {
+        "label": "Pope Leo XIV",
+        "href": "https://www.foxnews.com/category/person/pope-leo-xiv"
+      },
+      {
+        "label": "Pope Leo XIV strongly supports US bishops' condemnation of Trump immigration raids: 'Extremely disrespectful'",
+        "href": "https://www.foxnews.com/world/pope-leo-xiv-strongly-supports-us-bishops-condemnation-trump-immigration-raids-extremely-disrespectful"
+      },
+      {
+        "label": "",
+        "href": "https://www.foxnews.com/media/ice-arrests-uzbek-terror-suspect-working-truck-driver-tom-homan-slams-biden-team-over-migrant-vetting"
+      },
+      {
+        "label": "Fox News Flash",
+        "href": "https://www.foxnews.com/category/media/fox-news-flash"
+      },
+      {
+        "label": "ICE arrests Uzbek terror suspect working as truck driver as Homan blames Biden admin's lack of vetting",
+        "href": "https://www.foxnews.com/media/ice-arrests-uzbek-terror-suspect-working-truck-driver-tom-homan-slams-biden-team-over-migrant-vetting"
+      },
+      {
+        "label": "",
+        "href": "https://www.foxnews.com/us/houston-ice-operation-nets-over-3500-criminal-illegal-aliens-six-weeks-during-shutdown"
+      },
+      {
+        "label": "Houston and Galveston",
+        "href": "https://www.foxnews.com/category/us/houston-and-galveston"
+      },
+      {
+        "label": "Houston ICE operation nets over 3,500 criminal illegal aliens in six weeks during shutdown",
+        "href": "https://www.foxnews.com/us/houston-ice-operation-nets-over-3500-criminal-illegal-aliens-six-weeks-during-shutdown"
+      },
+      {
+        "label": "",
+        "href": "https://www.foxnews.com/politics/newsoms-sanctuary-policies-under-scrutiny-after-drunk-illegal-kills-elderly-man"
+      },
+      {
+        "label": "Immigration",
+        "href": "https://www.foxnews.com/category/us/immigration"
+      },
+      {
+        "label": "Newsom's sanctuary policies under fire after drunk illegal immigrant kills elderly man",
+        "href": "https://www.foxnews.com/politics/newsoms-sanctuary-policies-under-scrutiny-after-drunk-illegal-kills-elderly-man"
+      },
+      {
+        "label": "",
+        "href": "https://www.foxnews.com/politics/trump-declares-victory-dem-run-city-despite-extraordinary-resistance-from-sanctuary-politicians"
+      },
+      {
+        "label": "Sanctuary Cities",
+        "href": "https://www.foxnews.com/category/topic/sanctuary-cities"
+      },
+      {
+        "label": "Trump declares victory in Dem-run city despite \u2018extraordinary resistance\u2019 from sanctuary politicians",
+        "href": "https://www.foxnews.com/politics/trump-declares-victory-dem-run-city-despite-extraordinary-resistance-from-sanctuary-politicians"
+      },
+      {
+        "label": "",
+        "href": "https://www.foxnews.com/video/6385279491112"
+      },
+      {
+        "label": "0:03:42",
+        "href": "https://www.foxnews.com/video/6385279491112"
+      },
+      {
+        "label": "VIDEO",
+        "href": "https://www.foxnews.com"
+      },
+      {
+        "label": "Lawmaker warns sanctuary laws letting illegal truckers drive put lives at risk",
+        "href": "https://www.foxnews.com/video/6385279491112"
+      },
+      {
+        "label": "",
+        "href": "https://www.foxnews.com/video/6385281626112"
+      },
+      {
+        "label": "0:01:42",
+        "href": "https://www.foxnews.com/video/6385281626112"
+      },
+      {
+        "label": "VIDEO",
+        "href": "https://www.foxnews.com"
+      },
+      {
+        "label": "DHS claims to have already arrested more than 200 illegal immigrants in Charlotte area",
+        "href": "https://www.foxnews.com/video/6385281626112"
+      },
+      {
+        "label": "",
+        "href": "https://www.foxnews.com/video/6385281094112"
+      },
+      {
+        "label": "0:03:37",
+        "href": "https://www.foxnews.com/video/6385281094112"
+      },
+      {
+        "label": "VIDEO",
+        "href": "https://www.foxnews.com"
+      },
+      {
+        "label": "Border czar Tom Homan applauds ICE\u2019s actions and says protests are \u2018not going to stop us\u2019",
+        "href": "https://www.foxnews.com/video/6385281094112"
+      },
+      {
+        "label": "",
+        "href": "https://www.foxnews.com/video/6385275840112"
+      },
+      {
+        "label": "0:02:11",
+        "href": "https://www.foxnews.com/video/6385275840112"
+      },
+      {
+        "label": "VIDEO",
+        "href": "https://www.foxnews.com"
+      },
+      {
+        "label": "\u2018Operation Charlotte\u2019s Web\u2019 continues to draw community ire",
+        "href": "https://www.foxnews.com/video/6385275840112"
+      },
+      {
+        "label": "",
+        "href": "https://www.foxnews.com/media/north-carolina-school-district-releases-memo-supporting-student-absences-due-ice-raids"
+      },
+      {
+        "label": "Media",
+        "href": "https://www.foxnews.com/category/media"
+      },
+      {
+        "label": "North Carolina school district releases memo on 'supporting student absences' due to ICE raids",
+        "href": "https://www.foxnews.com/media/north-carolina-school-district-releases-memo-supporting-student-absences-due-ice-raids"
+      },
+      {
+        "label": "Wake County Public Schools Superintendent Robert P. Taylor issued guidance supporting student absences amid anxiety over recent ICE raids in North Carolina.",
+        "href": "https://www.foxnews.com/media/north-carolina-school-district-releases-memo-supporting-student-absences-due-ice-raids"
+      },
+      {
+        "label": "",
+        "href": "https://www.foxnews.com/us/sanctuary-states-need-crackdown-americans-pay-price-illegal-immigrant-truckers-gop-lawmaker"
+      },
+      {
+        "label": "Sanctuary Cities",
+        "href": "https://www.foxnews.com/category/topic/sanctuary-cities"
+      },
+      {
+        "label": "Sanctuary states need crackdown as Americans pay price for illegal immigrant truckers: GOP lawmaker",
+        "href": "https://www.foxnews.com/us/sanctuary-states-need-crackdown-americans-pay-price-illegal-immigrant-truckers-gop-lawmaker"
+      },
+      {
+        "label": "Florida congressman demands federal intervention as sanctuary states allow illegal immigrants to obtain commercial licenses, creating public safety risks nationwide.",
+        "href": "https://www.foxnews.com/us/sanctuary-states-need-crackdown-americans-pay-price-illegal-immigrant-truckers-gop-lawmaker"
+      },
+      {
+        "label": "",
+        "href": "https://www.foxnews.com/politics/250-border-agents-deploy-louisiana-swamp-sweep-report-says"
+      },
+      {
+        "label": "Immigration",
+        "href": "https://www.foxnews.com/category/us/immigration"
+      },
+      {
+        "label": "250 border agents to deploy to Louisiana for 'Swamp Sweep,' report says",
+        "href": "https://www.foxnews.com/politics/250-border-agents-deploy-louisiana-swamp-sweep-report-says"
+      },
+      {
+        "label": "Homeland Security is reportedly planning an operation in New Orleans, deploying 250 immigrant agents with the goal of 5,000 arrests across Louisiana.",
+        "href": "https://www.foxnews.com/politics/250-border-agents-deploy-louisiana-swamp-sweep-report-says"
+      },
+      {
+        "label": "",
+        "href": "https://www.foxnews.com/opinion/illegal-immigrant-killed-my-daughter-katie-illinois-both-getting-justice"
+      },
+      {
+        "label": "Opinion",
+        "href": "https://www.foxnews.com/category/opinion"
+      },
+      {
+        "label": "An illegal immigrant killed my daughter. Katie and Illinois are both getting justice",
+        "href": "https://www.foxnews.com/opinion/illegal-immigrant-killed-my-daughter-katie-illinois-both-getting-justice"
+      },
+      {
+        "label": "Joe Abraham's daughter Katie was killed by an illegal alien drunken driver, so the Department of Homeland Security's \"Operation Midway Blitz\" is honoring her.",
+        "href": "https://www.foxnews.com/opinion/illegal-immigrant-killed-my-daughter-katie-illinois-both-getting-justice"
+      },
+      {
+        "label": "",
+        "href": "https://www.foxnews.com/world/pope-leo-xiv-strongly-supports-us-bishops-condemnation-trump-immigration-raids-extremely-disrespectful"
+      },
+      {
+        "label": "Pope Leo XIV",
+        "href": "https://www.foxnews.com/category/person/pope-leo-xiv"
+      },
+      {
+        "label": "Pope Leo XIV strongly supports US bishops' condemnation of Trump immigration raids: 'Extremely disrespectful'",
+        "href": "https://www.foxnews.com/world/pope-leo-xiv-strongly-supports-us-bishops-condemnation-trump-immigration-raids-extremely-disrespectful"
+      },
+      {
+        "label": "Pope Leo XIV backed U.S. Catholic bishops in condemning the Trump administration's immigration sweeps, urging Americans to treat migrants with dignity.",
+        "href": "https://www.foxnews.com/world/pope-leo-xiv-strongly-supports-us-bishops-condemnation-trump-immigration-raids-extremely-disrespectful"
+      },
+      {
+        "label": "",
+        "href": "https://www.foxnews.com/politics/dhs-launching-massive-immigration-operation-louisiana-mississippi-swamp-sweep"
+      },
+      {
+        "label": "Louisiana",
+        "href": "https://www.foxnews.com/category/us/us-regions/southeast/louisiana"
+      },
+      {
+        "label": "DHS launching massive immigration operation in Louisiana, Mississippi: 'Swamp Sweep'",
+        "href": "https://www.foxnews.com/politics/dhs-launching-massive-immigration-operation-louisiana-mississippi-swamp-sweep"
+      },
+      {
+        "label": "Trump administration reportedly deploying 250 federal border agents to Louisiana and Mississippi in massive immigration crackdown targeting nearly 5,000 people.",
+        "href": "https://www.foxnews.com/politics/dhs-launching-massive-immigration-operation-louisiana-mississippi-swamp-sweep"
+      },
+      {
+        "label": "",
+        "href": "https://www.foxnews.com/video/6385279491112"
+      },
+      {
+        "label": "VIDEO",
+        "href": "https://www.foxnews.com/video"
+      },
+      {
+        "label": "Lawmaker warns sanctuary laws letting illegal truckers drive put lives at risk",
+        "href": "https://www.foxnews.com/video/6385279491112"
+      },
+      {
+        "label": "Rep. Byron Donalds says illegal immigrants driving 80,000-pound trucks under sanctuary laws pose a serious threat to highway safety.",
+        "href": "https://www.foxnews.com/video/6385279491112"
+      },
+      {
+        "label": "",
+        "href": "https://www.foxnews.com/us/illegal-immigrant-accused-grabbing-officers-taser-shouting-allahu-akbar-arrest"
+      },
+      {
+        "label": "Illegal Immigrants",
+        "href": "https://www.foxnews.com/category/us/immigration/illegal-immigrants"
+      },
+      {
+        "label": "Illegal immigrant accused of grabbing ICE officer's taser while shouting 'Allahu akbar' during arrest",
+        "href": "https://www.foxnews.com/us/illegal-immigrant-accused-grabbing-officers-taser-shouting-allahu-akbar-arrest"
+      },
+      {
+        "label": "Saim Irgi, a 39-year-old illegal immigrant from Turkey with prior assault charges, was arrested by ICE after allegedly fighting with officers in Buffalo, New York.",
+        "href": "https://www.foxnews.com/us/illegal-immigrant-accused-grabbing-officers-taser-shouting-allahu-akbar-arrest"
+      },
+      {
+        "label": "",
+        "href": "https://www.foxnews.com/video/6385281626112"
+      },
+      {
+        "label": "VIDEO",
+        "href": "https://www.foxnews.com/video"
+      },
+      {
+        "label": "DHS claims to have already arrested more than 200 illegal immigrants in Charlotte area",
+        "href": "https://www.foxnews.com/video/6385281626112"
+      },
+      {
+        "label": "Fox News correspondent Madison Scarpino reports from Charlotte, N.C., where anti-I.C.E. protests are mounting on 'Jesse Watters Primetime.'",
+        "href": "https://www.foxnews.com/video/6385281626112"
+      },
+      {
+        "label": "",
+        "href": "https://www.foxnews.com/video/6385281094112"
+      },
+      {
+        "label": "VIDEO",
+        "href": "https://www.foxnews.com/video"
+      },
+      {
+        "label": "Border czar Tom Homan applauds ICE\u2019s actions and says protests are \u2018not going to stop us\u2019",
+        "href": "https://www.foxnews.com/video/6385281094112"
+      },
+      {
+        "label": "White House border czar Tom Homan responds to comments from Chicago Mayor Brandon Johnson and defends I.C.E.\u2019s record amid protests in Charlotte, N.C., on \u2018Jesse Watters Primetime.\u2019",
+        "href": "https://www.foxnews.com/video/6385281094112"
+      },
+      {
+        "label": "United States",
+        "href": "https://www.foxnews.com/us"
+      },
+      {
+        "label": "Donald Trump",
+        "href": "https://www.foxnews.com/category/person/donald-trump"
+      },
+      {
+        "label": "undocumented immigrants",
+        "href": "https://www.foxnews.com/category/us/immigration/illegal-immigrants"
+      },
+      {
+        "label": "White House",
+        "href": "https://www.foxnews.com/category/politics/executive/white-house"
+      },
+      {
+        "label": "Los Angeles",
+        "href": "https://www.foxnews.com/category/us/los-angeles"
+      },
+      {
+        "label": "Gavin Newsom",
+        "href": "https://www.foxnews.com/category/person/gavin-newsom"
+      },
+      {
+        "label": "National Guard",
+        "href": "https://www.foxnews.com/category/us/military/national-guard"
+      },
+      {
+        "label": "Ron DeSantis",
+        "href": "https://www.foxnews.com/category/person/ron-desantis"
+      },
+      {
+        "label": "Miami-Dade",
+        "href": "https://www.foxnews.com/category/us/miami"
+      },
+      {
+        "label": "Biden administration",
+        "href": "https://www.foxnews.com/category/person/joe-biden"
+      },
+      {
+        "label": "",
+        "href": "https://www.foxnews.com/politics/ice-begins-new-nationwide-effort-arrest-illegal-aliens-immigration-hearings"
+      },
+      {
+        "label": "Immigration",
+        "href": "https://www.foxnews.com/category/us/immigration"
+      },
+      {
+        "label": "ICE begins new, nationwide effort to arrest illegal aliens at immigration hearings",
+        "href": "https://www.foxnews.com/politics/ice-begins-new-nationwide-effort-arrest-illegal-aliens-immigration-hearings"
+      },
+      {
+        "label": "",
+        "href": "https://www.foxnews.com/us/trump-nabs-30k-illegal-immigrants-1100-gang-members-100-days-crime-go-down-ex-fbi-agent-says"
+      },
+      {
+        "label": "Illegal Immigrants",
+        "href": "https://www.foxnews.com/category/us/immigration/illegal-immigrants"
+      },
+      {
+        "label": "Trump nabs 30K illegal immigrants, 1,100 gang members in 100 days: 'Crime will go down,' ex-FBI agent says",
+        "href": "https://www.foxnews.com/us/trump-nabs-30k-illegal-immigrants-1100-gang-members-100-days-crime-go-down-ex-fbi-agent-says"
+      },
+      {
+        "label": "",
+        "href": "https://www.foxnews.com/politics/new-report-reveals-illegal-immigrant-population-hit-new-high-during-biden-era-crisis"
+      },
+      {
+        "label": "Illegal Immigrants",
+        "href": "https://www.foxnews.com/category/us/immigration/illegal-immigrants"
+      },
+      {
+        "label": "New report reveals illegal immigrant population hit new high during Biden-era crisis",
+        "href": "https://www.foxnews.com/politics/new-report-reveals-illegal-immigrant-population-hit-new-high-during-biden-era-crisis"
+      },
+      {
+        "label": "",
+        "href": "https://www.foxnews.com/video/6385304014112"
+      },
+      {
+        "label": "0:05:53",
+        "href": "https://www.foxnews.com/video/6385304014112"
+      },
+      {
+        "label": "VIDEO",
+        "href": "https://www.foxnews.com/video"
+      },
+      {
+        "label": "Socialism will 'help the Republican Party if it spreads,' influencer says",
+        "href": "https://www.foxnews.com/video/6385304014112"
+      },
+      {
+        "label": "",
+        "href": "https://www.foxnews.com/video/6385302050112"
+      },
+      {
+        "label": "0:04:27",
+        "href": "https://www.foxnews.com/video/6385302050112"
+      },
+      {
+        "label": "VIDEO",
+        "href": "https://www.foxnews.com/video"
+      },
+      {
+        "label": "Attorney reacts to 'bombshell' twist in death of high school cheerleader found on cruise ship",
+        "href": "https://www.foxnews.com/video/6385302050112"
+      },
+      {
+        "label": "",
+        "href": "https://www.foxnews.com/video/6385301243112"
+      },
+      {
+        "label": "0:00:58",
+        "href": "https://www.foxnews.com/video/6385301243112"
+      },
+      {
+        "label": "VIDEO",
+        "href": "https://www.foxnews.com/video"
+      },
+      {
+        "label": "Anti-Muslim protesters clash with crowd in Dearborn, Michigan",
+        "href": "https://www.foxnews.com/video/6385301243112"
+      },
+      {
+        "label": "",
+        "href": "https://www.foxnews.com/video/6385298365112"
+      },
+      {
+        "label": "0:04:03",
+        "href": "https://www.foxnews.com/video/6385298365112"
+      },
+      {
+        "label": "VIDEO",
+        "href": "https://www.foxnews.com/video"
+      },
+      {
+        "label": "Riley Gaines speaks at first UT Chattanooga TPUSA chapter event",
+        "href": "https://www.foxnews.com/video/6385298365112"
+      },
+      {
+        "label": "",
+        "href": "https://www.foxnews.com/video/6385287914112"
+      },
+      {
+        "label": "0:05:47",
+        "href": "https://www.foxnews.com/video/6385287914112"
+      },
+      {
+        "label": "VIDEO",
+        "href": "https://www.foxnews.com/video"
+      },
+      {
+        "label": "The Dept of Education has become the 'epitome of grift,' ex-Trump 2024 official says",
+        "href": "https://www.foxnews.com/video/6385287914112"
+      },
+      {
+        "label": "U.S.",
+        "href": "https://www.foxnews.com/us"
+      },
+      {
+        "label": "Blue City Crime",
+        "href": "https://www.foxnews.com/category/us/blue-city-crime"
+      },
+      {
+        "label": "Campus Radicals",
+        "href": "https://www.foxnews.com/category/us/campus-radicals"
+      },
+      {
+        "label": "Border Crisis",
+        "href": "https://www.foxnews.com/category/us/immigration"
+      },
+      {
+        "label": "True Crime",
+        "href": "https://www.foxnews.com/true-crime"
+      },
+      {
+        "label": "Politics",
+        "href": "https://www.foxnews.com/politics"
+      },
+      {
+        "label": "Donald Trump",
+        "href": "https://www.foxnews.com/category/person/donald-trump"
+      },
+      {
+        "label": "Senate",
+        "href": "https://www.foxnews.com/category/politics/senate"
+      },
+      {
+        "label": "House",
+        "href": "https://www.foxnews.com/category/politics/house-of-representatives"
+      },
+      {
+        "label": "Judiciary",
+        "href": "https://www.foxnews.com/category/politics/judiciary"
+      },
+      {
+        "label": "Foreign Policy",
+        "href": "https://www.foxnews.com/category/politics/foreign-policy"
+      },
+      {
+        "label": "Fox News Polls",
+        "href": "https://www.foxnews.com/official-polls"
+      },
+      {
+        "label": "2025 Elections Coverage",
+        "href": "https://www.foxnews.com/elections"
+      },
+      {
+        "label": "World",
+        "href": "https://www.foxnews.com/world"
+      },
+      {
+        "label": "U.N.",
+        "href": "https://www.foxnews.com/category/world/united-nations"
+      },
+      {
+        "label": "Conflicts",
+        "href": "https://www.foxnews.com/category/world/conflicts"
+      },
+      {
+        "label": "Terrorism",
+        "href": "https://www.foxnews.com/category/world/terrorism"
+      },
+      {
+        "label": "Disasters",
+        "href": "https://www.foxnews.com/category/disasters"
+      },
+      {
+        "label": "Global Economy",
+        "href": "https://www.foxnews.com/category/world/global-economy"
+      },
+      {
+        "label": "Environment",
+        "href": "https://www.foxnews.com/category/environment"
+      },
+      {
+        "label": "Religion",
+        "href": "https://www.foxnews.com/category/world/religion"
+      },
+      {
+        "label": "Scandals",
+        "href": "https://www.foxnews.com/category/world/scandals"
+      },
+      {
+        "label": "Opinion",
+        "href": "https://www.foxnews.com/opinion"
+      },
+      {
+        "label": "Media",
+        "href": "https://www.foxnews.com/media"
+      },
+      {
+        "label": "FOX Nation Coverage",
+        "href": "https://www.foxnews.com/shows/fox-nation"
+      },
+      {
+        "label": "Entertainment",
+        "href": "https://www.foxnews.com/entertainment"
+      },
+      {
+        "label": "Prince Andrew",
+        "href": "https://www.foxnews.com/category/person/prince-andrew"
+      },
+      {
+        "label": "Katy Perry",
+        "href": "https://www.foxnews.com/category/person/katy-perry"
+      },
+      {
+        "label": "Royal Families",
+        "href": "https://www.foxnews.com/category/world/personalities/british-royals"
+      },
+      {
+        "label": "Country Music",
+        "href": "https://www.foxnews.com/category/entertainment/genres/country"
+      },
+      {
+        "label": "Nicole Kidman",
+        "href": "https://www.foxnews.com/category/person/nicole-kidman"
+      },
+      {
+        "label": "Sports",
+        "href": "https://www.foxnews.com/sports"
+      },
+      {
+        "label": "NFL",
+        "href": "https://www.foxnews.com/category/sports/nfl"
+      },
+      {
+        "label": "College Football",
+        "href": "https://www.foxnews.com/category/sports/ncaa-fb"
+      },
+      {
+        "label": "MLB",
+        "href": "https://www.foxnews.com/category/sports/mlb"
+      },
+      {
+        "label": "NASCAR",
+        "href": "https://www.foxnews.com/category/auto/nascar"
+      },
+      {
+        "label": "INDYCAR",
+        "href": "https://www.foxnews.com/category/auto/indycar"
+      },
+      {
+        "label": "NBA",
+        "href": "https://www.foxnews.com/category/sports/nba"
+      },
+      {
+        "label": "NHL",
+        "href": "https://www.foxnews.com/category/sports/nhl"
+      },
+      {
+        "label": "Golf",
+        "href": "https://www.foxnews.com/category/sports/golf"
+      },
+      {
+        "label": "Tennis",
+        "href": "https://www.foxnews.com/category/sports/tennis"
+      },
+      {
+        "label": "UFC",
+        "href": "https://www.foxnews.com/category/sports/ufc"
+      },
+      {
+        "label": "WWE",
+        "href": "https://www.foxnews.com/category/organization/wwe"
+      },
+      {
+        "label": "Lifestyle",
+        "href": "https://www.foxnews.com/lifestyle"
+      },
+      {
+        "label": "Travel",
+        "href": "https://www.foxnews.com/travel"
+      },
+      {
+        "label": "Food & Drink",
+        "href": "https://www.foxnews.com/food-drink"
+      },
+      {
+        "label": "Faith",
+        "href": "https://www.foxnews.com/faith-values"
+      },
+      {
+        "label": "Discovery",
+        "href": "https://www.foxnews.com/category/science/archaeology"
+      },
+      {
+        "label": "Games & Quizzes",
+        "href": "https://www.foxnews.com/games"
+      },
+      {
+        "label": "Health",
+        "href": "https://www.foxnews.com/health"
+      },
+      {
+        "label": "Weight Loss",
+        "href": "https://www.foxnews.com/category/health/nutrition-and-fitness/weight-loss"
+      },
+      {
+        "label": "Cancer",
+        "href": "https://www.foxnews.com/category/health/cancer"
+      },
+      {
+        "label": "Brain Health",
+        "href": "https://www.foxnews.com/category/health/brain-health"
+      },
+      {
+        "label": "Sleep",
+        "href": "https://www.foxnews.com/category/health/sleep-disorders"
+      },
+      {
+        "label": "Heart Health",
+        "href": "https://www.foxnews.com/category/health/heart-health"
+      },
+      {
+        "label": "Healthy Living",
+        "href": "https://www.foxnews.com/category/health/healthy-living"
+      },
+      {
+        "label": "Mental Health",
+        "href": "https://www.foxnews.com/category/health/mental-health"
+      },
+      {
+        "label": "MAHA",
+        "href": "https://www.foxnews.com/category/health/maha"
+      },
+      {
+        "label": "Deals",
+        "href": "https://www.foxnews.com/deals"
+      },
+      {
+        "label": "Holiday Shopping",
+        "href": "https://www.foxnews.com/category/deals/trending"
+      },
+      {
+        "label": "Gift Guides",
+        "href": "https://www.foxnews.com/category/deals/gift"
+      },
+      {
+        "label": "Home Deals",
+        "href": "https://www.foxnews.com/category/deals/home"
+      },
+      {
+        "label": "Kitchen Deals",
+        "href": "https://www.foxnews.com/category/deals/kitchen"
+      },
+      {
+        "label": "Tech and Electronic Deals",
+        "href": "https://www.foxnews.com/category/deals/tech-and-electronic"
+      },
+      {
+        "label": "Health and Fitness Deals",
+        "href": "https://www.foxnews.com/category/deals/health-and-fitness"
+      },
+      {
+        "label": "Beauty and Fashion Deals",
+        "href": "https://www.foxnews.com/category/deals/beauty-and-fashion"
+      },
+      {
+        "label": "Science & Tech",
+        "href": "https://www.foxnews.com/tech"
+      },
+      {
+        "label": "Air & Space",
+        "href": "https://www.foxnews.com/category/science/air-and-space"
+      },
+      {
+        "label": "Security",
+        "href": "https://www.foxnews.com/category/tech/topics/security"
+      },
+      {
+        "label": "Innovation",
+        "href": "https://www.foxnews.com/category/tech/topics/innovation"
+      },
+      {
+        "label": "Video Games",
+        "href": "https://www.foxnews.com/category/tech/topics/video-games"
+      },
+      {
+        "label": "Military Tech",
+        "href": "https://www.foxnews.com/category/tech/topics/military-tech"
+      },
+      {
+        "label": "Planet Earth",
+        "href": "https://www.foxnews.com/category/science/planet-earth"
+      },
+      {
+        "label": "Wild Nature",
+        "href": "https://www.foxnews.com/category/science/wild-nature"
+      },
+      {
+        "label": "Games",
+        "href": "https://www.foxnews.com/games"
+      },
+      {
+        "label": "Scattergories Daily",
+        "href": "https://www.foxnews.com/games/scattergories-daily"
+      },
+      {
+        "label": "5 Across the Letter Word Game",
+        "href": "https://www.foxnews.com/games/5-across-word-game"
+      },
+      {
+        "label": "Downwords",
+        "href": "https://www.foxnews.com/games/lil-snack-downwords"
+      },
+      {
+        "label": "Sudoku",
+        "href": "https://www.foxnews.com/games/sudoku"
+      },
+      {
+        "label": "Word Swap",
+        "href": "https://www.foxnews.com/games/lil-snack-word-swap"
+      },
+      {
+        "label": "Word Search",
+        "href": "https://www.foxnews.com/games/word-search"
+      },
+      {
+        "label": "Icon Match",
+        "href": "https://www.foxnews.com/games/icon-match-puzzle"
+      },
+      {
+        "label": "Daily Crossword Puzzle",
+        "href": "https://www.foxnews.com/games/daily-crossword-puzzle"
+      },
+      {
+        "label": "Mini Crossword Puzzle",
+        "href": "https://www.foxnews.com/games/mini-crossword-puzzle"
+      },
+      {
+        "label": "Watch Live",
+        "href": "https://www.foxnews.com/video/5614615980001"
+      },
+      {
+        "label": "FOX News Shows",
+        "href": "https://www.foxnews.com/shows"
+      },
+      {
+        "label": "Programming Schedule",
+        "href": "https://www.foxnews.com/fnctv"
+      },
+      {
+        "label": "On Air Personalities",
+        "href": "https://www.foxnews.com/person/personalities"
+      },
+      {
+        "label": "Full Episodes",
+        "href": "https://www.foxnews.com/video/shows"
+      },
+      {
+        "label": "Show Clips",
+        "href": "https://www.foxnews.com/video/topics/v-most-recent-episodes"
+      },
+      {
+        "label": "News Clips",
+        "href": "https://www.foxnews.com/video/topics/latest-news-video"
+      },
+      {
+        "label": "About",
+        "href": "https://www.foxnews.com/about"
+      },
+      {
+        "label": "Contact Us",
+        "href": "https://www.foxnews.com/contact"
+      },
+      {
+        "label": "Fox Around the World",
+        "href": "https://www.foxnews.com/story/where-in-the-world-is-fox"
+      },
+      {
+        "label": "Compliance",
+        "href": "https://www.foxnews.com/compliance"
+      },
+      {
+        "label": "Apps & Products",
+        "href": "https://www.foxnews.com/apps-products"
+      },
+      {
+        "label": "FOX News Go",
+        "href": "https://www.foxnews.com/go"
+      },
+      {
+        "label": "FOX Nation",
+        "href": "https://www.foxnews.com/shows/fox-nation"
+      },
+      {
+        "label": "Newsletters",
+        "href": "https://www.foxnews.com/newsletters"
+      },
+      {
+        "label": "U.S.",
+        "href": "https://www.foxnews.com/us"
+      },
+      {
+        "label": "Blue City Crime",
+        "href": "https://www.foxnews.com/category/us/blue-city-crime"
+      },
+      {
+        "label": "Campus Radicals",
+        "href": "https://www.foxnews.com/category/us/campus-radicals"
+      },
+      {
+        "label": "Border Crisis",
+        "href": "https://www.foxnews.com/category/us/immigration"
+      },
+      {
+        "label": "True Crime",
+        "href": "https://www.foxnews.com/true-crime"
+      },
+      {
+        "label": "Politics",
+        "href": "https://www.foxnews.com/politics"
+      },
+      {
+        "label": "Donald Trump",
+        "href": "https://www.foxnews.com/category/person/donald-trump"
+      },
+      {
+        "label": "Senate",
+        "href": "https://www.foxnews.com/category/politics/senate"
+      },
+      {
+        "label": "House",
+        "href": "https://www.foxnews.com/category/politics/house-of-representatives"
+      },
+      {
+        "label": "Judiciary",
+        "href": "https://www.foxnews.com/category/politics/judiciary"
+      },
+      {
+        "label": "Foreign Policy",
+        "href": "https://www.foxnews.com/category/politics/foreign-policy"
+      },
+      {
+        "label": "Fox News Polls",
+        "href": "https://www.foxnews.com/official-polls"
+      },
+      {
+        "label": "2025 Elections Coverage",
+        "href": "https://www.foxnews.com/elections"
+      },
+      {
+        "label": "World",
+        "href": "https://www.foxnews.com/world"
+      },
+      {
+        "label": "U.N.",
+        "href": "https://www.foxnews.com/category/world/united-nations"
+      },
+      {
+        "label": "Conflicts",
+        "href": "https://www.foxnews.com/category/world/conflicts"
+      },
+      {
+        "label": "Terrorism",
+        "href": "https://www.foxnews.com/category/world/terrorism"
+      },
+      {
+        "label": "Disasters",
+        "href": "https://www.foxnews.com/category/disasters"
+      },
+      {
+        "label": "Global Economy",
+        "href": "https://www.foxnews.com/category/world/global-economy"
+      },
+      {
+        "label": "Environment",
+        "href": "https://www.foxnews.com/category/environment"
+      },
+      {
+        "label": "Religion",
+        "href": "https://www.foxnews.com/category/world/religion"
+      },
+      {
+        "label": "Scandals",
+        "href": "https://www.foxnews.com/category/world/scandals"
+      },
+      {
+        "label": "Opinion",
+        "href": "https://www.foxnews.com/opinion"
+      },
+      {
+        "label": "Media",
+        "href": "https://www.foxnews.com/media"
+      },
+      {
+        "label": "FOX Nation Coverage",
+        "href": "https://www.foxnews.com/shows/fox-nation"
+      },
+      {
+        "label": "Entertainment",
+        "href": "https://www.foxnews.com/entertainment"
+      },
+      {
+        "label": "Prince Andrew",
+        "href": "https://www.foxnews.com/category/person/prince-andrew"
+      },
+      {
+        "label": "Katy Perry",
+        "href": "https://www.foxnews.com/category/person/katy-perry"
+      },
+      {
+        "label": "Royal Families",
+        "href": "https://www.foxnews.com/category/world/personalities/british-royals"
+      },
+      {
+        "label": "Country Music",
+        "href": "https://www.foxnews.com/category/entertainment/genres/country"
+      },
+      {
+        "label": "Nicole Kidman",
+        "href": "https://www.foxnews.com/category/person/nicole-kidman"
+      },
+      {
+        "label": "Sports",
+        "href": "https://www.foxnews.com/sports"
+      },
+      {
+        "label": "NFL",
+        "href": "https://www.foxnews.com/category/sports/nfl"
+      },
+      {
+        "label": "College Football",
+        "href": "https://www.foxnews.com/category/sports/ncaa-fb"
+      },
+      {
+        "label": "MLB",
+        "href": "https://www.foxnews.com/category/sports/mlb"
+      },
+      {
+        "label": "NASCAR",
+        "href": "https://www.foxnews.com/category/auto/nascar"
+      },
+      {
+        "label": "INDYCAR",
+        "href": "https://www.foxnews.com/category/auto/indycar"
+      },
+      {
+        "label": "NBA",
+        "href": "https://www.foxnews.com/category/sports/nba"
+      },
+      {
+        "label": "NHL",
+        "href": "https://www.foxnews.com/category/sports/nhl"
+      },
+      {
+        "label": "Golf",
+        "href": "https://www.foxnews.com/category/sports/golf"
+      },
+      {
+        "label": "Tennis",
+        "href": "https://www.foxnews.com/category/sports/tennis"
+      },
+      {
+        "label": "UFC",
+        "href": "https://www.foxnews.com/category/sports/ufc"
+      },
+      {
+        "label": "WWE",
+        "href": "https://www.foxnews.com/category/organization/wwe"
+      },
+      {
+        "label": "Lifestyle",
+        "href": "https://www.foxnews.com/lifestyle"
+      },
+      {
+        "label": "Travel",
+        "href": "https://www.foxnews.com/travel"
+      },
+      {
+        "label": "Food & Drink",
+        "href": "https://www.foxnews.com/food-drink"
+      },
+      {
+        "label": "Faith",
+        "href": "https://www.foxnews.com/faith-values"
+      },
+      {
+        "label": "Discovery",
+        "href": "https://www.foxnews.com/category/science/archaeology"
+      },
+      {
+        "label": "Games & Quizzes",
+        "href": "https://www.foxnews.com/games"
+      },
+      {
+        "label": "Health",
+        "href": "https://www.foxnews.com/health"
+      },
+      {
+        "label": "Weight Loss",
+        "href": "https://www.foxnews.com/category/health/nutrition-and-fitness/weight-loss"
+      },
+      {
+        "label": "Cancer",
+        "href": "https://www.foxnews.com/category/health/cancer"
+      },
+      {
+        "label": "Brain Health",
+        "href": "https://www.foxnews.com/category/health/brain-health"
+      },
+      {
+        "label": "Sleep",
+        "href": "https://www.foxnews.com/category/health/sleep-disorders"
+      },
+      {
+        "label": "Heart Health",
+        "href": "https://www.foxnews.com/category/health/heart-health"
+      },
+      {
+        "label": "Healthy Living",
+        "href": "https://www.foxnews.com/category/health/healthy-living"
+      },
+      {
+        "label": "Mental Health",
+        "href": "https://www.foxnews.com/category/health/mental-health"
+      },
+      {
+        "label": "MAHA",
+        "href": "https://www.foxnews.com/category/health/maha"
+      },
+      {
+        "label": "Deals",
+        "href": "https://www.foxnews.com/deals"
+      },
+      {
+        "label": "Holiday Shopping",
+        "href": "https://www.foxnews.com/category/deals/trending"
+      },
+      {
+        "label": "Gift Guides",
+        "href": "https://www.foxnews.com/category/deals/gift"
+      },
+      {
+        "label": "Home Deals",
+        "href": "https://www.foxnews.com/category/deals/home"
+      },
+      {
+        "label": "Kitchen Deals",
+        "href": "https://www.foxnews.com/category/deals/kitchen"
+      },
+      {
+        "label": "Tech and Electronic Deals",
+        "href": "https://www.foxnews.com/category/deals/tech-and-electronic"
+      },
+      {
+        "label": "Health and Fitness Deals",
+        "href": "https://www.foxnews.com/category/deals/health-and-fitness"
+      },
+      {
+        "label": "Beauty and Fashion Deals",
+        "href": "https://www.foxnews.com/category/deals/beauty-and-fashion"
+      },
+      {
+        "label": "Science & Tech",
+        "href": "https://www.foxnews.com/tech"
+      },
+      {
+        "label": "Air & Space",
+        "href": "https://www.foxnews.com/category/science/air-and-space"
+      },
+      {
+        "label": "Security",
+        "href": "https://www.foxnews.com/category/tech/topics/security"
+      },
+      {
+        "label": "Innovation",
+        "href": "https://www.foxnews.com/category/tech/topics/innovation"
+      },
+      {
+        "label": "Video Games",
+        "href": "https://www.foxnews.com/category/tech/topics/video-games"
+      },
+      {
+        "label": "Military Tech",
+        "href": "https://www.foxnews.com/category/tech/topics/military-tech"
+      },
+      {
+        "label": "Planet Earth",
+        "href": "https://www.foxnews.com/category/science/planet-earth"
+      },
+      {
+        "label": "Wild Nature",
+        "href": "https://www.foxnews.com/category/science/wild-nature"
+      },
+      {
+        "label": "Games",
+        "href": "https://www.foxnews.com/games"
+      },
+      {
+        "label": "Scattergories Daily",
+        "href": "https://www.foxnews.com/games/scattergories-daily"
+      },
+      {
+        "label": "5 Across the Letter Word Game",
+        "href": "https://www.foxnews.com/games/5-across-word-game"
+      },
+      {
+        "label": "Downwords",
+        "href": "https://www.foxnews.com/games/lil-snack-downwords"
+      },
+      {
+        "label": "Sudoku",
+        "href": "https://www.foxnews.com/games/sudoku"
+      },
+      {
+        "label": "Word Swap",
+        "href": "https://www.foxnews.com/games/lil-snack-word-swap"
+      },
+      {
+        "label": "Word Search",
+        "href": "https://www.foxnews.com/games/word-search"
+      },
+      {
+        "label": "Icon Match",
+        "href": "https://www.foxnews.com/games/icon-match-puzzle"
+      },
+      {
+        "label": "Daily Crossword Puzzle",
+        "href": "https://www.foxnews.com/games/daily-crossword-puzzle"
+      },
+      {
+        "label": "Mini Crossword Puzzle",
+        "href": "https://www.foxnews.com/games/mini-crossword-puzzle"
+      },
+      {
+        "label": "Watch Live",
+        "href": "https://www.foxnews.com/video/5614615980001"
+      },
+      {
+        "label": "FOX News Shows",
+        "href": "https://www.foxnews.com/shows"
+      },
+      {
+        "label": "Programming Schedule",
+        "href": "https://www.foxnews.com/fnctv"
+      },
+      {
+        "label": "On Air Personalities",
+        "href": "https://www.foxnews.com/person/personalities"
+      },
+      {
+        "label": "Full Episodes",
+        "href": "https://www.foxnews.com/video/shows"
+      },
+      {
+        "label": "Show Clips",
+        "href": "https://www.foxnews.com/video/topics/v-most-recent-episodes"
+      },
+      {
+        "label": "News Clips",
+        "href": "https://www.foxnews.com/video/topics/latest-news-video"
+      },
+      {
+        "label": "About",
+        "href": "https://www.foxnews.com/about"
+      },
+      {
+        "label": "Contact Us",
+        "href": "https://www.foxnews.com/contact"
+      },
+      {
+        "label": "Fox Around the World",
+        "href": "https://www.foxnews.com/story/where-in-the-world-is-fox"
+      },
+      {
+        "label": "Compliance",
+        "href": "https://www.foxnews.com/compliance"
+      },
+      {
+        "label": "Apps & Products",
+        "href": "https://www.foxnews.com/apps-products"
+      },
+      {
+        "label": "FOX News Go",
+        "href": "https://www.foxnews.com/go"
+      },
+      {
+        "label": "FOX Nation",
+        "href": "https://www.foxnews.com/shows/fox-nation"
+      },
+      {
+        "label": "Newsletters",
+        "href": "https://www.foxnews.com/newsletters"
+      },
+      {
+        "label": "RSS",
+        "href": "https://www.foxnews.com/story/foxnews-com-rss-feeds"
+      },
+      {
+        "label": "Newsletters",
+        "href": "https://www.foxnews.com/newsletters"
+      },
+      {
+        "label": "Fox News",
+        "href": "https://www.foxnews.com"
+      },
+      {
+        "label": "Terms of Use",
+        "href": "https://www.foxnews.com/terms-of-use"
+      },
+      {
+        "label": "Privacy Policy",
+        "href": "https://www.foxnews.com/privacy-policy"
+      },
+      {
+        "label": "Closed Caption Policy",
+        "href": "https://www.foxnews.com/closed-captioning"
+      },
+      {
+        "label": "Contact Us",
+        "href": "https://www.foxnews.com/contact"
+      },
+      {
+        "label": "Accessibility Statement",
+        "href": "https://www.foxnews.com/accessibility-statement"
+      },
+      {
+        "label": "News Sitemap",
+        "href": "https://www.foxnews.com/html-sitemap"
+      },
+      {
+        "label": "Video Sitemap",
+        "href": "https://www.foxnews.com/html-video-sitemap"
+      }
+    ],
+    "external": [
+      {
+        "label": "Fox Business",
+        "href": "https://www.foxbusiness.com/"
+      },
+      {
+        "label": "Fox Nation",
+        "href": "https://nation.foxnews.com/"
+      },
+      {
+        "label": "Fox News Audio",
+        "href": "https://radio.foxnews.com/"
+      },
+      {
+        "label": "Fox Weather",
+        "href": "https://www.foxweather.com/"
+      },
+      {
+        "label": "Outkick",
+        "href": "https://www.outkick.com/"
+      },
+      {
+        "label": "Fox Noticias",
+        "href": "https://noticias.foxnews.com/"
+      },
+      {
+        "label": "FIFA WORLD CUP 26",
+        "href": "https://www.foxsports.com/soccer/fifa-world-cup"
+      },
+      {
+        "label": "FOX Business",
+        "href": "https://www.foxbusiness.com/"
+      },
+      {
+        "label": "Economy",
+        "href": "https://www.foxbusiness.com/economy"
+      },
+      {
+        "label": "Personal Finance",
+        "href": "https://www.foxbusiness.com/personal-finance"
+      },
+      {
+        "label": "Markets",
+        "href": "https://www.foxbusiness.com/markets"
+      },
+      {
+        "label": "Watchlist",
+        "href": "https://www.foxbusiness.com/watchlist"
+      },
+      {
+        "label": "Lifestyle",
+        "href": "https://www.foxbusiness.com/lifestyle"
+      },
+      {
+        "label": "Real Estate",
+        "href": "https://www.foxbusiness.com/real-estate"
+      },
+      {
+        "label": "Tech",
+        "href": "https://www.foxbusiness.com/technology"
+      },
+      {
+        "label": "FOX Weather",
+        "href": "https://www.foxweather.com"
+      },
+      {
+        "label": "FOX Nation",
+        "href": "https://nation.foxnews.com"
+      },
+      {
+        "label": "FOX Noticias",
+        "href": "https://noticias.foxnews.com/shows/fox-noticias"
+      },
+      {
+        "label": "FOX News Shop",
+        "href": "https://shop.foxnews.com/"
+      },
+      {
+        "label": "FOX News Radio",
+        "href": "https://radio.foxnews.com"
+      },
+      {
+        "label": "Outkick",
+        "href": "https://www.outkick.com"
+      },
+      {
+        "label": "Podcasts",
+        "href": "https://radio.foxnews.com/podcast"
+      },
+      {
+        "label": "FOX Business",
+        "href": "https://www.foxbusiness.com/"
+      },
+      {
+        "label": "Economy",
+        "href": "https://www.foxbusiness.com/economy"
+      },
+      {
+        "label": "Personal Finance",
+        "href": "https://www.foxbusiness.com/personal-finance"
+      },
+      {
+        "label": "Markets",
+        "href": "https://www.foxbusiness.com/markets"
+      },
+      {
+        "label": "Watchlist",
+        "href": "https://www.foxbusiness.com/watchlist"
+      },
+      {
+        "label": "Lifestyle",
+        "href": "https://www.foxbusiness.com/lifestyle"
+      },
+      {
+        "label": "Real Estate",
+        "href": "https://www.foxbusiness.com/real-estate"
+      },
+      {
+        "label": "Tech",
+        "href": "https://www.foxbusiness.com/technology"
+      },
+      {
+        "label": "FOX Weather",
+        "href": "https://www.foxweather.com"
+      },
+      {
+        "label": "FOX Nation",
+        "href": "https://nation.foxnews.com"
+      },
+      {
+        "label": "FOX Noticias",
+        "href": "https://noticias.foxnews.com/shows/fox-noticias"
+      },
+      {
+        "label": "FOX News Shop",
+        "href": "https://shop.foxnews.com/"
+      },
+      {
+        "label": "FOX News Radio",
+        "href": "https://radio.foxnews.com"
+      },
+      {
+        "label": "Outkick",
+        "href": "https://www.outkick.com"
+      },
+      {
+        "label": "Podcasts",
+        "href": "https://radio.foxnews.com/podcast"
+      },
+      {
+        "label": "Facebook",
+        "href": "https://www.facebook.com/FoxNews"
+      },
+      {
+        "label": "Twitter",
+        "href": "https://twitter.com/foxnews"
+      },
+      {
+        "label": "Instagram",
+        "href": "https://www.instagram.com/foxnews/"
+      },
+      {
+        "label": "Your Privacy Choices",
+        "href": "http://privacy.foxnews.com/main/web/main"
+      },
+      {
+        "label": "Help",
+        "href": "https://help.foxnews.com"
+      },
+      {
+        "label": "Factset",
+        "href": "https://www.factset.com/"
+      },
+      {
+        "label": "FactSet Digital Solutions",
+        "href": "https://www.factset.com/solutions/business-needs/digital-solutions"
+      },
+      {
+        "label": "Legal Statement",
+        "href": "https://www.factset.com/privacy"
+      },
+      {
+        "label": "Refinitiv Lipper",
+        "href": "https://lipperalpha.refinitiv.com/"
+      },
+      {
+        "label": "FIFA WORLD CUP 26",
+        "href": "https://www.foxsports.com/soccer/fifa-world-cup"
+      },
+      {
+        "label": "FOX Business",
+        "href": "https://www.foxbusiness.com/"
+      },
+      {
+        "label": "Personal Finance",
+        "href": "https://www.foxbusiness.com/personal-finance"
+      },
+      {
+        "label": "Economy",
+        "href": "https://www.foxbusiness.com/economy"
+      },
+      {
+        "label": "Markets",
+        "href": "https://www.foxbusiness.com/markets"
+      },
+      {
+        "label": "Watchlist",
+        "href": "https://www.foxbusiness.com/watchlist"
+      },
+      {
+        "label": "Lifestyle",
+        "href": "https://www.foxbusiness.com/lifestyle"
+      },
+      {
+        "label": "Real Estate",
+        "href": "https://www.foxbusiness.com/real-estate"
+      },
+      {
+        "label": "Tech",
+        "href": "https://www.foxbusiness.com/technology"
+      },
+      {
+        "label": "Careers",
+        "href": "https://foxcareers.com/Search/SearchResults?brand=Fox%20News%20Careers"
+      },
+      {
+        "label": "Advertise With Us",
+        "href": "https://www.foxadvertising.com/fox-news-media/"
+      },
+      {
+        "label": "Media Relations",
+        "href": "https://press.foxnews.com/media-contacts"
+      },
+      {
+        "label": "Corporate Information",
+        "href": "https://press.foxnews.com"
+      },
+      {
+        "label": "FOX Weather",
+        "href": "https://www.foxweather.com"
+      },
+      {
+        "label": "FOX Noticias",
+        "href": "https://noticias.foxnews.com/shows/fox-noticias"
+      },
+      {
+        "label": "FOX News Shop",
+        "href": "https://shop.foxnews.com"
+      },
+      {
+        "label": "FOX News Radio",
+        "href": "https://radio.foxnews.com"
+      },
+      {
+        "label": "Outkick",
+        "href": "https://www.outkick.com"
+      },
+      {
+        "label": "Podcasts",
+        "href": "https://radio.foxnews.com/podcast"
+      },
+      {
+        "label": "FOX One",
+        "href": "https://www.fox.com/?cmpid=org=one::ag=owned::mc=referral::src=fn::cmp=10010071001::add=621a"
+      },
+      {
+        "label": "FIFA WORLD CUP 26",
+        "href": "https://www.foxsports.com/soccer/fifa-world-cup"
+      },
+      {
+        "label": "FOX Business",
+        "href": "https://www.foxbusiness.com/"
+      },
+      {
+        "label": "Personal Finance",
+        "href": "https://www.foxbusiness.com/personal-finance"
+      },
+      {
+        "label": "Economy",
+        "href": "https://www.foxbusiness.com/economy"
+      },
+      {
+        "label": "Markets",
+        "href": "https://www.foxbusiness.com/markets"
+      },
+      {
+        "label": "Watchlist",
+        "href": "https://www.foxbusiness.com/watchlist"
+      },
+      {
+        "label": "Lifestyle",
+        "href": "https://www.foxbusiness.com/lifestyle"
+      },
+      {
+        "label": "Real Estate",
+        "href": "https://www.foxbusiness.com/real-estate"
+      },
+      {
+        "label": "Tech",
+        "href": "https://www.foxbusiness.com/technology"
+      },
+      {
+        "label": "Careers",
+        "href": "https://foxcareers.com/Search/SearchResults?brand=Fox%20News%20Careers"
+      },
+      {
+        "label": "Advertise With Us",
+        "href": "https://www.foxadvertising.com/fox-news-media/"
+      },
+      {
+        "label": "Media Relations",
+        "href": "https://press.foxnews.com/media-contacts"
+      },
+      {
+        "label": "Corporate Information",
+        "href": "https://press.foxnews.com"
+      },
+      {
+        "label": "FOX Weather",
+        "href": "https://www.foxweather.com"
+      },
+      {
+        "label": "FOX Noticias",
+        "href": "https://noticias.foxnews.com/shows/fox-noticias"
+      },
+      {
+        "label": "FOX News Shop",
+        "href": "https://shop.foxnews.com"
+      },
+      {
+        "label": "FOX News Radio",
+        "href": "https://radio.foxnews.com"
+      },
+      {
+        "label": "Outkick",
+        "href": "https://www.outkick.com"
+      },
+      {
+        "label": "Podcasts",
+        "href": "https://radio.foxnews.com/podcast"
+      },
+      {
+        "label": "FOX One",
+        "href": "https://www.fox.com/?cmpid=org=one::ag=owned::mc=referral::src=fn::cmp=10010071001::add=621a"
+      },
+      {
+        "label": "Facebook",
+        "href": "https://www.facebook.com/FoxNews"
+      },
+      {
+        "label": "Twitter",
+        "href": "https://twitter.com/foxnews"
+      },
+      {
+        "label": "Instagram",
+        "href": "https://www.instagram.com/foxnews"
+      },
+      {
+        "label": "Youtube",
+        "href": "https://www.youtube.com/FoxNewsChannel"
+      },
+      {
+        "label": "Flipboard",
+        "href": "https://flipboard.com/@FoxNews"
+      },
+      {
+        "label": "LinkedIn",
+        "href": "https://www.linkedin.com/company/fox-news-channel/"
+      },
+      {
+        "label": "Slack",
+        "href": "https://foxnews.slack.com/apps/A013AUF6VMG-fox-news"
+      },
+      {
+        "label": "Spotify",
+        "href": "https://open.spotify.com/show/7A4YfyFtNOZhqMV7F3kYVu"
+      },
+      {
+        "label": "iHeartRadio",
+        "href": "https://www.iheart.com/podcast/256-the-fox-news-rundown-31090295/"
+      },
+      {
+        "label": "Your Privacy Choices",
+        "href": "http://privacy.foxnews.com/main/web/main"
+      },
+      {
+        "label": "Help",
+        "href": "https://help.foxnews.com"
+      },
+      {
+        "label": "Factset",
+        "href": "https://www.factset.com/"
+      },
+      {
+        "label": "FactSet Digital Solutions",
+        "href": "https://www.factset.com/solutions/business-needs/digital-solutions"
+      },
+      {
+        "label": "Legal Statement",
+        "href": "https://www.factset.com/privacy"
+      },
+      {
+        "label": "Refinitiv Lipper",
+        "href": "https://lipperalpha.refinitiv.com/"
+      }
+    ],
+    "broken": []
+  },
+  "extractedAt": "2025-11-19T15:15:46Z"
+}

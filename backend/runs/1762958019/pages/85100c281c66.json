@@ -1,0 +1,469 @@
+{
+  "url": "https://www.walmart.com/",
+  "path": "/",
+  "status": 200,
+  "title": "Walmart | Save Money. Live better.",
+  "description": "Shop Walmart.com today for Every Day Low Prices. Join Walmart+ for unlimited free delivery from your store & free shipping with no order minimum. Start your free 30-day trial now!",
+  "canonical": "https://www.walmart.com/",
+  "media": {
+    "images": [
+      {
+        "url": "https://i5.walmartimages.com/dfw/63fd9f59-14e2/9d304ce6-96de-4331-b8ec-c5191226d378/v1/spark-icon.svg",
+        "alt": "Walmart",
+        "width": 36,
+        "height": null
+      },
+      {
+        "url": "https://i5.walmartimages.com/dfw/4ff9c6c9-ad46/k2-_0a671c38-d307-447c-835e-7904ab143c26.v1.png",
+        "alt": "Banner title icon",
+        "width": 32,
+        "height": 32
+      },
+      {
+        "url": "https://i5.walmartimages.com/dfw/63fd9f59-30b3/629cc93a-dae2-4b74-afd7-faecce345c85/v1/wplus-indigo-rebrand-bug.svg",
+        "alt": "Walmart+",
+        "width": 16,
+        "height": 16
+      },
+      {
+        "url": "https://i5.walmartimages.com/dfw/4ff9c6c9-db09/k2-_4e215051-95a0-4cfc-a030-25d5b45898f1.v1.png",
+        "alt": "Walmart plus",
+        "width": 112,
+        "height": 36
+      },
+      {
+        "url": "https://i5.walmartimages.com/dfw/4ff9c6c9-345d/k2-_3e3fc173-8541-4f1c-9416-86431812fde7.v1.jpg?odnHeight=300&odnWidth=1612&odnBg=&odnDynImageQuality=70",
+        "alt": "A crockpot, cranberries, gravy mix, and paper plates are visible.",
+        "width": null,
+        "height": null
+      },
+      {
+        "url": "https://i5.walmartimages.com/dfw/4ff9c6c9-7c8a/k2-_c803e0df-89c5-4646-9b7a-69bb092daffc.v1.jpg?odnHeight=300&odnWidth=1612&odnBg=&odnDynImageQuality=70",
+        "alt": "Image shows a colorful illustration of a price tag next to an ornament. The text says $49 for one year for Walmart Plus memberships.",
+        "width": null,
+        "height": null
+      },
+      {
+        "url": "https://i5.walmartimages.com/dfw/4ff9c6c9-400e/k2-_9d57d537-f7ef-4ad4-8124-09379e1951ed.v1.jpg?odnHeight=300&odnWidth=1612&odnBg=&odnDynImageQuality=70",
+        "alt": "Prelit, flocked and unlit trees shown in a home setting.",
+        "width": null,
+        "height": null
+      },
+      {
+        "url": "https://i5.walmartimages.com/seo/Wisairt-36V-Dirt-Bike-DK4-Kids-Electric-Ride-on-Motocross-Bike-for-Kids-8-Green_188ed6f8-3d32-4219-9ee3-a3ba422ce7be.069a724f0b43c56dcdadecd6084878df.jpeg?odnHeight=576&odnWidth=576&odnBg=FFFFFF",
+        "alt": "Wisairt 36V Kids Electric Dirt Bike, 315W Battery Powered Ride on Motorcycle for Kids Aged 5-10, 3 Speed up to 15.5 mph, 10-mile Range, 133lbs Max Load, Waterproof Seat, Twist Grip Throttle, Green",
+        "width": null,
+        "height": null
+      },
+      {
+        "url": "https://i5.walmartimages.com/asr/16409b47-5d2d-44fa-bb06-493f004434e9.0a92a3603698ba48bd66d3cdca3b223e.jpeg?odnHeight=576&odnWidth=576&odnBg=FFFFFF",
+        "alt": "BEBANG Telescope for Adults Astronomy, 70mm Aperture 400mm AZ Mount Refractor Telescope for Kids\u00a0Adults Beginners",
+        "width": null,
+        "height": null
+      },
+      {
+        "url": "https://i5.walmartimages.com/seo/JUSTLET-Christmas-Tree-6FT-Artificial-Christmas-Tree-W-1000-PVC-Branch-Tips-Unlit-White_0eb95ae4-38fd-42a1-9e4e-30a1c75b48ab.e6bc5e9e2149206b5e6dbf07a57de55c.jpeg?odnHeight=576&odnWidth=576&odnBg=FFFFFF",
+        "alt": "JUSTLET Christmas Tree, 6FT Artificial Christmas Tree W/ 1000 PVC Branch Tips, Unlit, White",
+        "width": null,
+        "height": null
+      },
+      {
+        "url": "https://i5.walmartimages.com/seo/Kikcoin-Pots-and-Pans-Set-6-Pcs-Nontoxic-Cookware-Set-for-Kitchen-Detachable-Handle-Dishwasher-Oven-Safe-Cream-White_d75b1cee-f351-4cea-8cb1-df36a9df3069.d272af947c4262c75ae30dd0894a9f4b.jpeg?odnHeight=576&odnWidth=576&odnBg=FFFFFF",
+        "alt": "Kikcoin Pots and Pans Set, 6 Pcs Nonstick Pots and Pans with Removable Handle, Space-Saving Cookware Set for RV & Camping, Dishwasher and Oven Safe, Cream White",
+        "width": null,
+        "height": null
+      },
+      {
+        "url": "https://i5.walmartimages.com/seo/MOSHU-Two-Piece-Womens-Pajama-Sets-Button-Down-Shirts-and-Drawstring-Pants-with-Pockets-Solid-Lounge-Sets-for-Women_77171737-9ff6-4c68-aed0-0315834bd1f4.b800d3b50271cab7736ff0d9b0725e6a.jpeg?odnHeight=576&odnWidth=576&odnBg=FFFFFF",
+        "alt": "MOSHU Two Piece Womens Pajama Sets Button Down Shirts and Drawstring Pants with Pockets Solid Lounge Sets for Women",
+        "width": null,
+        "height": null
+      },
+      {
+        "url": "https://i5.walmartimages.com/seo/Fantaslook-Blouses-for-Women-Dressy-Casual-3-4-Length-Sleeve-Womens-Tops-with-Smocked-Cuffs-Fashion-Shirts_97d4753f-8f76-4f8a-9946-236dd6f08b3e.5ff095e7c6dab03fdf0b132e6866dfe4.jpeg?odnHeight=576&odnWidth=576&odnBg=FFFFFF",
+        "alt": "Fantaslook Blouses for Women Dressy Casual 3/4 Length Sleeve Womens Tops with Smocked Cuffs Fashion Shirts",
+        "width": null,
+        "height": null
+      },
+      {
+        "url": "https://i5.walmartimages.com/dfw/4ff9c6c9-6e94/k2-_bf6a2072-1e14-4047-8d95-6ccc2fd414e8.v1.jpg?odnHeight=658&odnWidth=658&odnBg=&odnDynImageQuality=70",
+        "alt": "An image of gold coins in front of a blue credit card with interlocking orange circles, yellow spark symbol, and the words OnePay CashRewards Card.",
+        "width": null,
+        "height": null
+      },
+      {
+        "url": "https://i5.walmartimages.com/dfw/4ff9c6c9-bb5d/k2-_2315ae13-c379-41f5-bf6c-267e3a00d651.v1.jpg?odnHeight=292&odnWidth=512&odnBg=&odnDynImageQuality=70",
+        "alt": "",
+        "width": null,
+        "height": null
+      },
+      {
+        "url": "https://i5.walmartimages.com/dfw/4ff9c6c9-b14d/k2-_355fe755-c5eb-4198-98df-cb3d9820842e.v1.jpg?odnHeight=342&odnWidth=248&odnBg=&odnDynImageQuality=70",
+        "alt": "Packages of Dayquil, Nyquil and Mucinex on a wood shelf with a blue subway tile background.",
+        "width": null,
+        "height": null
+      },
+      {
+        "url": "https://i5.walmartimages.com/dfw/4ff9c6c9-5f95/k2-_eff7a0a8-0661-404c-9ebb-3881237d0fb4.v1.jpg?odnHeight=342&odnWidth=248&odnBg=&odnDynImageQuality=70",
+        "alt": "A man rakes orange leaves in a grassy field on a fall day.",
+        "width": null,
+        "height": null
+      },
+      {
+        "url": "https://i5.walmartimages.com/dfw/4ff9c6c9-d61b/k2-_882a0143-831d-47f7-897c-72606273c04c.v1.jpg?odnHeight=658&odnWidth=385&odnBg=&odnDynImageQuality=70",
+        "alt": "A person hanging colorful Christmas lights on a house roof using a hammer while wearing gloves.",
+        "width": null,
+        "height": null
+      },
+      {
+        "url": "https://i5.walmartimages.com/dfw/63fd9f59-4be1/0e321069-d42a-42ae-9b17-6987bf35d3ad/v1/privacy-choices-dweb.png",
+        "alt": "Privacy choices icon",
+        "width": 29,
+        "height": 14
+      }
+    ],
+    "videos": [],
+    "gifs": []
+  },
+  "files": [],
+  "words": {
+    "headings": [
+      {
+        "tag": "h1",
+        "text": "Walmart | Save Money. Live better."
+      },
+      {
+        "tag": "h3",
+        "text": "Get 50% off a year of Walmart+ & shop hot Deals first"
+      },
+      {
+        "tag": "h2",
+        "text": "Flash Deals"
+      },
+      {
+        "tag": "h3",
+        "text": "Up to 65% off"
+      },
+      {
+        "tag": "h3",
+        "text": "Reduced price Wisairt 36V Kids Electric Dirt Bike, 315W Battery Powered Ride on Motorcycle for Kids Aged 5-10, 3 Speed up to 15.5 mph, 10-mile Range, 133lbs Max Load, Waterproof Seat, Twist Grip Throttle, Green $259.49 Was $499.99"
+      },
+      {
+        "tag": "h3",
+        "text": "Wisairt 36V Kids Electric Dirt Bike, 315W Battery Powered Ride on Motorcycle for Kids Aged 5-10, 3 Speed up to 15.5 mph, 10-mile Range, 133lbs Max Load, Waterproof Seat, Twist Grip Throttle, Green"
+      },
+      {
+        "tag": "h3",
+        "text": "BEBANG Telescope for Adults Astronomy, 70mm Aperture 400mm AZ Mount Refractor Telescope for Kids\u00a0Adults Beginners $59.89 Was $159.99"
+      },
+      {
+        "tag": "h3",
+        "text": "BEBANG Telescope for Adults Astronomy, 70mm Aperture 400mm AZ Mount Refractor Telescope for Kids\u00a0Adults Beginners"
+      },
+      {
+        "tag": "h3",
+        "text": "JUSTLET Christmas Tree, 6FT Artificial Christmas Tree W/ 1000 PVC Branch Tips, Unlit, White $49.99 Was $119.99"
+      },
+      {
+        "tag": "h3",
+        "text": "JUSTLET Christmas Tree, 6FT Artificial Christmas Tree W/ 1000 PVC Branch Tips, Unlit, White"
+      },
+      {
+        "tag": "h3",
+        "text": "Kikcoin Pots and Pans Set, 6 Pcs Nonstick Pots and Pans with Removable Handle, Space-Saving Cookware Set for RV & Camping, Dishwasher and Oven Safe, Cream White $32.99"
+      },
+      {
+        "tag": "h3",
+        "text": "Kikcoin Pots and Pans Set, 6 Pcs Nonstick Pots and Pans with Removable Handle, Space-Saving Cookware Set for RV & Camping, Dishwasher and Oven Safe, Cream White"
+      },
+      {
+        "tag": "h3",
+        "text": "MOSHU Two Piece Womens Pajama Sets Button Down Shirts and Drawstring Pants with Pockets Solid Lounge Sets for Women $22.99 Was $49.99"
+      },
+      {
+        "tag": "h3",
+        "text": "MOSHU Two Piece Womens Pajama Sets Button Down Shirts and Drawstring Pants with Pockets Solid Lounge Sets for Women"
+      },
+      {
+        "tag": "h3",
+        "text": "Fantaslook Blouses for Women Dressy Casual 3/4 Length Sleeve Womens Tops with Smocked Cuffs Fashion Shirts $11.99 Was $25.98"
+      },
+      {
+        "tag": "h3",
+        "text": "Fantaslook Blouses for Women Dressy Casual 3/4 Length Sleeve Womens Tops with Smocked Cuffs Fashion Shirts"
+      }
+    ],
+    "paragraphs": [
+      "Holiday meals & essentials\u2014for less!",
+      "Get 50% off an annual Walmart+ membership!",
+      "Prelit, flocked, unlit & more",
+      "Find your kind of tree, from $49",
+      "Walmart+ members earn",
+      "5% cash back at Walmart",
+      "Chili night in as fast as 1 hour*",
+      "Cold & flu care made easy",
+      "Find flu shots & fast relief, all in 1 place",
+      "Fall yard cleanup services",
+      "Holiday install help from experts",
+      "Christmas light & decor setup",
+      "We\u2019d love to hear what you think!"
+    ],
+    "wordCount": 77
+  },
+  "links": {
+    "internal": [
+      {
+        "label": "",
+        "href": "https://www.walmart.com/all-departments"
+      },
+      {
+        "label": "",
+        "href": "https://www.walmart.com/"
+      },
+      {
+        "label": "",
+        "href": "https://www.walmart.com/"
+      },
+      {
+        "label": "ReorderMy Items",
+        "href": "https://www.walmart.com/my-items"
+      },
+      {
+        "label": "Reorder",
+        "href": "https://www.walmart.com/my-items"
+      },
+      {
+        "label": "Lists",
+        "href": "https://www.walmart.com/lists"
+      },
+      {
+        "label": "Registries",
+        "href": "https://www.walmart.com/my-registries"
+      },
+      {
+        "label": "Sign InAccount",
+        "href": "https://www.walmart.com/"
+      },
+      {
+        "label": "Sign in or create account",
+        "href": "https://www.walmart.com/"
+      },
+      {
+        "label": "Purchase History",
+        "href": "https://www.walmart.com/orders"
+      },
+      {
+        "label": "Walmart+",
+        "href": "https://www.walmart.com/plus"
+      },
+      {
+        "label": "Subscriptions",
+        "href": "https://www.walmart.com/cp/subscriptions/4191733"
+      },
+      {
+        "label": "Shop now",
+        "href": "https://www.walmart.com/shop/holiday-gatherings-savings?athAsset=eyJhdGhjcGlkIjoiMzRmNjY4ZDktMzY5OS00ZDkxLTg2NjgtZmQwZWRkM2NhZGI0IiwiYWV3ciI6IkNUUiJ9&athena=true"
+      },
+      {
+        "label": "Shop now",
+        "href": "https://www.walmart.com/shop/holiday-gatherings-savings?athAsset=eyJhdGhjcGlkIjoiMzRmNjY4ZDktMzY5OS00ZDkxLTg2NjgtZmQwZWRkM2NhZGI0IiwiYWV3ciI6IkNUUiJ9&athena=true"
+      },
+      {
+        "label": "Join Walmart+",
+        "href": "https://www.walmart.com/plus?athAsset=eyJhdGhjcGlkIjoiYjk4OWRmOWMtODlmOS00ZTFhLTg1NGQtN2Y4YTVhYWI1YjBhIiwiYWV3ciI6IkNUUiJ9&athena=true"
+      },
+      {
+        "label": "Join Walmart+",
+        "href": "https://www.walmart.com/plus?athAsset=eyJhdGhjcGlkIjoiYjk4OWRmOWMtODlmOS00ZTFhLTg1NGQtN2Y4YTVhYWI1YjBhIiwiYWV3ciI6IkNUUiJ9&athena=true"
+      },
+      {
+        "label": "Shop now",
+        "href": "https://www.walmart.com/cp/7472650?athAsset=eyJhdGhjcGlkIjoiNWMzNDAyYWEtNmI4Yy00YzY5LWIyMDQtOWJjNWFkNTMzYWNkIiwiYWV3ciI6IkNUUiJ9&athena=true"
+      },
+      {
+        "label": "Shop now",
+        "href": "https://www.walmart.com/cp/7472650?athAsset=eyJhdGhjcGlkIjoiNWMzNDAyYWEtNmI4Yy00YzY5LWIyMDQtOWJjNWFkNTMzYWNkIiwiYWV3ciI6IkNUUiJ9&athena=true"
+      },
+      {
+        "label": "View all",
+        "href": "https://www.walmart.com/shop/deals/flash-deals?athAsset=eyJhdGhjcGlkIjoiMGI5ZGUxODctNTgxNS00ZDI1LThkMmYtY2M0ZDA0MmU3MWIxIiwiYXRoem5pZCI6Ikl0ZW1DYXJvdXNlbF8wYjlkZTE4Ny01ODE1LTRkMjUtOGQyZi1jYzRkMDQyZTcxYjFfaXRlbXMiLCJhdGhtdGlkIjoiQXRoZW5hSXRlbUNhcm91c2VsIiwiYXRodHZpZCI6IjEzIn0=&athena=true"
+      },
+      {
+        "label": "Reduced price Wisairt 36V Kids Electric Dirt Bike, 315W Battery Powered Ride on Motorcycle for Kids Aged 5-10, 3 Speed up to 15.5 mph, 10-mile Range, 133lbs Max Load, Waterproof Seat, Twist Grip Throttle, Green $259.49 Was $499.99",
+        "href": "https://www.walmart.com/ip/Wisairt-36V-Dirt-Bike-DK4-Kids-Electric-Ride-on-Motocross-Bike-for-Kids-8-Green/15460620775?athAsset=eyJhdGhjcGlkIjoiMTU0NjA2MjA3NzUiLCJhdGhzdGlkIjoiQ1MwMjAiLCJhdGhhbmNpZCI6Ikl0ZW1DYXJvdXNlbCIsImF0aHJrIjowLjB9&athena=true&athbdg=L1700"
+      },
+      {
+        "label": "Options",
+        "href": "https://www.walmart.com/ip/Wisairt-36V-Dirt-Bike-DK4-Kids-Electric-Ride-on-Motocross-Bike-for-Kids-8-Green/15460620775?athAsset=eyJhdGhjcGlkIjoiMTU0NjA2MjA3NzUiLCJhdGhzdGlkIjoiQ1MwMjAiLCJhdGhhbmNpZCI6Ikl0ZW1DYXJvdXNlbCIsImF0aHJrIjowLjB9&athena=true&athbdg=L1700"
+      },
+      {
+        "label": "BEBANG Telescope for Adults Astronomy, 70mm Aperture 400mm AZ Mount Refractor Telescope for Kids\u00a0Adults Beginners $59.89 Was $159.99",
+        "href": "https://www.walmart.com/ip/BEBANG-Telescope-for-Adults-Astronomy-70mm-Aperture-400mm-AZ-Mount-Refractor-Telescope-for-Kids-Adults-Beginners/789125696?athAsset=eyJhdGhjcGlkIjoiNzg5MTI1Njk2IiwiYXRoc3RpZCI6IkNTMDIwIiwiYXRoYW5jaWQiOiJJdGVtQ2Fyb3VzZWwiLCJhdGhyayI6MC4wfQ==&athena=true"
+      },
+      {
+        "label": "JUSTLET Christmas Tree, 6FT Artificial Christmas Tree W/ 1000 PVC Branch Tips, Unlit, White $49.99 Was $119.99",
+        "href": "https://www.walmart.com/ip/JUSTLET-Christmas-Tree-6FT-Artificial-Christmas-Tree-W-1000-PVC-Branch-Tips-Unlit-White/3005085870?athAsset=eyJhdGhjcGlkIjoiMzAwNTA4NTg3MCIsImF0aHN0aWQiOiJDUzAyMCIsImF0aGFuY2lkIjoiSXRlbUNhcm91c2VsIiwiYXRocmsiOjAuMH0=&athena=true"
+      },
+      {
+        "label": "Options",
+        "href": "https://www.walmart.com/ip/JUSTLET-Christmas-Tree-6FT-Artificial-Christmas-Tree-W-1000-PVC-Branch-Tips-Unlit-White/3005085870?athAsset=eyJhdGhjcGlkIjoiMzAwNTA4NTg3MCIsImF0aHN0aWQiOiJDUzAyMCIsImF0aGFuY2lkIjoiSXRlbUNhcm91c2VsIiwiYXRocmsiOjAuMH0=&athena=true"
+      },
+      {
+        "label": "Kikcoin Pots and Pans Set, 6 Pcs Nonstick Pots and Pans with Removable Handle, Space-Saving Cookware Set for RV & Camping, Dishwasher and Oven Safe, Cream White $32.99",
+        "href": "https://www.walmart.com/ip/Kikcoin-Pots-and-Pans-Set-6-Pcs-Nontoxic-Cookware-Set-for-Kitchen-Detachable-Handle-Dishwasher-Oven-Safe-Cream-White/15770970347?athAsset=eyJhdGhjcGlkIjoiMTU3NzA5NzAzNDciLCJhdGhzdGlkIjoiQ1MwMjAiLCJhdGhhbmNpZCI6Ikl0ZW1DYXJvdXNlbCIsImF0aHJrIjowLjB9&athena=true"
+      },
+      {
+        "label": "Options",
+        "href": "https://www.walmart.com/ip/Kikcoin-Pots-and-Pans-Set-6-Pcs-Nontoxic-Cookware-Set-for-Kitchen-Detachable-Handle-Dishwasher-Oven-Safe-Cream-White/15770970347?athAsset=eyJhdGhjcGlkIjoiMTU3NzA5NzAzNDciLCJhdGhzdGlkIjoiQ1MwMjAiLCJhdGhhbmNpZCI6Ikl0ZW1DYXJvdXNlbCIsImF0aHJrIjowLjB9&athena=true"
+      },
+      {
+        "label": "MOSHU Two Piece Womens Pajama Sets Button Down Shirts and Drawstring Pants with Pockets Solid Lounge Sets for Women $22.99 Was $49.99",
+        "href": "https://www.walmart.com/ip/MOSHU-Two-Piece-Womens-Pajama-Sets-Button-Down-Shirts-and-Drawstring-Pants-with-Pockets-Solid-Lounge-Sets-for-Women/7144558898?athAsset=eyJhdGhjcGlkIjoiNzE0NDU1ODg5OCIsImF0aHN0aWQiOiJDUzAyMCIsImF0aGFuY2lkIjoiSXRlbUNhcm91c2VsIiwiYXRocmsiOjAuMH0=&athena=true"
+      },
+      {
+        "label": "Fantaslook Blouses for Women Dressy Casual 3/4 Length Sleeve Womens Tops with Smocked Cuffs Fashion Shirts $11.99 Was $25.98",
+        "href": "https://www.walmart.com/ip/Fantaslook-Blouses-for-Women-Dressy-Casual-3-4-Length-Sleeve-Womens-Tops-with-Smocked-Cuffs-Fashion-Shirts/16326703588?athAsset=eyJhdGhjcGlkIjoiMTYzMjY3MDM1ODgiLCJhdGhzdGlkIjoiQ1MwMjAiLCJhdGhhbmNpZCI6Ikl0ZW1DYXJvdXNlbCIsImF0aHJrIjowLjB9&athena=true"
+      },
+      {
+        "label": "Learn more",
+        "href": "https://www.walmart.com/cp/9435689?utm_content=WMD-CRD-HPPO&athAsset=eyJhdGhjcGlkIjoiYzUwNjQwZjEtNDdkZS00NjEzLWEwNjQtODVlODYzNGE0NDBhIiwiYWV3ciI6Ik1QX0NUUiJ9&athena=true"
+      },
+      {
+        "label": "Learn more",
+        "href": "https://www.walmart.com/cp/9435689?utm_content=WMD-CRD-HPPO&athAsset=eyJhdGhjcGlkIjoiYzUwNjQwZjEtNDdkZS00NjEzLWEwNjQtODVlODYzNGE0NDBhIiwiYWV3ciI6Ik1QX0NUUiJ9&athena=true"
+      },
+      {
+        "label": "Shop now",
+        "href": "https://www.walmart.com/cp/6545138?athAsset=eyJhdGhjcGlkIjoiNjg1ZThkMDYtYjUxNC00YmNjLWE4MmEtZWI5NzczYTBmODQ4IiwiYWV3ciI6Ik1QX0NUUiJ9&athena=true"
+      },
+      {
+        "label": "Shop now",
+        "href": "https://www.walmart.com/cp/6545138?athAsset=eyJhdGhjcGlkIjoiNjg1ZThkMDYtYjUxNC00YmNjLWE4MmEtZWI5NzczYTBmODQ4IiwiYWV3ciI6Ik1QX0NUUiJ9&athena=true"
+      },
+      {
+        "label": "Learn more",
+        "href": "https://www.walmart.com/cp/the-wellness-hub/5523094?athAsset=eyJhdGhjcGlkIjoiOWQ0ZjliOTEtM2Q2Yi00NTVhLWJjZjUtMzdlOWM2NzkxMGNjIiwiYWV3ciI6Ik1QX0NUUiJ9&athena=true"
+      },
+      {
+        "label": "Learn more",
+        "href": "https://www.walmart.com/cp/the-wellness-hub/5523094?athAsset=eyJhdGhjcGlkIjoiOWQ0ZjliOTEtM2Q2Yi00NTVhLWJjZjUtMzdlOWM2NzkxMGNjIiwiYWV3ciI6Ik1QX0NUUiJ9&athena=true"
+      },
+      {
+        "label": "Shop now",
+        "href": "https://www.walmart.com/cp/christmas-light-installation/8428919?athAsset=eyJhdGhjcGlkIjoiYzVjM2Q2MzItYjBkYi00ZjRjLThiNGItNGEwYzkzODAyYzMyIiwiYWV3ciI6Ik1QX0NUUiJ9&athena=true"
+      },
+      {
+        "label": "Shop now",
+        "href": "https://www.walmart.com/cp/christmas-light-installation/8428919?athAsset=eyJhdGhjcGlkIjoiYzVjM2Q2MzItYjBkYi00ZjRjLThiNGItNGEwYzkzODAyYzMyIiwiYWV3ciI6Ik1QX0NUUiJ9&athena=true"
+      },
+      {
+        "label": "All Departments",
+        "href": "https://www.walmart.com/all-departments"
+      },
+      {
+        "label": "Store Directory",
+        "href": "https://www.walmart.com/store/directory"
+      },
+      {
+        "label": "Help",
+        "href": "https://www.walmart.com/help"
+      },
+      {
+        "label": "Accessibility",
+        "href": "https://www.walmart.com/help/article/responsible-disclosure-and-accessibility-policies/0f173dab8bd942da84b1cd7ab5ffc3cb"
+      },
+      {
+        "label": "Tax Exempt Program",
+        "href": "https://www.walmart.com/cp/tax-exemption-program/8480422"
+      },
+      {
+        "label": "Terms of Use",
+        "href": "https://www.walmart.com/help/article/walmart-com-terms-of-use/3b75080af40340d6bbd596f116fae5a0"
+      },
+      {
+        "label": "Your Privacy Choices",
+        "href": "https://www.walmart.com/account/api/ccpa-intake?native=false&app=gm&type=sod"
+      },
+      {
+        "label": "Customer Privacy Center",
+        "href": "https://www.walmart.com/privacy-center"
+      },
+      {
+        "label": "Brand Shop Directory",
+        "href": "https://www.walmart.com/brand/branddirectory"
+      },
+      {
+        "label": "Pharmacy",
+        "href": "https://www.walmart.com/cp/pharmacy/5431?povid=HWS_GlobalFooter_Pharmacy"
+      },
+      {
+        "label": "Walmart Business",
+        "href": "https://www.walmart.com/cp/walmart-business/7810722?povid=7810722_POV_WMTfooter"
+      },
+      {
+        "label": "#IYWYK",
+        "href": "https://www.walmart.com/cp/walmart-in-the-know/7781927"
+      },
+      {
+        "label": "Delete Account",
+        "href": "https://www.walmart.com/account/login?vid=oaoh&tid=0&returnUrl=%2Faccount%2Fdelete-account"
+      }
+    ],
+    "external": [
+      {
+        "label": "Schedule now",
+        "href": "https://walmart.com/browse/home-lawn-and-garden-services/0/0?_refineresult=true&_be_shelf_id=6627849&search_sort=100&facet=shelf_id:6627849&povid=RS_AssemblyInstallCP_3up_lawn&garden&athAsset=eyJhdGhjcGlkIjoiNDVlMzg3MjgtNzQ0MS00ZGJkLWJiMmMtMDYwZDQ1YWNhNjI0IiwiYWV3ciI6Ik1QX0NUUiJ9&athena=true"
+      },
+      {
+        "label": "Schedule now",
+        "href": "https://walmart.com/browse/home-lawn-and-garden-services/0/0?_refineresult=true&_be_shelf_id=6627849&search_sort=100&facet=shelf_id:6627849&povid=RS_AssemblyInstallCP_3up_lawn&garden&athAsset=eyJhdGhjcGlkIjoiNDVlMzg3MjgtNzQ0MS00ZGJkLWJiMmMtMDYwZDQ1YWNhNjI0IiwiYWV3ciI6Ik1QX0NUUiJ9&athena=true"
+      },
+      {
+        "label": "Careers",
+        "href": "https://careers.walmart.com/"
+      },
+      {
+        "label": "Our Company",
+        "href": "https://corporate.walmart.com/"
+      },
+      {
+        "label": "Sell on Walmart.com",
+        "href": "https://marketplace.walmart.com/?utm_source=Walmart.com&utm_medium=link&utm_campaign=footer"
+      },
+      {
+        "label": "Product Recalls",
+        "href": "https://corporate.walmart.com/recalls"
+      },
+      {
+        "label": "Get the Walmart App",
+        "href": "https://walmart.onelink.me/UIev?pid=walmart.com&af_web_dp=https%3A%2F%2Fwww.walmart.com%2Fcp%2Fwalmart-mobile-app%2F1087865&c=Walmart.com%20Site%20Footer&af_dp=walmart%3A%2F%2F"
+      },
+      {
+        "label": "Safety Data Sheet",
+        "href": "http://msds.walmartstores.com/"
+      },
+      {
+        "label": "Privacy Notice",
+        "href": "https://corporate.walmart.com/privacy-security"
+      },
+      {
+        "label": "California Supply Chain Act",
+        "href": "https://corporate.walmart.com/california-transparency"
+      },
+      {
+        "label": "Notice at Collection",
+        "href": "https://corporate.walmart.com/privacy-security/california-privacy-rights#what-are-the-categories-of-personal-information-collected"
+      },
+      {
+        "label": "AdChoices",
+        "href": "https://corporate.walmart.com/privacy-security/walmart-privacy-notice#interest-based-advertising"
+      },
+      {
+        "label": "Consumer Health Data Privacy Notices",
+        "href": "https://corporate.walmart.com/privacy-security/walmart-consumer-health-data-privacy-notices"
+      }
+    ],
+    "broken": []
+  },
+  "extractedAt": "2025-11-12T14:33:40Z"
+}

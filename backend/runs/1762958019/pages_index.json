@@ -1,0 +1,182 @@
+[
+  {
+    "pageId": "85100c281c66",
+    "titleGuess": "Walmart | Save Money. Live better.",
+    "path": "https://www.walmart.com/",
+    "url": "https://www.walmart.com/",
+    "status": 200,
+    "words": 16,
+    "mediaCount": 20
+  },
+  {
+    "pageId": "a60fd9d70d8a",
+    "titleGuess": "Robot or human?",
+    "path": "https://www.walmart.com/ip/BEBANG-Telescope-for-Adults-Astronomy-70mm-Aperture-400mm-AZ-Mount-Refractor-Telescope-for-Kids-Adults-Beginners/789125696?athAsset=eyJhdGhjcGlkIjoiNzg5MTI1Njk2IiwiYXRoc3RpZCI6IkNTMDIwIiwiYXRoYW5jaWQiOiJJdGVtQ2Fyb3VzZWwiLCJhdGhyayI6MC4wfQ==&athena=true",
+    "url": "https://www.walmart.com/blocked?url=L2lwL0JFQkFORy1UZWxlc2NvcGUtZm9yLUFkdWx0cy1Bc3Ryb25vbXktNzBtbS1BcGVydHVyZS00MDBtbS1BWi1Nb3VudC1SZWZyYWN0b3ItVGVsZXNjb3BlLWZvci1LaWRzLUFkdWx0cy1CZWdpbm5lcnMvNzg5MTI1Njk2P2F0aEFzc2V0PWV5SmhkR2hqY0dsa0lqb2lOemc1TVRJMU5qazJJaXdpWVhSb2MzUnBaQ0k2SWtOVE1ESXdJaXdpWVhSb1lXNWphV1FpT2lKSmRHVnRRMkZ5YjNWelpXd2lMQ0poZEdoeWF5STZNQzR3ZlE9PSZhdGhlbmE9dHJ1ZQ==&uuid=95719d67-bfd4-11f0-97fc-ec1b469df9a5&vid=&g=b",
+    "status": 200,
+    "words": 12,
+    "mediaCount": 0
+  },
+  {
+    "pageId": "b6191e3b012b",
+    "titleGuess": "Robot or human?",
+    "path": "https://www.walmart.com/shop/holiday-gatherings-savings?athAsset=eyJhdGhjcGlkIjoiMzRmNjY4ZDktMzY5OS00ZDkxLTg2NjgtZmQwZWRkM2NhZGI0IiwiYWV3ciI6IkNUUiJ9&athena=true",
+    "url": "https://www.walmart.com/blocked?url=L3Nob3AvaG9saWRheS1nYXRoZXJpbmdzLXNhdmluZ3M/YXRoQXNzZXQ9ZXlKaGRHaGpjR2xrSWpvaU16Um1Oalk0WkRrdE16WTVPUzAwWkRreExUZzJOamd0Wm1Rd1pXUmtNMk5oWkdJMElpd2lZV1YzY2lJNklrTlVVaUo5JmF0aGVuYT10cnVl&uuid=956dcd35-bfd4-11f0-ba84-15d5de245e75&vid=&g=b",
+    "status": 200,
+    "words": 12,
+    "mediaCount": 0
+  },
+  {
+    "pageId": "a5c335509057",
+    "titleGuess": "Robot or human?",
+    "path": "https://www.walmart.com/orders",
+    "url": "https://www.walmart.com/blocked?url=L29yZGVycw==&uuid=956e60f9-bfd4-11f0-bce0-0584e45b32d6&vid=&g=b",
+    "status": 200,
+    "words": 12,
+    "mediaCount": 0
+  },
+  {
+    "pageId": "24860b374b63",
+    "titleGuess": "Robot or human?",
+    "path": "https://www.walmart.com/cp/7472650?athAsset=eyJhdGhjcGlkIjoiNWMzNDAyYWEtNmI4Yy00YzY5LWIyMDQtOWJjNWFkNTMzYWNkIiwiYWV3ciI6IkNUUiJ9&athena=true",
+    "url": "https://www.walmart.com/blocked?url=L2NwLzc0NzI2NTA/YXRoQXNzZXQ9ZXlKaGRHaGpjR2xrSWpvaU5XTXpOREF5WVdFdE5tSTRZeTAwWXpZNUxXSXlNRFF0T1dKak5XRmtOVE16WVdOa0lpd2lZV1YzY2lJNklrTlVVaUo5JmF0aGVuYT10cnVl&uuid=9574fcbb-bfd4-11f0-b5e8-5ea3e8bc958f&vid=&g=b",
+    "status": 200,
+    "words": 12,
+    "mediaCount": 0
+  },
+  {
+    "pageId": "6ebd8d0d2f39",
+    "titleGuess": "My Registries",
+    "path": "https://www.walmart.com/my-registries",
+    "url": "https://www.walmart.com/my-registries",
+    "status": 200,
+    "words": 11,
+    "mediaCount": 6
+  },
+  {
+    "pageId": "d6b13d521be9",
+    "titleGuess": "My Lists",
+    "path": "https://www.walmart.com/lists",
+    "url": "https://www.walmart.com/lists",
+    "status": 200,
+    "words": 12,
+    "mediaCount": 6
+  },
+  {
+    "pageId": "25b253ed65cc",
+    "titleGuess": "Walmart.com | My Items",
+    "path": "https://www.walmart.com/my-items",
+    "url": "https://www.walmart.com/my-items",
+    "status": 200,
+    "words": 9,
+    "mediaCount": 6
+  },
+  {
+    "pageId": "f2b11bb79a5d",
+    "titleGuess": "Limited time!",
+    "path": "https://www.walmart.com/plus",
+    "url": "https://www.walmart.com/plus",
+    "status": 200,
+    "words": 35,
+    "mediaCount": 28
+  },
+  {
+    "pageId": "fe60cc9bec57",
+    "titleGuess": "Limited time!",
+    "path": "https://www.walmart.com/plus?athAsset=eyJhdGhjcGlkIjoiYjk4OWRmOWMtODlmOS00ZTFhLTg1NGQtN2Y4YTVhYWI1YjBhIiwiYWV3ciI6IkNUUiJ9&athena=true",
+    "url": "https://www.walmart.com/plus?athAsset=eyJhdGhjcGlkIjoiYjk4OWRmOWMtODlmOS00ZTFhLTg1NGQtN2Y4YTVhYWI1YjBhIiwiYWV3ciI6IkNUUiJ9&athena=true",
+    "status": 200,
+    "words": 35,
+    "mediaCount": 28
+  },
+  {
+    "pageId": "13fcb28ba356",
+    "titleGuess": "Subscriptions - Walmart.com",
+    "path": "https://www.walmart.com/cp/subscriptions/4191733",
+    "url": "https://www.walmart.com/cp/subscriptions/4191733",
+    "status": 200,
+    "words": 67,
+    "mediaCount": 89
+  },
+  {
+    "pageId": "ee64f786181b",
+    "titleGuess": "Wisairt 36V Kids Electric Dirt Bike, 315W Battery Powered Ride on Motorcycle for Kids Aged 5-10, 3 Speed up to 15.5 mph, 10-mile Range, 133lbs Max Load, Waterproof Seat, Twist Grip Throttle, Green - Walmart.com",
+    "path": "https://www.walmart.com/ip/Wisairt-36V-Dirt-Bike-DK4-Kids-Electric-Ride-on-Motocross-Bike-for-Kids-8-Green/15460620775?athAsset=eyJhdGhjcGlkIjoiMTU0NjA2MjA3NzUiLCJhdGhzdGlkIjoiQ1MwMjAiLCJhdGhhbmNpZCI6Ikl0ZW1DYXJvdXNlbCIsImF0aHJrIjowLjB9&athena=true&athbdg=L1700",
+    "url": "https://www.walmart.com/ip/Wisairt-36V-Dirt-Bike-DK4-Kids-Electric-Ride-on-Motocross-Bike-for-Kids-8-Green/15460620775?athAsset=eyJhdGhjcGlkIjoiMTU0NjA2MjA3NzUiLCJhdGhzdGlkIjoiQ1MwMjAiLCJhdGhhbmNpZCI6Ikl0ZW1DYXJvdXNlbCIsImF0aHJrIjowLjB9&athena=true&athbdg=L1700",
+    "status": 200,
+    "words": 40,
+    "mediaCount": 23
+  },
+  {
+    "pageId": "d80e99094cc7",
+    "titleGuess": "Flash Deals - Walmart.com",
+    "path": "https://www.walmart.com/shop/deals/flash-deals?athAsset=eyJhdGhjcGlkIjoiMGI5ZGUxODctNTgxNS00ZDI1LThkMmYtY2M0ZDA0MmU3MWIxIiwiYXRoem5pZCI6Ikl0ZW1DYXJvdXNlbF8wYjlkZTE4Ny01ODE1LTRkMjUtOGQyZi1jYzRkMDQyZTcxYjFfaXRlbXMiLCJhdGhtdGlkIjoiQXRoZW5hSXRlbUNhcm91c2VsIiwiYXRodHZpZCI6IjEzIn0=&athena=true",
+    "url": "https://www.walmart.com/shop/deals/flash-deals?athAsset=eyJhdGhjcGlkIjoiMGI5ZGUxODctNTgxNS00ZDI1LThkMmYtY2M0ZDA0MmU3MWIxIiwiYXRoem5pZCI6Ikl0ZW1DYXJvdXNlbF8wYjlkZTE4Ny01ODE1LTRkMjUtOGQyZi1jYzRkMDQyZTcxYjFfaXRlbXMiLCJhdGhtdGlkIjoiQXRoZW5hSXRlbUNhcm91c2VsIiwiYXRodHZpZCI6IjEzIn0=&athena=true",
+    "status": 200,
+    "words": 6,
+    "mediaCount": 102
+  },
+  {
+    "pageId": "ade8fdb2480f",
+    "titleGuess": "Robot or human?",
+    "path": "https://www.walmart.com/ip/Kikcoin-Pots-and-Pans-Set-6-Pcs-Nontoxic-Cookware-Set-for-Kitchen-Detachable-Handle-Dishwasher-Oven-Safe-Cream-White/15770970347?athAsset=eyJhdGhjcGlkIjoiMTU3NzA5NzAzNDciLCJhdGhzdGlkIjoiQ1MwMjAiLCJhdGhhbmNpZCI6Ikl0ZW1DYXJvdXNlbCIsImF0aHJrIjowLjB9&athena=true",
+    "url": "https://www.walmart.com/blocked?url=L2lwL0tpa2NvaW4tUG90cy1hbmQtUGFucy1TZXQtNi1QY3MtTm9udG94aWMtQ29va3dhcmUtU2V0LWZvci1LaXRjaGVuLURldGFjaGFibGUtSGFuZGxlLURpc2h3YXNoZXItT3Zlbi1TYWZlLUNyZWFtLVdoaXRlLzE1NzcwOTcwMzQ3P2F0aEFzc2V0PWV5SmhkR2hqY0dsa0lqb2lNVFUzTnpBNU56QXpORGNpTENKaGRHaHpkR2xrSWpvaVExTXdNakFpTENKaGRHaGhibU5wWkNJNklrbDBaVzFEWVhKdmRYTmxiQ0lzSW1GMGFISnJJam93TGpCOSZhdGhlbmE9dHJ1ZQ==&uuid=96cbe140-bfd4-11f0-805b-85dce40dfa3e&vid=&g=b",
+    "status": 200,
+    "words": 12,
+    "mediaCount": 0
+  },
+  {
+    "pageId": "e1822d1f33b4",
+    "titleGuess": "Robot or human?",
+    "path": "https://www.walmart.com/ip/Fantaslook-Blouses-for-Women-Dressy-Casual-3-4-Length-Sleeve-Womens-Tops-with-Smocked-Cuffs-Fashion-Shirts/16326703588?athAsset=eyJhdGhjcGlkIjoiMTYzMjY3MDM1ODgiLCJhdGhzdGlkIjoiQ1MwMjAiLCJhdGhhbmNpZCI6Ikl0ZW1DYXJvdXNlbCIsImF0aHJrIjowLjB9&athena=true",
+    "url": "https://www.walmart.com/blocked?url=L2lwL0ZhbnRhc2xvb2stQmxvdXNlcy1mb3ItV29tZW4tRHJlc3N5LUNhc3VhbC0zLTQtTGVuZ3RoLVNsZWV2ZS1Xb21lbnMtVG9wcy13aXRoLVNtb2NrZWQtQ3VmZnMtRmFzaGlvbi1TaGlydHMvMTYzMjY3MDM1ODg/YXRoQXNzZXQ9ZXlKaGRHaGpjR2xrSWpvaU1UWXpNalkzTURNMU9EZ2lMQ0poZEdoemRHbGtJam9pUTFNd01qQWlMQ0poZEdoaGJtTnBaQ0k2SWtsMFpXMURZWEp2ZFhObGJDSXNJbUYwYUhKcklqb3dMakI5JmF0aGVuYT10cnVl&uuid=96d20e0d-bfd4-11f0-84d9-36ff9104d34d&vid=&g=b",
+    "status": 200,
+    "words": 12,
+    "mediaCount": 0
+  },
+  {
+    "pageId": "196d6fcd77f4",
+    "titleGuess": "Robot or human?",
+    "path": "https://www.walmart.com/cp/the-wellness-hub/5523094?athAsset=eyJhdGhjcGlkIjoiOWQ0ZjliOTEtM2Q2Yi00NTVhLWJjZjUtMzdlOWM2NzkxMGNjIiwiYWV3ciI6Ik1QX0NUUiJ9&athena=true",
+    "url": "https://www.walmart.com/blocked?url=L2NwL3RoZS13ZWxsbmVzcy1odWIvNTUyMzA5ND9hdGhBc3NldD1leUpoZEdoamNHbGtJam9pT1dRMFpqbGlPVEV0TTJRMllpMDBOVFZoTFdKalpqVXRNemRsT1dNMk56a3hNR05qSWl3aVlXVjNjaUk2SWsxUVgwTlVVaUo5JmF0aGVuYT10cnVl&uuid=96cef751-bfd4-11f0-a456-3f2a21760b2e&vid=&g=b",
+    "status": 200,
+    "words": 12,
+    "mediaCount": 0
+  },
+  {
+    "pageId": "11da08438f3b",
+    "titleGuess": "Robot or human?",
+    "path": "https://www.walmart.com/ip/MOSHU-Two-Piece-Womens-Pajama-Sets-Button-Down-Shirts-and-Drawstring-Pants-with-Pockets-Solid-Lounge-Sets-for-Women/7144558898?athAsset=eyJhdGhjcGlkIjoiNzE0NDU1ODg5OCIsImF0aHN0aWQiOiJDUzAyMCIsImF0aGFuY2lkIjoiSXRlbUNhcm91c2VsIiwiYXRocmsiOjAuMH0=&athena=true",
+    "url": "https://www.walmart.com/blocked?url=L2lwL01PU0hVLVR3by1QaWVjZS1Xb21lbnMtUGFqYW1hLVNldHMtQnV0dG9uLURvd24tU2hpcnRzLWFuZC1EcmF3c3RyaW5nLVBhbnRzLXdpdGgtUG9ja2V0cy1Tb2xpZC1Mb3VuZ2UtU2V0cy1mb3ItV29tZW4vNzE0NDU1ODg5OD9hdGhBc3NldD1leUpoZEdoamNHbGtJam9pTnpFME5EVTFPRGc1T0NJc0ltRjBhSE4wYVdRaU9pSkRVekF5TUNJc0ltRjBhR0Z1WTJsa0lqb2lTWFJsYlVOaGNtOTFjMlZzSWl3aVlYUm9jbXNpT2pBdU1IMD0mYXRoZW5hPXRydWU=&uuid=96d1454f-bfd4-11f0-afbf-560004e6c541&vid=&g=b",
+    "status": 200,
+    "words": 12,
+    "mediaCount": 0
+  },
+  {
+    "pageId": "c109a9ca8b81",
+    "titleGuess": "Robot or human?",
+    "path": "https://www.walmart.com/cp/6545138?athAsset=eyJhdGhjcGlkIjoiNjg1ZThkMDYtYjUxNC00YmNjLWE4MmEtZWI5NzczYTBmODQ4IiwiYWV3ciI6Ik1QX0NUUiJ9&athena=true",
+    "url": "https://www.walmart.com/blocked?url=L2NwLzY1NDUxMzg/YXRoQXNzZXQ9ZXlKaGRHaGpjR2xrSWpvaU5qZzFaVGhrTURZdFlqVXhOQzAwWW1OakxXRTRNbUV0WldJNU56Y3pZVEJtT0RRNElpd2lZV1YzY2lJNklrMVFYME5VVWlKOSZhdGhlbmE9dHJ1ZQ==&uuid=96d196cd-bfd4-11f0-8c50-2f2bfd252ff3&vid=&g=b",
+    "status": 200,
+    "words": 12,
+    "mediaCount": 0
+  },
+  {
+    "pageId": "08e72ea17ceb",
+    "titleGuess": "Robot or human?",
+    "path": "https://www.walmart.com/cp/9435689?utm_content=WMD-CRD-HPPO&athAsset=eyJhdGhjcGlkIjoiYzUwNjQwZjEtNDdkZS00NjEzLWEwNjQtODVlODYzNGE0NDBhIiwiYWV3ciI6Ik1QX0NUUiJ9&athena=true",
+    "url": "https://www.walmart.com/blocked?url=L2NwLzk0MzU2ODk/dXRtX2NvbnRlbnQ9V01ELUNSRC1IUFBPJmF0aEFzc2V0PWV5SmhkR2hqY0dsa0lqb2lZelV3TmpRd1pqRXRORGRrWlMwME5qRXpMV0V3TmpRdE9EVmxPRFl6TkdFME5EQmhJaXdpWVdWM2NpSTZJazFRWDBOVVVpSjkmYXRoZW5hPXRydWU=&uuid=96cd2b0a-bfd4-11f0-bfd1-1fdb50198b10&vid=&g=b",
+    "status": 200,
+    "words": 12,
+    "mediaCount": 0
+  },
+  {
+    "pageId": "6e49b17a4811",
+    "titleGuess": "Robot or human?",
+    "path": "https://www.walmart.com/ip/JUSTLET-Christmas-Tree-6FT-Artificial-Christmas-Tree-W-1000-PVC-Branch-Tips-Unlit-White/3005085870?athAsset=eyJhdGhjcGlkIjoiMzAwNTA4NTg3MCIsImF0aHN0aWQiOiJDUzAyMCIsImF0aGFuY2lkIjoiSXRlbUNhcm91c2VsIiwiYXRocmsiOjAuMH0=&athena=true",
+    "url": "https://www.walmart.com/blocked?url=L2lwL0pVU1RMRVQtQ2hyaXN0bWFzLVRyZWUtNkZULUFydGlmaWNpYWwtQ2hyaXN0bWFzLVRyZWUtVy0xMDAwLVBWQy1CcmFuY2gtVGlwcy1VbmxpdC1XaGl0ZS8zMDA1MDg1ODcwP2F0aEFzc2V0PWV5SmhkR2hqY0dsa0lqb2lNekF3TlRBNE5UZzNNQ0lzSW1GMGFITjBhV1FpT2lKRFV6QXlNQ0lzSW1GMGFHRnVZMmxrSWpvaVNYUmxiVU5oY205MWMyVnNJaXdpWVhSb2Ntc2lPakF1TUgwPSZhdGhlbmE9dHJ1ZQ==&uuid=96eb91c8-bfd4-11f0-8024-4efd38d09e91&vid=&g=b",
+    "status": 200,
+    "words": 12,
+    "mediaCount": 0
+  }
+]

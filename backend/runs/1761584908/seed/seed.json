@@ -1,0 +1,296 @@
+{
+  "baseUrl": "https://www.northshoreexteriorupkeep.com/",
+  "nav": [
+    {
+      "id": "f0088eab",
+      "label": "Home",
+      "href": "https://www.northshoreexteriorupkeep.com/home",
+      "order": 0,
+      "path": "/home",
+      "children": []
+    },
+    {
+      "id": "a608c4dd",
+      "label": "Services",
+      "href": "https://www.northshoreexteriorupkeep.com/services",
+      "order": 1,
+      "path": "/services",
+      "children": []
+    },
+    {
+      "id": "78dcb4d7",
+      "label": "Our work",
+      "href": "https://www.northshoreexteriorupkeep.com/our-work",
+      "order": 2,
+      "path": "/our-work",
+      "children": []
+    },
+    {
+      "id": "89ce603b",
+      "label": "Contact Us",
+      "href": "https://www.northshoreexteriorupkeep.com/contact-us",
+      "order": 3,
+      "path": "/contact-us",
+      "children": []
+    }
+  ],
+  "footer": {
+    "columns": [],
+    "socials": [],
+    "contact": {
+      "email": "northshoreexteriorupkeep@gmail.com",
+      "phone": " 9853637887"
+    }
+  },
+  "pages": [
+    {
+      "path": "https://www.northshoreexteriorupkeep.com/",
+      "components": [
+        {
+          "type": "hero",
+          "props": {
+            "heading": "Northshore Exterior Upkeep",
+            "text": [
+              "We use Eco friendly chemicals that are safe from the environment, and we use soft washing method so to not damage the property",
+              "Our staff are fully trained, Licensed, and insured."
+            ],
+            "images": [
+              {
+                "url": "https://lh3.googleusercontent.com/sitesv/AAzXCkdlHHET806_mj72CVZP2yWOKg0CiGwAvU3kXPIT1EDtS_0EX1VLvipxl7YYFYLuy2Jzms9cajEBZd3TzjkGyNlFhp-di3AHw_KD7kN6J39Y9EFuDafCw1im7xvRP7NAkqTfyggbs1vCpgk__YUij5ARhOciYOlB5QiDt-K1lrWCjP3cTEzw-fAOa0g=w16383",
+                "alt": "",
+                "width": null,
+                "height": null
+              }
+            ]
+          }
+        },
+        {
+          "type": "section",
+          "props": {
+            "html": "<p>We use commercial grade equipment, and we have a very flexible schedule that can accommodate yours.</p><p>We are a family owned and  passionate in restoring homes and driveway. We're here to make Louisiana shine.</p><p>Pressure washing is very important. It gets rid of mold, dirt, and other stains. Which over time can build up and result in discoloring or fading. Which in turn can bring down the property value.</p><p>Mon-Thu  8:30 AM - 7:00 PM</p><p>Fri-Sun  7:00 AM \u2013 7:00 PM</p>"
+          }
+        },
+        {
+          "type": "gallery",
+          "props": {
+            "images": [
+              {
+                "url": "https://lh3.googleusercontent.com/sitesv/AAzXCke4i_N2QRu3k_Cpa7nZaPUFqjRVhhj9nmx-GFGwTfhOk5Ghd6_p7ApY43oQxBcA6-pxRljR4dYkyqpAZKCvNd6drbyrymhKZiMEVtiqgVTUsRt33jWv8F0-CFY9fOeE8i5lyPn25f8f0wI2J-k8_2V8NSYzcxryDEwVzD1YyLaRCpiCCD6GEYlXQe9DVd3L8hbpcKCoLPAtlQPyuzOw_bYXiItUboLE8haZ=w1280",
+                "alt": "",
+                "width": null,
+                "height": null
+              },
+              {
+                "url": "https://lh3.googleusercontent.com/sitesv/AAzXCkdKD3RLTIGBb5ggsUguoP182GzkjoJ0rdUQntaStdwFIxaDd7B9ZkUqcCH7EK51ecIVcgQmQ3U5hdQto7Z3IxUh_TEgEhnO6CAd-xcYw_gRUqC0dwNlZP3Cm2qxSYI-Ba2mWrd7G3J0da-aViHxgXk1SzvU0PbqNbCjFSrsaNfvXUfnnG0A_6rSY42QwTBoa-_VQSelPPCuwkec5h36Zxaizlz6GskW4k5GeVM=w1280",
+                "alt": "",
+                "width": null,
+                "height": null
+              },
+              {
+                "url": "https://lh3.googleusercontent.com/sitesv/AAzXCkdOCf0tY7gSUq_4M75Tqqmx_kf9_AWC6mm3rbAdxX_5sM6D4PR-s5yGj721i4K6AzdFQ9OAI7sfIZkhy9T1ln5_x-IGThtJW1g-oCJy5SgrID5vsoZmGjDKTUYGuGLny8qpJCK17RVgJfyKLtkcC4RRQJ4AYCWwitkXdryE4xgP0H3-Orfhm_Q7AhNMpa2C9q069KHmg974SOgrQvQuxVa_nlwRXjF5fYaM=w1280",
+                "alt": "",
+                "width": null,
+                "height": null
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "path": "https://www.northshoreexteriorupkeep.com/contact-us",
+      "components": [
+        {
+          "type": "hero",
+          "props": {
+            "heading": "Contact Info",
+            "text": [
+              "northshoreexteriorupkeep@gmail.com"
+            ],
+            "images": [
+              {
+                "url": "https://lh3.googleusercontent.com/sitesv/AAzXCkdlHHET806_mj72CVZP2yWOKg0CiGwAvU3kXPIT1EDtS_0EX1VLvipxl7YYFYLuy2Jzms9cajEBZd3TzjkGyNlFhp-di3AHw_KD7kN6J39Y9EFuDafCw1im7xvRP7NAkqTfyggbs1vCpgk__YUij5ARhOciYOlB5QiDt-K1lrWCjP3cTEzw-fAOa0g=w16383",
+                "alt": "",
+                "width": null,
+                "height": null
+              }
+            ]
+          }
+        },
+        {
+          "type": "section",
+          "props": {
+            "html": "<p>northshoreexteriorupkeep@gmail.com</p>"
+          }
+        }
+      ]
+    },
+    {
+      "path": "https://www.northshoreexteriorupkeep.com/home",
+      "components": [
+        {
+          "type": "hero",
+          "props": {
+            "heading": "Northshore Exterior Upkeep",
+            "text": [
+              "We use Eco friendly chemicals that are safe from the environment, and we use soft washing method so to not damage the property",
+              "Our staff are fully trained, Licensed, and insured."
+            ],
+            "images": [
+              {
+                "url": "https://lh3.googleusercontent.com/sitesv/AAzXCkdlHHET806_mj72CVZP2yWOKg0CiGwAvU3kXPIT1EDtS_0EX1VLvipxl7YYFYLuy2Jzms9cajEBZd3TzjkGyNlFhp-di3AHw_KD7kN6J39Y9EFuDafCw1im7xvRP7NAkqTfyggbs1vCpgk__YUij5ARhOciYOlB5QiDt-K1lrWCjP3cTEzw-fAOa0g=w16383",
+                "alt": "",
+                "width": null,
+                "height": null
+              }
+            ]
+          }
+        },
+        {
+          "type": "section",
+          "props": {
+            "html": "<p>We use commercial grade equipment, and we have a very flexible schedule that can accommodate yours.</p><p>We are a family owned and  passionate in restoring homes and driveway. We're here to make Louisiana shine.</p><p>Pressure washing is very important. It gets rid of mold, dirt, and other stains. Which over time can build up and result in discoloring or fading. Which in turn can bring down the property value.</p><p>Mon-Thu  8:30 AM - 7:00 PM</p><p>Fri-Sun  7:00 AM \u2013 7:00 PM</p>"
+          }
+        },
+        {
+          "type": "gallery",
+          "props": {
+            "images": [
+              {
+                "url": "https://lh3.googleusercontent.com/sitesv/AAzXCke4i_N2QRu3k_Cpa7nZaPUFqjRVhhj9nmx-GFGwTfhOk5Ghd6_p7ApY43oQxBcA6-pxRljR4dYkyqpAZKCvNd6drbyrymhKZiMEVtiqgVTUsRt33jWv8F0-CFY9fOeE8i5lyPn25f8f0wI2J-k8_2V8NSYzcxryDEwVzD1YyLaRCpiCCD6GEYlXQe9DVd3L8hbpcKCoLPAtlQPyuzOw_bYXiItUboLE8haZ=w1280",
+                "alt": "",
+                "width": null,
+                "height": null
+              },
+              {
+                "url": "https://lh3.googleusercontent.com/sitesv/AAzXCkdKD3RLTIGBb5ggsUguoP182GzkjoJ0rdUQntaStdwFIxaDd7B9ZkUqcCH7EK51ecIVcgQmQ3U5hdQto7Z3IxUh_TEgEhnO6CAd-xcYw_gRUqC0dwNlZP3Cm2qxSYI-Ba2mWrd7G3J0da-aViHxgXk1SzvU0PbqNbCjFSrsaNfvXUfnnG0A_6rSY42QwTBoa-_VQSelPPCuwkec5h36Zxaizlz6GskW4k5GeVM=w1280",
+                "alt": "",
+                "width": null,
+                "height": null
+              },
+              {
+                "url": "https://lh3.googleusercontent.com/sitesv/AAzXCkdOCf0tY7gSUq_4M75Tqqmx_kf9_AWC6mm3rbAdxX_5sM6D4PR-s5yGj721i4K6AzdFQ9OAI7sfIZkhy9T1ln5_x-IGThtJW1g-oCJy5SgrID5vsoZmGjDKTUYGuGLny8qpJCK17RVgJfyKLtkcC4RRQJ4AYCWwitkXdryE4xgP0H3-Orfhm_Q7AhNMpa2C9q069KHmg974SOgrQvQuxVa_nlwRXjF5fYaM=w1280",
+                "alt": "",
+                "width": null,
+                "height": null
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "path": "https://www.northshoreexteriorupkeep.com/our-work",
+      "components": [
+        {
+          "type": "hero",
+          "props": {
+            "heading": "Our work",
+            "text": [
+              "\"We take great Pride in our work\""
+            ],
+            "images": [
+              {
+                "url": "https://lh3.googleusercontent.com/sitesv/AAzXCkdlHHET806_mj72CVZP2yWOKg0CiGwAvU3kXPIT1EDtS_0EX1VLvipxl7YYFYLuy2Jzms9cajEBZd3TzjkGyNlFhp-di3AHw_KD7kN6J39Y9EFuDafCw1im7xvRP7NAkqTfyggbs1vCpgk__YUij5ARhOciYOlB5QiDt-K1lrWCjP3cTEzw-fAOa0g=w16383",
+                "alt": "",
+                "width": null,
+                "height": null
+              }
+            ]
+          }
+        },
+        {
+          "type": "section",
+          "props": {
+            "html": "<p>\"We take great Pride in our work\"</p>"
+          }
+        },
+        {
+          "type": "gallery",
+          "props": {
+            "images": [
+              {
+                "url": "https://lh3.googleusercontent.com/sitesv/AAzXCkdAXUDftyl5SPAqBOCRuZSktIQw-plu6zJb4BrZT_GAOiLRAjUqwy7kr6dCADyORzCbv9cimcIRK9r1FdlOx8RTREyxGgSsX7uvynDPQxXBya5g0lw-HKOSNL7TrLqIhDbpQrBl8x7LrE4K9OBMVa1Z10dC-x_qcbF1tWZaj7JQLpNhCugiuXjOcHO-FkrATTb2JJmgtc_T0UZovCAsN0JdUSNNzFK-EzJ5Dxg=w1280",
+                "alt": "",
+                "width": null,
+                "height": null
+              },
+              {
+                "url": "https://lh3.googleusercontent.com/sitesv/AAzXCke0HpUEATCQIPDQzac-GU8ZIhCZhhemd7nJUGRjCXFJ8SJyLvztyEcNm7ScUJW-gYA6yXJPw12Z-s7oAHZxYonWplNv9tlU6YyfR__ewc4p6sJIeqQYTVXKl81l_IKc031DE-CczR1mWrcQwJf6NXQhSnH1yBb1x9-mFPz_8ZYYoiwIwIC1-FBNJsNCR2ITPqSouea0nTHBbxpKKk2rShcR8RQcgGldd3r_Cak=w1280",
+                "alt": "",
+                "width": null,
+                "height": null
+              },
+              {
+                "url": "https://lh3.googleusercontent.com/sitesv/AAzXCkfOsZvzXTLo1K4k42bETXOEl3JXwR7e2Ocj18-wwN1oBUxna-UIV3Dlduue1qWILRK9C-WL-M5AV0zVAk2dKgNJeuRdNnmBsPiLDCrV1K9-CnyZRH6JeiRoxQ27Qu5k2crU700M25oRS15BlkLemH5ZKBSyBAQvMEKvR4UVMCle6k8n8ZjBNok40r4VpfQtnF4qVLqt4uZfJOyLxKRCDVwzjj_Njwqqu0-q_v0=w1280",
+                "alt": "",
+                "width": null,
+                "height": null
+              },
+              {
+                "url": "https://lh3.googleusercontent.com/sitesv/AAzXCkcSP2GRpkuqmuIzvJOgH5T6XuyhD5eTFJ3S2A4K0ZJ0R8BzIoh5OZLpJCBmqI789C1bdEw9yOAXw3xvbdpBEFv8LWCMwn0ZoZRO2GMVdoxwBpNhh3wA4ljqaQM2chKIXtO1YPqj6I_Y_ASsXZTaUPq_NJR1DTM35oBsAQkJxcxVEt7k1bYkGnoxX2mfd6o9R3sjgS9Irn3sXE5eixQuMPLKex1yMxX5EzhwIAw=w1280",
+                "alt": "",
+                "width": null,
+                "height": null
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "path": "https://www.northshoreexteriorupkeep.com/services",
+      "components": [
+        {
+          "type": "hero",
+          "props": {
+            "heading": "Services",
+            "text": [
+              "Driveway and side walk",
+              "We use a surface cleaner to remove any oil stain and any other stains from the concrete"
+            ],
+            "images": [
+              {
+                "url": "https://lh3.googleusercontent.com/sitesv/AAzXCkdlHHET806_mj72CVZP2yWOKg0CiGwAvU3kXPIT1EDtS_0EX1VLvipxl7YYFYLuy2Jzms9cajEBZd3TzjkGyNlFhp-di3AHw_KD7kN6J39Y9EFuDafCw1im7xvRP7NAkqTfyggbs1vCpgk__YUij5ARhOciYOlB5QiDt-K1lrWCjP3cTEzw-fAOa0g=w16383",
+                "alt": "",
+                "width": null,
+                "height": null
+              }
+            ]
+          }
+        },
+        {
+          "type": "section",
+          "props": {
+            "html": "<p>House and window  cleaning</p><p>We get rid of all the mold and stains with Eco friendly chemicals and then soft wash it off</p><p>We clean the inside and outside of trashcans</p><p>Then we use a solution to make it from smelling bad</p>"
+          }
+        },
+        {
+          "type": "gallery",
+          "props": {
+            "images": [
+              {
+                "url": "https://lh3.googleusercontent.com/sitesv/AAzXCkc9ILCKaEBDc0ziiW0TEGUxBHuDYNiPZyRlyV2isCl0Ng1dyW1jZBOwro0LC5wDfD9eGBEKdk6DVmoOBrYoZSmlDLVuMQy8KdnTDEthFMlGv1lviPePIp-5oD4Rmua4VNd67J_kyGiiQKQAPW1ISGX-4u4i-eT8UOaw5Vojv4VM7YrBrlnXmkJhNos=w1280",
+                "alt": "",
+                "width": null,
+                "height": null
+              },
+              {
+                "url": "https://lh3.googleusercontent.com/sitesv/AAzXCkeYlP20yRrQkJLJNL45eLRblLhWbEPVxzetLtH3ueGh9ne9-hU_FXbhe7MnUH-FInJTHgtYvQjmQ4RqkV6sKDzVmZrPvHXCpOgkFCwasm6UUBkFRskenGEdKKKJr5DWH_Ah1mBoxU8i4nKuDbOiZsfzHPots_WiJXTIg8t4yDqqkHpnC2LQdd137JN1V0ceaR7-rpVFCsyvePJG5l5BTTH99z6CkYdWawFW=w1280",
+                "alt": "",
+                "width": null,
+                "height": null
+              },
+              {
+                "url": "https://lh3.googleusercontent.com/sitesv/AAzXCkedIqfHTEUF6oY-YqfE7k8l6TDam22Lv6DRPMUlAh96wtEy8nCHGeYq7D3ATR4_woLdp6ojmxY4K-i219xipMKlHRoaoMQcomGZzoS7Oiointhbt0ogXqVRQ8pRUtSSI3j1vwAyv35-Hsbf4_srKPHvTVOC3gbdywgZ4g03GY7OUWp7xUD0BK2sIq5DlgXcy28qvCCacugkKY-FHVjj-I0mCoaj-agwS1CX=w1280",
+                "alt": "",
+                "width": null,
+                "height": null
+              }
+            ]
+          }
+        }
+      ]
+    }
+  ]
+}

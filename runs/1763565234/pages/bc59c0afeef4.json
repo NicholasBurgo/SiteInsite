@@ -1,0 +1,706 @@
+{
+  "url": "https://www.newsmaxtv.com/listen/",
+  "path": "/listen/",
+  "status": 200,
+  "title": "Listen to NEWSMAX TV Audio",
+  "description": "Newsmax TV -- leading 24/7 cable news channel with live, breaking news, latest from Washington, NY and Hollywood!NEWSMAX TV \u2013 independent network with conservative perspective and leading 24/7 cable news channel with live breaking news from Washington, NY and Hollywood!",
+  "canonical": "https://www.newsmaxtv.com/listen/",
+  "media": {
+    "images": [
+      {
+        "url": "https://www.newsmaxtv.com/App_Themes/NewsmaxTV/images/installappicon.webp",
+        "alt": "Install Newsmax App",
+        "width": null,
+        "height": null
+      },
+      {
+        "url": "https://www.newsmaxtv.com/CMSScripts/NewsmaxTV/images/logos/Newsmax-TV-White.png",
+        "alt": "",
+        "width": null,
+        "height": null
+      },
+      {
+        "url": "https://www.newsmaxtv.com/App_Themes/NewsmaxNew/images/listen/newsmax_listen_logo.png",
+        "alt": "",
+        "width": null,
+        "height": null
+      },
+      {
+        "url": "https://www.newsmaxtv.com/App_Themes/NewsmaxNew/images/listen/apps/audacy.jpg",
+        "alt": "Audacy Logo",
+        "width": null,
+        "height": null
+      },
+      {
+        "url": "https://www.newsmaxtv.com/App_Themes/NewsmaxNew/images/listen/apps/iheart.jpg",
+        "alt": "iHeart Logo",
+        "width": null,
+        "height": null
+      },
+      {
+        "url": "https://www.newsmaxtv.com/App_Themes/NewsmaxNew/images/listen/apps/tunein.jpg",
+        "alt": "TuneIn Logo",
+        "width": null,
+        "height": null
+      },
+      {
+        "url": "https://www.newsmaxtv.com/App_Themes/NewsmaxNew/images/listen/apps/apple.jpg",
+        "alt": "Apple Logo",
+        "width": null,
+        "height": null
+      },
+      {
+        "url": "https://www.newsmaxtv.com/App_Themes/NewsmaxNew/images/listen/apps/spotify.jpg",
+        "alt": "Spotify Logo",
+        "width": null,
+        "height": null
+      },
+      {
+        "url": "https://www.newsmaxtv.com/App_Themes/NewsmaxNew/images/listen/apps/amazon.jpg",
+        "alt": "Amazon Logo",
+        "width": null,
+        "height": null
+      },
+      {
+        "url": "https://www.newsmaxtv.com/App_Themes/NewsmaxNew/images/listen/apps/pandora.jpg",
+        "alt": "Pandora Logo",
+        "width": null,
+        "height": null
+      },
+      {
+        "url": "https://www.newsmaxtv.com/App_Themes/NewsmaxNew/images/listen/apps/rumble.jpg",
+        "alt": "rumble Logo",
+        "width": null,
+        "height": null
+      },
+      {
+        "url": "https://www.newsmaxtv.com/getattachment/listen/ask-for-newsmax-transparent.png.aspx;;?lang=en-US&width=1651&height=516&ext=.png",
+        "alt": "Ask for Newsmax",
+        "width": null,
+        "height": null
+      },
+      {
+        "url": "https://www.newsmaxtv.com/App_Themes/NewsmaxTV/images/apps/app_directv2.png",
+        "alt": "DirecTV",
+        "width": null,
+        "height": null
+      },
+      {
+        "url": "https://www.newsmaxtv.com/App_Themes/NewsmaxTV/images/apps/app_dish.png",
+        "alt": "Dish Network",
+        "width": null,
+        "height": null
+      },
+      {
+        "url": "https://www.newsmaxtv.com/App_Themes/NewsmaxTV/images/apps/app_comcast.png",
+        "alt": "Comcast/Xfinity",
+        "width": null,
+        "height": null
+      },
+      {
+        "url": "https://www.newsmaxtv.com/App_Themes/NewsmaxTV/images/apps/app_spectrum.png",
+        "alt": "Spectrum (TWC/Charter/BHH)",
+        "width": null,
+        "height": null
+      },
+      {
+        "url": "https://www.newsmaxtv.com/App_Themes/NewsmaxTV/images/apps/app_uverse2.png",
+        "alt": "AT&T U-verse",
+        "width": null,
+        "height": null
+      },
+      {
+        "url": "https://www.newsmaxtv.com/App_Themes/NewsmaxTV/images/apps/app_verizon.png",
+        "alt": "Verizon FiOS",
+        "width": null,
+        "height": null
+      },
+      {
+        "url": "https://www.newsmaxtv.com/App_Themes/NewsmaxTV/images/apps/yttv.png",
+        "alt": "YouTubeTV",
+        "width": null,
+        "height": null
+      },
+      {
+        "url": "https://www.newsmaxtv.com/App_Themes/NewsmaxTV/images/apps/app_cox01.png",
+        "alt": "Cox Media",
+        "width": null,
+        "height": null
+      },
+      {
+        "url": "https://www.newsmaxtv.com/App_Themes/NewsmaxTV/images/apps/app_optimum.png",
+        "alt": "Optimum",
+        "width": null,
+        "height": null
+      },
+      {
+        "url": "https://www.newsmaxtv.com/App_Themes/NewsmaxTV/images/apps/app_mediacom277.png",
+        "alt": "Mediacom",
+        "width": null,
+        "height": null
+      },
+      {
+        "url": "https://www.newsmaxtv.com/App_Themes/NewsmaxTV/images/apps/app_wow.png",
+        "alt": "WOW!",
+        "width": null,
+        "height": null
+      },
+      {
+        "url": "https://www.newsmaxtv.com/App_Themes/NewsmaxTV/images/apps/app_fusion.png",
+        "alt": "Fusion TV",
+        "width": null,
+        "height": null
+      },
+      {
+        "url": "https://www.newsmaxtv.com/App_Themes/NewsmaxTV/images/apps/app_fubo1.png",
+        "alt": "Fubo TV",
+        "width": null,
+        "height": null
+      },
+      {
+        "url": "https://www.newsmaxtv.com/App_Themes/NewsmaxTV/images/apps/hulu.png",
+        "alt": "Hulu plus live",
+        "width": null,
+        "height": null
+      },
+      {
+        "url": "https://www.newsmaxtv.com/App_Themes/NewsmaxTV/images/apps/social_yt.png",
+        "alt": "",
+        "width": null,
+        "height": null
+      },
+      {
+        "url": "https://www.newsmaxtv.com/App_Themes/NewsmaxTV/images/apps/social_fb.png",
+        "alt": "",
+        "width": null,
+        "height": null
+      },
+      {
+        "url": "https://www.newsmaxtv.com/App_Themes/NewsmaxTV/images/apps/social_tw.png",
+        "alt": "",
+        "width": null,
+        "height": null
+      },
+      {
+        "url": "https://www.newsmaxtv.com/App_Themes/NewsmaxTV/images/apps/social_ig.png",
+        "alt": "",
+        "width": null,
+        "height": null
+      },
+      {
+        "url": "https://www.newsmaxtv.com/App_Themes/NewsmaxNew/images/qrcode/white/wh-app-apple.png",
+        "alt": "Apple",
+        "width": null,
+        "height": null
+      },
+      {
+        "url": "https://www.newsmaxtv.com/App_Themes/NewsmaxNew/images/qrcode/white/wh-app-google.png",
+        "alt": "Android",
+        "width": null,
+        "height": null
+      },
+      {
+        "url": "https://www.newsmaxtv.com/App_Themes/NewsmaxNew/images/qrcode/white/wh-app-amazon.png",
+        "alt": "Amazon",
+        "width": null,
+        "height": null
+      },
+      {
+        "url": "https://www.newsmaxtv.com/App_Themes/NewsmaxNew/images/qrcode/white/wh-app-samsung.png",
+        "alt": "Samsung",
+        "width": null,
+        "height": null
+      },
+      {
+        "url": "https://www.newsmaxtv.com/App_Themes/NewsmaxNew/images/qrcode/white/wh-app-vizio.png",
+        "alt": "Vizio",
+        "width": null,
+        "height": null
+      },
+      {
+        "url": "https://www.newsmaxtv.com/App_Themes/NewsmaxNew/images/qrcode/white/wh-app-roku.png",
+        "alt": "Roku",
+        "width": null,
+        "height": null
+      },
+      {
+        "url": "https://www.newsmaxtv.com/App_Themes/NewsmaxNew/images/qrcode/white/wh-app-sony.png",
+        "alt": "Sony",
+        "width": null,
+        "height": null
+      },
+      {
+        "url": "https://www.newsmaxtv.com/App_Themes/NewsmaxNew/images/qrcode/white/wh-app-lg.png",
+        "alt": "LG",
+        "width": null,
+        "height": null
+      },
+      {
+        "url": "https://www.newsmaxtv.com/App_Themes/NewsmaxNew/images/qrcode/newsmaxqr-80.png",
+        "alt": "Scan QR code to get the NewsmaxTV App",
+        "width": null,
+        "height": null
+      },
+      {
+        "url": "https://www.newsmaxtv.com/App_Themes/NewsmaxTV/images/apps/app_alexa.png",
+        "alt": "Amazon Alexa",
+        "width": null,
+        "height": null
+      },
+      {
+        "url": "https://www.newsmaxtv.com/App_Themes/NewsmaxTV/images/apps/app_googleassistant.png",
+        "alt": "Google Assistant",
+        "width": null,
+        "height": null
+      },
+      {
+        "url": "https://www.newsmaxtv.com/App_Themes/NewsmaxTV/images/channels/N1_Hero_Hosts_en_Espanol_right.jpg",
+        "alt": "",
+        "width": null,
+        "height": null
+      },
+      {
+        "url": "https://www.newsmaxtv.com/App_Themes/NewsmaxTV/share/images/nmx-share-logo.png",
+        "alt": "",
+        "width": null,
+        "height": null
+      },
+      {
+        "url": "https://www.newsmaxtv.com/akam/13/pixel_4ad1d725?a=dD1kNDhlODg5NjMyMzRkMGVlZTViYzg0ZGVjNzE1ZTA2ZWJkNTg4NjNjJmpzPW9mZg==",
+        "alt": "",
+        "width": null,
+        "height": null
+      }
+    ],
+    "videos": [
+      {
+        "url": "https://www.googletagmanager.com/ns.html?id=GTM-WT653M",
+        "type": "embed"
+      },
+      {
+        "url": "https://embed.podcasts.apple.com/us/podcast/the-newsmax-daily/id1673504840",
+        "type": "embed"
+      },
+      {
+        "url": "https://embed.podcasts.apple.com/us/podcast/the-rob-carson-show-newsmax-radio/id1559799362",
+        "type": "embed"
+      },
+      {
+        "url": "https://embed.podcasts.apple.com/us/podcast/the-gerry-callahan-show-newsmax-radio/id1490937170",
+        "type": "embed"
+      },
+      {
+        "url": "https://embed.podcasts.apple.com/us/podcast/greg-kelly-reports-newsmax/id1504886579",
+        "type": "embed"
+      }
+    ],
+    "gifs": []
+  },
+  "files": [],
+  "words": {
+    "headings": [
+      {
+        "tag": "h1",
+        "text": "Listen toAudio"
+      },
+      {
+        "tag": "h3",
+        "text": "In your car, walking or jogging, gardening \u2013 just about anywhere you can listen to your favorite channel, podcasts and more!\nReal News, Better Talk."
+      },
+      {
+        "tag": "h4",
+        "text": "Find NEWSMAX TV Audio"
+      },
+      {
+        "tag": "h2",
+        "text": "NEWSMAX TV News Channel"
+      },
+      {
+        "tag": "h3",
+        "text": "Available Free 24/7 On:"
+      },
+      {
+        "tag": "h4",
+        "text": "The Newsmax Daily Podcast"
+      },
+      {
+        "tag": "h4",
+        "text": "The Rob Carson Show Podcast"
+      },
+      {
+        "tag": "h4",
+        "text": "The Gerry Callahan Show Podcast"
+      },
+      {
+        "tag": "h4",
+        "text": "Greg Kelly Reports Podcast"
+      },
+      {
+        "tag": "h3",
+        "text": "Don\u2019t Get Newsmax TV?"
+      },
+      {
+        "tag": "h4",
+        "text": "Contact your cable operator and tell them you want Newsmax TV like 100 million other American homes! Call toll-free 877-7-NEWSMAX (877-763-9762) and we'll connect you to your system."
+      },
+      {
+        "tag": "h1",
+        "text": "Subscribe"
+      },
+      {
+        "tag": "h3",
+        "text": "Get free Newsmax TV alerts for breaking news, latest shows, and guests"
+      },
+      {
+        "tag": "h3",
+        "text": "WATCH NEWSMAX TV"
+      },
+      {
+        "tag": "h3",
+        "text": "CONNECT WITH US"
+      },
+      {
+        "tag": "h3",
+        "text": "DOWNLOAD OUR FREE APP"
+      },
+      {
+        "tag": "h3",
+        "text": "VOICE ASSISTANTS"
+      },
+      {
+        "tag": "h4",
+        "text": "NEWSMAX.COM TV HEALTH FINANCE WORLD"
+      },
+      {
+        "tag": "h5",
+        "text": "Contact  Advertise RSS Archives Links Privacy policy Terms & Conditions"
+      },
+      {
+        "tag": "h5",
+        "text": "Download the Newsmax App"
+      }
+    ],
+    "paragraphs": [
+      "Real News for Real People",
+      "Message & data rates may apply. Up to 1 message per day. \r\n                                Reply STOP to 39747 to cancel anytime.",
+      "Available on the following providers:",
+      "See the full list of providers to the left.",
+      "Your comments could be featured LIVE on air!",
+      "Get breaking news alerts and show highlights.",
+      "Please select an option below to watch Newsmax Live"
+    ],
+    "wordCount": 62
+  },
+  "links": {
+    "internal": [
+      {
+        "label": "REAL NEWS FOR REAL PEOPLE",
+        "href": "https://www.newsmaxtv.com/"
+      },
+      {
+        "label": "Newsmax Shows",
+        "href": "https://www.newsmaxtv.com/shows"
+      },
+      {
+        "label": "Newsmax TV Live",
+        "href": "https://www.newsmaxtv.com/"
+      },
+      {
+        "label": "Newsmax2 Live",
+        "href": "https://www.newsmaxtv.com/n2"
+      },
+      {
+        "label": "World at War",
+        "href": "https://www.newsmaxtv.com/worldatwar"
+      },
+      {
+        "label": "Find Newsmax",
+        "href": "https://www.newsmaxtv.com/findus"
+      },
+      {
+        "label": "Viewer Feedback",
+        "href": "https://www.newsmaxtv.com/feedback"
+      },
+      {
+        "label": "",
+        "href": "https://www.newsmaxtv.com/flashbriefings"
+      },
+      {
+        "label": "",
+        "href": "https://www.newsmaxtv.com/espanol"
+      },
+      {
+        "label": "TV",
+        "href": "http://www.newsmaxtv.com/"
+      }
+    ],
+    "external": [
+      {
+        "label": "Newsmax Podcast",
+        "href": "https://www.newsmax.com/listen"
+      },
+      {
+        "label": "Newsmax Plus",
+        "href": "https://www.newsmaxplus.com"
+      },
+      {
+        "label": "",
+        "href": "https://www.audacy.com/stations/newsmax"
+      },
+      {
+        "label": "",
+        "href": "https://www.iheart.com/live/newsmax-8856/"
+      },
+      {
+        "label": "",
+        "href": "https://tunein.com/radio/Stream-Newsmax-a38691/"
+      },
+      {
+        "label": "",
+        "href": "https://podcasts.apple.com/us/podcast/the-newsmax-daily/id1673504840"
+      },
+      {
+        "label": "",
+        "href": "https://open.spotify.com/show/07gcKbqRKMbLtPMB1D0PAa"
+      },
+      {
+        "label": "",
+        "href": "https://www.iheart.com/podcast/269-the-newsmax-daily-109311408/"
+      },
+      {
+        "label": "",
+        "href": "https://music.amazon.com/podcasts/99ea94fc-cc6d-4791-b2bc-ea8e1dd944d4/the-newsmax-daily"
+      },
+      {
+        "label": "",
+        "href": "https://www.pandora.com/podcast/the-newsmax-daily/PC:1001061579"
+      },
+      {
+        "label": "",
+        "href": "https://rumble.com/playlists/Wz_ot8xtaoY"
+      },
+      {
+        "label": "",
+        "href": "https://podcasts.apple.com/us/podcast/the-rob-carson-show-newsmax-radio/id1559799362"
+      },
+      {
+        "label": "",
+        "href": "https://open.spotify.com/show/4eHCjzTEcZIKnHGyVURPuB"
+      },
+      {
+        "label": "",
+        "href": "https://www.iheart.com/podcast/269-newsmax-daily-with-rob-car-80084825/"
+      },
+      {
+        "label": "",
+        "href": "https://music.amazon.com/podcasts/95702f67-a7a7-4785-887c-d8fd7d37374d/the-rob-carson-show-newsmax-radio"
+      },
+      {
+        "label": "",
+        "href": "https://www.pandora.com/podcast/the-rob-carson-show-newsmax-radio/PC:72591"
+      },
+      {
+        "label": "",
+        "href": "https://rumble.com/playlists/IID4mIpsSrM"
+      },
+      {
+        "label": "",
+        "href": "https://podcasts.apple.com/us/podcast/the-gerry-callahan-show-newsmax-radio/id1490937170"
+      },
+      {
+        "label": "",
+        "href": "https://open.spotify.com/show/5Zoh9CxrMasgX7G0CB7lU0"
+      },
+      {
+        "label": "",
+        "href": "https://www.iheart.com/podcast/263-the-gerry-callahan-podcast-57469316/"
+      },
+      {
+        "label": "",
+        "href": "https://music.amazon.com/podcasts/de92a9ee-fe62-4959-805d-f5e9dfdc8bd2/the-gerry-callahan-show-newsmax-radio"
+      },
+      {
+        "label": "",
+        "href": "https://www.pandora.com/podcast/the-gerry-callahan-show-newsmax-radio/PC:52938"
+      },
+      {
+        "label": "",
+        "href": "https://rumble.com/playlists/b4z1vgwQpy0"
+      },
+      {
+        "label": "",
+        "href": "https://podcasts.apple.com/us/podcast/greg-kelly-reports-newsmax/id1504886579"
+      },
+      {
+        "label": "",
+        "href": "https://open.spotify.com/show/1jGSPLjtmGFQr7yqcy5eqy"
+      },
+      {
+        "label": "",
+        "href": "https://www.iheart.com/podcast/269-greg-kelly-reports-81801028/"
+      },
+      {
+        "label": "",
+        "href": "https://music.amazon.com/podcasts/09c540b2-47ac-4190-92a1-aa59547195a9/greg-kelly-reports---newsmax"
+      },
+      {
+        "label": "",
+        "href": "https://www.pandora.com/podcast/greg-kelly-reports-newsmax/PC:72592"
+      },
+      {
+        "label": "",
+        "href": "https://rumble.com/c/NewsmaxTV"
+      },
+      {
+        "label": "Privacy",
+        "href": "http://www.newsmax.com/PrivacyStatement"
+      },
+      {
+        "label": "",
+        "href": "https://www.directv.com"
+      },
+      {
+        "label": "",
+        "href": "https://watch.att.com/uverse-tv/"
+      },
+      {
+        "label": "",
+        "href": "https://tv.youtube.com/welcome/"
+      },
+      {
+        "label": "",
+        "href": "https://www.fubo.tv/welcome/channel/newsmax"
+      },
+      {
+        "label": "",
+        "href": "https://www.hulu.com/live-tv"
+      },
+      {
+        "label": "",
+        "href": "https://www.youtube.com/newsmaxtv"
+      },
+      {
+        "label": "",
+        "href": "https://www.facebook.com/newsmax"
+      },
+      {
+        "label": "",
+        "href": "https://twitter.com/newsmax"
+      },
+      {
+        "label": "",
+        "href": "https://www.instagram.com/newsmax/"
+      },
+      {
+        "label": "",
+        "href": "https://itunes.apple.com/us/app/newsmax/id878180850?mt=8"
+      },
+      {
+        "label": "",
+        "href": "https://play.google.com/store/apps/details?id=com.fli.android.newsmaxapp&utm_source=browser&utm_campaign=npluspage&pcampaignid=pcampaignidMKT-Other-global-all-co-prtnr-py-PartBadge-Mar2515-1"
+      },
+      {
+        "label": "",
+        "href": "https://www.amazon.com/Newsmax-Media-Inc-TV-Web/dp/B00QVZP4WW/"
+      },
+      {
+        "label": "",
+        "href": "https://www.samsung.com/us/tvs/smart-tv/samsung-tv-plus-and-smart-hub/"
+      },
+      {
+        "label": "",
+        "href": "https://www.vizio.com/en/smart-tv-apps?appName=newsmax&appId=vizio.newsmax"
+      },
+      {
+        "label": "",
+        "href": "https://channelstore.roku.com/details/24699/newsmax-tv"
+      },
+      {
+        "label": "",
+        "href": "https://play.google.com/store/apps/details?id=com.fli.android.newsmaxapp"
+      },
+      {
+        "label": "",
+        "href": "https://us.lgappstv.com/main/tvapp/detail?appId=988054&catCode1=006&moreYn=N&cateYn=Y&orderType=0&headerName=News%2FInfo&appRankCode=&sellrUsrNo=&curPage=2"
+      },
+      {
+        "label": "NEWSMAX.COM",
+        "href": "http://www.newsmax.com/"
+      },
+      {
+        "label": "HEALTH",
+        "href": "http://www.newsmax.com/health"
+      },
+      {
+        "label": "FINANCE",
+        "href": "http://www.newsmax.com/finance"
+      },
+      {
+        "label": "WORLD",
+        "href": "http://www.newsmax.com/world"
+      },
+      {
+        "label": "Contact",
+        "href": "http://www.newsmax.com/contact"
+      },
+      {
+        "label": "Advertise",
+        "href": "http://www.newsmax.com/advertise"
+      },
+      {
+        "label": "RSS",
+        "href": "http://www.newsmax.com/rss"
+      },
+      {
+        "label": "Archives",
+        "href": "http://www.newsmax.com/archives"
+      },
+      {
+        "label": "Links",
+        "href": "http://www.newsmax.com/Links/"
+      },
+      {
+        "label": "Privacy policy",
+        "href": "http://www.newsmax.com/PrivacyStatement"
+      },
+      {
+        "label": "Terms & Conditions",
+        "href": "http://www.newsmax.com/TermsConditions"
+      },
+      {
+        "label": "",
+        "href": "https://itunes.apple.com/us/app/newsmax/id878180850?mt=8"
+      },
+      {
+        "label": "",
+        "href": "https://play.google.com/store/apps/details?id=com.fli.android.newsmaxapp&utm_source=browser&utm_campaign=npluspage&pcampaignid=pcampaignidMKT-Other-global-all-co-prtnr-py-PartBadge-Mar2515-1"
+      },
+      {
+        "label": "",
+        "href": "https://www.amazon.com/Newsmax-Media-Inc-TV-Web/dp/B00QVZP4WW/"
+      },
+      {
+        "label": "",
+        "href": "https://www.samsung.com/us/tvs/smart-tv/samsung-tv-plus-and-smart-hub/"
+      },
+      {
+        "label": "",
+        "href": "https://www.vizio.com/en/smart-tv-apps?appName=newsmax&appId=vizio.newsmax"
+      },
+      {
+        "label": "",
+        "href": "https://channelstore.roku.com/details/24699/newsmax-tv"
+      },
+      {
+        "label": "",
+        "href": "https://play.google.com/store/apps/details?id=com.fli.android.newsmaxapp"
+      },
+      {
+        "label": "",
+        "href": "https://us.lgappstv.com/main/tvapp/detail?appId=988054&catCode1=006&moreYn=N&cateYn=Y&orderType=0&headerName=News%2FInfo&appRankCode=&sellrUsrNo=&curPage=2"
+      }
+    ],
+    "broken": []
+  },
+  "extractedAt": "2025-11-19T15:14:07Z"
+}

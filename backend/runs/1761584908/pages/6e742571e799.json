@@ -1,0 +1,109 @@
+{
+  "url": "https://www.northshoreexteriorupkeep.com/contact-us",
+  "path": "/contact-us",
+  "status": 200,
+  "title": "Contact Info",
+  "description": "Contact Info",
+  "canonical": "https://www.northshoreexteriorupkeep.com/contact-us",
+  "media": {
+    "images": [
+      {
+        "url": "https://lh3.googleusercontent.com/sitesv/AAzXCkdlHHET806_mj72CVZP2yWOKg0CiGwAvU3kXPIT1EDtS_0EX1VLvipxl7YYFYLuy2Jzms9cajEBZd3TzjkGyNlFhp-di3AHw_KD7kN6J39Y9EFuDafCw1im7xvRP7NAkqTfyggbs1vCpgk__YUij5ARhOciYOlB5QiDt-K1lrWCjP3cTEzw-fAOa0g=w16383",
+        "alt": "",
+        "width": null,
+        "height": null
+      }
+    ],
+    "videos": [],
+    "gifs": []
+  },
+  "files": [],
+  "words": {
+    "headings": [
+      {
+        "tag": "h1",
+        "text": "Contact Info"
+      },
+      {
+        "tag": "h2",
+        "text": "We do remote and physical quotes."
+      }
+    ],
+    "paragraphs": [
+      "northshoreexteriorupkeep@gmail.com"
+    ],
+    "wordCount": 1
+  },
+  "links": {
+    "internal": [
+      {
+        "label": "",
+        "href": "https://www.northshoreexteriorupkeep.com/home"
+      },
+      {
+        "label": "Call us at (985)662-8005",
+        "href": "https://www.northshoreexteriorupkeep.com/home"
+      },
+      {
+        "label": "Home",
+        "href": "https://www.northshoreexteriorupkeep.com/home"
+      },
+      {
+        "label": "Services",
+        "href": "https://www.northshoreexteriorupkeep.com/services"
+      },
+      {
+        "label": "Our work",
+        "href": "https://www.northshoreexteriorupkeep.com/our-work"
+      },
+      {
+        "label": "Contact Us",
+        "href": "https://www.northshoreexteriorupkeep.com/contact-us"
+      },
+      {
+        "label": "Call us at (985)662-8005",
+        "href": "https://www.northshoreexteriorupkeep.com/home"
+      },
+      {
+        "label": "Home",
+        "href": "https://www.northshoreexteriorupkeep.com/home"
+      },
+      {
+        "label": "Services",
+        "href": "https://www.northshoreexteriorupkeep.com/services"
+      },
+      {
+        "label": "Our work",
+        "href": "https://www.northshoreexteriorupkeep.com/our-work"
+      },
+      {
+        "label": "Contact Us",
+        "href": "https://www.northshoreexteriorupkeep.com/contact-us"
+      },
+      {
+        "label": "Home",
+        "href": "https://www.northshoreexteriorupkeep.com/home"
+      },
+      {
+        "label": "Services",
+        "href": "https://www.northshoreexteriorupkeep.com/services"
+      },
+      {
+        "label": "Our work",
+        "href": "https://www.northshoreexteriorupkeep.com/our-work"
+      },
+      {
+        "label": "Contact Us",
+        "href": "https://www.northshoreexteriorupkeep.com/contact-us"
+      }
+    ],
+    "external": [
+      {
+        "label": "northshoreexteriorupkeep@gmail.com",
+        "href": "mailto:northshoreexteriorupkeep@gmail.com"
+      }
+    ],
+    "broken": []
+  },
+  "extractedAt": "2025-10-27T17:08:29Z"
+}

@@ -1,0 +1,3283 @@
+{
+  "url": "https://www.foxnews.com/food-drink",
+  "path": "/food-drink",
+  "status": 200,
+  "title": "Food & Drink | Fox News",
+  "description": "Stay updated on restaurant news, expert cooking tips, and indulge in a feast of delectable food and drink recipes. Elevate your dining experience with our culinary insights.",
+  "canonical": "https://www.foxnews.com/food-drink",
+  "media": {
+    "images": [
+      {
+        "url": "https://static.foxnews.com/foxnews.com/content/uploads/2024/03/food-and-drink-logo-desktop.png",
+        "alt": " logo",
+        "width": null,
+        "height": null
+      },
+      {
+        "url": "https://static.foxnews.com/foxnews.com/content/uploads/2024/03/food-and-drink-bg-1280.png",
+        "alt": " logo",
+        "width": null,
+        "height": null
+      },
+      {
+        "url": "https://a57.foxnews.com/static.foxnews.com/foxnews.com/content/uploads/2025/11/920/518/turkey-ancient-barley-found-history-archaeology-food-6.png?ve=1&tl=1",
+        "alt": "Ancient fire reveals perfectly preserved and 'very important' 5,000-year-old food find",
+        "width": 920,
+        "height": 518
+      },
+      {
+        "url": "https://a57.foxnews.com/static.foxnews.com/foxnews.com/content/uploads/2025/11/454/256/thanksgiving-buffet-las-vegas.jpg?ve=1&tl=1",
+        "alt": "Las Vegas buffet binger on the Strip wanted for unusual $2K Thanksgiving eating gig",
+        "width": 454,
+        "height": 256
+      },
+      {
+        "url": "https://a57.foxnews.com/static.foxnews.com/foxnews.com/content/uploads/2025/11/454/256/filet-o-fish-history-hacks.jpg?ve=1&tl=1",
+        "alt": "Trump's praise for McDonald's Filet-O-Fish sparks nostalgia \u2014 and a saucy debate",
+        "width": 454,
+        "height": 256
+      },
+      {
+        "url": "https://a57.foxnews.com/static.foxnews.com/foxnews.com/content/uploads/2025/11/348/196/man-in-kitchen-drinking-orange-juice.jpg?ve=1&tl=1",
+        "alt": "Daily orange juice has 'therapeutic potential' for genes and heart health, study finds",
+        "width": null,
+        "height": null
+      },
+      {
+        "url": "https://a57.foxnews.com/static.foxnews.com/foxnews.com/content/uploads/2025/11/348/196/mcdonalds-ordering-mcrib.jpg?ve=1&tl=1",
+        "alt": "McRib returns to most McDonald's menus as fans cheer and critics groan",
+        "width": null,
+        "height": null
+      },
+      {
+        "url": "https://a57.foxnews.com/static.foxnews.com/foxnews.com/content/uploads/2025/11/348/196/daylight-saving-time-diet-tips.jpg?ve=1&tl=1",
+        "alt": "What you eat this weekend could make or break your daylight saving recovery",
+        "width": null,
+        "height": null
+      },
+      {
+        "url": "https://a57.foxnews.com/static.foxnews.com/foxnews.com/content/uploads/2025/10/348/196/top-drive-thrus-america-survey.jpg?ve=1&tl=1",
+        "alt": "Taco Bell tops new drive-thru speed rankings, and Chick-fil-A wins on satisfaction",
+        "width": null,
+        "height": null
+      },
+      {
+        "url": "https://a57.foxnews.com/static.foxnews.com/foxnews.com/content/uploads/2025/11/348/196/turkey-ancient-barley-found-history-archaeology-food-6.png?ve=1&tl=1",
+        "alt": "Ancient fire reveals perfectly preserved and 'very important' 5,000-year-old food find",
+        "width": null,
+        "height": null
+      },
+      {
+        "url": "https://a57.foxnews.com/static.foxnews.com/foxnews.com/content/uploads/2025/11/348/196/filet-o-fish-history-hacks.jpg?ve=1&tl=1",
+        "alt": "Trump's praise for McDonald's Filet-O-Fish sparks nostalgia \u2014 and a saucy debate",
+        "width": null,
+        "height": null
+      },
+      {
+        "url": "https://a57.foxnews.com/static.foxnews.com/foxnews.com/content/uploads/2025/11/348/196/thanksgiving-buffet-las-vegas.jpg?ve=1&tl=1",
+        "alt": "Las Vegas buffet binger on the Strip wanted for unusual $2K Thanksgiving eating gig",
+        "width": null,
+        "height": null
+      },
+      {
+        "url": "https://a57.foxnews.com/static.foxnews.com/foxnews.com/content/uploads/2024/11/348/196/trump-serves-fries-at-mcdonalds.jpg?ve=1&tl=1",
+        "alt": "Trump jokes he\u2019s first former McDonald\u2019s fry cook to become president, hailing the chain\u2019s spirit",
+        "width": null,
+        "height": null
+      },
+      {
+        "url": "https://a57.foxnews.com/static.foxnews.com/foxnews.com/content/uploads/2025/11/348/196/food-allergy-bacteria-fox-news.jpg?ve=1&tl=1",
+        "alt": "Gut imbalance may be driving America\u2019s food allergy epidemic, experts warn",
+        "width": null,
+        "height": null
+      },
+      {
+        "url": "https://a57.foxnews.com/static.foxnews.com/foxnews.com/content/uploads/2025/11/348/196/doordash-cheeseburger-index-where-to-find-cheap-burgers-1.jpg?ve=1&tl=1",
+        "alt": "Looking for a cheap cheeseburger? 10 American cities that deliver the best meal deals",
+        "width": null,
+        "height": null
+      },
+      {
+        "url": "https://a57.foxnews.com/static.foxnews.com/foxnews.com/content/uploads/2025/11/348/196/man-eating-salad.jpg?ve=1&tl=1",
+        "alt": "\u2018Portfolio diet\u2019 gains buzz for lowering cholesterol without medication, experts say",
+        "width": null,
+        "height": null
+      },
+      {
+        "url": "https://a57.foxnews.com/static.foxnews.com/foxnews.com/content/uploads/2025/11/348/196/thanksgiving-meals.jpg?ve=1&tl=1",
+        "alt": "Thanksgiving becomes British obsession as younger generations embrace American holiday",
+        "width": null,
+        "height": null
+      },
+      {
+        "url": "https://a57.foxnews.com/static.foxnews.com/foxnews.com/content/uploads/2025/11/348/196/arrington-vineyards-guests-at-outdoor-tables.jpg?ve=1&tl=1",
+        "alt": "Nashville's hidden 'wine country' provides taste of Tennessee in whiskey barrels",
+        "width": null,
+        "height": null
+      },
+      {
+        "url": "https://a57.foxnews.com/static.foxnews.com/foxnews.com/content/uploads/2025/11/348/196/quiz-collage-nov16.jpg?ve=1&tl=1",
+        "alt": "American Culture Quiz: Test yourself on gridiron glory and presidential pastimes",
+        "width": null,
+        "height": null
+      },
+      {
+        "url": "https://a57.foxnews.com/static.foxnews.com/foxnews.com/content/uploads/2025/11/348/196/outdoor-dining-rules-miami-florida.jpg?ve=1&tl=1",
+        "alt": "'Streateries' face steep new rules in major US city; will others follow?",
+        "width": null,
+        "height": null
+      },
+      {
+        "url": "https://a57.foxnews.com/static.foxnews.com/foxnews.com/content/uploads/2025/11/348/196/thanksgiving-pie-debate.jpg?ve=1&tl=1",
+        "alt": "Pumpkin or apple? America\u2019s fiercest Thanksgiving dessert debate heats up",
+        "width": null,
+        "height": null
+      },
+      {
+        "url": "https://a57.foxnews.com/static.foxnews.com/foxnews.com/content/uploads/2025/11/348/196/jell-o-aspic-retro-trend.jpg?ve=1&tl=1",
+        "alt": "From retro to refined: Jell-O salad and savory gelatin dishes make unexpected return",
+        "width": null,
+        "height": null
+      },
+      {
+        "url": "https://a57.foxnews.com/static.foxnews.com/foxnews.com/content/uploads/2025/11/348/196/oats-fiber-benefits.png?ve=1&tl=1",
+        "alt": "Not all fiber is created equal; doctors share which kinds truly support longevity",
+        "width": null,
+        "height": null
+      },
+      {
+        "url": "https://a57.foxnews.com/static.foxnews.com/foxnews.com/content/uploads/2025/11/348/196/man-holding-burger-alpha-gal.jpg?ve=1&tl=1",
+        "alt": "Man dies hours after eating burger as researchers confirm fatal allergy",
+        "width": null,
+        "height": null
+      },
+      {
+        "url": "https://a57.foxnews.com/static.foxnews.com/foxnews.com/content/uploads/2025/11/348/196/woman-eating-unhealthy-processed-snacks.jpg?ve=1&tl=1",
+        "alt": "Spike in deadly cancer before age 50 linked to common convenience foods",
+        "width": null,
+        "height": null
+      },
+      {
+        "url": "https://a57.foxnews.com/static.foxnews.com/foxnews.com/content/uploads/2025/11/348/196/woman-pouring-olive-oil-over-stir-fry.jpg?ve=1&tl=1",
+        "alt": "Cooking in her work clothes saves woman $60 a week, has millions rethinking dinner",
+        "width": null,
+        "height": null
+      },
+      {
+        "url": "https://a57.foxnews.com/static.foxnews.com/foxnews.com/content/uploads/2025/07/348/196/gen-z-young-adults-together.jpg?ve=1&tl=1",
+        "alt": "Why Gen Z is suddenly skipping the $15 burrito bowl",
+        "width": null,
+        "height": null
+      },
+      {
+        "url": "https://a57.foxnews.com/static.foxnews.com/foxnews.com/content/uploads/2025/11/348/196/mollie-engelhart-kissing-bull.jpg?ve=1&tl=1",
+        "alt": "'My whole life was a lie': Former vegan chef sinks her teeth into cattle ranching",
+        "width": null,
+        "height": null
+      },
+      {
+        "url": "https://a57.foxnews.com/cf-images.us-east-1.prod.boltdns.net/v1/static/694940094001/6fc4a038-5fc0-4429-a6f6-a3bba69df98e/89d540a1-62ac-4c4a-8f2c-3b89c103ef03/1280x720/match/348/196/image.jpg?ve=1&tl=1",
+        "alt": "Baby goose appears to 'feed' hungry fish in heartwarming lake moment",
+        "width": null,
+        "height": null
+      },
+      {
+        "url": "https://a57.foxnews.com/cf-images.us-east-1.prod.boltdns.net/v1/static/694940094001/95dc4ac3-c8d6-4222-a02d-30ad65ce3c77/36e24fdf-d0a1-46bb-996f-5701beb9b305/1280x720/match/348/196/image.jpg?ve=1&tl=1",
+        "alt": "Baby lemur charms visitors while munching on fruity snack at Kansas City Zoo",
+        "width": null,
+        "height": null
+      },
+      {
+        "url": "https://a57.foxnews.com/cf-images.us-east-1.prod.boltdns.net/v1/static/694940094001/537a730a-0225-4751-924f-e8a0f95f0daa/9c89b070-ca63-4721-90a8-ae63fec39312/1280x720/match/348/196/image.jpg?ve=1&tl=1",
+        "alt": "Trump tells McDonald's how it can improve its iconic Filet-O-Fish",
+        "width": null,
+        "height": null
+      },
+      {
+        "url": "https://a57.foxnews.com/cf-images.us-east-1.prod.boltdns.net/v1/static/694940094001/f2f5ad7a-8b9b-465c-bf60-ddd455f3032e/e611d653-0927-40c9-a346-ec2a377d1f59/1280x720/match/348/196/image.jpg?ve=1&tl=1",
+        "alt": "'Versatile' red wine blends uncorked in Tennessee are redefining Southern flavor",
+        "width": null,
+        "height": null
+      },
+      {
+        "url": "https://a57.foxnews.com/cf-images.us-east-1.prod.boltdns.net/v1/static/694940094001/429de29b-0e86-494e-a7fd-af563cb133c4/f1955c7f-c98c-4f9c-ba2d-aa6e6036e91e/1280x720/match/348/196/image.jpg?ve=1&tl=1",
+        "alt": "Riverbend Ranch founder spotlights American-made steaks for the holiday season",
+        "width": null,
+        "height": null
+      },
+      {
+        "url": "https://a57.foxnews.com/cf-images.us-east-1.prod.boltdns.net/v1/static/694940094001/aed1af9e-5ede-4b6f-b145-94130453db02/0f756e9a-51fd-4585-8d02-f02e17d5486c/1280x720/match/348/196/image.jpg?ve=1&tl=1",
+        "alt": "Woman shares viral TikTok rule transforming weeknight dinners: 'You can't take your clothes off'",
+        "width": null,
+        "height": null
+      },
+      {
+        "url": "https://a57.foxnews.com/cf-images.us-east-1.prod.boltdns.net/v1/static/694940094001/9990740e-b498-4a71-b7c0-978bd68ad606/828a92ee-0c40-4445-a624-31a389d62e12/1280x720/match/348/196/image.jpg?ve=1&tl=1",
+        "alt": "Texas rancher reveals how she had been living 'a lie' as a vegan restaurateur",
+        "width": null,
+        "height": null
+      },
+      {
+        "url": "https://static.foxnews.com/foxnews.com/content/uploads/2022/11/NEWSLETTER_LIFESTYLE_LOGO-532x120.png",
+        "alt": "Newsletter",
+        "width": null,
+        "height": null
+      }
+    ],
+    "videos": [],
+    "gifs": []
+  },
+  "files": [],
+  "words": {
+    "headings": [
+      {
+        "tag": "h4",
+        "text": "Games"
+      },
+      {
+        "tag": "h4",
+        "text": "Deals"
+      },
+      {
+        "tag": "h4",
+        "text": "FOX Business"
+      },
+      {
+        "tag": "h4",
+        "text": "Science & Tech"
+      },
+      {
+        "tag": "h4",
+        "text": "Watch Live"
+      },
+      {
+        "tag": "h4",
+        "text": "Apps & Products"
+      },
+      {
+        "tag": "h4",
+        "text": "Games"
+      },
+      {
+        "tag": "h4",
+        "text": "Deals"
+      },
+      {
+        "tag": "h4",
+        "text": "FOX Business"
+      },
+      {
+        "tag": "h4",
+        "text": "Science & Tech"
+      },
+      {
+        "tag": "h4",
+        "text": "Watch Live"
+      },
+      {
+        "tag": "h4",
+        "text": "Apps & Products"
+      },
+      {
+        "tag": "h1",
+        "text": "Food & Drink"
+      },
+      {
+        "tag": "h2",
+        "text": "Ancient fire reveals perfectly preserved and 'very important' 5,000-year-old food find"
+      },
+      {
+        "tag": "h2",
+        "text": "Las Vegas buffet binger on the Strip wanted for unusual $2K Thanksgiving eating gig"
+      },
+      {
+        "tag": "h2",
+        "text": "Trump's praise for McDonald's Filet-O-Fish sparks nostalgia \u2014 and a saucy debate"
+      },
+      {
+        "tag": "h3",
+        "text": "RECIPES"
+      },
+      {
+        "tag": "h4",
+        "text": "Daily orange juice has 'therapeutic potential' for genes and heart health, study finds"
+      },
+      {
+        "tag": "h4",
+        "text": "McRib returns to most McDonald's menus as fans cheer and critics groan"
+      },
+      {
+        "tag": "h4",
+        "text": "What you eat this weekend could make or break your daylight saving recovery"
+      },
+      {
+        "tag": "h4",
+        "text": "Taco Bell tops new drive-thru speed rankings, and Chick-fil-A wins on satisfaction"
+      },
+      {
+        "tag": "h3",
+        "text": "HEALTHY FOOD"
+      },
+      {
+        "tag": "h4",
+        "text": "Ancient fire reveals perfectly preserved and 'very important' 5,000-year-old food find"
+      },
+      {
+        "tag": "h4",
+        "text": "Trump's praise for McDonald's Filet-O-Fish sparks nostalgia \u2014 and a saucy debate"
+      },
+      {
+        "tag": "h4",
+        "text": "Las Vegas buffet binger on the Strip wanted for unusual $2K Thanksgiving eating gig"
+      },
+      {
+        "tag": "h4",
+        "text": "Daily orange juice has 'therapeutic potential' for genes and heart health, study finds"
+      },
+      {
+        "tag": "h4",
+        "text": "Ancient fire reveals perfectly preserved and 'very important' 5,000-year-old food find"
+      },
+      {
+        "tag": "h4",
+        "text": "Trump's praise for McDonald's Filet-O-Fish sparks nostalgia \u2014 and a saucy debate"
+      },
+      {
+        "tag": "h4",
+        "text": "Las Vegas buffet binger on the Strip wanted for unusual $2K Thanksgiving eating gig"
+      },
+      {
+        "tag": "h4",
+        "text": "Daily orange juice has 'therapeutic potential' for genes and heart health, study finds"
+      },
+      {
+        "tag": "h4",
+        "text": "Trump jokes he\u2019s first former McDonald\u2019s fry cook to become president, hailing the chain\u2019s spirit"
+      },
+      {
+        "tag": "h4",
+        "text": "Gut imbalance may be driving America\u2019s food allergy epidemic, experts warn"
+      },
+      {
+        "tag": "h4",
+        "text": "Looking for a cheap cheeseburger? 10 American cities that deliver the best meal deals"
+      },
+      {
+        "tag": "h4",
+        "text": "\u2018Portfolio diet\u2019 gains buzz for lowering cholesterol without medication, experts say"
+      },
+      {
+        "tag": "h4",
+        "text": "Thanksgiving becomes British obsession as younger generations embrace American holiday"
+      },
+      {
+        "tag": "h4",
+        "text": "Nashville's hidden 'wine country' provides taste of Tennessee in whiskey barrels"
+      },
+      {
+        "tag": "h4",
+        "text": "American Culture Quiz: Test yourself on gridiron glory and presidential pastimes"
+      },
+      {
+        "tag": "h4",
+        "text": "'Streateries' face steep new rules in major US city; will others follow?"
+      },
+      {
+        "tag": "h4",
+        "text": "Pumpkin or apple? America\u2019s fiercest Thanksgiving dessert debate heats up"
+      },
+      {
+        "tag": "h4",
+        "text": "From retro to refined: Jell-O salad and savory gelatin dishes make unexpected return"
+      },
+      {
+        "tag": "h4",
+        "text": "Not all fiber is created equal; doctors share which kinds truly support longevity"
+      },
+      {
+        "tag": "h4",
+        "text": "Man dies hours after eating burger as researchers confirm fatal allergy"
+      },
+      {
+        "tag": "h4",
+        "text": "Spike in deadly cancer before age 50 linked to common convenience foods"
+      },
+      {
+        "tag": "h4",
+        "text": "Cooking in her work clothes saves woman $60 a week, has millions rethinking dinner"
+      },
+      {
+        "tag": "h4",
+        "text": "Why Gen Z is suddenly skipping the $15 burrito bowl"
+      },
+      {
+        "tag": "h4",
+        "text": "'My whole life was a lie': Former vegan chef sinks her teeth into cattle ranching"
+      },
+      {
+        "tag": "h3",
+        "text": "FOOD"
+      },
+      {
+        "tag": "h4",
+        "text": "Trump's praise for McDonald's Filet-O-Fish sparks nostalgia \u2014 and a saucy debate"
+      },
+      {
+        "tag": "h4",
+        "text": "Las Vegas buffet binger on the Strip wanted for unusual $2K Thanksgiving eating gig"
+      },
+      {
+        "tag": "h4",
+        "text": "Daily orange juice has 'therapeutic potential' for genes and heart health, study finds"
+      },
+      {
+        "tag": "h4",
+        "text": "Trump jokes he\u2019s first former McDonald\u2019s fry cook to become president, hailing the chain\u2019s spirit"
+      },
+      {
+        "tag": "h4",
+        "text": "Ancient fire reveals perfectly preserved and 'very important' 5,000-year-old food find"
+      },
+      {
+        "tag": "h4",
+        "text": "Baby goose appears to 'feed' hungry fish in heartwarming lake moment"
+      },
+      {
+        "tag": "h4",
+        "text": "Trump's praise for McDonald's Filet-O-Fish sparks nostalgia \u2014 and a saucy debate"
+      },
+      {
+        "tag": "h4",
+        "text": "Las Vegas buffet binger on the Strip wanted for unusual $2K Thanksgiving eating gig"
+      },
+      {
+        "tag": "h4",
+        "text": "Baby lemur charms visitors while munching on fruity snack at Kansas City Zoo"
+      },
+      {
+        "tag": "h4",
+        "text": "Trump tells McDonald's how it can improve its iconic Filet-O-Fish"
+      },
+      {
+        "tag": "h4",
+        "text": "Daily orange juice has 'therapeutic potential' for genes and heart health, study finds"
+      },
+      {
+        "tag": "h4",
+        "text": "Looking for a cheap cheeseburger? 10 American cities that deliver the best meal deals"
+      },
+      {
+        "tag": "h4",
+        "text": "Thanksgiving becomes British obsession as younger generations embrace American holiday"
+      },
+      {
+        "tag": "h4",
+        "text": "Nashville's hidden 'wine country' provides taste of Tennessee in whiskey barrels"
+      },
+      {
+        "tag": "h4",
+        "text": "'Versatile' red wine blends uncorked in Tennessee are redefining Southern flavor"
+      },
+      {
+        "tag": "h4",
+        "text": "'Streateries' face steep new rules in major US city; will others follow?"
+      },
+      {
+        "tag": "h3",
+        "text": "VIDEO"
+      },
+      {
+        "tag": "h4",
+        "text": "Baby goose appears to 'feed' hungry fish in heartwarming lake moment"
+      },
+      {
+        "tag": "h4",
+        "text": "Baby lemur charms visitors while munching on fruity snack at Kansas City Zoo"
+      },
+      {
+        "tag": "h4",
+        "text": "Trump tells McDonald's how it can improve its iconic Filet-O-Fish"
+      },
+      {
+        "tag": "h4",
+        "text": "'Versatile' red wine blends uncorked in Tennessee are redefining Southern flavor"
+      },
+      {
+        "tag": "h4",
+        "text": "Riverbend Ranch founder spotlights American-made steaks for the holiday season"
+      },
+      {
+        "tag": "h4",
+        "text": "Woman shares viral TikTok rule transforming weeknight dinners: 'You can't take your clothes off'"
+      },
+      {
+        "tag": "h4",
+        "text": "Texas rancher reveals how she had been living 'a lie' as a vegan restaurateur"
+      },
+      {
+        "tag": "h3",
+        "text": "Newsletter"
+      },
+      {
+        "tag": "h4",
+        "text": "U.S."
+      },
+      {
+        "tag": "h4",
+        "text": "Politics"
+      },
+      {
+        "tag": "h4",
+        "text": "World"
+      },
+      {
+        "tag": "h4",
+        "text": "Opinion"
+      },
+      {
+        "tag": "h4",
+        "text": "Media"
+      },
+      {
+        "tag": "h4",
+        "text": "Entertainment"
+      },
+      {
+        "tag": "h4",
+        "text": "Sports"
+      },
+      {
+        "tag": "h4",
+        "text": "Lifestyle"
+      },
+      {
+        "tag": "h4",
+        "text": "Health"
+      },
+      {
+        "tag": "h4",
+        "text": "Deals"
+      },
+      {
+        "tag": "h4",
+        "text": "FOX Business"
+      },
+      {
+        "tag": "h4",
+        "text": "Science & Tech"
+      },
+      {
+        "tag": "h4",
+        "text": "Games"
+      },
+      {
+        "tag": "h4",
+        "text": "Watch Live"
+      },
+      {
+        "tag": "h4",
+        "text": "About"
+      },
+      {
+        "tag": "h4",
+        "text": "Apps & Products"
+      },
+      {
+        "tag": "h4",
+        "text": "U.S."
+      },
+      {
+        "tag": "h4",
+        "text": "Politics"
+      },
+      {
+        "tag": "h4",
+        "text": "World"
+      },
+      {
+        "tag": "h4",
+        "text": "Opinion"
+      },
+      {
+        "tag": "h4",
+        "text": "Media"
+      },
+      {
+        "tag": "h4",
+        "text": "Entertainment"
+      },
+      {
+        "tag": "h4",
+        "text": "Sports"
+      },
+      {
+        "tag": "h4",
+        "text": "Lifestyle"
+      },
+      {
+        "tag": "h4",
+        "text": "Health"
+      },
+      {
+        "tag": "h4",
+        "text": "Deals"
+      },
+      {
+        "tag": "h4",
+        "text": "FOX Business"
+      },
+      {
+        "tag": "h4",
+        "text": "Science & Tech"
+      },
+      {
+        "tag": "h4",
+        "text": "Games"
+      },
+      {
+        "tag": "h4",
+        "text": "Watch Live"
+      },
+      {
+        "tag": "h4",
+        "text": "About"
+      },
+      {
+        "tag": "h4",
+        "text": "Apps & Products"
+      }
+    ],
+    "paragraphs": [
+      "This material may not be published, broadcast, rewritten, or redistributed. \u00a92025 FOX News Network, LLC. All rights reserved. Quotes displayed in real-time or delayed by at least 15 minutes. Market data provided by Factset. Powered and implemented by FactSet Digital Solutions. Legal Statement. Mutual Fund and ETF data provided by Refinitiv Lipper.",
+      "Ancient barley grains from 5,000 years ago discovered in Turkey's Van province reveal Bronze Age agricultural practices. The burned kernels were preserved at Iremir Mound site.",
+      "President Donald Trump suggests McDonald's add more tartar sauce to the Filet-O-Fish during a recent speech, reigniting conversation about the iconic sandwich.",
+      "From buffet decline to $2,000 food tester jobs: Here's how the Las Vegas dining scene is evolving amid tourism challenges and changing visitor preferences.",
+      "New research reveals daily orange juice consumption may tune genes to support heart health, reducing inflammation and improving blood vessel function in adults.",
+      "President Trump claims title of first former McDonald's fry cook to become president after 30-minute campaign stint, joking he worked there longer than Kamala Harris ever did.",
+      "With over 32 million Americans facing food allergies, HHS Secretary RFK Jr. and FDA Chief Makary explore microbiome solutions. New gut health research may hold the key.",
+      "DoorDash's annual Cheeseburger Index reveals the most affordable cities for burger meals across 100 U.S. locations, with Lincoln, Nebraska, topping the list at $10.75.",
+      "Using a strategic mix of plant-based foods, the Portfolio Diet can lower LDL cholesterol nearly as much as some prescription drugs \u2014 but there are important caveats to consider.",
+      "Thanksgiving becomes a British culinary celebration as restaurants expand services and consumers embrace American-inspired cuisine in the growing global food trend.",
+      "Arrington Vineyards crafts Tennessee wine using Chambourcin grapes and whiskey barrels. Winemaker expertise meets local terroir near Nashville, and it's included in the Fox News Wine Club.",
+      "The American Culture Quiz is a weekly test of our unique national traits, trends, history and people. This time, test your knowledge of gridiron glory and presidential pastimes.",
+      "Cities nationwide are cracking down on outdoor dining as pandemic freedoms end, with Washington, D.C., reportedly joining New York and Philadelphia in imposing steep fees.",
+      "Pumpkin pie beats apple pie 2-to-1 at Thanksgiving, new surveys reveal. Experts weigh in on America's most beloved holiday dessert traditions and flavor preferences.",
+      "Aspic and Jell-O salads are making a comeback on social media and in fine restaurants, as chefs reimagine retro gelatin dishes for modern palates.",
+      "Longevity expert Peter Attia breaks down different fiber types amid the trending '\"fibermaxxing\" movement. Learn how different fibers affect gut health, blood sugar and weight.",
+      "A fatal allergic reaction to red meat highlights a dangerous tick-borne illness. Researchers warn of alpha-gal syndrome risks from hamburgers and steak after tick exposure.",
+      "A new study reveals eating ultraprocessed foods increases early-onset colorectal cancer risk by 45%. Research links ready-to-eat foods to precancerous adenomas.",
+      "A viral TikTok hack with 3.7 million views reveals a simple trick to cook more at home. A Michigan woman claims it's helped her save at least $60 a week.",
+      "Fast casual dining out was once considered an affordable convenience and has now become a small luxury. This generation isn\u2019t lazy or spoiled. They\u2019re financially boxed in right now.",
+      "Former vegan chef Mollie Engelhart made a shocking career pivot from running five Los Angeles vegan restaurants to becoming a Texas cattle rancher and advocate.",
+      "Ancient barley grains from 5,000 years ago discovered in Turkey's Van province reveal Bronze Age agricultural practices. The burned kernels were preserved at Iremir Mound site.",
+      "This adorable moment captures a fluffy baby goose appearing to play dinner host to a school of eager fish in a lake in China.",
+      "President Donald Trump suggests McDonald's add more tartar sauce to the Filet-O-Fish during a recent speech, reigniting conversation about the iconic sandwich.",
+      "From buffet decline to $2,000 food tester jobs: Here's how the Las Vegas dining scene is evolving amid tourism challenges and changing visitor preferences.",
+      "Bitro, a young red-ruffed lemur born in April, was recorded munching on fruit as he learns to explore, play and enjoy food at the Kansas City Zoo & Aquarium.",
+      "When speaking at the McDonald's Impact Summit, President Donald Trump urged the company to put more tartar sauce on the Filet-O-Fish.",
+      "New research reveals daily orange juice consumption may tune genes to support heart health, reducing inflammation and improving blood vessel function in adults.",
+      "DoorDash's annual Cheeseburger Index reveals the most affordable cities for burger meals across 100 U.S. locations, with Lincoln, Nebraska, topping the list at $10.75.",
+      "Thanksgiving becomes a British culinary celebration as restaurants expand services and consumers embrace American-inspired cuisine in the growing global food trend.",
+      "Arrington Vineyards crafts Tennessee wine using Chambourcin grapes and whiskey barrels. Winemaker expertise meets local terroir near Nashville, and it's included in the Fox News Wine Club.",
+      "Arrington Vineyards winemaker Chase Vienneau and co-founder Kip Summers reveal why their Tennessee location provides the perfect climate for a red wine that can be sampled through the Fox News Wine Shop.",
+      "Cities nationwide are cracking down on outdoor dining as pandemic freedoms end, with Washington, D.C., reportedly joining New York and Philadelphia in imposing steep fees.",
+      "A look at the top-trending stories in food, travel, great outdoors and more",
+      "By entering your email and clicking the Subscribe button, you agree to the Fox News Privacy Policy and Terms of Use, and\n        agree to receive content and promotional communications from Fox News. You understand that you can\n        opt-out at any time.",
+      "You've successfully subscribed to this newsletter!",
+      "This material may not be published, broadcast, rewritten, or redistributed. \u00a92025 FOX News Network, LLC. All rights reserved. Quotes displayed in real-time or delayed by at least 15 minutes. Market data provided by\n        Factset. Powered and implemented by\n        FactSet Digital Solutions.\n        Legal Statement. Mutual Fund and ETF data provided by\n        Refinitiv Lipper."
+    ],
+    "wordCount": 968
+  },
+  "links": {
+    "internal": [
+      {
+        "label": "Fox News Media",
+        "href": "https://www.foxnews.com/"
+      },
+      {
+        "label": "Books",
+        "href": "https://www.foxnews.com/books"
+      },
+      {
+        "label": "Fox News",
+        "href": "https://www.foxnews.com/"
+      },
+      {
+        "label": "U.S.",
+        "href": "https://www.foxnews.com/us"
+      },
+      {
+        "label": "Blue City Crime",
+        "href": "https://www.foxnews.com/category/us/blue-city-crime"
+      },
+      {
+        "label": "Campus Radicals",
+        "href": "https://www.foxnews.com/category/us/campus-radicals"
+      },
+      {
+        "label": "Border Crisis",
+        "href": "https://www.foxnews.com/category/us/immigration"
+      },
+      {
+        "label": "True Crime",
+        "href": "https://www.foxnews.com/true-crime"
+      },
+      {
+        "label": "Politics",
+        "href": "https://www.foxnews.com/politics"
+      },
+      {
+        "label": "Donald Trump",
+        "href": "https://www.foxnews.com/category/person/donald-trump"
+      },
+      {
+        "label": "Senate",
+        "href": "https://www.foxnews.com/category/politics/senate"
+      },
+      {
+        "label": "House",
+        "href": "https://www.foxnews.com/category/politics/house-of-representatives"
+      },
+      {
+        "label": "Judiciary",
+        "href": "https://www.foxnews.com/category/politics/judiciary"
+      },
+      {
+        "label": "Foreign Policy",
+        "href": "https://www.foxnews.com/category/politics/foreign-policy"
+      },
+      {
+        "label": "Fox News Polls",
+        "href": "https://www.foxnews.com/official-polls"
+      },
+      {
+        "label": "2025 Elections Coverage",
+        "href": "https://www.foxnews.com/elections"
+      },
+      {
+        "label": "World",
+        "href": "https://www.foxnews.com/world"
+      },
+      {
+        "label": "U.N.",
+        "href": "https://www.foxnews.com/category/world/united-nations"
+      },
+      {
+        "label": "Conflicts",
+        "href": "https://www.foxnews.com/category/world/conflicts"
+      },
+      {
+        "label": "Terrorism",
+        "href": "https://www.foxnews.com/category/world/terrorism"
+      },
+      {
+        "label": "Disasters",
+        "href": "https://www.foxnews.com/category/disasters"
+      },
+      {
+        "label": "Global Economy",
+        "href": "https://www.foxnews.com/category/world/global-economy"
+      },
+      {
+        "label": "Environment",
+        "href": "https://www.foxnews.com/category/environment"
+      },
+      {
+        "label": "Religion",
+        "href": "https://www.foxnews.com/category/world/religion"
+      },
+      {
+        "label": "Scandals",
+        "href": "https://www.foxnews.com/category/world/scandals"
+      },
+      {
+        "label": "Opinion",
+        "href": "https://www.foxnews.com/opinion"
+      },
+      {
+        "label": "Media",
+        "href": "https://www.foxnews.com/media"
+      },
+      {
+        "label": "Fox Nation Coverage",
+        "href": "https://www.foxnews.com/shows/fox-nation"
+      },
+      {
+        "label": "Entertainment",
+        "href": "https://www.foxnews.com/entertainment"
+      },
+      {
+        "label": "Prince Andrew",
+        "href": "https://www.foxnews.com/category/person/prince-andrew"
+      },
+      {
+        "label": "Katy Perry",
+        "href": "https://www.foxnews.com/category/person/katy-perry"
+      },
+      {
+        "label": "Royal Families",
+        "href": "https://www.foxnews.com/category/world/personalities/british-royals"
+      },
+      {
+        "label": "Country Music",
+        "href": "https://www.foxnews.com/category/entertainment/genres/country"
+      },
+      {
+        "label": "Nicole Kidman",
+        "href": "https://www.foxnews.com/category/person/nicole-kidman"
+      },
+      {
+        "label": "Sports",
+        "href": "https://www.foxnews.com/sports"
+      },
+      {
+        "label": "NFL",
+        "href": "https://www.foxnews.com/category/sports/nfl"
+      },
+      {
+        "label": "College Football",
+        "href": "https://www.foxnews.com/category/sports/ncaa-fb"
+      },
+      {
+        "label": "MLB",
+        "href": "https://www.foxnews.com/category/sports/mlb"
+      },
+      {
+        "label": "NASCAR",
+        "href": "https://www.foxnews.com/category/auto/nascar"
+      },
+      {
+        "label": "INDYCAR",
+        "href": "https://www.foxnews.com/category/auto/indycar"
+      },
+      {
+        "label": "NBA",
+        "href": "https://www.foxnews.com/category/sports/nba"
+      },
+      {
+        "label": "NHL",
+        "href": "https://www.foxnews.com/category/sports/nhl"
+      },
+      {
+        "label": "Golf",
+        "href": "https://www.foxnews.com/category/sports/golf"
+      },
+      {
+        "label": "Tennis",
+        "href": "https://www.foxnews.com/category/sports/tennis"
+      },
+      {
+        "label": "UFC",
+        "href": "https://www.foxnews.com/category/sports/ufc"
+      },
+      {
+        "label": "WWE",
+        "href": "https://www.foxnews.com/category/organization/wwe"
+      },
+      {
+        "label": "Lifestyle",
+        "href": "https://www.foxnews.com/lifestyle"
+      },
+      {
+        "label": "Travel",
+        "href": "https://www.foxnews.com/travel"
+      },
+      {
+        "label": "Food & Drink",
+        "href": "https://www.foxnews.com/food-drink"
+      },
+      {
+        "label": "Faith",
+        "href": "https://www.foxnews.com/faith-values"
+      },
+      {
+        "label": "Discovery",
+        "href": "https://www.foxnews.com/category/science/archaeology"
+      },
+      {
+        "label": "Games & Quizzes",
+        "href": "https://www.foxnews.com/games"
+      },
+      {
+        "label": "Health",
+        "href": "https://www.foxnews.com/health"
+      },
+      {
+        "label": "Weight Loss",
+        "href": "https://www.foxnews.com/category/health/nutrition-and-fitness/weight-loss"
+      },
+      {
+        "label": "Cancer",
+        "href": "https://www.foxnews.com/category/health/cancer"
+      },
+      {
+        "label": "Brain Health",
+        "href": "https://www.foxnews.com/category/health/brain-health"
+      },
+      {
+        "label": "Sleep",
+        "href": "https://www.foxnews.com/category/health/sleep-disorders"
+      },
+      {
+        "label": "Heart Health",
+        "href": "https://www.foxnews.com/category/health/heart-health"
+      },
+      {
+        "label": "Healthy Living",
+        "href": "https://www.foxnews.com/category/health/healthy-living"
+      },
+      {
+        "label": "Mental Health",
+        "href": "https://www.foxnews.com/category/health/mental-health"
+      },
+      {
+        "label": "MAHA",
+        "href": "https://www.foxnews.com/category/health/maha"
+      },
+      {
+        "label": "Video",
+        "href": "https://www.foxnews.com/video"
+      },
+      {
+        "label": "AI",
+        "href": "https://www.foxnews.com/category/tech/artificial-intelligence"
+      },
+      {
+        "label": "Watch\n            TV",
+        "href": "https://www.foxnews.com/video/5614615980001"
+      },
+      {
+        "label": "Home",
+        "href": "https://www.foxnews.com/"
+      },
+      {
+        "label": "EPSTEIN FILES",
+        "href": "https://www.foxnews.com/category/person/jeffrey-epstein"
+      },
+      {
+        "label": "TRUMP NEWS",
+        "href": "https://www.foxnews.com/category/person/donald-trump"
+      },
+      {
+        "label": "CAMPUS RADICALS",
+        "href": "https://www.foxnews.com/category/us/campus-radicals"
+      },
+      {
+        "label": "CHARLIE KIRK",
+        "href": "https://www.foxnews.com/category/media/charlie-kirk"
+      },
+      {
+        "label": "Games",
+        "href": "https://www.foxnews.com/games"
+      },
+      {
+        "label": "Scattergories Daily",
+        "href": "https://www.foxnews.com/games/scattergories-daily"
+      },
+      {
+        "label": "5 Across the Letter Word Game",
+        "href": "https://www.foxnews.com/games/5-across-word-game"
+      },
+      {
+        "label": "DownWords",
+        "href": "https://www.foxnews.com/games/lil-snack-downwords"
+      },
+      {
+        "label": "Sudoku",
+        "href": "https://www.foxnews.com/games/sudoku"
+      },
+      {
+        "label": "Swap Words",
+        "href": "https://www.foxnews.com/games/lil-snack-word-swap"
+      },
+      {
+        "label": "Word Search",
+        "href": "https://www.foxnews.com/games/word-search"
+      },
+      {
+        "label": "Icon Match",
+        "href": "https://www.foxnews.com/games/icon-match-puzzle"
+      },
+      {
+        "label": "Daily Crossword Puzzle",
+        "href": "https://www.foxnews.com/games/daily-crossword-puzzle"
+      },
+      {
+        "label": "Mini Crossword Puzzle",
+        "href": "https://www.foxnews.com/games/mini-crossword-puzzle"
+      },
+      {
+        "label": "Deals",
+        "href": "https://www.foxnews.com/deals"
+      },
+      {
+        "label": "Holiday Shopping",
+        "href": "https://www.foxnews.com/category/deals/trending"
+      },
+      {
+        "label": "Gift Guides",
+        "href": "https://www.foxnews.com/category/deals/gift"
+      },
+      {
+        "label": "Home Deals",
+        "href": "https://www.foxnews.com/category/deals/home"
+      },
+      {
+        "label": "Kitchen Deals",
+        "href": "https://www.foxnews.com/category/deals/kitchen"
+      },
+      {
+        "label": "Tech and Electronic Deals",
+        "href": "https://www.foxnews.com/category/deals/tech-and-electronic"
+      },
+      {
+        "label": "Health and Fitness Deals",
+        "href": "https://www.foxnews.com/category/deals/health-and-fitness"
+      },
+      {
+        "label": "Beauty and Fashion Deals",
+        "href": "https://www.foxnews.com/category/deals/beauty-and-fashion"
+      },
+      {
+        "label": "Science & Tech",
+        "href": "https://www.foxnews.com/tech"
+      },
+      {
+        "label": "Air & Space",
+        "href": "https://www.foxnews.com/category/science/air-and-space"
+      },
+      {
+        "label": "Security",
+        "href": "https://www.foxnews.com/category/tech/topics/security"
+      },
+      {
+        "label": "Innovation",
+        "href": "https://www.foxnews.com/category/tech/topics/innovation"
+      },
+      {
+        "label": "Video Games",
+        "href": "https://www.foxnews.com/category/tech/topics/video-games"
+      },
+      {
+        "label": "Military Tech",
+        "href": "https://www.foxnews.com/category/tech/topics/military-tech"
+      },
+      {
+        "label": "Planet Earth",
+        "href": "https://www.foxnews.com/category/science/planet-earth"
+      },
+      {
+        "label": "Wild Nature",
+        "href": "https://www.foxnews.com/category/science/wild-nature"
+      },
+      {
+        "label": "Watch Live",
+        "href": "https://www.foxnews.com/video/5614615980001"
+      },
+      {
+        "label": "FOX News Shows",
+        "href": "https://www.foxnews.com/shows"
+      },
+      {
+        "label": "Programming Schedule",
+        "href": "https://www.foxnews.com/fnctv"
+      },
+      {
+        "label": "On Air Personalities",
+        "href": "https://www.foxnews.com/person/personalities"
+      },
+      {
+        "label": "Full Episodes",
+        "href": "https://www.foxnews.com/video/shows"
+      },
+      {
+        "label": "Show Clips",
+        "href": "https://www.foxnews.com/video/topics/v-most-recent-episodes"
+      },
+      {
+        "label": "News Clips",
+        "href": "https://www.foxnews.com/video/topics/latest-news-video"
+      },
+      {
+        "label": "Apps & Products",
+        "href": "https://www.foxnews.com/apps-products"
+      },
+      {
+        "label": "FOX News Go",
+        "href": "https://www.foxnews.com/go"
+      },
+      {
+        "label": "Newsletters",
+        "href": "https://www.foxnews.com/newsletters"
+      },
+      {
+        "label": "Games",
+        "href": "https://www.foxnews.com/games"
+      },
+      {
+        "label": "Scattergories Daily",
+        "href": "https://www.foxnews.com/games/scattergories-daily"
+      },
+      {
+        "label": "5 Across the Letter Word Game",
+        "href": "https://www.foxnews.com/games/5-across-word-game"
+      },
+      {
+        "label": "DownWords",
+        "href": "https://www.foxnews.com/games/lil-snack-downwords"
+      },
+      {
+        "label": "Sudoku",
+        "href": "https://www.foxnews.com/games/sudoku"
+      },
+      {
+        "label": "Swap Words",
+        "href": "https://www.foxnews.com/games/lil-snack-word-swap"
+      },
+      {
+        "label": "Word Search",
+        "href": "https://www.foxnews.com/games/word-search"
+      },
+      {
+        "label": "Icon Match",
+        "href": "https://www.foxnews.com/games/icon-match-puzzle"
+      },
+      {
+        "label": "Daily Crossword Puzzle",
+        "href": "https://www.foxnews.com/games/daily-crossword-puzzle"
+      },
+      {
+        "label": "Mini Crossword Puzzle",
+        "href": "https://www.foxnews.com/games/mini-crossword-puzzle"
+      },
+      {
+        "label": "Deals",
+        "href": "https://www.foxnews.com/deals"
+      },
+      {
+        "label": "Holiday Shopping",
+        "href": "https://www.foxnews.com/category/deals/trending"
+      },
+      {
+        "label": "Gift Guides",
+        "href": "https://www.foxnews.com/category/deals/gift"
+      },
+      {
+        "label": "Home Deals",
+        "href": "https://www.foxnews.com/category/deals/home"
+      },
+      {
+        "label": "Kitchen Deals",
+        "href": "https://www.foxnews.com/category/deals/kitchen"
+      },
+      {
+        "label": "Tech and Electronic Deals",
+        "href": "https://www.foxnews.com/category/deals/tech-and-electronic"
+      },
+      {
+        "label": "Health and Fitness Deals",
+        "href": "https://www.foxnews.com/category/deals/health-and-fitness"
+      },
+      {
+        "label": "Beauty and Fashion Deals",
+        "href": "https://www.foxnews.com/category/deals/beauty-and-fashion"
+      },
+      {
+        "label": "Science & Tech",
+        "href": "https://www.foxnews.com/tech"
+      },
+      {
+        "label": "Air & Space",
+        "href": "https://www.foxnews.com/category/science/air-and-space"
+      },
+      {
+        "label": "Security",
+        "href": "https://www.foxnews.com/category/tech/topics/security"
+      },
+      {
+        "label": "Innovation",
+        "href": "https://www.foxnews.com/category/tech/topics/innovation"
+      },
+      {
+        "label": "Video Games",
+        "href": "https://www.foxnews.com/category/tech/topics/video-games"
+      },
+      {
+        "label": "Military Tech",
+        "href": "https://www.foxnews.com/category/tech/topics/military-tech"
+      },
+      {
+        "label": "Planet Earth",
+        "href": "https://www.foxnews.com/category/science/planet-earth"
+      },
+      {
+        "label": "Wild Nature",
+        "href": "https://www.foxnews.com/category/science/wild-nature"
+      },
+      {
+        "label": "Watch Live",
+        "href": "https://www.foxnews.com/video/5614615980001"
+      },
+      {
+        "label": "FOX News Shows",
+        "href": "https://www.foxnews.com/shows"
+      },
+      {
+        "label": "Programming Schedule",
+        "href": "https://www.foxnews.com/fnctv"
+      },
+      {
+        "label": "On Air Personalities",
+        "href": "https://www.foxnews.com/person/personalities"
+      },
+      {
+        "label": "Full Episodes",
+        "href": "https://www.foxnews.com/video/shows"
+      },
+      {
+        "label": "Show Clips",
+        "href": "https://www.foxnews.com/video/topics/v-most-recent-episodes"
+      },
+      {
+        "label": "News Clips",
+        "href": "https://www.foxnews.com/video/topics/latest-news-video"
+      },
+      {
+        "label": "Apps & Products",
+        "href": "https://www.foxnews.com/apps-products"
+      },
+      {
+        "label": "FOX News Go",
+        "href": "https://www.foxnews.com/go"
+      },
+      {
+        "label": "Newsletters",
+        "href": "https://www.foxnews.com/newsletters"
+      },
+      {
+        "label": "RSS",
+        "href": "https://www.foxnews.com/story/foxnews-com-rss-feeds"
+      },
+      {
+        "label": "Newsletters",
+        "href": "https://www.foxnews.com/newsletters"
+      },
+      {
+        "label": "Fox News",
+        "href": "https://www.foxnews.com"
+      },
+      {
+        "label": "Terms of Use",
+        "href": "https://www.foxnews.com/terms-of-use"
+      },
+      {
+        "label": "Privacy Policy",
+        "href": "https://www.foxnews.com/privacy-policy"
+      },
+      {
+        "label": "Closed Caption Policy",
+        "href": "https://www.foxnews.com/closed-captioning"
+      },
+      {
+        "label": "Contact Us",
+        "href": "https://www.foxnews.com/contact"
+      },
+      {
+        "label": "Accessibility Statement",
+        "href": "https://www.foxnews.com/accessibility-statement"
+      },
+      {
+        "label": "News Sitemap",
+        "href": "https://www.foxnews.com/html-sitemap"
+      },
+      {
+        "label": "Video Sitemap",
+        "href": "https://www.foxnews.com/html-video-sitemap"
+      },
+      {
+        "label": "",
+        "href": "https://www.foxnews.com/food-drink/ancient-fire-reveals-preserved-important-5000-year-old-food-find"
+      },
+      {
+        "label": "Food-Drink",
+        "href": "https://www.foxnews.com/category/food-drink"
+      },
+      {
+        "label": "Ancient fire reveals perfectly preserved and 'very important' 5,000-year-old food find",
+        "href": "https://www.foxnews.com/food-drink/ancient-fire-reveals-preserved-important-5000-year-old-food-find"
+      },
+      {
+        "label": "",
+        "href": "https://www.foxnews.com/food-drink/las-vegas-buffet-binger-strip-wanted-unusual-2k-thanksgiving-eating-gig"
+      },
+      {
+        "label": "Food",
+        "href": "https://www.foxnews.com/category/food-drink/food"
+      },
+      {
+        "label": "Las Vegas buffet binger on the Strip wanted for unusual $2K Thanksgiving eating gig",
+        "href": "https://www.foxnews.com/food-drink/las-vegas-buffet-binger-strip-wanted-unusual-2k-thanksgiving-eating-gig"
+      },
+      {
+        "label": "",
+        "href": "https://www.foxnews.com/food-drink/trumps-praise-mcdonalds-filet-o-fish-sparks-nostalgia-saucy-debate"
+      },
+      {
+        "label": "Fast Food",
+        "href": "https://www.foxnews.com/category/food-drink/food/fast-food"
+      },
+      {
+        "label": "Trump's praise for McDonald's Filet-O-Fish sparks nostalgia \u2014 and a saucy debate",
+        "href": "https://www.foxnews.com/food-drink/trumps-praise-mcdonalds-filet-o-fish-sparks-nostalgia-saucy-debate"
+      },
+      {
+        "label": "MORE RECIPES",
+        "href": "https://www.foxnews.com/category/food-drink/recipes"
+      },
+      {
+        "label": "",
+        "href": "https://www.foxnews.com/food-drink/daily-orange-juice-has-therapeutic-potential-genes-heart-health-study-finds"
+      },
+      {
+        "label": "Food-Drink",
+        "href": "https://www.foxnews.com/category/food-drink"
+      },
+      {
+        "label": "Daily orange juice has 'therapeutic potential' for genes and heart health, study finds",
+        "href": "https://www.foxnews.com/food-drink/daily-orange-juice-has-therapeutic-potential-genes-heart-health-study-finds"
+      },
+      {
+        "label": "",
+        "href": "https://www.foxnews.com/food-drink/mcrib-returns-mcdonalds-menus-nationwide-fans-cheer-critics-groan"
+      },
+      {
+        "label": "Fast Food",
+        "href": "https://www.foxnews.com/category/food-drink/food/fast-food"
+      },
+      {
+        "label": "McRib returns to most McDonald's menus as fans cheer and critics groan",
+        "href": "https://www.foxnews.com/food-drink/mcrib-returns-mcdonalds-menus-nationwide-fans-cheer-critics-groan"
+      },
+      {
+        "label": "",
+        "href": "https://www.foxnews.com/food-drink/what-you-eat-weekend-could-make-break-your-daylight-saving-recovery"
+      },
+      {
+        "label": "Food-Drink",
+        "href": "https://www.foxnews.com/category/food-drink"
+      },
+      {
+        "label": "What you eat this weekend could make or break your daylight saving recovery",
+        "href": "https://www.foxnews.com/food-drink/what-you-eat-weekend-could-make-break-your-daylight-saving-recovery"
+      },
+      {
+        "label": "",
+        "href": "https://www.foxnews.com/food-drink/taco-bell-tops-new-drive-thru-speed-rankings-chick-fil-a-wins-satisfaction"
+      },
+      {
+        "label": "Fast Food",
+        "href": "https://www.foxnews.com/category/food-drink/food/fast-food"
+      },
+      {
+        "label": "Taco Bell tops new drive-thru speed rankings, and Chick-fil-A wins on satisfaction",
+        "href": "https://www.foxnews.com/food-drink/taco-bell-tops-new-drive-thru-speed-rankings-chick-fil-a-wins-satisfaction"
+      },
+      {
+        "label": "MORE HEALTHY FOOD",
+        "href": "https://www.foxnews.com/category/food-drink/food/healthy-foods"
+      },
+      {
+        "label": "",
+        "href": "https://www.foxnews.com/food-drink/ancient-fire-reveals-preserved-important-5000-year-old-food-find"
+      },
+      {
+        "label": "Food-Drink",
+        "href": "https://www.foxnews.com/category/food-drink"
+      },
+      {
+        "label": "Ancient fire reveals perfectly preserved and 'very important' 5,000-year-old food find",
+        "href": "https://www.foxnews.com/food-drink/ancient-fire-reveals-preserved-important-5000-year-old-food-find"
+      },
+      {
+        "label": "",
+        "href": "https://www.foxnews.com/food-drink/trumps-praise-mcdonalds-filet-o-fish-sparks-nostalgia-saucy-debate"
+      },
+      {
+        "label": "Fast Food",
+        "href": "https://www.foxnews.com/category/food-drink/food/fast-food"
+      },
+      {
+        "label": "Trump's praise for McDonald's Filet-O-Fish sparks nostalgia \u2014 and a saucy debate",
+        "href": "https://www.foxnews.com/food-drink/trumps-praise-mcdonalds-filet-o-fish-sparks-nostalgia-saucy-debate"
+      },
+      {
+        "label": "",
+        "href": "https://www.foxnews.com/food-drink/las-vegas-buffet-binger-strip-wanted-unusual-2k-thanksgiving-eating-gig"
+      },
+      {
+        "label": "Food",
+        "href": "https://www.foxnews.com/category/food-drink/food"
+      },
+      {
+        "label": "Las Vegas buffet binger on the Strip wanted for unusual $2K Thanksgiving eating gig",
+        "href": "https://www.foxnews.com/food-drink/las-vegas-buffet-binger-strip-wanted-unusual-2k-thanksgiving-eating-gig"
+      },
+      {
+        "label": "",
+        "href": "https://www.foxnews.com/food-drink/daily-orange-juice-has-therapeutic-potential-genes-heart-health-study-finds"
+      },
+      {
+        "label": "Food-Drink",
+        "href": "https://www.foxnews.com/category/food-drink"
+      },
+      {
+        "label": "Daily orange juice has 'therapeutic potential' for genes and heart health, study finds",
+        "href": "https://www.foxnews.com/food-drink/daily-orange-juice-has-therapeutic-potential-genes-heart-health-study-finds"
+      },
+      {
+        "label": "",
+        "href": "https://www.foxnews.com/food-drink/ancient-fire-reveals-preserved-important-5000-year-old-food-find"
+      },
+      {
+        "label": "Ancient fire reveals perfectly preserved and 'very important' 5,000-year-old food find",
+        "href": "https://www.foxnews.com/food-drink/ancient-fire-reveals-preserved-important-5000-year-old-food-find"
+      },
+      {
+        "label": "Ancient barley grains from 5,000 years ago discovered in Turkey's Van province reveal Bronze Age agricultural practices. The burned kernels were preserved at Iremir Mound site.",
+        "href": "https://www.foxnews.com/food-drink/ancient-fire-reveals-preserved-important-5000-year-old-food-find"
+      },
+      {
+        "label": "",
+        "href": "https://www.foxnews.com/food-drink/trumps-praise-mcdonalds-filet-o-fish-sparks-nostalgia-saucy-debate"
+      },
+      {
+        "label": "Trump's praise for McDonald's Filet-O-Fish sparks nostalgia \u2014 and a saucy debate",
+        "href": "https://www.foxnews.com/food-drink/trumps-praise-mcdonalds-filet-o-fish-sparks-nostalgia-saucy-debate"
+      },
+      {
+        "label": "President Donald Trump suggests McDonald's add more tartar sauce to the Filet-O-Fish during a recent speech, reigniting conversation about the iconic sandwich.",
+        "href": "https://www.foxnews.com/food-drink/trumps-praise-mcdonalds-filet-o-fish-sparks-nostalgia-saucy-debate"
+      },
+      {
+        "label": "",
+        "href": "https://www.foxnews.com/food-drink/las-vegas-buffet-binger-strip-wanted-unusual-2k-thanksgiving-eating-gig"
+      },
+      {
+        "label": "Las Vegas buffet binger on the Strip wanted for unusual $2K Thanksgiving eating gig",
+        "href": "https://www.foxnews.com/food-drink/las-vegas-buffet-binger-strip-wanted-unusual-2k-thanksgiving-eating-gig"
+      },
+      {
+        "label": "From buffet decline to $2,000 food tester jobs: Here's how the Las Vegas dining scene is evolving amid tourism challenges and changing visitor preferences.",
+        "href": "https://www.foxnews.com/food-drink/las-vegas-buffet-binger-strip-wanted-unusual-2k-thanksgiving-eating-gig"
+      },
+      {
+        "label": "",
+        "href": "https://www.foxnews.com/food-drink/daily-orange-juice-has-therapeutic-potential-genes-heart-health-study-finds"
+      },
+      {
+        "label": "Daily orange juice has 'therapeutic potential' for genes and heart health, study finds",
+        "href": "https://www.foxnews.com/food-drink/daily-orange-juice-has-therapeutic-potential-genes-heart-health-study-finds"
+      },
+      {
+        "label": "New research reveals daily orange juice consumption may tune genes to support heart health, reducing inflammation and improving blood vessel function in adults.",
+        "href": "https://www.foxnews.com/food-drink/daily-orange-juice-has-therapeutic-potential-genes-heart-health-study-finds"
+      },
+      {
+        "label": "",
+        "href": "https://www.foxnews.com/politics/trump-jokes-hes-first-former-mcdonalds-fry-cook-become-president-hailing-chains-spirit"
+      },
+      {
+        "label": "Trump jokes he\u2019s first former McDonald\u2019s fry cook to become president, hailing the chain\u2019s spirit",
+        "href": "https://www.foxnews.com/politics/trump-jokes-hes-first-former-mcdonalds-fry-cook-become-president-hailing-chains-spirit"
+      },
+      {
+        "label": "President Trump claims title of first former McDonald's fry cook to become president after 30-minute campaign stint, joking he worked there longer than Kamala Harris ever did.",
+        "href": "https://www.foxnews.com/politics/trump-jokes-hes-first-former-mcdonalds-fry-cook-become-president-hailing-chains-spirit"
+      },
+      {
+        "label": "",
+        "href": "https://www.foxnews.com/health/gut-imbalance-may-driving-americas-food-allergy-epidemic-experts-warn"
+      },
+      {
+        "label": "Gut imbalance may be driving America\u2019s food allergy epidemic, experts warn",
+        "href": "https://www.foxnews.com/health/gut-imbalance-may-driving-americas-food-allergy-epidemic-experts-warn"
+      },
+      {
+        "label": "With over 32 million Americans facing food allergies, HHS Secretary RFK Jr. and FDA Chief Makary explore microbiome solutions. New gut health research may hold the key.",
+        "href": "https://www.foxnews.com/health/gut-imbalance-may-driving-americas-food-allergy-epidemic-experts-warn"
+      },
+      {
+        "label": "",
+        "href": "https://www.foxnews.com/food-drink/looking-cheap-cheeseburger-10-american-cities-deliver-best-meal-deals"
+      },
+      {
+        "label": "Looking for a cheap cheeseburger? 10 American cities that deliver the best meal deals",
+        "href": "https://www.foxnews.com/food-drink/looking-cheap-cheeseburger-10-american-cities-deliver-best-meal-deals"
+      },
+      {
+        "label": "DoorDash's annual Cheeseburger Index reveals the most affordable cities for burger meals across 100 U.S. locations, with Lincoln, Nebraska, topping the list at $10.75.",
+        "href": "https://www.foxnews.com/food-drink/looking-cheap-cheeseburger-10-american-cities-deliver-best-meal-deals"
+      },
+      {
+        "label": "",
+        "href": "https://www.foxnews.com/health/portfolio-diet-gains-buzz-lowering-cholesterol-without-medication-experts-say"
+      },
+      {
+        "label": "\u2018Portfolio diet\u2019 gains buzz for lowering cholesterol without medication, experts say",
+        "href": "https://www.foxnews.com/health/portfolio-diet-gains-buzz-lowering-cholesterol-without-medication-experts-say"
+      },
+      {
+        "label": "Using a strategic mix of plant-based foods, the Portfolio Diet can lower LDL cholesterol nearly as much as some prescription drugs \u2014 but there are important caveats to consider.",
+        "href": "https://www.foxnews.com/health/portfolio-diet-gains-buzz-lowering-cholesterol-without-medication-experts-say"
+      },
+      {
+        "label": "",
+        "href": "https://www.foxnews.com/food-drink/thanksgiving-becomes-british-obsession-younger-generations-embrace-american-holiday"
+      },
+      {
+        "label": "Thanksgiving becomes British obsession as younger generations embrace American holiday",
+        "href": "https://www.foxnews.com/food-drink/thanksgiving-becomes-british-obsession-younger-generations-embrace-american-holiday"
+      },
+      {
+        "label": "Thanksgiving becomes a British culinary celebration as restaurants expand services and consumers embrace American-inspired cuisine in the growing global food trend.",
+        "href": "https://www.foxnews.com/food-drink/thanksgiving-becomes-british-obsession-younger-generations-embrace-american-holiday"
+      },
+      {
+        "label": "",
+        "href": "https://www.foxnews.com/food-drink/nashvilles-hidden-wine-country-provides-taste-tennessee-whiskey-barrels"
+      },
+      {
+        "label": "Nashville's hidden 'wine country' provides taste of Tennessee in whiskey barrels",
+        "href": "https://www.foxnews.com/food-drink/nashvilles-hidden-wine-country-provides-taste-tennessee-whiskey-barrels"
+      },
+      {
+        "label": "Arrington Vineyards crafts Tennessee wine using Chambourcin grapes and whiskey barrels. Winemaker expertise meets local terroir near Nashville, and it's included in the Fox News Wine Club.",
+        "href": "https://www.foxnews.com/food-drink/nashvilles-hidden-wine-country-provides-taste-tennessee-whiskey-barrels"
+      },
+      {
+        "label": "",
+        "href": "https://www.foxnews.com/lifestyle/american-culture-quiz-test-yourself-gridiron-glory-presidential-pastimes"
+      },
+      {
+        "label": "American Culture Quiz: Test yourself on gridiron glory and presidential pastimes",
+        "href": "https://www.foxnews.com/lifestyle/american-culture-quiz-test-yourself-gridiron-glory-presidential-pastimes"
+      },
+      {
+        "label": "The American Culture Quiz is a weekly test of our unique national traits, trends, history and people. This time, test your knowledge of gridiron glory and presidential pastimes.",
+        "href": "https://www.foxnews.com/lifestyle/american-culture-quiz-test-yourself-gridiron-glory-presidential-pastimes"
+      },
+      {
+        "label": "",
+        "href": "https://www.foxnews.com/food-drink/streateries-face-steep-new-rules-major-us-city-others-follow"
+      },
+      {
+        "label": "'Streateries' face steep new rules in major US city; will others follow?",
+        "href": "https://www.foxnews.com/food-drink/streateries-face-steep-new-rules-major-us-city-others-follow"
+      },
+      {
+        "label": "Cities nationwide are cracking down on outdoor dining as pandemic freedoms end, with Washington, D.C., reportedly joining New York and Philadelphia in imposing steep fees.",
+        "href": "https://www.foxnews.com/food-drink/streateries-face-steep-new-rules-major-us-city-others-follow"
+      },
+      {
+        "label": "",
+        "href": "https://www.foxnews.com/food-drink/pumpkin-apple-americas-thanksgiving-pie-debate-heats-up-social-media"
+      },
+      {
+        "label": "Pumpkin or apple? America\u2019s fiercest Thanksgiving dessert debate heats up",
+        "href": "https://www.foxnews.com/food-drink/pumpkin-apple-americas-thanksgiving-pie-debate-heats-up-social-media"
+      },
+      {
+        "label": "Pumpkin pie beats apple pie 2-to-1 at Thanksgiving, new surveys reveal. Experts weigh in on America's most beloved holiday dessert traditions and flavor preferences.",
+        "href": "https://www.foxnews.com/food-drink/pumpkin-apple-americas-thanksgiving-pie-debate-heats-up-social-media"
+      },
+      {
+        "label": "",
+        "href": "https://www.foxnews.com/food-drink/retro-refined-jell-o-salad-savory-gelatin-dishes-make-unexpected-return"
+      },
+      {
+        "label": "From retro to refined: Jell-O salad and savory gelatin dishes make unexpected return",
+        "href": "https://www.foxnews.com/food-drink/retro-refined-jell-o-salad-savory-gelatin-dishes-make-unexpected-return"
+      },
+      {
+        "label": "Aspic and Jell-O salads are making a comeback on social media and in fine restaurants, as chefs reimagine retro gelatin dishes for modern palates.",
+        "href": "https://www.foxnews.com/food-drink/retro-refined-jell-o-salad-savory-gelatin-dishes-make-unexpected-return"
+      },
+      {
+        "label": "",
+        "href": "https://www.foxnews.com/health/not-all-fiber-created-equal-doctors-share-which-kinds-truly-support-longevity"
+      },
+      {
+        "label": "Not all fiber is created equal; doctors share which kinds truly support longevity",
+        "href": "https://www.foxnews.com/health/not-all-fiber-created-equal-doctors-share-which-kinds-truly-support-longevity"
+      },
+      {
+        "label": "Longevity expert Peter Attia breaks down different fiber types amid the trending '\"fibermaxxing\" movement. Learn how different fibers affect gut health, blood sugar and weight.",
+        "href": "https://www.foxnews.com/health/not-all-fiber-created-equal-doctors-share-which-kinds-truly-support-longevity"
+      },
+      {
+        "label": "",
+        "href": "https://www.foxnews.com/health/man-dies-hours-after-eating-burger-researchers-confirm-fatal-allergy"
+      },
+      {
+        "label": "Man dies hours after eating burger as researchers confirm fatal allergy",
+        "href": "https://www.foxnews.com/health/man-dies-hours-after-eating-burger-researchers-confirm-fatal-allergy"
+      },
+      {
+        "label": "A fatal allergic reaction to red meat highlights a dangerous tick-borne illness. Researchers warn of alpha-gal syndrome risks from hamburgers and steak after tick exposure.",
+        "href": "https://www.foxnews.com/health/man-dies-hours-after-eating-burger-researchers-confirm-fatal-allergy"
+      },
+      {
+        "label": "",
+        "href": "https://www.foxnews.com/health/spike-deadly-cancer-before-50-linked-common-convenience-foods"
+      },
+      {
+        "label": "Spike in deadly cancer before age 50 linked to common convenience foods",
+        "href": "https://www.foxnews.com/health/spike-deadly-cancer-before-50-linked-common-convenience-foods"
+      },
+      {
+        "label": "A new study reveals eating ultraprocessed foods increases early-onset colorectal cancer risk by 45%. Research links ready-to-eat foods to precancerous adenomas.",
+        "href": "https://www.foxnews.com/health/spike-deadly-cancer-before-50-linked-common-convenience-foods"
+      },
+      {
+        "label": "",
+        "href": "https://www.foxnews.com/food-drink/cooking-work-clothes-saves-woman-60-week-has-millions-rethinking-dinner"
+      },
+      {
+        "label": "Cooking in her work clothes saves woman $60 a week, has millions rethinking dinner",
+        "href": "https://www.foxnews.com/food-drink/cooking-work-clothes-saves-woman-60-week-has-millions-rethinking-dinner"
+      },
+      {
+        "label": "A viral TikTok hack with 3.7 million views reveals a simple trick to cook more at home. A Michigan woman claims it's helped her save at least $60 a week.",
+        "href": "https://www.foxnews.com/food-drink/cooking-work-clothes-saves-woman-60-week-has-millions-rethinking-dinner"
+      },
+      {
+        "label": "",
+        "href": "https://www.foxnews.com/opinion/why-gen-z-suddenly-skipping-15-burrito-bowl"
+      },
+      {
+        "label": "Why Gen Z is suddenly skipping the $15 burrito bowl",
+        "href": "https://www.foxnews.com/opinion/why-gen-z-suddenly-skipping-15-burrito-bowl"
+      },
+      {
+        "label": "Fast casual dining out was once considered an affordable convenience and has now become a small luxury. This generation isn\u2019t lazy or spoiled. They\u2019re financially boxed in right now.",
+        "href": "https://www.foxnews.com/opinion/why-gen-z-suddenly-skipping-15-burrito-bowl"
+      },
+      {
+        "label": "",
+        "href": "https://www.foxnews.com/food-drink/my-whole-life-lie-former-vegan-chef-sinks-teeth-cattle-ranching"
+      },
+      {
+        "label": "'My whole life was a lie': Former vegan chef sinks her teeth into cattle ranching",
+        "href": "https://www.foxnews.com/food-drink/my-whole-life-lie-former-vegan-chef-sinks-teeth-cattle-ranching"
+      },
+      {
+        "label": "Former vegan chef Mollie Engelhart made a shocking career pivot from running five Los Angeles vegan restaurants to becoming a Texas cattle rancher and advocate.",
+        "href": "https://www.foxnews.com/food-drink/my-whole-life-lie-former-vegan-chef-sinks-teeth-cattle-ranching"
+      },
+      {
+        "label": "More",
+        "href": "https://www.foxnews.com/category/lifestyle/food"
+      },
+      {
+        "label": "",
+        "href": "https://www.foxnews.com/food-drink/trumps-praise-mcdonalds-filet-o-fish-sparks-nostalgia-saucy-debate"
+      },
+      {
+        "label": "Fast Food",
+        "href": "https://www.foxnews.com/category/food-drink/food/fast-food"
+      },
+      {
+        "label": "Trump's praise for McDonald's Filet-O-Fish sparks nostalgia \u2014 and a saucy debate",
+        "href": "https://www.foxnews.com/food-drink/trumps-praise-mcdonalds-filet-o-fish-sparks-nostalgia-saucy-debate"
+      },
+      {
+        "label": "",
+        "href": "https://www.foxnews.com/food-drink/las-vegas-buffet-binger-strip-wanted-unusual-2k-thanksgiving-eating-gig"
+      },
+      {
+        "label": "Food",
+        "href": "https://www.foxnews.com/category/food-drink/food"
+      },
+      {
+        "label": "Las Vegas buffet binger on the Strip wanted for unusual $2K Thanksgiving eating gig",
+        "href": "https://www.foxnews.com/food-drink/las-vegas-buffet-binger-strip-wanted-unusual-2k-thanksgiving-eating-gig"
+      },
+      {
+        "label": "",
+        "href": "https://www.foxnews.com/food-drink/daily-orange-juice-has-therapeutic-potential-genes-heart-health-study-finds"
+      },
+      {
+        "label": "Food-Drink",
+        "href": "https://www.foxnews.com/category/food-drink"
+      },
+      {
+        "label": "Daily orange juice has 'therapeutic potential' for genes and heart health, study finds",
+        "href": "https://www.foxnews.com/food-drink/daily-orange-juice-has-therapeutic-potential-genes-heart-health-study-finds"
+      },
+      {
+        "label": "",
+        "href": "https://www.foxnews.com/politics/trump-jokes-hes-first-former-mcdonalds-fry-cook-become-president-hailing-chains-spirit"
+      },
+      {
+        "label": "Donald Trump",
+        "href": "https://www.foxnews.com/category/person/donald-trump"
+      },
+      {
+        "label": "Trump jokes he\u2019s first former McDonald\u2019s fry cook to become president, hailing the chain\u2019s spirit",
+        "href": "https://www.foxnews.com/politics/trump-jokes-hes-first-former-mcdonalds-fry-cook-become-president-hailing-chains-spirit"
+      },
+      {
+        "label": "",
+        "href": "https://www.foxnews.com/food-drink/ancient-fire-reveals-preserved-important-5000-year-old-food-find"
+      },
+      {
+        "label": "Food-Drink",
+        "href": "https://www.foxnews.com/category/food-drink"
+      },
+      {
+        "label": "Ancient fire reveals perfectly preserved and 'very important' 5,000-year-old food find",
+        "href": "https://www.foxnews.com/food-drink/ancient-fire-reveals-preserved-important-5000-year-old-food-find"
+      },
+      {
+        "label": "Ancient barley grains from 5,000 years ago discovered in Turkey's Van province reveal Bronze Age agricultural practices. The burned kernels were preserved at Iremir Mound site.",
+        "href": "https://www.foxnews.com/food-drink/ancient-fire-reveals-preserved-important-5000-year-old-food-find"
+      },
+      {
+        "label": "",
+        "href": "https://www.foxnews.com/video/6385268405112"
+      },
+      {
+        "label": "VIDEO",
+        "href": "https://www.foxnews.com/video"
+      },
+      {
+        "label": "Baby goose appears to 'feed' hungry fish in heartwarming lake moment",
+        "href": "https://www.foxnews.com/video/6385268405112"
+      },
+      {
+        "label": "This adorable moment captures a fluffy baby goose appearing to play dinner host to a school of eager fish in a lake in China.",
+        "href": "https://www.foxnews.com/video/6385268405112"
+      },
+      {
+        "label": "",
+        "href": "https://www.foxnews.com/food-drink/trumps-praise-mcdonalds-filet-o-fish-sparks-nostalgia-saucy-debate"
+      },
+      {
+        "label": "Fast Food",
+        "href": "https://www.foxnews.com/category/food-drink/food/fast-food"
+      },
+      {
+        "label": "Trump's praise for McDonald's Filet-O-Fish sparks nostalgia \u2014 and a saucy debate",
+        "href": "https://www.foxnews.com/food-drink/trumps-praise-mcdonalds-filet-o-fish-sparks-nostalgia-saucy-debate"
+      },
+      {
+        "label": "President Donald Trump suggests McDonald's add more tartar sauce to the Filet-O-Fish during a recent speech, reigniting conversation about the iconic sandwich.",
+        "href": "https://www.foxnews.com/food-drink/trumps-praise-mcdonalds-filet-o-fish-sparks-nostalgia-saucy-debate"
+      },
+      {
+        "label": "",
+        "href": "https://www.foxnews.com/food-drink/las-vegas-buffet-binger-strip-wanted-unusual-2k-thanksgiving-eating-gig"
+      },
+      {
+        "label": "Food",
+        "href": "https://www.foxnews.com/category/food-drink/food"
+      },
+      {
+        "label": "Las Vegas buffet binger on the Strip wanted for unusual $2K Thanksgiving eating gig",
+        "href": "https://www.foxnews.com/food-drink/las-vegas-buffet-binger-strip-wanted-unusual-2k-thanksgiving-eating-gig"
+      },
+      {
+        "label": "From buffet decline to $2,000 food tester jobs: Here's how the Las Vegas dining scene is evolving amid tourism challenges and changing visitor preferences.",
+        "href": "https://www.foxnews.com/food-drink/las-vegas-buffet-binger-strip-wanted-unusual-2k-thanksgiving-eating-gig"
+      },
+      {
+        "label": "",
+        "href": "https://www.foxnews.com/video/6382099021112"
+      },
+      {
+        "label": "VIDEO",
+        "href": "https://www.foxnews.com/video"
+      },
+      {
+        "label": "Baby lemur charms visitors while munching on fruity snack at Kansas City Zoo",
+        "href": "https://www.foxnews.com/video/6382099021112"
+      },
+      {
+        "label": "Bitro, a young red-ruffed lemur born in April, was recorded munching on fruit as he learns to explore, play and enjoy food at the Kansas City Zoo & Aquarium.",
+        "href": "https://www.foxnews.com/video/6382099021112"
+      },
+      {
+        "label": "",
+        "href": "https://www.foxnews.com/video/6385254673112"
+      },
+      {
+        "label": "VIDEO",
+        "href": "https://www.foxnews.com/video"
+      },
+      {
+        "label": "Trump tells McDonald's how it can improve its iconic Filet-O-Fish",
+        "href": "https://www.foxnews.com/video/6385254673112"
+      },
+      {
+        "label": "When speaking at the McDonald's Impact Summit, President Donald Trump urged the company to put more tartar sauce on the Filet-O-Fish.",
+        "href": "https://www.foxnews.com/video/6385254673112"
+      },
+      {
+        "label": "",
+        "href": "https://www.foxnews.com/food-drink/daily-orange-juice-has-therapeutic-potential-genes-heart-health-study-finds"
+      },
+      {
+        "label": "Food-Drink",
+        "href": "https://www.foxnews.com/category/food-drink"
+      },
+      {
+        "label": "Daily orange juice has 'therapeutic potential' for genes and heart health, study finds",
+        "href": "https://www.foxnews.com/food-drink/daily-orange-juice-has-therapeutic-potential-genes-heart-health-study-finds"
+      },
+      {
+        "label": "New research reveals daily orange juice consumption may tune genes to support heart health, reducing inflammation and improving blood vessel function in adults.",
+        "href": "https://www.foxnews.com/food-drink/daily-orange-juice-has-therapeutic-potential-genes-heart-health-study-finds"
+      },
+      {
+        "label": "",
+        "href": "https://www.foxnews.com/food-drink/looking-cheap-cheeseburger-10-american-cities-deliver-best-meal-deals"
+      },
+      {
+        "label": "American Cuisine",
+        "href": "https://www.foxnews.com/category/food-drink/recipes/cuisines/american"
+      },
+      {
+        "label": "Looking for a cheap cheeseburger? 10 American cities that deliver the best meal deals",
+        "href": "https://www.foxnews.com/food-drink/looking-cheap-cheeseburger-10-american-cities-deliver-best-meal-deals"
+      },
+      {
+        "label": "DoorDash's annual Cheeseburger Index reveals the most affordable cities for burger meals across 100 U.S. locations, with Lincoln, Nebraska, topping the list at $10.75.",
+        "href": "https://www.foxnews.com/food-drink/looking-cheap-cheeseburger-10-american-cities-deliver-best-meal-deals"
+      },
+      {
+        "label": "",
+        "href": "https://www.foxnews.com/food-drink/thanksgiving-becomes-british-obsession-younger-generations-embrace-american-holiday"
+      },
+      {
+        "label": "Food",
+        "href": "https://www.foxnews.com/category/food-drink/food"
+      },
+      {
+        "label": "Thanksgiving becomes British obsession as younger generations embrace American holiday",
+        "href": "https://www.foxnews.com/food-drink/thanksgiving-becomes-british-obsession-younger-generations-embrace-american-holiday"
+      },
+      {
+        "label": "Thanksgiving becomes a British culinary celebration as restaurants expand services and consumers embrace American-inspired cuisine in the growing global food trend.",
+        "href": "https://www.foxnews.com/food-drink/thanksgiving-becomes-british-obsession-younger-generations-embrace-american-holiday"
+      },
+      {
+        "label": "",
+        "href": "https://www.foxnews.com/food-drink/nashvilles-hidden-wine-country-provides-taste-tennessee-whiskey-barrels"
+      },
+      {
+        "label": "Wine",
+        "href": "https://www.foxnews.com/category/lifestyle/drinks/wine"
+      },
+      {
+        "label": "Nashville's hidden 'wine country' provides taste of Tennessee in whiskey barrels",
+        "href": "https://www.foxnews.com/food-drink/nashvilles-hidden-wine-country-provides-taste-tennessee-whiskey-barrels"
+      },
+      {
+        "label": "Arrington Vineyards crafts Tennessee wine using Chambourcin grapes and whiskey barrels. Winemaker expertise meets local terroir near Nashville, and it's included in the Fox News Wine Club.",
+        "href": "https://www.foxnews.com/food-drink/nashvilles-hidden-wine-country-provides-taste-tennessee-whiskey-barrels"
+      },
+      {
+        "label": "",
+        "href": "https://www.foxnews.com/video/6385067227112"
+      },
+      {
+        "label": "VIDEO",
+        "href": "https://www.foxnews.com/video"
+      },
+      {
+        "label": "'Versatile' red wine blends uncorked in Tennessee are redefining Southern flavor",
+        "href": "https://www.foxnews.com/video/6385067227112"
+      },
+      {
+        "label": "Arrington Vineyards winemaker Chase Vienneau and co-founder Kip Summers reveal why their Tennessee location provides the perfect climate for a red wine that can be sampled through the Fox News Wine Shop.",
+        "href": "https://www.foxnews.com/video/6385067227112"
+      },
+      {
+        "label": "",
+        "href": "https://www.foxnews.com/food-drink/streateries-face-steep-new-rules-major-us-city-others-follow"
+      },
+      {
+        "label": "Food-Drink",
+        "href": "https://www.foxnews.com/category/food-drink"
+      },
+      {
+        "label": "'Streateries' face steep new rules in major US city; will others follow?",
+        "href": "https://www.foxnews.com/food-drink/streateries-face-steep-new-rules-major-us-city-others-follow"
+      },
+      {
+        "label": "Cities nationwide are cracking down on outdoor dining as pandemic freedoms end, with Washington, D.C., reportedly joining New York and Philadelphia in imposing steep fees.",
+        "href": "https://www.foxnews.com/food-drink/streateries-face-steep-new-rules-major-us-city-others-follow"
+      },
+      {
+        "label": "",
+        "href": "https://www.foxnews.com/video/6385268405112"
+      },
+      {
+        "label": "0:00:34",
+        "href": "https://www.foxnews.com/video/6385268405112"
+      },
+      {
+        "label": "VIDEO",
+        "href": "https://www.foxnews.com/video"
+      },
+      {
+        "label": "Baby goose appears to 'feed' hungry fish in heartwarming lake moment",
+        "href": "https://www.foxnews.com/video/6385268405112"
+      },
+      {
+        "label": "",
+        "href": "https://www.foxnews.com/video/6382099021112"
+      },
+      {
+        "label": "0:00:18",
+        "href": "https://www.foxnews.com/video/6382099021112"
+      },
+      {
+        "label": "VIDEO",
+        "href": "https://www.foxnews.com/video"
+      },
+      {
+        "label": "Baby lemur charms visitors while munching on fruity snack at Kansas City Zoo",
+        "href": "https://www.foxnews.com/video/6382099021112"
+      },
+      {
+        "label": "",
+        "href": "https://www.foxnews.com/video/6385254673112"
+      },
+      {
+        "label": "0:01:34",
+        "href": "https://www.foxnews.com/video/6385254673112"
+      },
+      {
+        "label": "VIDEO",
+        "href": "https://www.foxnews.com/video"
+      },
+      {
+        "label": "Trump tells McDonald's how it can improve its iconic Filet-O-Fish",
+        "href": "https://www.foxnews.com/video/6385254673112"
+      },
+      {
+        "label": "",
+        "href": "https://www.foxnews.com/video/6385067227112"
+      },
+      {
+        "label": "0:01:11",
+        "href": "https://www.foxnews.com/video/6385067227112"
+      },
+      {
+        "label": "VIDEO",
+        "href": "https://www.foxnews.com/video"
+      },
+      {
+        "label": "'Versatile' red wine blends uncorked in Tennessee are redefining Southern flavor",
+        "href": "https://www.foxnews.com/video/6385067227112"
+      },
+      {
+        "label": "",
+        "href": "https://www.foxnews.com/video/6385140501112"
+      },
+      {
+        "label": "0:03:29",
+        "href": "https://www.foxnews.com/video/6385140501112"
+      },
+      {
+        "label": "VIDEO",
+        "href": "https://www.foxnews.com/video"
+      },
+      {
+        "label": "Riverbend Ranch founder spotlights American-made steaks for the holiday season",
+        "href": "https://www.foxnews.com/video/6385140501112"
+      },
+      {
+        "label": "",
+        "href": "https://www.foxnews.com/video/6385101426112"
+      },
+      {
+        "label": "0:00:28",
+        "href": "https://www.foxnews.com/video/6385101426112"
+      },
+      {
+        "label": "VIDEO",
+        "href": "https://www.foxnews.com/video"
+      },
+      {
+        "label": "Woman shares viral TikTok rule transforming weeknight dinners: 'You can't take your clothes off'",
+        "href": "https://www.foxnews.com/video/6385101426112"
+      },
+      {
+        "label": "",
+        "href": "https://www.foxnews.com/video/6384700002112"
+      },
+      {
+        "label": "0:01:41",
+        "href": "https://www.foxnews.com/video/6384700002112"
+      },
+      {
+        "label": "VIDEO",
+        "href": "https://www.foxnews.com/video"
+      },
+      {
+        "label": "Texas rancher reveals how she had been living 'a lie' as a vegan restaurateur",
+        "href": "https://www.foxnews.com/video/6384700002112"
+      },
+      {
+        "label": "Privacy Policy",
+        "href": "https://www.foxnews.com/privacy-policy"
+      },
+      {
+        "label": "Terms of Use",
+        "href": "https://www.foxnews.com/terms-of-use"
+      },
+      {
+        "label": "U.S.",
+        "href": "https://www.foxnews.com/us"
+      },
+      {
+        "label": "Blue City Crime",
+        "href": "https://www.foxnews.com/category/us/blue-city-crime"
+      },
+      {
+        "label": "Campus Radicals",
+        "href": "https://www.foxnews.com/category/us/campus-radicals"
+      },
+      {
+        "label": "Border Crisis",
+        "href": "https://www.foxnews.com/category/us/immigration"
+      },
+      {
+        "label": "True Crime",
+        "href": "https://www.foxnews.com/true-crime"
+      },
+      {
+        "label": "Politics",
+        "href": "https://www.foxnews.com/politics"
+      },
+      {
+        "label": "Donald Trump",
+        "href": "https://www.foxnews.com/category/person/donald-trump"
+      },
+      {
+        "label": "Senate",
+        "href": "https://www.foxnews.com/category/politics/senate"
+      },
+      {
+        "label": "House",
+        "href": "https://www.foxnews.com/category/politics/house-of-representatives"
+      },
+      {
+        "label": "Judiciary",
+        "href": "https://www.foxnews.com/category/politics/judiciary"
+      },
+      {
+        "label": "Foreign Policy",
+        "href": "https://www.foxnews.com/category/politics/foreign-policy"
+      },
+      {
+        "label": "Fox News Polls",
+        "href": "https://www.foxnews.com/official-polls"
+      },
+      {
+        "label": "2025 Elections Coverage",
+        "href": "https://www.foxnews.com/elections"
+      },
+      {
+        "label": "World",
+        "href": "https://www.foxnews.com/world"
+      },
+      {
+        "label": "U.N.",
+        "href": "https://www.foxnews.com/category/world/united-nations"
+      },
+      {
+        "label": "Conflicts",
+        "href": "https://www.foxnews.com/category/world/conflicts"
+      },
+      {
+        "label": "Terrorism",
+        "href": "https://www.foxnews.com/category/world/terrorism"
+      },
+      {
+        "label": "Disasters",
+        "href": "https://www.foxnews.com/category/disasters"
+      },
+      {
+        "label": "Global Economy",
+        "href": "https://www.foxnews.com/category/world/global-economy"
+      },
+      {
+        "label": "Environment",
+        "href": "https://www.foxnews.com/category/environment"
+      },
+      {
+        "label": "Religion",
+        "href": "https://www.foxnews.com/category/world/religion"
+      },
+      {
+        "label": "Scandals",
+        "href": "https://www.foxnews.com/category/world/scandals"
+      },
+      {
+        "label": "Opinion",
+        "href": "https://www.foxnews.com/opinion"
+      },
+      {
+        "label": "Media",
+        "href": "https://www.foxnews.com/media"
+      },
+      {
+        "label": "FOX Nation Coverage",
+        "href": "https://www.foxnews.com/shows/fox-nation"
+      },
+      {
+        "label": "Entertainment",
+        "href": "https://www.foxnews.com/entertainment"
+      },
+      {
+        "label": "Prince Andrew",
+        "href": "https://www.foxnews.com/category/person/prince-andrew"
+      },
+      {
+        "label": "Katy Perry",
+        "href": "https://www.foxnews.com/category/person/katy-perry"
+      },
+      {
+        "label": "Royal Families",
+        "href": "https://www.foxnews.com/category/world/personalities/british-royals"
+      },
+      {
+        "label": "Country Music",
+        "href": "https://www.foxnews.com/category/entertainment/genres/country"
+      },
+      {
+        "label": "Nicole Kidman",
+        "href": "https://www.foxnews.com/category/person/nicole-kidman"
+      },
+      {
+        "label": "Sports",
+        "href": "https://www.foxnews.com/sports"
+      },
+      {
+        "label": "NFL",
+        "href": "https://www.foxnews.com/category/sports/nfl"
+      },
+      {
+        "label": "College Football",
+        "href": "https://www.foxnews.com/category/sports/ncaa-fb"
+      },
+      {
+        "label": "MLB",
+        "href": "https://www.foxnews.com/category/sports/mlb"
+      },
+      {
+        "label": "NASCAR",
+        "href": "https://www.foxnews.com/category/auto/nascar"
+      },
+      {
+        "label": "INDYCAR",
+        "href": "https://www.foxnews.com/category/auto/indycar"
+      },
+      {
+        "label": "NBA",
+        "href": "https://www.foxnews.com/category/sports/nba"
+      },
+      {
+        "label": "NHL",
+        "href": "https://www.foxnews.com/category/sports/nhl"
+      },
+      {
+        "label": "Golf",
+        "href": "https://www.foxnews.com/category/sports/golf"
+      },
+      {
+        "label": "Tennis",
+        "href": "https://www.foxnews.com/category/sports/tennis"
+      },
+      {
+        "label": "UFC",
+        "href": "https://www.foxnews.com/category/sports/ufc"
+      },
+      {
+        "label": "WWE",
+        "href": "https://www.foxnews.com/category/organization/wwe"
+      },
+      {
+        "label": "Lifestyle",
+        "href": "https://www.foxnews.com/lifestyle"
+      },
+      {
+        "label": "Travel",
+        "href": "https://www.foxnews.com/travel"
+      },
+      {
+        "label": "Food & Drink",
+        "href": "https://www.foxnews.com/food-drink"
+      },
+      {
+        "label": "Faith",
+        "href": "https://www.foxnews.com/faith-values"
+      },
+      {
+        "label": "Discovery",
+        "href": "https://www.foxnews.com/category/science/archaeology"
+      },
+      {
+        "label": "Games & Quizzes",
+        "href": "https://www.foxnews.com/games"
+      },
+      {
+        "label": "Health",
+        "href": "https://www.foxnews.com/health"
+      },
+      {
+        "label": "Weight Loss",
+        "href": "https://www.foxnews.com/category/health/nutrition-and-fitness/weight-loss"
+      },
+      {
+        "label": "Cancer",
+        "href": "https://www.foxnews.com/category/health/cancer"
+      },
+      {
+        "label": "Brain Health",
+        "href": "https://www.foxnews.com/category/health/brain-health"
+      },
+      {
+        "label": "Sleep",
+        "href": "https://www.foxnews.com/category/health/sleep-disorders"
+      },
+      {
+        "label": "Heart Health",
+        "href": "https://www.foxnews.com/category/health/heart-health"
+      },
+      {
+        "label": "Healthy Living",
+        "href": "https://www.foxnews.com/category/health/healthy-living"
+      },
+      {
+        "label": "Mental Health",
+        "href": "https://www.foxnews.com/category/health/mental-health"
+      },
+      {
+        "label": "MAHA",
+        "href": "https://www.foxnews.com/category/health/maha"
+      },
+      {
+        "label": "Deals",
+        "href": "https://www.foxnews.com/deals"
+      },
+      {
+        "label": "Holiday Shopping",
+        "href": "https://www.foxnews.com/category/deals/trending"
+      },
+      {
+        "label": "Gift Guides",
+        "href": "https://www.foxnews.com/category/deals/gift"
+      },
+      {
+        "label": "Home Deals",
+        "href": "https://www.foxnews.com/category/deals/home"
+      },
+      {
+        "label": "Kitchen Deals",
+        "href": "https://www.foxnews.com/category/deals/kitchen"
+      },
+      {
+        "label": "Tech and Electronic Deals",
+        "href": "https://www.foxnews.com/category/deals/tech-and-electronic"
+      },
+      {
+        "label": "Health and Fitness Deals",
+        "href": "https://www.foxnews.com/category/deals/health-and-fitness"
+      },
+      {
+        "label": "Beauty and Fashion Deals",
+        "href": "https://www.foxnews.com/category/deals/beauty-and-fashion"
+      },
+      {
+        "label": "Science & Tech",
+        "href": "https://www.foxnews.com/tech"
+      },
+      {
+        "label": "Air & Space",
+        "href": "https://www.foxnews.com/category/science/air-and-space"
+      },
+      {
+        "label": "Security",
+        "href": "https://www.foxnews.com/category/tech/topics/security"
+      },
+      {
+        "label": "Innovation",
+        "href": "https://www.foxnews.com/category/tech/topics/innovation"
+      },
+      {
+        "label": "Video Games",
+        "href": "https://www.foxnews.com/category/tech/topics/video-games"
+      },
+      {
+        "label": "Military Tech",
+        "href": "https://www.foxnews.com/category/tech/topics/military-tech"
+      },
+      {
+        "label": "Planet Earth",
+        "href": "https://www.foxnews.com/category/science/planet-earth"
+      },
+      {
+        "label": "Wild Nature",
+        "href": "https://www.foxnews.com/category/science/wild-nature"
+      },
+      {
+        "label": "Games",
+        "href": "https://www.foxnews.com/games"
+      },
+      {
+        "label": "Scattergories Daily",
+        "href": "https://www.foxnews.com/games/scattergories-daily"
+      },
+      {
+        "label": "5 Across the Letter Word Game",
+        "href": "https://www.foxnews.com/games/5-across-word-game"
+      },
+      {
+        "label": "Downwords",
+        "href": "https://www.foxnews.com/games/lil-snack-downwords"
+      },
+      {
+        "label": "Sudoku",
+        "href": "https://www.foxnews.com/games/sudoku"
+      },
+      {
+        "label": "Word Swap",
+        "href": "https://www.foxnews.com/games/lil-snack-word-swap"
+      },
+      {
+        "label": "Word Search",
+        "href": "https://www.foxnews.com/games/word-search"
+      },
+      {
+        "label": "Icon Match",
+        "href": "https://www.foxnews.com/games/icon-match-puzzle"
+      },
+      {
+        "label": "Daily Crossword Puzzle",
+        "href": "https://www.foxnews.com/games/daily-crossword-puzzle"
+      },
+      {
+        "label": "Mini Crossword Puzzle",
+        "href": "https://www.foxnews.com/games/mini-crossword-puzzle"
+      },
+      {
+        "label": "Watch Live",
+        "href": "https://www.foxnews.com/video/5614615980001"
+      },
+      {
+        "label": "FOX News Shows",
+        "href": "https://www.foxnews.com/shows"
+      },
+      {
+        "label": "Programming Schedule",
+        "href": "https://www.foxnews.com/fnctv"
+      },
+      {
+        "label": "On Air Personalities",
+        "href": "https://www.foxnews.com/person/personalities"
+      },
+      {
+        "label": "Full Episodes",
+        "href": "https://www.foxnews.com/video/shows"
+      },
+      {
+        "label": "Show Clips",
+        "href": "https://www.foxnews.com/video/topics/v-most-recent-episodes"
+      },
+      {
+        "label": "News Clips",
+        "href": "https://www.foxnews.com/video/topics/latest-news-video"
+      },
+      {
+        "label": "About",
+        "href": "https://www.foxnews.com/about"
+      },
+      {
+        "label": "Contact Us",
+        "href": "https://www.foxnews.com/contact"
+      },
+      {
+        "label": "Fox Around the World",
+        "href": "https://www.foxnews.com/story/where-in-the-world-is-fox"
+      },
+      {
+        "label": "Compliance",
+        "href": "https://www.foxnews.com/compliance"
+      },
+      {
+        "label": "Apps & Products",
+        "href": "https://www.foxnews.com/apps-products"
+      },
+      {
+        "label": "FOX News Go",
+        "href": "https://www.foxnews.com/go"
+      },
+      {
+        "label": "FOX Nation",
+        "href": "https://www.foxnews.com/shows/fox-nation"
+      },
+      {
+        "label": "Newsletters",
+        "href": "https://www.foxnews.com/newsletters"
+      },
+      {
+        "label": "U.S.",
+        "href": "https://www.foxnews.com/us"
+      },
+      {
+        "label": "Blue City Crime",
+        "href": "https://www.foxnews.com/category/us/blue-city-crime"
+      },
+      {
+        "label": "Campus Radicals",
+        "href": "https://www.foxnews.com/category/us/campus-radicals"
+      },
+      {
+        "label": "Border Crisis",
+        "href": "https://www.foxnews.com/category/us/immigration"
+      },
+      {
+        "label": "True Crime",
+        "href": "https://www.foxnews.com/true-crime"
+      },
+      {
+        "label": "Politics",
+        "href": "https://www.foxnews.com/politics"
+      },
+      {
+        "label": "Donald Trump",
+        "href": "https://www.foxnews.com/category/person/donald-trump"
+      },
+      {
+        "label": "Senate",
+        "href": "https://www.foxnews.com/category/politics/senate"
+      },
+      {
+        "label": "House",
+        "href": "https://www.foxnews.com/category/politics/house-of-representatives"
+      },
+      {
+        "label": "Judiciary",
+        "href": "https://www.foxnews.com/category/politics/judiciary"
+      },
+      {
+        "label": "Foreign Policy",
+        "href": "https://www.foxnews.com/category/politics/foreign-policy"
+      },
+      {
+        "label": "Fox News Polls",
+        "href": "https://www.foxnews.com/official-polls"
+      },
+      {
+        "label": "2025 Elections Coverage",
+        "href": "https://www.foxnews.com/elections"
+      },
+      {
+        "label": "World",
+        "href": "https://www.foxnews.com/world"
+      },
+      {
+        "label": "U.N.",
+        "href": "https://www.foxnews.com/category/world/united-nations"
+      },
+      {
+        "label": "Conflicts",
+        "href": "https://www.foxnews.com/category/world/conflicts"
+      },
+      {
+        "label": "Terrorism",
+        "href": "https://www.foxnews.com/category/world/terrorism"
+      },
+      {
+        "label": "Disasters",
+        "href": "https://www.foxnews.com/category/disasters"
+      },
+      {
+        "label": "Global Economy",
+        "href": "https://www.foxnews.com/category/world/global-economy"
+      },
+      {
+        "label": "Environment",
+        "href": "https://www.foxnews.com/category/environment"
+      },
+      {
+        "label": "Religion",
+        "href": "https://www.foxnews.com/category/world/religion"
+      },
+      {
+        "label": "Scandals",
+        "href": "https://www.foxnews.com/category/world/scandals"
+      },
+      {
+        "label": "Opinion",
+        "href": "https://www.foxnews.com/opinion"
+      },
+      {
+        "label": "Media",
+        "href": "https://www.foxnews.com/media"
+      },
+      {
+        "label": "FOX Nation Coverage",
+        "href": "https://www.foxnews.com/shows/fox-nation"
+      },
+      {
+        "label": "Entertainment",
+        "href": "https://www.foxnews.com/entertainment"
+      },
+      {
+        "label": "Prince Andrew",
+        "href": "https://www.foxnews.com/category/person/prince-andrew"
+      },
+      {
+        "label": "Katy Perry",
+        "href": "https://www.foxnews.com/category/person/katy-perry"
+      },
+      {
+        "label": "Royal Families",
+        "href": "https://www.foxnews.com/category/world/personalities/british-royals"
+      },
+      {
+        "label": "Country Music",
+        "href": "https://www.foxnews.com/category/entertainment/genres/country"
+      },
+      {
+        "label": "Nicole Kidman",
+        "href": "https://www.foxnews.com/category/person/nicole-kidman"
+      },
+      {
+        "label": "Sports",
+        "href": "https://www.foxnews.com/sports"
+      },
+      {
+        "label": "NFL",
+        "href": "https://www.foxnews.com/category/sports/nfl"
+      },
+      {
+        "label": "College Football",
+        "href": "https://www.foxnews.com/category/sports/ncaa-fb"
+      },
+      {
+        "label": "MLB",
+        "href": "https://www.foxnews.com/category/sports/mlb"
+      },
+      {
+        "label": "NASCAR",
+        "href": "https://www.foxnews.com/category/auto/nascar"
+      },
+      {
+        "label": "INDYCAR",
+        "href": "https://www.foxnews.com/category/auto/indycar"
+      },
+      {
+        "label": "NBA",
+        "href": "https://www.foxnews.com/category/sports/nba"
+      },
+      {
+        "label": "NHL",
+        "href": "https://www.foxnews.com/category/sports/nhl"
+      },
+      {
+        "label": "Golf",
+        "href": "https://www.foxnews.com/category/sports/golf"
+      },
+      {
+        "label": "Tennis",
+        "href": "https://www.foxnews.com/category/sports/tennis"
+      },
+      {
+        "label": "UFC",
+        "href": "https://www.foxnews.com/category/sports/ufc"
+      },
+      {
+        "label": "WWE",
+        "href": "https://www.foxnews.com/category/organization/wwe"
+      },
+      {
+        "label": "Lifestyle",
+        "href": "https://www.foxnews.com/lifestyle"
+      },
+      {
+        "label": "Travel",
+        "href": "https://www.foxnews.com/travel"
+      },
+      {
+        "label": "Food & Drink",
+        "href": "https://www.foxnews.com/food-drink"
+      },
+      {
+        "label": "Faith",
+        "href": "https://www.foxnews.com/faith-values"
+      },
+      {
+        "label": "Discovery",
+        "href": "https://www.foxnews.com/category/science/archaeology"
+      },
+      {
+        "label": "Games & Quizzes",
+        "href": "https://www.foxnews.com/games"
+      },
+      {
+        "label": "Health",
+        "href": "https://www.foxnews.com/health"
+      },
+      {
+        "label": "Weight Loss",
+        "href": "https://www.foxnews.com/category/health/nutrition-and-fitness/weight-loss"
+      },
+      {
+        "label": "Cancer",
+        "href": "https://www.foxnews.com/category/health/cancer"
+      },
+      {
+        "label": "Brain Health",
+        "href": "https://www.foxnews.com/category/health/brain-health"
+      },
+      {
+        "label": "Sleep",
+        "href": "https://www.foxnews.com/category/health/sleep-disorders"
+      },
+      {
+        "label": "Heart Health",
+        "href": "https://www.foxnews.com/category/health/heart-health"
+      },
+      {
+        "label": "Healthy Living",
+        "href": "https://www.foxnews.com/category/health/healthy-living"
+      },
+      {
+        "label": "Mental Health",
+        "href": "https://www.foxnews.com/category/health/mental-health"
+      },
+      {
+        "label": "MAHA",
+        "href": "https://www.foxnews.com/category/health/maha"
+      },
+      {
+        "label": "Deals",
+        "href": "https://www.foxnews.com/deals"
+      },
+      {
+        "label": "Holiday Shopping",
+        "href": "https://www.foxnews.com/category/deals/trending"
+      },
+      {
+        "label": "Gift Guides",
+        "href": "https://www.foxnews.com/category/deals/gift"
+      },
+      {
+        "label": "Home Deals",
+        "href": "https://www.foxnews.com/category/deals/home"
+      },
+      {
+        "label": "Kitchen Deals",
+        "href": "https://www.foxnews.com/category/deals/kitchen"
+      },
+      {
+        "label": "Tech and Electronic Deals",
+        "href": "https://www.foxnews.com/category/deals/tech-and-electronic"
+      },
+      {
+        "label": "Health and Fitness Deals",
+        "href": "https://www.foxnews.com/category/deals/health-and-fitness"
+      },
+      {
+        "label": "Beauty and Fashion Deals",
+        "href": "https://www.foxnews.com/category/deals/beauty-and-fashion"
+      },
+      {
+        "label": "Science & Tech",
+        "href": "https://www.foxnews.com/tech"
+      },
+      {
+        "label": "Air & Space",
+        "href": "https://www.foxnews.com/category/science/air-and-space"
+      },
+      {
+        "label": "Security",
+        "href": "https://www.foxnews.com/category/tech/topics/security"
+      },
+      {
+        "label": "Innovation",
+        "href": "https://www.foxnews.com/category/tech/topics/innovation"
+      },
+      {
+        "label": "Video Games",
+        "href": "https://www.foxnews.com/category/tech/topics/video-games"
+      },
+      {
+        "label": "Military Tech",
+        "href": "https://www.foxnews.com/category/tech/topics/military-tech"
+      },
+      {
+        "label": "Planet Earth",
+        "href": "https://www.foxnews.com/category/science/planet-earth"
+      },
+      {
+        "label": "Wild Nature",
+        "href": "https://www.foxnews.com/category/science/wild-nature"
+      },
+      {
+        "label": "Games",
+        "href": "https://www.foxnews.com/games"
+      },
+      {
+        "label": "Scattergories Daily",
+        "href": "https://www.foxnews.com/games/scattergories-daily"
+      },
+      {
+        "label": "5 Across the Letter Word Game",
+        "href": "https://www.foxnews.com/games/5-across-word-game"
+      },
+      {
+        "label": "Downwords",
+        "href": "https://www.foxnews.com/games/lil-snack-downwords"
+      },
+      {
+        "label": "Sudoku",
+        "href": "https://www.foxnews.com/games/sudoku"
+      },
+      {
+        "label": "Word Swap",
+        "href": "https://www.foxnews.com/games/lil-snack-word-swap"
+      },
+      {
+        "label": "Word Search",
+        "href": "https://www.foxnews.com/games/word-search"
+      },
+      {
+        "label": "Icon Match",
+        "href": "https://www.foxnews.com/games/icon-match-puzzle"
+      },
+      {
+        "label": "Daily Crossword Puzzle",
+        "href": "https://www.foxnews.com/games/daily-crossword-puzzle"
+      },
+      {
+        "label": "Mini Crossword Puzzle",
+        "href": "https://www.foxnews.com/games/mini-crossword-puzzle"
+      },
+      {
+        "label": "Watch Live",
+        "href": "https://www.foxnews.com/video/5614615980001"
+      },
+      {
+        "label": "FOX News Shows",
+        "href": "https://www.foxnews.com/shows"
+      },
+      {
+        "label": "Programming Schedule",
+        "href": "https://www.foxnews.com/fnctv"
+      },
+      {
+        "label": "On Air Personalities",
+        "href": "https://www.foxnews.com/person/personalities"
+      },
+      {
+        "label": "Full Episodes",
+        "href": "https://www.foxnews.com/video/shows"
+      },
+      {
+        "label": "Show Clips",
+        "href": "https://www.foxnews.com/video/topics/v-most-recent-episodes"
+      },
+      {
+        "label": "News Clips",
+        "href": "https://www.foxnews.com/video/topics/latest-news-video"
+      },
+      {
+        "label": "About",
+        "href": "https://www.foxnews.com/about"
+      },
+      {
+        "label": "Contact Us",
+        "href": "https://www.foxnews.com/contact"
+      },
+      {
+        "label": "Fox Around the World",
+        "href": "https://www.foxnews.com/story/where-in-the-world-is-fox"
+      },
+      {
+        "label": "Compliance",
+        "href": "https://www.foxnews.com/compliance"
+      },
+      {
+        "label": "Apps & Products",
+        "href": "https://www.foxnews.com/apps-products"
+      },
+      {
+        "label": "FOX News Go",
+        "href": "https://www.foxnews.com/go"
+      },
+      {
+        "label": "FOX Nation",
+        "href": "https://www.foxnews.com/shows/fox-nation"
+      },
+      {
+        "label": "Newsletters",
+        "href": "https://www.foxnews.com/newsletters"
+      },
+      {
+        "label": "RSS",
+        "href": "https://www.foxnews.com/story/foxnews-com-rss-feeds"
+      },
+      {
+        "label": "Newsletters",
+        "href": "https://www.foxnews.com/newsletters"
+      },
+      {
+        "label": "Fox News",
+        "href": "https://www.foxnews.com"
+      },
+      {
+        "label": "Terms of Use",
+        "href": "https://www.foxnews.com/terms-of-use"
+      },
+      {
+        "label": "Privacy Policy",
+        "href": "https://www.foxnews.com/privacy-policy"
+      },
+      {
+        "label": "Closed Caption Policy",
+        "href": "https://www.foxnews.com/closed-captioning"
+      },
+      {
+        "label": "Contact Us",
+        "href": "https://www.foxnews.com/contact"
+      },
+      {
+        "label": "Accessibility Statement",
+        "href": "https://www.foxnews.com/accessibility-statement"
+      },
+      {
+        "label": "News Sitemap",
+        "href": "https://www.foxnews.com/html-sitemap"
+      },
+      {
+        "label": "Video Sitemap",
+        "href": "https://www.foxnews.com/html-video-sitemap"
+      }
+    ],
+    "external": [
+      {
+        "label": "Fox Business",
+        "href": "https://www.foxbusiness.com/"
+      },
+      {
+        "label": "Fox Nation",
+        "href": "https://nation.foxnews.com/"
+      },
+      {
+        "label": "Fox News Audio",
+        "href": "https://radio.foxnews.com/"
+      },
+      {
+        "label": "Fox Weather",
+        "href": "https://www.foxweather.com/"
+      },
+      {
+        "label": "Outkick",
+        "href": "https://www.outkick.com/"
+      },
+      {
+        "label": "Fox Noticias",
+        "href": "https://noticias.foxnews.com/"
+      },
+      {
+        "label": "FIFA WORLD CUP 26",
+        "href": "https://www.foxsports.com/soccer/fifa-world-cup"
+      },
+      {
+        "label": "FOX Business",
+        "href": "https://www.foxbusiness.com/"
+      },
+      {
+        "label": "Economy",
+        "href": "https://www.foxbusiness.com/economy"
+      },
+      {
+        "label": "Personal Finance",
+        "href": "https://www.foxbusiness.com/personal-finance"
+      },
+      {
+        "label": "Markets",
+        "href": "https://www.foxbusiness.com/markets"
+      },
+      {
+        "label": "Watchlist",
+        "href": "https://www.foxbusiness.com/watchlist"
+      },
+      {
+        "label": "Lifestyle",
+        "href": "https://www.foxbusiness.com/lifestyle"
+      },
+      {
+        "label": "Real Estate",
+        "href": "https://www.foxbusiness.com/real-estate"
+      },
+      {
+        "label": "Tech",
+        "href": "https://www.foxbusiness.com/technology"
+      },
+      {
+        "label": "FOX Weather",
+        "href": "https://www.foxweather.com"
+      },
+      {
+        "label": "FOX Nation",
+        "href": "https://nation.foxnews.com"
+      },
+      {
+        "label": "FOX Noticias",
+        "href": "https://noticias.foxnews.com/shows/fox-noticias"
+      },
+      {
+        "label": "FOX News Shop",
+        "href": "https://shop.foxnews.com/"
+      },
+      {
+        "label": "FOX News Radio",
+        "href": "https://radio.foxnews.com"
+      },
+      {
+        "label": "Outkick",
+        "href": "https://www.outkick.com"
+      },
+      {
+        "label": "Podcasts",
+        "href": "https://radio.foxnews.com/podcast"
+      },
+      {
+        "label": "FOX Business",
+        "href": "https://www.foxbusiness.com/"
+      },
+      {
+        "label": "Economy",
+        "href": "https://www.foxbusiness.com/economy"
+      },
+      {
+        "label": "Personal Finance",
+        "href": "https://www.foxbusiness.com/personal-finance"
+      },
+      {
+        "label": "Markets",
+        "href": "https://www.foxbusiness.com/markets"
+      },
+      {
+        "label": "Watchlist",
+        "href": "https://www.foxbusiness.com/watchlist"
+      },
+      {
+        "label": "Lifestyle",
+        "href": "https://www.foxbusiness.com/lifestyle"
+      },
+      {
+        "label": "Real Estate",
+        "href": "https://www.foxbusiness.com/real-estate"
+      },
+      {
+        "label": "Tech",
+        "href": "https://www.foxbusiness.com/technology"
+      },
+      {
+        "label": "FOX Weather",
+        "href": "https://www.foxweather.com"
+      },
+      {
+        "label": "FOX Nation",
+        "href": "https://nation.foxnews.com"
+      },
+      {
+        "label": "FOX Noticias",
+        "href": "https://noticias.foxnews.com/shows/fox-noticias"
+      },
+      {
+        "label": "FOX News Shop",
+        "href": "https://shop.foxnews.com/"
+      },
+      {
+        "label": "FOX News Radio",
+        "href": "https://radio.foxnews.com"
+      },
+      {
+        "label": "Outkick",
+        "href": "https://www.outkick.com"
+      },
+      {
+        "label": "Podcasts",
+        "href": "https://radio.foxnews.com/podcast"
+      },
+      {
+        "label": "Facebook",
+        "href": "https://www.facebook.com/FoxNews"
+      },
+      {
+        "label": "Twitter",
+        "href": "https://twitter.com/foxnews"
+      },
+      {
+        "label": "Instagram",
+        "href": "https://www.instagram.com/foxnews/"
+      },
+      {
+        "label": "Your Privacy Choices",
+        "href": "http://privacy.foxnews.com/main/web/main"
+      },
+      {
+        "label": "Help",
+        "href": "https://help.foxnews.com"
+      },
+      {
+        "label": "Factset",
+        "href": "https://www.factset.com/"
+      },
+      {
+        "label": "FactSet Digital Solutions",
+        "href": "https://www.factset.com/solutions/business-needs/digital-solutions"
+      },
+      {
+        "label": "Legal Statement",
+        "href": "https://www.factset.com/privacy"
+      },
+      {
+        "label": "Refinitiv Lipper",
+        "href": "https://lipperalpha.refinitiv.com/"
+      },
+      {
+        "label": "FIFA WORLD CUP 26",
+        "href": "https://www.foxsports.com/soccer/fifa-world-cup"
+      },
+      {
+        "label": "FOX Business",
+        "href": "https://www.foxbusiness.com/"
+      },
+      {
+        "label": "Personal Finance",
+        "href": "https://www.foxbusiness.com/personal-finance"
+      },
+      {
+        "label": "Economy",
+        "href": "https://www.foxbusiness.com/economy"
+      },
+      {
+        "label": "Markets",
+        "href": "https://www.foxbusiness.com/markets"
+      },
+      {
+        "label": "Watchlist",
+        "href": "https://www.foxbusiness.com/watchlist"
+      },
+      {
+        "label": "Lifestyle",
+        "href": "https://www.foxbusiness.com/lifestyle"
+      },
+      {
+        "label": "Real Estate",
+        "href": "https://www.foxbusiness.com/real-estate"
+      },
+      {
+        "label": "Tech",
+        "href": "https://www.foxbusiness.com/technology"
+      },
+      {
+        "label": "Careers",
+        "href": "https://foxcareers.com/Search/SearchResults?brand=Fox%20News%20Careers"
+      },
+      {
+        "label": "Advertise With Us",
+        "href": "https://www.foxadvertising.com/fox-news-media/"
+      },
+      {
+        "label": "Media Relations",
+        "href": "https://press.foxnews.com/media-contacts"
+      },
+      {
+        "label": "Corporate Information",
+        "href": "https://press.foxnews.com"
+      },
+      {
+        "label": "FOX Weather",
+        "href": "https://www.foxweather.com"
+      },
+      {
+        "label": "FOX Noticias",
+        "href": "https://noticias.foxnews.com/shows/fox-noticias"
+      },
+      {
+        "label": "FOX News Shop",
+        "href": "https://shop.foxnews.com"
+      },
+      {
+        "label": "FOX News Radio",
+        "href": "https://radio.foxnews.com"
+      },
+      {
+        "label": "Outkick",
+        "href": "https://www.outkick.com"
+      },
+      {
+        "label": "Podcasts",
+        "href": "https://radio.foxnews.com/podcast"
+      },
+      {
+        "label": "FOX One",
+        "href": "https://www.fox.com/?cmpid=org=one::ag=owned::mc=referral::src=fn::cmp=10010071001::add=621a"
+      },
+      {
+        "label": "FIFA WORLD CUP 26",
+        "href": "https://www.foxsports.com/soccer/fifa-world-cup"
+      },
+      {
+        "label": "FOX Business",
+        "href": "https://www.foxbusiness.com/"
+      },
+      {
+        "label": "Personal Finance",
+        "href": "https://www.foxbusiness.com/personal-finance"
+      },
+      {
+        "label": "Economy",
+        "href": "https://www.foxbusiness.com/economy"
+      },
+      {
+        "label": "Markets",
+        "href": "https://www.foxbusiness.com/markets"
+      },
+      {
+        "label": "Watchlist",
+        "href": "https://www.foxbusiness.com/watchlist"
+      },
+      {
+        "label": "Lifestyle",
+        "href": "https://www.foxbusiness.com/lifestyle"
+      },
+      {
+        "label": "Real Estate",
+        "href": "https://www.foxbusiness.com/real-estate"
+      },
+      {
+        "label": "Tech",
+        "href": "https://www.foxbusiness.com/technology"
+      },
+      {
+        "label": "Careers",
+        "href": "https://foxcareers.com/Search/SearchResults?brand=Fox%20News%20Careers"
+      },
+      {
+        "label": "Advertise With Us",
+        "href": "https://www.foxadvertising.com/fox-news-media/"
+      },
+      {
+        "label": "Media Relations",
+        "href": "https://press.foxnews.com/media-contacts"
+      },
+      {
+        "label": "Corporate Information",
+        "href": "https://press.foxnews.com"
+      },
+      {
+        "label": "FOX Weather",
+        "href": "https://www.foxweather.com"
+      },
+      {
+        "label": "FOX Noticias",
+        "href": "https://noticias.foxnews.com/shows/fox-noticias"
+      },
+      {
+        "label": "FOX News Shop",
+        "href": "https://shop.foxnews.com"
+      },
+      {
+        "label": "FOX News Radio",
+        "href": "https://radio.foxnews.com"
+      },
+      {
+        "label": "Outkick",
+        "href": "https://www.outkick.com"
+      },
+      {
+        "label": "Podcasts",
+        "href": "https://radio.foxnews.com/podcast"
+      },
+      {
+        "label": "FOX One",
+        "href": "https://www.fox.com/?cmpid=org=one::ag=owned::mc=referral::src=fn::cmp=10010071001::add=621a"
+      },
+      {
+        "label": "Facebook",
+        "href": "https://www.facebook.com/FoxNews"
+      },
+      {
+        "label": "Twitter",
+        "href": "https://twitter.com/foxnews"
+      },
+      {
+        "label": "Instagram",
+        "href": "https://www.instagram.com/foxnews"
+      },
+      {
+        "label": "Youtube",
+        "href": "https://www.youtube.com/FoxNewsChannel"
+      },
+      {
+        "label": "Flipboard",
+        "href": "https://flipboard.com/@FoxNews"
+      },
+      {
+        "label": "LinkedIn",
+        "href": "https://www.linkedin.com/company/fox-news-channel/"
+      },
+      {
+        "label": "Slack",
+        "href": "https://foxnews.slack.com/apps/A013AUF6VMG-fox-news"
+      },
+      {
+        "label": "Spotify",
+        "href": "https://open.spotify.com/show/7A4YfyFtNOZhqMV7F3kYVu"
+      },
+      {
+        "label": "iHeartRadio",
+        "href": "https://www.iheart.com/podcast/256-the-fox-news-rundown-31090295/"
+      },
+      {
+        "label": "Your Privacy Choices",
+        "href": "http://privacy.foxnews.com/main/web/main"
+      },
+      {
+        "label": "Help",
+        "href": "https://help.foxnews.com"
+      },
+      {
+        "label": "Factset",
+        "href": "https://www.factset.com/"
+      },
+      {
+        "label": "FactSet Digital Solutions",
+        "href": "https://www.factset.com/solutions/business-needs/digital-solutions"
+      },
+      {
+        "label": "Legal Statement",
+        "href": "https://www.factset.com/privacy"
+      },
+      {
+        "label": "Refinitiv Lipper",
+        "href": "https://lipperalpha.refinitiv.com/"
+      }
+    ],
+    "broken": []
+  },
+  "extractedAt": "2025-11-19T15:33:36Z"
+}

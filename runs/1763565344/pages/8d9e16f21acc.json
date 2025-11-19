@@ -1,0 +1,3215 @@
+{
+  "url": "https://www.foxnews.com/elections",
+  "path": "/elections",
+  "status": 200,
+  "title": "2025 Elections Coverage | Fox News",
+  "description": "Stay informed on the 2025 U.S. elections, including gubernatorial races in New Jersey and Virginia, state legislative elections, key mayoral contests in major cities, and special congressional elections.",
+  "canonical": "https://www.foxnews.com/elections",
+  "media": {
+    "images": [
+      {
+        "url": "https://static.foxnews.com/foxnews.com/content/uploads/2025/09/logo-desktop.png",
+        "alt": " logo",
+        "width": null,
+        "height": null
+      },
+      {
+        "url": "https://static.foxnews.com/foxnews.com/content/uploads/2025/11/democracy-2025-2-bg-1280.png",
+        "alt": " logo",
+        "width": null,
+        "height": null
+      },
+      {
+        "url": "https://a57.foxnews.com/static.foxnews.com/foxnews.com/content/uploads/2025/11/1440/810/mamdani-mayor-victory.jpg?ve=1&tl=1",
+        "alt": "Multiple democratic socialists line up to succeed Mamdani",
+        "width": 920,
+        "height": 518
+      },
+      {
+        "url": "https://a57.foxnews.com/static.foxnews.com/foxnews.com/content/uploads/2025/11/1440/810/spanberger-portsmouth-public-schools.jpg?ve=1&tl=1",
+        "alt": "Legal group accuses Virginia public school district of felony after hosting Dem political rally for free",
+        "width": 454,
+        "height": 256
+      },
+      {
+        "url": "https://a57.foxnews.com/static.foxnews.com/foxnews.com/content/uploads/2022/07/720/405/Seattle-3.jpg?ve=1&tl=1",
+        "alt": "Incumbent Seattle mayor concedes to Mamdani-style 'socialist' who tapped her parents for money while running",
+        "width": 454,
+        "height": 256
+      },
+      {
+        "url": "https://a57.foxnews.com/cf-images.us-east-1.prod.boltdns.net/v1/static/694940094001/bb13ec09-272f-43cf-ad5c-9a1c5020c67b/4ad94428-b265-43ae-afae-f7a60f4abf19/1280x720/match/348/196/image.jpg?ve=1&tl=1",
+        "alt": "Is Gen Z shifting to the right?",
+        "width": null,
+        "height": null
+      },
+      {
+        "url": "https://a57.foxnews.com/static.foxnews.com/foxnews.com/content/uploads/2025/11/348/196/california-proposition-50-gov-gavin-newsom.jpg?ve=1&tl=1",
+        "alt": "Fox News Voter Poll: California voters OK congressional redistricting plan",
+        "width": null,
+        "height": null
+      },
+      {
+        "url": "https://a57.foxnews.com/static.foxnews.com/foxnews.com/content/uploads/2025/11/348/196/zohran-mamdani-election-night-watch-party.jpg?ve=1&tl=1",
+        "alt": "Fox News Voter Poll \u2014 Change candidate Mamdani defeats legacy political figures",
+        "width": null,
+        "height": null
+      },
+      {
+        "url": "https://a57.foxnews.com/static.foxnews.com/foxnews.com/content/uploads/2025/11/348/196/mikie-sherrill-election-night-east-brunswick-nj.jpg?ve=1&tl=1",
+        "alt": "Fox News Voter Poll: New Jersey governorship remains Democratic with Sherrill win",
+        "width": null,
+        "height": null
+      },
+      {
+        "url": "https://a57.foxnews.com/static.foxnews.com/foxnews.com/content/uploads/2025/11/348/196/mahmood-mamdani-election.jpg?ve=1&tl=1",
+        "alt": "NYC mayor-elect Zohran Mamdani's father says he will keep 'arm's length' from son's upcoming administration",
+        "width": null,
+        "height": null
+      },
+      {
+        "url": "https://a57.foxnews.com/static.foxnews.com/foxnews.com/content/uploads/2025/11/348/196/mamdani-election-day.jpg?ve=1&tl=1",
+        "alt": "Mamdani's top incoming aide was 'chief architect' of radical proposal overhauling NYPD",
+        "width": null,
+        "height": null
+      },
+      {
+        "url": "https://a57.foxnews.com/static.foxnews.com/foxnews.com/content/uploads/2025/11/348/196/rama-duwaji-zohran-mamdani.jpg?ve=1&tl=1",
+        "alt": "Mamdani\u2019s wife\u2019s 'student sketchbook\u2019 art is Hunter Biden effect all over again, says US artist",
+        "width": null,
+        "height": null
+      },
+      {
+        "url": "https://a57.foxnews.com/static.foxnews.com/foxnews.com/content/uploads/2025/11/348/196/zohran-mamdani.png?ve=1&tl=1",
+        "alt": "Unearthed antisemitic, anti-Israel posts from Mamdani aide spark GOP outrage",
+        "width": null,
+        "height": null
+      },
+      {
+        "url": "https://a57.foxnews.com/static.foxnews.com/foxnews.com/content/uploads/2025/11/348/196/zohran-mamdani-jessica-tisch-2.jpg?ve=1&tl=1",
+        "alt": "Mamdani keeps Jessica Tisch as NYPD commissioner",
+        "width": null,
+        "height": null
+      },
+      {
+        "url": "https://a57.foxnews.com/static.foxnews.com/foxnews.com/content/uploads/2025/11/348/196/zohran-mamdani-nyc-november-2025.jpg?ve=1&tl=1",
+        "alt": "NYC Mayor-elect Mamdani asks supporters for $4M to fund transition, vows no wealthy donors",
+        "width": null,
+        "height": null
+      },
+      {
+        "url": "https://a57.foxnews.com/static.foxnews.com/foxnews.com/content/uploads/2025/11/348/196/andrew-labruno-jersey-city-officer-arrested.jpg?ve=1&tl=1",
+        "alt": "New Jersey police sergeant, former Dem mayor allegedly drugged, sexually assaulted child he met online",
+        "width": null,
+        "height": null
+      },
+      {
+        "url": "https://a57.foxnews.com/static.foxnews.com/foxnews.com/content/uploads/2025/11/348/196/surveillance-mugshot-suspect-us-attorney-attack.jpg?ve=1&tl=1",
+        "alt": "Federal prosecutors charge suspect who allegedly vandalized US Attorney Alina Habba\u2019s office",
+        "width": null,
+        "height": null
+      },
+      {
+        "url": "https://a57.foxnews.com/static.foxnews.com/foxnews.com/content/uploads/2025/11/348/196/david-mosley.jpg?ve=1&tl=1",
+        "alt": "NYC judge demands maximum sentence for aspiring rapper accused of cat sacrifice in online satanic ritual",
+        "width": null,
+        "height": null
+      },
+      {
+        "url": "https://a57.foxnews.com/static.foxnews.com/foxnews.com/content/uploads/2025/11/348/196/texas-gov-greg-abbott.jpg?ve=1&tl=1",
+        "alt": "Federal judges block Texas from using redrawn congressional map",
+        "width": null,
+        "height": null
+      },
+      {
+        "url": "https://a57.foxnews.com/static.foxnews.com/foxnews.com/content/uploads/2025/11/348/196/nfl-brett-favre-111825-1.jpg?ve=1&tl=1",
+        "alt": "Brett Favre talks 'sad' reality of the world after Jets player wounded in shooting",
+        "width": null,
+        "height": null
+      },
+      {
+        "url": "https://a57.foxnews.com/static.foxnews.com/foxnews.com/content/uploads/2025/11/348/196/rooftop-revelations-corey-brooks.png?ve=1&tl=1",
+        "alt": "Amid division and noise, a simple truth: America still has a heart",
+        "width": null,
+        "height": null
+      },
+      {
+        "url": "https://a57.foxnews.com/static.foxnews.com/foxnews.com/content/uploads/2025/11/348/196/bruce-blakeman-trump.png?ve=1&tl=1",
+        "alt": "Potential GOP challenger warns Hochul that a corporate tax hike would be a 'disaster' for New York's economy",
+        "width": null,
+        "height": null
+      },
+      {
+        "url": "https://a57.foxnews.com/static.foxnews.com/foxnews.com/content/uploads/2025/11/348/196/aoc-hakeem-jeffries-split.jpg?ve=1&tl=1",
+        "alt": "AOC distances herself from Hakeem Jeffries primary challenger",
+        "width": null,
+        "height": null
+      },
+      {
+        "url": "https://a57.foxnews.com/static.foxnews.com/foxnews.com/content/uploads/2025/11/348/196/david-williams-campaign.png?ve=1&tl=1",
+        "alt": "Marine veteran launches Senate campaign by invoking far-left radical to paint Dems as extreme",
+        "width": null,
+        "height": null
+      },
+      {
+        "url": "https://a57.foxnews.com/static.foxnews.com/foxnews.com/content/uploads/2025/10/348/196/jeffries-schumer-government-shutdown-fox-news.jpg?ve=1&tl=1",
+        "alt": "LIZ PEEK: Why every 'affordable' promise from Democrats ends up costing you more",
+        "width": null,
+        "height": null
+      },
+      {
+        "url": "https://a57.foxnews.com/static.foxnews.com/foxnews.com/content/uploads/2025/11/348/196/virginia-atm-jackpotting-theft_04.jpg?ve=1&tl=1",
+        "alt": "ATM \u2018jackpotting\u2019 crime wave grows after thieves walk away with hundreds of thousands in cash",
+        "width": null,
+        "height": null
+      },
+      {
+        "url": "https://a57.foxnews.com/static.foxnews.com/foxnews.com/content/uploads/2025/11/348/196/nicki-minaj.jpg?ve=1&tl=1",
+        "alt": "Rapper Nicki Minaj and UN ambassador join voices against Christian persecution in Nigeria",
+        "width": null,
+        "height": null
+      },
+      {
+        "url": "https://a57.foxnews.com/static.foxnews.com/foxnews.com/content/uploads/2025/06/348/196/david-hogg-vanity-fair.jpg?ve=1&tl=1",
+        "alt": "David Hogg campaigns for the 'AOC of Tennessee' to flip ruby-red district as special election looms",
+        "width": null,
+        "height": null
+      },
+      {
+        "url": "https://a57.foxnews.com/static.foxnews.com/foxnews.com/content/uploads/2025/11/348/196/screenshot-press-conference-nypd-cop-shot.jpg?ve=1&tl=1",
+        "alt": "NYPD officer returns fire after getting shot, police commissioner says",
+        "width": null,
+        "height": null
+      },
+      {
+        "url": "https://a57.foxnews.com/cf-images.us-east-1.prod.boltdns.net/v1/static/694940094001/d7694c58-87c7-4b3c-b835-37e233535c30/bb814790-981a-4c3c-a2cf-53c38e47e49a/1280x720/match/348/196/image.jpg?ve=1&tl=1",
+        "alt": "NYC police commissioner provides details about the shooting of an NYPD officer",
+        "width": null,
+        "height": null
+      },
+      {
+        "url": "https://a57.foxnews.com/static.foxnews.com/foxnews.com/content/uploads/2025/11/348/196/chi-osse.png?ve=1&tl=1",
+        "alt": "Gen Z firebrand challenges establishment giant: NYC\u2019s Chi Oss\u00e9 tees up primary bid against Hakeem Jeffries",
+        "width": null,
+        "height": null
+      },
+      {
+        "url": "https://a57.foxnews.com/static.foxnews.com/foxnews.com/content/uploads/2025/11/348/196/james-comey.jpg?ve=1&tl=1",
+        "alt": "Judge orders DOJ to give Comey grand jury records, citing prosecutor's misconduct",
+        "width": null,
+        "height": null
+      },
+      {
+        "url": "https://a57.foxnews.com/cf-images.us-east-1.prod.boltdns.net/v1/static/694940094001/fd510530-7291-47e3-a420-9785a0ae4511/ac7bd9c1-0efa-4ead-8408-e5846ed27b4c/1280x720/match/348/196/image.jpg?ve=1&tl=1",
+        "alt": "Turning Point USA hands out \u2018Freedom\u2019 shirts at New York City UFC event",
+        "width": null,
+        "height": null
+      },
+      {
+        "url": "https://a57.foxnews.com/static.foxnews.com/foxnews.com/content/uploads/2025/11/348/196/nfl-jets-kris-boyd-111725-1.jpg?ve=1&tl=1",
+        "alt": "NYPD releases photos of suspect in shooting of Jets player Kris Boyd",
+        "width": null,
+        "height": null
+      },
+      {
+        "url": "https://a57.foxnews.com/static.foxnews.com/foxnews.com/content/uploads/2025/11/348/196/trump-mamdani-speaking-11525.jpg?ve=1&tl=1",
+        "alt": "Trump says Mamdani meeting in the works: 'We'll work something out'",
+        "width": null,
+        "height": null
+      },
+      {
+        "url": "https://a57.foxnews.com/static.foxnews.com/foxnews.com/content/uploads/2025/11/348/196/katie-wilson-mamdani.jpg?ve=1&tl=1",
+        "alt": "Seattle's socialist mayor may be 'less constrained' than Mamdani, Washington Post warns",
+        "width": null,
+        "height": null
+      },
+      {
+        "url": "https://a57.foxnews.com/static.foxnews.com/foxnews.com/content/uploads/2025/11/348/196/newark-deadly-shooting.jpg?ve=1&tl=1",
+        "alt": "10-year-old boy among dead following NJ shooting that killed 2, injured 3",
+        "width": null,
+        "height": null
+      },
+      {
+        "url": "https://a57.foxnews.com/static.foxnews.com/foxnews.com/content/uploads/2025/11/348/196/outdoor-dining-rules-miami-florida.jpg?ve=1&tl=1",
+        "alt": "'Streateries' face steep new rules in major US city; will others follow?",
+        "width": null,
+        "height": null
+      },
+      {
+        "url": "https://a57.foxnews.com/static.foxnews.com/foxnews.com/content/uploads/2025/11/348/196/zohran-mamdani-talking.jpg?ve=1&tl=1",
+        "alt": "Zohran Mamdani tells 1M social media followers to boycott Starbucks amid ongoing worker strike",
+        "width": null,
+        "height": null
+      },
+      {
+        "url": "https://a57.foxnews.com/cf-images.us-east-1.prod.boltdns.net/v1/static/694940094001/8fb9819f-06ad-425e-8a00-f909a53d473f/e37c4df1-2cdd-4a38-9b40-3f07e2e6bf09/1280x720/match/348/196/image.jpg?ve=1&tl=1",
+        "alt": "'The Five': Bill Maher says AOC could be a 'fantastic' presidential candidate but needs 'deprogramming'",
+        "width": null,
+        "height": null
+      },
+      {
+        "url": "https://a57.foxnews.com/cf-images.us-east-1.prod.boltdns.net/v1/static/694940094001/e9c79686-7f31-40e0-9ba3-c1de8194baa7/1d475d30-827a-4868-ac64-34ae634b6433/1280x720/match/348/196/image.jpg?ve=1&tl=1",
+        "alt": "Nicki Minaj joining forces with Trump admin at UN",
+        "width": null,
+        "height": null
+      },
+      {
+        "url": "https://a57.foxnews.com/cf-images.us-east-1.prod.boltdns.net/v1/static/694940094001/63930921-ce0c-4684-856a-a798dd1b7bb7/00210d06-fe1b-4ce2-8436-c2d0e7644bf0/1280x720/match/348/196/image.jpg?ve=1&tl=1",
+        "alt": "History-making week: Longest government shutdown in history ends",
+        "width": null,
+        "height": null
+      },
+      {
+        "url": "https://a57.foxnews.com/cf-images.us-east-1.prod.boltdns.net/v1/static/694940094001/efad3633-6d1f-441d-844d-54bbd079adb1/adfbc000-9156-4c30-8f1d-a8fcffabbe30/1280x720/match/348/196/image.jpg?ve=1&tl=1",
+        "alt": "Democrats will try to 'screw up' everything Trump has set in motion if they regain power, says JD Vance",
+        "width": null,
+        "height": null
+      },
+      {
+        "url": "https://a57.foxnews.com/cf-images.us-east-1.prod.boltdns.net/v1/static/694940094001/7f3452c4-4492-4231-b8bf-d388242f64a8/ce4b0026-8807-4bd4-8bd6-f6f2ebc40c7a/1280x720/match/348/196/image.jpg?ve=1&tl=1",
+        "alt": "Kamala's 'ego' cannot stop her from running for president again: Kayleigh McEnany",
+        "width": null,
+        "height": null
+      }
+    ],
+    "videos": [
+      {
+        "url": "https://www.foxnews.com/elections/external/race-cards?uid=iframe-embed-2480a029-4a56-4c46-ad37-48d507cb547a",
+        "type": "embed"
+      }
+    ],
+    "gifs": []
+  },
+  "files": [],
+  "words": {
+    "headings": [
+      {
+        "tag": "h4",
+        "text": "Games"
+      },
+      {
+        "tag": "h4",
+        "text": "Deals"
+      },
+      {
+        "tag": "h4",
+        "text": "FOX Business"
+      },
+      {
+        "tag": "h4",
+        "text": "Science & Tech"
+      },
+      {
+        "tag": "h4",
+        "text": "Watch Live"
+      },
+      {
+        "tag": "h4",
+        "text": "Apps & Products"
+      },
+      {
+        "tag": "h4",
+        "text": "Games"
+      },
+      {
+        "tag": "h4",
+        "text": "Deals"
+      },
+      {
+        "tag": "h4",
+        "text": "FOX Business"
+      },
+      {
+        "tag": "h4",
+        "text": "Science & Tech"
+      },
+      {
+        "tag": "h4",
+        "text": "Watch Live"
+      },
+      {
+        "tag": "h4",
+        "text": "Apps & Products"
+      },
+      {
+        "tag": "h1",
+        "text": "2025 Elections Coverage"
+      },
+      {
+        "tag": "h2",
+        "text": "Multiple democratic socialists line up to succeed Mamdani"
+      },
+      {
+        "tag": "h2",
+        "text": "Legal group accuses Virginia public school district of felony after hosting Dem political rally for free"
+      },
+      {
+        "tag": "h2",
+        "text": "Incumbent Seattle mayor concedes to Mamdani-style 'socialist' who tapped her parents for money while running"
+      },
+      {
+        "tag": "h3",
+        "text": "Fox News Polls"
+      },
+      {
+        "tag": "h4",
+        "text": "Is Gen Z shifting to the right?"
+      },
+      {
+        "tag": "h4",
+        "text": "Fox News Voter Poll: California voters OK congressional redistricting plan"
+      },
+      {
+        "tag": "h4",
+        "text": "Fox News Voter Poll \u2014 Change candidate Mamdani defeats legacy political figures"
+      },
+      {
+        "tag": "h4",
+        "text": "Fox News Voter Poll: New Jersey governorship remains Democratic with Sherrill win"
+      },
+      {
+        "tag": "h3",
+        "text": "2025 NYC Mayoral Election"
+      },
+      {
+        "tag": "h4",
+        "text": "NYC mayor-elect Zohran Mamdani's father says he will keep 'arm's length' from son's upcoming administration"
+      },
+      {
+        "tag": "h4",
+        "text": "Socialist wave goes coast-to-coast as historic wins shake up the 2025 mayoral elections"
+      },
+      {
+        "tag": "h4",
+        "text": "Mamdani's top incoming aide was 'chief architect' of radical proposal overhauling NYPD"
+      },
+      {
+        "tag": "h4",
+        "text": "Mamdani\u2019s wife\u2019s 'student sketchbook\u2019 art is Hunter Biden effect all over again, says US artist"
+      },
+      {
+        "tag": "h4",
+        "text": "Unearthed antisemitic, anti-Israel posts from Mamdani aide spark GOP outrage"
+      },
+      {
+        "tag": "h4",
+        "text": "Mamdani keeps Jessica Tisch as NYPD commissioner"
+      },
+      {
+        "tag": "h4",
+        "text": "NYC Mayor-elect Mamdani asks supporters for $4M to fund transition, vows no wealthy donors"
+      },
+      {
+        "tag": "h4",
+        "text": "New Jersey police sergeant, former Dem mayor allegedly drugged, sexually assaulted child he met online"
+      },
+      {
+        "tag": "h4",
+        "text": "NYC Mayor-elect Mamdani doubles down on Netanyahu arrest pledge"
+      },
+      {
+        "tag": "h4",
+        "text": "Federal prosecutors charge suspect who allegedly vandalized US Attorney Alina Habba\u2019s office"
+      },
+      {
+        "tag": "h4",
+        "text": "NYC judge demands maximum sentence for aspiring rapper accused of cat sacrifice in online satanic ritual"
+      },
+      {
+        "tag": "h4",
+        "text": "NYC mayor-elect Zohran Mamdani's father says he will keep 'arm's length' from son's upcoming administration"
+      },
+      {
+        "tag": "h4",
+        "text": "Former Obama staffer, ex-congressman among candidates in crowded Democrat primary for Mikie Sherrill's seat"
+      },
+      {
+        "tag": "h4",
+        "text": "Federal judges block Texas from using redrawn congressional map"
+      },
+      {
+        "tag": "h4",
+        "text": "Brett Favre talks 'sad' reality of the world after Jets player wounded in shooting"
+      },
+      {
+        "tag": "h4",
+        "text": "Amid division and noise, a simple truth: America still has a heart"
+      },
+      {
+        "tag": "h4",
+        "text": "Potential GOP challenger warns Hochul that a corporate tax hike would be a 'disaster' for New York's economy"
+      },
+      {
+        "tag": "h4",
+        "text": "AOC distances herself from Hakeem Jeffries primary challenger"
+      },
+      {
+        "tag": "h4",
+        "text": "Marine veteran launches Senate campaign by invoking far-left radical to paint Dems as extreme"
+      },
+      {
+        "tag": "h4",
+        "text": "LIZ PEEK: Why every 'affordable' promise from Democrats ends up costing you more"
+      },
+      {
+        "tag": "h4",
+        "text": "ATM \u2018jackpotting\u2019 crime wave grows after thieves walk away with hundreds of thousands in cash"
+      },
+      {
+        "tag": "h4",
+        "text": "Rapper Nicki Minaj and UN ambassador join voices against Christian persecution in Nigeria"
+      },
+      {
+        "tag": "h4",
+        "text": "David Hogg campaigns for the 'AOC of Tennessee' to flip ruby-red district as special election looms"
+      },
+      {
+        "tag": "h4",
+        "text": "NYPD officer returns fire after getting shot, police commissioner says"
+      },
+      {
+        "tag": "h4",
+        "text": "NYC police commissioner provides details about the shooting of an NYPD officer"
+      },
+      {
+        "tag": "h4",
+        "text": "Gen Z firebrand challenges establishment giant: NYC\u2019s Chi Oss\u00e9 tees up primary bid against Hakeem Jeffries"
+      },
+      {
+        "tag": "h4",
+        "text": "Judge orders DOJ to give Comey grand jury records, citing prosecutor's misconduct"
+      },
+      {
+        "tag": "h4",
+        "text": "Turning Point USA hands out \u2018Freedom\u2019 shirts at New York City UFC event"
+      },
+      {
+        "tag": "h4",
+        "text": "NYPD releases photos of suspect in shooting of Jets player Kris Boyd"
+      },
+      {
+        "tag": "h4",
+        "text": "Trump says Mamdani meeting in the works: 'We'll work something out'"
+      },
+      {
+        "tag": "h4",
+        "text": "Seattle's socialist mayor may be 'less constrained' than Mamdani, Washington Post warns"
+      },
+      {
+        "tag": "h4",
+        "text": "10-year-old boy among dead following NJ shooting that killed 2, injured 3"
+      },
+      {
+        "tag": "h4",
+        "text": "'Streateries' face steep new rules in major US city; will others follow?"
+      },
+      {
+        "tag": "h4",
+        "text": "Zohran Mamdani tells 1M social media followers to boycott Starbucks amid ongoing worker strike"
+      },
+      {
+        "tag": "h3",
+        "text": "Debate Schedule"
+      },
+      {
+        "tag": "h3",
+        "text": "Trending Video"
+      },
+      {
+        "tag": "h4",
+        "text": "'The Five': Bill Maher says AOC could be a 'fantastic' presidential candidate but needs 'deprogramming'"
+      },
+      {
+        "tag": "h4",
+        "text": "Nicki Minaj joining forces with Trump admin at UN"
+      },
+      {
+        "tag": "h4",
+        "text": "History-making week: Longest government shutdown in history ends"
+      },
+      {
+        "tag": "h4",
+        "text": "Democrats will try to 'screw up' everything Trump has set in motion if they regain power, says JD Vance"
+      },
+      {
+        "tag": "h4",
+        "text": "Kamala's 'ego' cannot stop her from running for president again: Kayleigh McEnany"
+      },
+      {
+        "tag": "h4",
+        "text": "U.S."
+      },
+      {
+        "tag": "h4",
+        "text": "Politics"
+      },
+      {
+        "tag": "h4",
+        "text": "World"
+      },
+      {
+        "tag": "h4",
+        "text": "Opinion"
+      },
+      {
+        "tag": "h4",
+        "text": "Media"
+      },
+      {
+        "tag": "h4",
+        "text": "Entertainment"
+      },
+      {
+        "tag": "h4",
+        "text": "Sports"
+      },
+      {
+        "tag": "h4",
+        "text": "Lifestyle"
+      },
+      {
+        "tag": "h4",
+        "text": "Health"
+      },
+      {
+        "tag": "h4",
+        "text": "Deals"
+      },
+      {
+        "tag": "h4",
+        "text": "FOX Business"
+      },
+      {
+        "tag": "h4",
+        "text": "Science & Tech"
+      },
+      {
+        "tag": "h4",
+        "text": "Games"
+      },
+      {
+        "tag": "h4",
+        "text": "Watch Live"
+      },
+      {
+        "tag": "h4",
+        "text": "About"
+      },
+      {
+        "tag": "h4",
+        "text": "Apps & Products"
+      },
+      {
+        "tag": "h4",
+        "text": "U.S."
+      },
+      {
+        "tag": "h4",
+        "text": "Politics"
+      },
+      {
+        "tag": "h4",
+        "text": "World"
+      },
+      {
+        "tag": "h4",
+        "text": "Opinion"
+      },
+      {
+        "tag": "h4",
+        "text": "Media"
+      },
+      {
+        "tag": "h4",
+        "text": "Entertainment"
+      },
+      {
+        "tag": "h4",
+        "text": "Sports"
+      },
+      {
+        "tag": "h4",
+        "text": "Lifestyle"
+      },
+      {
+        "tag": "h4",
+        "text": "Health"
+      },
+      {
+        "tag": "h4",
+        "text": "Deals"
+      },
+      {
+        "tag": "h4",
+        "text": "FOX Business"
+      },
+      {
+        "tag": "h4",
+        "text": "Science & Tech"
+      },
+      {
+        "tag": "h4",
+        "text": "Games"
+      },
+      {
+        "tag": "h4",
+        "text": "Watch Live"
+      },
+      {
+        "tag": "h4",
+        "text": "About"
+      },
+      {
+        "tag": "h4",
+        "text": "Apps & Products"
+      }
+    ],
+    "paragraphs": [
+      "This material may not be published, broadcast, rewritten, or redistributed. \u00a92025 FOX News Network, LLC. All rights reserved. Quotes displayed in real-time or delayed by at least 15 minutes. Market data provided by Factset. Powered and implemented by FactSet Digital Solutions. Legal Statement. Mutual Fund and ETF data provided by Refinitiv Lipper.",
+      "Two New York lawmakers are blasting New York City mayor-elect Mamdani over a report that a member of his transition team has made controversial posts about Israel for years.",
+      "Mayor-elect Zohran Mamdani's office announced on Wednesday that Jessica Tisch will remain the New York City Police Department commissioner.",
+      "New York City Mayor-elect Zohran Mamdani, who won the city's mayoral race earlier this month, is fundraising for his transition, seeking a total of $4 million.",
+      "A New Jersey police sergeant and former Democratic candidate for state legislature was arrested for allegedly drugging and sexually assaulting a child he met online, prosecutors said.",
+      "New York City Mayor-elect Zohran Mamdani reaffirms that he would honor the International Criminal Court\u2019s arrest warrant for Netanyahu if the Israeli prime minister visits the city.",
+      "Keith Michael Lisa of New Jersey was charged after a statewide manhunt for allegedly ransacking and vandalizing U.S. Attorney Alina Habba's Newark office with a baseball bat.",
+      "A Bronx judge warned she won\u2019t approve a plea deal for David Mosley, an aspiring rapper accused of killing a cat in a satanic ritual, unless he faces the maximum penalty.",
+      "Columbia University professor Mahmood Mamdani discusses staying distant from his son Zohran Mamdani's mayoral administration, citing power's corrupting influence.",
+      "Nearly a dozen Democrats will vie for Mikie Sherrill's New Jersey House seat when she resigns, including former Rep. Tom Malinowski, as a special election looms.",
+      "A panel of three federal judges ruled that a congressional map passed by Texas lawmakers was \"racially gerrymandered\" and cannot go into effect Tuesday.",
+      "Former New York Jets star Brett Favre touched a bit on the shooting that left cornerback and special teams player Kris Boyd wounded. Police were searching for the gunman.",
+      "My walk through Virginia's historic Pocahontas Island, America's oldest free Black community, gave me new insights into restoring merit and faith in the American Dream.",
+      "Nassau County Executive Bruce Blakeman slammed Gov. Kathy Hochul's potential corporate tax increase, warning it would be a \"disaster\" for New York's economy.",
+      "Rep. Alexandria Ocasio-Cortez distanced herself from New York City Council member Chi Osse's effort to primary House Democratic Leader Hakeem Jeffries.",
+      "Political newcomer and former State Department expert David Williams enters race to unseat Democratic Sen. Mark Warner in Virginia's 2026 election.",
+      "Democrat-run cities like New York and San Francisco rank among America's most expensive, while Republican-led areas maintain lower living costs. That is very telling about \"affordability.\"",
+      "Authorities seek public help identifying suspects in Virginia jackpotting scheme that netted nearly $200,000 from Apple Federal Credit Union ATM machine.",
+      "U.N. Ambassador Mike Waltz teams up with rapper Nicki Minaj to address Christian persecution in Nigeria in an unexpected collaboration that's making headlines.",
+      "Former Democratic National Committee vice chair David Hogg campaigned for Aftyn Behn in Tennessee's 7th Congressional District special election as Democrats aim to flip the deep-red seat.",
+      "Big Apple Police Commissioner Jessica Tisch spoke at a press conference to provide details about the shooting of a police officer on Monday morning",
+      "New York City Police Commissioner Jessica Tisch provided details about the Monday morning shooting of a police officer. (Credit: @nypd via YouTube)",
+      "Far-left Gen Z activist Chi Oss\u00e9 filed paperwork against House Minority Leader Hakeem Jeffries, D-N.Y., marking a generational split within Democratic Party.",
+      "A federal judge criticized the DOJ for mishandling evidence in former FBI Director James Comey's case and warned the indictment could be dismissed due to tainted proceedings.",
+      "Podcaster Benny Johnson joins \u2018Fox & Friends\u2019 to discuss how Turning Point USA honored Charlie Kirk at a UFC event in New York City.",
+      "The NYPD released photos of a suspect in the shooting of New York Jets cornerback and special teams player Kris Boyd on Monday morning.",
+      "President Donald Trump announced a potential White House meeting with NYC Mayor-elect Zohran Mamdani despite threats to cut federal funding.",
+      "The Washington Post editorial board suggested Sunday that Seattle Mayor-elect Katie Wilson may be less restrained than New York City Mayor-elect Zohran Mamdani.",
+      "Deadly Newark shooting claims two lives, injures three others. Mayor calls incident 'senseless' as authorities search for suspect in South Ward attack.",
+      "Cities nationwide are cracking down on outdoor dining as pandemic freedoms end, with Washington, D.C., reportedly joining New York and Philadelphia in imposing steep fees.",
+      "A major Starbucks union strike on Thursday coincided with the chain's popular Red Cup Day as NYC's incoming mayor, Zohran Mamdani, backs a worker boycott.",
+      "This material may not be published, broadcast, rewritten, or redistributed. \u00a92025 FOX News Network, LLC. All rights reserved. Quotes displayed in real-time or delayed by at least 15 minutes. Market data provided by\n        Factset. Powered and implemented by\n        FactSet Digital Solutions.\n        Legal Statement. Mutual Fund and ETF data provided by\n        Refinitiv Lipper."
+    ],
+    "wordCount": 833
+  },
+  "links": {
+    "internal": [
+      {
+        "label": "Fox News Media",
+        "href": "https://www.foxnews.com/"
+      },
+      {
+        "label": "Books",
+        "href": "https://www.foxnews.com/books"
+      },
+      {
+        "label": "Fox News",
+        "href": "https://www.foxnews.com/"
+      },
+      {
+        "label": "U.S.",
+        "href": "https://www.foxnews.com/us"
+      },
+      {
+        "label": "Blue City Crime",
+        "href": "https://www.foxnews.com/category/us/blue-city-crime"
+      },
+      {
+        "label": "Campus Radicals",
+        "href": "https://www.foxnews.com/category/us/campus-radicals"
+      },
+      {
+        "label": "Border Crisis",
+        "href": "https://www.foxnews.com/category/us/immigration"
+      },
+      {
+        "label": "True Crime",
+        "href": "https://www.foxnews.com/true-crime"
+      },
+      {
+        "label": "Politics",
+        "href": "https://www.foxnews.com/politics"
+      },
+      {
+        "label": "Donald Trump",
+        "href": "https://www.foxnews.com/category/person/donald-trump"
+      },
+      {
+        "label": "Senate",
+        "href": "https://www.foxnews.com/category/politics/senate"
+      },
+      {
+        "label": "House",
+        "href": "https://www.foxnews.com/category/politics/house-of-representatives"
+      },
+      {
+        "label": "Judiciary",
+        "href": "https://www.foxnews.com/category/politics/judiciary"
+      },
+      {
+        "label": "Foreign Policy",
+        "href": "https://www.foxnews.com/category/politics/foreign-policy"
+      },
+      {
+        "label": "Fox News Polls",
+        "href": "https://www.foxnews.com/official-polls"
+      },
+      {
+        "label": "2025 Elections Coverage",
+        "href": "https://www.foxnews.com/elections"
+      },
+      {
+        "label": "World",
+        "href": "https://www.foxnews.com/world"
+      },
+      {
+        "label": "U.N.",
+        "href": "https://www.foxnews.com/category/world/united-nations"
+      },
+      {
+        "label": "Conflicts",
+        "href": "https://www.foxnews.com/category/world/conflicts"
+      },
+      {
+        "label": "Terrorism",
+        "href": "https://www.foxnews.com/category/world/terrorism"
+      },
+      {
+        "label": "Disasters",
+        "href": "https://www.foxnews.com/category/disasters"
+      },
+      {
+        "label": "Global Economy",
+        "href": "https://www.foxnews.com/category/world/global-economy"
+      },
+      {
+        "label": "Environment",
+        "href": "https://www.foxnews.com/category/environment"
+      },
+      {
+        "label": "Religion",
+        "href": "https://www.foxnews.com/category/world/religion"
+      },
+      {
+        "label": "Scandals",
+        "href": "https://www.foxnews.com/category/world/scandals"
+      },
+      {
+        "label": "Opinion",
+        "href": "https://www.foxnews.com/opinion"
+      },
+      {
+        "label": "Media",
+        "href": "https://www.foxnews.com/media"
+      },
+      {
+        "label": "Fox Nation Coverage",
+        "href": "https://www.foxnews.com/shows/fox-nation"
+      },
+      {
+        "label": "Entertainment",
+        "href": "https://www.foxnews.com/entertainment"
+      },
+      {
+        "label": "Prince Andrew",
+        "href": "https://www.foxnews.com/category/person/prince-andrew"
+      },
+      {
+        "label": "Katy Perry",
+        "href": "https://www.foxnews.com/category/person/katy-perry"
+      },
+      {
+        "label": "Royal Families",
+        "href": "https://www.foxnews.com/category/world/personalities/british-royals"
+      },
+      {
+        "label": "Country Music",
+        "href": "https://www.foxnews.com/category/entertainment/genres/country"
+      },
+      {
+        "label": "Nicole Kidman",
+        "href": "https://www.foxnews.com/category/person/nicole-kidman"
+      },
+      {
+        "label": "Sports",
+        "href": "https://www.foxnews.com/sports"
+      },
+      {
+        "label": "NFL",
+        "href": "https://www.foxnews.com/category/sports/nfl"
+      },
+      {
+        "label": "College Football",
+        "href": "https://www.foxnews.com/category/sports/ncaa-fb"
+      },
+      {
+        "label": "MLB",
+        "href": "https://www.foxnews.com/category/sports/mlb"
+      },
+      {
+        "label": "NASCAR",
+        "href": "https://www.foxnews.com/category/auto/nascar"
+      },
+      {
+        "label": "INDYCAR",
+        "href": "https://www.foxnews.com/category/auto/indycar"
+      },
+      {
+        "label": "NBA",
+        "href": "https://www.foxnews.com/category/sports/nba"
+      },
+      {
+        "label": "NHL",
+        "href": "https://www.foxnews.com/category/sports/nhl"
+      },
+      {
+        "label": "Golf",
+        "href": "https://www.foxnews.com/category/sports/golf"
+      },
+      {
+        "label": "Tennis",
+        "href": "https://www.foxnews.com/category/sports/tennis"
+      },
+      {
+        "label": "UFC",
+        "href": "https://www.foxnews.com/category/sports/ufc"
+      },
+      {
+        "label": "WWE",
+        "href": "https://www.foxnews.com/category/organization/wwe"
+      },
+      {
+        "label": "Lifestyle",
+        "href": "https://www.foxnews.com/lifestyle"
+      },
+      {
+        "label": "Travel",
+        "href": "https://www.foxnews.com/travel"
+      },
+      {
+        "label": "Food & Drink",
+        "href": "https://www.foxnews.com/food-drink"
+      },
+      {
+        "label": "Faith",
+        "href": "https://www.foxnews.com/faith-values"
+      },
+      {
+        "label": "Discovery",
+        "href": "https://www.foxnews.com/category/science/archaeology"
+      },
+      {
+        "label": "Games & Quizzes",
+        "href": "https://www.foxnews.com/games"
+      },
+      {
+        "label": "Health",
+        "href": "https://www.foxnews.com/health"
+      },
+      {
+        "label": "Weight Loss",
+        "href": "https://www.foxnews.com/category/health/nutrition-and-fitness/weight-loss"
+      },
+      {
+        "label": "Cancer",
+        "href": "https://www.foxnews.com/category/health/cancer"
+      },
+      {
+        "label": "Brain Health",
+        "href": "https://www.foxnews.com/category/health/brain-health"
+      },
+      {
+        "label": "Sleep",
+        "href": "https://www.foxnews.com/category/health/sleep-disorders"
+      },
+      {
+        "label": "Heart Health",
+        "href": "https://www.foxnews.com/category/health/heart-health"
+      },
+      {
+        "label": "Healthy Living",
+        "href": "https://www.foxnews.com/category/health/healthy-living"
+      },
+      {
+        "label": "Mental Health",
+        "href": "https://www.foxnews.com/category/health/mental-health"
+      },
+      {
+        "label": "MAHA",
+        "href": "https://www.foxnews.com/category/health/maha"
+      },
+      {
+        "label": "Video",
+        "href": "https://www.foxnews.com/video"
+      },
+      {
+        "label": "AI",
+        "href": "https://www.foxnews.com/category/tech/artificial-intelligence"
+      },
+      {
+        "label": "Watch\n            TV",
+        "href": "https://www.foxnews.com/video/5614615980001"
+      },
+      {
+        "label": "Home",
+        "href": "https://www.foxnews.com/"
+      },
+      {
+        "label": "EPSTEIN FILES",
+        "href": "https://www.foxnews.com/category/person/jeffrey-epstein"
+      },
+      {
+        "label": "TRUMP NEWS",
+        "href": "https://www.foxnews.com/category/person/donald-trump"
+      },
+      {
+        "label": "CAMPUS RADICALS",
+        "href": "https://www.foxnews.com/category/us/campus-radicals"
+      },
+      {
+        "label": "CHARLIE KIRK",
+        "href": "https://www.foxnews.com/category/media/charlie-kirk"
+      },
+      {
+        "label": "Games",
+        "href": "https://www.foxnews.com/games"
+      },
+      {
+        "label": "Scattergories Daily",
+        "href": "https://www.foxnews.com/games/scattergories-daily"
+      },
+      {
+        "label": "5 Across the Letter Word Game",
+        "href": "https://www.foxnews.com/games/5-across-word-game"
+      },
+      {
+        "label": "DownWords",
+        "href": "https://www.foxnews.com/games/lil-snack-downwords"
+      },
+      {
+        "label": "Sudoku",
+        "href": "https://www.foxnews.com/games/sudoku"
+      },
+      {
+        "label": "Swap Words",
+        "href": "https://www.foxnews.com/games/lil-snack-word-swap"
+      },
+      {
+        "label": "Word Search",
+        "href": "https://www.foxnews.com/games/word-search"
+      },
+      {
+        "label": "Icon Match",
+        "href": "https://www.foxnews.com/games/icon-match-puzzle"
+      },
+      {
+        "label": "Daily Crossword Puzzle",
+        "href": "https://www.foxnews.com/games/daily-crossword-puzzle"
+      },
+      {
+        "label": "Mini Crossword Puzzle",
+        "href": "https://www.foxnews.com/games/mini-crossword-puzzle"
+      },
+      {
+        "label": "Deals",
+        "href": "https://www.foxnews.com/deals"
+      },
+      {
+        "label": "Holiday Shopping",
+        "href": "https://www.foxnews.com/category/deals/trending"
+      },
+      {
+        "label": "Gift Guides",
+        "href": "https://www.foxnews.com/category/deals/gift"
+      },
+      {
+        "label": "Home Deals",
+        "href": "https://www.foxnews.com/category/deals/home"
+      },
+      {
+        "label": "Kitchen Deals",
+        "href": "https://www.foxnews.com/category/deals/kitchen"
+      },
+      {
+        "label": "Tech and Electronic Deals",
+        "href": "https://www.foxnews.com/category/deals/tech-and-electronic"
+      },
+      {
+        "label": "Health and Fitness Deals",
+        "href": "https://www.foxnews.com/category/deals/health-and-fitness"
+      },
+      {
+        "label": "Beauty and Fashion Deals",
+        "href": "https://www.foxnews.com/category/deals/beauty-and-fashion"
+      },
+      {
+        "label": "Science & Tech",
+        "href": "https://www.foxnews.com/tech"
+      },
+      {
+        "label": "Air & Space",
+        "href": "https://www.foxnews.com/category/science/air-and-space"
+      },
+      {
+        "label": "Security",
+        "href": "https://www.foxnews.com/category/tech/topics/security"
+      },
+      {
+        "label": "Innovation",
+        "href": "https://www.foxnews.com/category/tech/topics/innovation"
+      },
+      {
+        "label": "Video Games",
+        "href": "https://www.foxnews.com/category/tech/topics/video-games"
+      },
+      {
+        "label": "Military Tech",
+        "href": "https://www.foxnews.com/category/tech/topics/military-tech"
+      },
+      {
+        "label": "Planet Earth",
+        "href": "https://www.foxnews.com/category/science/planet-earth"
+      },
+      {
+        "label": "Wild Nature",
+        "href": "https://www.foxnews.com/category/science/wild-nature"
+      },
+      {
+        "label": "Watch Live",
+        "href": "https://www.foxnews.com/video/5614615980001"
+      },
+      {
+        "label": "FOX News Shows",
+        "href": "https://www.foxnews.com/shows"
+      },
+      {
+        "label": "Programming Schedule",
+        "href": "https://www.foxnews.com/fnctv"
+      },
+      {
+        "label": "On Air Personalities",
+        "href": "https://www.foxnews.com/person/personalities"
+      },
+      {
+        "label": "Full Episodes",
+        "href": "https://www.foxnews.com/video/shows"
+      },
+      {
+        "label": "Show Clips",
+        "href": "https://www.foxnews.com/video/topics/v-most-recent-episodes"
+      },
+      {
+        "label": "News Clips",
+        "href": "https://www.foxnews.com/video/topics/latest-news-video"
+      },
+      {
+        "label": "Apps & Products",
+        "href": "https://www.foxnews.com/apps-products"
+      },
+      {
+        "label": "FOX News Go",
+        "href": "https://www.foxnews.com/go"
+      },
+      {
+        "label": "Newsletters",
+        "href": "https://www.foxnews.com/newsletters"
+      },
+      {
+        "label": "Games",
+        "href": "https://www.foxnews.com/games"
+      },
+      {
+        "label": "Scattergories Daily",
+        "href": "https://www.foxnews.com/games/scattergories-daily"
+      },
+      {
+        "label": "5 Across the Letter Word Game",
+        "href": "https://www.foxnews.com/games/5-across-word-game"
+      },
+      {
+        "label": "DownWords",
+        "href": "https://www.foxnews.com/games/lil-snack-downwords"
+      },
+      {
+        "label": "Sudoku",
+        "href": "https://www.foxnews.com/games/sudoku"
+      },
+      {
+        "label": "Swap Words",
+        "href": "https://www.foxnews.com/games/lil-snack-word-swap"
+      },
+      {
+        "label": "Word Search",
+        "href": "https://www.foxnews.com/games/word-search"
+      },
+      {
+        "label": "Icon Match",
+        "href": "https://www.foxnews.com/games/icon-match-puzzle"
+      },
+      {
+        "label": "Daily Crossword Puzzle",
+        "href": "https://www.foxnews.com/games/daily-crossword-puzzle"
+      },
+      {
+        "label": "Mini Crossword Puzzle",
+        "href": "https://www.foxnews.com/games/mini-crossword-puzzle"
+      },
+      {
+        "label": "Deals",
+        "href": "https://www.foxnews.com/deals"
+      },
+      {
+        "label": "Holiday Shopping",
+        "href": "https://www.foxnews.com/category/deals/trending"
+      },
+      {
+        "label": "Gift Guides",
+        "href": "https://www.foxnews.com/category/deals/gift"
+      },
+      {
+        "label": "Home Deals",
+        "href": "https://www.foxnews.com/category/deals/home"
+      },
+      {
+        "label": "Kitchen Deals",
+        "href": "https://www.foxnews.com/category/deals/kitchen"
+      },
+      {
+        "label": "Tech and Electronic Deals",
+        "href": "https://www.foxnews.com/category/deals/tech-and-electronic"
+      },
+      {
+        "label": "Health and Fitness Deals",
+        "href": "https://www.foxnews.com/category/deals/health-and-fitness"
+      },
+      {
+        "label": "Beauty and Fashion Deals",
+        "href": "https://www.foxnews.com/category/deals/beauty-and-fashion"
+      },
+      {
+        "label": "Science & Tech",
+        "href": "https://www.foxnews.com/tech"
+      },
+      {
+        "label": "Air & Space",
+        "href": "https://www.foxnews.com/category/science/air-and-space"
+      },
+      {
+        "label": "Security",
+        "href": "https://www.foxnews.com/category/tech/topics/security"
+      },
+      {
+        "label": "Innovation",
+        "href": "https://www.foxnews.com/category/tech/topics/innovation"
+      },
+      {
+        "label": "Video Games",
+        "href": "https://www.foxnews.com/category/tech/topics/video-games"
+      },
+      {
+        "label": "Military Tech",
+        "href": "https://www.foxnews.com/category/tech/topics/military-tech"
+      },
+      {
+        "label": "Planet Earth",
+        "href": "https://www.foxnews.com/category/science/planet-earth"
+      },
+      {
+        "label": "Wild Nature",
+        "href": "https://www.foxnews.com/category/science/wild-nature"
+      },
+      {
+        "label": "Watch Live",
+        "href": "https://www.foxnews.com/video/5614615980001"
+      },
+      {
+        "label": "FOX News Shows",
+        "href": "https://www.foxnews.com/shows"
+      },
+      {
+        "label": "Programming Schedule",
+        "href": "https://www.foxnews.com/fnctv"
+      },
+      {
+        "label": "On Air Personalities",
+        "href": "https://www.foxnews.com/person/personalities"
+      },
+      {
+        "label": "Full Episodes",
+        "href": "https://www.foxnews.com/video/shows"
+      },
+      {
+        "label": "Show Clips",
+        "href": "https://www.foxnews.com/video/topics/v-most-recent-episodes"
+      },
+      {
+        "label": "News Clips",
+        "href": "https://www.foxnews.com/video/topics/latest-news-video"
+      },
+      {
+        "label": "Apps & Products",
+        "href": "https://www.foxnews.com/apps-products"
+      },
+      {
+        "label": "FOX News Go",
+        "href": "https://www.foxnews.com/go"
+      },
+      {
+        "label": "Newsletters",
+        "href": "https://www.foxnews.com/newsletters"
+      },
+      {
+        "label": "RSS",
+        "href": "https://www.foxnews.com/story/foxnews-com-rss-feeds"
+      },
+      {
+        "label": "Newsletters",
+        "href": "https://www.foxnews.com/newsletters"
+      },
+      {
+        "label": "Fox News",
+        "href": "https://www.foxnews.com"
+      },
+      {
+        "label": "Terms of Use",
+        "href": "https://www.foxnews.com/terms-of-use"
+      },
+      {
+        "label": "Privacy Policy",
+        "href": "https://www.foxnews.com/privacy-policy"
+      },
+      {
+        "label": "Closed Caption Policy",
+        "href": "https://www.foxnews.com/closed-captioning"
+      },
+      {
+        "label": "Contact Us",
+        "href": "https://www.foxnews.com/contact"
+      },
+      {
+        "label": "Accessibility Statement",
+        "href": "https://www.foxnews.com/accessibility-statement"
+      },
+      {
+        "label": "News Sitemap",
+        "href": "https://www.foxnews.com/html-sitemap"
+      },
+      {
+        "label": "Video Sitemap",
+        "href": "https://www.foxnews.com/html-video-sitemap"
+      },
+      {
+        "label": "Live Forum",
+        "href": "https://www.foxnews.com/forum/public-forum-2025-general-elections"
+      },
+      {
+        "label": "NYC Mayoral Race",
+        "href": "https://www.foxnews.com/category/politics/nyc-mayoral-elections-coverage"
+      },
+      {
+        "label": "FOX News Voter Poll",
+        "href": "https://www.foxnews.com/elections/2025/election-results/voter-poll"
+      },
+      {
+        "label": "",
+        "href": "https://www.foxnews.com/politics/multiple-democratic-socialists-line-up-succeed-mamdani"
+      },
+      {
+        "label": "Elections",
+        "href": "https://www.foxnews.com/category/politics/elections"
+      },
+      {
+        "label": "Multiple democratic socialists line up to succeed Mamdani",
+        "href": "https://www.foxnews.com/politics/multiple-democratic-socialists-line-up-succeed-mamdani"
+      },
+      {
+        "label": "",
+        "href": "https://www.foxnews.com/us/legal-group-accuses-virginia-public-school-district-felony-after-hosting-dem-political-rally-free"
+      },
+      {
+        "label": "Virginia",
+        "href": "https://www.foxnews.com/category/us/us-regions/southeast/virginia"
+      },
+      {
+        "label": "Legal group accuses Virginia public school district of felony after hosting Dem political rally for free",
+        "href": "https://www.foxnews.com/us/legal-group-accuses-virginia-public-school-district-felony-after-hosting-dem-political-rally-free"
+      },
+      {
+        "label": "",
+        "href": "https://www.foxnews.com/politics/incumbent-seattle-mayor-concedes-mamdani-style-socialist-who-tapped-her-parents-money-while-running"
+      },
+      {
+        "label": "2025 Elections Coverage",
+        "href": "https://www.foxnews.com/category/politics/2025-2026-elections-coverage"
+      },
+      {
+        "label": "Incumbent Seattle mayor concedes to Mamdani-style 'socialist' who tapped her parents for money while running",
+        "href": "https://www.foxnews.com/politics/incumbent-seattle-mayor-concedes-mamdani-style-socialist-who-tapped-her-parents-money-while-running"
+      },
+      {
+        "label": "See More",
+        "href": "https://www.foxnews.com/official-polls"
+      },
+      {
+        "label": "",
+        "href": "https://www.foxnews.com/video/6384773565112"
+      },
+      {
+        "label": "0:05:05",
+        "href": "https://www.foxnews.com/video/6384773565112"
+      },
+      {
+        "label": "Is Gen Z shifting to the right?",
+        "href": "https://www.foxnews.com/video/6384773565112"
+      },
+      {
+        "label": "",
+        "href": "https://www.foxnews.com/politics/fox-news-voter-poll-california-voters-ok-congressional-redistricting-plan"
+      },
+      {
+        "label": "Fox News Voter Poll: California voters OK congressional redistricting plan",
+        "href": "https://www.foxnews.com/politics/fox-news-voter-poll-california-voters-ok-congressional-redistricting-plan"
+      },
+      {
+        "label": "",
+        "href": "https://www.foxnews.com/politics/fox-news-voter-poll-change-candidate-mamdani-defeats-legacy-political-figures"
+      },
+      {
+        "label": "Fox News Voter Poll \u2014 Change candidate Mamdani defeats legacy political figures",
+        "href": "https://www.foxnews.com/politics/fox-news-voter-poll-change-candidate-mamdani-defeats-legacy-political-figures"
+      },
+      {
+        "label": "",
+        "href": "https://www.foxnews.com/politics/fox-news-poll-new-jersey-governorship-remains-democratic-sherrill-win"
+      },
+      {
+        "label": "Fox News Voter Poll: New Jersey governorship remains Democratic with Sherrill win",
+        "href": "https://www.foxnews.com/politics/fox-news-poll-new-jersey-governorship-remains-democratic-sherrill-win"
+      },
+      {
+        "label": "See More",
+        "href": "https://www.foxnews.com/category/politics/nyc-mayoral-elections-coverage"
+      },
+      {
+        "label": "",
+        "href": "https://www.foxnews.com/politics/nyc-mayor-elect-zohran-mamdanis-father-keep-arms-length-sons-upcoming-administration"
+      },
+      {
+        "label": "NYC mayor-elect Zohran Mamdani's father says he will keep 'arm's length' from son's upcoming administration",
+        "href": "https://www.foxnews.com/politics/nyc-mayor-elect-zohran-mamdanis-father-keep-arms-length-sons-upcoming-administration"
+      },
+      {
+        "label": "",
+        "href": "https://www.foxnews.com/politics/democratic-socialists-win-mayoral-races-new-york-city-seattle-historic-victories"
+      },
+      {
+        "label": "Socialist wave goes coast-to-coast as historic wins shake up the 2025 mayoral elections",
+        "href": "https://www.foxnews.com/politics/democratic-socialists-win-mayoral-races-new-york-city-seattle-historic-victories"
+      },
+      {
+        "label": "",
+        "href": "https://www.foxnews.com/politics/mamdanis-top-incoming-aide-chief-architect-radical-proposal-overhauling-nypd"
+      },
+      {
+        "label": "Mamdani's top incoming aide was 'chief architect' of radical proposal overhauling NYPD",
+        "href": "https://www.foxnews.com/politics/mamdanis-top-incoming-aide-chief-architect-radical-proposal-overhauling-nypd"
+      },
+      {
+        "label": "",
+        "href": "https://www.foxnews.com/politics/mamdanis-wifes-student-sketchbook-art-hunter-biden-effect-all-over-again-says-us-artist"
+      },
+      {
+        "label": "Mamdani\u2019s wife\u2019s 'student sketchbook\u2019 art is Hunter Biden effect all over again, says US artist",
+        "href": "https://www.foxnews.com/politics/mamdanis-wifes-student-sketchbook-art-hunter-biden-effect-all-over-again-says-us-artist"
+      },
+      {
+        "label": "",
+        "href": "https://www.foxnews.com/politics/unearthed-antisemitic-anti-israel-posts-from-mamdani-aide-spark-gop-outrage"
+      },
+      {
+        "label": "Zohran Mamdani",
+        "href": "https://www.foxnews.com/category/person/zohran-mamdani"
+      },
+      {
+        "label": "Unearthed antisemitic, anti-Israel posts from Mamdani aide spark GOP outrage",
+        "href": "https://www.foxnews.com/politics/unearthed-antisemitic-anti-israel-posts-from-mamdani-aide-spark-gop-outrage"
+      },
+      {
+        "label": "Two New York lawmakers are blasting New York City mayor-elect Mamdani over a report that a member of his transition team has made controversial posts about Israel for years.",
+        "href": "https://www.foxnews.com/politics/unearthed-antisemitic-anti-israel-posts-from-mamdani-aide-spark-gop-outrage"
+      },
+      {
+        "label": "",
+        "href": "https://www.foxnews.com/politics/mamdani-keeps-jessica-tisch-nypd-commissioner"
+      },
+      {
+        "label": "Zohran Mamdani",
+        "href": "https://www.foxnews.com/category/person/zohran-mamdani"
+      },
+      {
+        "label": "Mamdani keeps Jessica Tisch as NYPD commissioner",
+        "href": "https://www.foxnews.com/politics/mamdani-keeps-jessica-tisch-nypd-commissioner"
+      },
+      {
+        "label": "Mayor-elect Zohran Mamdani's office announced on Wednesday that Jessica Tisch will remain the New York City Police Department commissioner.",
+        "href": "https://www.foxnews.com/politics/mamdani-keeps-jessica-tisch-nypd-commissioner"
+      },
+      {
+        "label": "",
+        "href": "https://www.foxnews.com/politics/nyc-mayor-elect-mamdani-asks-supporters-4m-fund-transition-vows-no-wealthy-donors"
+      },
+      {
+        "label": "Zohran Mamdani",
+        "href": "https://www.foxnews.com/category/person/zohran-mamdani"
+      },
+      {
+        "label": "NYC Mayor-elect Mamdani asks supporters for $4M to fund transition, vows no wealthy donors",
+        "href": "https://www.foxnews.com/politics/nyc-mayor-elect-mamdani-asks-supporters-4m-fund-transition-vows-no-wealthy-donors"
+      },
+      {
+        "label": "New York City Mayor-elect Zohran Mamdani, who won the city's mayoral race earlier this month, is fundraising for his transition, seeking a total of $4 million.",
+        "href": "https://www.foxnews.com/politics/nyc-mayor-elect-mamdani-asks-supporters-4m-fund-transition-vows-no-wealthy-donors"
+      },
+      {
+        "label": "",
+        "href": "https://www.foxnews.com/us/new-jersey-police-sergeant-former-dem-mayor-allegedly-drugged-sexually-assaulted-child-he-met-online"
+      },
+      {
+        "label": "New Jersey",
+        "href": "https://www.foxnews.com/category/us/us-regions/northeast/new-jersey"
+      },
+      {
+        "label": "New Jersey police sergeant, former Dem mayor allegedly drugged, sexually assaulted child he met online",
+        "href": "https://www.foxnews.com/us/new-jersey-police-sergeant-former-dem-mayor-allegedly-drugged-sexually-assaulted-child-he-met-online"
+      },
+      {
+        "label": "A New Jersey police sergeant and former Democratic candidate for state legislature was arrested for allegedly drugging and sexually assaulting a child he met online, prosecutors said.",
+        "href": "https://www.foxnews.com/us/new-jersey-police-sergeant-former-dem-mayor-allegedly-drugged-sexually-assaulted-child-he-met-online"
+      },
+      {
+        "label": "",
+        "href": "https://www.foxnews.com/politics/nyc-mayor-elect-mamdani-doubles-down-netanyahu-arrest-pledge"
+      },
+      {
+        "label": "Zohran Mamdani",
+        "href": "https://www.foxnews.com/category/person/zohran-mamdani"
+      },
+      {
+        "label": "NYC Mayor-elect Mamdani doubles down on Netanyahu arrest pledge",
+        "href": "https://www.foxnews.com/politics/nyc-mayor-elect-mamdani-doubles-down-netanyahu-arrest-pledge"
+      },
+      {
+        "label": "New York City Mayor-elect Zohran Mamdani reaffirms that he would honor the International Criminal Court\u2019s arrest warrant for Netanyahu if the Israeli prime minister visits the city.",
+        "href": "https://www.foxnews.com/politics/nyc-mayor-elect-mamdani-doubles-down-netanyahu-arrest-pledge"
+      },
+      {
+        "label": "",
+        "href": "https://www.foxnews.com/us/federal-prosecutors-charge-suspect-who-allegedly-vandalized-us-attorney-alina-habbas-office"
+      },
+      {
+        "label": "New Jersey",
+        "href": "https://www.foxnews.com/category/us/us-regions/northeast/new-jersey"
+      },
+      {
+        "label": "Federal prosecutors charge suspect who allegedly vandalized US Attorney Alina Habba\u2019s office",
+        "href": "https://www.foxnews.com/us/federal-prosecutors-charge-suspect-who-allegedly-vandalized-us-attorney-alina-habbas-office"
+      },
+      {
+        "label": "Keith Michael Lisa of New Jersey was charged after a statewide manhunt for allegedly ransacking and vandalizing U.S. Attorney Alina Habba's Newark office with a baseball bat.",
+        "href": "https://www.foxnews.com/us/federal-prosecutors-charge-suspect-who-allegedly-vandalized-us-attorney-alina-habbas-office"
+      },
+      {
+        "label": "",
+        "href": "https://www.foxnews.com/us/nyc-judge-demands-maximum-sentence-aspiring-rapper-accused-cat-sacrifice-online-satanic-ritual"
+      },
+      {
+        "label": "Crime",
+        "href": "https://www.foxnews.com/category/crime"
+      },
+      {
+        "label": "NYC judge demands maximum sentence for aspiring rapper accused of cat sacrifice in online satanic ritual",
+        "href": "https://www.foxnews.com/us/nyc-judge-demands-maximum-sentence-aspiring-rapper-accused-cat-sacrifice-online-satanic-ritual"
+      },
+      {
+        "label": "A Bronx judge warned she won\u2019t approve a plea deal for David Mosley, an aspiring rapper accused of killing a cat in a satanic ritual, unless he faces the maximum penalty.",
+        "href": "https://www.foxnews.com/us/nyc-judge-demands-maximum-sentence-aspiring-rapper-accused-cat-sacrifice-online-satanic-ritual"
+      },
+      {
+        "label": "",
+        "href": "https://www.foxnews.com/politics/nyc-mayor-elect-zohran-mamdanis-father-keep-arms-length-sons-upcoming-administration"
+      },
+      {
+        "label": "Zohran Mamdani",
+        "href": "https://www.foxnews.com/category/person/zohran-mamdani"
+      },
+      {
+        "label": "NYC mayor-elect Zohran Mamdani's father says he will keep 'arm's length' from son's upcoming administration",
+        "href": "https://www.foxnews.com/politics/nyc-mayor-elect-zohran-mamdanis-father-keep-arms-length-sons-upcoming-administration"
+      },
+      {
+        "label": "Columbia University professor Mahmood Mamdani discusses staying distant from his son Zohran Mamdani's mayoral administration, citing power's corrupting influence.",
+        "href": "https://www.foxnews.com/politics/nyc-mayor-elect-zohran-mamdanis-father-keep-arms-length-sons-upcoming-administration"
+      },
+      {
+        "label": "",
+        "href": "https://www.foxnews.com/politics/former-obama-staffer-ex-congressman-candidates-crowded-democrat-primary-mikie-sherrills-seat"
+      },
+      {
+        "label": "Congress",
+        "href": "https://www.foxnews.com/category/us/congress"
+      },
+      {
+        "label": "Former Obama staffer, ex-congressman among candidates in crowded Democrat primary for Mikie Sherrill's seat",
+        "href": "https://www.foxnews.com/politics/former-obama-staffer-ex-congressman-candidates-crowded-democrat-primary-mikie-sherrills-seat"
+      },
+      {
+        "label": "Nearly a dozen Democrats will vie for Mikie Sherrill's New Jersey House seat when she resigns, including former Rep. Tom Malinowski, as a special election looms.",
+        "href": "https://www.foxnews.com/politics/former-obama-staffer-ex-congressman-candidates-crowded-democrat-primary-mikie-sherrills-seat"
+      },
+      {
+        "label": "",
+        "href": "https://www.foxnews.com/politics/federal-judges-block-texas-from-using-redrawn-congressional-map"
+      },
+      {
+        "label": "Donald Trump",
+        "href": "https://www.foxnews.com/category/person/donald-trump"
+      },
+      {
+        "label": "Federal judges block Texas from using redrawn congressional map",
+        "href": "https://www.foxnews.com/politics/federal-judges-block-texas-from-using-redrawn-congressional-map"
+      },
+      {
+        "label": "A panel of three federal judges ruled that a congressional map passed by Texas lawmakers was \"racially gerrymandered\" and cannot go into effect Tuesday.",
+        "href": "https://www.foxnews.com/politics/federal-judges-block-texas-from-using-redrawn-congressional-map"
+      },
+      {
+        "label": "",
+        "href": "https://www.foxnews.com/sports/brett-favre-talks-sad-reality-world-after-jets-player-wounded-shooting"
+      },
+      {
+        "label": "New York Jets",
+        "href": "https://www.foxnews.com/category/sports/nfl/new-york-jets"
+      },
+      {
+        "label": "Brett Favre talks 'sad' reality of the world after Jets player wounded in shooting",
+        "href": "https://www.foxnews.com/sports/brett-favre-talks-sad-reality-world-after-jets-player-wounded-shooting"
+      },
+      {
+        "label": "Former New York Jets star Brett Favre touched a bit on the shooting that left cornerback and special teams player Kris Boyd wounded. Police were searching for the gunman.",
+        "href": "https://www.foxnews.com/sports/brett-favre-talks-sad-reality-world-after-jets-player-wounded-shooting"
+      },
+      {
+        "label": "",
+        "href": "https://www.foxnews.com/opinion/amid-division-noise-simple-truth-america-still-has-heart"
+      },
+      {
+        "label": "Opinion",
+        "href": "https://www.foxnews.com/category/opinion"
+      },
+      {
+        "label": "Amid division and noise, a simple truth: America still has a heart",
+        "href": "https://www.foxnews.com/opinion/amid-division-noise-simple-truth-america-still-has-heart"
+      },
+      {
+        "label": "My walk through Virginia's historic Pocahontas Island, America's oldest free Black community, gave me new insights into restoring merit and faith in the American Dream.",
+        "href": "https://www.foxnews.com/opinion/amid-division-noise-simple-truth-america-still-has-heart"
+      },
+      {
+        "label": "",
+        "href": "https://www.foxnews.com/politics/potential-gop-challenger-bruce-blakeman-warns-hochul-against-raising-taxes"
+      },
+      {
+        "label": "New York",
+        "href": "https://www.foxnews.com/category/us/us-regions/northeast/new-york"
+      },
+      {
+        "label": "Potential GOP challenger warns Hochul that a corporate tax hike would be a 'disaster' for New York's economy",
+        "href": "https://www.foxnews.com/politics/potential-gop-challenger-bruce-blakeman-warns-hochul-against-raising-taxes"
+      },
+      {
+        "label": "Nassau County Executive Bruce Blakeman slammed Gov. Kathy Hochul's potential corporate tax increase, warning it would be a \"disaster\" for New York's economy.",
+        "href": "https://www.foxnews.com/politics/potential-gop-challenger-bruce-blakeman-warns-hochul-against-raising-taxes"
+      },
+      {
+        "label": "",
+        "href": "https://www.foxnews.com/politics/aoc-distances-herself-from-hakeem-jeffries-primary-challenger"
+      },
+      {
+        "label": "Democratic Party",
+        "href": "https://www.foxnews.com/category/us/democratic-party"
+      },
+      {
+        "label": "AOC distances herself from Hakeem Jeffries primary challenger",
+        "href": "https://www.foxnews.com/politics/aoc-distances-herself-from-hakeem-jeffries-primary-challenger"
+      },
+      {
+        "label": "Rep. Alexandria Ocasio-Cortez distanced herself from New York City Council member Chi Osse's effort to primary House Democratic Leader Hakeem Jeffries.",
+        "href": "https://www.foxnews.com/politics/aoc-distances-herself-from-hakeem-jeffries-primary-challenger"
+      },
+      {
+        "label": "",
+        "href": "https://www.foxnews.com/politics/marine-veteran-launches-senate-campaign-invoking-far-left-radical-target-dems"
+      },
+      {
+        "label": "Zohran Mamdani",
+        "href": "https://www.foxnews.com/category/person/zohran-mamdani"
+      },
+      {
+        "label": "Marine veteran launches Senate campaign by invoking far-left radical to paint Dems as extreme",
+        "href": "https://www.foxnews.com/politics/marine-veteran-launches-senate-campaign-invoking-far-left-radical-target-dems"
+      },
+      {
+        "label": "Political newcomer and former State Department expert David Williams enters race to unseat Democratic Sen. Mark Warner in Virginia's 2026 election.",
+        "href": "https://www.foxnews.com/politics/marine-veteran-launches-senate-campaign-invoking-far-left-radical-target-dems"
+      },
+      {
+        "label": "",
+        "href": "https://www.foxnews.com/opinion/liz-peek-why-every-affordable-promise-from-democrats-ends-up-costing-you-more"
+      },
+      {
+        "label": "Opinion",
+        "href": "https://www.foxnews.com/category/opinion"
+      },
+      {
+        "label": "LIZ PEEK: Why every 'affordable' promise from Democrats ends up costing you more",
+        "href": "https://www.foxnews.com/opinion/liz-peek-why-every-affordable-promise-from-democrats-ends-up-costing-you-more"
+      },
+      {
+        "label": "Democrat-run cities like New York and San Francisco rank among America's most expensive, while Republican-led areas maintain lower living costs. That is very telling about \"affordability.\"",
+        "href": "https://www.foxnews.com/opinion/liz-peek-why-every-affordable-promise-from-democrats-ends-up-costing-you-more"
+      },
+      {
+        "label": "",
+        "href": "https://www.foxnews.com/us/atm-jackpotting-crime-wave-grows-after-thieves-walk-away-hundreds-thousands-cash"
+      },
+      {
+        "label": "Virginia",
+        "href": "https://www.foxnews.com/category/us/us-regions/southeast/virginia"
+      },
+      {
+        "label": "ATM \u2018jackpotting\u2019 crime wave grows after thieves walk away with hundreds of thousands in cash",
+        "href": "https://www.foxnews.com/us/atm-jackpotting-crime-wave-grows-after-thieves-walk-away-hundreds-thousands-cash"
+      },
+      {
+        "label": "Authorities seek public help identifying suspects in Virginia jackpotting scheme that netted nearly $200,000 from Apple Federal Credit Union ATM machine.",
+        "href": "https://www.foxnews.com/us/atm-jackpotting-crime-wave-grows-after-thieves-walk-away-hundreds-thousands-cash"
+      },
+      {
+        "label": "",
+        "href": "https://www.foxnews.com/politics/unlikely-duet-nicki-minaj-un-ambassador-join-voices-against-christian-persecution-nigeria"
+      },
+      {
+        "label": "Nicki Minaj",
+        "href": "https://www.foxnews.com/category/person/nicki-minaj"
+      },
+      {
+        "label": "Rapper Nicki Minaj and UN ambassador join voices against Christian persecution in Nigeria",
+        "href": "https://www.foxnews.com/politics/unlikely-duet-nicki-minaj-un-ambassador-join-voices-against-christian-persecution-nigeria"
+      },
+      {
+        "label": "U.N. Ambassador Mike Waltz teams up with rapper Nicki Minaj to address Christian persecution in Nigeria in an unexpected collaboration that's making headlines.",
+        "href": "https://www.foxnews.com/politics/unlikely-duet-nicki-minaj-un-ambassador-join-voices-against-christian-persecution-nigeria"
+      },
+      {
+        "label": "",
+        "href": "https://www.foxnews.com/politics/david-hoggs-campaigns-aoc-tennessee-flip-ruby-red-district-special-election-looms"
+      },
+      {
+        "label": "2025 Elections Coverage",
+        "href": "https://www.foxnews.com/category/politics/2025-2026-elections-coverage"
+      },
+      {
+        "label": "David Hogg campaigns for the 'AOC of Tennessee' to flip ruby-red district as special election looms",
+        "href": "https://www.foxnews.com/politics/david-hoggs-campaigns-aoc-tennessee-flip-ruby-red-district-special-election-looms"
+      },
+      {
+        "label": "Former Democratic National Committee vice chair David Hogg campaigned for Aftyn Behn in Tennessee's 7th Congressional District special election as Democrats aim to flip the deep-red seat.",
+        "href": "https://www.foxnews.com/politics/david-hoggs-campaigns-aoc-tennessee-flip-ruby-red-district-special-election-looms"
+      },
+      {
+        "label": "",
+        "href": "https://www.foxnews.com/us/nypd-officer-returns-fire-after-getting-shot-police-commissioner-says"
+      },
+      {
+        "label": "New York",
+        "href": "https://www.foxnews.com/category/us/us-regions/northeast/new-york"
+      },
+      {
+        "label": "NYPD officer returns fire after getting shot, police commissioner says",
+        "href": "https://www.foxnews.com/us/nypd-officer-returns-fire-after-getting-shot-police-commissioner-says"
+      },
+      {
+        "label": "Big Apple Police Commissioner Jessica Tisch spoke at a press conference to provide details about the shooting of a police officer on Monday morning",
+        "href": "https://www.foxnews.com/us/nypd-officer-returns-fire-after-getting-shot-police-commissioner-says"
+      },
+      {
+        "label": "",
+        "href": "https://www.foxnews.com/video/6385213139112"
+      },
+      {
+        "label": "VIDEO",
+        "href": "https://www.foxnews.com/video"
+      },
+      {
+        "label": "NYC police commissioner provides details about the shooting of an NYPD officer",
+        "href": "https://www.foxnews.com/video/6385213139112"
+      },
+      {
+        "label": "New York City Police Commissioner Jessica Tisch provided details about the Monday morning shooting of a police officer. (Credit: @nypd via YouTube)",
+        "href": "https://www.foxnews.com/video/6385213139112"
+      },
+      {
+        "label": "",
+        "href": "https://www.foxnews.com/politics/gen-z-firebrand-challenges-establishment-giant-nycs-chi-osse-launches-primary-bid-against-hakeem-jeffries"
+      },
+      {
+        "label": "Democratic Party",
+        "href": "https://www.foxnews.com/category/us/democratic-party"
+      },
+      {
+        "label": "Gen Z firebrand challenges establishment giant: NYC\u2019s Chi Oss\u00e9 tees up primary bid against Hakeem Jeffries",
+        "href": "https://www.foxnews.com/politics/gen-z-firebrand-challenges-establishment-giant-nycs-chi-osse-launches-primary-bid-against-hakeem-jeffries"
+      },
+      {
+        "label": "Far-left Gen Z activist Chi Oss\u00e9 filed paperwork against House Minority Leader Hakeem Jeffries, D-N.Y., marking a generational split within Democratic Party.",
+        "href": "https://www.foxnews.com/politics/gen-z-firebrand-challenges-establishment-giant-nycs-chi-osse-launches-primary-bid-against-hakeem-jeffries"
+      },
+      {
+        "label": "",
+        "href": "https://www.foxnews.com/politics/federal-judge-orders-doj-hand-over-grand-jury-material"
+      },
+      {
+        "label": "Justice Department",
+        "href": "https://www.foxnews.com/category/politics/justice-department"
+      },
+      {
+        "label": "Judge orders DOJ to give Comey grand jury records, citing prosecutor's misconduct",
+        "href": "https://www.foxnews.com/politics/federal-judge-orders-doj-hand-over-grand-jury-material"
+      },
+      {
+        "label": "A federal judge criticized the DOJ for mishandling evidence in former FBI Director James Comey's case and warned the indictment could be dismissed due to tainted proceedings.",
+        "href": "https://www.foxnews.com/politics/federal-judge-orders-doj-hand-over-grand-jury-material"
+      },
+      {
+        "label": "",
+        "href": "https://www.foxnews.com/video/6385204229112"
+      },
+      {
+        "label": "VIDEO",
+        "href": "https://www.foxnews.com/video"
+      },
+      {
+        "label": "Turning Point USA hands out \u2018Freedom\u2019 shirts at New York City UFC event",
+        "href": "https://www.foxnews.com/video/6385204229112"
+      },
+      {
+        "label": "Podcaster Benny Johnson joins \u2018Fox & Friends\u2019 to discuss how Turning Point USA honored Charlie Kirk at a UFC event in New York City.",
+        "href": "https://www.foxnews.com/video/6385204229112"
+      },
+      {
+        "label": "",
+        "href": "https://www.foxnews.com/sports/nypd-releases-photos-suspect-shooting-jets-player-kris-boyd"
+      },
+      {
+        "label": "New York Jets",
+        "href": "https://www.foxnews.com/category/sports/nfl/new-york-jets"
+      },
+      {
+        "label": "NYPD releases photos of suspect in shooting of Jets player Kris Boyd",
+        "href": "https://www.foxnews.com/sports/nypd-releases-photos-suspect-shooting-jets-player-kris-boyd"
+      },
+      {
+        "label": "The NYPD released photos of a suspect in the shooting of New York Jets cornerback and special teams player Kris Boyd on Monday morning.",
+        "href": "https://www.foxnews.com/sports/nypd-releases-photos-suspect-shooting-jets-player-kris-boyd"
+      },
+      {
+        "label": "",
+        "href": "https://www.foxnews.com/politics/trump-says-mamdani-meeting-works-well-work-something-out"
+      },
+      {
+        "label": "Donald Trump",
+        "href": "https://www.foxnews.com/category/person/donald-trump"
+      },
+      {
+        "label": "Trump says Mamdani meeting in the works: 'We'll work something out'",
+        "href": "https://www.foxnews.com/politics/trump-says-mamdani-meeting-works-well-work-something-out"
+      },
+      {
+        "label": "President Donald Trump announced a potential White House meeting with NYC Mayor-elect Zohran Mamdani despite threats to cut federal funding.",
+        "href": "https://www.foxnews.com/politics/trump-says-mamdani-meeting-works-well-work-something-out"
+      },
+      {
+        "label": "",
+        "href": "https://www.foxnews.com/media/seattles-socialist-mayor-may-less-constrained-than-mamdani-washington-post-warns"
+      },
+      {
+        "label": "Media",
+        "href": "https://www.foxnews.com/category/media"
+      },
+      {
+        "label": "Seattle's socialist mayor may be 'less constrained' than Mamdani, Washington Post warns",
+        "href": "https://www.foxnews.com/media/seattles-socialist-mayor-may-less-constrained-than-mamdani-washington-post-warns"
+      },
+      {
+        "label": "The Washington Post editorial board suggested Sunday that Seattle Mayor-elect Katie Wilson may be less restrained than New York City Mayor-elect Zohran Mamdani.",
+        "href": "https://www.foxnews.com/media/seattles-socialist-mayor-may-less-constrained-than-mamdani-washington-post-warns"
+      },
+      {
+        "label": "",
+        "href": "https://www.foxnews.com/us/10-year-old-boy-among-dead-following-nj-shooting-killed-injured"
+      },
+      {
+        "label": "Homicide",
+        "href": "https://www.foxnews.com/category/us/crime/homicide"
+      },
+      {
+        "label": "10-year-old boy among dead following NJ shooting that killed 2, injured 3",
+        "href": "https://www.foxnews.com/us/10-year-old-boy-among-dead-following-nj-shooting-killed-injured"
+      },
+      {
+        "label": "Deadly Newark shooting claims two lives, injures three others. Mayor calls incident 'senseless' as authorities search for suspect in South Ward attack.",
+        "href": "https://www.foxnews.com/us/10-year-old-boy-among-dead-following-nj-shooting-killed-injured"
+      },
+      {
+        "label": "",
+        "href": "https://www.foxnews.com/food-drink/streateries-face-steep-new-rules-major-us-city-others-follow"
+      },
+      {
+        "label": "Food-Drink",
+        "href": "https://www.foxnews.com/category/food-drink"
+      },
+      {
+        "label": "'Streateries' face steep new rules in major US city; will others follow?",
+        "href": "https://www.foxnews.com/food-drink/streateries-face-steep-new-rules-major-us-city-others-follow"
+      },
+      {
+        "label": "Cities nationwide are cracking down on outdoor dining as pandemic freedoms end, with Washington, D.C., reportedly joining New York and Philadelphia in imposing steep fees.",
+        "href": "https://www.foxnews.com/food-drink/streateries-face-steep-new-rules-major-us-city-others-follow"
+      },
+      {
+        "label": "",
+        "href": "https://www.foxnews.com/politics/zohran-mamdani-tells-1m-social-media-followers-boycott-starbucks-ongoing-worker-strike"
+      },
+      {
+        "label": "Labor Unions",
+        "href": "https://www.foxnews.com/category/us/economy/labor-unions"
+      },
+      {
+        "label": "Zohran Mamdani tells 1M social media followers to boycott Starbucks amid ongoing worker strike",
+        "href": "https://www.foxnews.com/politics/zohran-mamdani-tells-1m-social-media-followers-boycott-starbucks-ongoing-worker-strike"
+      },
+      {
+        "label": "A major Starbucks union strike on Thursday coincided with the chain's popular Red Cup Day as NYC's incoming mayor, Zohran Mamdani, backs a worker boycott.",
+        "href": "https://www.foxnews.com/politics/zohran-mamdani-tells-1m-social-media-followers-boycott-starbucks-ongoing-worker-strike"
+      },
+      {
+        "label": "",
+        "href": "https://www.foxnews.com/video/6385274532112"
+      },
+      {
+        "label": "0:03:56",
+        "href": "https://www.foxnews.com/video/6385274532112"
+      },
+      {
+        "label": "'The Five': Bill Maher says AOC could be a 'fantastic' presidential candidate but needs 'deprogramming'",
+        "href": "https://www.foxnews.com/video/6385274532112"
+      },
+      {
+        "label": "",
+        "href": "https://www.foxnews.com/video/6385254467112"
+      },
+      {
+        "label": "0:03:54",
+        "href": "https://www.foxnews.com/video/6385254467112"
+      },
+      {
+        "label": "Nicki Minaj joining forces with Trump admin at UN",
+        "href": "https://www.foxnews.com/video/6385254467112"
+      },
+      {
+        "label": "",
+        "href": "https://www.foxnews.com/video/6385188973112"
+      },
+      {
+        "label": "0:05:17",
+        "href": "https://www.foxnews.com/video/6385188973112"
+      },
+      {
+        "label": "History-making week: Longest government shutdown in history ends",
+        "href": "https://www.foxnews.com/video/6385188973112"
+      },
+      {
+        "label": "",
+        "href": "https://www.foxnews.com/video/6385081082112"
+      },
+      {
+        "label": "0:11:26",
+        "href": "https://www.foxnews.com/video/6385081082112"
+      },
+      {
+        "label": "Democrats will try to 'screw up' everything Trump has set in motion if they regain power, says JD Vance",
+        "href": "https://www.foxnews.com/video/6385081082112"
+      },
+      {
+        "label": "",
+        "href": "https://www.foxnews.com/video/6385073471112"
+      },
+      {
+        "label": "0:04:03",
+        "href": "https://www.foxnews.com/video/6385073471112"
+      },
+      {
+        "label": "Kamala's 'ego' cannot stop her from running for president again: Kayleigh McEnany",
+        "href": "https://www.foxnews.com/video/6385073471112"
+      },
+      {
+        "label": "U.S.",
+        "href": "https://www.foxnews.com/us"
+      },
+      {
+        "label": "Blue City Crime",
+        "href": "https://www.foxnews.com/category/us/blue-city-crime"
+      },
+      {
+        "label": "Campus Radicals",
+        "href": "https://www.foxnews.com/category/us/campus-radicals"
+      },
+      {
+        "label": "Border Crisis",
+        "href": "https://www.foxnews.com/category/us/immigration"
+      },
+      {
+        "label": "True Crime",
+        "href": "https://www.foxnews.com/true-crime"
+      },
+      {
+        "label": "Politics",
+        "href": "https://www.foxnews.com/politics"
+      },
+      {
+        "label": "Donald Trump",
+        "href": "https://www.foxnews.com/category/person/donald-trump"
+      },
+      {
+        "label": "Senate",
+        "href": "https://www.foxnews.com/category/politics/senate"
+      },
+      {
+        "label": "House",
+        "href": "https://www.foxnews.com/category/politics/house-of-representatives"
+      },
+      {
+        "label": "Judiciary",
+        "href": "https://www.foxnews.com/category/politics/judiciary"
+      },
+      {
+        "label": "Foreign Policy",
+        "href": "https://www.foxnews.com/category/politics/foreign-policy"
+      },
+      {
+        "label": "Fox News Polls",
+        "href": "https://www.foxnews.com/official-polls"
+      },
+      {
+        "label": "2025 Elections Coverage",
+        "href": "https://www.foxnews.com/elections"
+      },
+      {
+        "label": "World",
+        "href": "https://www.foxnews.com/world"
+      },
+      {
+        "label": "U.N.",
+        "href": "https://www.foxnews.com/category/world/united-nations"
+      },
+      {
+        "label": "Conflicts",
+        "href": "https://www.foxnews.com/category/world/conflicts"
+      },
+      {
+        "label": "Terrorism",
+        "href": "https://www.foxnews.com/category/world/terrorism"
+      },
+      {
+        "label": "Disasters",
+        "href": "https://www.foxnews.com/category/disasters"
+      },
+      {
+        "label": "Global Economy",
+        "href": "https://www.foxnews.com/category/world/global-economy"
+      },
+      {
+        "label": "Environment",
+        "href": "https://www.foxnews.com/category/environment"
+      },
+      {
+        "label": "Religion",
+        "href": "https://www.foxnews.com/category/world/religion"
+      },
+      {
+        "label": "Scandals",
+        "href": "https://www.foxnews.com/category/world/scandals"
+      },
+      {
+        "label": "Opinion",
+        "href": "https://www.foxnews.com/opinion"
+      },
+      {
+        "label": "Media",
+        "href": "https://www.foxnews.com/media"
+      },
+      {
+        "label": "FOX Nation Coverage",
+        "href": "https://www.foxnews.com/shows/fox-nation"
+      },
+      {
+        "label": "Entertainment",
+        "href": "https://www.foxnews.com/entertainment"
+      },
+      {
+        "label": "Prince Andrew",
+        "href": "https://www.foxnews.com/category/person/prince-andrew"
+      },
+      {
+        "label": "Katy Perry",
+        "href": "https://www.foxnews.com/category/person/katy-perry"
+      },
+      {
+        "label": "Royal Families",
+        "href": "https://www.foxnews.com/category/world/personalities/british-royals"
+      },
+      {
+        "label": "Country Music",
+        "href": "https://www.foxnews.com/category/entertainment/genres/country"
+      },
+      {
+        "label": "Nicole Kidman",
+        "href": "https://www.foxnews.com/category/person/nicole-kidman"
+      },
+      {
+        "label": "Sports",
+        "href": "https://www.foxnews.com/sports"
+      },
+      {
+        "label": "NFL",
+        "href": "https://www.foxnews.com/category/sports/nfl"
+      },
+      {
+        "label": "College Football",
+        "href": "https://www.foxnews.com/category/sports/ncaa-fb"
+      },
+      {
+        "label": "MLB",
+        "href": "https://www.foxnews.com/category/sports/mlb"
+      },
+      {
+        "label": "NASCAR",
+        "href": "https://www.foxnews.com/category/auto/nascar"
+      },
+      {
+        "label": "INDYCAR",
+        "href": "https://www.foxnews.com/category/auto/indycar"
+      },
+      {
+        "label": "NBA",
+        "href": "https://www.foxnews.com/category/sports/nba"
+      },
+      {
+        "label": "NHL",
+        "href": "https://www.foxnews.com/category/sports/nhl"
+      },
+      {
+        "label": "Golf",
+        "href": "https://www.foxnews.com/category/sports/golf"
+      },
+      {
+        "label": "Tennis",
+        "href": "https://www.foxnews.com/category/sports/tennis"
+      },
+      {
+        "label": "UFC",
+        "href": "https://www.foxnews.com/category/sports/ufc"
+      },
+      {
+        "label": "WWE",
+        "href": "https://www.foxnews.com/category/organization/wwe"
+      },
+      {
+        "label": "Lifestyle",
+        "href": "https://www.foxnews.com/lifestyle"
+      },
+      {
+        "label": "Travel",
+        "href": "https://www.foxnews.com/travel"
+      },
+      {
+        "label": "Food & Drink",
+        "href": "https://www.foxnews.com/food-drink"
+      },
+      {
+        "label": "Faith",
+        "href": "https://www.foxnews.com/faith-values"
+      },
+      {
+        "label": "Discovery",
+        "href": "https://www.foxnews.com/category/science/archaeology"
+      },
+      {
+        "label": "Games & Quizzes",
+        "href": "https://www.foxnews.com/games"
+      },
+      {
+        "label": "Health",
+        "href": "https://www.foxnews.com/health"
+      },
+      {
+        "label": "Weight Loss",
+        "href": "https://www.foxnews.com/category/health/nutrition-and-fitness/weight-loss"
+      },
+      {
+        "label": "Cancer",
+        "href": "https://www.foxnews.com/category/health/cancer"
+      },
+      {
+        "label": "Brain Health",
+        "href": "https://www.foxnews.com/category/health/brain-health"
+      },
+      {
+        "label": "Sleep",
+        "href": "https://www.foxnews.com/category/health/sleep-disorders"
+      },
+      {
+        "label": "Heart Health",
+        "href": "https://www.foxnews.com/category/health/heart-health"
+      },
+      {
+        "label": "Healthy Living",
+        "href": "https://www.foxnews.com/category/health/healthy-living"
+      },
+      {
+        "label": "Mental Health",
+        "href": "https://www.foxnews.com/category/health/mental-health"
+      },
+      {
+        "label": "MAHA",
+        "href": "https://www.foxnews.com/category/health/maha"
+      },
+      {
+        "label": "Deals",
+        "href": "https://www.foxnews.com/deals"
+      },
+      {
+        "label": "Holiday Shopping",
+        "href": "https://www.foxnews.com/category/deals/trending"
+      },
+      {
+        "label": "Gift Guides",
+        "href": "https://www.foxnews.com/category/deals/gift"
+      },
+      {
+        "label": "Home Deals",
+        "href": "https://www.foxnews.com/category/deals/home"
+      },
+      {
+        "label": "Kitchen Deals",
+        "href": "https://www.foxnews.com/category/deals/kitchen"
+      },
+      {
+        "label": "Tech and Electronic Deals",
+        "href": "https://www.foxnews.com/category/deals/tech-and-electronic"
+      },
+      {
+        "label": "Health and Fitness Deals",
+        "href": "https://www.foxnews.com/category/deals/health-and-fitness"
+      },
+      {
+        "label": "Beauty and Fashion Deals",
+        "href": "https://www.foxnews.com/category/deals/beauty-and-fashion"
+      },
+      {
+        "label": "Science & Tech",
+        "href": "https://www.foxnews.com/tech"
+      },
+      {
+        "label": "Air & Space",
+        "href": "https://www.foxnews.com/category/science/air-and-space"
+      },
+      {
+        "label": "Security",
+        "href": "https://www.foxnews.com/category/tech/topics/security"
+      },
+      {
+        "label": "Innovation",
+        "href": "https://www.foxnews.com/category/tech/topics/innovation"
+      },
+      {
+        "label": "Video Games",
+        "href": "https://www.foxnews.com/category/tech/topics/video-games"
+      },
+      {
+        "label": "Military Tech",
+        "href": "https://www.foxnews.com/category/tech/topics/military-tech"
+      },
+      {
+        "label": "Planet Earth",
+        "href": "https://www.foxnews.com/category/science/planet-earth"
+      },
+      {
+        "label": "Wild Nature",
+        "href": "https://www.foxnews.com/category/science/wild-nature"
+      },
+      {
+        "label": "Games",
+        "href": "https://www.foxnews.com/games"
+      },
+      {
+        "label": "Scattergories Daily",
+        "href": "https://www.foxnews.com/games/scattergories-daily"
+      },
+      {
+        "label": "5 Across the Letter Word Game",
+        "href": "https://www.foxnews.com/games/5-across-word-game"
+      },
+      {
+        "label": "Downwords",
+        "href": "https://www.foxnews.com/games/lil-snack-downwords"
+      },
+      {
+        "label": "Sudoku",
+        "href": "https://www.foxnews.com/games/sudoku"
+      },
+      {
+        "label": "Word Swap",
+        "href": "https://www.foxnews.com/games/lil-snack-word-swap"
+      },
+      {
+        "label": "Word Search",
+        "href": "https://www.foxnews.com/games/word-search"
+      },
+      {
+        "label": "Icon Match",
+        "href": "https://www.foxnews.com/games/icon-match-puzzle"
+      },
+      {
+        "label": "Daily Crossword Puzzle",
+        "href": "https://www.foxnews.com/games/daily-crossword-puzzle"
+      },
+      {
+        "label": "Mini Crossword Puzzle",
+        "href": "https://www.foxnews.com/games/mini-crossword-puzzle"
+      },
+      {
+        "label": "Watch Live",
+        "href": "https://www.foxnews.com/video/5614615980001"
+      },
+      {
+        "label": "FOX News Shows",
+        "href": "https://www.foxnews.com/shows"
+      },
+      {
+        "label": "Programming Schedule",
+        "href": "https://www.foxnews.com/fnctv"
+      },
+      {
+        "label": "On Air Personalities",
+        "href": "https://www.foxnews.com/person/personalities"
+      },
+      {
+        "label": "Full Episodes",
+        "href": "https://www.foxnews.com/video/shows"
+      },
+      {
+        "label": "Show Clips",
+        "href": "https://www.foxnews.com/video/topics/v-most-recent-episodes"
+      },
+      {
+        "label": "News Clips",
+        "href": "https://www.foxnews.com/video/topics/latest-news-video"
+      },
+      {
+        "label": "About",
+        "href": "https://www.foxnews.com/about"
+      },
+      {
+        "label": "Contact Us",
+        "href": "https://www.foxnews.com/contact"
+      },
+      {
+        "label": "Fox Around the World",
+        "href": "https://www.foxnews.com/story/where-in-the-world-is-fox"
+      },
+      {
+        "label": "Compliance",
+        "href": "https://www.foxnews.com/compliance"
+      },
+      {
+        "label": "Apps & Products",
+        "href": "https://www.foxnews.com/apps-products"
+      },
+      {
+        "label": "FOX News Go",
+        "href": "https://www.foxnews.com/go"
+      },
+      {
+        "label": "FOX Nation",
+        "href": "https://www.foxnews.com/shows/fox-nation"
+      },
+      {
+        "label": "Newsletters",
+        "href": "https://www.foxnews.com/newsletters"
+      },
+      {
+        "label": "U.S.",
+        "href": "https://www.foxnews.com/us"
+      },
+      {
+        "label": "Blue City Crime",
+        "href": "https://www.foxnews.com/category/us/blue-city-crime"
+      },
+      {
+        "label": "Campus Radicals",
+        "href": "https://www.foxnews.com/category/us/campus-radicals"
+      },
+      {
+        "label": "Border Crisis",
+        "href": "https://www.foxnews.com/category/us/immigration"
+      },
+      {
+        "label": "True Crime",
+        "href": "https://www.foxnews.com/true-crime"
+      },
+      {
+        "label": "Politics",
+        "href": "https://www.foxnews.com/politics"
+      },
+      {
+        "label": "Donald Trump",
+        "href": "https://www.foxnews.com/category/person/donald-trump"
+      },
+      {
+        "label": "Senate",
+        "href": "https://www.foxnews.com/category/politics/senate"
+      },
+      {
+        "label": "House",
+        "href": "https://www.foxnews.com/category/politics/house-of-representatives"
+      },
+      {
+        "label": "Judiciary",
+        "href": "https://www.foxnews.com/category/politics/judiciary"
+      },
+      {
+        "label": "Foreign Policy",
+        "href": "https://www.foxnews.com/category/politics/foreign-policy"
+      },
+      {
+        "label": "Fox News Polls",
+        "href": "https://www.foxnews.com/official-polls"
+      },
+      {
+        "label": "2025 Elections Coverage",
+        "href": "https://www.foxnews.com/elections"
+      },
+      {
+        "label": "World",
+        "href": "https://www.foxnews.com/world"
+      },
+      {
+        "label": "U.N.",
+        "href": "https://www.foxnews.com/category/world/united-nations"
+      },
+      {
+        "label": "Conflicts",
+        "href": "https://www.foxnews.com/category/world/conflicts"
+      },
+      {
+        "label": "Terrorism",
+        "href": "https://www.foxnews.com/category/world/terrorism"
+      },
+      {
+        "label": "Disasters",
+        "href": "https://www.foxnews.com/category/disasters"
+      },
+      {
+        "label": "Global Economy",
+        "href": "https://www.foxnews.com/category/world/global-economy"
+      },
+      {
+        "label": "Environment",
+        "href": "https://www.foxnews.com/category/environment"
+      },
+      {
+        "label": "Religion",
+        "href": "https://www.foxnews.com/category/world/religion"
+      },
+      {
+        "label": "Scandals",
+        "href": "https://www.foxnews.com/category/world/scandals"
+      },
+      {
+        "label": "Opinion",
+        "href": "https://www.foxnews.com/opinion"
+      },
+      {
+        "label": "Media",
+        "href": "https://www.foxnews.com/media"
+      },
+      {
+        "label": "FOX Nation Coverage",
+        "href": "https://www.foxnews.com/shows/fox-nation"
+      },
+      {
+        "label": "Entertainment",
+        "href": "https://www.foxnews.com/entertainment"
+      },
+      {
+        "label": "Prince Andrew",
+        "href": "https://www.foxnews.com/category/person/prince-andrew"
+      },
+      {
+        "label": "Katy Perry",
+        "href": "https://www.foxnews.com/category/person/katy-perry"
+      },
+      {
+        "label": "Royal Families",
+        "href": "https://www.foxnews.com/category/world/personalities/british-royals"
+      },
+      {
+        "label": "Country Music",
+        "href": "https://www.foxnews.com/category/entertainment/genres/country"
+      },
+      {
+        "label": "Nicole Kidman",
+        "href": "https://www.foxnews.com/category/person/nicole-kidman"
+      },
+      {
+        "label": "Sports",
+        "href": "https://www.foxnews.com/sports"
+      },
+      {
+        "label": "NFL",
+        "href": "https://www.foxnews.com/category/sports/nfl"
+      },
+      {
+        "label": "College Football",
+        "href": "https://www.foxnews.com/category/sports/ncaa-fb"
+      },
+      {
+        "label": "MLB",
+        "href": "https://www.foxnews.com/category/sports/mlb"
+      },
+      {
+        "label": "NASCAR",
+        "href": "https://www.foxnews.com/category/auto/nascar"
+      },
+      {
+        "label": "INDYCAR",
+        "href": "https://www.foxnews.com/category/auto/indycar"
+      },
+      {
+        "label": "NBA",
+        "href": "https://www.foxnews.com/category/sports/nba"
+      },
+      {
+        "label": "NHL",
+        "href": "https://www.foxnews.com/category/sports/nhl"
+      },
+      {
+        "label": "Golf",
+        "href": "https://www.foxnews.com/category/sports/golf"
+      },
+      {
+        "label": "Tennis",
+        "href": "https://www.foxnews.com/category/sports/tennis"
+      },
+      {
+        "label": "UFC",
+        "href": "https://www.foxnews.com/category/sports/ufc"
+      },
+      {
+        "label": "WWE",
+        "href": "https://www.foxnews.com/category/organization/wwe"
+      },
+      {
+        "label": "Lifestyle",
+        "href": "https://www.foxnews.com/lifestyle"
+      },
+      {
+        "label": "Travel",
+        "href": "https://www.foxnews.com/travel"
+      },
+      {
+        "label": "Food & Drink",
+        "href": "https://www.foxnews.com/food-drink"
+      },
+      {
+        "label": "Faith",
+        "href": "https://www.foxnews.com/faith-values"
+      },
+      {
+        "label": "Discovery",
+        "href": "https://www.foxnews.com/category/science/archaeology"
+      },
+      {
+        "label": "Games & Quizzes",
+        "href": "https://www.foxnews.com/games"
+      },
+      {
+        "label": "Health",
+        "href": "https://www.foxnews.com/health"
+      },
+      {
+        "label": "Weight Loss",
+        "href": "https://www.foxnews.com/category/health/nutrition-and-fitness/weight-loss"
+      },
+      {
+        "label": "Cancer",
+        "href": "https://www.foxnews.com/category/health/cancer"
+      },
+      {
+        "label": "Brain Health",
+        "href": "https://www.foxnews.com/category/health/brain-health"
+      },
+      {
+        "label": "Sleep",
+        "href": "https://www.foxnews.com/category/health/sleep-disorders"
+      },
+      {
+        "label": "Heart Health",
+        "href": "https://www.foxnews.com/category/health/heart-health"
+      },
+      {
+        "label": "Healthy Living",
+        "href": "https://www.foxnews.com/category/health/healthy-living"
+      },
+      {
+        "label": "Mental Health",
+        "href": "https://www.foxnews.com/category/health/mental-health"
+      },
+      {
+        "label": "MAHA",
+        "href": "https://www.foxnews.com/category/health/maha"
+      },
+      {
+        "label": "Deals",
+        "href": "https://www.foxnews.com/deals"
+      },
+      {
+        "label": "Holiday Shopping",
+        "href": "https://www.foxnews.com/category/deals/trending"
+      },
+      {
+        "label": "Gift Guides",
+        "href": "https://www.foxnews.com/category/deals/gift"
+      },
+      {
+        "label": "Home Deals",
+        "href": "https://www.foxnews.com/category/deals/home"
+      },
+      {
+        "label": "Kitchen Deals",
+        "href": "https://www.foxnews.com/category/deals/kitchen"
+      },
+      {
+        "label": "Tech and Electronic Deals",
+        "href": "https://www.foxnews.com/category/deals/tech-and-electronic"
+      },
+      {
+        "label": "Health and Fitness Deals",
+        "href": "https://www.foxnews.com/category/deals/health-and-fitness"
+      },
+      {
+        "label": "Beauty and Fashion Deals",
+        "href": "https://www.foxnews.com/category/deals/beauty-and-fashion"
+      },
+      {
+        "label": "Science & Tech",
+        "href": "https://www.foxnews.com/tech"
+      },
+      {
+        "label": "Air & Space",
+        "href": "https://www.foxnews.com/category/science/air-and-space"
+      },
+      {
+        "label": "Security",
+        "href": "https://www.foxnews.com/category/tech/topics/security"
+      },
+      {
+        "label": "Innovation",
+        "href": "https://www.foxnews.com/category/tech/topics/innovation"
+      },
+      {
+        "label": "Video Games",
+        "href": "https://www.foxnews.com/category/tech/topics/video-games"
+      },
+      {
+        "label": "Military Tech",
+        "href": "https://www.foxnews.com/category/tech/topics/military-tech"
+      },
+      {
+        "label": "Planet Earth",
+        "href": "https://www.foxnews.com/category/science/planet-earth"
+      },
+      {
+        "label": "Wild Nature",
+        "href": "https://www.foxnews.com/category/science/wild-nature"
+      },
+      {
+        "label": "Games",
+        "href": "https://www.foxnews.com/games"
+      },
+      {
+        "label": "Scattergories Daily",
+        "href": "https://www.foxnews.com/games/scattergories-daily"
+      },
+      {
+        "label": "5 Across the Letter Word Game",
+        "href": "https://www.foxnews.com/games/5-across-word-game"
+      },
+      {
+        "label": "Downwords",
+        "href": "https://www.foxnews.com/games/lil-snack-downwords"
+      },
+      {
+        "label": "Sudoku",
+        "href": "https://www.foxnews.com/games/sudoku"
+      },
+      {
+        "label": "Word Swap",
+        "href": "https://www.foxnews.com/games/lil-snack-word-swap"
+      },
+      {
+        "label": "Word Search",
+        "href": "https://www.foxnews.com/games/word-search"
+      },
+      {
+        "label": "Icon Match",
+        "href": "https://www.foxnews.com/games/icon-match-puzzle"
+      },
+      {
+        "label": "Daily Crossword Puzzle",
+        "href": "https://www.foxnews.com/games/daily-crossword-puzzle"
+      },
+      {
+        "label": "Mini Crossword Puzzle",
+        "href": "https://www.foxnews.com/games/mini-crossword-puzzle"
+      },
+      {
+        "label": "Watch Live",
+        "href": "https://www.foxnews.com/video/5614615980001"
+      },
+      {
+        "label": "FOX News Shows",
+        "href": "https://www.foxnews.com/shows"
+      },
+      {
+        "label": "Programming Schedule",
+        "href": "https://www.foxnews.com/fnctv"
+      },
+      {
+        "label": "On Air Personalities",
+        "href": "https://www.foxnews.com/person/personalities"
+      },
+      {
+        "label": "Full Episodes",
+        "href": "https://www.foxnews.com/video/shows"
+      },
+      {
+        "label": "Show Clips",
+        "href": "https://www.foxnews.com/video/topics/v-most-recent-episodes"
+      },
+      {
+        "label": "News Clips",
+        "href": "https://www.foxnews.com/video/topics/latest-news-video"
+      },
+      {
+        "label": "About",
+        "href": "https://www.foxnews.com/about"
+      },
+      {
+        "label": "Contact Us",
+        "href": "https://www.foxnews.com/contact"
+      },
+      {
+        "label": "Fox Around the World",
+        "href": "https://www.foxnews.com/story/where-in-the-world-is-fox"
+      },
+      {
+        "label": "Compliance",
+        "href": "https://www.foxnews.com/compliance"
+      },
+      {
+        "label": "Apps & Products",
+        "href": "https://www.foxnews.com/apps-products"
+      },
+      {
+        "label": "FOX News Go",
+        "href": "https://www.foxnews.com/go"
+      },
+      {
+        "label": "FOX Nation",
+        "href": "https://www.foxnews.com/shows/fox-nation"
+      },
+      {
+        "label": "Newsletters",
+        "href": "https://www.foxnews.com/newsletters"
+      },
+      {
+        "label": "RSS",
+        "href": "https://www.foxnews.com/story/foxnews-com-rss-feeds"
+      },
+      {
+        "label": "Newsletters",
+        "href": "https://www.foxnews.com/newsletters"
+      },
+      {
+        "label": "Fox News",
+        "href": "https://www.foxnews.com"
+      },
+      {
+        "label": "Terms of Use",
+        "href": "https://www.foxnews.com/terms-of-use"
+      },
+      {
+        "label": "Privacy Policy",
+        "href": "https://www.foxnews.com/privacy-policy"
+      },
+      {
+        "label": "Closed Caption Policy",
+        "href": "https://www.foxnews.com/closed-captioning"
+      },
+      {
+        "label": "Contact Us",
+        "href": "https://www.foxnews.com/contact"
+      },
+      {
+        "label": "Accessibility Statement",
+        "href": "https://www.foxnews.com/accessibility-statement"
+      },
+      {
+        "label": "News Sitemap",
+        "href": "https://www.foxnews.com/html-sitemap"
+      },
+      {
+        "label": "Video Sitemap",
+        "href": "https://www.foxnews.com/html-video-sitemap"
+      }
+    ],
+    "external": [
+      {
+        "label": "Fox Business",
+        "href": "https://www.foxbusiness.com/"
+      },
+      {
+        "label": "Fox Nation",
+        "href": "https://nation.foxnews.com/"
+      },
+      {
+        "label": "Fox News Audio",
+        "href": "https://radio.foxnews.com/"
+      },
+      {
+        "label": "Fox Weather",
+        "href": "https://www.foxweather.com/"
+      },
+      {
+        "label": "Outkick",
+        "href": "https://www.outkick.com/"
+      },
+      {
+        "label": "Fox Noticias",
+        "href": "https://noticias.foxnews.com/"
+      },
+      {
+        "label": "FIFA WORLD CUP 26",
+        "href": "https://www.foxsports.com/soccer/fifa-world-cup"
+      },
+      {
+        "label": "FOX Business",
+        "href": "https://www.foxbusiness.com/"
+      },
+      {
+        "label": "Economy",
+        "href": "https://www.foxbusiness.com/economy"
+      },
+      {
+        "label": "Personal Finance",
+        "href": "https://www.foxbusiness.com/personal-finance"
+      },
+      {
+        "label": "Markets",
+        "href": "https://www.foxbusiness.com/markets"
+      },
+      {
+        "label": "Watchlist",
+        "href": "https://www.foxbusiness.com/watchlist"
+      },
+      {
+        "label": "Lifestyle",
+        "href": "https://www.foxbusiness.com/lifestyle"
+      },
+      {
+        "label": "Real Estate",
+        "href": "https://www.foxbusiness.com/real-estate"
+      },
+      {
+        "label": "Tech",
+        "href": "https://www.foxbusiness.com/technology"
+      },
+      {
+        "label": "FOX Weather",
+        "href": "https://www.foxweather.com"
+      },
+      {
+        "label": "FOX Nation",
+        "href": "https://nation.foxnews.com"
+      },
+      {
+        "label": "FOX Noticias",
+        "href": "https://noticias.foxnews.com/shows/fox-noticias"
+      },
+      {
+        "label": "FOX News Shop",
+        "href": "https://shop.foxnews.com/"
+      },
+      {
+        "label": "FOX News Radio",
+        "href": "https://radio.foxnews.com"
+      },
+      {
+        "label": "Outkick",
+        "href": "https://www.outkick.com"
+      },
+      {
+        "label": "Podcasts",
+        "href": "https://radio.foxnews.com/podcast"
+      },
+      {
+        "label": "FOX Business",
+        "href": "https://www.foxbusiness.com/"
+      },
+      {
+        "label": "Economy",
+        "href": "https://www.foxbusiness.com/economy"
+      },
+      {
+        "label": "Personal Finance",
+        "href": "https://www.foxbusiness.com/personal-finance"
+      },
+      {
+        "label": "Markets",
+        "href": "https://www.foxbusiness.com/markets"
+      },
+      {
+        "label": "Watchlist",
+        "href": "https://www.foxbusiness.com/watchlist"
+      },
+      {
+        "label": "Lifestyle",
+        "href": "https://www.foxbusiness.com/lifestyle"
+      },
+      {
+        "label": "Real Estate",
+        "href": "https://www.foxbusiness.com/real-estate"
+      },
+      {
+        "label": "Tech",
+        "href": "https://www.foxbusiness.com/technology"
+      },
+      {
+        "label": "FOX Weather",
+        "href": "https://www.foxweather.com"
+      },
+      {
+        "label": "FOX Nation",
+        "href": "https://nation.foxnews.com"
+      },
+      {
+        "label": "FOX Noticias",
+        "href": "https://noticias.foxnews.com/shows/fox-noticias"
+      },
+      {
+        "label": "FOX News Shop",
+        "href": "https://shop.foxnews.com/"
+      },
+      {
+        "label": "FOX News Radio",
+        "href": "https://radio.foxnews.com"
+      },
+      {
+        "label": "Outkick",
+        "href": "https://www.outkick.com"
+      },
+      {
+        "label": "Podcasts",
+        "href": "https://radio.foxnews.com/podcast"
+      },
+      {
+        "label": "Facebook",
+        "href": "https://www.facebook.com/FoxNews"
+      },
+      {
+        "label": "Twitter",
+        "href": "https://twitter.com/foxnews"
+      },
+      {
+        "label": "Instagram",
+        "href": "https://www.instagram.com/foxnews/"
+      },
+      {
+        "label": "Your Privacy Choices",
+        "href": "http://privacy.foxnews.com/main/web/main"
+      },
+      {
+        "label": "Help",
+        "href": "https://help.foxnews.com"
+      },
+      {
+        "label": "Factset",
+        "href": "https://www.factset.com/"
+      },
+      {
+        "label": "FactSet Digital Solutions",
+        "href": "https://www.factset.com/solutions/business-needs/digital-solutions"
+      },
+      {
+        "label": "Legal Statement",
+        "href": "https://www.factset.com/privacy"
+      },
+      {
+        "label": "Refinitiv Lipper",
+        "href": "https://lipperalpha.refinitiv.com/"
+      },
+      {
+        "label": "FIFA WORLD CUP 26",
+        "href": "https://www.foxsports.com/soccer/fifa-world-cup"
+      },
+      {
+        "label": "FOX Business",
+        "href": "https://www.foxbusiness.com/"
+      },
+      {
+        "label": "Personal Finance",
+        "href": "https://www.foxbusiness.com/personal-finance"
+      },
+      {
+        "label": "Economy",
+        "href": "https://www.foxbusiness.com/economy"
+      },
+      {
+        "label": "Markets",
+        "href": "https://www.foxbusiness.com/markets"
+      },
+      {
+        "label": "Watchlist",
+        "href": "https://www.foxbusiness.com/watchlist"
+      },
+      {
+        "label": "Lifestyle",
+        "href": "https://www.foxbusiness.com/lifestyle"
+      },
+      {
+        "label": "Real Estate",
+        "href": "https://www.foxbusiness.com/real-estate"
+      },
+      {
+        "label": "Tech",
+        "href": "https://www.foxbusiness.com/technology"
+      },
+      {
+        "label": "Careers",
+        "href": "https://foxcareers.com/Search/SearchResults?brand=Fox%20News%20Careers"
+      },
+      {
+        "label": "Advertise With Us",
+        "href": "https://www.foxadvertising.com/fox-news-media/"
+      },
+      {
+        "label": "Media Relations",
+        "href": "https://press.foxnews.com/media-contacts"
+      },
+      {
+        "label": "Corporate Information",
+        "href": "https://press.foxnews.com"
+      },
+      {
+        "label": "FOX Weather",
+        "href": "https://www.foxweather.com"
+      },
+      {
+        "label": "FOX Noticias",
+        "href": "https://noticias.foxnews.com/shows/fox-noticias"
+      },
+      {
+        "label": "FOX News Shop",
+        "href": "https://shop.foxnews.com"
+      },
+      {
+        "label": "FOX News Radio",
+        "href": "https://radio.foxnews.com"
+      },
+      {
+        "label": "Outkick",
+        "href": "https://www.outkick.com"
+      },
+      {
+        "label": "Podcasts",
+        "href": "https://radio.foxnews.com/podcast"
+      },
+      {
+        "label": "FOX One",
+        "href": "https://www.fox.com/?cmpid=org=one::ag=owned::mc=referral::src=fn::cmp=10010071001::add=621a"
+      },
+      {
+        "label": "FIFA WORLD CUP 26",
+        "href": "https://www.foxsports.com/soccer/fifa-world-cup"
+      },
+      {
+        "label": "FOX Business",
+        "href": "https://www.foxbusiness.com/"
+      },
+      {
+        "label": "Personal Finance",
+        "href": "https://www.foxbusiness.com/personal-finance"
+      },
+      {
+        "label": "Economy",
+        "href": "https://www.foxbusiness.com/economy"
+      },
+      {
+        "label": "Markets",
+        "href": "https://www.foxbusiness.com/markets"
+      },
+      {
+        "label": "Watchlist",
+        "href": "https://www.foxbusiness.com/watchlist"
+      },
+      {
+        "label": "Lifestyle",
+        "href": "https://www.foxbusiness.com/lifestyle"
+      },
+      {
+        "label": "Real Estate",
+        "href": "https://www.foxbusiness.com/real-estate"
+      },
+      {
+        "label": "Tech",
+        "href": "https://www.foxbusiness.com/technology"
+      },
+      {
+        "label": "Careers",
+        "href": "https://foxcareers.com/Search/SearchResults?brand=Fox%20News%20Careers"
+      },
+      {
+        "label": "Advertise With Us",
+        "href": "https://www.foxadvertising.com/fox-news-media/"
+      },
+      {
+        "label": "Media Relations",
+        "href": "https://press.foxnews.com/media-contacts"
+      },
+      {
+        "label": "Corporate Information",
+        "href": "https://press.foxnews.com"
+      },
+      {
+        "label": "FOX Weather",
+        "href": "https://www.foxweather.com"
+      },
+      {
+        "label": "FOX Noticias",
+        "href": "https://noticias.foxnews.com/shows/fox-noticias"
+      },
+      {
+        "label": "FOX News Shop",
+        "href": "https://shop.foxnews.com"
+      },
+      {
+        "label": "FOX News Radio",
+        "href": "https://radio.foxnews.com"
+      },
+      {
+        "label": "Outkick",
+        "href": "https://www.outkick.com"
+      },
+      {
+        "label": "Podcasts",
+        "href": "https://radio.foxnews.com/podcast"
+      },
+      {
+        "label": "FOX One",
+        "href": "https://www.fox.com/?cmpid=org=one::ag=owned::mc=referral::src=fn::cmp=10010071001::add=621a"
+      },
+      {
+        "label": "Facebook",
+        "href": "https://www.facebook.com/FoxNews"
+      },
+      {
+        "label": "Twitter",
+        "href": "https://twitter.com/foxnews"
+      },
+      {
+        "label": "Instagram",
+        "href": "https://www.instagram.com/foxnews"
+      },
+      {
+        "label": "Youtube",
+        "href": "https://www.youtube.com/FoxNewsChannel"
+      },
+      {
+        "label": "Flipboard",
+        "href": "https://flipboard.com/@FoxNews"
+      },
+      {
+        "label": "LinkedIn",
+        "href": "https://www.linkedin.com/company/fox-news-channel/"
+      },
+      {
+        "label": "Slack",
+        "href": "https://foxnews.slack.com/apps/A013AUF6VMG-fox-news"
+      },
+      {
+        "label": "Spotify",
+        "href": "https://open.spotify.com/show/7A4YfyFtNOZhqMV7F3kYVu"
+      },
+      {
+        "label": "iHeartRadio",
+        "href": "https://www.iheart.com/podcast/256-the-fox-news-rundown-31090295/"
+      },
+      {
+        "label": "Your Privacy Choices",
+        "href": "http://privacy.foxnews.com/main/web/main"
+      },
+      {
+        "label": "Help",
+        "href": "https://help.foxnews.com"
+      },
+      {
+        "label": "Factset",
+        "href": "https://www.factset.com/"
+      },
+      {
+        "label": "FactSet Digital Solutions",
+        "href": "https://www.factset.com/solutions/business-needs/digital-solutions"
+      },
+      {
+        "label": "Legal Statement",
+        "href": "https://www.factset.com/privacy"
+      },
+      {
+        "label": "Refinitiv Lipper",
+        "href": "https://lipperalpha.refinitiv.com/"
+      }
+    ],
+    "broken": []
+  },
+  "extractedAt": "2025-11-19T15:15:50Z"
+}

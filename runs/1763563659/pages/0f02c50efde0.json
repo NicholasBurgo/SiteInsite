@@ -1,0 +1,3373 @@
+{
+  "url": "https://handyman.com/services",
+  "path": "/services",
+  "status": 200,
+  "title": "Handyman.com - Services",
+  "description": "Handyman.com connects you with trusted professionals for all your home improvement needs. Discover expert contractors, DIY tips, project ideas, home plans, how-to guides, and more to bring your home ideas to life.",
+  "canonical": "https://handyman.com/services",
+  "media": {
+    "images": [
+      {
+        "url": "https://www.stats.numberchallenge.com/piwik.php?idsite=1",
+        "alt": "",
+        "width": null,
+        "height": null
+      },
+      {
+        "url": "https://cdn.vnoc.com/logos/logo-handyman.png",
+        "alt": "Handyman.com",
+        "width": null,
+        "height": null
+      },
+      {
+        "url": "https://cdn.vnoc.com/handyman/upgrade-tools2.png",
+        "alt": "",
+        "width": null,
+        "height": null
+      }
+    ],
+    "videos": [],
+    "gifs": []
+  },
+  "files": [],
+  "words": {
+    "headings": [
+      {
+        "tag": "h4",
+        "text": "Top Cities"
+      },
+      {
+        "tag": "h1",
+        "text": "Project Categories"
+      },
+      {
+        "tag": "h4",
+        "text": "Enter zipcode to search Add Attic space projects"
+      },
+      {
+        "tag": "h4",
+        "text": "Enter zipcode to search Air Conditioning projects"
+      },
+      {
+        "tag": "h4",
+        "text": "Enter zipcode to search Aluminum or Steel Fence - Install projects"
+      },
+      {
+        "tag": "h4",
+        "text": "Enter zipcode to search Aluminum or Steel Fence - Repair projects"
+      },
+      {
+        "tag": "h4",
+        "text": "Enter zipcode to search Appliance - Install projects"
+      },
+      {
+        "tag": "h4",
+        "text": "Enter zipcode to search Appliance - Repair projects"
+      },
+      {
+        "tag": "h4",
+        "text": "Enter zipcode to search Appliance Installation and Repair projects"
+      },
+      {
+        "tag": "h4",
+        "text": "Enter zipcode to search Appliance Installation and Repair projects"
+      },
+      {
+        "tag": "h4",
+        "text": "Enter zipcode to search Appraisal - General projects"
+      },
+      {
+        "tag": "h4",
+        "text": "Enter zipcode to search Appraisal - Real Estate projects"
+      },
+      {
+        "tag": "h4",
+        "text": "Enter zipcode to search Arbor, Pergola, or Trellis - Build projects"
+      },
+      {
+        "tag": "h4",
+        "text": "Enter zipcode to search Arbor, Pergola, or Trellis - Repair/Remodel projects"
+      },
+      {
+        "tag": "h4",
+        "text": "Enter zipcode to search Architect projects"
+      },
+      {
+        "tag": "h4",
+        "text": "Enter zipcode to search Asbestos Siding - Repair projects"
+      },
+      {
+        "tag": "h4",
+        "text": "Enter zipcode to search Asphalt Roofing - Install or Replace projects"
+      },
+      {
+        "tag": "h4",
+        "text": "Enter zipcode to search Asphalt Roofing - Repair projects"
+      },
+      {
+        "tag": "h4",
+        "text": "Enter zipcode to search Attached Additions projects"
+      },
+      {
+        "tag": "h4",
+        "text": "Enter zipcode to search Attics projects"
+      },
+      {
+        "tag": "h4",
+        "text": "Enter zipcode to search Awnings projects"
+      },
+      {
+        "tag": "h4",
+        "text": "Enter zipcode to search Barbed Wire Fence - Install projects"
+      },
+      {
+        "tag": "h4",
+        "text": "Enter zipcode to search Barbed Wire Fence - Repair projects"
+      },
+      {
+        "tag": "h4",
+        "text": "Enter zipcode to search Basement Remodel projects"
+      },
+      {
+        "tag": "h4",
+        "text": "Enter zipcode to search Basements projects"
+      },
+      {
+        "tag": "h4",
+        "text": "Enter zipcode to search Bathroom Remodeling projects"
+      },
+      {
+        "tag": "h4",
+        "text": "Enter zipcode to search Batt, Rolled and Reflective Insulation projects"
+      },
+      {
+        "tag": "h4",
+        "text": "Enter zipcode to search Blown-In Insulation projects"
+      },
+      {
+        "tag": "h4",
+        "text": "Enter zipcode to search Boilers and Radiators projects"
+      },
+      {
+        "tag": "h4",
+        "text": "Enter zipcode to search Brick and Stone - Flooring projects"
+      },
+      {
+        "tag": "h4",
+        "text": "Enter zipcode to search Brick and Stone for Patios - Install projects"
+      },
+      {
+        "tag": "h4",
+        "text": "Enter zipcode to search Brick and Stone for Patios - Repair projects"
+      },
+      {
+        "tag": "h4",
+        "text": "Enter zipcode to search Brick or Stone Siding - Install projects"
+      },
+      {
+        "tag": "h4",
+        "text": "Enter zipcode to search Brick or Stone Siding - Repair projects"
+      },
+      {
+        "tag": "h4",
+        "text": "Enter zipcode to search Build a Patio projects"
+      },
+      {
+        "tag": "h4",
+        "text": "Enter zipcode to search Build Dock projects"
+      },
+      {
+        "tag": "h4",
+        "text": "Enter zipcode to search Cabinets projects"
+      },
+      {
+        "tag": "h4",
+        "text": "Enter zipcode to search Cabinets - Install projects"
+      },
+      {
+        "tag": "h4",
+        "text": "Enter zipcode to search Cabinets - Reface projects"
+      },
+      {
+        "tag": "h4",
+        "text": "Enter zipcode to search Cabinets - Refinish projects"
+      },
+      {
+        "tag": "h4",
+        "text": "Enter zipcode to search Cabinets - Repair projects"
+      },
+      {
+        "tag": "h4",
+        "text": "Enter zipcode to search Cables, Networks and Telephones projects"
+      },
+      {
+        "tag": "h4",
+        "text": "Enter zipcode to search Carpentry projects"
+      },
+      {
+        "tag": "h4",
+        "text": "Enter zipcode to search Carpet - Flooring projects"
+      },
+      {
+        "tag": "h4",
+        "text": "Enter zipcode to search Central Air Conditioning - Install projects"
+      },
+      {
+        "tag": "h4",
+        "text": "Enter zipcode to search Central Air Conditioning - Repair or Service projects"
+      },
+      {
+        "tag": "h4",
+        "text": "Enter zipcode to search Central Heating Systems projects"
+      },
+      {
+        "tag": "h4",
+        "text": "Enter zipcode to search Ceramic and Porcelain Tile - Install projects"
+      },
+      {
+        "tag": "h4",
+        "text": "Enter zipcode to search Ceramic and Porcelain Tile - Repair projects"
+      },
+      {
+        "tag": "h4",
+        "text": "Enter zipcode to search Chain Link Fence - Install projects"
+      },
+      {
+        "tag": "h4",
+        "text": "Enter zipcode to search Chain Link Fence - Repair or Alter projects"
+      },
+      {
+        "tag": "h4",
+        "text": "Enter zipcode to search Chimney, Fireplace, Stove and Barbecue - Inst projects"
+      },
+      {
+        "tag": "h4",
+        "text": "Enter zipcode to search Chimney, Fireplace, Stove and Barbecue - Repa projects"
+      },
+      {
+        "tag": "h4",
+        "text": "Enter zipcode to search Clean and Seal Deck or Porch projects"
+      },
+      {
+        "tag": "h4",
+        "text": "Enter zipcode to search Cleaning projects"
+      },
+      {
+        "tag": "h4",
+        "text": "Enter zipcode to search Closet - Build projects"
+      },
+      {
+        "tag": "h4",
+        "text": "Enter zipcode to search Closets and Storage projects"
+      },
+      {
+        "tag": "h4",
+        "text": "Enter zipcode to search Closets or Rooms - Organize projects"
+      },
+      {
+        "tag": "h4",
+        "text": "Enter zipcode to search Commercial Air Conditioning projects"
+      },
+      {
+        "tag": "h4",
+        "text": "Enter zipcode to search Commercial Architect projects"
+      },
+      {
+        "tag": "h4",
+        "text": "Enter zipcode to search Commercial Basements projects"
+      },
+      {
+        "tag": "h4",
+        "text": "Enter zipcode to search Commercial Bathroom Remodeling projects"
+      },
+      {
+        "tag": "h4",
+        "text": "Enter zipcode to search Commercial Concrete projects"
+      },
+      {
+        "tag": "h4",
+        "text": "Enter zipcode to search Commercial Construction projects"
+      },
+      {
+        "tag": "h4",
+        "text": "Enter zipcode to search Commercial Doors projects"
+      },
+      {
+        "tag": "h4",
+        "text": "Enter zipcode to search Commercial Drywall and Plastering projects"
+      },
+      {
+        "tag": "h4",
+        "text": "Enter zipcode to search Commercial Electrical projects"
+      },
+      {
+        "tag": "h4",
+        "text": "Enter zipcode to search Commercial Fencing projects"
+      },
+      {
+        "tag": "h4",
+        "text": "Enter zipcode to search Commercial Floor Coverings projects"
+      },
+      {
+        "tag": "h4",
+        "text": "Enter zipcode to search Commercial Foundations projects"
+      },
+      {
+        "tag": "h4",
+        "text": "Enter zipcode to search Commercial Framing Systems projects"
+      },
+      {
+        "tag": "h4",
+        "text": "Enter zipcode to search Commercial Heating and Ventilation projects"
+      },
+      {
+        "tag": "h4",
+        "text": "Enter zipcode to search Commercial Kitchen Remodeling projects"
+      },
+      {
+        "tag": "h4",
+        "text": "Enter zipcode to search Commercial Landscaping projects"
+      },
+      {
+        "tag": "h4",
+        "text": "Enter zipcode to search Commercial Painting and Wallcovering projects"
+      },
+      {
+        "tag": "h4",
+        "text": "Enter zipcode to search Commercial Paving projects"
+      },
+      {
+        "tag": "h4",
+        "text": "Enter zipcode to search Commercial Plumbing projects"
+      },
+      {
+        "tag": "h4",
+        "text": "Enter zipcode to search Commercial Roofing projects"
+      },
+      {
+        "tag": "h4",
+        "text": "Enter zipcode to search Commercial Windows projects"
+      },
+      {
+        "tag": "h4",
+        "text": "Enter zipcode to search Concrete projects"
+      },
+      {
+        "tag": "h4",
+        "text": "Enter zipcode to search Concrete projects"
+      },
+      {
+        "tag": "h4",
+        "text": "Enter zipcode to search Concrete - Flooring projects"
+      },
+      {
+        "tag": "h4",
+        "text": "Enter zipcode to search Concrete - Pavers projects"
+      },
+      {
+        "tag": "h4",
+        "text": "Enter zipcode to search Concrete Foundation - Install projects"
+      },
+      {
+        "tag": "h4",
+        "text": "Enter zipcode to search Concrete Foundation - Repair or Raise projects"
+      },
+      {
+        "tag": "h4",
+        "text": "Enter zipcode to search Concrete or Clay Tile Roof - Install or Repla projects"
+      },
+      {
+        "tag": "h4",
+        "text": "Enter zipcode to search Concrete or Clay Tile Roof - Repair projects"
+      },
+      {
+        "tag": "h4",
+        "text": "Enter zipcode to search Consultant - Home or Office Organization projects"
+      },
+      {
+        "tag": "h4",
+        "text": "Enter zipcode to search Convert Attic to Living Space projects"
+      },
+      {
+        "tag": "h4",
+        "text": "Enter zipcode to search Convert Basement to Living Space projects"
+      },
+      {
+        "tag": "h4",
+        "text": "Enter zipcode to search Countertops projects"
+      },
+      {
+        "tag": "h4",
+        "text": "Enter zipcode to search Create Blueprints projects"
+      },
+      {
+        "tag": "h4",
+        "text": "Enter zipcode to search Custom Cabinets or Built-In Furniture projects"
+      },
+      {
+        "tag": "h4",
+        "text": "Enter zipcode to search Custom Home Building projects"
+      },
+      {
+        "tag": "h4",
+        "text": "Enter zipcode to search Customer Home Remodeling projects"
+      },
+      {
+        "tag": "h4",
+        "text": "Enter zipcode to search Deck - Build projects"
+      },
+      {
+        "tag": "h4",
+        "text": "Enter zipcode to search Deck - Repair/Remodel projects"
+      },
+      {
+        "tag": "h4",
+        "text": "Enter zipcode to search Decks projects"
+      },
+      {
+        "tag": "h4",
+        "text": "Enter zipcode to search Decorators and Designers projects"
+      },
+      {
+        "tag": "h4",
+        "text": "Enter zipcode to search Demolition and Disposal projects"
+      },
+      {
+        "tag": "h4",
+        "text": "Enter zipcode to search Designer projects"
+      },
+      {
+        "tag": "h4",
+        "text": "Enter zipcode to search Designer - Bathroom projects"
+      },
+      {
+        "tag": "h4",
+        "text": "Enter zipcode to search Designer - Building projects"
+      },
+      {
+        "tag": "h4",
+        "text": "Enter zipcode to search Designer - Feng Shui projects"
+      },
+      {
+        "tag": "h4",
+        "text": "Enter zipcode to search Designer - Interior Lighting Plan projects"
+      },
+      {
+        "tag": "h4",
+        "text": "Enter zipcode to search Designer - Kitchen projects"
+      },
+      {
+        "tag": "h4",
+        "text": "Enter zipcode to search Designer - Landscape projects"
+      },
+      {
+        "tag": "h4",
+        "text": "Enter zipcode to search Designer - Residential (Interior Space Planni projects"
+      },
+      {
+        "tag": "h4",
+        "text": "Enter zipcode to search Designer - Window Treatments projects"
+      },
+      {
+        "tag": "h4",
+        "text": "Enter zipcode to search Detached Additions projects"
+      },
+      {
+        "tag": "h4",
+        "text": "Enter zipcode to search Disability Planner projects"
+      },
+      {
+        "tag": "h4",
+        "text": "Enter zipcode to search Doors projects"
+      },
+      {
+        "tag": "h4",
+        "text": "Enter zipcode to search Drain Clearing projects"
+      },
+      {
+        "tag": "h4",
+        "text": "Enter zipcode to search Driveways projects"
+      },
+      {
+        "tag": "h4",
+        "text": "Enter zipcode to search Drywall - Install projects"
+      },
+      {
+        "tag": "h4",
+        "text": "Enter zipcode to search Drywall - Repair projects"
+      },
+      {
+        "tag": "h4",
+        "text": "Enter zipcode to search Drywall and Plastering projects"
+      },
+      {
+        "tag": "h4",
+        "text": "Enter zipcode to search Ducts and Vents projects"
+      },
+      {
+        "tag": "h4",
+        "text": "Enter zipcode to search Eco-roofs projects"
+      },
+      {
+        "tag": "h4",
+        "text": "Enter zipcode to search Electric Wall and Radiant Heat Systems projects"
+      },
+      {
+        "tag": "h4",
+        "text": "Enter zipcode to search Electrical projects"
+      },
+      {
+        "tag": "h4",
+        "text": "Enter zipcode to search Energy Efficiency projects"
+      },
+      {
+        "tag": "h4",
+        "text": "Enter zipcode to search Energy Efficient Appliances projects"
+      },
+      {
+        "tag": "h4",
+        "text": "Enter zipcode to search Energy Efficient Doors - Install projects"
+      },
+      {
+        "tag": "h4",
+        "text": "Enter zipcode to search Energy Efficient Doors - Repair projects"
+      },
+      {
+        "tag": "h4",
+        "text": "Enter zipcode to search Energy Efficient Home Heating projects"
+      },
+      {
+        "tag": "h4",
+        "text": "Enter zipcode to search Energy Efficient Remodeling projects"
+      },
+      {
+        "tag": "h4",
+        "text": "Enter zipcode to search Energy Efficient Windows - Install projects"
+      },
+      {
+        "tag": "h4",
+        "text": "Enter zipcode to search Energy Efficient Windows - Repair projects"
+      },
+      {
+        "tag": "h4",
+        "text": "Enter zipcode to search Engineers projects"
+      },
+      {
+        "tag": "h4",
+        "text": "Enter zipcode to search Environmental/Disaster Services projects"
+      },
+      {
+        "tag": "h4",
+        "text": "Enter zipcode to search Excavation projects"
+      },
+      {
+        "tag": "h4",
+        "text": "Enter zipcode to search Exterior Painting or Staining projects"
+      },
+      {
+        "tag": "h4",
+        "text": "Enter zipcode to search Exterior Trim - Install projects"
+      },
+      {
+        "tag": "h4",
+        "text": "Enter zipcode to search Exterior Trim - Repair projects"
+      },
+      {
+        "tag": "h4",
+        "text": "Enter zipcode to search Fans and Ventilation projects"
+      },
+      {
+        "tag": "h4",
+        "text": "Enter zipcode to search Faucets, Fixtures and Pipes projects"
+      },
+      {
+        "tag": "h4",
+        "text": "Enter zipcode to search Fencing projects"
+      },
+      {
+        "tag": "h4",
+        "text": "Enter zipcode to search Financing projects"
+      },
+      {
+        "tag": "h4",
+        "text": "Enter zipcode to search Finish Carpentry, Trim and Molding projects"
+      },
+      {
+        "tag": "h4",
+        "text": "Enter zipcode to search Fireplace projects"
+      },
+      {
+        "tag": "h4",
+        "text": "Enter zipcode to search Fireplaces, Inserts, Stoves and Barbecues projects"
+      },
+      {
+        "tag": "h4",
+        "text": "Enter zipcode to search Floor Coverings projects"
+      },
+      {
+        "tag": "h4",
+        "text": "Enter zipcode to search Flooring projects"
+      },
+      {
+        "tag": "h4",
+        "text": "Enter zipcode to search Floors projects"
+      },
+      {
+        "tag": "h4",
+        "text": "Enter zipcode to search Foundation Drainage - Install or Replace projects"
+      },
+      {
+        "tag": "h4",
+        "text": "Enter zipcode to search Foundation or Basement - Waterproofing projects"
+      },
+      {
+        "tag": "h4",
+        "text": "Enter zipcode to search Foundations projects"
+      },
+      {
+        "tag": "h4",
+        "text": "Enter zipcode to search Framing Systems projects"
+      },
+      {
+        "tag": "h4",
+        "text": "Enter zipcode to search Full Bath Remodel projects"
+      },
+      {
+        "tag": "h4",
+        "text": "Enter zipcode to search Full Kitchen Remodel projects"
+      },
+      {
+        "tag": "h4",
+        "text": "Enter zipcode to search Garage - Build projects"
+      },
+      {
+        "tag": "h4",
+        "text": "Enter zipcode to search Garage - Remodel projects"
+      },
+      {
+        "tag": "h4",
+        "text": "Enter zipcode to search Garage Door - Install or Replace projects"
+      },
+      {
+        "tag": "h4",
+        "text": "Enter zipcode to search Garage Door - Repair projects"
+      },
+      {
+        "tag": "h4",
+        "text": "Enter zipcode to search Garage Door Opener - Install projects"
+      },
+      {
+        "tag": "h4",
+        "text": "Enter zipcode to search Garage Door Opener - Repair or Adjust projects"
+      },
+      {
+        "tag": "h4",
+        "text": "Enter zipcode to search Garage Organizers - Install projects"
+      },
+      {
+        "tag": "h4",
+        "text": "Enter zipcode to search Garages and Outbuildings projects"
+      },
+      {
+        "tag": "h4",
+        "text": "Enter zipcode to search Gate for Driveway or Security - Ins projects"
+      },
+      {
+        "tag": "h4",
+        "text": "Enter zipcode to search Gazebo - Build projects"
+      },
+      {
+        "tag": "h4",
+        "text": "Enter zipcode to search Gazebo - Repair/Remodel projects"
+      },
+      {
+        "tag": "h4",
+        "text": "Enter zipcode to search Gazebos and Enclosures projects"
+      },
+      {
+        "tag": "h4",
+        "text": "Enter zipcode to search General Contractors projects"
+      },
+      {
+        "tag": "h4",
+        "text": "Enter zipcode to search Generators projects"
+      },
+      {
+        "tag": "h4",
+        "text": "Enter zipcode to search Geothermal Heating or Cooling System - Instal projects"
+      },
+      {
+        "tag": "h4",
+        "text": "Enter zipcode to search Geothermal Heating or Cooling System - Servic projects"
+      },
+      {
+        "tag": "h4",
+        "text": "Enter zipcode to search Glass and Screens projects"
+      },
+      {
+        "tag": "h4",
+        "text": "Enter zipcode to search Gutters projects"
+      },
+      {
+        "tag": "h4",
+        "text": "Enter zipcode to search Gutters - Clean projects"
+      },
+      {
+        "tag": "h4",
+        "text": "Enter zipcode to search Gutters - Install or Replace projects"
+      },
+      {
+        "tag": "h4",
+        "text": "Enter zipcode to search Gutters - Repair projects"
+      },
+      {
+        "tag": "h4",
+        "text": "Enter zipcode to search Handyman projects"
+      },
+      {
+        "tag": "h4",
+        "text": "Enter zipcode to search Handyman for Multiple Small Projects projects"
+      },
+      {
+        "tag": "h4",
+        "text": "Enter zipcode to search Hardiplank Siding - Install or Replace projects"
+      },
+      {
+        "tag": "h4",
+        "text": "Enter zipcode to search Hardiplank Siding - Repair projects"
+      },
+      {
+        "tag": "h4",
+        "text": "Enter zipcode to search Hardwood - Flooring projects"
+      },
+      {
+        "tag": "h4",
+        "text": "Enter zipcode to search Heating and Thermostats projects"
+      },
+      {
+        "tag": "h4",
+        "text": "Enter zipcode to search Heating and Ventilation projects"
+      },
+      {
+        "tag": "h4",
+        "text": "Enter zipcode to search Heating Cable for Roof - Install projects"
+      },
+      {
+        "tag": "h4",
+        "text": "Enter zipcode to search Holiday Decor Installation projects"
+      },
+      {
+        "tag": "h4",
+        "text": "Enter zipcode to search Home Additions projects"
+      },
+      {
+        "tag": "h4",
+        "text": "Enter zipcode to search Home Energy Audit projects"
+      },
+      {
+        "tag": "h4",
+        "text": "Enter zipcode to search Home Inspector projects"
+      },
+      {
+        "tag": "h4",
+        "text": "Enter zipcode to search Home Solar Energy projects"
+      },
+      {
+        "tag": "h4",
+        "text": "Enter zipcode to search Hot Tubs projects"
+      },
+      {
+        "tag": "h4",
+        "text": "Enter zipcode to search Inspection - Roofing projects"
+      },
+      {
+        "tag": "h4",
+        "text": "Enter zipcode to search Inspection - Waterproofing projects"
+      },
+      {
+        "tag": "h4",
+        "text": "Enter zipcode to search Inspection and Appraisal projects"
+      },
+      {
+        "tag": "h4",
+        "text": "Enter zipcode to search Insulation and Weather Stripping projects"
+      },
+      {
+        "tag": "h4",
+        "text": "Enter zipcode to search Interior Decorator projects"
+      },
+      {
+        "tag": "h4",
+        "text": "Enter zipcode to search Interior Painting or Staining projects"
+      },
+      {
+        "tag": "h4",
+        "text": "Enter zipcode to search Kitchen Remodeling projects"
+      },
+      {
+        "tag": "h4",
+        "text": "Enter zipcode to search Kitchen Remodeling and Design projects"
+      },
+      {
+        "tag": "h4",
+        "text": "Enter zipcode to search Laminate - Flooring projects"
+      },
+      {
+        "tag": "h4",
+        "text": "Enter zipcode to search Laminate Countertops - Install projects"
+      },
+      {
+        "tag": "h4",
+        "text": "Enter zipcode to search Laminate Countertops - Repair projects"
+      },
+      {
+        "tag": "h4",
+        "text": "Enter zipcode to search Landscaping projects"
+      },
+      {
+        "tag": "h4",
+        "text": "Enter zipcode to search Landscaping - Design and Installation projects"
+      },
+      {
+        "tag": "h4",
+        "text": "Enter zipcode to search Landscaping - Maintenance of Lawn and Trees projects"
+      },
+      {
+        "tag": "h4",
+        "text": "Enter zipcode to search Landscaping - Sprinkler Systems projects"
+      },
+      {
+        "tag": "h4",
+        "text": "Enter zipcode to search Leaf Removal projects"
+      },
+      {
+        "tag": "h4",
+        "text": "Enter zipcode to search Lighting Design projects"
+      },
+      {
+        "tag": "h4",
+        "text": "Enter zipcode to search Maid Service projects"
+      },
+      {
+        "tag": "h4",
+        "text": "Enter zipcode to search Major Renovation - Multiple Rooms projects"
+      },
+      {
+        "tag": "h4",
+        "text": "Enter zipcode to search Marine projects"
+      },
+      {
+        "tag": "h4",
+        "text": "Enter zipcode to search Masonry projects"
+      },
+      {
+        "tag": "h4",
+        "text": "Enter zipcode to search Metal Roof - Install or Replace projects"
+      },
+      {
+        "tag": "h4",
+        "text": "Enter zipcode to search Metal Roofing - Paint projects"
+      },
+      {
+        "tag": "h4",
+        "text": "Enter zipcode to search Metal Roofing - Repair projects"
+      },
+      {
+        "tag": "h4",
+        "text": "Enter zipcode to search Metal Siding - Install projects"
+      },
+      {
+        "tag": "h4",
+        "text": "Enter zipcode to search Metal Siding - Repair projects"
+      },
+      {
+        "tag": "h4",
+        "text": "Enter zipcode to search Minor Remodels projects"
+      },
+      {
+        "tag": "h4",
+        "text": "Enter zipcode to search Mold Remediation projects"
+      },
+      {
+        "tag": "h4",
+        "text": "Enter zipcode to search Natural Stone Tile - Install projects"
+      },
+      {
+        "tag": "h4",
+        "text": "Enter zipcode to search Natural Stone Tile - Repair projects"
+      },
+      {
+        "tag": "h4",
+        "text": "Enter zipcode to search New Home Building projects"
+      },
+      {
+        "tag": "h4",
+        "text": "Enter zipcode to search New Kitchen Appliance Install projects"
+      },
+      {
+        "tag": "h4",
+        "text": "Enter zipcode to search New Tub/Shower Installation projects"
+      },
+      {
+        "tag": "h4",
+        "text": "Enter zipcode to search Odd-Jobs projects"
+      },
+      {
+        "tag": "h4",
+        "text": "Enter zipcode to search Other projects"
+      },
+      {
+        "tag": "h4",
+        "text": "Enter zipcode to search Other Concrete Services projects"
+      },
+      {
+        "tag": "h4",
+        "text": "Enter zipcode to search Other Handyman Services projects"
+      },
+      {
+        "tag": "h4",
+        "text": "Enter zipcode to search Other HVAC Types projects"
+      },
+      {
+        "tag": "h4",
+        "text": "Enter zipcode to search Other Plumbing Related Jobs projects"
+      },
+      {
+        "tag": "h4",
+        "text": "Enter zipcode to search Outbuildings and Structures projects"
+      },
+      {
+        "tag": "h4",
+        "text": "Enter zipcode to search Outbuildings, Sheds and Gazebos projects"
+      },
+      {
+        "tag": "h4",
+        "text": "Enter zipcode to search Outdoor Kitchen projects"
+      },
+      {
+        "tag": "h4",
+        "text": "Enter zipcode to search Outdoor Mist Cooling System - Install projects"
+      },
+      {
+        "tag": "h4",
+        "text": "Enter zipcode to search Outdoor Mist Cooling System - Repair projects"
+      },
+      {
+        "tag": "h4",
+        "text": "Enter zipcode to search Outdoor Patios, Steps and Walkways projects"
+      },
+      {
+        "tag": "h4",
+        "text": "Enter zipcode to search Outdoor Walls and Retaining Walls projects"
+      },
+      {
+        "tag": "h4",
+        "text": "Enter zipcode to search Outlets, Panels, Switches and Wiring projects"
+      },
+      {
+        "tag": "h4",
+        "text": "Enter zipcode to search Paint Preparation projects"
+      },
+      {
+        "tag": "h4",
+        "text": "Enter zipcode to search Paint Removal and Cleaning projects"
+      },
+      {
+        "tag": "h4",
+        "text": "Enter zipcode to search Painting and Wallcovering projects"
+      },
+      {
+        "tag": "h4",
+        "text": "Enter zipcode to search Partial Bathroom Remodel projects"
+      },
+      {
+        "tag": "h4",
+        "text": "Enter zipcode to search Partial Kitchen Remodel projects"
+      },
+      {
+        "tag": "h4",
+        "text": "Enter zipcode to search Patio projects"
+      },
+      {
+        "tag": "h4",
+        "text": "Enter zipcode to search Patios, Walks and Steps projects"
+      },
+      {
+        "tag": "h4",
+        "text": "Enter zipcode to search Pavers projects"
+      },
+      {
+        "tag": "h4",
+        "text": "Enter zipcode to search Pavers for Patios, Walks and Steps - Install projects"
+      },
+      {
+        "tag": "h4",
+        "text": "Enter zipcode to search Paving projects"
+      },
+      {
+        "tag": "h4",
+        "text": "Enter zipcode to search Pest Control projects"
+      },
+      {
+        "tag": "h4",
+        "text": "Enter zipcode to search Plastering - Install projects"
+      },
+      {
+        "tag": "h4",
+        "text": "Enter zipcode to search Plastering - Repair projects"
+      },
+      {
+        "tag": "h4",
+        "text": "Enter zipcode to search Play Equipment - Build projects"
+      },
+      {
+        "tag": "h4",
+        "text": "Enter zipcode to search Play Equipment - Repair/Remodel projects"
+      },
+      {
+        "tag": "h4",
+        "text": "Enter zipcode to search Plumbing projects"
+      },
+      {
+        "tag": "h4",
+        "text": "Enter zipcode to search Pools projects"
+      },
+      {
+        "tag": "h4",
+        "text": "Enter zipcode to search Pools and Water Features projects"
+      },
+      {
+        "tag": "h4",
+        "text": "Enter zipcode to search Porch - Build projects"
+      },
+      {
+        "tag": "h4",
+        "text": "Enter zipcode to search Porch - Repair/Remodel projects"
+      },
+      {
+        "tag": "h4",
+        "text": "Enter zipcode to search Pressure Washing projects"
+      },
+      {
+        "tag": "h4",
+        "text": "Enter zipcode to search Pumps projects"
+      },
+      {
+        "tag": "h4",
+        "text": "Enter zipcode to search Railings projects"
+      },
+      {
+        "tag": "h4",
+        "text": "Enter zipcode to search Raise House to Add Basement projects"
+      },
+      {
+        "tag": "h4",
+        "text": "Enter zipcode to search Recovery Services - Disaster projects"
+      },
+      {
+        "tag": "h4",
+        "text": "Enter zipcode to search Refrigeration System - Install or Replace projects"
+      },
+      {
+        "tag": "h4",
+        "text": "Enter zipcode to search Refrigeration System - Repair or Service projects"
+      },
+      {
+        "tag": "h4",
+        "text": "Enter zipcode to search Remodeling and Room Additions projects"
+      },
+      {
+        "tag": "h4",
+        "text": "Enter zipcode to search Repair Dock projects"
+      },
+      {
+        "tag": "h4",
+        "text": "Enter zipcode to search Retaining Walls projects"
+      },
+      {
+        "tag": "h4",
+        "text": "Enter zipcode to search Roofing projects"
+      },
+      {
+        "tag": "h4",
+        "text": "Enter zipcode to search Roofing - Install or Replace projects"
+      },
+      {
+        "tag": "h4",
+        "text": "Enter zipcode to search Roofing - Repair projects"
+      },
+      {
+        "tag": "h4",
+        "text": "Enter zipcode to search Saunas projects"
+      },
+      {
+        "tag": "h4",
+        "text": "Enter zipcode to search Seal off Attic space projects"
+      },
+      {
+        "tag": "h4",
+        "text": "Enter zipcode to search Sealant for Roof - Apply projects"
+      },
+      {
+        "tag": "h4",
+        "text": "Enter zipcode to search Septic Systems, Sewers and Water Mains projects"
+      },
+      {
+        "tag": "h4",
+        "text": "Enter zipcode to search Sheet Metal projects"
+      },
+      {
+        "tag": "h4",
+        "text": "Enter zipcode to search Siding - Brick, Stone, or Stucco projects"
+      },
+      {
+        "tag": "h4",
+        "text": "Enter zipcode to search Siding/Residing projects"
+      },
+      {
+        "tag": "h4",
+        "text": "Enter zipcode to search Site Preparation projects"
+      },
+      {
+        "tag": "h4",
+        "text": "Enter zipcode to search Skylights projects"
+      },
+      {
+        "tag": "h4",
+        "text": "Enter zipcode to search Smart House projects"
+      },
+      {
+        "tag": "h4",
+        "text": "Enter zipcode to search Snow Plowing projects"
+      },
+      {
+        "tag": "h4",
+        "text": "Enter zipcode to search Solar Panels For Electric System - Install projects"
+      },
+      {
+        "tag": "h4",
+        "text": "Enter zipcode to search Solar Panels For Electric System - Repair projects"
+      },
+      {
+        "tag": "h4",
+        "text": "Enter zipcode to search Solar Water Heater System - Install projects"
+      },
+      {
+        "tag": "h4",
+        "text": "Enter zipcode to search Solar Water Heater System - Repair projects"
+      },
+      {
+        "tag": "h4",
+        "text": "Enter zipcode to search Solid Surface (Corian, Concrete, etc.) - Inst projects"
+      },
+      {
+        "tag": "h4",
+        "text": "Enter zipcode to search Solid Surface (Corian, Concrete, etc.) - Repa projects"
+      },
+      {
+        "tag": "h4",
+        "text": "Enter zipcode to search Soundproofing projects"
+      },
+      {
+        "tag": "h4",
+        "text": "Enter zipcode to search Spas projects"
+      },
+      {
+        "tag": "h4",
+        "text": "Enter zipcode to search Special Finishes projects"
+      },
+      {
+        "tag": "h4",
+        "text": "Enter zipcode to search Sports Surfaces (Tennis, Courts and Synthetic projects"
+      },
+      {
+        "tag": "h4",
+        "text": "Enter zipcode to search Spray Foam Insulation projects"
+      },
+      {
+        "tag": "h4",
+        "text": "Enter zipcode to search Spray-on Siding - Apply projects"
+      },
+      {
+        "tag": "h4",
+        "text": "Enter zipcode to search Spring Cleaning projects"
+      },
+      {
+        "tag": "h4",
+        "text": "Enter zipcode to search Sprinkler Systems projects"
+      },
+      {
+        "tag": "h4",
+        "text": "Enter zipcode to search Sprinklers projects"
+      },
+      {
+        "tag": "h4",
+        "text": "Enter zipcode to search Stairs and Railings projects"
+      },
+      {
+        "tag": "h4",
+        "text": "Enter zipcode to search Stone Slab (Granite, Quartz, etc.) - Install projects"
+      },
+      {
+        "tag": "h4",
+        "text": "Enter zipcode to search Stone Slab (Granite, Quartz, etc.) - Repair projects"
+      },
+      {
+        "tag": "h4",
+        "text": "Enter zipcode to search Storm Shutters projects"
+      },
+      {
+        "tag": "h4",
+        "text": "Enter zipcode to search Stucco projects"
+      },
+      {
+        "tag": "h4",
+        "text": "Enter zipcode to search Sunrooms projects"
+      },
+      {
+        "tag": "h4",
+        "text": "Enter zipcode to search Swamp Cooler - Install or Replace projects"
+      },
+      {
+        "tag": "h4",
+        "text": "Enter zipcode to search Swamp Cooler - Service or Repair projects"
+      },
+      {
+        "tag": "h4",
+        "text": "Enter zipcode to search Swimming Pool - Install projects"
+      },
+      {
+        "tag": "h4",
+        "text": "Enter zipcode to search Swimming Pool - Remodel projects"
+      },
+      {
+        "tag": "h4",
+        "text": "Enter zipcode to search Swimming Pool - Repair projects"
+      },
+      {
+        "tag": "h4",
+        "text": "Enter zipcode to search Swimming Pool Decks and Patios projects"
+      },
+      {
+        "tag": "h4",
+        "text": "Enter zipcode to search Synthetic Stucco Siding - Install projects"
+      },
+      {
+        "tag": "h4",
+        "text": "Enter zipcode to search Synthetic Stucco Siding - Repair projects"
+      },
+      {
+        "tag": "h4",
+        "text": "Enter zipcode to search Thermostats and Accessories projects"
+      },
+      {
+        "tag": "h4",
+        "text": "Enter zipcode to search Tile - Flooring projects"
+      },
+      {
+        "tag": "h4",
+        "text": "Enter zipcode to search Tile and Stone projects"
+      },
+      {
+        "tag": "h4",
+        "text": "Enter zipcode to search Tile, Stone, Grout - Clean projects"
+      },
+      {
+        "tag": "h4",
+        "text": "Enter zipcode to search Tile: Ceramic and Porcelain - Install projects"
+      },
+      {
+        "tag": "h4",
+        "text": "Enter zipcode to search Tile: Ceramic and Porcelain - Repair projects"
+      },
+      {
+        "tag": "h4",
+        "text": "Enter zipcode to search Tile: Natural Stone - Install projects"
+      },
+      {
+        "tag": "h4",
+        "text": "Enter zipcode to search Tile: Natural Stone - Repair projects"
+      },
+      {
+        "tag": "h4",
+        "text": "Enter zipcode to search Traditional Stucco - Install projects"
+      },
+      {
+        "tag": "h4",
+        "text": "Enter zipcode to search Traditional Stucco Siding - Repair projects"
+      },
+      {
+        "tag": "h4",
+        "text": "Enter zipcode to search Tree and Shrub Service projects"
+      },
+      {
+        "tag": "h4",
+        "text": "Enter zipcode to search Tub Reglaze projects"
+      },
+      {
+        "tag": "h4",
+        "text": "Enter zipcode to search Vinyl - Flooring projects"
+      },
+      {
+        "tag": "h4",
+        "text": "Enter zipcode to search Vinyl or PVC Fence - Install projects"
+      },
+      {
+        "tag": "h4",
+        "text": "Enter zipcode to search Vinyl or PVC Fence - Repair projects"
+      },
+      {
+        "tag": "h4",
+        "text": "Enter zipcode to search Vinyl Siding - Install projects"
+      },
+      {
+        "tag": "h4",
+        "text": "Enter zipcode to search Vinyl Siding - Repair projects"
+      },
+      {
+        "tag": "h4",
+        "text": "Enter zipcode to search Wallpapering projects"
+      },
+      {
+        "tag": "h4",
+        "text": "Enter zipcode to search Walls projects"
+      },
+      {
+        "tag": "h4",
+        "text": "Enter zipcode to search Water Heaters projects"
+      },
+      {
+        "tag": "h4",
+        "text": "Enter zipcode to search Water Softening and Purification projects"
+      },
+      {
+        "tag": "h4",
+        "text": "Enter zipcode to search Waterproofing projects"
+      },
+      {
+        "tag": "h4",
+        "text": "Enter zipcode to search Waterproofing and Drywells projects"
+      },
+      {
+        "tag": "h4",
+        "text": "Enter zipcode to search Window A/C Unit - Install projects"
+      },
+      {
+        "tag": "h4",
+        "text": "Enter zipcode to search Window A/C Unit - Service or Relocate projects"
+      },
+      {
+        "tag": "h4",
+        "text": "Enter zipcode to search Windows projects"
+      },
+      {
+        "tag": "h4",
+        "text": "Enter zipcode to search Windows - Install or Replace projects"
+      },
+      {
+        "tag": "h4",
+        "text": "Enter zipcode to search Windows - Repair projects"
+      },
+      {
+        "tag": "h4",
+        "text": "Enter zipcode to search Winterize Lawn/Landscape projects"
+      },
+      {
+        "tag": "h4",
+        "text": "Enter zipcode to search Winterizing Home projects"
+      },
+      {
+        "tag": "h4",
+        "text": "Enter zipcode to search Wood Fence - Install projects"
+      },
+      {
+        "tag": "h4",
+        "text": "Enter zipcode to search Wood Fence - Repair projects"
+      },
+      {
+        "tag": "h4",
+        "text": "Enter zipcode to search Wood or Fiber Cement - Install projects"
+      },
+      {
+        "tag": "h4",
+        "text": "Enter zipcode to search Wood or Fiber Cement - Repair projects"
+      },
+      {
+        "tag": "h4",
+        "text": "Enter zipcode to search Wood Shingles - Install or Replace projects"
+      },
+      {
+        "tag": "h4",
+        "text": "Enter zipcode to search Wood Shingles - Repair projects"
+      },
+      {
+        "tag": "h4",
+        "text": "Enter zipcode to search Wrought Iron Fence - Install projects"
+      },
+      {
+        "tag": "h4",
+        "text": "Enter zipcode to search Wrought Iron Fence - Repair or Weld projects"
+      },
+      {
+        "tag": "h4",
+        "text": "or"
+      },
+      {
+        "tag": "h4",
+        "text": "Latest Projects"
+      },
+      {
+        "tag": "h4",
+        "text": "Recent questions and answers"
+      },
+      {
+        "tag": "h2",
+        "text": "Handyman\r\n                                        \nHome Products, Product Finder, Contractor Locator"
+      },
+      {
+        "tag": "h3",
+        "text": "Follow us:"
+      },
+      {
+        "tag": "h2",
+        "text": "Handyman.com"
+      },
+      {
+        "tag": "h2",
+        "text": "Get Started"
+      },
+      {
+        "tag": "h2",
+        "text": "Company"
+      },
+      {
+        "tag": "h2",
+        "text": "Socials"
+      }
+    ],
+    "paragraphs": [
+      "Register as a Contractor",
+      "Help with painting and general cleaning",
+      "posted 03/05/2025 02:42 pm in Cleaning by \r\n\t\t\t\t\t\t\t\t\t \t\t\t\t\t\t\t\t\t\t  Joyce Richway",
+      "Looking for installers to do site visits nationally, is that something I can find here?",
+      "posted 09/24/2024 06:31 pm in Floors by \r\n\t\t\t\t\t\t\t\t\t \t\t\t\t\t\t\t\t\t\t  FloorMaxUSA",
+      "Looking for installers to do site visits nationally, is that something I can find here?",
+      "posted 09/24/2024 06:30 pm in Floor Coverings by \r\n\t\t\t\t\t\t\t\t\t \t\t\t\t\t\t\t\t\t\t  FloorMaxUSA",
+      "Looking for installers to do site visits nationally, is that something I can find here?",
+      "posted 09/24/2024 06:28 pm in Flooring by \r\n\t\t\t\t\t\t\t\t\t \t\t\t\t\t\t\t\t\t\t  FloorMaxUSA",
+      "Why I cannot access Homepage, cannot find projects, anything shows Uh oh! Page not found!",
+      "posted 05/09/2024 07:50 am in Other by \r\n\t\t\t\t\t\t\t\t\t \t\t\t\t\t\t\t\t\t\t  Sfix Handyman Services",
+      "\u00a9 2025 - Handyman.com",
+      "About Us\n Terms\n Privacy\n Contact Us"
+    ],
+    "wordCount": 124
+  },
+  "links": {
+    "internal": [
+      {
+        "label": "",
+        "href": "https://handyman.com/"
+      },
+      {
+        "label": "Home",
+        "href": "https://handyman.com/"
+      },
+      {
+        "label": "View More",
+        "href": "https://handyman.com/contractor/find-city"
+      },
+      {
+        "label": "How It Works",
+        "href": "https://handyman.com/home/how-it-works"
+      },
+      {
+        "label": "Find A Contractor",
+        "href": "https://handyman.com/contractor"
+      },
+      {
+        "label": "Post A Project",
+        "href": "https://handyman.com/projectnew/post"
+      },
+      {
+        "label": "Projects Directory",
+        "href": "https://handyman.com/services"
+      },
+      {
+        "label": "Referral Program",
+        "href": "https://handyman.com/referral"
+      },
+      {
+        "label": "Discussions",
+        "href": "https://handyman.com/questions"
+      },
+      {
+        "label": "List Your Business",
+        "href": "https://handyman.com/serviceprovider"
+      },
+      {
+        "label": "Service Provider Sign Up",
+        "href": "https://handyman.com/serviceprovider/"
+      },
+      {
+        "label": "HomeOwner Sign Up",
+        "href": "https://handyman.com/projectnew/post"
+      },
+      {
+        "label": "Referral",
+        "href": "https://handyman.com/referral"
+      },
+      {
+        "label": "Login",
+        "href": "https://handyman.com/login"
+      },
+      {
+        "label": "Register as a Contractor",
+        "href": "https://handyman.com/contractor/signup"
+      },
+      {
+        "label": "Post Your Project",
+        "href": "https://handyman.com/projectnew/post"
+      },
+      {
+        "label": "Changing bathroom s...",
+        "href": "https://handyman.com/project/jobdetails/pj_id/24273"
+      },
+      {
+        "label": "View Project",
+        "href": "https://handyman.com/project/jobdetails/pj_id/24273"
+      },
+      {
+        "label": "I need my bathroom ...",
+        "href": "https://handyman.com/project/jobdetails/pj_id/24272"
+      },
+      {
+        "label": "View Project",
+        "href": "https://handyman.com/project/jobdetails/pj_id/24272"
+      },
+      {
+        "label": "Call of duty",
+        "href": "https://handyman.com/project/jobdetails/pj_id/24271"
+      },
+      {
+        "label": "View Project",
+        "href": "https://handyman.com/project/jobdetails/pj_id/24271"
+      },
+      {
+        "label": "Need pillars instal...",
+        "href": "https://handyman.com/project/jobdetails/pj_id/24270"
+      },
+      {
+        "label": "View Project",
+        "href": "https://handyman.com/project/jobdetails/pj_id/24270"
+      },
+      {
+        "label": "Gutter and Downspou...",
+        "href": "https://handyman.com/project/jobdetails/pj_id/24269"
+      },
+      {
+        "label": "View Project",
+        "href": "https://handyman.com/project/jobdetails/pj_id/24269"
+      },
+      {
+        "label": "Roof leak damaged p...",
+        "href": "https://handyman.com/project/jobdetails/pj_id/24268"
+      },
+      {
+        "label": "View Project",
+        "href": "https://handyman.com/project/jobdetails/pj_id/24268"
+      },
+      {
+        "label": "Looking for someone...",
+        "href": "https://handyman.com/project/jobdetails/pj_id/24267"
+      },
+      {
+        "label": "View Project",
+        "href": "https://handyman.com/project/jobdetails/pj_id/24267"
+      },
+      {
+        "label": "Repair ac unit",
+        "href": "https://handyman.com/project/jobdetails/pj_id/24266"
+      },
+      {
+        "label": "View Project",
+        "href": "https://handyman.com/project/jobdetails/pj_id/24266"
+      },
+      {
+        "label": "Our office door is ...",
+        "href": "https://handyman.com/project/jobdetails/pj_id/24265"
+      },
+      {
+        "label": "View Project",
+        "href": "https://handyman.com/project/jobdetails/pj_id/24265"
+      },
+      {
+        "label": "Put bed togethwr",
+        "href": "https://handyman.com/project/jobdetails/pj_id/24264"
+      },
+      {
+        "label": "View Project",
+        "href": "https://handyman.com/project/jobdetails/pj_id/24264"
+      },
+      {
+        "label": "Help with painting and general cleaning",
+        "href": "https://handyman.com/questions/details/id/297/n/help-with-painting-and-general-cleaning"
+      },
+      {
+        "label": "Cleaning",
+        "href": "https://handyman.com/questions/category/cat/8/n/cleaning"
+      },
+      {
+        "label": "Joyce Richway",
+        "href": "https://handyman.com/homeowner/profile/user/JRichway"
+      },
+      {
+        "label": "Looking for installers to do site visits nationally, is that something I can find here?",
+        "href": "https://handyman.com/questions/details/id/296/n/looking-for-installers-to-do-site-visits-nationall"
+      },
+      {
+        "label": "Floors",
+        "href": "https://handyman.com/questions/category/cat/178/n/floors"
+      },
+      {
+        "label": "FloorMaxUSA",
+        "href": "https://handyman.com/contractor/profile/user/Msupko"
+      },
+      {
+        "label": "Looking for installers to do site visits nationally, is that something I can find here?",
+        "href": "https://handyman.com/questions/details/id/295/n/looking-for-installers-to-do-site-visits-nationall"
+      },
+      {
+        "label": "Floor Coverings",
+        "href": "https://handyman.com/questions/category/cat/177/n/floor-coverings"
+      },
+      {
+        "label": "FloorMaxUSA",
+        "href": "https://handyman.com/contractor/profile/user/Msupko"
+      },
+      {
+        "label": "Looking for installers to do site visits nationally, is that something I can find here?",
+        "href": "https://handyman.com/questions/details/id/294/n/looking-for-installers-to-do-site-visits-nationall"
+      },
+      {
+        "label": "Flooring",
+        "href": "https://handyman.com/questions/category/cat/23/n/flooring"
+      },
+      {
+        "label": "FloorMaxUSA",
+        "href": "https://handyman.com/contractor/profile/user/Msupko"
+      },
+      {
+        "label": "Why I cannot access Homepage, cannot find projects, anything shows Uh oh! Page not found!",
+        "href": "https://handyman.com/questions/details/id/293/n/why-i-cannot-access-homepage,-cannot-find-projects"
+      },
+      {
+        "label": "Other",
+        "href": "https://handyman.com/questions/category/cat/41/n/other"
+      },
+      {
+        "label": "Sfix Handyman Services",
+        "href": "https://handyman.com/contractor/profile/user/Sfixusa"
+      },
+      {
+        "label": "Login to Dashboard",
+        "href": "https://handyman.com/login"
+      },
+      {
+        "label": "Create one for free!",
+        "href": "https://handyman.com/contractor/signup"
+      },
+      {
+        "label": "Albany",
+        "href": "https://handyman.com/contractor/find/city/albany-ny/"
+      },
+      {
+        "label": "Albuquerque",
+        "href": "https://handyman.com/contractor/find/city/albuquerque-nm/"
+      },
+      {
+        "label": "ALL orange county",
+        "href": "https://handyman.com/contractor/find/city/dallas-tx/"
+      },
+      {
+        "label": "Atlanta",
+        "href": "https://handyman.com/contractor/find/city/atlanta-ga/"
+      },
+      {
+        "label": "Austin",
+        "href": "https://handyman.com/contractor/find/city/austin-tx/"
+      },
+      {
+        "label": "Baltimore",
+        "href": "https://handyman.com/contractor/find/city/baltimore-md/"
+      },
+      {
+        "label": "Birmingham",
+        "href": "https://handyman.com/contractor/find/city/birmingham-al/"
+      },
+      {
+        "label": "Boston",
+        "href": "https://handyman.com/contractor/find/city/boston-ma/"
+      },
+      {
+        "label": "Buffalo",
+        "href": "https://handyman.com/contractor/find/city/buffalo-ny/"
+      },
+      {
+        "label": "Charlotte",
+        "href": "https://handyman.com/contractor/find/city/charlotte-nc/"
+      },
+      {
+        "label": "Chicago",
+        "href": "https://handyman.com/contractor/find/city/chicago-il/"
+      },
+      {
+        "label": "Cincinnati",
+        "href": "https://handyman.com/contractor/find/city/cincinnati-oh/"
+      },
+      {
+        "label": "Cleveland",
+        "href": "https://handyman.com/contractor/find/city/cleveland-oh/"
+      },
+      {
+        "label": "Columbia",
+        "href": "https://handyman.com/contractor/find/city/columbia-sc/"
+      },
+      {
+        "label": "Columbus",
+        "href": "https://handyman.com/contractor/find/city/columbus-oh/"
+      },
+      {
+        "label": "Denver",
+        "href": "https://handyman.com/contractor/find/city/denver-co/"
+      },
+      {
+        "label": "Detroit",
+        "href": "https://handyman.com/contractor/find/city/detroit-mi/"
+      },
+      {
+        "label": "Grand Rapids",
+        "href": "https://handyman.com/contractor/find/city/grand-rapids-mi/"
+      },
+      {
+        "label": "Greensboro",
+        "href": "https://handyman.com/contractor/find/city/greensboro-nc/"
+      },
+      {
+        "label": "Greenville",
+        "href": "https://handyman.com/contractor/find/city/greenville-sc/"
+      },
+      {
+        "label": "Harrisburg",
+        "href": "https://handyman.com/contractor/find/city/harrisburg-pa/"
+      },
+      {
+        "label": "Hartford",
+        "href": "https://handyman.com/contractor/find/city/hartford-ct/"
+      },
+      {
+        "label": "Honolulu",
+        "href": "https://handyman.com/contractor/find/city/honolulu-hi/"
+      },
+      {
+        "label": "Houston",
+        "href": "https://handyman.com/contractor/find/city/houston-tx/"
+      },
+      {
+        "label": "Indianapolis",
+        "href": "https://handyman.com/contractor/find/city/indianapolis-in/"
+      },
+      {
+        "label": "Jacksonville",
+        "href": "https://handyman.com/contractor/find/city/jacksonville-fl/"
+      },
+      {
+        "label": "Kansas City",
+        "href": "https://handyman.com/contractor/find/city/kansas-city-mo/"
+      },
+      {
+        "label": "Knoxville",
+        "href": "https://handyman.com/contractor/find/city/knoxville-tn/"
+      },
+      {
+        "label": "Las Vegas",
+        "href": "https://handyman.com/contractor/find/city/las-vegas-nv/"
+      },
+      {
+        "label": "Little Rock",
+        "href": "https://handyman.com/contractor/find/city/little-rock-ar/"
+      },
+      {
+        "label": "Los Angeles",
+        "href": "https://handyman.com/contractor/find/city/los-angeles-ca/"
+      },
+      {
+        "label": "Louisville",
+        "href": "https://handyman.com/contractor/find/city/louisville-ky/"
+      },
+      {
+        "label": "Memphis",
+        "href": "https://handyman.com/contractor/find/city/memphis-tn/"
+      },
+      {
+        "label": "Miami",
+        "href": "https://handyman.com/contractor/find/city/miami-fl/"
+      },
+      {
+        "label": "Milwaukee",
+        "href": "https://handyman.com/contractor/find/city/milwaukee-wi/"
+      },
+      {
+        "label": "Mobile",
+        "href": "https://handyman.com/contractor/find/city/mobile-al/"
+      },
+      {
+        "label": "Nashville",
+        "href": "https://handyman.com/contractor/find/city/nashville-tn/"
+      },
+      {
+        "label": "New Orleans",
+        "href": "https://handyman.com/contractor/find/city/new-orleans-la/"
+      },
+      {
+        "label": "Norfolk",
+        "href": "https://handyman.com/contractor/find/city/norfolk-va/"
+      },
+      {
+        "label": "Oklahoma City",
+        "href": "https://handyman.com/contractor/find/city/oklahoma-city-ok/"
+      },
+      {
+        "label": "Philadelphia",
+        "href": "https://handyman.com/contractor/find/city/philadelphia-pa/"
+      },
+      {
+        "label": "Phoenix",
+        "href": "https://handyman.com/contractor/find/city/phoenix-az/"
+      },
+      {
+        "label": "Pittsburgh",
+        "href": "https://handyman.com/contractor/find/city/pittsburgh-pa/"
+      },
+      {
+        "label": "Portland",
+        "href": "https://handyman.com/contractor/find/city/portland-or/"
+      },
+      {
+        "label": "Providence",
+        "href": "https://handyman.com/contractor/find/city/providence-ri/"
+      },
+      {
+        "label": "Raleigh",
+        "href": "https://handyman.com/contractor/find/city/raleigh-nc/"
+      },
+      {
+        "label": "Richmond",
+        "href": "https://handyman.com/contractor/find/city/richmond-va/"
+      },
+      {
+        "label": "Sacramento",
+        "href": "https://handyman.com/contractor/find/city/sacramento-ca/"
+      },
+      {
+        "label": "Saint Louis",
+        "href": "https://handyman.com/contractor/find/city/saint-louis-mo/"
+      },
+      {
+        "label": "Salt Lake City",
+        "href": "https://handyman.com/contractor/find/city/salt-lake-city-ut/"
+      },
+      {
+        "label": "San Antonio",
+        "href": "https://handyman.com/contractor/find/city/san-antonio-tx/"
+      },
+      {
+        "label": "San Diego",
+        "href": "https://handyman.com/contractor/find/city/san-diego-ca/"
+      },
+      {
+        "label": "San Francisco",
+        "href": "https://handyman.com/contractor/find/city/san-francisco-ca/"
+      },
+      {
+        "label": "Seattle",
+        "href": "https://handyman.com/contractor/find/city/seattle-wa/"
+      },
+      {
+        "label": "Tampa",
+        "href": "https://handyman.com/contractor/find/city/tampa-fl/"
+      },
+      {
+        "label": "West Palm Beach",
+        "href": "https://handyman.com/contractor/find/city/west-palm-beach-fl/"
+      },
+      {
+        "label": "Post Project\n\n\t\t\t\t\t\nPlease login as a Home Owner",
+        "href": "https://handyman.com/projectnew/post"
+      },
+      {
+        "label": "Service Provider Registration",
+        "href": "https://handyman.com/serviceprovider"
+      },
+      {
+        "label": "Find Service Providers",
+        "href": "https://handyman.com/contractor/find"
+      },
+      {
+        "label": "Find Projects",
+        "href": "https://handyman.com/project/find"
+      },
+      {
+        "label": "About us",
+        "href": "https://handyman.com/home/about"
+      },
+      {
+        "label": "Privacy Policy",
+        "href": "https://handyman.com/home/privacy"
+      },
+      {
+        "label": "Terms & Conditions",
+        "href": "https://handyman.com/home/terms"
+      },
+      {
+        "label": "Partners",
+        "href": "https://handyman.com/partners"
+      },
+      {
+        "label": "Contact Us",
+        "href": "https://handyman.com/home/contactus"
+      },
+      {
+        "label": "Sitemap",
+        "href": "https://handyman.com/home/sitemap"
+      },
+      {
+        "label": "About Us",
+        "href": "https://handyman.com/home/about"
+      },
+      {
+        "label": "Terms",
+        "href": "https://handyman.com/home/terms"
+      },
+      {
+        "label": "Privacy",
+        "href": "https://handyman.com/home/privacy"
+      },
+      {
+        "label": "Contact Us",
+        "href": "https://handyman.com/home/contactus"
+      }
+    ],
+    "external": [
+      {
+        "label": "Shop",
+        "href": "https://handymanchannel.com/"
+      },
+      {
+        "label": "\u00bb Add Attic space",
+        "href": "javascript:;"
+      },
+      {
+        "label": "\u00bb Air Conditioning",
+        "href": "javascript:;"
+      },
+      {
+        "label": "\u00bb Aluminum or Steel Fence - Install",
+        "href": "javascript:;"
+      },
+      {
+        "label": "\u00bb Aluminum or Steel Fence - Repair",
+        "href": "javascript:;"
+      },
+      {
+        "label": "\u00bb Appliance - Install",
+        "href": "javascript:;"
+      },
+      {
+        "label": "\u00bb Appliance - Repair",
+        "href": "javascript:;"
+      },
+      {
+        "label": "\u00bb Appliance Installation and Repair",
+        "href": "javascript:;"
+      },
+      {
+        "label": "\u00bb Appliance Installation and Repair",
+        "href": "javascript:;"
+      },
+      {
+        "label": "\u00bb Appraisal - General",
+        "href": "javascript:;"
+      },
+      {
+        "label": "\u00bb Appraisal - Real Estate",
+        "href": "javascript:;"
+      },
+      {
+        "label": "\u00bb Arbor, Pergola, or Trellis - Build",
+        "href": "javascript:;"
+      },
+      {
+        "label": "\u00bb Arbor, Pergola, or Trellis - Repair/Remodel",
+        "href": "javascript:;"
+      },
+      {
+        "label": "\u00bb Architect",
+        "href": "javascript:;"
+      },
+      {
+        "label": "\u00bb Asbestos Siding - Repair",
+        "href": "javascript:;"
+      },
+      {
+        "label": "\u00bb Asphalt Roofing - Install or Replace",
+        "href": "javascript:;"
+      },
+      {
+        "label": "\u00bb Asphalt Roofing - Repair",
+        "href": "javascript:;"
+      },
+      {
+        "label": "\u00bb Attached Additions",
+        "href": "javascript:;"
+      },
+      {
+        "label": "\u00bb Attics",
+        "href": "javascript:;"
+      },
+      {
+        "label": "\u00bb Awnings",
+        "href": "javascript:;"
+      },
+      {
+        "label": "\u00bb Barbed Wire Fence - Install",
+        "href": "javascript:;"
+      },
+      {
+        "label": "\u00bb Barbed Wire Fence - Repair",
+        "href": "javascript:;"
+      },
+      {
+        "label": "\u00bb Basement Remodel",
+        "href": "javascript:;"
+      },
+      {
+        "label": "\u00bb Basements",
+        "href": "javascript:;"
+      },
+      {
+        "label": "\u00bb Bathroom Remodeling",
+        "href": "javascript:;"
+      },
+      {
+        "label": "\u00bb Batt, Rolled and Reflective Insulation",
+        "href": "javascript:;"
+      },
+      {
+        "label": "\u00bb Blown-In Insulation",
+        "href": "javascript:;"
+      },
+      {
+        "label": "\u00bb Boilers and Radiators",
+        "href": "javascript:;"
+      },
+      {
+        "label": "\u00bb Brick and Stone - Flooring",
+        "href": "javascript:;"
+      },
+      {
+        "label": "\u00bb Brick and Stone for Patios - Install",
+        "href": "javascript:;"
+      },
+      {
+        "label": "\u00bb Brick and Stone for Patios - Repair",
+        "href": "javascript:;"
+      },
+      {
+        "label": "\u00bb Brick or Stone Siding - Install",
+        "href": "javascript:;"
+      },
+      {
+        "label": "\u00bb Brick or Stone Siding - Repair",
+        "href": "javascript:;"
+      },
+      {
+        "label": "\u00bb Build a Patio",
+        "href": "javascript:;"
+      },
+      {
+        "label": "\u00bb Build Dock",
+        "href": "javascript:;"
+      },
+      {
+        "label": "\u00bb Cabinets",
+        "href": "javascript:;"
+      },
+      {
+        "label": "\u00bb Cabinets - Install",
+        "href": "javascript:;"
+      },
+      {
+        "label": "\u00bb Cabinets - Reface",
+        "href": "javascript:;"
+      },
+      {
+        "label": "\u00bb Cabinets - Refinish",
+        "href": "javascript:;"
+      },
+      {
+        "label": "\u00bb Cabinets - Repair",
+        "href": "javascript:;"
+      },
+      {
+        "label": "\u00bb Cables, Networks and Telephones",
+        "href": "javascript:;"
+      },
+      {
+        "label": "\u00bb Carpentry",
+        "href": "javascript:;"
+      },
+      {
+        "label": "\u00bb Carpet - Flooring",
+        "href": "javascript:;"
+      },
+      {
+        "label": "\u00bb Central Air Conditioning - Install",
+        "href": "javascript:;"
+      },
+      {
+        "label": "\u00bb Central Air Conditioning - Repair or Service",
+        "href": "javascript:;"
+      },
+      {
+        "label": "\u00bb Central Heating Systems",
+        "href": "javascript:;"
+      },
+      {
+        "label": "\u00bb Ceramic and Porcelain Tile - Install",
+        "href": "javascript:;"
+      },
+      {
+        "label": "\u00bb Ceramic and Porcelain Tile - Repair",
+        "href": "javascript:;"
+      },
+      {
+        "label": "\u00bb Chain Link Fence - Install",
+        "href": "javascript:;"
+      },
+      {
+        "label": "\u00bb Chain Link Fence - Repair or Alter",
+        "href": "javascript:;"
+      },
+      {
+        "label": "\u00bb Chimney, Fireplace, Stove and Barbecue - Inst",
+        "href": "javascript:;"
+      },
+      {
+        "label": "\u00bb Chimney, Fireplace, Stove and Barbecue - Repa",
+        "href": "javascript:;"
+      },
+      {
+        "label": "\u00bb Clean and Seal Deck or Porch",
+        "href": "javascript:;"
+      },
+      {
+        "label": "\u00bb Cleaning",
+        "href": "javascript:;"
+      },
+      {
+        "label": "\u00bb Closet - Build",
+        "href": "javascript:;"
+      },
+      {
+        "label": "\u00bb Closets and Storage",
+        "href": "javascript:;"
+      },
+      {
+        "label": "\u00bb Closets or Rooms - Organize",
+        "href": "javascript:;"
+      },
+      {
+        "label": "\u00bb Commercial Air Conditioning",
+        "href": "javascript:;"
+      },
+      {
+        "label": "\u00bb Commercial Architect",
+        "href": "javascript:;"
+      },
+      {
+        "label": "\u00bb Commercial Basements",
+        "href": "javascript:;"
+      },
+      {
+        "label": "\u00bb Commercial Bathroom Remodeling",
+        "href": "javascript:;"
+      },
+      {
+        "label": "\u00bb Commercial Concrete",
+        "href": "javascript:;"
+      },
+      {
+        "label": "\u00bb Commercial Construction",
+        "href": "javascript:;"
+      },
+      {
+        "label": "\u00bb Commercial Doors",
+        "href": "javascript:;"
+      },
+      {
+        "label": "\u00bb Commercial Drywall and Plastering",
+        "href": "javascript:;"
+      },
+      {
+        "label": "\u00bb Commercial Electrical",
+        "href": "javascript:;"
+      },
+      {
+        "label": "\u00bb Commercial Fencing",
+        "href": "javascript:;"
+      },
+      {
+        "label": "\u00bb Commercial Floor Coverings",
+        "href": "javascript:;"
+      },
+      {
+        "label": "\u00bb Commercial Foundations",
+        "href": "javascript:;"
+      },
+      {
+        "label": "\u00bb Commercial Framing Systems",
+        "href": "javascript:;"
+      },
+      {
+        "label": "\u00bb Commercial Heating and Ventilation",
+        "href": "javascript:;"
+      },
+      {
+        "label": "\u00bb Commercial Kitchen Remodeling",
+        "href": "javascript:;"
+      },
+      {
+        "label": "\u00bb Commercial Landscaping",
+        "href": "javascript:;"
+      },
+      {
+        "label": "\u00bb Commercial Painting and Wallcovering",
+        "href": "javascript:;"
+      },
+      {
+        "label": "\u00bb Commercial Paving",
+        "href": "javascript:;"
+      },
+      {
+        "label": "\u00bb Commercial Plumbing",
+        "href": "javascript:;"
+      },
+      {
+        "label": "\u00bb Commercial Roofing",
+        "href": "javascript:;"
+      },
+      {
+        "label": "\u00bb Commercial Windows",
+        "href": "javascript:;"
+      },
+      {
+        "label": "\u00bb Concrete",
+        "href": "javascript:;"
+      },
+      {
+        "label": "\u00bb Concrete",
+        "href": "javascript:;"
+      },
+      {
+        "label": "\u00bb Concrete - Flooring",
+        "href": "javascript:;"
+      },
+      {
+        "label": "\u00bb Concrete - Pavers",
+        "href": "javascript:;"
+      },
+      {
+        "label": "\u00bb Concrete Foundation - Install",
+        "href": "javascript:;"
+      },
+      {
+        "label": "\u00bb Concrete Foundation - Repair or Raise",
+        "href": "javascript:;"
+      },
+      {
+        "label": "\u00bb Concrete or Clay Tile Roof - Install or Repla",
+        "href": "javascript:;"
+      },
+      {
+        "label": "\u00bb Concrete or Clay Tile Roof - Repair",
+        "href": "javascript:;"
+      },
+      {
+        "label": "\u00bb Consultant - Home or Office Organization",
+        "href": "javascript:;"
+      },
+      {
+        "label": "\u00bb Convert Attic to Living Space",
+        "href": "javascript:;"
+      },
+      {
+        "label": "\u00bb Convert Basement to Living Space",
+        "href": "javascript:;"
+      },
+      {
+        "label": "\u00bb Countertops",
+        "href": "javascript:;"
+      },
+      {
+        "label": "\u00bb Create Blueprints",
+        "href": "javascript:;"
+      },
+      {
+        "label": "\u00bb Custom Cabinets or Built-In Furniture",
+        "href": "javascript:;"
+      },
+      {
+        "label": "\u00bb Custom Home Building",
+        "href": "javascript:;"
+      },
+      {
+        "label": "\u00bb Customer Home Remodeling",
+        "href": "javascript:;"
+      },
+      {
+        "label": "\u00bb Deck - Build",
+        "href": "javascript:;"
+      },
+      {
+        "label": "\u00bb Deck - Repair/Remodel",
+        "href": "javascript:;"
+      },
+      {
+        "label": "\u00bb Decks",
+        "href": "javascript:;"
+      },
+      {
+        "label": "\u00bb Decorators and Designers",
+        "href": "javascript:;"
+      },
+      {
+        "label": "\u00bb Demolition and Disposal",
+        "href": "javascript:;"
+      },
+      {
+        "label": "\u00bb Designer",
+        "href": "javascript:;"
+      },
+      {
+        "label": "\u00bb Designer - Bathroom",
+        "href": "javascript:;"
+      },
+      {
+        "label": "\u00bb Designer - Building",
+        "href": "javascript:;"
+      },
+      {
+        "label": "\u00bb Designer - Feng Shui",
+        "href": "javascript:;"
+      },
+      {
+        "label": "\u00bb Designer - Interior Lighting Plan",
+        "href": "javascript:;"
+      },
+      {
+        "label": "\u00bb Designer - Kitchen",
+        "href": "javascript:;"
+      },
+      {
+        "label": "\u00bb Designer - Landscape",
+        "href": "javascript:;"
+      },
+      {
+        "label": "\u00bb Designer - Residential (Interior Space Planni",
+        "href": "javascript:;"
+      },
+      {
+        "label": "\u00bb Designer - Window Treatments",
+        "href": "javascript:;"
+      },
+      {
+        "label": "\u00bb Detached Additions",
+        "href": "javascript:;"
+      },
+      {
+        "label": "\u00bb Disability Planner",
+        "href": "javascript:;"
+      },
+      {
+        "label": "\u00bb Doors",
+        "href": "javascript:;"
+      },
+      {
+        "label": "\u00bb Drain Clearing",
+        "href": "javascript:;"
+      },
+      {
+        "label": "\u00bb Driveways",
+        "href": "javascript:;"
+      },
+      {
+        "label": "\u00bb Drywall - Install",
+        "href": "javascript:;"
+      },
+      {
+        "label": "\u00bb Drywall - Repair",
+        "href": "javascript:;"
+      },
+      {
+        "label": "\u00bb Drywall and Plastering",
+        "href": "javascript:;"
+      },
+      {
+        "label": "\u00bb Ducts and Vents",
+        "href": "javascript:;"
+      },
+      {
+        "label": "\u00bb Eco-roofs",
+        "href": "javascript:;"
+      },
+      {
+        "label": "\u00bb Electric Wall and Radiant Heat Systems",
+        "href": "javascript:;"
+      },
+      {
+        "label": "\u00bb Electrical",
+        "href": "javascript:;"
+      },
+      {
+        "label": "\u00bb Energy Efficiency",
+        "href": "javascript:;"
+      },
+      {
+        "label": "\u00bb Energy Efficient Appliances",
+        "href": "javascript:;"
+      },
+      {
+        "label": "\u00bb Energy Efficient Doors - Install",
+        "href": "javascript:;"
+      },
+      {
+        "label": "\u00bb Energy Efficient Doors - Repair",
+        "href": "javascript:;"
+      },
+      {
+        "label": "\u00bb Energy Efficient Home Heating",
+        "href": "javascript:;"
+      },
+      {
+        "label": "\u00bb Energy Efficient Remodeling",
+        "href": "javascript:;"
+      },
+      {
+        "label": "\u00bb Energy Efficient Windows - Install",
+        "href": "javascript:;"
+      },
+      {
+        "label": "\u00bb Energy Efficient Windows - Repair",
+        "href": "javascript:;"
+      },
+      {
+        "label": "\u00bb Engineers",
+        "href": "javascript:;"
+      },
+      {
+        "label": "\u00bb Environmental/Disaster Services",
+        "href": "javascript:;"
+      },
+      {
+        "label": "\u00bb Excavation",
+        "href": "javascript:;"
+      },
+      {
+        "label": "\u00bb Exterior Painting or Staining",
+        "href": "javascript:;"
+      },
+      {
+        "label": "\u00bb Exterior Trim - Install",
+        "href": "javascript:;"
+      },
+      {
+        "label": "\u00bb Exterior Trim - Repair",
+        "href": "javascript:;"
+      },
+      {
+        "label": "\u00bb Fans and Ventilation",
+        "href": "javascript:;"
+      },
+      {
+        "label": "\u00bb Faucets, Fixtures and Pipes",
+        "href": "javascript:;"
+      },
+      {
+        "label": "\u00bb Fencing",
+        "href": "javascript:;"
+      },
+      {
+        "label": "\u00bb Financing",
+        "href": "javascript:;"
+      },
+      {
+        "label": "\u00bb Finish Carpentry, Trim and Molding",
+        "href": "javascript:;"
+      },
+      {
+        "label": "\u00bb Fireplace",
+        "href": "javascript:;"
+      },
+      {
+        "label": "\u00bb Fireplaces, Inserts, Stoves and Barbecues",
+        "href": "javascript:;"
+      },
+      {
+        "label": "\u00bb Floor Coverings",
+        "href": "javascript:;"
+      },
+      {
+        "label": "\u00bb Flooring",
+        "href": "javascript:;"
+      },
+      {
+        "label": "\u00bb Floors",
+        "href": "javascript:;"
+      },
+      {
+        "label": "\u00bb Foundation Drainage - Install or Replace",
+        "href": "javascript:;"
+      },
+      {
+        "label": "\u00bb Foundation or Basement - Waterproofing",
+        "href": "javascript:;"
+      },
+      {
+        "label": "\u00bb Foundations",
+        "href": "javascript:;"
+      },
+      {
+        "label": "\u00bb Framing Systems",
+        "href": "javascript:;"
+      },
+      {
+        "label": "\u00bb Full Bath Remodel",
+        "href": "javascript:;"
+      },
+      {
+        "label": "\u00bb Full Kitchen Remodel",
+        "href": "javascript:;"
+      },
+      {
+        "label": "\u00bb Garage - Build",
+        "href": "javascript:;"
+      },
+      {
+        "label": "\u00bb Garage - Remodel",
+        "href": "javascript:;"
+      },
+      {
+        "label": "\u00bb Garage Door - Install or Replace",
+        "href": "javascript:;"
+      },
+      {
+        "label": "\u00bb Garage Door - Repair",
+        "href": "javascript:;"
+      },
+      {
+        "label": "\u00bb Garage Door Opener - Install",
+        "href": "javascript:;"
+      },
+      {
+        "label": "\u00bb Garage Door Opener - Repair or Adjust",
+        "href": "javascript:;"
+      },
+      {
+        "label": "\u00bb Garage Organizers - Install",
+        "href": "javascript:;"
+      },
+      {
+        "label": "\u00bb Garages and Outbuildings",
+        "href": "javascript:;"
+      },
+      {
+        "label": "\u00bb Gate for Driveway or Security - Ins",
+        "href": "javascript:;"
+      },
+      {
+        "label": "\u00bb Gazebo - Build",
+        "href": "javascript:;"
+      },
+      {
+        "label": "\u00bb Gazebo - Repair/Remodel",
+        "href": "javascript:;"
+      },
+      {
+        "label": "\u00bb Gazebos and Enclosures",
+        "href": "javascript:;"
+      },
+      {
+        "label": "\u00bb General Contractors",
+        "href": "javascript:;"
+      },
+      {
+        "label": "\u00bb Generators",
+        "href": "javascript:;"
+      },
+      {
+        "label": "\u00bb Geothermal Heating or Cooling System - Instal",
+        "href": "javascript:;"
+      },
+      {
+        "label": "\u00bb Geothermal Heating or Cooling System - Servic",
+        "href": "javascript:;"
+      },
+      {
+        "label": "\u00bb Glass and Screens",
+        "href": "javascript:;"
+      },
+      {
+        "label": "\u00bb Gutters",
+        "href": "javascript:;"
+      },
+      {
+        "label": "\u00bb Gutters - Clean",
+        "href": "javascript:;"
+      },
+      {
+        "label": "\u00bb Gutters - Install or Replace",
+        "href": "javascript:;"
+      },
+      {
+        "label": "\u00bb Gutters - Repair",
+        "href": "javascript:;"
+      },
+      {
+        "label": "\u00bb Handyman",
+        "href": "javascript:;"
+      },
+      {
+        "label": "\u00bb Handyman for Multiple Small Projects",
+        "href": "javascript:;"
+      },
+      {
+        "label": "\u00bb Hardiplank Siding - Install or Replace",
+        "href": "javascript:;"
+      },
+      {
+        "label": "\u00bb Hardiplank Siding - Repair",
+        "href": "javascript:;"
+      },
+      {
+        "label": "\u00bb Hardwood - Flooring",
+        "href": "javascript:;"
+      },
+      {
+        "label": "\u00bb Heating and Thermostats",
+        "href": "javascript:;"
+      },
+      {
+        "label": "\u00bb Heating and Ventilation",
+        "href": "javascript:;"
+      },
+      {
+        "label": "\u00bb Heating Cable for Roof - Install",
+        "href": "javascript:;"
+      },
+      {
+        "label": "\u00bb Holiday Decor Installation",
+        "href": "javascript:;"
+      },
+      {
+        "label": "\u00bb Home Additions",
+        "href": "javascript:;"
+      },
+      {
+        "label": "\u00bb Home Energy Audit",
+        "href": "javascript:;"
+      },
+      {
+        "label": "\u00bb Home Inspector",
+        "href": "javascript:;"
+      },
+      {
+        "label": "\u00bb Home Solar Energy",
+        "href": "javascript:;"
+      },
+      {
+        "label": "\u00bb Hot Tubs",
+        "href": "javascript:;"
+      },
+      {
+        "label": "\u00bb Inspection - Roofing",
+        "href": "javascript:;"
+      },
+      {
+        "label": "\u00bb Inspection - Waterproofing",
+        "href": "javascript:;"
+      },
+      {
+        "label": "\u00bb Inspection and Appraisal",
+        "href": "javascript:;"
+      },
+      {
+        "label": "\u00bb Insulation and Weather Stripping",
+        "href": "javascript:;"
+      },
+      {
+        "label": "\u00bb Interior Decorator",
+        "href": "javascript:;"
+      },
+      {
+        "label": "\u00bb Interior Painting or Staining",
+        "href": "javascript:;"
+      },
+      {
+        "label": "\u00bb Kitchen Remodeling",
+        "href": "javascript:;"
+      },
+      {
+        "label": "\u00bb Kitchen Remodeling and Design",
+        "href": "javascript:;"
+      },
+      {
+        "label": "\u00bb Laminate - Flooring",
+        "href": "javascript:;"
+      },
+      {
+        "label": "\u00bb Laminate Countertops - Install",
+        "href": "javascript:;"
+      },
+      {
+        "label": "\u00bb Laminate Countertops - Repair",
+        "href": "javascript:;"
+      },
+      {
+        "label": "\u00bb Landscaping",
+        "href": "javascript:;"
+      },
+      {
+        "label": "\u00bb Landscaping - Design and Installation",
+        "href": "javascript:;"
+      },
+      {
+        "label": "\u00bb Landscaping - Maintenance of Lawn and Trees",
+        "href": "javascript:;"
+      },
+      {
+        "label": "\u00bb Landscaping - Sprinkler Systems",
+        "href": "javascript:;"
+      },
+      {
+        "label": "\u00bb Leaf Removal",
+        "href": "javascript:;"
+      },
+      {
+        "label": "\u00bb Lighting Design",
+        "href": "javascript:;"
+      },
+      {
+        "label": "\u00bb Maid Service",
+        "href": "javascript:;"
+      },
+      {
+        "label": "\u00bb Major Renovation - Multiple Rooms",
+        "href": "javascript:;"
+      },
+      {
+        "label": "\u00bb Marine",
+        "href": "javascript:;"
+      },
+      {
+        "label": "\u00bb Masonry",
+        "href": "javascript:;"
+      },
+      {
+        "label": "\u00bb Metal Roof - Install or Replace",
+        "href": "javascript:;"
+      },
+      {
+        "label": "\u00bb Metal Roofing - Paint",
+        "href": "javascript:;"
+      },
+      {
+        "label": "\u00bb Metal Roofing - Repair",
+        "href": "javascript:;"
+      },
+      {
+        "label": "\u00bb Metal Siding - Install",
+        "href": "javascript:;"
+      },
+      {
+        "label": "\u00bb Metal Siding - Repair",
+        "href": "javascript:;"
+      },
+      {
+        "label": "\u00bb Minor Remodels",
+        "href": "javascript:;"
+      },
+      {
+        "label": "\u00bb Mold Remediation",
+        "href": "javascript:;"
+      },
+      {
+        "label": "\u00bb Natural Stone Tile - Install",
+        "href": "javascript:;"
+      },
+      {
+        "label": "\u00bb Natural Stone Tile - Repair",
+        "href": "javascript:;"
+      },
+      {
+        "label": "\u00bb New Home Building",
+        "href": "javascript:;"
+      },
+      {
+        "label": "\u00bb New Kitchen Appliance Install",
+        "href": "javascript:;"
+      },
+      {
+        "label": "\u00bb New Tub/Shower Installation",
+        "href": "javascript:;"
+      },
+      {
+        "label": "\u00bb Odd-Jobs",
+        "href": "javascript:;"
+      },
+      {
+        "label": "\u00bb Other",
+        "href": "javascript:;"
+      },
+      {
+        "label": "\u00bb Other Concrete Services",
+        "href": "javascript:;"
+      },
+      {
+        "label": "\u00bb Other Handyman Services",
+        "href": "javascript:;"
+      },
+      {
+        "label": "\u00bb Other HVAC Types",
+        "href": "javascript:;"
+      },
+      {
+        "label": "\u00bb Other Plumbing Related Jobs",
+        "href": "javascript:;"
+      },
+      {
+        "label": "\u00bb Outbuildings and Structures",
+        "href": "javascript:;"
+      },
+      {
+        "label": "\u00bb Outbuildings, Sheds and Gazebos",
+        "href": "javascript:;"
+      },
+      {
+        "label": "\u00bb Outdoor Kitchen",
+        "href": "javascript:;"
+      },
+      {
+        "label": "\u00bb Outdoor Mist Cooling System - Install",
+        "href": "javascript:;"
+      },
+      {
+        "label": "\u00bb Outdoor Mist Cooling System - Repair",
+        "href": "javascript:;"
+      },
+      {
+        "label": "\u00bb Outdoor Patios, Steps and Walkways",
+        "href": "javascript:;"
+      },
+      {
+        "label": "\u00bb Outdoor Walls and Retaining Walls",
+        "href": "javascript:;"
+      },
+      {
+        "label": "\u00bb Outlets, Panels, Switches and Wiring",
+        "href": "javascript:;"
+      },
+      {
+        "label": "\u00bb Paint Preparation",
+        "href": "javascript:;"
+      },
+      {
+        "label": "\u00bb Paint Removal and Cleaning",
+        "href": "javascript:;"
+      },
+      {
+        "label": "\u00bb Painting and Wallcovering",
+        "href": "javascript:;"
+      },
+      {
+        "label": "\u00bb Partial Bathroom Remodel",
+        "href": "javascript:;"
+      },
+      {
+        "label": "\u00bb Partial Kitchen Remodel",
+        "href": "javascript:;"
+      },
+      {
+        "label": "\u00bb Patio",
+        "href": "javascript:;"
+      },
+      {
+        "label": "\u00bb Patios, Walks and Steps",
+        "href": "javascript:;"
+      },
+      {
+        "label": "\u00bb Pavers",
+        "href": "javascript:;"
+      },
+      {
+        "label": "\u00bb Pavers for Patios, Walks and Steps - Install",
+        "href": "javascript:;"
+      },
+      {
+        "label": "\u00bb Paving",
+        "href": "javascript:;"
+      },
+      {
+        "label": "\u00bb Pest Control",
+        "href": "javascript:;"
+      },
+      {
+        "label": "\u00bb Plastering - Install",
+        "href": "javascript:;"
+      },
+      {
+        "label": "\u00bb Plastering - Repair",
+        "href": "javascript:;"
+      },
+      {
+        "label": "\u00bb Play Equipment - Build",
+        "href": "javascript:;"
+      },
+      {
+        "label": "\u00bb Play Equipment - Repair/Remodel",
+        "href": "javascript:;"
+      },
+      {
+        "label": "\u00bb Plumbing",
+        "href": "javascript:;"
+      },
+      {
+        "label": "\u00bb Pools",
+        "href": "javascript:;"
+      },
+      {
+        "label": "\u00bb Pools and Water Features",
+        "href": "javascript:;"
+      },
+      {
+        "label": "\u00bb Porch - Build",
+        "href": "javascript:;"
+      },
+      {
+        "label": "\u00bb Porch - Repair/Remodel",
+        "href": "javascript:;"
+      },
+      {
+        "label": "\u00bb Pressure Washing",
+        "href": "javascript:;"
+      },
+      {
+        "label": "\u00bb Pumps",
+        "href": "javascript:;"
+      },
+      {
+        "label": "\u00bb Railings",
+        "href": "javascript:;"
+      },
+      {
+        "label": "\u00bb Raise House to Add Basement",
+        "href": "javascript:;"
+      },
+      {
+        "label": "\u00bb Recovery Services - Disaster",
+        "href": "javascript:;"
+      },
+      {
+        "label": "\u00bb Refrigeration System - Install or Replace",
+        "href": "javascript:;"
+      },
+      {
+        "label": "\u00bb Refrigeration System - Repair or Service",
+        "href": "javascript:;"
+      },
+      {
+        "label": "\u00bb Remodeling and Room Additions",
+        "href": "javascript:;"
+      },
+      {
+        "label": "\u00bb Repair Dock",
+        "href": "javascript:;"
+      },
+      {
+        "label": "\u00bb Retaining Walls",
+        "href": "javascript:;"
+      },
+      {
+        "label": "\u00bb Roofing",
+        "href": "javascript:;"
+      },
+      {
+        "label": "\u00bb Roofing - Install or Replace",
+        "href": "javascript:;"
+      },
+      {
+        "label": "\u00bb Roofing - Repair",
+        "href": "javascript:;"
+      },
+      {
+        "label": "\u00bb Saunas",
+        "href": "javascript:;"
+      },
+      {
+        "label": "\u00bb Seal off Attic space",
+        "href": "javascript:;"
+      },
+      {
+        "label": "\u00bb Sealant for Roof - Apply",
+        "href": "javascript:;"
+      },
+      {
+        "label": "\u00bb Septic Systems, Sewers and Water Mains",
+        "href": "javascript:;"
+      },
+      {
+        "label": "\u00bb Sheet Metal",
+        "href": "javascript:;"
+      },
+      {
+        "label": "\u00bb Siding - Brick, Stone, or Stucco",
+        "href": "javascript:;"
+      },
+      {
+        "label": "\u00bb Siding/Residing",
+        "href": "javascript:;"
+      },
+      {
+        "label": "\u00bb Site Preparation",
+        "href": "javascript:;"
+      },
+      {
+        "label": "\u00bb Skylights",
+        "href": "javascript:;"
+      },
+      {
+        "label": "\u00bb Smart House",
+        "href": "javascript:;"
+      },
+      {
+        "label": "\u00bb Snow Plowing",
+        "href": "javascript:;"
+      },
+      {
+        "label": "\u00bb Solar Panels For Electric System - Install",
+        "href": "javascript:;"
+      },
+      {
+        "label": "\u00bb Solar Panels For Electric System - Repair",
+        "href": "javascript:;"
+      },
+      {
+        "label": "\u00bb Solar Water Heater System - Install",
+        "href": "javascript:;"
+      },
+      {
+        "label": "\u00bb Solar Water Heater System - Repair",
+        "href": "javascript:;"
+      },
+      {
+        "label": "\u00bb Solid Surface (Corian, Concrete, etc.) - Inst",
+        "href": "javascript:;"
+      },
+      {
+        "label": "\u00bb Solid Surface (Corian, Concrete, etc.) - Repa",
+        "href": "javascript:;"
+      },
+      {
+        "label": "\u00bb Soundproofing",
+        "href": "javascript:;"
+      },
+      {
+        "label": "\u00bb Spas",
+        "href": "javascript:;"
+      },
+      {
+        "label": "\u00bb Special Finishes",
+        "href": "javascript:;"
+      },
+      {
+        "label": "\u00bb Sports Surfaces (Tennis, Courts and Synthetic",
+        "href": "javascript:;"
+      },
+      {
+        "label": "\u00bb Spray Foam Insulation",
+        "href": "javascript:;"
+      },
+      {
+        "label": "\u00bb Spray-on Siding - Apply",
+        "href": "javascript:;"
+      },
+      {
+        "label": "\u00bb Spring Cleaning",
+        "href": "javascript:;"
+      },
+      {
+        "label": "\u00bb Sprinkler Systems",
+        "href": "javascript:;"
+      },
+      {
+        "label": "\u00bb Sprinklers",
+        "href": "javascript:;"
+      },
+      {
+        "label": "\u00bb Stairs and Railings",
+        "href": "javascript:;"
+      },
+      {
+        "label": "\u00bb Stone Slab (Granite, Quartz, etc.) - Install",
+        "href": "javascript:;"
+      },
+      {
+        "label": "\u00bb Stone Slab (Granite, Quartz, etc.) - Repair",
+        "href": "javascript:;"
+      },
+      {
+        "label": "\u00bb Storm Shutters",
+        "href": "javascript:;"
+      },
+      {
+        "label": "\u00bb Stucco",
+        "href": "javascript:;"
+      },
+      {
+        "label": "\u00bb Sunrooms",
+        "href": "javascript:;"
+      },
+      {
+        "label": "\u00bb Swamp Cooler - Install or Replace",
+        "href": "javascript:;"
+      },
+      {
+        "label": "\u00bb Swamp Cooler - Service or Repair",
+        "href": "javascript:;"
+      },
+      {
+        "label": "\u00bb Swimming Pool - Install",
+        "href": "javascript:;"
+      },
+      {
+        "label": "\u00bb Swimming Pool - Remodel",
+        "href": "javascript:;"
+      },
+      {
+        "label": "\u00bb Swimming Pool - Repair",
+        "href": "javascript:;"
+      },
+      {
+        "label": "\u00bb Swimming Pool Decks and Patios",
+        "href": "javascript:;"
+      },
+      {
+        "label": "\u00bb Synthetic Stucco Siding - Install",
+        "href": "javascript:;"
+      },
+      {
+        "label": "\u00bb Synthetic Stucco Siding - Repair",
+        "href": "javascript:;"
+      },
+      {
+        "label": "\u00bb Thermostats and Accessories",
+        "href": "javascript:;"
+      },
+      {
+        "label": "\u00bb Tile - Flooring",
+        "href": "javascript:;"
+      },
+      {
+        "label": "\u00bb Tile and Stone",
+        "href": "javascript:;"
+      },
+      {
+        "label": "\u00bb Tile, Stone, Grout - Clean",
+        "href": "javascript:;"
+      },
+      {
+        "label": "\u00bb Tile: Ceramic and Porcelain - Install",
+        "href": "javascript:;"
+      },
+      {
+        "label": "\u00bb Tile: Ceramic and Porcelain - Repair",
+        "href": "javascript:;"
+      },
+      {
+        "label": "\u00bb Tile: Natural Stone - Install",
+        "href": "javascript:;"
+      },
+      {
+        "label": "\u00bb Tile: Natural Stone - Repair",
+        "href": "javascript:;"
+      },
+      {
+        "label": "\u00bb Traditional Stucco - Install",
+        "href": "javascript:;"
+      },
+      {
+        "label": "\u00bb Traditional Stucco Siding - Repair",
+        "href": "javascript:;"
+      },
+      {
+        "label": "\u00bb Tree and Shrub Service",
+        "href": "javascript:;"
+      },
+      {
+        "label": "\u00bb Tub Reglaze",
+        "href": "javascript:;"
+      },
+      {
+        "label": "\u00bb Vinyl - Flooring",
+        "href": "javascript:;"
+      },
+      {
+        "label": "\u00bb Vinyl or PVC Fence - Install",
+        "href": "javascript:;"
+      },
+      {
+        "label": "\u00bb Vinyl or PVC Fence - Repair",
+        "href": "javascript:;"
+      },
+      {
+        "label": "\u00bb Vinyl Siding - Install",
+        "href": "javascript:;"
+      },
+      {
+        "label": "\u00bb Vinyl Siding - Repair",
+        "href": "javascript:;"
+      },
+      {
+        "label": "\u00bb Wallpapering",
+        "href": "javascript:;"
+      },
+      {
+        "label": "\u00bb Walls",
+        "href": "javascript:;"
+      },
+      {
+        "label": "\u00bb Water Heaters",
+        "href": "javascript:;"
+      },
+      {
+        "label": "\u00bb Water Softening and Purification",
+        "href": "javascript:;"
+      },
+      {
+        "label": "\u00bb Waterproofing",
+        "href": "javascript:;"
+      },
+      {
+        "label": "\u00bb Waterproofing and Drywells",
+        "href": "javascript:;"
+      },
+      {
+        "label": "\u00bb Window A/C Unit - Install",
+        "href": "javascript:;"
+      },
+      {
+        "label": "\u00bb Window A/C Unit - Service or Relocate",
+        "href": "javascript:;"
+      },
+      {
+        "label": "\u00bb Windows",
+        "href": "javascript:;"
+      },
+      {
+        "label": "\u00bb Windows - Install or Replace",
+        "href": "javascript:;"
+      },
+      {
+        "label": "\u00bb Windows - Repair",
+        "href": "javascript:;"
+      },
+      {
+        "label": "\u00bb Winterize Lawn/Landscape",
+        "href": "javascript:;"
+      },
+      {
+        "label": "\u00bb Winterizing Home",
+        "href": "javascript:;"
+      },
+      {
+        "label": "\u00bb Wood Fence - Install",
+        "href": "javascript:;"
+      },
+      {
+        "label": "\u00bb Wood Fence - Repair",
+        "href": "javascript:;"
+      },
+      {
+        "label": "\u00bb Wood or Fiber Cement - Install",
+        "href": "javascript:;"
+      },
+      {
+        "label": "\u00bb Wood or Fiber Cement - Repair",
+        "href": "javascript:;"
+      },
+      {
+        "label": "\u00bb Wood Shingles - Install or Replace",
+        "href": "javascript:;"
+      },
+      {
+        "label": "\u00bb Wood Shingles - Repair",
+        "href": "javascript:;"
+      },
+      {
+        "label": "\u00bb Wrought Iron Fence - Install",
+        "href": "javascript:;"
+      },
+      {
+        "label": "\u00bb Wrought Iron Fence - Repair or Weld",
+        "href": "javascript:;"
+      },
+      {
+        "label": "",
+        "href": "https://www.facebook.com/handymancom"
+      },
+      {
+        "label": "",
+        "href": "https://twitter.com/handymancom"
+      },
+      {
+        "label": "",
+        "href": "https://plus.google.com/104922706084588776464/about"
+      },
+      {
+        "label": "",
+        "href": "http://www.pinterest.com/handyman14"
+      },
+      {
+        "label": "",
+        "href": "http://www.linkedin.com/company/handyman-com/"
+      },
+      {
+        "label": "FAQ",
+        "href": "https://support.handyman.com/"
+      },
+      {
+        "label": "Support",
+        "href": "https://support.handyman.com"
+      },
+      {
+        "label": "Blog",
+        "href": "https://medium.com/handyman-blog"
+      },
+      {
+        "label": "Shop",
+        "href": "https://handymanchannel.com/"
+      }
+    ],
+    "broken": []
+  },
+  "extractedAt": "2025-11-19T14:47:45Z"
+}
