@@ -1,0 +1,730 @@
+{
+  "url": "https://www.newsmax.com/platinum/",
+  "path": "/platinum/",
+  "status": 200,
+  "title": "Newsmax.com - Breaking news from around the globe: U.S. news, politics, world, health, finance, video, science, technology, live news stream",
+  "description": "Top news headlines, videos and comments from Newsmax.com, an independent news source with a conservative perspective, covering politics, the White House, Congress, Hollywood, Wall Street with trusted news on health, personal finance, culture, faith and more.",
+  "canonical": "https://www.newsmax.com/platinum/",
+  "media": {
+    "images": [
+      {
+        "url": "https://www.queryly.com/images/whitesearchicon.png",
+        "alt": "Search Newsmax.com",
+        "width": null,
+        "height": null
+      },
+      {
+        "url": "https://www.newsmax.com/App_Themes/NewsmaxNew/images/NMAX-NYSE-Ticker-Horizontal.svg",
+        "alt": "",
+        "width": 200,
+        "height": null
+      },
+      {
+        "url": "https://www.newsmax.com/App_Themes/Newsmax/images/Social/icon-facebook.jpg",
+        "alt": "Facebook",
+        "width": 30,
+        "height": 30
+      },
+      {
+        "url": "https://www.newsmax.com/App_Themes/Newsmax/images/Social/icon-x-twitter.jpg",
+        "alt": "X",
+        "width": 28,
+        "height": 28
+      },
+      {
+        "url": "https://www.newsmax.com/App_Themes/Newsmax/images/Social/icon-truthsocial.jpg",
+        "alt": "Truth Social",
+        "width": 30,
+        "height": 30
+      },
+      {
+        "url": "https://www.newsmax.com/App_Themes/Newsmax/images/Social/icon-linkedin.jpg",
+        "alt": "LinkedIn",
+        "width": 30,
+        "height": 30
+      },
+      {
+        "url": "https://www.newsmax.com/CMSPages/GetFile.aspx?guid=dbe645dc-2018-4d32-bc9a-763481b3bdf3&maxsidesize=114",
+        "alt": "Escape From New York: 'Mamdani Migration' Begins",
+        "width": null,
+        "height": null
+      },
+      {
+        "url": "https://www.newsmax.com/CMSPages/GetFile.aspx?guid=9e10d4b4-db64-461a-b26c-2db360e77980&maxsidesize=114",
+        "alt": "Trump's 50-Year Mortgage: Madness or Masterstroke?",
+        "width": null,
+        "height": null
+      },
+      {
+        "url": "https://www.newsmax.com/CMSPages/GetFile.aspx?guid=cbe56ef9-e472-49a2-a846-c4f4ee889f33&maxsidesize=114",
+        "alt": "Sinise Foundation Gives 100th Home to Injured Vet",
+        "width": null,
+        "height": null
+      },
+      {
+        "url": "https://www.newsmax.com/CMSPages/GetFile.aspx?guid=2afe0b0e-a864-428a-a4ad-2717b99e38db&maxsidesize=114",
+        "alt": "Ballot Deadline Case Could Impact 2026 Elections",
+        "width": null,
+        "height": null
+      },
+      {
+        "url": "https://www.newsmax.com/CMSPages/GetFile.aspx?guid=dfd88588-b38d-479b-a965-8a2b178934b5&maxsidesize=114",
+        "alt": "Iraq WMD Myths Persist Despite Known Intel Failures",
+        "width": null,
+        "height": null
+      },
+      {
+        "url": "https://www.newsmax.com/CMSPages/GetFile.aspx?guid=0cf5743c-8ef5-4d1c-b598-4f0e1ec45357&maxsidesize=114",
+        "alt": "Media Shift: Rep. Greene Gains Unlikely Allies",
+        "width": null,
+        "height": null
+      },
+      {
+        "url": "https://www.newsmax.com/CMSPages/GetFile.aspx?guid=59aebe7c-fad2-425e-b14f-4f6988e47d09&maxsidesize=114",
+        "alt": "The Science Behind Mindfulness and Its Benefits",
+        "width": null,
+        "height": null
+      },
+      {
+        "url": "https://www.newsmax.com/CMSPages/GetFile.aspx?guid=1852cc48-455f-4c50-a21a-12af91a37b83&maxsidesize=114",
+        "alt": "Zohran Mamdani and the Soros Blueprint",
+        "width": null,
+        "height": null
+      },
+      {
+        "url": "https://www.newsmax.com/CMSPages/GetFile.aspx?guid=4ba277dd-6f76-4119-8433-c2ba747f1a5f&maxsidesize=114",
+        "alt": "Ken Burns Tackles America's Founding Story",
+        "width": null,
+        "height": null
+      },
+      {
+        "url": "https://www.newsmax.com/CMSPages/GetFile.aspx?guid=26858821-e7f6-43de-9cca-46a5ed9f0b64&maxsidesize=114",
+        "alt": "Tesla AI: Sci-Fi Revolution or Orwellian Nightmare?",
+        "width": null,
+        "height": null
+      },
+      {
+        "url": "https://www.newsmax.com/CMSPages/GetFile.aspx?guid=cc4638e4-300d-41d4-9e9c-e095afc9634a&maxsidesize=114",
+        "alt": "Justice Dept. Confronts 'Depravity' of '764' Child Predator Ring",
+        "width": null,
+        "height": null
+      },
+      {
+        "url": "https://www.newsmax.com/CMSPages/GetFile.aspx?guid=0d0d3373-e1e2-4abf-a679-acdb63e885bb&maxsidesize=114",
+        "alt": "INSA Poll: Germans Sour on Aid for Ukrainian Refugees",
+        "width": null,
+        "height": null
+      },
+      {
+        "url": "https://www.newsmax.com/CMSPages/GetFile.aspx?guid=bad6120f-3ce1-4558-abf9-f60ebb7ea30d&maxsidesize=114",
+        "alt": "Study Shows How Some Medicaid Recipients Spend Time",
+        "width": null,
+        "height": null
+      },
+      {
+        "url": "https://www.newsmax.com/CMSPages/GetFile.aspx?guid=c2c0cbbb-ecf2-4a8a-9418-69a5ed03c786&maxsidesize=114",
+        "alt": "India, China Battle for Indian Ocean Supremacy",
+        "width": null,
+        "height": null
+      },
+      {
+        "url": "https://www.newsmax.com/CMSPages/GetFile.aspx?guid=836f1cf4-df43-41a7-8156-f3425ecdc1cd&maxsidesize=114",
+        "alt": "Why Tun Tavern Nearly Wasn't Birthplace of Marines",
+        "width": null,
+        "height": null
+      },
+      {
+        "url": "https://www.newsmax.com/CMSPages/GetFile.aspx?guid=b61adaa0-34e4-4ff8-9c21-298666c20811&maxsidesize=114",
+        "alt": "Activist Hopeful but Skeptical on Transgenderism Report",
+        "width": null,
+        "height": null
+      },
+      {
+        "url": "https://www.newsmax.com/CMSPages/GetFile.aspx?guid=8753eac4-b5ad-4645-9bb0-c2ec3e5cb315&maxsidesize=114",
+        "alt": "Quality vs. Quantity: AI and the New Job Hunt",
+        "width": null,
+        "height": null
+      },
+      {
+        "url": "https://www.newsmax.com/CMSPages/GetFile.aspx?guid=71bb4668-67b9-401f-8832-8883a3382464&maxsidesize=114",
+        "alt": "Nord Stream Saga Deepens as Poland Defies Germany in Extradition",
+        "width": null,
+        "height": null
+      },
+      {
+        "url": "https://www.newsmax.com/CMSPages/GetFile.aspx?guid=b81928de-14ca-4943-a8d3-a0355b50d00e&maxsidesize=114",
+        "alt": "Trump Tries to 'Keep Pace' by Resuming Nuclear Tests",
+        "width": null,
+        "height": null
+      },
+      {
+        "url": "https://www.newsmax.com/CMSPages/GetFile.aspx?guid=12c663fd-964b-4e47-bfc6-4595217189b4&maxsidesize=114",
+        "alt": "'Al-Qaida of the West' Targeted in America's Narco-Terror War",
+        "width": null,
+        "height": null
+      },
+      {
+        "url": "https://www.newsmax.com/CMSPages/GetFile.aspx?guid=25b76d55-76b9-4ced-a045-6b4df52fe18f&maxsidesize=114",
+        "alt": "Justice Jackson Conflates Disabilities, Race in Redistricting Saga",
+        "width": null,
+        "height": null
+      },
+      {
+        "url": "https://www.newsmax.com/CMSPages/GetFile.aspx?guid=a964ba65-9b90-47a8-8866-b6e3ed4a8c1a&maxsidesize=114",
+        "alt": "Multiple AGs Join Fight Against Birthright Citizenship",
+        "width": null,
+        "height": null
+      },
+      {
+        "url": "https://www.newsmax.com/CMSPages/GetFile.aspx?guid=a9752751-337d-4eab-a965-692444a1f133&maxsidesize=114",
+        "alt": "History Replete With Anger Over White House Alterations",
+        "width": null,
+        "height": null
+      },
+      {
+        "url": "https://www.newsmax.com/CMSPages/GetFile.aspx?guid=4156ff5d-a93e-4d06-89a8-d6e6302664df&maxsidesize=114",
+        "alt": "The Billion-Dollar Machine Behind the 'No Kings' Movement",
+        "width": null,
+        "height": null
+      },
+      {
+        "url": "https://www.newsmax.com/CMSPages/GetFile.aspx?guid=3ba5508f-b30e-44be-a526-41d9f76b1f9c&maxsidesize=114",
+        "alt": "Big Tech's Quiet War on Conservative Voices Before Midterms",
+        "width": null,
+        "height": null
+      },
+      {
+        "url": "https://www.newsmax.com/App_Themes/NewsmaxNew/images/SMS-Banner-300x600-v2.jpg",
+        "alt": "Get Newsmax Text Alerts",
+        "width": null,
+        "height": null
+      },
+      {
+        "url": "https://www.newsmax.com/App_Themes/NewsmaxNew/images/qrcode/white/wh-app-apple.png",
+        "alt": "Apple",
+        "width": null,
+        "height": null
+      },
+      {
+        "url": "https://www.newsmax.com/App_Themes/NewsmaxNew/images/qrcode/white/wh-app-google.png",
+        "alt": "Android",
+        "width": null,
+        "height": null
+      },
+      {
+        "url": "https://www.newsmax.com/App_Themes/NewsmaxNew/images/qrcode/white/wh-app-amazon.png",
+        "alt": "Amazon",
+        "width": null,
+        "height": null
+      },
+      {
+        "url": "https://www.newsmax.com/App_Themes/NewsmaxNew/images/qrcode/white/wh-app-samsung.png",
+        "alt": "Samsung",
+        "width": null,
+        "height": null
+      },
+      {
+        "url": "https://www.newsmax.com/App_Themes/NewsmaxNew/images/qrcode/white/wh-app-vizio.png",
+        "alt": "Vizio",
+        "width": null,
+        "height": null
+      },
+      {
+        "url": "https://www.newsmax.com/App_Themes/NewsmaxNew/images/qrcode/white/wh-app-roku.png",
+        "alt": "Roku",
+        "width": null,
+        "height": null
+      },
+      {
+        "url": "https://www.newsmax.com/App_Themes/NewsmaxNew/images/qrcode/white/wh-app-sony.png",
+        "alt": "Sony",
+        "width": null,
+        "height": null
+      },
+      {
+        "url": "https://www.newsmax.com/App_Themes/NewsmaxNew/images/qrcode/white/wh-app-lg.png",
+        "alt": "LG",
+        "width": null,
+        "height": null
+      },
+      {
+        "url": "https://www.newsmax.com/App_Themes/NewsmaxNew/images/qrcode/newsmaxqr-80.png",
+        "alt": "Scan QR code to get the NewsmaxTV App",
+        "width": null,
+        "height": null
+      },
+      {
+        "url": "https://www.newsmax.com/akam/13/pixel_220c3151?a=dD1jNmVmODczNTgwMzY2NWEyZjAyYjBmODc1OTU2NzNlNGJkZGJiODFmJmpzPW9mZg==",
+        "alt": "",
+        "width": null,
+        "height": null
+      }
+    ],
+    "videos": [
+      {
+        "url": "https://www.googletagmanager.com/ns.html?id=GTM-WL644C",
+        "type": "embed"
+      }
+    ],
+    "gifs": []
+  },
+  "files": [],
+  "words": {
+    "headings": [
+      {
+        "tag": "h2",
+        "text": "WATCH TV LIVE"
+      },
+      {
+        "tag": "h1",
+        "text": "Newsmax Platinum Articles"
+      },
+      {
+        "tag": "h5",
+        "text": "Download the Newsmax App"
+      }
+    ],
+    "paragraphs": [
+      "More Newsmax Platinum Articles Stories",
+      "Interest-Based Advertising | Do not sell or share my personal information",
+      "Newsmax, Moneynews, Newsmax Health, and Independent. American. are registered trademarks of Newsmax Media, Inc. Newsmax TV, and Newsmax World are trademarks of Newsmax Media, Inc."
+    ],
+    "wordCount": 41
+  },
+  "links": {
+    "internal": [
+      {
+        "label": "NEWSMAX",
+        "href": "https://www.newsmax.com/"
+      },
+      {
+        "label": "HEALTH",
+        "href": "https://www.newsmax.com/health/"
+      },
+      {
+        "label": "MONEY",
+        "href": "https://www.newsmax.com/finance/"
+      },
+      {
+        "label": "WORLD",
+        "href": "https://www.newsmax.com/world/"
+      },
+      {
+        "label": "",
+        "href": "https://www.newsmax.com/"
+      },
+      {
+        "label": "Newsmax",
+        "href": "https://www.newsmax.com/"
+      },
+      {
+        "label": "Health",
+        "href": "https://www.newsmax.com/health/"
+      },
+      {
+        "label": "Money",
+        "href": "https://www.newsmax.com/finance/"
+      },
+      {
+        "label": "World",
+        "href": "https://www.newsmax.com/world/"
+      },
+      {
+        "label": "Contact",
+        "href": "https://www.newsmax.com/contact/"
+      },
+      {
+        "label": "Advertise",
+        "href": "https://www.newsmax.com/advertise/"
+      },
+      {
+        "label": "Home",
+        "href": "https://www.newsmax.com/"
+      },
+      {
+        "label": "Platinum",
+        "href": "https://www.newsmax.com/platinum/"
+      },
+      {
+        "label": "Podcast",
+        "href": "https://www.newsmax.com/listen/"
+      },
+      {
+        "label": "Newsfront",
+        "href": "https://www.newsmax.com/newsfront/"
+      },
+      {
+        "label": "Politics",
+        "href": "https://www.newsmax.com/politics/"
+      },
+      {
+        "label": "Opinion",
+        "href": "https://www.newsmax.com/insiders/"
+      },
+      {
+        "label": "Wire",
+        "href": "https://www.newsmax.com/thewire/"
+      },
+      {
+        "label": "Books",
+        "href": "https://www.newsmax.com/books/"
+      },
+      {
+        "label": "Best Lists",
+        "href": "https://www.newsmax.com/newsmaxbest/"
+      },
+      {
+        "label": "Social",
+        "href": "https://www.newsmax.com/social/"
+      },
+      {
+        "label": "Games",
+        "href": "https://www.newsmax.com/games/"
+      },
+      {
+        "label": "Newsmax Platinum Articles",
+        "href": "https://www.newsmax.com/platinum/"
+      },
+      {
+        "label": "ARCHIVE",
+        "href": "https://www.newsmax.com/archives/platinum/381/2025/11/"
+      },
+      {
+        "label": "RSS",
+        "href": "https://www.newsmax.com/rss/platinum/381/"
+      },
+      {
+        "label": "Escape From New York: 'Mamdani Migration' Begins",
+        "href": "https://www.newsmax.com/platinum/zohran-mamdani-new-york-migration/2025/11/13/id/1234461/"
+      },
+      {
+        "label": "Trump's 50-Year Mortgage: Madness or Masterstroke?",
+        "href": "https://www.newsmax.com/platinum/donald-trump-50-year-mortgage/2025/11/18/id/1235081/"
+      },
+      {
+        "label": "Sinise Foundation Gives 100th Home to Injured Vet",
+        "href": "https://www.newsmax.com/platinum/gary-sinise-actor-foundation/2025/11/14/id/1234618/"
+      },
+      {
+        "label": "Ballot Deadline Case Could Impact 2026 Elections",
+        "href": "https://www.newsmax.com/platinum/supreme-court-mail-in-ballots-2026/2025/11/10/id/1233988/"
+      },
+      {
+        "label": "Iraq WMD Myths Persist Despite Known Intel Failures",
+        "href": "https://www.newsmax.com/platinum/iraq-war-wmd/2025/11/06/id/1233540/"
+      },
+      {
+        "label": "Media Shift: Rep. Greene Gains Unlikely Allies",
+        "href": "https://www.newsmax.com/platinum/marjorie-taylor-greene-left-maga/2025/11/06/id/1233539/"
+      },
+      {
+        "label": "The Science Behind Mindfulness and Its Benefits",
+        "href": "https://www.newsmax.com/platinum/science-mindfulness-health/2025/10/09/id/1229656/"
+      },
+      {
+        "label": "Zohran Mamdani and the Soros Blueprint",
+        "href": "https://www.newsmax.com/platinum/zohran-mamdani-george-soros-blueprint/2025/11/06/id/1233458/"
+      },
+      {
+        "label": "Ken Burns Tackles America's Founding Story",
+        "href": "https://www.newsmax.com/platinum/ken-burns-documentary-american-revolution/2025/11/10/id/1233975/"
+      },
+      {
+        "label": "Tesla AI: Sci-Fi Revolution or Orwellian Nightmare?",
+        "href": "https://www.newsmax.com/platinum/elon-musk-tesla-artificial-intelligence/2025/11/12/id/1234219/"
+      },
+      {
+        "label": "Justice Dept. Confronts 'Depravity' of '764' Child Predator Ring",
+        "href": "https://www.newsmax.com/platinum/justice-department-ag-fbi/2025/11/03/id/1233038/"
+      },
+      {
+        "label": "INSA Poll: Germans Sour on Aid for Ukrainian Refugees",
+        "href": "https://www.newsmax.com/platinum/germany-citizens-oppose/2025/11/03/id/1233046/"
+      },
+      {
+        "label": "Study Shows How Some Medicaid Recipients Spend Time",
+        "href": "https://www.newsmax.com/platinum/study-medicaid-recipients/2025/11/03/id/1233037/"
+      },
+      {
+        "label": "India, China Battle for Indian Ocean Supremacy",
+        "href": "https://www.newsmax.com/platinum/india-china-indian-ocean/2025/11/07/id/1233685/"
+      },
+      {
+        "label": "Why Tun Tavern Nearly Wasn't Birthplace of Marines",
+        "href": "https://www.newsmax.com/platinum/samuel-nicholas-marines-anniversary/2025/11/03/id/1233021/"
+      },
+      {
+        "label": "Activist Hopeful but Skeptical on Transgenderism Report",
+        "href": "https://www.newsmax.com/platinum/walt-heyer-activist-decline/2025/11/07/id/1233622/"
+      },
+      {
+        "label": "Quality vs. Quantity: AI and the New Job Hunt",
+        "href": "https://www.newsmax.com/platinum/artificial-intelligence-revolutionize-job/2025/11/03/id/1233033/"
+      },
+      {
+        "label": "Nord Stream Saga Deepens as Poland Defies Germany in Extradition",
+        "href": "https://www.newsmax.com/platinum/poland-refusal-nord-stream/2025/10/24/id/1231735/"
+      },
+      {
+        "label": "Trump Tries to 'Keep Pace' by Resuming Nuclear Tests",
+        "href": "https://www.newsmax.com/platinum/donald-trump-nuclear-tests/2025/11/03/id/1233055/"
+      },
+      {
+        "label": "'Al-Qaida of the West' Targeted in America's Narco-Terror War",
+        "href": "https://www.newsmax.com/platinum/narco-terror-war-drugs/2025/10/24/id/1231761/"
+      },
+      {
+        "label": "Justice Jackson Conflates Disabilities, Race in Redistricting Saga",
+        "href": "https://www.newsmax.com/platinum/ketanji-brown-jackson-black-race/2025/11/03/id/1233032/"
+      },
+      {
+        "label": "Multiple AGs Join Fight Against Birthright Citizenship",
+        "href": "https://www.newsmax.com/platinum/attorneys-general-donald-trump-supreme-court/2025/11/03/id/1233041/"
+      },
+      {
+        "label": "History Replete With Anger Over White House Alterations",
+        "href": "https://www.newsmax.com/platinum/donald-trump-white-house-renovations/2025/10/25/id/1231838/"
+      },
+      {
+        "label": "The Billion-Dollar Machine Behind the 'No Kings' Movement",
+        "href": "https://www.newsmax.com/platinum/no-kings-movement-funding/2025/10/23/id/1231606/"
+      },
+      {
+        "label": "Big Tech's Quiet War on Conservative Voices Before Midterms",
+        "href": "https://www.newsmax.com/platinum/big-tech-midterms-algorithm/2025/10/15/id/1230503/"
+      },
+      {
+        "label": "More Newsmax Platinum Articles Stories",
+        "href": "https://www.newsmax.com/archives/platinum/381/2025/11/"
+      },
+      {
+        "label": "Privacy",
+        "href": "https://www.newsmax.com/privacystatement/"
+      },
+      {
+        "label": "Trump Administration",
+        "href": "https://www.newsmax.com/hottopics/topic/trump-administration/246/"
+      },
+      {
+        "label": "Immigration",
+        "href": "https://www.newsmax.com/hottopics/topic/immigration/79/"
+      },
+      {
+        "label": "Law Enforcement/Crime",
+        "href": "https://www.newsmax.com/hottopics/topic/law-enforcement-crime/301/"
+      },
+      {
+        "label": "Antisemitism",
+        "href": "https://www.newsmax.com/hottopics/topic/antisemitism/458/"
+      },
+      {
+        "label": "Jeffrey Epstein",
+        "href": "https://www.newsmax.com/hottopics/topic/jeffrey-epstein/386/"
+      },
+      {
+        "label": "Thanksgiving",
+        "href": "https://www.newsmax.com/hottopics/topic/thanksgiving/456/"
+      },
+      {
+        "label": "Dick Cheney",
+        "href": "https://www.newsmax.com/hottopics/topic/dick-cheney/102/"
+      },
+      {
+        "label": "Russia-Ukraine War",
+        "href": "https://www.newsmax.com/hottopics/topic/russia-ukraine-war/401/"
+      },
+      {
+        "label": "Venezuela",
+        "href": "https://www.newsmax.com/hottopics/topic/venezuela/98/"
+      },
+      {
+        "label": "Newsmax TV",
+        "href": "https://www.newsmax.com/hottopics/topic/newsmax-tv/295/"
+      },
+      {
+        "label": "More Hot Topics",
+        "href": "https://www.newsmax.com/hottopics/"
+      },
+      {
+        "label": "Home",
+        "href": "https://www.newsmax.com/"
+      },
+      {
+        "label": "Platinum",
+        "href": "https://www.newsmax.com/platinum/"
+      },
+      {
+        "label": "Podcast",
+        "href": "https://www.newsmax.com/listen/"
+      },
+      {
+        "label": "Newsfront",
+        "href": "https://www.newsmax.com/newsfront/"
+      },
+      {
+        "label": "Politics",
+        "href": "https://www.newsmax.com/politics/"
+      },
+      {
+        "label": "Opinion",
+        "href": "https://www.newsmax.com/insiders/"
+      },
+      {
+        "label": "Wire",
+        "href": "https://www.newsmax.com/thewire/"
+      },
+      {
+        "label": "Books",
+        "href": "https://www.newsmax.com/books/"
+      },
+      {
+        "label": "Best Lists",
+        "href": "https://www.newsmax.com/newsmaxbest/"
+      },
+      {
+        "label": "Social",
+        "href": "https://www.newsmax.com/social/"
+      },
+      {
+        "label": "Games",
+        "href": "https://www.newsmax.com/games/"
+      },
+      {
+        "label": "Interest-Based Advertising",
+        "href": "https://www.newsmax.com/privacystatement#digitalAdvertising"
+      },
+      {
+        "label": "Do not sell or share my personal information",
+        "href": "https://www.newsmax.com/donotsell"
+      },
+      {
+        "label": "About",
+        "href": "https://www.newsmax.com/about/"
+      },
+      {
+        "label": "Contact",
+        "href": "https://www.newsmax.com/contact/"
+      },
+      {
+        "label": "Advertise",
+        "href": "https://www.newsmax.com/advertise/"
+      },
+      {
+        "label": "RSS",
+        "href": "https://www.newsmax.com/rss/"
+      },
+      {
+        "label": "Archives",
+        "href": "https://www.newsmax.com/archives/"
+      },
+      {
+        "label": "Privacy Policy",
+        "href": "https://www.newsmax.com/privacystatement/"
+      },
+      {
+        "label": "Terms & Conditions",
+        "href": "https://www.newsmax.com/termsconditions/"
+      }
+    ],
+    "external": [
+      {
+        "label": "WATCH TV LIVE",
+        "href": "https://www.newsmaxtv.com"
+      },
+      {
+        "label": "TV",
+        "href": "https://www.newsmaxtv.com/"
+      },
+      {
+        "label": "",
+        "href": "https://ir.newsmax.com/"
+      },
+      {
+        "label": "NewsmaxTV",
+        "href": "http://www.newsmaxtv.com/"
+      },
+      {
+        "label": "",
+        "href": "http://facebook.com/Newsmax"
+      },
+      {
+        "label": "",
+        "href": "http://twitter.com/Newsmax"
+      },
+      {
+        "label": "",
+        "href": "https://truthsocial.com/@NewsMax"
+      },
+      {
+        "label": "",
+        "href": "https://www.linkedin.com/company/newsmax-media-inc-/"
+      },
+      {
+        "label": "",
+        "href": "https://ir.newsmax.com/"
+      },
+      {
+        "label": "Shop",
+        "href": "https://www.newsmaxshop.com/"
+      },
+      {
+        "label": "Investors",
+        "href": "https://newsmaxinvest.com/"
+      },
+      {
+        "label": "TOP",
+        "href": "javascript:"
+      },
+      {
+        "label": "Investors",
+        "href": "https://newsmaxinvest.com/"
+      },
+      {
+        "label": "",
+        "href": "https://itunes.apple.com/us/app/newsmax/id878180850?mt=8"
+      },
+      {
+        "label": "",
+        "href": "https://play.google.com/store/apps/details?id=com.fli.android.newsmaxapp&utm_source=browser&utm_campaign=npluspage&pcampaignid=pcampaignidMKT-Other-global-all-co-prtnr-py-PartBadge-Mar2515-1"
+      },
+      {
+        "label": "",
+        "href": "https://www.amazon.com/Newsmax-Media-Inc-TV-Web/dp/B00QVZP4WW/"
+      },
+      {
+        "label": "",
+        "href": "https://www.samsung.com/us/tvs/smart-tv/samsung-tv-plus-and-smart-hub/"
+      },
+      {
+        "label": "",
+        "href": "https://www.vizio.com/en/smart-tv-apps?appName=newsmax&appId=vizio.newsmax"
+      },
+      {
+        "label": "",
+        "href": "https://channelstore.roku.com/details/24699/newsmax-tv"
+      },
+      {
+        "label": "",
+        "href": "https://play.google.com/store/apps/details?id=com.fli.android.newsmaxapp"
+      },
+      {
+        "label": "",
+        "href": "https://us.lgappstv.com/main/tvapp/detail?appId=988054&catCode1=006&moreYn=N&cateYn=Y&orderType=0&headerName=News%2FInfo&appRankCode=&sellrUsrNo=&curPage=2"
+      },
+      {
+        "label": "Shop",
+        "href": "https://www.newsmaxshop.com/"
+      },
+      {
+        "label": "Careers",
+        "href": "https://recruiting.ultipro.com/NEW1027/JobBoard/3d5ae180-49c4-20f7-d7b4-adfe940978a7/"
+      },
+      {
+        "label": "Manage Cookies",
+        "href": "javascript:void;"
+      }
+    ],
+    "broken": []
+  },
+  "extractedAt": "2025-11-19T16:13:16Z"
+}

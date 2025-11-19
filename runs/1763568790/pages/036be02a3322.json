@@ -1,0 +1,1787 @@
+{
+  "url": "https://www.newsmax.com/insiders/",
+  "path": "/insiders/",
+  "status": 200,
+  "title": "Newsmax Insiders - Opinions, Analysis, Top Strategists, Conservative, Republicans, Libertarians, democrats, independent Americans",
+  "description": "Political analysis on the latest breaking political news from pundits - Michael Reagan, Patrick Buchanan, Alan Dershowitz, Charles Krauthammer, Fareed Zakaria, David Limbaugh, Ron Paul",
+  "canonical": "https://www.newsmax.com/insiders/",
+  "media": {
+    "images": [
+      {
+        "url": "https://www.queryly.com/images/whitesearchicon.png",
+        "alt": "Search Newsmax.com",
+        "width": null,
+        "height": null
+      },
+      {
+        "url": "https://www.newsmax.com/App_Themes/NewsmaxNew/images/NMAX-NYSE-Ticker-Horizontal.svg",
+        "alt": "",
+        "width": 200,
+        "height": null
+      },
+      {
+        "url": "https://www.newsmax.com/App_Themes/Newsmax/images/Social/icon-facebook.jpg",
+        "alt": "Facebook",
+        "width": 30,
+        "height": 30
+      },
+      {
+        "url": "https://www.newsmax.com/App_Themes/Newsmax/images/Social/icon-x-twitter.jpg",
+        "alt": "X",
+        "width": 28,
+        "height": 28
+      },
+      {
+        "url": "https://www.newsmax.com/App_Themes/Newsmax/images/Social/icon-truthsocial.jpg",
+        "alt": "Truth Social",
+        "width": 30,
+        "height": 30
+      },
+      {
+        "url": "https://www.newsmax.com/App_Themes/Newsmax/images/Social/icon-linkedin.jpg",
+        "alt": "LinkedIn",
+        "width": 30,
+        "height": 30
+      },
+      {
+        "url": "https://www.newsmax.com/app_themes/newsmax/images/newindex_insiders_nav-0.jpg",
+        "alt": "Newsmax Insiders",
+        "width": 100,
+        "height": null
+      },
+      {
+        "url": "https://www.newsmax.com/app_themes/newsmax/images/newmax_insiders-header-500x115.jpg",
+        "alt": "Newsmax Insiders",
+        "width": 100,
+        "height": null
+      },
+      {
+        "url": "https://www.newsmax.com/CMSPages/GetFile.aspx?guid=f32662e4-fe1c-4d70-830d-6ef318036cb4&SiteName=Newsmax&maxsidesize=124",
+        "alt": "MAGA Can't Be Tone Deaf - Should Listen to Polls, Elections ",
+        "width": null,
+        "height": null
+      },
+      {
+        "url": "https://www.newsmax.com/CMSPages/GetFile.aspx?guid=f4e557b4-08d7-4595-b7c8-1f73cbd5ef3c&SiteName=Newsmax&maxsidesize=124",
+        "alt": "Boost Computing Power by 25 Percent Without A Single New Chip",
+        "width": null,
+        "height": null
+      },
+      {
+        "url": "https://www.newsmax.com/CMSPages/GetFile.aspx?guid=0aee2b91-f5e7-4cd4-9839-4ca8042b9f60&SiteName=Newsmax&maxsidesize=124",
+        "alt": "Election '25 Proved Trump Haters Way More Enthusiastic",
+        "width": null,
+        "height": null
+      },
+      {
+        "url": "https://www.newsmax.com/CMSPages/GetFile.aspx?guid=395c9f58-4730-4849-94da-f6b6c49c8a6a&SiteName=Newsmax&maxsidesize=124",
+        "alt": "Judge Thwarts Trump in Getting Dangerous Truck Drivers Off Road ",
+        "width": null,
+        "height": null
+      },
+      {
+        "url": "https://www.newsmax.com/CMSPages/GetFile.aspx?guid=c5f45156-32b5-43a1-a61c-334953e4eeda&SiteName=Newsmax&maxsidesize=124",
+        "alt": "Revamp SNAP, or Obesity, Illness Will Break America's Bank ",
+        "width": null,
+        "height": null
+      },
+      {
+        "url": "https://www.newsmax.com/CMSPages/GetFile.aspx?guid=859ce1ae-5694-4b7e-a02c-ec07248131af&SiteName=Newsmax&maxsidesize=124",
+        "alt": "NY's Marxism Experiment: Economic Wipeout or Wakeup Call?",
+        "width": null,
+        "height": null
+      },
+      {
+        "url": "https://www.newsmax.com/CMSPages/GetFile.aspx?guid=9b8037d8-6212-4176-889d-4b55d3d44361&SiteName=Newsmax&maxsidesize=124",
+        "alt": "GOP Treats Hispanic Right as Afterthought, Could Lose '26",
+        "width": null,
+        "height": null
+      },
+      {
+        "url": "https://www.newsmax.com/CMSPages/GetFile.aspx?guid=246806c8-289d-4c03-be9b-dc84b7ea610d&SiteName=Newsmax&maxsidesize=124",
+        "alt": "Shutdown Only a Snapshot of Looming Fiscal Crisis ",
+        "width": null,
+        "height": null
+      },
+      {
+        "url": "https://www.newsmax.com/CMSPages/GetFile.aspx?guid=4842ef54-ddf0-4e02-a6a7-b143cad2c0f2&SiteName=Newsmax&maxsidesize=124",
+        "alt": "Americas are Backbone of Global Protein Supply",
+        "width": null,
+        "height": null
+      },
+      {
+        "url": "https://www.newsmax.com/CMSPages/GetFile.aspx?guid=5a4fc3c1-4c32-48e8-8139-806e1ad622ec&SiteName=Newsmax&maxsidesize=124",
+        "alt": "Democrats Try to Link Trump Criminally to Epstein and Fail",
+        "width": null,
+        "height": null
+      },
+      {
+        "url": "https://www.newsmax.com/CMSPages/GetFile.aspx?guid=4b3d9e89-9009-49d4-bfaf-cdec62374b5c&SiteName=Newsmax&maxsidesize=124",
+        "alt": "We Need to Make America, America Again",
+        "width": null,
+        "height": null
+      },
+      {
+        "url": "https://www.newsmax.com/CMSPages/GetFile.aspx?guid=5033b3a6-8ba6-4e81-9c61-5d1c82e326ba&SiteName=Newsmax&maxsidesize=124",
+        "alt": "Trump Only Leader Who Can End Genocide of Christians in Africa",
+        "width": null,
+        "height": null
+      },
+      {
+        "url": "https://www.newsmax.com/CMSPages/GetFile.aspx?guid=c45c75c1-b2df-442d-8603-ff7907c7012f&SiteName=Newsmax&maxsidesize=124",
+        "alt": "Never Discount Social Security as One of Your Top Assets",
+        "width": null,
+        "height": null
+      },
+      {
+        "url": "https://www.newsmax.com/CMSPages/GetFile.aspx?guid=25f0d6a9-148a-4662-9eb6-26d16ca134a8&SiteName=Newsmax&maxsidesize=124",
+        "alt": "Focus on Meaning of Behaviors as Path to Understanding ",
+        "width": null,
+        "height": null
+      },
+      {
+        "url": "https://www.newsmax.com/CMSPages/GetFile.aspx?guid=d6d3a9c6-05c3-47cd-bdd0-1d5cc0a4fdac&SiteName=Newsmax&maxsidesize=124",
+        "alt": "States Break Law with Medicaid Coverage for Illegal Immigrants \n",
+        "width": null,
+        "height": null
+      },
+      {
+        "url": "https://www.newsmax.com/CMSPages/GetFile.aspx?guid=f5fa86c2-41b5-4745-ab68-75942366782f&SiteName=Newsmax&maxsidesize=124",
+        "alt": "Our Next Social Epidemic: Legalized Sports Gambling",
+        "width": null,
+        "height": null
+      },
+      {
+        "url": "https://www.newsmax.com/CMSPages/GetFile.aspx?guid=17a30158-8db7-40a7-8129-bda63f576c94&SiteName=Newsmax&maxsidesize=124",
+        "alt": "Midterm's Lesson: Use Blakeman-Trump Model for Victory",
+        "width": null,
+        "height": null
+      },
+      {
+        "url": "https://www.newsmax.com/CMSPages/GetFile.aspx?guid=2514c85a-b5d7-40d5-b40a-3cac8b82fca0&SiteName=Newsmax&maxsidesize=124",
+        "alt": "New York City: Bigger, Better, Far Greater Than Mamdani",
+        "width": null,
+        "height": null
+      },
+      {
+        "url": "https://www.newsmax.com/CMSPages/GetFile.aspx?guid=b861f62e-adea-4a13-9d77-69a3680a5c6f&SiteName=Newsmax&maxsidesize=124",
+        "alt": "Will Washington Be Ready for Iran's Next Uprising?",
+        "width": null,
+        "height": null
+      },
+      {
+        "url": "https://www.newsmax.com/CMSPages/GetFile.aspx?guid=72ff39a6-ac08-47a8-a4b4-afb84a8e5723&SiteName=Newsmax&maxsidesize=124",
+        "alt": "Shutdown Insanity May Have Ended, but Not Poor Leadership  ",
+        "width": null,
+        "height": null
+      },
+      {
+        "url": "https://www.newsmax.com/CMSPages/GetFile.aspx?guid=2f383c3b-34ea-47c8-b446-82380d12cc26&SiteName=Newsmax&maxsidesize=124",
+        "alt": "16 NYC Neighborhoods Secured Mamdani's Narrow Victory",
+        "width": null,
+        "height": null
+      },
+      {
+        "url": "https://www.newsmax.com/CMSPages/GetFile.aspx?guid=33196773-53f4-432d-b989-e645e355c758&SiteName=Newsmax&maxsidesize=124",
+        "alt": "AI Companions for Seniors \u2013 Worth the Applause",
+        "width": null,
+        "height": null
+      },
+      {
+        "url": "https://www.newsmax.com/CMSPages/GetFile.aspx?guid=f2a79382-d867-4f18-908c-aa89b40ad93f&SiteName=Newsmax&maxsidesize=124",
+        "alt": "Outsmarted by Trump, Schumer Ended Shutdown",
+        "width": null,
+        "height": null
+      },
+      {
+        "url": "https://www.newsmax.com/CMSPages/GetFile.aspx?guid=db16dfc4-f349-45d3-95b5-760e3bd48609&SiteName=Newsmax&maxsidesize=124",
+        "alt": "Self-Imposed Term Limits? Not an Option",
+        "width": null,
+        "height": null
+      },
+      {
+        "url": "https://www.newsmax.com/CMSPages/GetFile.aspx?guid=813a315e-25de-4674-985e-f8c241ab262e&SiteName=Newsmax&maxsidesize=124",
+        "alt": "It's Time We Demand Scrutiny of ROI on a College Education\n",
+        "width": null,
+        "height": null
+      },
+      {
+        "url": "https://www.newsmax.com/CMSPages/GetFile.aspx?guid=79f9e751-aeb9-4e26-96de-24f2e918bde8&SiteName=Newsmax&maxsidesize=124",
+        "alt": "Ruddy: President Trump, Thank You For Your BBC Fight",
+        "width": null,
+        "height": null
+      },
+      {
+        "url": "https://www.newsmax.com/CMSPages/GetFile.aspx?guid=aeaac6cd-16df-4fc9-968b-59255c5c8fef&SiteName=Newsmax&maxsidesize=124",
+        "alt": "Nothing 'Democratic' About Socialists",
+        "width": null,
+        "height": null
+      },
+      {
+        "url": "https://www.newsmax.com/CMSPages/GetFile.aspx?guid=733e7d17-77d9-4ab2-bbe7-c8977cc4bec8&SiteName=Newsmax&maxsidesize=124",
+        "alt": "Canada Proves Cutover to Marxism Happens at Warp Speed   ",
+        "width": null,
+        "height": null
+      },
+      {
+        "url": "https://www.newsmax.com/CMSPages/GetFile.aspx?guid=bc584b69-bd4a-4dbb-8781-6ab29bd4e100&SiteName=Newsmax&maxsidesize=124",
+        "alt": "Johnson's, Pritzker's, Pelosi's Contempt for Law Merits DOJ Wrath",
+        "width": null,
+        "height": null
+      },
+      {
+        "url": "https://www.newsmax.com/CMSPages/GetFile.aspx?guid=e5a4dad7-24db-46d0-8d2c-60216324912c&SiteName=Newsmax&maxsidesize=124",
+        "alt": "Trump Proposal Could End Schumer Shutdown, Turbocharge Patient Power",
+        "width": null,
+        "height": null
+      },
+      {
+        "url": "https://www.newsmax.com/CMSPages/GetFile.aspx?guid=f276e3e7-c790-4964-96e6-b1f446dd751c&SiteName=Newsmax&maxsidesize=124",
+        "alt": "What Will It Take To Correct The Missile Defense Record?",
+        "width": null,
+        "height": null
+      },
+      {
+        "url": "https://www.newsmax.com/CMSPages/GetFile.aspx?guid=1055ce41-7fa9-4a96-a93b-a4dbbb9f9e3d&SiteName=Newsmax&maxsidesize=124",
+        "alt": "Bill Gates Finally Gives Global Warming the Cold Shoulder",
+        "width": null,
+        "height": null
+      },
+      {
+        "url": "https://www.newsmax.com/CMSPages/GetFile.aspx?guid=25682235-471a-4b37-860f-a9d60d4214a6&SiteName=Newsmax&maxsidesize=124",
+        "alt": "Are Trump's Tariffs Beyond His Constitutional Authority?  ",
+        "width": null,
+        "height": null
+      },
+      {
+        "url": "https://www.newsmax.com/CMSPages/GetFile.aspx?guid=e3472fa5-fed5-403f-8ae4-47289abaf6b9&SiteName=Newsmax&maxsidesize=124",
+        "alt": "Authenticity Can Rescue PR from Its Carnival of Insincerity",
+        "width": null,
+        "height": null
+      },
+      {
+        "url": "https://www.newsmax.com/CMSPages/GetFile.aspx?guid=15c243ab-4dd5-484a-9897-1850283baf8d&SiteName=Newsmax&maxsidesize=124",
+        "alt": "Security, Stability in Syria Still at Risk \n\n\n\n",
+        "width": null,
+        "height": null
+      },
+      {
+        "url": "https://www.newsmax.com/CMSPages/GetFile.aspx?guid=f80a862c-cc08-46f3-a805-7f75bd0a9d61&SiteName=Newsmax&maxsidesize=124",
+        "alt": "A Welcoming Space Worthy of the White House",
+        "width": null,
+        "height": null
+      },
+      {
+        "url": "https://www.newsmax.com/CMSPages/GetFile.aspx?guid=e75e344a-767c-48a8-8f17-5be10efdde4f&SiteName=Newsmax&maxsidesize=124",
+        "alt": "Cultivating Hope: How Healthy Children Become Happy Adults",
+        "width": null,
+        "height": null
+      },
+      {
+        "url": "https://www.newsmax.com/CMSPages/GetFile.aspx?guid=adbe60b1-e394-4357-aa04-f2184dc91667&SiteName=Newsmax&maxsidesize=124",
+        "alt": "Trump the Peacemaker Deserves His Place on Mount Rushmore",
+        "width": null,
+        "height": null
+      },
+      {
+        "url": "https://www.newsmax.com/CMSPages/GetFile.aspx?guid=b6b45339-86c1-4ca2-8be3-552a9082547b&SiteName=Newsmax&maxsidesize=124",
+        "alt": "With Help of U.S. Business, Trump Scores Another Win ",
+        "width": null,
+        "height": null
+      },
+      {
+        "url": "https://www.newsmax.com/CMSPages/GetFile.aspx?guid=1ab9e156-1bf7-47fd-a21e-3ed589365a70&SiteName=Newsmax&maxsidesize=124",
+        "alt": "Republics Governing by 'Emergencies' Live Without Safeguards",
+        "width": null,
+        "height": null
+      },
+      {
+        "url": "https://www.newsmax.com/CMSPages/GetFile.aspx?guid=3113c103-b052-4e3f-ab68-83a86b7b549b&SiteName=Newsmax&maxsidesize=124",
+        "alt": "Is Beijing Scoring Quiet Victories in America's Classrooms?",
+        "width": null,
+        "height": null
+      },
+      {
+        "url": "https://www.newsmax.com/CMSPages/GetFile.aspx?guid=8c195fcf-2bd3-433d-aed7-93230dbfb7b5&SiteName=Newsmax&maxsidesize=124",
+        "alt": "Drone Deterrence, Can It Guarantee Lasting Mideast Peace?",
+        "width": null,
+        "height": null
+      },
+      {
+        "url": "https://www.newsmax.com/CMSPages/GetFile.aspx?guid=9ed8aba6-cb6e-4d96-b276-eafae2deb522&SiteName=Newsmax&maxsidesize=124",
+        "alt": "Tucker Carlson's Mockery and God's Irrevocable Call",
+        "width": null,
+        "height": null
+      },
+      {
+        "url": "https://www.newsmax.com/CMSPages/GetFile.aspx?guid=cc01865b-69b7-4a58-9ebe-e7efa02b0c36&SiteName=Newsmax&maxsidesize=124",
+        "alt": "Youthful Delusions of Entitlement Elected Mamdani",
+        "width": null,
+        "height": null
+      },
+      {
+        "url": "https://www.newsmax.com/CMSPages/GetFile.aspx?guid=7994fb4a-90ac-4db3-8f05-61bb03b33a4d&SiteName=Newsmax&maxsidesize=124",
+        "alt": "D.C. Should Scrutinize Entertainment Mergers' Impact on Speech ",
+        "width": null,
+        "height": null
+      },
+      {
+        "url": "https://www.newsmax.com/CMSPages/GetFile.aspx?guid=e7b8c240-8b3e-4e07-aa0a-02ee8fb5ed9b&SiteName=Newsmax&maxsidesize=124",
+        "alt": "Pelosi Will Be Remembered for Being Pitifully Misguided ",
+        "width": null,
+        "height": null
+      },
+      {
+        "url": "https://www.newsmax.com/CMSPages/GetFile.aspx?guid=eefd9e14-9b97-49c8-8542-f0699a1c6e6e&SiteName=Newsmax&maxsidesize=124",
+        "alt": "Mamdani's Perfect Storm Will Ravage All NY ",
+        "width": null,
+        "height": null
+      },
+      {
+        "url": "https://www.newsmax.com/CMSPages/GetFile.aspx?guid=afdbcacb-293b-4f09-babd-348788ab738f&SiteName=Newsmax&maxsidesize=124",
+        "alt": "Republicans Must Hold Nose, Save NYC From Total Ruin",
+        "width": null,
+        "height": null
+      },
+      {
+        "url": "https://www.newsmax.com/CMSPages/GetFile.aspx?guid=8c8e7d2b-132f-49ab-8e99-2d2a7fa5d4fd&SiteName=Newsmax&maxsidesize=124",
+        "alt": "No, Hamas-Israel War Not Over",
+        "width": null,
+        "height": null
+      },
+      {
+        "url": "https://www.newsmax.com/CMSPages/GetFile.aspx?guid=804a7686-81ae-462d-bdb6-50ba12e01ab6&SiteName=Newsmax&maxsidesize=124",
+        "alt": "Trump's Instincts Achieved What Stale Foreign Policy Couldn't",
+        "width": null,
+        "height": null
+      },
+      {
+        "url": "https://www.newsmax.com/CMSPages/GetFile.aspx?guid=5b65d8a6-8f65-4a3e-be00-86e5d2f897b1&SiteName=Newsmax&maxsidesize=124",
+        "alt": "Jews Know All Too Well Where Path of Tolerated Hatred Leads",
+        "width": null,
+        "height": null
+      },
+      {
+        "url": "https://www.newsmax.com/CMSPages/GetFile.aspx?guid=6aa3b9cb-177f-4fba-9eba-6a22c769658d&SiteName=Newsmax&maxsidesize=124",
+        "alt": "We Can't Let Wastewater Protection System Go To Waste ",
+        "width": null,
+        "height": null
+      },
+      {
+        "url": "https://www.newsmax.com/CMSPages/GetFile.aspx?guid=1a4d9410-3fdb-4d2a-9c40-cc6c39e1646c&SiteName=Newsmax&maxsidesize=124",
+        "alt": "Key to Restoring American Greatness: Evil's Wholesale Defeat",
+        "width": null,
+        "height": null
+      },
+      {
+        "url": "https://www.newsmax.com/CMSPages/GetFile.aspx?guid=e3e39765-c61a-4f7c-82c6-ee4fef00f864&SiteName=Newsmax&maxsidesize=124",
+        "alt": "Mamdani Result of Radicalism Moving from Classroom to City Hall",
+        "width": null,
+        "height": null
+      },
+      {
+        "url": "https://www.newsmax.com/CMSPages/GetFile.aspx?guid=62b100a7-c957-4626-9ac8-1020b345d04f&SiteName=Newsmax&maxsidesize=124",
+        "alt": "Documentary a Magnificent Way to Honor Those Serving in Uniform",
+        "width": null,
+        "height": null
+      },
+      {
+        "url": "https://www.newsmax.com/CMSPages/GetFile.aspx?guid=5e69481f-427c-44a5-9e65-5dc6901cf8fb&SiteName=Newsmax&maxsidesize=124",
+        "alt": "Institute Educates in Much Needed Areas of Security, Strategy ",
+        "width": null,
+        "height": null
+      },
+      {
+        "url": "https://www.newsmax.com/CMSPages/GetFile.aspx?guid=8db167a8-982d-420b-892d-d22365e0cbe0&SiteName=Newsmax&maxsidesize=124",
+        "alt": "Time to Regulate Lawyers Playing Doctors on TV",
+        "width": null,
+        "height": null
+      },
+      {
+        "url": "https://www.newsmax.com/CMSPages/GetFile.aspx?guid=62ba9ca6-b1a4-4a30-8086-746f331c7b5d&SiteName=Newsmax&maxsidesize=124",
+        "alt": "Hamas Interested in Advancing Its Strategy, Not Morality",
+        "width": null,
+        "height": null
+      },
+      {
+        "url": "https://www.newsmax.com/CMSPages/GetFile.aspx?guid=baa4e4a8-c177-4d90-babf-edb926907624&SiteName=Newsmax&maxsidesize=124",
+        "alt": "Lifting Deposit Insurance Limits Is Foolhardy",
+        "width": null,
+        "height": null
+      },
+      {
+        "url": "https://www.newsmax.com/CMSPages/GetFile.aspx?guid=e877da69-ee0f-4987-b9a6-f583d3e1ee77&SiteName=Newsmax&maxsidesize=124",
+        "alt": "Drastically Shrink Govt, or Keep it Shutdown",
+        "width": null,
+        "height": null
+      },
+      {
+        "url": "https://www.newsmax.com/CMSPages/GetFile.aspx?guid=83312e0a-ac71-44f8-a79e-902c6dcfe857",
+        "alt": "Michael Reagan",
+        "width": null,
+        "height": null
+      },
+      {
+        "url": "https://www.newsmax.com/CMSPages/GetFile.aspx?guid=bf764de8-c007-4c5e-9c21-bbf290b79413",
+        "alt": "Ben Stein",
+        "width": null,
+        "height": null
+      },
+      {
+        "url": "https://www.newsmax.com/App_Themes/NewsmaxNew/images/SMS-Banner-300x600-v2.jpg",
+        "alt": "Get Newsmax Text Alerts",
+        "width": null,
+        "height": null
+      },
+      {
+        "url": "https://www.newsmax.com/App_Themes/NewsmaxNew/images/qrcode/white/wh-app-apple.png",
+        "alt": "Apple",
+        "width": null,
+        "height": null
+      },
+      {
+        "url": "https://www.newsmax.com/App_Themes/NewsmaxNew/images/qrcode/white/wh-app-google.png",
+        "alt": "Android",
+        "width": null,
+        "height": null
+      },
+      {
+        "url": "https://www.newsmax.com/App_Themes/NewsmaxNew/images/qrcode/white/wh-app-amazon.png",
+        "alt": "Amazon",
+        "width": null,
+        "height": null
+      },
+      {
+        "url": "https://www.newsmax.com/App_Themes/NewsmaxNew/images/qrcode/white/wh-app-samsung.png",
+        "alt": "Samsung",
+        "width": null,
+        "height": null
+      },
+      {
+        "url": "https://www.newsmax.com/App_Themes/NewsmaxNew/images/qrcode/white/wh-app-vizio.png",
+        "alt": "Vizio",
+        "width": null,
+        "height": null
+      },
+      {
+        "url": "https://www.newsmax.com/App_Themes/NewsmaxNew/images/qrcode/white/wh-app-roku.png",
+        "alt": "Roku",
+        "width": null,
+        "height": null
+      },
+      {
+        "url": "https://www.newsmax.com/App_Themes/NewsmaxNew/images/qrcode/white/wh-app-sony.png",
+        "alt": "Sony",
+        "width": null,
+        "height": null
+      },
+      {
+        "url": "https://www.newsmax.com/App_Themes/NewsmaxNew/images/qrcode/white/wh-app-lg.png",
+        "alt": "LG",
+        "width": null,
+        "height": null
+      },
+      {
+        "url": "https://www.newsmax.com/App_Themes/NewsmaxNew/images/qrcode/newsmaxqr-80.png",
+        "alt": "Scan QR code to get the NewsmaxTV App",
+        "width": null,
+        "height": null
+      },
+      {
+        "url": "https://www.newsmax.com/akam/13/pixel_220c3151?a=dD1jNmVmODczNTgwMzY2NWEyZjAyYjBmODc1OTU2NzNlNGJkZGJiODFmJmpzPW9mZg==",
+        "alt": "",
+        "width": null,
+        "height": null
+      }
+    ],
+    "videos": [
+      {
+        "url": "https://www.googletagmanager.com/ns.html?id=GTM-WL644C",
+        "type": "embed"
+      }
+    ],
+    "gifs": []
+  },
+  "files": [],
+  "words": {
+    "headings": [
+      {
+        "tag": "h2",
+        "text": "WATCH TV LIVE"
+      },
+      {
+        "tag": "h5",
+        "text": "Download the Newsmax App"
+      }
+    ],
+    "paragraphs": [
+      "Interest-Based Advertising | Do not sell or share my personal information",
+      "Newsmax, Moneynews, Newsmax Health, and Independent. American. are registered trademarks of Newsmax Media, Inc. Newsmax TV, and Newsmax World are trademarks of Newsmax Media, Inc."
+    ],
+    "wordCount": 36
+  },
+  "links": {
+    "internal": [
+      {
+        "label": "NEWSMAX",
+        "href": "https://www.newsmax.com/"
+      },
+      {
+        "label": "HEALTH",
+        "href": "https://www.newsmax.com/health/"
+      },
+      {
+        "label": "MONEY",
+        "href": "https://www.newsmax.com/finance/"
+      },
+      {
+        "label": "WORLD",
+        "href": "https://www.newsmax.com/world/"
+      },
+      {
+        "label": "",
+        "href": "https://www.newsmax.com/"
+      },
+      {
+        "label": "Newsmax",
+        "href": "https://www.newsmax.com/"
+      },
+      {
+        "label": "Health",
+        "href": "https://www.newsmax.com/health/"
+      },
+      {
+        "label": "Money",
+        "href": "https://www.newsmax.com/finance/"
+      },
+      {
+        "label": "World",
+        "href": "https://www.newsmax.com/world/"
+      },
+      {
+        "label": "Contact",
+        "href": "https://www.newsmax.com/contact/"
+      },
+      {
+        "label": "Advertise",
+        "href": "https://www.newsmax.com/advertise/"
+      },
+      {
+        "label": "Home",
+        "href": "https://www.newsmax.com/"
+      },
+      {
+        "label": "Platinum",
+        "href": "https://www.newsmax.com/platinum/"
+      },
+      {
+        "label": "Podcast",
+        "href": "https://www.newsmax.com/listen/"
+      },
+      {
+        "label": "Newsfront",
+        "href": "https://www.newsmax.com/newsfront/"
+      },
+      {
+        "label": "Politics",
+        "href": "https://www.newsmax.com/politics/"
+      },
+      {
+        "label": "Opinion",
+        "href": "https://www.newsmax.com/insiders/"
+      },
+      {
+        "label": "Wire",
+        "href": "https://www.newsmax.com/thewire/"
+      },
+      {
+        "label": "Books",
+        "href": "https://www.newsmax.com/books/"
+      },
+      {
+        "label": "Best Lists",
+        "href": "https://www.newsmax.com/newsmaxbest/"
+      },
+      {
+        "label": "Social",
+        "href": "https://www.newsmax.com/social/"
+      },
+      {
+        "label": "Games",
+        "href": "https://www.newsmax.com/games/"
+      },
+      {
+        "label": "VIEW ALL INSIDERS",
+        "href": "https://www.newsmax.com/allinsiders/"
+      },
+      {
+        "label": "MAGA Can't Be Tone Deaf - Should Listen to Polls, Elections",
+        "href": "https://www.newsmax.com/danielmccarthy/cruz-hispanics-newsom/2025/11/18/id/1235097/"
+      },
+      {
+        "label": "Daniel McCarthy",
+        "href": "https://www.newsmax.com/insiders/danielmccarthy/id-832/"
+      },
+      {
+        "label": "Bio",
+        "href": "https://www.newsmax.com/insiders/danielmccarthy/bio-832/"
+      },
+      {
+        "label": "Archive",
+        "href": "https://www.newsmax.com/archives/danielmccarthy/832/2025/11/"
+      },
+      {
+        "label": "Boost Computing Power by 25 Percent Without A Single New Chip",
+        "href": "https://www.newsmax.com/dugganflanakin/cloud-google-micrsoft/2025/11/18/id/1235084/"
+      },
+      {
+        "label": "Duggan Flanakin",
+        "href": "https://www.newsmax.com/insiders/dugganflanakin/id-875/"
+      },
+      {
+        "label": "Bio",
+        "href": "https://www.newsmax.com/insiders/dugganflanakin/bio-875/"
+      },
+      {
+        "label": "Archive",
+        "href": "https://www.newsmax.com/archives/dugganflanakin/875/2025/11/"
+      },
+      {
+        "label": "Election '25 Proved Trump Haters Way More Enthusiastic",
+        "href": "https://www.newsmax.com/siddinerstein/sherrill-ciattarelli/2025/11/18/id/1235076/"
+      },
+      {
+        "label": "Sid Dinerstein",
+        "href": "https://www.newsmax.com/insiders/siddinerstein/id-331/"
+      },
+      {
+        "label": "Bio",
+        "href": "https://www.newsmax.com/insiders/siddinerstein/bio-331/"
+      },
+      {
+        "label": "Archive",
+        "href": "https://www.newsmax.com/archives/siddinerstein/331/2025/11/"
+      },
+      {
+        "label": "Judge Thwarts Trump in Getting Dangerous Truck Drivers Off Road",
+        "href": "https://www.newsmax.com/reagan/duffy-cdl-democratic/2025/11/18/id/1235069/"
+      },
+      {
+        "label": "Michael Reagan",
+        "href": "https://www.newsmax.com/insiders/reagan/id-33/"
+      },
+      {
+        "label": "Bio",
+        "href": "https://www.newsmax.com/insiders/reagan/bio-33/"
+      },
+      {
+        "label": "Archive",
+        "href": "https://www.newsmax.com/archives/reagan/33/2025/11/"
+      },
+      {
+        "label": "Revamp SNAP, or Obesity, Illness Will Break America's Bank",
+        "href": "https://www.newsmax.com/laurahollis/cdc-poverty-dependence/2025/11/18/id/1235039/"
+      },
+      {
+        "label": "Laura Hollis",
+        "href": "https://www.newsmax.com/insiders/laurahollis/id-802/"
+      },
+      {
+        "label": "Bio",
+        "href": "https://www.newsmax.com/insiders/laurahollis/bio-802/"
+      },
+      {
+        "label": "Archive",
+        "href": "https://www.newsmax.com/archives/laurahollis/802/2025/11/"
+      },
+      {
+        "label": "NY's Marxism Experiment: Economic Wipeout or Wakeup Call?",
+        "href": "https://www.newsmax.com/larrybell/mamdani-miami-texas/2025/11/18/id/1234968/"
+      },
+      {
+        "label": "Larry Bell",
+        "href": "https://www.newsmax.com/insiders/larrybell/id-228/"
+      },
+      {
+        "label": "Bio",
+        "href": "https://www.newsmax.com/insiders/larrybell/bio-228/"
+      },
+      {
+        "label": "Archive",
+        "href": "https://www.newsmax.com/archives/larrybell/228/2025/11/"
+      },
+      {
+        "label": "GOP Treats Hispanic Right as Afterthought, Could Lose '26",
+        "href": "https://www.newsmax.com/biancagracia/biden-inflation-hispanics/2025/11/17/id/1234933/"
+      },
+      {
+        "label": "Bianca Gracia",
+        "href": "https://www.newsmax.com/insiders/biancagracia/id-846/"
+      },
+      {
+        "label": "Bio",
+        "href": "https://www.newsmax.com/insiders/biancagracia/bio-846/"
+      },
+      {
+        "label": "Archive",
+        "href": "https://www.newsmax.com/archives/biancagracia/846/2025/11/"
+      },
+      {
+        "label": "Shutdown Only a Snapshot of Looming Fiscal Crisis",
+        "href": "https://www.newsmax.com/joepenland/defense-interest-retirees/2025/11/17/id/1234914/"
+      },
+      {
+        "label": "Joe Penland",
+        "href": "https://www.newsmax.com/insiders/joepenland/id-867/"
+      },
+      {
+        "label": "Bio",
+        "href": "https://www.newsmax.com/insiders/joepenland/bio-867/"
+      },
+      {
+        "label": "Archive",
+        "href": "https://www.newsmax.com/archives/joepenland/867/2025/11/"
+      },
+      {
+        "label": "Americas are Backbone of Global Protein Supply",
+        "href": "https://www.newsmax.com/robertzapesochny/argentina-soybeans-pork/2025/11/17/id/1234893/"
+      },
+      {
+        "label": "Robert Zapesochny",
+        "href": "https://www.newsmax.com/insiders/robertzapesochny/id-671/"
+      },
+      {
+        "label": "Bio",
+        "href": "https://www.newsmax.com/insiders/robertzapesochny/bio-671/"
+      },
+      {
+        "label": "Archive",
+        "href": "https://www.newsmax.com/archives/robertzapesochny/671/2025/11/"
+      },
+      {
+        "label": "Democrats Try to Link Trump Criminally to Epstein and Fail",
+        "href": "https://www.newsmax.com/debrajsaunders/giuffre-leavitt-maxwell/2025/11/17/id/1234876/"
+      },
+      {
+        "label": "Debra J. Saunders",
+        "href": "https://www.newsmax.com/insiders/debrajsaunders/id-801/"
+      },
+      {
+        "label": "Bio",
+        "href": "https://www.newsmax.com/insiders/debrajsaunders/bio-801/"
+      },
+      {
+        "label": "Archive",
+        "href": "https://www.newsmax.com/archives/debrajsaunders/801/2025/11/"
+      },
+      {
+        "label": "We Need to Make America, America Again",
+        "href": "https://www.newsmax.com/michaeldorstewitz/india-roosevelt/2025/11/17/id/1234861/"
+      },
+      {
+        "label": "Michael Dorstewitz",
+        "href": "https://www.newsmax.com/insiders/michaeldorstewitz/id-498/"
+      },
+      {
+        "label": "Bio",
+        "href": "https://www.newsmax.com/insiders/michaeldorstewitz/bio-498/"
+      },
+      {
+        "label": "Archive",
+        "href": "https://www.newsmax.com/archives/michaeldorstewitz/498/2025/11/"
+      },
+      {
+        "label": "Trump Only Leader Who Can End Genocide of Christians in Africa",
+        "href": "https://www.newsmax.com/ahmedcharai/genocide-hamas-houthi/2025/11/17/id/1234817/"
+      },
+      {
+        "label": "Ahmed Charai",
+        "href": "https://www.newsmax.com/insiders/ahmedcharai/id-586/"
+      },
+      {
+        "label": "Bio",
+        "href": "https://www.newsmax.com/insiders/ahmedcharai/bio-586/"
+      },
+      {
+        "label": "Archive",
+        "href": "https://www.newsmax.com/archives/ahmedcharai/586/2025/11/"
+      },
+      {
+        "label": "Never Discount Social Security as One of Your Top Assets",
+        "href": "https://www.newsmax.com/paulfdelespinasse/pension-benefits-fica/2025/11/14/id/1234623/"
+      },
+      {
+        "label": "Paul F. deLespinasse",
+        "href": "https://www.newsmax.com/insiders/paulfdelespinasse/id-456/"
+      },
+      {
+        "label": "Bio",
+        "href": "https://www.newsmax.com/insiders/paulfdelespinasse/bio-456/"
+      },
+      {
+        "label": "Archive",
+        "href": "https://www.newsmax.com/archives/paulfdelespinasse/456/2025/11/"
+      },
+      {
+        "label": "Focus on Meaning of Behaviors as Path to Understanding",
+        "href": "https://www.newsmax.com/drlaura/behavior-meaning-psychosomatic/2025/11/14/id/1234615/"
+      },
+      {
+        "label": "Dr. Laura",
+        "href": "https://www.newsmax.com/insiders/drlaura/id-42/"
+      },
+      {
+        "label": "Bio",
+        "href": "https://www.newsmax.com/insiders/drlaura/bio-42/"
+      },
+      {
+        "label": "Archive",
+        "href": "https://www.newsmax.com/archives/drlaura/42/2025/11/"
+      },
+      {
+        "label": "States Break Law with Medicaid Coverage for Illegal Immigrants",
+        "href": "https://www.newsmax.com/sallypipes/johnson-medicaid-medicare/2025/11/14/id/1234606/"
+      },
+      {
+        "label": "Sally Pipes",
+        "href": "https://www.newsmax.com/insiders/sallypipes/id-753/"
+      },
+      {
+        "label": "Bio",
+        "href": "https://www.newsmax.com/insiders/sallypipes/bio-753/"
+      },
+      {
+        "label": "Archive",
+        "href": "https://www.newsmax.com/archives/sallypipes/753/2025/11/"
+      },
+      {
+        "label": "Our Next Social Epidemic: Legalized Sports Gambling",
+        "href": "https://www.newsmax.com/joshhammer/bush-casinos-gambling/2025/11/14/id/1234602/"
+      },
+      {
+        "label": "Josh Hammer",
+        "href": "https://www.newsmax.com/insiders/joshhammer/id-831/"
+      },
+      {
+        "label": "Bio",
+        "href": "https://www.newsmax.com/insiders/joshhammer/bio-831/"
+      },
+      {
+        "label": "Archive",
+        "href": "https://www.newsmax.com/archives/joshhammer/831/2025/11/"
+      },
+      {
+        "label": "Midterm's Lesson: Use Blakeman-Trump Model for Victory",
+        "href": "https://www.newsmax.com/mclaughlin/schumer-jeffries-mamdani/2025/11/14/id/1234569/"
+      },
+      {
+        "label": "McLaughlin",
+        "href": "https://www.newsmax.com/insiders/mclaughlin/id-520/"
+      },
+      {
+        "label": "Bio",
+        "href": "https://www.newsmax.com/insiders/mclaughlin/bio-520/"
+      },
+      {
+        "label": "Archive",
+        "href": "https://www.newsmax.com/archives/mclaughlin/520/2025/11/"
+      },
+      {
+        "label": "New York City: Bigger, Better, Far Greater Than Mamdani",
+        "href": "https://www.newsmax.com/robtaub/mamdani-manhattan-coney/2025/11/14/id/1234535/"
+      },
+      {
+        "label": "Rob Taub",
+        "href": "https://www.newsmax.com/insiders/robtaub/id-559/"
+      },
+      {
+        "label": "Bio",
+        "href": "https://www.newsmax.com/insiders/robtaub/bio-559/"
+      },
+      {
+        "label": "Archive",
+        "href": "https://www.newsmax.com/archives/robtaub/559/2025/11/"
+      },
+      {
+        "label": "Will Washington Be Ready for Iran's Next Uprising?",
+        "href": "https://www.newsmax.com/ivansaschasheehan/hezbollah-islamic-tehran/2025/11/13/id/1234446/"
+      },
+      {
+        "label": "Ivan Sascha Sheehan",
+        "href": "https://www.newsmax.com/insiders/ivansaschasheehan/id-882/"
+      },
+      {
+        "label": "Bio",
+        "href": "https://www.newsmax.com/insiders/ivansaschasheehan/bio-882/"
+      },
+      {
+        "label": "Archive",
+        "href": "https://www.newsmax.com/archives/ivansaschasheehan/882/2025/11/"
+      },
+      {
+        "label": "Shutdown Insanity May Have Ended, but Not Poor Leadership",
+        "href": "https://www.newsmax.com/estrich/schumer-obamacare-subsidies/2025/11/13/id/1234415/"
+      },
+      {
+        "label": "Susan Estrich",
+        "href": "https://www.newsmax.com/insiders/estrich/id-38/"
+      },
+      {
+        "label": "Bio",
+        "href": "https://www.newsmax.com/insiders/estrich/bio-38/"
+      },
+      {
+        "label": "Archive",
+        "href": "https://www.newsmax.com/archives/estrich/38/2025/11/"
+      },
+      {
+        "label": "16 NYC Neighborhoods Secured Mamdani's Narrow Victory",
+        "href": "https://www.newsmax.com/markschulte/asian-black-hispanic/2025/11/13/id/1234396/"
+      },
+      {
+        "label": "Mark Schulte",
+        "href": "https://www.newsmax.com/insiders/markschulte/id-673/"
+      },
+      {
+        "label": "Bio",
+        "href": "https://www.newsmax.com/insiders/markschulte/bio-673/"
+      },
+      {
+        "label": "Archive",
+        "href": "https://www.newsmax.com/archives/markschulte/673/2025/11/"
+      },
+      {
+        "label": "AI Companions for Seniors \u2013 Worth the Applause",
+        "href": "https://www.newsmax.com/vvenesuliacarr/ai-dystopian-seniors/2025/11/13/id/1234384/"
+      },
+      {
+        "label": "V. Venesulia Carr",
+        "href": "https://www.newsmax.com/insiders/vvenesuliacarr/id-840/"
+      },
+      {
+        "label": "Bio",
+        "href": "https://www.newsmax.com/insiders/vvenesuliacarr/bio-840/"
+      },
+      {
+        "label": "Archive",
+        "href": "https://www.newsmax.com/archives/vvenesuliacarr/840/2025/11/"
+      },
+      {
+        "label": "Outsmarted by Trump, Schumer Ended Shutdown",
+        "href": "https://www.newsmax.com/morris/bailout-obamacare-premiums/2025/11/13/id/1234356/"
+      },
+      {
+        "label": "Dick Morris",
+        "href": "https://www.newsmax.com/insiders/morris/id-32/"
+      },
+      {
+        "label": "Bio",
+        "href": "https://www.newsmax.com/insiders/morris/bio-32/"
+      },
+      {
+        "label": "Archive",
+        "href": "https://www.newsmax.com/archives/morris/32/2025/11/"
+      },
+      {
+        "label": "Self-Imposed Term Limits? Not an Option",
+        "href": "https://www.newsmax.com/jimrenacci/arrington-congress-shutdown/2025/11/12/id/1234306/"
+      },
+      {
+        "label": "Jim Renacci",
+        "href": "https://www.newsmax.com/insiders/jimrenacci/id-873/"
+      },
+      {
+        "label": "Bio",
+        "href": "https://www.newsmax.com/insiders/jimrenacci/bio-873/"
+      },
+      {
+        "label": "Archive",
+        "href": "https://www.newsmax.com/archives/jimrenacci/873/2025/11/"
+      },
+      {
+        "label": "It's Time We Demand Scrutiny of a College Education's ROI",
+        "href": "https://www.newsmax.com/parthachakraborty/ivy-league/2025/11/12/id/1234286/"
+      },
+      {
+        "label": "Partha Chakraborty",
+        "href": "https://www.newsmax.com/insiders/parthachakraborty/id-883/"
+      },
+      {
+        "label": "Bio",
+        "href": "https://www.newsmax.com/insiders/parthachakraborty/bio-883/"
+      },
+      {
+        "label": "Archive",
+        "href": "https://www.newsmax.com/archives/parthachakraborty/883/2025/11/"
+      },
+      {
+        "label": "Ruddy: President Trump, Thank You For Your BBC Fight",
+        "href": "https://www.newsmax.com/ruddy/defamation-lawsuit-malice/2025/11/12/id/1234271/"
+      },
+      {
+        "label": "Christopher Ruddy",
+        "href": "https://www.newsmax.com/insiders/christopherruddy/id-31/"
+      },
+      {
+        "label": "Bio",
+        "href": "https://www.newsmax.com/insiders/christopherruddy/bio-31/"
+      },
+      {
+        "label": "Archive",
+        "href": "https://www.newsmax.com/archives/christopherruddy/31/2025/11/"
+      },
+      {
+        "label": "Nothing 'Democratic' About Socialists",
+        "href": "https://www.newsmax.com/jameshirsen/medicare-housing-marxist/2025/11/12/id/1234244/"
+      },
+      {
+        "label": "James Hirsen",
+        "href": "https://www.newsmax.com/insiders/jameshirsen/id-41/"
+      },
+      {
+        "label": "Bio",
+        "href": "https://www.newsmax.com/insiders/jameshirsen/bio-41/"
+      },
+      {
+        "label": "Archive",
+        "href": "https://www.newsmax.com/archives/jameshirsen/41/2025/11/"
+      },
+      {
+        "label": "Canada Proves Cutover to Marxism Happens at Warp Speed",
+        "href": "https://www.newsmax.com/briggenblaineholt/carney-mamdani-orwell/2025/11/12/id/1234192/"
+      },
+      {
+        "label": "Brig Gen (ret) Blaine Holt",
+        "href": "https://www.newsmax.com/insiders/briggenblaineholt/id-810/"
+      },
+      {
+        "label": "Bio",
+        "href": "https://www.newsmax.com/insiders/briggenblaineholt/bio-810/"
+      },
+      {
+        "label": "Archive",
+        "href": "https://www.newsmax.com/archives/briggenblaineholt/810/2025/11/"
+      },
+      {
+        "label": "Johnson's, Pritzker's, Pelosi's Contempt for Law Merits DOJ Wrath",
+        "href": "https://www.newsmax.com/clarencevmckee/chicagoans-ice-racially/2025/11/11/id/1234133/"
+      },
+      {
+        "label": "Clarence V. McKee",
+        "href": "https://www.newsmax.com/insiders/clarencevmckee/id-150/"
+      },
+      {
+        "label": "Bio",
+        "href": "https://www.newsmax.com/insiders/clarencevmckee/bio-150/"
+      },
+      {
+        "label": "Archive",
+        "href": "https://www.newsmax.com/archives/clarencevmckee/150/2025/11/"
+      },
+      {
+        "label": "Trump Proposal Could End Schumer Shutdown, Turbocharge Patient Power",
+        "href": "https://www.newsmax.com/murdock/premium-support-funds/2025/11/11/id/1234117/"
+      },
+      {
+        "label": "Deroy Murdock",
+        "href": "https://www.newsmax.com/insiders/murdock/id-108/"
+      },
+      {
+        "label": "Bio",
+        "href": "https://www.newsmax.com/insiders/murdock/bio-108/"
+      },
+      {
+        "label": "Archive",
+        "href": "https://www.newsmax.com/archives/murdock/108/2025/11/"
+      },
+      {
+        "label": "What Will It Take To Correct The Missile Defense Record?",
+        "href": "https://www.newsmax.com/henryfcooper/sdi-defense-reagan/2025/11/11/id/1234112/"
+      },
+      {
+        "label": "Henry F. Cooper",
+        "href": "https://www.newsmax.com/insiders/henryfcooper/id-507/"
+      },
+      {
+        "label": "Bio",
+        "href": "https://www.newsmax.com/insiders/henryfcooper/bio-507/"
+      },
+      {
+        "label": "Archive",
+        "href": "https://www.newsmax.com/archives/henryfcooper/507/2025/11/"
+      },
+      {
+        "label": "Bill Gates Finally Gives Global Warming the Cold Shoulder",
+        "href": "https://www.newsmax.com/judddunning/gates-global-warming/2025/11/11/id/1234091/"
+      },
+      {
+        "label": "Judd Dunning",
+        "href": "https://www.newsmax.com/insiders/judddunning/id-743/"
+      },
+      {
+        "label": "Bio",
+        "href": "https://www.newsmax.com/insiders/judddunning/bio-743/"
+      },
+      {
+        "label": "Archive",
+        "href": "https://www.newsmax.com/archives/judddunning/743/2025/11/"
+      },
+      {
+        "label": "Are Trump's Tariffs Beyond His Constitutional Authority?",
+        "href": "https://www.newsmax.com/judgeandrewpnapolitano/madison-jefferson-trade/2025/11/10/id/1233995/"
+      },
+      {
+        "label": "Judge Andrew P. Napolitano",
+        "href": "https://www.newsmax.com/insiders/judgeandrewpnapolitano/id-287/"
+      },
+      {
+        "label": "Bio",
+        "href": "https://www.newsmax.com/insiders/judgeandrewpnapolitano/bio-287/"
+      },
+      {
+        "label": "Archive",
+        "href": "https://www.newsmax.com/archives/judgeandrewpnapolitano/287/2025/11/"
+      },
+      {
+        "label": "Authenticity Can Rescue PR from Its Carnival of Insincerity",
+        "href": "https://www.newsmax.com/michaellevine/jenner-pepsi-vw/2025/11/10/id/1233982/"
+      },
+      {
+        "label": "Michael Levine",
+        "href": "https://www.newsmax.com/insiders/michaellevine/id-863/"
+      },
+      {
+        "label": "Bio",
+        "href": "https://www.newsmax.com/insiders/michaellevine/bio-863/"
+      },
+      {
+        "label": "Archive",
+        "href": "https://www.newsmax.com/archives/michaellevine/863/2025/11/"
+      },
+      {
+        "label": "Security, Stability in Syria Still at Risk",
+        "href": "https://www.newsmax.com/walidphares/accords-assad-damascus/2025/11/10/id/1233935/"
+      },
+      {
+        "label": "Walid Phares",
+        "href": "https://www.newsmax.com/insiders/walidphares/id-60/"
+      },
+      {
+        "label": "Bio",
+        "href": "https://www.newsmax.com/insiders/walidphares/bio-60/"
+      },
+      {
+        "label": "Archive",
+        "href": "https://www.newsmax.com/archives/walidphares/60/2025/11/"
+      },
+      {
+        "label": "A Welcoming Space Worthy of the White House",
+        "href": "https://www.newsmax.com/nancybrinker/renovations-roosevelt-truman/2025/11/10/id/1233916/"
+      },
+      {
+        "label": "Nancy G. Brinker",
+        "href": "https://www.newsmax.com/insiders/nancybrinker/id-396/"
+      },
+      {
+        "label": "Bio",
+        "href": "https://www.newsmax.com/insiders/nancybrinker/bio-396/"
+      },
+      {
+        "label": "Archive",
+        "href": "https://www.newsmax.com/archives/nancybrinker/396/2025/11/"
+      },
+      {
+        "label": "Cultivating Hope: How Healthy Children Become Happy Adults",
+        "href": "https://www.newsmax.com/wendylpatrick/religious-relationships-resilience/2025/11/08/id/1233737/"
+      },
+      {
+        "label": "Wendy L. Patrick",
+        "href": "https://www.newsmax.com/insiders/wendylpatrick/id-530/"
+      },
+      {
+        "label": "Bio",
+        "href": "https://www.newsmax.com/insiders/wendylpatrick/bio-530/"
+      },
+      {
+        "label": "Archive",
+        "href": "https://www.newsmax.com/archives/wendylpatrick/530/2025/11/"
+      },
+      {
+        "label": "Trump the Peacemaker Deserves His Place on Mount Rushmore",
+        "href": "https://www.newsmax.com/markvargas/assassination-memphis-roosevelt/2025/11/07/id/1233694/"
+      },
+      {
+        "label": "Mark Vargas",
+        "href": "https://www.newsmax.com/insiders/markvargas/id-664/"
+      },
+      {
+        "label": "Bio",
+        "href": "https://www.newsmax.com/insiders/markvargas/bio-664/"
+      },
+      {
+        "label": "Archive",
+        "href": "https://www.newsmax.com/archives/markvargas/664/2025/11/"
+      },
+      {
+        "label": "With Help of U.S. Business, Trump Scores Another Win",
+        "href": "https://www.newsmax.com/dianalondon/ivf-fertilization-cvs/2025/11/07/id/1233681/"
+      },
+      {
+        "label": "Diana London",
+        "href": "https://www.newsmax.com/insiders/dianalondon/id-866/"
+      },
+      {
+        "label": "Bio",
+        "href": "https://www.newsmax.com/insiders/dianalondon/bio-866/"
+      },
+      {
+        "label": "Archive",
+        "href": "https://www.newsmax.com/archives/dianalondon/866/2025/11/"
+      },
+      {
+        "label": "Republics Governing by 'Emergencies' Live Without Safeguards",
+        "href": "https://www.newsmax.com/veroniquederugy/disaster-emergency-bills/2025/11/07/id/1233655/"
+      },
+      {
+        "label": "Veronique de Rugy",
+        "href": "https://www.newsmax.com/insiders/veroniquederugy/id-800/"
+      },
+      {
+        "label": "Bio",
+        "href": "https://www.newsmax.com/insiders/veroniquederugy/bio-800/"
+      },
+      {
+        "label": "Archive",
+        "href": "https://www.newsmax.com/archives/veroniquederugy/800/2025/11/"
+      },
+      {
+        "label": "Is Beijing Scoring Quiet Victories in America's Classrooms?",
+        "href": "https://www.newsmax.com/juliorivera/ccp-tiktok-bytedance/2025/11/07/id/1233588/"
+      },
+      {
+        "label": "Julio Rivera",
+        "href": "https://www.newsmax.com/insiders/juliorivera/id-370/"
+      },
+      {
+        "label": "Bio",
+        "href": "https://www.newsmax.com/insiders/juliorivera/bio-370/"
+      },
+      {
+        "label": "Archive",
+        "href": "https://www.newsmax.com/archives/juliorivera/370/2025/11/"
+      },
+      {
+        "label": "Drone Deterrence, Can It Guarantee Lasting Mideast Peace?",
+        "href": "https://www.newsmax.com/colonelwesmartin/kyiv-qatar-uav/2025/11/06/id/1233484/"
+      },
+      {
+        "label": "Colonel Wes Martin",
+        "href": "https://www.newsmax.com/insiders/colonelwesmartin/id-880/"
+      },
+      {
+        "label": "Bio",
+        "href": "https://www.newsmax.com/insiders/colonelwesmartin/bio-880/"
+      },
+      {
+        "label": "Archive",
+        "href": "https://www.newsmax.com/archives/colonelwesmartin/880/2025/11/"
+      },
+      {
+        "label": "Tucker Carlson's Mockery and God's Irrevocable Call",
+        "href": "https://www.newsmax.com/tonyperkins/fuentes-scripture-romans/2025/11/06/id/1233467/"
+      },
+      {
+        "label": "Tony Perkins",
+        "href": "https://www.newsmax.com/insiders/tonyperkins/id-830/"
+      },
+      {
+        "label": "Bio",
+        "href": "https://www.newsmax.com/insiders/tonyperkins/bio-830/"
+      },
+      {
+        "label": "Archive",
+        "href": "https://www.newsmax.com/archives/tonyperkins/830/2025/11/"
+      },
+      {
+        "label": "Youthful Delusions of Entitlement Elected Mamdani",
+        "href": "https://www.newsmax.com/george-j-marlin/cuomo-ethnic-koch/2025/11/06/id/1233464/"
+      },
+      {
+        "label": "George J. Marlin",
+        "href": "https://www.newsmax.com/insiders/george-j-marlin/id-204/"
+      },
+      {
+        "label": "Bio",
+        "href": "https://www.newsmax.com/insiders/george-j-marlin/bio-204/"
+      },
+      {
+        "label": "Archive",
+        "href": "https://www.newsmax.com/archives/george-j-marlin/204/2025/11/"
+      },
+      {
+        "label": "D.C. Should Scrutinize Entertainment Mergers' Impact on Speech",
+        "href": "https://www.newsmax.com/kenbuck/discovery-warner-amazon/2025/11/05/id/1233392/"
+      },
+      {
+        "label": "Ken Buck",
+        "href": "https://www.newsmax.com/insiders/kenbuck/id-894/"
+      },
+      {
+        "label": "Bio",
+        "href": "https://www.newsmax.com/insiders/kenbuck/bio-894/"
+      },
+      {
+        "label": "Archive",
+        "href": "https://www.newsmax.com/archives/kenbuck/894/2025/11/"
+      },
+      {
+        "label": "Pelosi Will Be Remembered for Being Pitifully Misguided",
+        "href": "https://www.newsmax.com/terencepjeffrey/birth-bush-taxes/2025/11/05/id/1233381/"
+      },
+      {
+        "label": "Terence P. Jeffrey",
+        "href": "https://www.newsmax.com/insiders/terencepjeffrey/id-893/"
+      },
+      {
+        "label": "Bio",
+        "href": "https://www.newsmax.com/insiders/terencepjeffrey/bio-893/"
+      },
+      {
+        "label": "Archive",
+        "href": "https://www.newsmax.com/archives/terencepjeffrey/893/2025/11/"
+      },
+      {
+        "label": "Mamdani's Perfect Storm Will Ravage All NY",
+        "href": "https://www.newsmax.com/mccaughey/criminals-decarceration/2025/11/05/id/1233354/"
+      },
+      {
+        "label": "Betsy McCaughey",
+        "href": "https://www.newsmax.com/insiders/mccaughey/id-115/"
+      },
+      {
+        "label": "Bio",
+        "href": "https://www.newsmax.com/insiders/mccaughey/bio-115/"
+      },
+      {
+        "label": "Archive",
+        "href": "https://www.newsmax.com/archives/mccaughey/115/2025/11/"
+      },
+      {
+        "label": "Republicans Must Hold Nose, Save NYC From Total Ruin",
+        "href": "https://www.newsmax.com/jasondmeister/meister-gop-vote/2025/11/04/id/1233218/"
+      },
+      {
+        "label": "Jason D. Meister",
+        "href": "https://www.newsmax.com/insiders/jasondmeister/id-660/"
+      },
+      {
+        "label": "Bio",
+        "href": "https://www.newsmax.com/insiders/jasondmeister/bio-660/"
+      },
+      {
+        "label": "Archive",
+        "href": "https://www.newsmax.com/archives/jasondmeister/660/2025/11/"
+      },
+      {
+        "label": "No, Hamas-Israel War Not Over",
+        "href": "https://www.newsmax.com/micahhalpern/egypt-knesset-gaza/2025/11/04/id/1233165/"
+      },
+      {
+        "label": "Micah Halpern",
+        "href": "https://www.newsmax.com/insiders/micahhalpern/id-560/"
+      },
+      {
+        "label": "Bio",
+        "href": "https://www.newsmax.com/insiders/micahhalpern/bio-560/"
+      },
+      {
+        "label": "Archive",
+        "href": "https://www.newsmax.com/archives/micahhalpern/560/2025/11/"
+      },
+      {
+        "label": "Trump's Instincts Achieved What Stale Foreign Policy Couldn't",
+        "href": "https://www.newsmax.com/zivadahl/egypt-starmer-qatar/2025/11/04/id/1233155/"
+      },
+      {
+        "label": "Ziva Dahl",
+        "href": "https://www.newsmax.com/insiders/zivadahl/id-692/"
+      },
+      {
+        "label": "Bio",
+        "href": "https://www.newsmax.com/insiders/zivadahl/bio-692/"
+      },
+      {
+        "label": "Archive",
+        "href": "https://www.newsmax.com/archives/zivadahl/692/2025/11/"
+      },
+      {
+        "label": "Jews Know All Too Well Where Path of Tolerated Hatred Leads",
+        "href": "https://www.newsmax.com/duvihonig/auschwitz-carlson-kirk/2025/11/04/id/1233104/"
+      },
+      {
+        "label": "Duvi Honig",
+        "href": "https://www.newsmax.com/insiders/duvihonig/id-850/"
+      },
+      {
+        "label": "Bio",
+        "href": "https://www.newsmax.com/insiders/duvihonig/bio-850/"
+      },
+      {
+        "label": "Archive",
+        "href": "https://www.newsmax.com/archives/duvihonig/850/2025/11/"
+      },
+      {
+        "label": "We Can't Let Wastewater Protection System Go To Waste",
+        "href": "https://www.newsmax.com/jaredwhitley/biosecurity-osmosis-terrorists/2025/11/03/id/1233053/"
+      },
+      {
+        "label": "Jared Whitley",
+        "href": "https://www.newsmax.com/insiders/jaredwhitley/id-579/"
+      },
+      {
+        "label": "Bio",
+        "href": "https://www.newsmax.com/insiders/jaredwhitley/bio-579/"
+      },
+      {
+        "label": "Archive",
+        "href": "https://www.newsmax.com/archives/jaredwhitley/579/2025/11/"
+      },
+      {
+        "label": "Key to Restoring American Greatness: Evil's Wholesale Defeat",
+        "href": "https://www.newsmax.com/scottpowell/cartels-gangs-pornography/2025/11/03/id/1232999/"
+      },
+      {
+        "label": "Scott Powell",
+        "href": "https://www.newsmax.com/insiders/scottpowell/id-809/"
+      },
+      {
+        "label": "Bio",
+        "href": "https://www.newsmax.com/insiders/scottpowell/bio-809/"
+      },
+      {
+        "label": "Archive",
+        "href": "https://www.newsmax.com/archives/scottpowell/809/2025/11/"
+      },
+      {
+        "label": "Mamdani Result of Radicalism Moving from Classroom to City Hall",
+        "href": "https://www.newsmax.com/kentingle/grievance-ideology-socialists/2025/11/03/id/1232979/"
+      },
+      {
+        "label": "Kent Ingle",
+        "href": "https://www.newsmax.com/insiders/kentingle/id-623/"
+      },
+      {
+        "label": "Bio",
+        "href": "https://www.newsmax.com/insiders/kentingle/bio-623/"
+      },
+      {
+        "label": "Archive",
+        "href": "https://www.newsmax.com/archives/kentingle/623/2025/11/"
+      },
+      {
+        "label": "Documentary a Magnificent Way to Honor Those Serving in Uniform",
+        "href": "https://www.newsmax.com/tamarfleishman/pbs-najaf-fallujah/2025/10/31/id/1232751/"
+      },
+      {
+        "label": "Tamar Alexia Fleishman, Esq.",
+        "href": "https://www.newsmax.com/insiders/tamarfleishman/id-738/"
+      },
+      {
+        "label": "Bio",
+        "href": "https://www.newsmax.com/insiders/tamarfleishman/bio-738/"
+      },
+      {
+        "label": "Archive",
+        "href": "https://www.newsmax.com/archives/tamarfleishman/738/2025/11/"
+      },
+      {
+        "label": "Institute Educates in Much Needed Areas of Security, Strategy",
+        "href": "https://www.newsmax.com/larryprovost/chinese-iwp-lenczowski/2025/10/31/id/1232736/"
+      },
+      {
+        "label": "Larry Provost",
+        "href": "https://www.newsmax.com/insiders/larryprovost/id-841/"
+      },
+      {
+        "label": "Bio",
+        "href": "https://www.newsmax.com/insiders/larryprovost/bio-841/"
+      },
+      {
+        "label": "Archive",
+        "href": "https://www.newsmax.com/archives/larryprovost/841/2025/11/"
+      },
+      {
+        "label": "Time to Regulate Lawyers Playing Doctors on TV",
+        "href": "https://www.newsmax.com/michaelflanagan/advertising-arizona-bates/2025/10/31/id/1232648/"
+      },
+      {
+        "label": "Michael Flanagan",
+        "href": "https://www.newsmax.com/insiders/michaelflanagan/id-427/"
+      },
+      {
+        "label": "Bio",
+        "href": "https://www.newsmax.com/insiders/michaelflanagan/bio-427/"
+      },
+      {
+        "label": "Archive",
+        "href": "https://www.newsmax.com/archives/michaelflanagan/427/2025/11/"
+      },
+      {
+        "label": "Hamas Interested in Advancing Its Strategy, Not Morality",
+        "href": "https://www.newsmax.com/robertchernin/arafat-hamas-oslo/2025/10/30/id/1232585/"
+      },
+      {
+        "label": "Robert Chernin",
+        "href": "https://www.newsmax.com/insiders/robertchernin/id-879/"
+      },
+      {
+        "label": "Bio",
+        "href": "https://www.newsmax.com/insiders/robertchernin/bio-879/"
+      },
+      {
+        "label": "Archive",
+        "href": "https://www.newsmax.com/archives/robertchernin/879/2025/11/"
+      },
+      {
+        "label": "Lifting Deposit Insurance Limits Is Foolhardy",
+        "href": "https://www.newsmax.com/stephenmoore/deposit-insurance/2025/10/30/id/1232545/"
+      },
+      {
+        "label": "Stephen Moore",
+        "href": "https://www.newsmax.com/insiders/stephenmoore/id-827/"
+      },
+      {
+        "label": "Bio",
+        "href": "https://www.newsmax.com/insiders/stephenmoore/bio-827/"
+      },
+      {
+        "label": "Archive",
+        "href": "https://www.newsmax.com/archives/stephenmoore/827/2025/11/"
+      },
+      {
+        "label": "Drastically Shrink Govt, or Keep it Shutdown",
+        "href": "https://www.newsmax.com/ericgolub/butler-democrats-scalise/2025/10/30/id/1232521/"
+      },
+      {
+        "label": "Eric Golub",
+        "href": "https://www.newsmax.com/insiders/ericgolub/id-854/"
+      },
+      {
+        "label": "Bio",
+        "href": "https://www.newsmax.com/insiders/ericgolub/bio-854/"
+      },
+      {
+        "label": "Archive",
+        "href": "https://www.newsmax.com/archives/ericgolub/854/2025/11/"
+      },
+      {
+        "label": "VIEW ALL INSIDERS",
+        "href": "https://www.newsmax.com/allinsiders"
+      },
+      {
+        "label": "Privacy",
+        "href": "https://www.newsmax.com/privacystatement/"
+      },
+      {
+        "label": "Michael Reagan",
+        "href": "https://www.newsmax.com/insiders/reagan/id-33/"
+      },
+      {
+        "label": "Judge Thwarts Trump in Getting Dangerous Truck Drivers Off Road",
+        "href": "https://www.newsmax.com/reagan/duffy-cdl-democratic/2025/11/18/id/1235069/"
+      },
+      {
+        "label": "Ben Stein",
+        "href": "https://www.newsmax.com/insiders/benstein/id-39/"
+      },
+      {
+        "label": "What Really Counts are Relationships, Family",
+        "href": "https://www.newsmax.com/benstein/columbia-money-nixon/2024/08/14/id/1176492/"
+      },
+      {
+        "label": "What's This?",
+        "href": "https://www.newsmax.com/advertise"
+      },
+      {
+        "label": "Home",
+        "href": "https://www.newsmax.com/"
+      },
+      {
+        "label": "Platinum",
+        "href": "https://www.newsmax.com/platinum/"
+      },
+      {
+        "label": "Podcast",
+        "href": "https://www.newsmax.com/listen/"
+      },
+      {
+        "label": "Newsfront",
+        "href": "https://www.newsmax.com/newsfront/"
+      },
+      {
+        "label": "Politics",
+        "href": "https://www.newsmax.com/politics/"
+      },
+      {
+        "label": "Opinion",
+        "href": "https://www.newsmax.com/insiders/"
+      },
+      {
+        "label": "Wire",
+        "href": "https://www.newsmax.com/thewire/"
+      },
+      {
+        "label": "Books",
+        "href": "https://www.newsmax.com/books/"
+      },
+      {
+        "label": "Best Lists",
+        "href": "https://www.newsmax.com/newsmaxbest/"
+      },
+      {
+        "label": "Social",
+        "href": "https://www.newsmax.com/social/"
+      },
+      {
+        "label": "Games",
+        "href": "https://www.newsmax.com/games/"
+      },
+      {
+        "label": "Interest-Based Advertising",
+        "href": "https://www.newsmax.com/privacystatement#digitalAdvertising"
+      },
+      {
+        "label": "Do not sell or share my personal information",
+        "href": "https://www.newsmax.com/donotsell"
+      },
+      {
+        "label": "About",
+        "href": "https://www.newsmax.com/about/"
+      },
+      {
+        "label": "Contact",
+        "href": "https://www.newsmax.com/contact/"
+      },
+      {
+        "label": "Advertise",
+        "href": "https://www.newsmax.com/advertise/"
+      },
+      {
+        "label": "RSS",
+        "href": "https://www.newsmax.com/rss/"
+      },
+      {
+        "label": "Archives",
+        "href": "https://www.newsmax.com/archives/"
+      },
+      {
+        "label": "Privacy Policy",
+        "href": "https://www.newsmax.com/privacystatement/"
+      },
+      {
+        "label": "Terms & Conditions",
+        "href": "https://www.newsmax.com/termsconditions/"
+      }
+    ],
+    "external": [
+      {
+        "label": "WATCH TV LIVE",
+        "href": "https://www.newsmaxtv.com"
+      },
+      {
+        "label": "TV",
+        "href": "https://www.newsmaxtv.com/"
+      },
+      {
+        "label": "",
+        "href": "https://ir.newsmax.com/"
+      },
+      {
+        "label": "NewsmaxTV",
+        "href": "http://www.newsmaxtv.com/"
+      },
+      {
+        "label": "",
+        "href": "http://facebook.com/Newsmax"
+      },
+      {
+        "label": "",
+        "href": "http://twitter.com/Newsmax"
+      },
+      {
+        "label": "",
+        "href": "https://truthsocial.com/@NewsMax"
+      },
+      {
+        "label": "",
+        "href": "https://www.linkedin.com/company/newsmax-media-inc-/"
+      },
+      {
+        "label": "",
+        "href": "https://ir.newsmax.com/"
+      },
+      {
+        "label": "Shop",
+        "href": "https://www.newsmaxshop.com/"
+      },
+      {
+        "label": "Investors",
+        "href": "https://newsmaxinvest.com/"
+      },
+      {
+        "label": "TOP",
+        "href": "javascript:"
+      },
+      {
+        "label": "Investors",
+        "href": "https://newsmaxinvest.com/"
+      },
+      {
+        "label": "",
+        "href": "https://itunes.apple.com/us/app/newsmax/id878180850?mt=8"
+      },
+      {
+        "label": "",
+        "href": "https://play.google.com/store/apps/details?id=com.fli.android.newsmaxapp&utm_source=browser&utm_campaign=npluspage&pcampaignid=pcampaignidMKT-Other-global-all-co-prtnr-py-PartBadge-Mar2515-1"
+      },
+      {
+        "label": "",
+        "href": "https://www.amazon.com/Newsmax-Media-Inc-TV-Web/dp/B00QVZP4WW/"
+      },
+      {
+        "label": "",
+        "href": "https://www.samsung.com/us/tvs/smart-tv/samsung-tv-plus-and-smart-hub/"
+      },
+      {
+        "label": "",
+        "href": "https://www.vizio.com/en/smart-tv-apps?appName=newsmax&appId=vizio.newsmax"
+      },
+      {
+        "label": "",
+        "href": "https://channelstore.roku.com/details/24699/newsmax-tv"
+      },
+      {
+        "label": "",
+        "href": "https://play.google.com/store/apps/details?id=com.fli.android.newsmaxapp"
+      },
+      {
+        "label": "",
+        "href": "https://us.lgappstv.com/main/tvapp/detail?appId=988054&catCode1=006&moreYn=N&cateYn=Y&orderType=0&headerName=News%2FInfo&appRankCode=&sellrUsrNo=&curPage=2"
+      },
+      {
+        "label": "Shop",
+        "href": "https://www.newsmaxshop.com/"
+      },
+      {
+        "label": "Careers",
+        "href": "https://recruiting.ultipro.com/NEW1027/JobBoard/3d5ae180-49c4-20f7-d7b4-adfe940978a7/"
+      },
+      {
+        "label": "Manage Cookies",
+        "href": "javascript:void;"
+      }
+    ],
+    "broken": []
+  },
+  "extractedAt": "2025-11-19T16:13:17Z"
+}

@@ -1,0 +1,1215 @@
+{
+  "url": "https://www.newsmax.com/health/",
+  "path": "/health/",
+  "status": 200,
+  "title": "Newsmax Health | Fitness, Health | Nutrition News",
+  "description": "Newsmax Health reports todays breaking health news, latest health news, health news today, current health news, medical news, health articles, newsmaxhealth.com, health news on Newsmax.com",
+  "canonical": "https://www.newsmax.com/health",
+  "media": {
+    "images": [
+      {
+        "url": "https://www.queryly.com/images/whitesearchicon.png",
+        "alt": "Search Newsmax.com",
+        "width": null,
+        "height": null
+      },
+      {
+        "url": "https://www.newsmax.com/App_Themes/NewsmaxNew/images/NMAX-NYSE-Ticker-Horizontal.svg",
+        "alt": "",
+        "width": 200,
+        "height": null
+      },
+      {
+        "url": "https://www.newsmax.com/App_Themes/Newsmax/images/Social/icon-facebook.jpg",
+        "alt": "Facebook",
+        "width": 30,
+        "height": 30
+      },
+      {
+        "url": "https://www.newsmax.com/App_Themes/Newsmax/images/Social/icon-x-twitter.jpg",
+        "alt": "X",
+        "width": 28,
+        "height": 28
+      },
+      {
+        "url": "https://www.newsmax.com/App_Themes/Newsmax/images/Social/icon-truthsocial.jpg",
+        "alt": "Truth Social",
+        "width": 30,
+        "height": 30
+      },
+      {
+        "url": "https://www.newsmax.com/App_Themes/Newsmax/images/Social/icon-linkedin.jpg",
+        "alt": "LinkedIn",
+        "width": 30,
+        "height": 30
+      },
+      {
+        "url": "https://www.newsmax.com/CMSPages/GetFile.aspx?guid=b3a89d1d-5f3d-4e82-9391-ca59720d1f0d&SiteName=Newsmax",
+        "alt": "Recover Faster From Common Cold Without Drugs",
+        "width": null,
+        "height": null
+      },
+      {
+        "url": "https://www.newsmax.com/CMSPages/GetFile.aspx?guid=fea303f7-03ca-48e7-bc46-ca3d5e9bc250&SiteName=Newsmax",
+        "alt": "Traces of Bacteria Found in Brain Tumors",
+        "width": 175,
+        "height": null
+      },
+      {
+        "url": "https://www.newsmax.com/CMSPages/GetFile.aspx?guid=8802fe75-7a1b-4195-ab9d-dd4dda813e9d&SiteName=Newsmax",
+        "alt": "Study: Microplastics Accelerating Heart Disease",
+        "width": 114,
+        "height": null
+      },
+      {
+        "url": "https://www.newsmax.com/CMSPages/GetFile.aspx?guid=6d39c323-a1b9-4b73-9c6a-dd23ff94f81d&SiteName=Newsmax",
+        "alt": "Deep Brain Stimulation Improves Depression Symptoms",
+        "width": 114,
+        "height": null
+      },
+      {
+        "url": "https://www.newsmax.com/CMSPages/GetFile.aspx?guid=621d561b-6196-4ed9-a9a6-4ccf374a2f8f&SiteName=Newsmax",
+        "alt": "Ultra-Processed Foods a Global Public Health Threat",
+        "width": 114,
+        "height": null
+      },
+      {
+        "url": "https://www.newsmax.com/CMSPages/GetFile.aspx?guid=359d91bd-e26f-4099-b91a-16d0a461503a&SiteName=Newsmax",
+        "alt": "Recover Faster From Common Cold Without Drugs",
+        "width": 114,
+        "height": null
+      },
+      {
+        "url": "https://www.newsmax.com/CMSPages/GetFile.aspx?guid=fea916f6-bee0-47cd-9735-b6569a144112&SiteName=Newsmax",
+        "alt": "Survey: 72% of Adults Experience Sleepiness Daily",
+        "width": 114,
+        "height": null
+      },
+      {
+        "url": "https://www.newsmax.com/CMSPages/GetFile.aspx?guid=8f6cfee7-e1e8-485a-b6ca-5843141ac94f&SiteName=Newsmax",
+        "alt": "CMS: Medicare Part B Premiums to Rise 10% Next Year",
+        "width": 114,
+        "height": null
+      },
+      {
+        "url": "https://www.newsmax.com/CMSPages/GetFile.aspx?guid=76d4bbb8-1e65-44e8-91fa-4a8a66968d8b&SiteName=Newsmax",
+        "alt": "How to Stop Waking During the Night to Pee",
+        "width": 114,
+        "height": null
+      },
+      {
+        "url": "https://www.newsmax.com/CMSPages/GetFile.aspx?guid=04c9d12b-6280-4823-8cfc-1de1ea7bb1f7&SiteName=Newsmax",
+        "alt": "AI Predicts Best Liver Donors Better Than Doctors",
+        "width": 114,
+        "height": null
+      },
+      {
+        "url": "https://www.newsmax.com/CMSPages/GetFile.aspx?guid=c777d236-e48b-4ecf-a4b3-56adb0d452c7&SiteName=Newsmax",
+        "alt": "Cancer Cluster in 15 Pa. Counties Near Farms",
+        "width": 114,
+        "height": null
+      },
+      {
+        "url": "https://www.newsmax.com/CMSPages/GetFile.aspx?guid=db68ee35-7f7e-4720-bc56-1b95adcc52b3&SiteName=Newsmax",
+        "alt": "Cold Snaps, Heat Waves Kill Thousands Annually",
+        "width": 114,
+        "height": null
+      },
+      {
+        "url": "https://www.newsmax.com/CMSPages/GetFile.aspx?guid=443f42d1-a55f-4d82-9c75-339d47522422&SiteName=Newsmax",
+        "alt": "Lilly Weight-Loss Drug Suppresses Binge-Eating Signal",
+        "width": 114,
+        "height": null
+      },
+      {
+        "url": "https://www.newsmax.com/CMSPages/GetFile.aspx?guid=fba9efe5-0f05-4a7f-b613-9dad9a6de442&SiteName=Newsmax",
+        "alt": "Analysis: General Anesthesia Safe for C-Sections",
+        "width": 114,
+        "height": null
+      },
+      {
+        "url": "https://www.newsmax.com/CMSPages/GetFile.aspx?guid=a5685503-a1f2-41d9-a924-50133102d2e1&SiteName=Newsmax",
+        "alt": "Ethiopia Confirms First Marburg Outbreak",
+        "width": 114,
+        "height": null
+      },
+      {
+        "url": "https://www.newsmax.com/CMSPages/GetFile.aspx?guid=3f28a7f0-70e3-4988-bcd7-48fbfc7ff9c1&SiteName=Newsmax",
+        "alt": "Nonhormonal Options for Symptoms of Menopause",
+        "width": 114,
+        "height": null
+      },
+      {
+        "url": "https://www.newsmax.com/CMSPages/GetFile.aspx?guid=8ed0e8a1-202e-4b74-bbba-b9f15aab7080&SiteName=Newsmax",
+        "alt": "Diabetes Drug Stops Kids' Weight Gain on Bipolar Meds",
+        "width": 114,
+        "height": null
+      },
+      {
+        "url": "https://www.newsmax.com/CMSPages/GetFile.aspx?guid=29c1ca28-bb2c-4a7c-ab3f-be03a6693644&SiteName=Newsmax",
+        "alt": "Washington Resident First With Rare Bird Flu Strain",
+        "width": 114,
+        "height": null
+      },
+      {
+        "url": "https://www.newsmax.com/CMSPages/GetFile.aspx?guid=2ec02deb-ad24-4f61-b5d3-2fdecb2cca83&SiteName=Newsmax",
+        "alt": "Stem Cells From Fat Tissue Repair Spine Fractures\n\n",
+        "width": 114,
+        "height": null
+      },
+      {
+        "url": "https://www.newsmax.com/CMSPages/GetFile.aspx?guid=5de6c59e-eecb-4da4-a386-43002627f671&SiteName=Newsmax",
+        "alt": "Study Links Ultra Processed Foods to Precancerous Polyps in Women Under 50",
+        "width": 114,
+        "height": null
+      },
+      {
+        "url": "https://www.newsmax.com/app_themes/newsmaxnew/images/video.png",
+        "alt": "video",
+        "width": null,
+        "height": null
+      },
+      {
+        "url": "https://www.newsmax.com/CMSPages/GetFile.aspx?guid=ece5a263-5826-43a0-8e8c-f4b459c1fe7e&SiteName=Newsmax",
+        "alt": "Dr. Erika Schwartz to Newsmax: Patients 'Should Be Empowered'",
+        "width": 114,
+        "height": null
+      },
+      {
+        "url": "https://www.newsmax.com/CMSPages/GetFile.aspx?guid=64c7d9a3-f792-4fed-84d7-53c7678ebc45&SiteName=Newsmax",
+        "alt": "Daily Self-Hypnosis Decreases Hot Flashes",
+        "width": 114,
+        "height": null
+      },
+      {
+        "url": "https://www.newsmax.com/CMSPages/GetFile.aspx?guid=aa662bec-3e60-4bb5-b9c8-ab3d8ac23359&SiteName=Newsmax",
+        "alt": "Traces of Bacteria Found in Brain Tumors",
+        "width": 114,
+        "height": null
+      },
+      {
+        "url": "https://www.newsmax.com/CMSPages/GetFile.aspx?guid=9260cf70-5039-4000-9426-d1689af3cc2a&SiteName=Newsmax",
+        "alt": "Trump Admin Expands Visa Denials to Common Illnesses",
+        "width": 114,
+        "height": null
+      },
+      {
+        "url": "https://www.newsmax.com/CMSPages/GetFile.aspx?guid=3a1ae4bf-00f0-427a-a5a6-a54a8e979018&SiteName=Newsmax",
+        "alt": "New Merck Pill Cuts LDL 'Bad' Cholesterol by 60%",
+        "width": 114,
+        "height": null
+      },
+      {
+        "url": "https://www.newsmax.com/CMSPages/GetFile.aspx?guid=b5bd9856-dbc0-4d01-996d-d8b021bfdc71&SiteName=Newsmax",
+        "alt": "Biden COVID Response Head Ashish Jha Departing",
+        "width": 114,
+        "height": null
+      },
+      {
+        "url": "https://www.newsmax.com/CMSPages/GetFile.aspx?guid=d08e458f-0faf-4b56-8cf5-0f1de15a56cb&SiteName=Newsmax",
+        "alt": "New Report Says Insomnia Drove Late Pope Benedict to Resign",
+        "width": 114,
+        "height": null
+      },
+      {
+        "url": "https://www.newsmax.com/CMSPages/GetFile.aspx?guid=5a6cfd21-a134-4001-8e89-c0094d77873e&SiteName=Newsmax",
+        "alt": "First Confirmed Death From Tick Meat Allergy",
+        "width": 114,
+        "height": null
+      },
+      {
+        "url": "https://www.newsmax.com/CMSPages/GetFile.aspx?guid=49fb5457-f6e5-400c-8781-de9f1dfe4ec1&SiteName=Newsmax",
+        "alt": "Eat These 4 Nutrients to Lower Blood Pressure",
+        "width": 114,
+        "height": null
+      },
+      {
+        "url": "https://www.newsmax.com/CMSPages/GetFile.aspx?guid=b47ec9bd-59b6-4497-ad1e-5d7d874ab1bb&SiteName=Newsmax",
+        "alt": "How to Spot Ultra-Processed Foods in Grocery Store ",
+        "width": 114,
+        "height": null
+      },
+      {
+        "url": "https://www.newsmax.com/CMSPages/GetFile.aspx?guid=61e9fe64-318e-47ce-ae19-4d1f50b72569&SiteName=Newsmax",
+        "alt": "Regularly Listening to Music Lowers Dementia Risk",
+        "width": 114,
+        "height": null
+      },
+      {
+        "url": "https://www.newsmax.com/CMSPages/GetFile.aspx?guid=4ac1b36e-2e45-4fc9-a997-9038d4d7030d&SiteName=Newsmax",
+        "alt": "Researchers Uncover Pancreatic Cancer Warning Sign",
+        "width": 114,
+        "height": null
+      },
+      {
+        "url": "https://www.newsmax.com/CMSPages/GetFile.aspx?guid=ef390073-a9f5-449b-93a7-cdecc90bfa67&SiteName=Newsmax",
+        "alt": "Vitamin D3 Cuts Second Heart Attack Risk by Half",
+        "width": 114,
+        "height": null
+      },
+      {
+        "url": "https://www.newsmax.com/CMSPages/GetFile.aspx?guid=fccccaf2-ff50-4df4-b72f-1b7c676d016d&sitename=newsmax&height=47&width=47",
+        "alt": "David Brownstein, M.D.",
+        "width": null,
+        "height": null
+      },
+      {
+        "url": "https://www.newsmax.com/CMSPages/GetFile.aspx?guid=8d4d5201-7d1e-450b-8949-e8943a0579ef&sitename=newsmax&height=47&width=47",
+        "alt": "Russell Blaylock, M.D.",
+        "width": null,
+        "height": null
+      },
+      {
+        "url": "https://www.newsmax.com/CMSPages/GetFile.aspx?guid=0f47e3cf-aeaf-4049-b010-3a9ee8b799d2&sitename=newsmax&height=47&width=47",
+        "alt": "Chauncey Crandall, M.D.",
+        "width": null,
+        "height": null
+      },
+      {
+        "url": "https://www.newsmax.com/CMSPages/GetFile.aspx?guid=3646dab4-1e3c-4840-926b-3b220f0f6b89&sitename=newsmax&height=47&width=47",
+        "alt": "Gary Small, M.D.",
+        "width": null,
+        "height": null
+      },
+      {
+        "url": "https://www.newsmax.com/CMSPages/GetFile.aspx?guid=f0d258dc-7e52-4247-91a6-398dad9c3467&sitename=newsmax&height=47&width=47",
+        "alt": "Doris Wild Helmering, LCSW",
+        "width": null,
+        "height": null
+      },
+      {
+        "url": "https://www.newsmax.com/App_Themes/NewsmaxNew/images/SMS-Banner-300x600-v2.jpg",
+        "alt": "Get Newsmax Text Alerts",
+        "width": null,
+        "height": null
+      },
+      {
+        "url": "https://www.newsmax.com/akam/13/pixel_220c3151?a=dD1jNmVmODczNTgwMzY2NWEyZjAyYjBmODc1OTU2NzNlNGJkZGJiODFmJmpzPW9mZg==",
+        "alt": "",
+        "width": null,
+        "height": null
+      }
+    ],
+    "videos": [
+      {
+        "url": "https://www.googletagmanager.com/ns.html?id=GTM-WL644C",
+        "type": "embed"
+      }
+    ],
+    "gifs": []
+  },
+  "files": [],
+  "words": {
+    "headings": [
+      {
+        "tag": "h2",
+        "text": "WATCH TV LIVE"
+      },
+      {
+        "tag": "h2",
+        "text": "Traces of Bacteria Found in Brain Tumors"
+      },
+      {
+        "tag": "h2",
+        "text": "Traces of Bacteria Found in Brain Tumors"
+      },
+      {
+        "tag": "h2",
+        "text": "Study: Microplastics Accelerating Heart Disease"
+      },
+      {
+        "tag": "h2",
+        "text": "Deep Brain Stimulation Improves Depression Symptoms"
+      },
+      {
+        "tag": "h2",
+        "text": "Ultra-Processed Foods a Global Public Health Threat"
+      },
+      {
+        "tag": "h2",
+        "text": "Recover Faster From Common Cold Without Drugs"
+      },
+      {
+        "tag": "h2",
+        "text": "Survey: 72% of Adults Experience Sleepiness Daily"
+      },
+      {
+        "tag": "h2",
+        "text": "CMS: Medicare Part B Premiums to Rise 10% Next Year"
+      },
+      {
+        "tag": "h2",
+        "text": "How to Stop Waking During the Night to Pee"
+      },
+      {
+        "tag": "h2",
+        "text": "AI Predicts Best Liver Donors Better Than Doctors"
+      },
+      {
+        "tag": "h2",
+        "text": "Cancer Cluster in 15 Pa. Counties Near Farms"
+      },
+      {
+        "tag": "h2",
+        "text": "Cold Snaps, Heat Waves Kill Thousands Annually"
+      },
+      {
+        "tag": "h2",
+        "text": "Lilly Weight-Loss Drug Suppresses Binge-Eating Signal"
+      },
+      {
+        "tag": "h2",
+        "text": "Analysis: General Anesthesia Safe for C-Sections"
+      },
+      {
+        "tag": "h2",
+        "text": "Ethiopia Confirms First Marburg Outbreak"
+      },
+      {
+        "tag": "h2",
+        "text": "Nonhormonal Options for Symptoms of Menopause"
+      },
+      {
+        "tag": "h2",
+        "text": "Diabetes Drug Stops Kids' Weight Gain on Bipolar Meds"
+      },
+      {
+        "tag": "h2",
+        "text": "Washington Resident First With Rare Bird Flu Strain"
+      },
+      {
+        "tag": "h2",
+        "text": "Stem Cells From Fat Tissue Repair Spine Fractures"
+      },
+      {
+        "tag": "h2",
+        "text": "Study Links Ultra Processed Foods to Precancerous Polyps in Women Under 50"
+      },
+      {
+        "tag": "h2",
+        "text": "Dr. Erika Schwartz to Newsmax: Patients 'Should Be Empowered'"
+      },
+      {
+        "tag": "h2",
+        "text": "Daily Self-Hypnosis Decreases Hot Flashes"
+      },
+      {
+        "tag": "h2",
+        "text": "Ultra-Processed Foods a Global Public Health Threat"
+      },
+      {
+        "tag": "h2",
+        "text": "Traces of Bacteria Found in Brain Tumors"
+      },
+      {
+        "tag": "h2",
+        "text": "Trump Admin Expands Visa Denials to Common Illnesses"
+      },
+      {
+        "tag": "h2",
+        "text": "New Merck Pill Cuts LDL 'Bad' Cholesterol by 60%"
+      },
+      {
+        "tag": "h2",
+        "text": "Traces of Bacteria Found in Brain Tumors"
+      },
+      {
+        "tag": "h2",
+        "text": "Trump Admin Expands Visa Denials to Common Illnesses"
+      },
+      {
+        "tag": "h2",
+        "text": "Biden COVID Response Head Ashish Jha Departing"
+      },
+      {
+        "tag": "h2",
+        "text": "New Report Says Insomnia Drove Late Pope Benedict to Resign"
+      },
+      {
+        "tag": "h2",
+        "text": "First Confirmed Death From Tick Meat Allergy"
+      },
+      {
+        "tag": "h2",
+        "text": "Eat These 4 Nutrients to Lower Blood Pressure"
+      },
+      {
+        "tag": "h2",
+        "text": "Trump Admin Expands Visa Denials to Common Illnesses"
+      },
+      {
+        "tag": "h2",
+        "text": "How to Spot Ultra-Processed Foods in Grocery Store"
+      },
+      {
+        "tag": "h2",
+        "text": "Regularly Listening to Music Lowers Dementia Risk"
+      },
+      {
+        "tag": "h2",
+        "text": "Eat These 4 Nutrients to Lower Blood Pressure"
+      },
+      {
+        "tag": "h2",
+        "text": "Researchers Uncover Pancreatic Cancer Warning Sign"
+      },
+      {
+        "tag": "h2",
+        "text": "Vitamin D3 Cuts Second Heart Attack Risk by Half"
+      }
+    ],
+    "paragraphs": [
+      "The information presented on this website is not intended as specific medical advice and is not a substitute for professional medical treatment or diagnosis. Read Newsmax Terms and Conditions of Service.",
+      "Newsmax, Moneynews, Newsmax Health, and Independent. American. are registered trademarks of Newsmax Media, Inc. Newsmax TV, and Newsmax World are trademarks of Newsmax Media, Inc."
+    ],
+    "wordCount": 56
+  },
+  "links": {
+    "internal": [
+      {
+        "label": "NEWSMAX",
+        "href": "https://www.newsmax.com/"
+      },
+      {
+        "label": "HEALTH",
+        "href": "https://www.newsmax.com/health/"
+      },
+      {
+        "label": "MONEY",
+        "href": "https://www.newsmax.com/finance/"
+      },
+      {
+        "label": "WORLD",
+        "href": "https://www.newsmax.com/world/"
+      },
+      {
+        "label": "",
+        "href": "https://www.newsmax.com/health"
+      },
+      {
+        "label": "Newsmax",
+        "href": "https://www.newsmax.com/"
+      },
+      {
+        "label": "Health",
+        "href": "https://www.newsmax.com/health/"
+      },
+      {
+        "label": "Money",
+        "href": "https://www.newsmax.com/finance/"
+      },
+      {
+        "label": "World",
+        "href": "https://www.newsmax.com/world/"
+      },
+      {
+        "label": "Home",
+        "href": "https://www.newsmax.com/health/"
+      },
+      {
+        "label": "Health News",
+        "href": "https://www.newsmax.com/health/health-news/"
+      },
+      {
+        "label": "Cancer",
+        "href": "https://www.newsmax.com/health/cancer/"
+      },
+      {
+        "label": "Heart",
+        "href": "https://www.newsmax.com/health/heart/"
+      },
+      {
+        "label": "Brain Health",
+        "href": "https://www.newsmax.com/health/brain-health/"
+      },
+      {
+        "label": "Diabetes",
+        "href": "https://www.newsmax.com/health/diabetes/"
+      },
+      {
+        "label": "Natural Health",
+        "href": "https://www.newsmax.com/health/natural-health/"
+      },
+      {
+        "label": "Anti-Aging",
+        "href": "https://www.newsmax.com/health/anti-aging/"
+      },
+      {
+        "label": "Diet & Fitness",
+        "href": "https://www.newsmax.com/health/diet-and-fitness/"
+      },
+      {
+        "label": "Subscribe",
+        "href": "https://www.newsmax.com/health/newsletters/"
+      },
+      {
+        "label": "Recover Faster From Common Cold Without Drugs",
+        "href": "https://www.newsmax.com/health/health-news/nasal-irrigation-saline-spray/2025/11/18/id/1235091/"
+      },
+      {
+        "label": "",
+        "href": "https://www.newsmax.com/health/health-news/nasal-irrigation-saline-spray/2025/11/18/id/1235091/"
+      },
+      {
+        "label": "[Full\u00a0Story]",
+        "href": "https://www.newsmax.com/health/health-news/nasal-irrigation-saline-spray/2025/11/18/id/1235091/"
+      },
+      {
+        "label": "Top Health News",
+        "href": "https://www.newsmax.com/health/health-news/"
+      },
+      {
+        "label": "Traces of Bacteria Found in Brain Tumors",
+        "href": "https://www.newsmax.com/health/health-news/brain-tumor-bacteria/2025/11/18/id/1234983/"
+      },
+      {
+        "label": "Traces of Bacteria Found in Brain Tumors",
+        "href": "https://www.newsmax.com/health/health-news/brain-tumor-bacteria/2025/11/18/id/1234983/"
+      },
+      {
+        "label": "[Full\u00a0Story]",
+        "href": "https://www.newsmax.com/health/health-news/brain-tumor-bacteria/2025/11/18/id/1234983/"
+      },
+      {
+        "label": "Study: Microplastics Accelerating Heart Disease",
+        "href": "https://www.newsmax.com/health/health-news/microplastics-heart-disease-cardiovascular/2025/11/19/id/1235179/"
+      },
+      {
+        "label": "[Full\u00a0Story]",
+        "href": "https://www.newsmax.com/health/health-news/microplastics-heart-disease-cardiovascular/2025/11/19/id/1235179/"
+      },
+      {
+        "label": "Deep Brain Stimulation Improves Depression Symptoms",
+        "href": "https://www.newsmax.com/health/health-news/deep-brain-stimulation-brain-implant-depression/2025/11/19/id/1235160/"
+      },
+      {
+        "label": "[Full\u00a0Story]",
+        "href": "https://www.newsmax.com/health/health-news/deep-brain-stimulation-brain-implant-depression/2025/11/19/id/1235160/"
+      },
+      {
+        "label": "Ultra-Processed Foods a Global Public Health Threat",
+        "href": "https://www.newsmax.com/health/health-news/ultra-processed-foods-global-public/2025/11/19/id/1235157/"
+      },
+      {
+        "label": "[Full\u00a0Story]",
+        "href": "https://www.newsmax.com/health/health-news/ultra-processed-foods-global-public/2025/11/19/id/1235157/"
+      },
+      {
+        "label": "Recover Faster From Common Cold Without Drugs",
+        "href": "https://www.newsmax.com/health/health-news/nasal-irrigation-saline-spray/2025/11/18/id/1235091/"
+      },
+      {
+        "label": "[Full\u00a0Story]",
+        "href": "https://www.newsmax.com/health/health-news/nasal-irrigation-saline-spray/2025/11/18/id/1235091/"
+      },
+      {
+        "label": "Survey: 72% of Adults Experience Sleepiness Daily",
+        "href": "https://www.newsmax.com/health/health-news/sleepiness-daytime-daily/2025/11/18/id/1235061/"
+      },
+      {
+        "label": "[Full\u00a0Story]",
+        "href": "https://www.newsmax.com/health/health-news/sleepiness-daytime-daily/2025/11/18/id/1235061/"
+      },
+      {
+        "label": "CMS: Medicare Part B Premiums to Rise 10% Next Year",
+        "href": "https://www.newsmax.com/us/cms-medicare-part-b-premiums/2025/11/18/id/1235031/"
+      },
+      {
+        "label": "[Full\u00a0Story]",
+        "href": "https://www.newsmax.com/us/cms-medicare-part-b-premiums/2025/11/18/id/1235031/"
+      },
+      {
+        "label": "How to Stop Waking During the Night to Pee",
+        "href": "https://www.newsmax.com/health/health-news/pee-nocturia-fluids/2025/11/18/id/1235020/"
+      },
+      {
+        "label": "[Full\u00a0Story]",
+        "href": "https://www.newsmax.com/health/health-news/pee-nocturia-fluids/2025/11/18/id/1235020/"
+      },
+      {
+        "label": "AI Predicts Best Liver Donors Better Than Doctors",
+        "href": "https://www.newsmax.com/health/health-news/artificial-intelligence-ai-liver/2025/11/18/id/1234999/"
+      },
+      {
+        "label": "[Full\u00a0Story]",
+        "href": "https://www.newsmax.com/health/health-news/artificial-intelligence-ai-liver/2025/11/18/id/1234999/"
+      },
+      {
+        "label": "Cancer Cluster in 15 Pa. Counties Near Farms",
+        "href": "https://www.newsmax.com/health/health-news/melanoma-cancer-skin/2025/11/17/id/1234854/"
+      },
+      {
+        "label": "[Full\u00a0Story]",
+        "href": "https://www.newsmax.com/health/health-news/melanoma-cancer-skin/2025/11/17/id/1234854/"
+      },
+      {
+        "label": "Cold Snaps, Heat Waves Kill Thousands Annually",
+        "href": "https://www.newsmax.com/health/health-news/cold-snaps-heat-waves-extreme/2025/11/18/id/1234992/"
+      },
+      {
+        "label": "[Full\u00a0Story]",
+        "href": "https://www.newsmax.com/health/health-news/cold-snaps-heat-waves-extreme/2025/11/18/id/1234992/"
+      },
+      {
+        "label": "Lilly Weight-Loss Drug Suppresses Binge-Eating Signal",
+        "href": "https://www.newsmax.com/health/health-news/weight-loss-drug-eli-lilly/2025/11/17/id/1234918/"
+      },
+      {
+        "label": "[Full\u00a0Story]",
+        "href": "https://www.newsmax.com/health/health-news/weight-loss-drug-eli-lilly/2025/11/17/id/1234918/"
+      },
+      {
+        "label": "Analysis: General Anesthesia Safe for C-Sections",
+        "href": "https://www.newsmax.com/health/health-news/c-section-anesthesia-general/2025/11/17/id/1234897/"
+      },
+      {
+        "label": "[Full\u00a0Story]",
+        "href": "https://www.newsmax.com/health/health-news/c-section-anesthesia-general/2025/11/17/id/1234897/"
+      },
+      {
+        "label": "Ethiopia Confirms First Marburg Outbreak",
+        "href": "https://www.newsmax.com/health/health-news/ethiopia-marburg-virus-who/2025/11/17/id/1234890/"
+      },
+      {
+        "label": "[Full\u00a0Story]",
+        "href": "https://www.newsmax.com/health/health-news/ethiopia-marburg-virus-who/2025/11/17/id/1234890/"
+      },
+      {
+        "label": "Nonhormonal Options for Symptoms of Menopause",
+        "href": "https://www.newsmax.com/health/health-news/menopause-hormone-therapy-hot-flashes-nonhormonal/2025/11/17/id/1234877/"
+      },
+      {
+        "label": "[Full\u00a0Story]",
+        "href": "https://www.newsmax.com/health/health-news/menopause-hormone-therapy-hot-flashes-nonhormonal/2025/11/17/id/1234877/"
+      },
+      {
+        "label": "Diabetes Drug Stops Kids' Weight Gain on Bipolar Meds",
+        "href": "https://www.newsmax.com/health/health-news/kids-bipolar-disorder-medications/2025/11/17/id/1234872/"
+      },
+      {
+        "label": "[Full\u00a0Story]",
+        "href": "https://www.newsmax.com/health/health-news/kids-bipolar-disorder-medications/2025/11/17/id/1234872/"
+      },
+      {
+        "label": "Washington Resident First With Rare Bird Flu Strain",
+        "href": "https://www.newsmax.com/health/health-news/bird-flu-human-washington-state/2025/11/17/id/1234860/"
+      },
+      {
+        "label": "[Full\u00a0Story]",
+        "href": "https://www.newsmax.com/health/health-news/bird-flu-human-washington-state/2025/11/17/id/1234860/"
+      },
+      {
+        "label": "Stem Cells From Fat Tissue Repair Spine Fractures",
+        "href": "https://www.newsmax.com/health/health-news/stem-cells-fat-osteoporosis/2025/11/17/id/1234834/"
+      },
+      {
+        "label": "[Full\u00a0Story]",
+        "href": "https://www.newsmax.com/health/health-news/stem-cells-fat-osteoporosis/2025/11/17/id/1234834/"
+      },
+      {
+        "label": "Study Links Ultra Processed Foods to Precancerous Polyps in Women Under 50",
+        "href": "https://www.newsmax.com/us/women-processed-foods-polyps/2025/11/15/id/1234730/"
+      },
+      {
+        "label": "[Full\u00a0Story]",
+        "href": "https://www.newsmax.com/us/women-processed-foods-polyps/2025/11/15/id/1234730/"
+      },
+      {
+        "label": "",
+        "href": "https://www.newsmax.com/us/women-processed-foods-polyps/2025/11/15/id/1234730/"
+      },
+      {
+        "label": "Dr. Erika Schwartz to Newsmax: Patients 'Should Be Empowered'",
+        "href": "https://www.newsmax.com/newsmax-tv/erika-schwartz-hormone-replacement-therapy-doctors/2025/11/14/id/1234617/"
+      },
+      {
+        "label": "[Full\u00a0Story]",
+        "href": "https://www.newsmax.com/newsmax-tv/erika-schwartz-hormone-replacement-therapy-doctors/2025/11/14/id/1234617/"
+      },
+      {
+        "label": "",
+        "href": "https://www.newsmax.com/newsmax-tv/erika-schwartz-hormone-replacement-therapy-doctors/2025/11/14/id/1234617/"
+      },
+      {
+        "label": "Daily Self-Hypnosis Decreases Hot Flashes",
+        "href": "https://www.newsmax.com/health/health-news/hot-flash-frequency-intensity/2025/11/14/id/1234577/"
+      },
+      {
+        "label": "[Full\u00a0Story]",
+        "href": "https://www.newsmax.com/health/health-news/hot-flash-frequency-intensity/2025/11/14/id/1234577/"
+      },
+      {
+        "label": "More Headlines",
+        "href": "https://www.newsmax.com/health/health-news/"
+      },
+      {
+        "label": "Advice You Can Trust From Leading Health Experts. Read More \u00bb",
+        "href": "https://www.newsmax.com/health/newsletters/"
+      },
+      {
+        "label": "Cancer",
+        "href": "https://www.newsmax.com/health/cancer/"
+      },
+      {
+        "label": "Ultra-Processed Foods a Global Public Health Threat",
+        "href": "https://www.newsmax.com/health/health-news/ultra-processed-foods-global-public/2025/11/19/id/1235157/"
+      },
+      {
+        "label": "[Full\u00a0Story]",
+        "href": "https://www.newsmax.com/health/health-news/ultra-processed-foods-global-public/2025/11/19/id/1235157/"
+      },
+      {
+        "label": "Traces of Bacteria Found in Brain Tumors",
+        "href": "https://www.newsmax.com/health/health-news/brain-tumor-bacteria/2025/11/18/id/1234983/"
+      },
+      {
+        "label": "[Full\u00a0Story]",
+        "href": "https://www.newsmax.com/health/health-news/brain-tumor-bacteria/2025/11/18/id/1234983/"
+      },
+      {
+        "label": "More Cancer",
+        "href": "https://www.newsmax.com/health/cancer/"
+      },
+      {
+        "label": "Heart",
+        "href": "https://www.newsmax.com/health/heart/"
+      },
+      {
+        "label": "Trump Admin Expands Visa Denials to Common Illnesses",
+        "href": "https://www.newsmax.com/health/health-news/visa-trump-admin-chronic-illnesses/2025/11/14/id/1234549/"
+      },
+      {
+        "label": "[Full\u00a0Story]",
+        "href": "https://www.newsmax.com/health/health-news/visa-trump-admin-chronic-illnesses/2025/11/14/id/1234549/"
+      },
+      {
+        "label": "New Merck Pill Cuts LDL 'Bad' Cholesterol by 60%",
+        "href": "https://www.newsmax.com/health/health-news/cholesterol-ldl-merck/2025/11/14/id/1234532/"
+      },
+      {
+        "label": "[Full\u00a0Story]",
+        "href": "https://www.newsmax.com/health/health-news/cholesterol-ldl-merck/2025/11/14/id/1234532/"
+      },
+      {
+        "label": "More Heart",
+        "href": "https://www.newsmax.com/health/heart/"
+      },
+      {
+        "label": "Brain Health",
+        "href": "https://www.newsmax.com/health/Brain-Health"
+      },
+      {
+        "label": "Traces of Bacteria Found in Brain Tumors",
+        "href": "https://www.newsmax.com/health/health-news/brain-tumor-bacteria/2025/11/18/id/1234983/"
+      },
+      {
+        "label": "[Full\u00a0Story]",
+        "href": "https://www.newsmax.com/health/health-news/brain-tumor-bacteria/2025/11/18/id/1234983/"
+      },
+      {
+        "label": "Trump Admin Expands Visa Denials to Common Illnesses",
+        "href": "https://www.newsmax.com/health/health-news/visa-trump-admin-chronic-illnesses/2025/11/14/id/1234549/"
+      },
+      {
+        "label": "[Full\u00a0Story]",
+        "href": "https://www.newsmax.com/health/health-news/visa-trump-admin-chronic-illnesses/2025/11/14/id/1234549/"
+      },
+      {
+        "label": "More Brain Health",
+        "href": "https://www.newsmax.com/health/Brain-Health"
+      },
+      {
+        "label": "People",
+        "href": "https://www.newsmax.com/health/people/"
+      },
+      {
+        "label": "Biden COVID Response Head Ashish Jha Departing",
+        "href": "https://www.newsmax.com/newsfront/ashish-jha-covid-19-pandemic/2023/06/08/id/1122894/"
+      },
+      {
+        "label": "[Full\u00a0Story]",
+        "href": "https://www.newsmax.com/newsfront/ashish-jha-covid-19-pandemic/2023/06/08/id/1122894/"
+      },
+      {
+        "label": "New Report Says Insomnia Drove Late Pope Benedict to Resign",
+        "href": "https://www.newsmax.com/health/health-news/pope-benedict-insomnia/2023/01/27/id/1106136/"
+      },
+      {
+        "label": "[Full\u00a0Story]",
+        "href": "https://www.newsmax.com/health/health-news/pope-benedict-insomnia/2023/01/27/id/1106136/"
+      },
+      {
+        "label": "More People",
+        "href": "https://www.newsmax.com/health/people/"
+      },
+      {
+        "label": "Diet & Fitness",
+        "href": "https://www.newsmax.com/health/diet-and-fitness/"
+      },
+      {
+        "label": "First Confirmed Death From Tick Meat Allergy",
+        "href": "https://www.newsmax.com/health/health-news/tick-spread-meat-allergy-alpha-gal-syndrome/2025/11/14/id/1234570/"
+      },
+      {
+        "label": "[Full\u00a0Story]",
+        "href": "https://www.newsmax.com/health/health-news/tick-spread-meat-allergy-alpha-gal-syndrome/2025/11/14/id/1234570/"
+      },
+      {
+        "label": "Eat These 4 Nutrients to Lower Blood Pressure",
+        "href": "https://www.newsmax.com/health/health-news/blood-pressure-potassium-magnesium/2025/11/12/id/1234269/"
+      },
+      {
+        "label": "[Full\u00a0Story]",
+        "href": "https://www.newsmax.com/health/health-news/blood-pressure-potassium-magnesium/2025/11/12/id/1234269/"
+      },
+      {
+        "label": "More Diet & Fitness",
+        "href": "https://www.newsmax.com/health/diet-and-fitness/"
+      },
+      {
+        "label": "Diabetes",
+        "href": "https://www.newsmax.com/health/diabetes/"
+      },
+      {
+        "label": "Trump Admin Expands Visa Denials to Common Illnesses",
+        "href": "https://www.newsmax.com/health/health-news/visa-trump-admin-chronic-illnesses/2025/11/14/id/1234549/"
+      },
+      {
+        "label": "[Full\u00a0Story]",
+        "href": "https://www.newsmax.com/health/health-news/visa-trump-admin-chronic-illnesses/2025/11/14/id/1234549/"
+      },
+      {
+        "label": "How to Spot Ultra-Processed Foods in Grocery Store",
+        "href": "https://www.newsmax.com/health/health-news/ultra-processed-foods-grocery-store/2025/11/12/id/1234251/"
+      },
+      {
+        "label": "[Full\u00a0Story]",
+        "href": "https://www.newsmax.com/health/health-news/ultra-processed-foods-grocery-store/2025/11/12/id/1234251/"
+      },
+      {
+        "label": "More Diabetes",
+        "href": "https://www.newsmax.com/health/diabetes/"
+      },
+      {
+        "label": "Natural Health",
+        "href": "https://www.newsmax.com/health/natural-health/"
+      },
+      {
+        "label": "Regularly Listening to Music Lowers Dementia Risk",
+        "href": "https://www.newsmax.com/health/health-news/dementia-music-listening/2025/11/14/id/1234540/"
+      },
+      {
+        "label": "[Full\u00a0Story]",
+        "href": "https://www.newsmax.com/health/health-news/dementia-music-listening/2025/11/14/id/1234540/"
+      },
+      {
+        "label": "Eat These 4 Nutrients to Lower Blood Pressure",
+        "href": "https://www.newsmax.com/health/health-news/blood-pressure-potassium-magnesium/2025/11/12/id/1234269/"
+      },
+      {
+        "label": "[Full\u00a0Story]",
+        "href": "https://www.newsmax.com/health/health-news/blood-pressure-potassium-magnesium/2025/11/12/id/1234269/"
+      },
+      {
+        "label": "More Natural Health",
+        "href": "https://www.newsmax.com/health/natural-health/"
+      },
+      {
+        "label": "Anti-Aging",
+        "href": "https://www.newsmax.com/health/anti-aging/"
+      },
+      {
+        "label": "Researchers Uncover Pancreatic Cancer Warning Sign",
+        "href": "https://www.newsmax.com/health/health-news/cancer-pancreatic-warning-sign/2025/11/14/id/1234552/"
+      },
+      {
+        "label": "[Full\u00a0Story]",
+        "href": "https://www.newsmax.com/health/health-news/cancer-pancreatic-warning-sign/2025/11/14/id/1234552/"
+      },
+      {
+        "label": "Vitamin D3 Cuts Second Heart Attack Risk by Half",
+        "href": "https://www.newsmax.com/health/health-news/heart-attack-vitamin-d3-customize/2025/11/11/id/1234062/"
+      },
+      {
+        "label": "[Full\u00a0Story]",
+        "href": "https://www.newsmax.com/health/health-news/heart-attack-vitamin-d3-customize/2025/11/11/id/1234062/"
+      },
+      {
+        "label": "More Anti-Aging",
+        "href": "https://www.newsmax.com/health/anti-aging/"
+      },
+      {
+        "label": "FDA Approves Novartis Targeted Cancer Drug Against Brain Tumors",
+        "href": "https://www.newsmax.com/health/health-news/cancer-drug-novartis-brain/2022/06/23/id/1075713/"
+      },
+      {
+        "label": "Read More",
+        "href": "https://www.newsmax.com/health/health-news/cancer-drug-novartis-brain/2022/06/23/id/1075713/"
+      },
+      {
+        "label": "Pressured by Patients, FDA Expected to Approve ALS Drug With Modest Data",
+        "href": "https://www.newsmax.com/health/health-news/als-amyotrophic-lateral-sclerosis-lou-gehrigs-disease-fda/2022/03/24/id/1062745/"
+      },
+      {
+        "label": "Read More",
+        "href": "https://www.newsmax.com/health/health-news/als-amyotrophic-lateral-sclerosis-lou-gehrigs-disease-fda/2022/03/24/id/1062745/"
+      },
+      {
+        "label": "FDA Approves Lynparza to Treat Early-Stage Breast Cancer",
+        "href": "https://www.newsmax.com/health/health-news/cancer-breast-early-stage-treatment/2022/03/14/id/1061029/"
+      },
+      {
+        "label": "Read More",
+        "href": "https://www.newsmax.com/health/health-news/cancer-breast-early-stage-treatment/2022/03/14/id/1061029/"
+      },
+      {
+        "label": "Stress Symptoms Can Mimic Infection",
+        "href": "https://www.newsmax.com/health/drroizen/stress-influenza-arthritis/2025/11/18/id/1235025/"
+      },
+      {
+        "label": "Read More",
+        "href": "https://www.newsmax.com/health/drroizen/stress-influenza-arthritis/2025/11/18/id/1235025/"
+      },
+      {
+        "label": "Privacy",
+        "href": "https://www.newsmax.com/privacystatement/"
+      },
+      {
+        "label": "David Brownstein, M.D.",
+        "href": "https://www.newsmax.com/health/doctors/dr-brownstein/id-190/"
+      },
+      {
+        "label": "Artificial Sweeteners Increase AFib Risk",
+        "href": "https://www.newsmax.com/health/dr-brownstein/artificial-sweeteners-afib-dementia/2025/11/18/id/1235086/"
+      },
+      {
+        "label": "Russell Blaylock, M.D.",
+        "href": "https://www.newsmax.com/health/doctors/dr-blaylock/id-189/"
+      },
+      {
+        "label": "Beware of Common Household Chemicals",
+        "href": "https://www.newsmax.com/health/dr-blaylock/pesticides-chemicals-aluminum/2025/11/18/id/1235089/"
+      },
+      {
+        "label": "Chauncey Crandall, M.D.",
+        "href": "https://www.newsmax.com/health/doctors/dr-crandall/id-191/"
+      },
+      {
+        "label": "Depression More Risky for Women's Hearts",
+        "href": "https://www.newsmax.com/health/dr-crandall/depression-angina-atrial-fibrillation/2025/11/12/id/1234298/"
+      },
+      {
+        "label": "Gary Small, M.D.",
+        "href": "https://www.newsmax.com/health/doctors/dr-small/id-222/"
+      },
+      {
+        "label": "10 Warning Signs of Dementia",
+        "href": "https://www.newsmax.com/health/dr-small/memory-alzheimers-dementia/2025/11/13/id/1234460/"
+      },
+      {
+        "label": "Doris Wild Helmering, LCSW",
+        "href": "https://www.newsmax.com/health/doctors/dorishelmering/id-292/"
+      },
+      {
+        "label": "Weight-Loss Tips for the Holidays",
+        "href": "https://www.newsmax.com/health/dorishelmering/holidays-aromatherapy-self-care/2025/11/14/id/1234626/"
+      },
+      {
+        "label": "Cancer",
+        "href": "https://www.newsmax.com/health/conditions/topic/cancer/184/"
+      },
+      {
+        "label": "Heart Disease",
+        "href": "https://www.newsmax.com/health/conditions/topic/heart-disease/185/"
+      },
+      {
+        "label": "Obesity",
+        "href": "https://www.newsmax.com/health/conditions/topic/obesity/186/"
+      },
+      {
+        "label": "Arthritis",
+        "href": "https://www.newsmax.com/health/conditions/topic/arthritis/187/"
+      },
+      {
+        "label": "Alzheimer's/Dementia",
+        "href": "https://www.newsmax.com/health/conditions/topic/alzheimer-sdementia/188/"
+      },
+      {
+        "label": "Digestive Problems",
+        "href": "https://www.newsmax.com/health/conditions/topic/digestive-problems/189/"
+      },
+      {
+        "label": "Cold/Flu",
+        "href": "https://www.newsmax.com/health/conditions/topic/coldflu/190/"
+      },
+      {
+        "label": "Depression",
+        "href": "https://www.newsmax.com/health/conditions/topic/depression/191/"
+      },
+      {
+        "label": "Allergies",
+        "href": "https://www.newsmax.com/health/conditions/topic/allergies/192/"
+      },
+      {
+        "label": "High Cholesterol",
+        "href": "https://www.newsmax.com/health/conditions/topic/high-cholesterol/193/"
+      },
+      {
+        "label": "Chronic Pain",
+        "href": "https://www.newsmax.com/health/conditions/topic/chronic-pain/194/"
+      },
+      {
+        "label": "Thyroid Disorders",
+        "href": "https://www.newsmax.com/health/conditions/topic/thyroid-disorders/195/"
+      },
+      {
+        "label": "Menopause",
+        "href": "https://www.newsmax.com/health/conditions/topic/menopause/196/"
+      },
+      {
+        "label": "Osteoporosis",
+        "href": "https://www.newsmax.com/health/conditions/topic/osteoporosis/197/"
+      },
+      {
+        "label": "Autism",
+        "href": "https://www.newsmax.com/health/conditions/topic/autism/198/"
+      },
+      {
+        "label": "Anxiety",
+        "href": "https://www.newsmax.com/health/conditions/topic/anxiety/199/"
+      },
+      {
+        "label": "High Blood Pressure",
+        "href": "https://www.newsmax.com/health/conditions/topic/high-blood-pressure/200/"
+      },
+      {
+        "label": "Diabetes",
+        "href": "https://www.newsmax.com/health/conditions/topic/diabetes/201/"
+      },
+      {
+        "label": "More Conditions",
+        "href": "https://www.newsmax.com/health/conditions/"
+      },
+      {
+        "label": "Home",
+        "href": "https://www.newsmax.com/health/"
+      },
+      {
+        "label": "Health News",
+        "href": "https://www.newsmax.com/health/health-news/"
+      },
+      {
+        "label": "Cancer",
+        "href": "https://www.newsmax.com/health/cancer/"
+      },
+      {
+        "label": "Heart",
+        "href": "https://www.newsmax.com/health/heart/"
+      },
+      {
+        "label": "Brain Health",
+        "href": "https://www.newsmax.com/health/brain-health/"
+      },
+      {
+        "label": "Diabetes",
+        "href": "https://www.newsmax.com/health/diabetes/"
+      },
+      {
+        "label": "Natural Health",
+        "href": "https://www.newsmax.com/health/natural-health/"
+      },
+      {
+        "label": "Anti-Aging",
+        "href": "https://www.newsmax.com/health/anti-aging/"
+      },
+      {
+        "label": "Diet & Fitness",
+        "href": "https://www.newsmax.com/health/diet-and-fitness/"
+      },
+      {
+        "label": "Subscribe",
+        "href": "https://www.newsmax.com/health/newsletters/"
+      },
+      {
+        "label": "Terms and Conditions of Service",
+        "href": "https://www.newsmax.com/termsconditions/"
+      },
+      {
+        "label": "Contact",
+        "href": "https://www.newsmax.com/contact/"
+      },
+      {
+        "label": "Advertise",
+        "href": "https://www.newsmax.com/advertise/"
+      },
+      {
+        "label": "RSS",
+        "href": "https://www.newsmax.com/rss/"
+      },
+      {
+        "label": "Archives",
+        "href": "https://www.newsmax.com/archives/"
+      },
+      {
+        "label": "Privacy\u00a0Policy",
+        "href": "https://www.newsmax.com/privacystatement/"
+      },
+      {
+        "label": "Terms\u00a0&\u00a0Conditions",
+        "href": "https://www.newsmax.com/termsconditions/"
+      }
+    ],
+    "external": [
+      {
+        "label": "WATCH TV LIVE",
+        "href": "https://www.newsmaxtv.com"
+      },
+      {
+        "label": "TV",
+        "href": "https://www.newsmaxtv.com/"
+      },
+      {
+        "label": "",
+        "href": "https://ir.newsmax.com/"
+      },
+      {
+        "label": "NewsmaxTV",
+        "href": "http://www.newsmaxtv.com/"
+      },
+      {
+        "label": "",
+        "href": "http://facebook.com/Newsmax"
+      },
+      {
+        "label": "",
+        "href": "http://twitter.com/Newsmax"
+      },
+      {
+        "label": "",
+        "href": "https://truthsocial.com/@NewsMax"
+      },
+      {
+        "label": "",
+        "href": "https://www.linkedin.com/company/newsmax-media-inc-/"
+      },
+      {
+        "label": "",
+        "href": "https://ir.newsmax.com/"
+      },
+      {
+        "label": "TOP",
+        "href": "javascript:"
+      },
+      {
+        "label": "Shop",
+        "href": "https://shop.newsmax.com/"
+      },
+      {
+        "label": "Careers",
+        "href": "https://recruiting.ultipro.com/NEW1027/JobBoard/3d5ae180-49c4-20f7-d7b4-adfe940978a7/"
+      }
+    ],
+    "broken": []
+  },
+  "extractedAt": "2025-11-19T16:03:09Z"
+}

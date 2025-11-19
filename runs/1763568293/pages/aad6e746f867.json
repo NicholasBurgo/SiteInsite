@@ -1,0 +1,2733 @@
+{
+  "url": "https://www.foxnews.com/official-polls",
+  "path": "/official-polls",
+  "status": 200,
+  "title": "Fox News Poll | Fox News",
+  "description": "Check out the latest polls on Fox News. See results for political polls, gain valuable insights into public opinion, and stay ahead with in-depth analyses on crucial issues shaping our world with Fox.",
+  "canonical": "https://www.foxnews.com/official-polls",
+  "media": {
+    "images": [
+      {
+        "url": "https://a57.foxnews.com/static.foxnews.com/foxnews.com/content/uploads/2025/11/454/256/zohran-mamdani-election-night-watch-party.jpg?ve=1&tl=1",
+        "alt": "Fox News Voter Poll \u2014 Change candidate Mamdani defeats legacy political figures",
+        "width": 454,
+        "height": 256
+      },
+      {
+        "url": "https://a57.foxnews.com/static.foxnews.com/foxnews.com/content/uploads/2025/11/454/256/mikie-sherrill-election-night-east-brunswick-nj.jpg?ve=1&tl=1",
+        "alt": "Fox News Voter Poll: New Jersey governorship remains Democratic with Sherrill win",
+        "width": 454,
+        "height": 256
+      },
+      {
+        "url": "https://a57.foxnews.com/static.foxnews.com/foxnews.com/content/uploads/2025/11/454/256/spanberger-election-day.jpg?ve=1&tl=1",
+        "alt": "Fox New Voter Poll: How Spanberger won Virginia governor",
+        "width": 454,
+        "height": 256
+      },
+      {
+        "url": "https://a57.foxnews.com/static.foxnews.com/foxnews.com/content/uploads/2025/11/454/256/california-proposition-50-gov-gavin-newsom.jpg?ve=1&tl=1",
+        "alt": "Fox News Voter Poll: California voters OK congressional redistricting plan",
+        "width": 454,
+        "height": 256
+      },
+      {
+        "url": "https://a57.foxnews.com/static.foxnews.com/foxnews.com/content/uploads/2025/11/348/196/california-proposition-50-gov-gavin-newsom.jpg?ve=1&tl=1",
+        "alt": "Fox News Voter Poll: California voters OK congressional redistricting plan",
+        "width": null,
+        "height": null
+      },
+      {
+        "url": "https://a57.foxnews.com/static.foxnews.com/foxnews.com/content/uploads/2025/11/348/196/zohran-mamdani-election-night-watch-party.jpg?ve=1&tl=1",
+        "alt": "Fox News Voter Poll \u2014 Change candidate Mamdani defeats legacy political figures",
+        "width": null,
+        "height": null
+      },
+      {
+        "url": "https://a57.foxnews.com/static.foxnews.com/foxnews.com/content/uploads/2025/11/348/196/mikie-sherrill-election-night-east-brunswick-nj.jpg?ve=1&tl=1",
+        "alt": "Fox News Voter Poll: New Jersey governorship remains Democratic with Sherrill win",
+        "width": null,
+        "height": null
+      },
+      {
+        "url": "https://a57.foxnews.com/static.foxnews.com/foxnews.com/content/uploads/2025/11/348/196/spanberger-election-day.jpg?ve=1&tl=1",
+        "alt": "Fox New Voter Poll: How Spanberger won Virginia governor",
+        "width": null,
+        "height": null
+      },
+      {
+        "url": "https://a57.foxnews.com/static.foxnews.com/foxnews.com/content/uploads/2025/10/348/196/jack-ciattarelli-mikie-sherrill-debate-1.jpg?ve=1&tl=1",
+        "alt": "Fox News Poll: Sherrill leads Ciattarelli in New Jersey governor\u2019s race",
+        "width": null,
+        "height": null
+      },
+      {
+        "url": "https://a57.foxnews.com/static.foxnews.com/foxnews.com/content/uploads/2025/10/348/196/zohran-mamdani-october-2025.jpg?ve=1&tl=1",
+        "alt": "Fox News Poll: Mamdani\u2019s lead narrows in New York City mayoral race",
+        "width": null,
+        "height": null
+      },
+      {
+        "url": "https://a57.foxnews.com/static.foxnews.com/foxnews.com/content/uploads/2025/10/348/196/ciaterrilli-sherrill-new-jersey-fox-news-2.jpg?ve=1&tl=1",
+        "alt": "Fox News Poll: New Jersey governor\u2019s race has tightened",
+        "width": null,
+        "height": null
+      },
+      {
+        "url": "https://a57.foxnews.com/static.foxnews.com/foxnews.com/content/uploads/2025/10/348/196/mamdani-the-story.png?ve=1&tl=1",
+        "alt": "Fox News Poll: Mamdani maintains significant lead in NYC mayoral race",
+        "width": null,
+        "height": null
+      },
+      {
+        "url": "https://a57.foxnews.com/static.foxnews.com/foxnews.com/content/uploads/2023/12/454/256/Donald-Trump-Waterloo-IA-Dec.-19-2023.jpg?ve=1&tl=1",
+        "alt": "Fox Business Poll: Trump over 50% support for first time in Iowa",
+        "width": 454,
+        "height": 256
+      },
+      {
+        "url": "https://a57.foxnews.com/static.foxnews.com/foxnews.com/content/uploads/2023/09/454/256/trump-desantis-recent.jpg?ve=1&tl=1",
+        "alt": "Fox Business Poll: Trump maintains large lead in South Carolina primary race",
+        "width": 454,
+        "height": 256
+      },
+      {
+        "url": "https://a57.foxnews.com/static.foxnews.com/foxnews.com/content/uploads/2023/09/454/256/2328c3b1-Untitled-1.jpg?ve=1&tl=1",
+        "alt": "Fox Business Poll: Support for Haley doubles in Iowa, putting her in top three",
+        "width": 454,
+        "height": 256
+      },
+      {
+        "url": "https://a57.foxnews.com/static.foxnews.com/foxnews.com/content/uploads/2023/07/454/256/desantis-and-trump.jpg?ve=1&tl=1",
+        "alt": "Fox Business Poll: Trump has commanding lead in South Carolina GOP primary",
+        "width": 454,
+        "height": 256
+      },
+      {
+        "url": "https://a57.foxnews.com/static.foxnews.com/foxnews.com/content/uploads/2023/07/454/256/Fox-Business-Iowa-poll.png?ve=1&tl=1",
+        "alt": "Fox Business Poll: Trump leads in Iowa, as DeSantis and Scott round out the top 3",
+        "width": 454,
+        "height": 256
+      },
+      {
+        "url": "https://a57.foxnews.com/cf-images.us-east-1.prod.boltdns.net/v1/static/694940094001/bb13ec09-272f-43cf-ad5c-9a1c5020c67b/4ad94428-b265-43ae-afae-f7a60f4abf19/1280x720/match/348/196/image.jpg?ve=1&tl=1",
+        "alt": "Is Gen Z shifting to the right?",
+        "width": null,
+        "height": null
+      },
+      {
+        "url": "https://a57.foxnews.com/cf-images.us-east-1.prod.boltdns.net/v1/static/694940094001/be0e691b-5f3a-4118-94cd-76df5c5298e1/97655f4d-9556-4034-8913-42509136329c/1280x720/match/348/196/image.jpg?ve=1&tl=1",
+        "alt": "Curtis Sliwa scoffs at NYC race polls: These people have been wrong 'every step of the way'",
+        "width": null,
+        "height": null
+      },
+      {
+        "url": "https://a57.foxnews.com/cf-images.us-east-1.prod.boltdns.net/v1/static/694940094001/efb0504c-6e4c-4f0c-b1d5-6d2e29824589/85c46f78-d105-4d32-8a3a-afbd6c3f1950/1280x720/match/348/196/image.jpg?ve=1&tl=1",
+        "alt": "Sherrill criticized for \u2018absurd\u2019 accusations against Ciattarelli as Election Day approaches",
+        "width": null,
+        "height": null
+      },
+      {
+        "url": "https://a57.foxnews.com/cf-images.us-east-1.prod.boltdns.net/v1/static/694940094001/d34a8f27-34de-47a9-872e-117a66ad746d/7082f662-9ea8-44d7-a51a-0d7ec74deb03/1280x720/match/348/196/image.jpg?ve=1&tl=1",
+        "alt": "Fox News polling shows tightening of New Jersey's gubernatorial race",
+        "width": null,
+        "height": null
+      },
+      {
+        "url": "https://a57.foxnews.com/cf-images.us-east-1.prod.boltdns.net/v1/static/694940094001/83089702-0ea2-4015-9c41-db8c871c2016/5ccf69e9-90c7-45f3-9131-8da1a6e4c4b2/1280x720/match/348/196/image.jpg?ve=1&tl=1",
+        "alt": "Most people don't understand patriotism: Joey Jones",
+        "width": null,
+        "height": null
+      },
+      {
+        "url": "https://a57.foxnews.com///static.foxnews.com/static/orion/styles/img/fox-news/bg/348/196/default.png?ve=1&tl=1",
+        "alt": "Fox News Poll Archive",
+        "width": null,
+        "height": null
+      },
+      {
+        "url": "https://a57.foxnews.com/static.foxnews.com/foxnews.com/content/uploads/2021/10/348/196/McAullife-Youngkin-split.jpg?ve=1&tl=1",
+        "alt": "Fox News Voter Analysis: 2021 Virginia Governor",
+        "width": null,
+        "height": null
+      }
+    ],
+    "videos": [],
+    "gifs": []
+  },
+  "files": [],
+  "words": {
+    "headings": [
+      {
+        "tag": "h4",
+        "text": "Games"
+      },
+      {
+        "tag": "h4",
+        "text": "Deals"
+      },
+      {
+        "tag": "h4",
+        "text": "FOX Business"
+      },
+      {
+        "tag": "h4",
+        "text": "Science & Tech"
+      },
+      {
+        "tag": "h4",
+        "text": "Watch Live"
+      },
+      {
+        "tag": "h4",
+        "text": "Apps & Products"
+      },
+      {
+        "tag": "h4",
+        "text": "Games"
+      },
+      {
+        "tag": "h4",
+        "text": "Deals"
+      },
+      {
+        "tag": "h4",
+        "text": "FOX Business"
+      },
+      {
+        "tag": "h4",
+        "text": "Science & Tech"
+      },
+      {
+        "tag": "h4",
+        "text": "Watch Live"
+      },
+      {
+        "tag": "h4",
+        "text": "Apps & Products"
+      },
+      {
+        "tag": "h1",
+        "text": "Fox News Poll"
+      },
+      {
+        "tag": "h2",
+        "text": "Fox News Voter Poll \u2014 Change candidate Mamdani defeats legacy political figures"
+      },
+      {
+        "tag": "h2",
+        "text": "Fox News Voter Poll: New Jersey governorship remains Democratic with Sherrill win"
+      },
+      {
+        "tag": "h2",
+        "text": "Fox New Voter Poll: How Spanberger won Virginia governor"
+      },
+      {
+        "tag": "h2",
+        "text": "Fox News Voter Poll: California voters OK congressional redistricting plan"
+      },
+      {
+        "tag": "h3",
+        "text": "Latest Polls"
+      },
+      {
+        "tag": "h4",
+        "text": "Fox News Voter Poll: California voters OK congressional redistricting plan"
+      },
+      {
+        "tag": "h4",
+        "text": "Fox News Voter Poll \u2014 Change candidate Mamdani defeats legacy political figures"
+      },
+      {
+        "tag": "h4",
+        "text": "Fox News Voter Poll: New Jersey governorship remains Democratic with Sherrill win"
+      },
+      {
+        "tag": "h4",
+        "text": "Fox New Voter Poll: How Spanberger won Virginia governor"
+      },
+      {
+        "tag": "h4",
+        "text": "Fox News Poll: Sherrill leads Ciattarelli in New Jersey governor\u2019s race"
+      },
+      {
+        "tag": "h4",
+        "text": "Fox News Poll: Mamdani\u2019s lead narrows in New York City mayoral race"
+      },
+      {
+        "tag": "h4",
+        "text": "Fox News Poll: New Jersey governor\u2019s race has tightened"
+      },
+      {
+        "tag": "h4",
+        "text": "Fox News Poll: Mamdani maintains significant lead in NYC mayoral race"
+      },
+      {
+        "tag": "h2",
+        "text": "Fox Business Poll: Trump over 50% support for first time in Iowa"
+      },
+      {
+        "tag": "h2",
+        "text": "Fox Business Poll: Trump maintains large lead in South Carolina primary race"
+      },
+      {
+        "tag": "h2",
+        "text": "Fox Business Poll: Support for Haley doubles in Iowa, putting her in top three"
+      },
+      {
+        "tag": "h2",
+        "text": "Fox Business Poll: Trump has commanding lead in South Carolina GOP primary"
+      },
+      {
+        "tag": "h2",
+        "text": "Fox Business Poll: Trump leads in Iowa, as DeSantis and Scott round out the top 3"
+      },
+      {
+        "tag": "h2",
+        "text": "Methodology Notes:"
+      },
+      {
+        "tag": "h3",
+        "text": "Latest Video"
+      },
+      {
+        "tag": "h4",
+        "text": "Is Gen Z shifting to the right?"
+      },
+      {
+        "tag": "h4",
+        "text": "Curtis Sliwa scoffs at NYC race polls: These people have been wrong 'every step of the way'"
+      },
+      {
+        "tag": "h4",
+        "text": "Sherrill criticized for \u2018absurd\u2019 accusations against Ciattarelli as Election Day approaches"
+      },
+      {
+        "tag": "h4",
+        "text": "Fox News polling shows tightening of New Jersey's gubernatorial race"
+      },
+      {
+        "tag": "h4",
+        "text": "Most people don't understand patriotism: Joey Jones"
+      },
+      {
+        "tag": "h3",
+        "text": "More About Fox News Polls"
+      },
+      {
+        "tag": "h4",
+        "text": "Fox News Poll Archive"
+      },
+      {
+        "tag": "h4",
+        "text": "2025 Fox News Voter Poll (NJ, NYC, VA, CA)"
+      },
+      {
+        "tag": "h4",
+        "text": "Fox News Voter Analysis: 2024 General Election"
+      },
+      {
+        "tag": "h4",
+        "text": "Fox News Voter Analysis: 2024 Primaries/Caucuses"
+      },
+      {
+        "tag": "h4",
+        "text": "Fox News Voter Analysis Election Survey: 2022, 2020, 2018"
+      },
+      {
+        "tag": "h4",
+        "text": "Fox News Voter Analysis Election Survey: 2020 Primaries"
+      },
+      {
+        "tag": "h4",
+        "text": "Fox News Voter Analysis: 2021 Virginia Governor"
+      },
+      {
+        "tag": "h4",
+        "text": "No surprises for poll consumers in 2018"
+      },
+      {
+        "tag": "h4",
+        "text": "2016 Polling Was Not Wrong"
+      },
+      {
+        "tag": "h4",
+        "text": "Fox News Poll Methodology Statement"
+      },
+      {
+        "tag": "h4",
+        "text": "U.S."
+      },
+      {
+        "tag": "h4",
+        "text": "Politics"
+      },
+      {
+        "tag": "h4",
+        "text": "World"
+      },
+      {
+        "tag": "h4",
+        "text": "Opinion"
+      },
+      {
+        "tag": "h4",
+        "text": "Media"
+      },
+      {
+        "tag": "h4",
+        "text": "Entertainment"
+      },
+      {
+        "tag": "h4",
+        "text": "Sports"
+      },
+      {
+        "tag": "h4",
+        "text": "Lifestyle"
+      },
+      {
+        "tag": "h4",
+        "text": "Health"
+      },
+      {
+        "tag": "h4",
+        "text": "Deals"
+      },
+      {
+        "tag": "h4",
+        "text": "FOX Business"
+      },
+      {
+        "tag": "h4",
+        "text": "Science & Tech"
+      },
+      {
+        "tag": "h4",
+        "text": "Games"
+      },
+      {
+        "tag": "h4",
+        "text": "Watch Live"
+      },
+      {
+        "tag": "h4",
+        "text": "About"
+      },
+      {
+        "tag": "h4",
+        "text": "Apps & Products"
+      },
+      {
+        "tag": "h4",
+        "text": "U.S."
+      },
+      {
+        "tag": "h4",
+        "text": "Politics"
+      },
+      {
+        "tag": "h4",
+        "text": "World"
+      },
+      {
+        "tag": "h4",
+        "text": "Opinion"
+      },
+      {
+        "tag": "h4",
+        "text": "Media"
+      },
+      {
+        "tag": "h4",
+        "text": "Entertainment"
+      },
+      {
+        "tag": "h4",
+        "text": "Sports"
+      },
+      {
+        "tag": "h4",
+        "text": "Lifestyle"
+      },
+      {
+        "tag": "h4",
+        "text": "Health"
+      },
+      {
+        "tag": "h4",
+        "text": "Deals"
+      },
+      {
+        "tag": "h4",
+        "text": "FOX Business"
+      },
+      {
+        "tag": "h4",
+        "text": "Science & Tech"
+      },
+      {
+        "tag": "h4",
+        "text": "Games"
+      },
+      {
+        "tag": "h4",
+        "text": "Watch Live"
+      },
+      {
+        "tag": "h4",
+        "text": "About"
+      },
+      {
+        "tag": "h4",
+        "text": "Apps & Products"
+      }
+    ],
+    "paragraphs": [
+      "This material may not be published, broadcast, rewritten, or redistributed. \u00a92025 FOX News Network, LLC. All rights reserved. Quotes displayed in real-time or delayed by at least 15 minutes. Market data provided by Factset. Powered and implemented by FactSet Digital Solutions. Legal Statement. Mutual Fund and ETF data provided by Refinitiv Lipper.",
+      "California voters approve Proposition 50 to redraw congressional maps, expected to add Democratic seats in response to Republican redistricting efforts in Texas.",
+      "A Fox News Voter Poll of more than 4,700 registered voters in New York City provides new insights into Democrat candidate Zohran Mamdani's victory.",
+      "Democrat Mikie Sherrill wins New Jersey governor race, securing historic third consecutive Democratic term since 1961 with strong support from women and Black voters.",
+      "Democrat Abigail Spanberger defeated Republican Winsome Earle-Sears to become Virginia's next governor, capitalizing on President Donald Trump's unpopularity.",
+      "Mikie Sherrill leads Jack Ciattarelli 52-45% in New Jersey governor race as Trump opposition drives Democratic turnout, new Fox News poll shows.",
+      "A NYC mayoral race poll shows Zohran Mamdani's lead over Curtis Sliwa and Andrew Cuomo narrowing to 16 points, down from 24 points in October polling data.",
+      "Recent campaign attacks damaged both Mikie Sherrill and Jack Ciattarelli's favorability ratings as the New Jersey gubernatorial race tightens to a 5-point margin.",
+      "New Fox News survey shows Zohran Mamdani maintaining 21-point lead over Andrew Cuomo in NYC mayoral race as voters favor him on crime and housing issues.",
+      "Conducted under the joint direction of Beacon Research (D) and Shaw & Company Research (R), Fox News national surveys include interviews with a representative sample of approximately 1,200 registered voters who were randomly selected from a national registered voter list sourced from Aristotle. About 75% of completed interviews are with respondents on the telephone (roughly 15% on landlines and 85% cellphones) and the remainder are with respondents contacted by text message who then complete the survey online. The total sample has a margin of sampling error of plus or minus three percentage points. When necessary, minor weights are used to ensure the demographics of survey respondents are representative of the national registered voter population. All sample frames are weighted together. Generally, weights are applied to age, race, education, and area variables. The Fox News poll is not weighted by party identification. (statement updated February 2024)\n\nFor a more detailed methodology statement, click the last link on the right-hand side.",
+      "This material may not be published, broadcast, rewritten, or redistributed. \u00a92025 FOX News Network, LLC. All rights reserved. Quotes displayed in real-time or delayed by at least 15 minutes. Market data provided by\n        Factset. Powered and implemented by\n        FactSet Digital Solutions.\n        Legal Statement. Mutual Fund and ETF data provided by\n        Refinitiv Lipper."
+    ],
+    "wordCount": 449
+  },
+  "links": {
+    "internal": [
+      {
+        "label": "Fox News Media",
+        "href": "https://www.foxnews.com/"
+      },
+      {
+        "label": "Books",
+        "href": "https://www.foxnews.com/books"
+      },
+      {
+        "label": "Fox News",
+        "href": "https://www.foxnews.com/"
+      },
+      {
+        "label": "U.S.",
+        "href": "https://www.foxnews.com/us"
+      },
+      {
+        "label": "Blue City Crime",
+        "href": "https://www.foxnews.com/category/us/blue-city-crime"
+      },
+      {
+        "label": "Campus Radicals",
+        "href": "https://www.foxnews.com/category/us/campus-radicals"
+      },
+      {
+        "label": "Border Crisis",
+        "href": "https://www.foxnews.com/category/us/immigration"
+      },
+      {
+        "label": "True Crime",
+        "href": "https://www.foxnews.com/true-crime"
+      },
+      {
+        "label": "Politics",
+        "href": "https://www.foxnews.com/politics"
+      },
+      {
+        "label": "Donald Trump",
+        "href": "https://www.foxnews.com/category/person/donald-trump"
+      },
+      {
+        "label": "Senate",
+        "href": "https://www.foxnews.com/category/politics/senate"
+      },
+      {
+        "label": "House",
+        "href": "https://www.foxnews.com/category/politics/house-of-representatives"
+      },
+      {
+        "label": "Judiciary",
+        "href": "https://www.foxnews.com/category/politics/judiciary"
+      },
+      {
+        "label": "Foreign Policy",
+        "href": "https://www.foxnews.com/category/politics/foreign-policy"
+      },
+      {
+        "label": "Fox News Polls",
+        "href": "https://www.foxnews.com/official-polls"
+      },
+      {
+        "label": "2025 Elections Coverage",
+        "href": "https://www.foxnews.com/elections"
+      },
+      {
+        "label": "World",
+        "href": "https://www.foxnews.com/world"
+      },
+      {
+        "label": "U.N.",
+        "href": "https://www.foxnews.com/category/world/united-nations"
+      },
+      {
+        "label": "Conflicts",
+        "href": "https://www.foxnews.com/category/world/conflicts"
+      },
+      {
+        "label": "Terrorism",
+        "href": "https://www.foxnews.com/category/world/terrorism"
+      },
+      {
+        "label": "Disasters",
+        "href": "https://www.foxnews.com/category/disasters"
+      },
+      {
+        "label": "Global Economy",
+        "href": "https://www.foxnews.com/category/world/global-economy"
+      },
+      {
+        "label": "Environment",
+        "href": "https://www.foxnews.com/category/environment"
+      },
+      {
+        "label": "Religion",
+        "href": "https://www.foxnews.com/category/world/religion"
+      },
+      {
+        "label": "Scandals",
+        "href": "https://www.foxnews.com/category/world/scandals"
+      },
+      {
+        "label": "Opinion",
+        "href": "https://www.foxnews.com/opinion"
+      },
+      {
+        "label": "Media",
+        "href": "https://www.foxnews.com/media"
+      },
+      {
+        "label": "Fox Nation Coverage",
+        "href": "https://www.foxnews.com/shows/fox-nation"
+      },
+      {
+        "label": "Entertainment",
+        "href": "https://www.foxnews.com/entertainment"
+      },
+      {
+        "label": "Prince Andrew",
+        "href": "https://www.foxnews.com/category/person/prince-andrew"
+      },
+      {
+        "label": "Katy Perry",
+        "href": "https://www.foxnews.com/category/person/katy-perry"
+      },
+      {
+        "label": "Royal Families",
+        "href": "https://www.foxnews.com/category/world/personalities/british-royals"
+      },
+      {
+        "label": "Country Music",
+        "href": "https://www.foxnews.com/category/entertainment/genres/country"
+      },
+      {
+        "label": "Nicole Kidman",
+        "href": "https://www.foxnews.com/category/person/nicole-kidman"
+      },
+      {
+        "label": "Sports",
+        "href": "https://www.foxnews.com/sports"
+      },
+      {
+        "label": "NFL",
+        "href": "https://www.foxnews.com/category/sports/nfl"
+      },
+      {
+        "label": "College Football",
+        "href": "https://www.foxnews.com/category/sports/ncaa-fb"
+      },
+      {
+        "label": "MLB",
+        "href": "https://www.foxnews.com/category/sports/mlb"
+      },
+      {
+        "label": "NASCAR",
+        "href": "https://www.foxnews.com/category/auto/nascar"
+      },
+      {
+        "label": "INDYCAR",
+        "href": "https://www.foxnews.com/category/auto/indycar"
+      },
+      {
+        "label": "NBA",
+        "href": "https://www.foxnews.com/category/sports/nba"
+      },
+      {
+        "label": "NHL",
+        "href": "https://www.foxnews.com/category/sports/nhl"
+      },
+      {
+        "label": "Golf",
+        "href": "https://www.foxnews.com/category/sports/golf"
+      },
+      {
+        "label": "Tennis",
+        "href": "https://www.foxnews.com/category/sports/tennis"
+      },
+      {
+        "label": "UFC",
+        "href": "https://www.foxnews.com/category/sports/ufc"
+      },
+      {
+        "label": "WWE",
+        "href": "https://www.foxnews.com/category/organization/wwe"
+      },
+      {
+        "label": "Lifestyle",
+        "href": "https://www.foxnews.com/lifestyle"
+      },
+      {
+        "label": "Travel",
+        "href": "https://www.foxnews.com/travel"
+      },
+      {
+        "label": "Food & Drink",
+        "href": "https://www.foxnews.com/food-drink"
+      },
+      {
+        "label": "Faith",
+        "href": "https://www.foxnews.com/faith-values"
+      },
+      {
+        "label": "Discovery",
+        "href": "https://www.foxnews.com/category/science/archaeology"
+      },
+      {
+        "label": "Games & Quizzes",
+        "href": "https://www.foxnews.com/games"
+      },
+      {
+        "label": "Health",
+        "href": "https://www.foxnews.com/health"
+      },
+      {
+        "label": "Weight Loss",
+        "href": "https://www.foxnews.com/category/health/nutrition-and-fitness/weight-loss"
+      },
+      {
+        "label": "Cancer",
+        "href": "https://www.foxnews.com/category/health/cancer"
+      },
+      {
+        "label": "Brain Health",
+        "href": "https://www.foxnews.com/category/health/brain-health"
+      },
+      {
+        "label": "Sleep",
+        "href": "https://www.foxnews.com/category/health/sleep-disorders"
+      },
+      {
+        "label": "Heart Health",
+        "href": "https://www.foxnews.com/category/health/heart-health"
+      },
+      {
+        "label": "Healthy Living",
+        "href": "https://www.foxnews.com/category/health/healthy-living"
+      },
+      {
+        "label": "Mental Health",
+        "href": "https://www.foxnews.com/category/health/mental-health"
+      },
+      {
+        "label": "MAHA",
+        "href": "https://www.foxnews.com/category/health/maha"
+      },
+      {
+        "label": "Video",
+        "href": "https://www.foxnews.com/video"
+      },
+      {
+        "label": "AI",
+        "href": "https://www.foxnews.com/category/tech/artificial-intelligence"
+      },
+      {
+        "label": "Watch\n            TV",
+        "href": "https://www.foxnews.com/video/5614615980001"
+      },
+      {
+        "label": "Home",
+        "href": "https://www.foxnews.com/"
+      },
+      {
+        "label": "EPSTEIN FILES",
+        "href": "https://www.foxnews.com/category/person/jeffrey-epstein"
+      },
+      {
+        "label": "TRUMP NEWS",
+        "href": "https://www.foxnews.com/category/person/donald-trump"
+      },
+      {
+        "label": "CAMPUS RADICALS",
+        "href": "https://www.foxnews.com/category/us/campus-radicals"
+      },
+      {
+        "label": "CHARLIE KIRK",
+        "href": "https://www.foxnews.com/category/media/charlie-kirk"
+      },
+      {
+        "label": "Games",
+        "href": "https://www.foxnews.com/games"
+      },
+      {
+        "label": "Scattergories Daily",
+        "href": "https://www.foxnews.com/games/scattergories-daily"
+      },
+      {
+        "label": "5 Across the Letter Word Game",
+        "href": "https://www.foxnews.com/games/5-across-word-game"
+      },
+      {
+        "label": "DownWords",
+        "href": "https://www.foxnews.com/games/lil-snack-downwords"
+      },
+      {
+        "label": "Sudoku",
+        "href": "https://www.foxnews.com/games/sudoku"
+      },
+      {
+        "label": "Swap Words",
+        "href": "https://www.foxnews.com/games/lil-snack-word-swap"
+      },
+      {
+        "label": "Word Search",
+        "href": "https://www.foxnews.com/games/word-search"
+      },
+      {
+        "label": "Icon Match",
+        "href": "https://www.foxnews.com/games/icon-match-puzzle"
+      },
+      {
+        "label": "Daily Crossword Puzzle",
+        "href": "https://www.foxnews.com/games/daily-crossword-puzzle"
+      },
+      {
+        "label": "Mini Crossword Puzzle",
+        "href": "https://www.foxnews.com/games/mini-crossword-puzzle"
+      },
+      {
+        "label": "Deals",
+        "href": "https://www.foxnews.com/deals"
+      },
+      {
+        "label": "Holiday Shopping",
+        "href": "https://www.foxnews.com/category/deals/trending"
+      },
+      {
+        "label": "Gift Guides",
+        "href": "https://www.foxnews.com/category/deals/gift"
+      },
+      {
+        "label": "Home Deals",
+        "href": "https://www.foxnews.com/category/deals/home"
+      },
+      {
+        "label": "Kitchen Deals",
+        "href": "https://www.foxnews.com/category/deals/kitchen"
+      },
+      {
+        "label": "Tech and Electronic Deals",
+        "href": "https://www.foxnews.com/category/deals/tech-and-electronic"
+      },
+      {
+        "label": "Health and Fitness Deals",
+        "href": "https://www.foxnews.com/category/deals/health-and-fitness"
+      },
+      {
+        "label": "Beauty and Fashion Deals",
+        "href": "https://www.foxnews.com/category/deals/beauty-and-fashion"
+      },
+      {
+        "label": "Science & Tech",
+        "href": "https://www.foxnews.com/tech"
+      },
+      {
+        "label": "Air & Space",
+        "href": "https://www.foxnews.com/category/science/air-and-space"
+      },
+      {
+        "label": "Security",
+        "href": "https://www.foxnews.com/category/tech/topics/security"
+      },
+      {
+        "label": "Innovation",
+        "href": "https://www.foxnews.com/category/tech/topics/innovation"
+      },
+      {
+        "label": "Video Games",
+        "href": "https://www.foxnews.com/category/tech/topics/video-games"
+      },
+      {
+        "label": "Military Tech",
+        "href": "https://www.foxnews.com/category/tech/topics/military-tech"
+      },
+      {
+        "label": "Planet Earth",
+        "href": "https://www.foxnews.com/category/science/planet-earth"
+      },
+      {
+        "label": "Wild Nature",
+        "href": "https://www.foxnews.com/category/science/wild-nature"
+      },
+      {
+        "label": "Watch Live",
+        "href": "https://www.foxnews.com/video/5614615980001"
+      },
+      {
+        "label": "FOX News Shows",
+        "href": "https://www.foxnews.com/shows"
+      },
+      {
+        "label": "Programming Schedule",
+        "href": "https://www.foxnews.com/fnctv"
+      },
+      {
+        "label": "On Air Personalities",
+        "href": "https://www.foxnews.com/person/personalities"
+      },
+      {
+        "label": "Full Episodes",
+        "href": "https://www.foxnews.com/video/shows"
+      },
+      {
+        "label": "Show Clips",
+        "href": "https://www.foxnews.com/video/topics/v-most-recent-episodes"
+      },
+      {
+        "label": "News Clips",
+        "href": "https://www.foxnews.com/video/topics/latest-news-video"
+      },
+      {
+        "label": "Apps & Products",
+        "href": "https://www.foxnews.com/apps-products"
+      },
+      {
+        "label": "FOX News Go",
+        "href": "https://www.foxnews.com/go"
+      },
+      {
+        "label": "Newsletters",
+        "href": "https://www.foxnews.com/newsletters"
+      },
+      {
+        "label": "Games",
+        "href": "https://www.foxnews.com/games"
+      },
+      {
+        "label": "Scattergories Daily",
+        "href": "https://www.foxnews.com/games/scattergories-daily"
+      },
+      {
+        "label": "5 Across the Letter Word Game",
+        "href": "https://www.foxnews.com/games/5-across-word-game"
+      },
+      {
+        "label": "DownWords",
+        "href": "https://www.foxnews.com/games/lil-snack-downwords"
+      },
+      {
+        "label": "Sudoku",
+        "href": "https://www.foxnews.com/games/sudoku"
+      },
+      {
+        "label": "Swap Words",
+        "href": "https://www.foxnews.com/games/lil-snack-word-swap"
+      },
+      {
+        "label": "Word Search",
+        "href": "https://www.foxnews.com/games/word-search"
+      },
+      {
+        "label": "Icon Match",
+        "href": "https://www.foxnews.com/games/icon-match-puzzle"
+      },
+      {
+        "label": "Daily Crossword Puzzle",
+        "href": "https://www.foxnews.com/games/daily-crossword-puzzle"
+      },
+      {
+        "label": "Mini Crossword Puzzle",
+        "href": "https://www.foxnews.com/games/mini-crossword-puzzle"
+      },
+      {
+        "label": "Deals",
+        "href": "https://www.foxnews.com/deals"
+      },
+      {
+        "label": "Holiday Shopping",
+        "href": "https://www.foxnews.com/category/deals/trending"
+      },
+      {
+        "label": "Gift Guides",
+        "href": "https://www.foxnews.com/category/deals/gift"
+      },
+      {
+        "label": "Home Deals",
+        "href": "https://www.foxnews.com/category/deals/home"
+      },
+      {
+        "label": "Kitchen Deals",
+        "href": "https://www.foxnews.com/category/deals/kitchen"
+      },
+      {
+        "label": "Tech and Electronic Deals",
+        "href": "https://www.foxnews.com/category/deals/tech-and-electronic"
+      },
+      {
+        "label": "Health and Fitness Deals",
+        "href": "https://www.foxnews.com/category/deals/health-and-fitness"
+      },
+      {
+        "label": "Beauty and Fashion Deals",
+        "href": "https://www.foxnews.com/category/deals/beauty-and-fashion"
+      },
+      {
+        "label": "Science & Tech",
+        "href": "https://www.foxnews.com/tech"
+      },
+      {
+        "label": "Air & Space",
+        "href": "https://www.foxnews.com/category/science/air-and-space"
+      },
+      {
+        "label": "Security",
+        "href": "https://www.foxnews.com/category/tech/topics/security"
+      },
+      {
+        "label": "Innovation",
+        "href": "https://www.foxnews.com/category/tech/topics/innovation"
+      },
+      {
+        "label": "Video Games",
+        "href": "https://www.foxnews.com/category/tech/topics/video-games"
+      },
+      {
+        "label": "Military Tech",
+        "href": "https://www.foxnews.com/category/tech/topics/military-tech"
+      },
+      {
+        "label": "Planet Earth",
+        "href": "https://www.foxnews.com/category/science/planet-earth"
+      },
+      {
+        "label": "Wild Nature",
+        "href": "https://www.foxnews.com/category/science/wild-nature"
+      },
+      {
+        "label": "Watch Live",
+        "href": "https://www.foxnews.com/video/5614615980001"
+      },
+      {
+        "label": "FOX News Shows",
+        "href": "https://www.foxnews.com/shows"
+      },
+      {
+        "label": "Programming Schedule",
+        "href": "https://www.foxnews.com/fnctv"
+      },
+      {
+        "label": "On Air Personalities",
+        "href": "https://www.foxnews.com/person/personalities"
+      },
+      {
+        "label": "Full Episodes",
+        "href": "https://www.foxnews.com/video/shows"
+      },
+      {
+        "label": "Show Clips",
+        "href": "https://www.foxnews.com/video/topics/v-most-recent-episodes"
+      },
+      {
+        "label": "News Clips",
+        "href": "https://www.foxnews.com/video/topics/latest-news-video"
+      },
+      {
+        "label": "Apps & Products",
+        "href": "https://www.foxnews.com/apps-products"
+      },
+      {
+        "label": "FOX News Go",
+        "href": "https://www.foxnews.com/go"
+      },
+      {
+        "label": "Newsletters",
+        "href": "https://www.foxnews.com/newsletters"
+      },
+      {
+        "label": "RSS",
+        "href": "https://www.foxnews.com/story/foxnews-com-rss-feeds"
+      },
+      {
+        "label": "Newsletters",
+        "href": "https://www.foxnews.com/newsletters"
+      },
+      {
+        "label": "Fox News",
+        "href": "https://www.foxnews.com"
+      },
+      {
+        "label": "Terms of Use",
+        "href": "https://www.foxnews.com/terms-of-use"
+      },
+      {
+        "label": "Privacy Policy",
+        "href": "https://www.foxnews.com/privacy-policy"
+      },
+      {
+        "label": "Closed Caption Policy",
+        "href": "https://www.foxnews.com/closed-captioning"
+      },
+      {
+        "label": "Contact Us",
+        "href": "https://www.foxnews.com/contact"
+      },
+      {
+        "label": "Accessibility Statement",
+        "href": "https://www.foxnews.com/accessibility-statement"
+      },
+      {
+        "label": "News Sitemap",
+        "href": "https://www.foxnews.com/html-sitemap"
+      },
+      {
+        "label": "Video Sitemap",
+        "href": "https://www.foxnews.com/html-video-sitemap"
+      },
+      {
+        "label": "",
+        "href": "https://www.foxnews.com/politics/fox-news-voter-poll-change-candidate-mamdani-defeats-legacy-political-figures"
+      },
+      {
+        "label": "Fox News Poll",
+        "href": "https://www.foxnews.com/category/columns/fox-news-poll"
+      },
+      {
+        "label": "Fox News Voter Poll \u2014 Change candidate Mamdani defeats legacy political figures",
+        "href": "https://www.foxnews.com/politics/fox-news-voter-poll-change-candidate-mamdani-defeats-legacy-political-figures"
+      },
+      {
+        "label": "",
+        "href": "https://www.foxnews.com/politics/fox-news-poll-new-jersey-governorship-remains-democratic-sherrill-win"
+      },
+      {
+        "label": "Fox News Poll",
+        "href": "https://www.foxnews.com/category/columns/fox-news-poll"
+      },
+      {
+        "label": "Fox News Voter Poll: New Jersey governorship remains Democratic with Sherrill win",
+        "href": "https://www.foxnews.com/politics/fox-news-poll-new-jersey-governorship-remains-democratic-sherrill-win"
+      },
+      {
+        "label": "",
+        "href": "https://www.foxnews.com/politics/fox-news-poll-how-spanberger-won-virginia-governor"
+      },
+      {
+        "label": "Fox News Poll",
+        "href": "https://www.foxnews.com/category/columns/fox-news-poll"
+      },
+      {
+        "label": "Fox New Voter Poll: How Spanberger won Virginia governor",
+        "href": "https://www.foxnews.com/politics/fox-news-poll-how-spanberger-won-virginia-governor"
+      },
+      {
+        "label": "",
+        "href": "https://www.foxnews.com/politics/fox-news-voter-poll-california-voters-ok-congressional-redistricting-plan"
+      },
+      {
+        "label": "Fox News Poll",
+        "href": "https://www.foxnews.com/category/columns/fox-news-poll"
+      },
+      {
+        "label": "Fox News Voter Poll: California voters OK congressional redistricting plan",
+        "href": "https://www.foxnews.com/politics/fox-news-voter-poll-california-voters-ok-congressional-redistricting-plan"
+      },
+      {
+        "label": "",
+        "href": "https://www.foxnews.com/politics/fox-news-voter-poll-california-voters-ok-congressional-redistricting-plan"
+      },
+      {
+        "label": "Fox News Poll",
+        "href": "https://www.foxnews.com/category/columns/fox-news-poll"
+      },
+      {
+        "label": "Fox News Voter Poll: California voters OK congressional redistricting plan",
+        "href": "https://www.foxnews.com/politics/fox-news-voter-poll-california-voters-ok-congressional-redistricting-plan"
+      },
+      {
+        "label": "California voters approve Proposition 50 to redraw congressional maps, expected to add Democratic seats in response to Republican redistricting efforts in Texas.",
+        "href": "https://www.foxnews.com/politics/fox-news-voter-poll-california-voters-ok-congressional-redistricting-plan"
+      },
+      {
+        "label": "",
+        "href": "https://www.foxnews.com/politics/fox-news-voter-poll-change-candidate-mamdani-defeats-legacy-political-figures"
+      },
+      {
+        "label": "Fox News Poll",
+        "href": "https://www.foxnews.com/category/columns/fox-news-poll"
+      },
+      {
+        "label": "Fox News Voter Poll \u2014 Change candidate Mamdani defeats legacy political figures",
+        "href": "https://www.foxnews.com/politics/fox-news-voter-poll-change-candidate-mamdani-defeats-legacy-political-figures"
+      },
+      {
+        "label": "A Fox News Voter Poll of more than 4,700 registered voters in New York City provides new insights into Democrat candidate Zohran Mamdani's victory.",
+        "href": "https://www.foxnews.com/politics/fox-news-voter-poll-change-candidate-mamdani-defeats-legacy-political-figures"
+      },
+      {
+        "label": "",
+        "href": "https://www.foxnews.com/politics/fox-news-poll-new-jersey-governorship-remains-democratic-sherrill-win"
+      },
+      {
+        "label": "Fox News Poll",
+        "href": "https://www.foxnews.com/category/columns/fox-news-poll"
+      },
+      {
+        "label": "Fox News Voter Poll: New Jersey governorship remains Democratic with Sherrill win",
+        "href": "https://www.foxnews.com/politics/fox-news-poll-new-jersey-governorship-remains-democratic-sherrill-win"
+      },
+      {
+        "label": "Democrat Mikie Sherrill wins New Jersey governor race, securing historic third consecutive Democratic term since 1961 with strong support from women and Black voters.",
+        "href": "https://www.foxnews.com/politics/fox-news-poll-new-jersey-governorship-remains-democratic-sherrill-win"
+      },
+      {
+        "label": "",
+        "href": "https://www.foxnews.com/politics/fox-news-poll-how-spanberger-won-virginia-governor"
+      },
+      {
+        "label": "Fox News Poll",
+        "href": "https://www.foxnews.com/category/columns/fox-news-poll"
+      },
+      {
+        "label": "Fox New Voter Poll: How Spanberger won Virginia governor",
+        "href": "https://www.foxnews.com/politics/fox-news-poll-how-spanberger-won-virginia-governor"
+      },
+      {
+        "label": "Democrat Abigail Spanberger defeated Republican Winsome Earle-Sears to become Virginia's next governor, capitalizing on President Donald Trump's unpopularity.",
+        "href": "https://www.foxnews.com/politics/fox-news-poll-how-spanberger-won-virginia-governor"
+      },
+      {
+        "label": "",
+        "href": "https://www.foxnews.com/politics/fox-news-poll-sherrill-leads-ciattarelli-new-jersey-governors-race"
+      },
+      {
+        "label": "Fox News Poll",
+        "href": "https://www.foxnews.com/category/columns/fox-news-poll"
+      },
+      {
+        "label": "Fox News Poll: Sherrill leads Ciattarelli in New Jersey governor\u2019s race",
+        "href": "https://www.foxnews.com/politics/fox-news-poll-sherrill-leads-ciattarelli-new-jersey-governors-race"
+      },
+      {
+        "label": "Mikie Sherrill leads Jack Ciattarelli 52-45% in New Jersey governor race as Trump opposition drives Democratic turnout, new Fox News poll shows.",
+        "href": "https://www.foxnews.com/politics/fox-news-poll-sherrill-leads-ciattarelli-new-jersey-governors-race"
+      },
+      {
+        "label": "",
+        "href": "https://www.foxnews.com/politics/fox-news-poll-mamdanis-lead-narrows-new-york-city-mayoral-race"
+      },
+      {
+        "label": "Fox News Poll",
+        "href": "https://www.foxnews.com/category/columns/fox-news-poll"
+      },
+      {
+        "label": "Fox News Poll: Mamdani\u2019s lead narrows in New York City mayoral race",
+        "href": "https://www.foxnews.com/politics/fox-news-poll-mamdanis-lead-narrows-new-york-city-mayoral-race"
+      },
+      {
+        "label": "A NYC mayoral race poll shows Zohran Mamdani's lead over Curtis Sliwa and Andrew Cuomo narrowing to 16 points, down from 24 points in October polling data.",
+        "href": "https://www.foxnews.com/politics/fox-news-poll-mamdanis-lead-narrows-new-york-city-mayoral-race"
+      },
+      {
+        "label": "",
+        "href": "https://www.foxnews.com/politics/fox-news-poll-new-jersey-governors-race-has-tightened"
+      },
+      {
+        "label": "Fox News Poll",
+        "href": "https://www.foxnews.com/category/columns/fox-news-poll"
+      },
+      {
+        "label": "Fox News Poll: New Jersey governor\u2019s race has tightened",
+        "href": "https://www.foxnews.com/politics/fox-news-poll-new-jersey-governors-race-has-tightened"
+      },
+      {
+        "label": "Recent campaign attacks damaged both Mikie Sherrill and Jack Ciattarelli's favorability ratings as the New Jersey gubernatorial race tightens to a 5-point margin.",
+        "href": "https://www.foxnews.com/politics/fox-news-poll-new-jersey-governors-race-has-tightened"
+      },
+      {
+        "label": "",
+        "href": "https://www.foxnews.com/politics/fox-news-poll-mamdani-maintains-significant-lead-nyc-mayoral-race"
+      },
+      {
+        "label": "Fox News Poll",
+        "href": "https://www.foxnews.com/category/columns/fox-news-poll"
+      },
+      {
+        "label": "Fox News Poll: Mamdani maintains significant lead in NYC mayoral race",
+        "href": "https://www.foxnews.com/politics/fox-news-poll-mamdani-maintains-significant-lead-nyc-mayoral-race"
+      },
+      {
+        "label": "New Fox News survey shows Zohran Mamdani maintaining 21-point lead over Andrew Cuomo in NYC mayoral race as voters favor him on crime and housing issues.",
+        "href": "https://www.foxnews.com/politics/fox-news-poll-mamdani-maintains-significant-lead-nyc-mayoral-race"
+      },
+      {
+        "label": "View More",
+        "href": "https://www.foxnews.com/category/columns/fox-news-poll"
+      },
+      {
+        "label": "",
+        "href": "https://www.foxnews.com/video/6384773565112"
+      },
+      {
+        "label": "0:05:05",
+        "href": "https://www.foxnews.com/video/6384773565112"
+      },
+      {
+        "label": "VIDEO",
+        "href": "https://www.foxnews.com/video"
+      },
+      {
+        "label": "Is Gen Z shifting to the right?",
+        "href": "https://www.foxnews.com/video/6384773565112"
+      },
+      {
+        "label": "",
+        "href": "https://www.foxnews.com/video/6384317171112"
+      },
+      {
+        "label": "0:05:21",
+        "href": "https://www.foxnews.com/video/6384317171112"
+      },
+      {
+        "label": "VIDEO",
+        "href": "https://www.foxnews.com/video"
+      },
+      {
+        "label": "Curtis Sliwa scoffs at NYC race polls: These people have been wrong 'every step of the way'",
+        "href": "https://www.foxnews.com/video/6384317171112"
+      },
+      {
+        "label": "",
+        "href": "https://www.foxnews.com/video/6383093070112"
+      },
+      {
+        "label": "0:05:39",
+        "href": "https://www.foxnews.com/video/6383093070112"
+      },
+      {
+        "label": "VIDEO",
+        "href": "https://www.foxnews.com/video"
+      },
+      {
+        "label": "Sherrill criticized for \u2018absurd\u2019 accusations against Ciattarelli as Election Day approaches",
+        "href": "https://www.foxnews.com/video/6383093070112"
+      },
+      {
+        "label": "",
+        "href": "https://www.foxnews.com/video/6382866504112"
+      },
+      {
+        "label": "0:01:56",
+        "href": "https://www.foxnews.com/video/6382866504112"
+      },
+      {
+        "label": "VIDEO",
+        "href": "https://www.foxnews.com/video"
+      },
+      {
+        "label": "Fox News polling shows tightening of New Jersey's gubernatorial race",
+        "href": "https://www.foxnews.com/video/6382866504112"
+      },
+      {
+        "label": "",
+        "href": "https://www.foxnews.com/video/6375120105112"
+      },
+      {
+        "label": "0:07:46",
+        "href": "https://www.foxnews.com/video/6375120105112"
+      },
+      {
+        "label": "VIDEO",
+        "href": "https://www.foxnews.com/video"
+      },
+      {
+        "label": "Most people don't understand patriotism: Joey Jones",
+        "href": "https://www.foxnews.com/video/6375120105112"
+      },
+      {
+        "label": "",
+        "href": "https://www.foxnews.com/official-polls/fox-news-poll-archive"
+      },
+      {
+        "label": "Fox News Poll Archive",
+        "href": "https://www.foxnews.com/official-polls/fox-news-poll-archive"
+      },
+      {
+        "label": "",
+        "href": "https://www.foxnews.com/elections/2025/election-results/voter-poll"
+      },
+      {
+        "label": "2025 Fox News Voter Poll (NJ, NYC, VA, CA)",
+        "href": "https://www.foxnews.com/elections/2025/election-results/voter-poll"
+      },
+      {
+        "label": "",
+        "href": "https://www.foxnews.com/elections/2024/general-results/voter-analysis"
+      },
+      {
+        "label": "Fox News Voter Analysis: 2024 General Election",
+        "href": "https://www.foxnews.com/elections/2024/general-results/voter-analysis"
+      },
+      {
+        "label": "",
+        "href": "https://www.foxnews.com/elections/2024/primary-results/voter-analysis"
+      },
+      {
+        "label": "Fox News Voter Analysis: 2024 Primaries/Caucuses",
+        "href": "https://www.foxnews.com/elections/2024/primary-results/voter-analysis"
+      },
+      {
+        "label": "",
+        "href": "https://www.foxnews.com/elections/2022/midterm-results/voter-analysis"
+      },
+      {
+        "label": "Fox News Voter Analysis Election Survey: 2022, 2020, 2018",
+        "href": "https://www.foxnews.com/elections/2022/midterm-results/voter-analysis"
+      },
+      {
+        "label": "",
+        "href": "https://www.foxnews.com/elections/2020/primary-results/voter-analysis"
+      },
+      {
+        "label": "Fox News Voter Analysis Election Survey: 2020 Primaries",
+        "href": "https://www.foxnews.com/elections/2020/primary-results/voter-analysis"
+      },
+      {
+        "label": "",
+        "href": "https://www.foxnews.com/politics/fox-news-voter-analysis-virginia-governors-race"
+      },
+      {
+        "label": "Fox News Voter Analysis: 2021 Virginia Governor",
+        "href": "https://www.foxnews.com/politics/fox-news-voter-analysis-virginia-governors-race"
+      },
+      {
+        "label": "",
+        "href": "https://www.foxnews.com/politics/no-surprises-for-poll-consumers-in-2018"
+      },
+      {
+        "label": "No surprises for poll consumers in 2018",
+        "href": "https://www.foxnews.com/politics/no-surprises-for-poll-consumers-in-2018"
+      },
+      {
+        "label": "",
+        "href": "https://www.foxnews.com/video/5203990293001"
+      },
+      {
+        "label": "2016 Polling Was Not Wrong",
+        "href": "https://www.foxnews.com/video/5203990293001"
+      },
+      {
+        "label": "",
+        "href": "https://www.foxnews.com/politics/fox-news-poll-methodology-statement"
+      },
+      {
+        "label": "Fox News Poll Methodology Statement",
+        "href": "https://www.foxnews.com/politics/fox-news-poll-methodology-statement"
+      },
+      {
+        "label": "U.S.",
+        "href": "https://www.foxnews.com/us"
+      },
+      {
+        "label": "Blue City Crime",
+        "href": "https://www.foxnews.com/category/us/blue-city-crime"
+      },
+      {
+        "label": "Campus Radicals",
+        "href": "https://www.foxnews.com/category/us/campus-radicals"
+      },
+      {
+        "label": "Border Crisis",
+        "href": "https://www.foxnews.com/category/us/immigration"
+      },
+      {
+        "label": "True Crime",
+        "href": "https://www.foxnews.com/true-crime"
+      },
+      {
+        "label": "Politics",
+        "href": "https://www.foxnews.com/politics"
+      },
+      {
+        "label": "Donald Trump",
+        "href": "https://www.foxnews.com/category/person/donald-trump"
+      },
+      {
+        "label": "Senate",
+        "href": "https://www.foxnews.com/category/politics/senate"
+      },
+      {
+        "label": "House",
+        "href": "https://www.foxnews.com/category/politics/house-of-representatives"
+      },
+      {
+        "label": "Judiciary",
+        "href": "https://www.foxnews.com/category/politics/judiciary"
+      },
+      {
+        "label": "Foreign Policy",
+        "href": "https://www.foxnews.com/category/politics/foreign-policy"
+      },
+      {
+        "label": "Fox News Polls",
+        "href": "https://www.foxnews.com/official-polls"
+      },
+      {
+        "label": "2025 Elections Coverage",
+        "href": "https://www.foxnews.com/elections"
+      },
+      {
+        "label": "World",
+        "href": "https://www.foxnews.com/world"
+      },
+      {
+        "label": "U.N.",
+        "href": "https://www.foxnews.com/category/world/united-nations"
+      },
+      {
+        "label": "Conflicts",
+        "href": "https://www.foxnews.com/category/world/conflicts"
+      },
+      {
+        "label": "Terrorism",
+        "href": "https://www.foxnews.com/category/world/terrorism"
+      },
+      {
+        "label": "Disasters",
+        "href": "https://www.foxnews.com/category/disasters"
+      },
+      {
+        "label": "Global Economy",
+        "href": "https://www.foxnews.com/category/world/global-economy"
+      },
+      {
+        "label": "Environment",
+        "href": "https://www.foxnews.com/category/environment"
+      },
+      {
+        "label": "Religion",
+        "href": "https://www.foxnews.com/category/world/religion"
+      },
+      {
+        "label": "Scandals",
+        "href": "https://www.foxnews.com/category/world/scandals"
+      },
+      {
+        "label": "Opinion",
+        "href": "https://www.foxnews.com/opinion"
+      },
+      {
+        "label": "Media",
+        "href": "https://www.foxnews.com/media"
+      },
+      {
+        "label": "FOX Nation Coverage",
+        "href": "https://www.foxnews.com/shows/fox-nation"
+      },
+      {
+        "label": "Entertainment",
+        "href": "https://www.foxnews.com/entertainment"
+      },
+      {
+        "label": "Prince Andrew",
+        "href": "https://www.foxnews.com/category/person/prince-andrew"
+      },
+      {
+        "label": "Katy Perry",
+        "href": "https://www.foxnews.com/category/person/katy-perry"
+      },
+      {
+        "label": "Royal Families",
+        "href": "https://www.foxnews.com/category/world/personalities/british-royals"
+      },
+      {
+        "label": "Country Music",
+        "href": "https://www.foxnews.com/category/entertainment/genres/country"
+      },
+      {
+        "label": "Nicole Kidman",
+        "href": "https://www.foxnews.com/category/person/nicole-kidman"
+      },
+      {
+        "label": "Sports",
+        "href": "https://www.foxnews.com/sports"
+      },
+      {
+        "label": "NFL",
+        "href": "https://www.foxnews.com/category/sports/nfl"
+      },
+      {
+        "label": "College Football",
+        "href": "https://www.foxnews.com/category/sports/ncaa-fb"
+      },
+      {
+        "label": "MLB",
+        "href": "https://www.foxnews.com/category/sports/mlb"
+      },
+      {
+        "label": "NASCAR",
+        "href": "https://www.foxnews.com/category/auto/nascar"
+      },
+      {
+        "label": "INDYCAR",
+        "href": "https://www.foxnews.com/category/auto/indycar"
+      },
+      {
+        "label": "NBA",
+        "href": "https://www.foxnews.com/category/sports/nba"
+      },
+      {
+        "label": "NHL",
+        "href": "https://www.foxnews.com/category/sports/nhl"
+      },
+      {
+        "label": "Golf",
+        "href": "https://www.foxnews.com/category/sports/golf"
+      },
+      {
+        "label": "Tennis",
+        "href": "https://www.foxnews.com/category/sports/tennis"
+      },
+      {
+        "label": "UFC",
+        "href": "https://www.foxnews.com/category/sports/ufc"
+      },
+      {
+        "label": "WWE",
+        "href": "https://www.foxnews.com/category/organization/wwe"
+      },
+      {
+        "label": "Lifestyle",
+        "href": "https://www.foxnews.com/lifestyle"
+      },
+      {
+        "label": "Travel",
+        "href": "https://www.foxnews.com/travel"
+      },
+      {
+        "label": "Food & Drink",
+        "href": "https://www.foxnews.com/food-drink"
+      },
+      {
+        "label": "Faith",
+        "href": "https://www.foxnews.com/faith-values"
+      },
+      {
+        "label": "Discovery",
+        "href": "https://www.foxnews.com/category/science/archaeology"
+      },
+      {
+        "label": "Games & Quizzes",
+        "href": "https://www.foxnews.com/games"
+      },
+      {
+        "label": "Health",
+        "href": "https://www.foxnews.com/health"
+      },
+      {
+        "label": "Weight Loss",
+        "href": "https://www.foxnews.com/category/health/nutrition-and-fitness/weight-loss"
+      },
+      {
+        "label": "Cancer",
+        "href": "https://www.foxnews.com/category/health/cancer"
+      },
+      {
+        "label": "Brain Health",
+        "href": "https://www.foxnews.com/category/health/brain-health"
+      },
+      {
+        "label": "Sleep",
+        "href": "https://www.foxnews.com/category/health/sleep-disorders"
+      },
+      {
+        "label": "Heart Health",
+        "href": "https://www.foxnews.com/category/health/heart-health"
+      },
+      {
+        "label": "Healthy Living",
+        "href": "https://www.foxnews.com/category/health/healthy-living"
+      },
+      {
+        "label": "Mental Health",
+        "href": "https://www.foxnews.com/category/health/mental-health"
+      },
+      {
+        "label": "MAHA",
+        "href": "https://www.foxnews.com/category/health/maha"
+      },
+      {
+        "label": "Deals",
+        "href": "https://www.foxnews.com/deals"
+      },
+      {
+        "label": "Holiday Shopping",
+        "href": "https://www.foxnews.com/category/deals/trending"
+      },
+      {
+        "label": "Gift Guides",
+        "href": "https://www.foxnews.com/category/deals/gift"
+      },
+      {
+        "label": "Home Deals",
+        "href": "https://www.foxnews.com/category/deals/home"
+      },
+      {
+        "label": "Kitchen Deals",
+        "href": "https://www.foxnews.com/category/deals/kitchen"
+      },
+      {
+        "label": "Tech and Electronic Deals",
+        "href": "https://www.foxnews.com/category/deals/tech-and-electronic"
+      },
+      {
+        "label": "Health and Fitness Deals",
+        "href": "https://www.foxnews.com/category/deals/health-and-fitness"
+      },
+      {
+        "label": "Beauty and Fashion Deals",
+        "href": "https://www.foxnews.com/category/deals/beauty-and-fashion"
+      },
+      {
+        "label": "Science & Tech",
+        "href": "https://www.foxnews.com/tech"
+      },
+      {
+        "label": "Air & Space",
+        "href": "https://www.foxnews.com/category/science/air-and-space"
+      },
+      {
+        "label": "Security",
+        "href": "https://www.foxnews.com/category/tech/topics/security"
+      },
+      {
+        "label": "Innovation",
+        "href": "https://www.foxnews.com/category/tech/topics/innovation"
+      },
+      {
+        "label": "Video Games",
+        "href": "https://www.foxnews.com/category/tech/topics/video-games"
+      },
+      {
+        "label": "Military Tech",
+        "href": "https://www.foxnews.com/category/tech/topics/military-tech"
+      },
+      {
+        "label": "Planet Earth",
+        "href": "https://www.foxnews.com/category/science/planet-earth"
+      },
+      {
+        "label": "Wild Nature",
+        "href": "https://www.foxnews.com/category/science/wild-nature"
+      },
+      {
+        "label": "Games",
+        "href": "https://www.foxnews.com/games"
+      },
+      {
+        "label": "Scattergories Daily",
+        "href": "https://www.foxnews.com/games/scattergories-daily"
+      },
+      {
+        "label": "5 Across the Letter Word Game",
+        "href": "https://www.foxnews.com/games/5-across-word-game"
+      },
+      {
+        "label": "Downwords",
+        "href": "https://www.foxnews.com/games/lil-snack-downwords"
+      },
+      {
+        "label": "Sudoku",
+        "href": "https://www.foxnews.com/games/sudoku"
+      },
+      {
+        "label": "Word Swap",
+        "href": "https://www.foxnews.com/games/lil-snack-word-swap"
+      },
+      {
+        "label": "Word Search",
+        "href": "https://www.foxnews.com/games/word-search"
+      },
+      {
+        "label": "Icon Match",
+        "href": "https://www.foxnews.com/games/icon-match-puzzle"
+      },
+      {
+        "label": "Daily Crossword Puzzle",
+        "href": "https://www.foxnews.com/games/daily-crossword-puzzle"
+      },
+      {
+        "label": "Mini Crossword Puzzle",
+        "href": "https://www.foxnews.com/games/mini-crossword-puzzle"
+      },
+      {
+        "label": "Watch Live",
+        "href": "https://www.foxnews.com/video/5614615980001"
+      },
+      {
+        "label": "FOX News Shows",
+        "href": "https://www.foxnews.com/shows"
+      },
+      {
+        "label": "Programming Schedule",
+        "href": "https://www.foxnews.com/fnctv"
+      },
+      {
+        "label": "On Air Personalities",
+        "href": "https://www.foxnews.com/person/personalities"
+      },
+      {
+        "label": "Full Episodes",
+        "href": "https://www.foxnews.com/video/shows"
+      },
+      {
+        "label": "Show Clips",
+        "href": "https://www.foxnews.com/video/topics/v-most-recent-episodes"
+      },
+      {
+        "label": "News Clips",
+        "href": "https://www.foxnews.com/video/topics/latest-news-video"
+      },
+      {
+        "label": "About",
+        "href": "https://www.foxnews.com/about"
+      },
+      {
+        "label": "Contact Us",
+        "href": "https://www.foxnews.com/contact"
+      },
+      {
+        "label": "Fox Around the World",
+        "href": "https://www.foxnews.com/story/where-in-the-world-is-fox"
+      },
+      {
+        "label": "Compliance",
+        "href": "https://www.foxnews.com/compliance"
+      },
+      {
+        "label": "Apps & Products",
+        "href": "https://www.foxnews.com/apps-products"
+      },
+      {
+        "label": "FOX News Go",
+        "href": "https://www.foxnews.com/go"
+      },
+      {
+        "label": "FOX Nation",
+        "href": "https://www.foxnews.com/shows/fox-nation"
+      },
+      {
+        "label": "Newsletters",
+        "href": "https://www.foxnews.com/newsletters"
+      },
+      {
+        "label": "U.S.",
+        "href": "https://www.foxnews.com/us"
+      },
+      {
+        "label": "Blue City Crime",
+        "href": "https://www.foxnews.com/category/us/blue-city-crime"
+      },
+      {
+        "label": "Campus Radicals",
+        "href": "https://www.foxnews.com/category/us/campus-radicals"
+      },
+      {
+        "label": "Border Crisis",
+        "href": "https://www.foxnews.com/category/us/immigration"
+      },
+      {
+        "label": "True Crime",
+        "href": "https://www.foxnews.com/true-crime"
+      },
+      {
+        "label": "Politics",
+        "href": "https://www.foxnews.com/politics"
+      },
+      {
+        "label": "Donald Trump",
+        "href": "https://www.foxnews.com/category/person/donald-trump"
+      },
+      {
+        "label": "Senate",
+        "href": "https://www.foxnews.com/category/politics/senate"
+      },
+      {
+        "label": "House",
+        "href": "https://www.foxnews.com/category/politics/house-of-representatives"
+      },
+      {
+        "label": "Judiciary",
+        "href": "https://www.foxnews.com/category/politics/judiciary"
+      },
+      {
+        "label": "Foreign Policy",
+        "href": "https://www.foxnews.com/category/politics/foreign-policy"
+      },
+      {
+        "label": "Fox News Polls",
+        "href": "https://www.foxnews.com/official-polls"
+      },
+      {
+        "label": "2025 Elections Coverage",
+        "href": "https://www.foxnews.com/elections"
+      },
+      {
+        "label": "World",
+        "href": "https://www.foxnews.com/world"
+      },
+      {
+        "label": "U.N.",
+        "href": "https://www.foxnews.com/category/world/united-nations"
+      },
+      {
+        "label": "Conflicts",
+        "href": "https://www.foxnews.com/category/world/conflicts"
+      },
+      {
+        "label": "Terrorism",
+        "href": "https://www.foxnews.com/category/world/terrorism"
+      },
+      {
+        "label": "Disasters",
+        "href": "https://www.foxnews.com/category/disasters"
+      },
+      {
+        "label": "Global Economy",
+        "href": "https://www.foxnews.com/category/world/global-economy"
+      },
+      {
+        "label": "Environment",
+        "href": "https://www.foxnews.com/category/environment"
+      },
+      {
+        "label": "Religion",
+        "href": "https://www.foxnews.com/category/world/religion"
+      },
+      {
+        "label": "Scandals",
+        "href": "https://www.foxnews.com/category/world/scandals"
+      },
+      {
+        "label": "Opinion",
+        "href": "https://www.foxnews.com/opinion"
+      },
+      {
+        "label": "Media",
+        "href": "https://www.foxnews.com/media"
+      },
+      {
+        "label": "FOX Nation Coverage",
+        "href": "https://www.foxnews.com/shows/fox-nation"
+      },
+      {
+        "label": "Entertainment",
+        "href": "https://www.foxnews.com/entertainment"
+      },
+      {
+        "label": "Prince Andrew",
+        "href": "https://www.foxnews.com/category/person/prince-andrew"
+      },
+      {
+        "label": "Katy Perry",
+        "href": "https://www.foxnews.com/category/person/katy-perry"
+      },
+      {
+        "label": "Royal Families",
+        "href": "https://www.foxnews.com/category/world/personalities/british-royals"
+      },
+      {
+        "label": "Country Music",
+        "href": "https://www.foxnews.com/category/entertainment/genres/country"
+      },
+      {
+        "label": "Nicole Kidman",
+        "href": "https://www.foxnews.com/category/person/nicole-kidman"
+      },
+      {
+        "label": "Sports",
+        "href": "https://www.foxnews.com/sports"
+      },
+      {
+        "label": "NFL",
+        "href": "https://www.foxnews.com/category/sports/nfl"
+      },
+      {
+        "label": "College Football",
+        "href": "https://www.foxnews.com/category/sports/ncaa-fb"
+      },
+      {
+        "label": "MLB",
+        "href": "https://www.foxnews.com/category/sports/mlb"
+      },
+      {
+        "label": "NASCAR",
+        "href": "https://www.foxnews.com/category/auto/nascar"
+      },
+      {
+        "label": "INDYCAR",
+        "href": "https://www.foxnews.com/category/auto/indycar"
+      },
+      {
+        "label": "NBA",
+        "href": "https://www.foxnews.com/category/sports/nba"
+      },
+      {
+        "label": "NHL",
+        "href": "https://www.foxnews.com/category/sports/nhl"
+      },
+      {
+        "label": "Golf",
+        "href": "https://www.foxnews.com/category/sports/golf"
+      },
+      {
+        "label": "Tennis",
+        "href": "https://www.foxnews.com/category/sports/tennis"
+      },
+      {
+        "label": "UFC",
+        "href": "https://www.foxnews.com/category/sports/ufc"
+      },
+      {
+        "label": "WWE",
+        "href": "https://www.foxnews.com/category/organization/wwe"
+      },
+      {
+        "label": "Lifestyle",
+        "href": "https://www.foxnews.com/lifestyle"
+      },
+      {
+        "label": "Travel",
+        "href": "https://www.foxnews.com/travel"
+      },
+      {
+        "label": "Food & Drink",
+        "href": "https://www.foxnews.com/food-drink"
+      },
+      {
+        "label": "Faith",
+        "href": "https://www.foxnews.com/faith-values"
+      },
+      {
+        "label": "Discovery",
+        "href": "https://www.foxnews.com/category/science/archaeology"
+      },
+      {
+        "label": "Games & Quizzes",
+        "href": "https://www.foxnews.com/games"
+      },
+      {
+        "label": "Health",
+        "href": "https://www.foxnews.com/health"
+      },
+      {
+        "label": "Weight Loss",
+        "href": "https://www.foxnews.com/category/health/nutrition-and-fitness/weight-loss"
+      },
+      {
+        "label": "Cancer",
+        "href": "https://www.foxnews.com/category/health/cancer"
+      },
+      {
+        "label": "Brain Health",
+        "href": "https://www.foxnews.com/category/health/brain-health"
+      },
+      {
+        "label": "Sleep",
+        "href": "https://www.foxnews.com/category/health/sleep-disorders"
+      },
+      {
+        "label": "Heart Health",
+        "href": "https://www.foxnews.com/category/health/heart-health"
+      },
+      {
+        "label": "Healthy Living",
+        "href": "https://www.foxnews.com/category/health/healthy-living"
+      },
+      {
+        "label": "Mental Health",
+        "href": "https://www.foxnews.com/category/health/mental-health"
+      },
+      {
+        "label": "MAHA",
+        "href": "https://www.foxnews.com/category/health/maha"
+      },
+      {
+        "label": "Deals",
+        "href": "https://www.foxnews.com/deals"
+      },
+      {
+        "label": "Holiday Shopping",
+        "href": "https://www.foxnews.com/category/deals/trending"
+      },
+      {
+        "label": "Gift Guides",
+        "href": "https://www.foxnews.com/category/deals/gift"
+      },
+      {
+        "label": "Home Deals",
+        "href": "https://www.foxnews.com/category/deals/home"
+      },
+      {
+        "label": "Kitchen Deals",
+        "href": "https://www.foxnews.com/category/deals/kitchen"
+      },
+      {
+        "label": "Tech and Electronic Deals",
+        "href": "https://www.foxnews.com/category/deals/tech-and-electronic"
+      },
+      {
+        "label": "Health and Fitness Deals",
+        "href": "https://www.foxnews.com/category/deals/health-and-fitness"
+      },
+      {
+        "label": "Beauty and Fashion Deals",
+        "href": "https://www.foxnews.com/category/deals/beauty-and-fashion"
+      },
+      {
+        "label": "Science & Tech",
+        "href": "https://www.foxnews.com/tech"
+      },
+      {
+        "label": "Air & Space",
+        "href": "https://www.foxnews.com/category/science/air-and-space"
+      },
+      {
+        "label": "Security",
+        "href": "https://www.foxnews.com/category/tech/topics/security"
+      },
+      {
+        "label": "Innovation",
+        "href": "https://www.foxnews.com/category/tech/topics/innovation"
+      },
+      {
+        "label": "Video Games",
+        "href": "https://www.foxnews.com/category/tech/topics/video-games"
+      },
+      {
+        "label": "Military Tech",
+        "href": "https://www.foxnews.com/category/tech/topics/military-tech"
+      },
+      {
+        "label": "Planet Earth",
+        "href": "https://www.foxnews.com/category/science/planet-earth"
+      },
+      {
+        "label": "Wild Nature",
+        "href": "https://www.foxnews.com/category/science/wild-nature"
+      },
+      {
+        "label": "Games",
+        "href": "https://www.foxnews.com/games"
+      },
+      {
+        "label": "Scattergories Daily",
+        "href": "https://www.foxnews.com/games/scattergories-daily"
+      },
+      {
+        "label": "5 Across the Letter Word Game",
+        "href": "https://www.foxnews.com/games/5-across-word-game"
+      },
+      {
+        "label": "Downwords",
+        "href": "https://www.foxnews.com/games/lil-snack-downwords"
+      },
+      {
+        "label": "Sudoku",
+        "href": "https://www.foxnews.com/games/sudoku"
+      },
+      {
+        "label": "Word Swap",
+        "href": "https://www.foxnews.com/games/lil-snack-word-swap"
+      },
+      {
+        "label": "Word Search",
+        "href": "https://www.foxnews.com/games/word-search"
+      },
+      {
+        "label": "Icon Match",
+        "href": "https://www.foxnews.com/games/icon-match-puzzle"
+      },
+      {
+        "label": "Daily Crossword Puzzle",
+        "href": "https://www.foxnews.com/games/daily-crossword-puzzle"
+      },
+      {
+        "label": "Mini Crossword Puzzle",
+        "href": "https://www.foxnews.com/games/mini-crossword-puzzle"
+      },
+      {
+        "label": "Watch Live",
+        "href": "https://www.foxnews.com/video/5614615980001"
+      },
+      {
+        "label": "FOX News Shows",
+        "href": "https://www.foxnews.com/shows"
+      },
+      {
+        "label": "Programming Schedule",
+        "href": "https://www.foxnews.com/fnctv"
+      },
+      {
+        "label": "On Air Personalities",
+        "href": "https://www.foxnews.com/person/personalities"
+      },
+      {
+        "label": "Full Episodes",
+        "href": "https://www.foxnews.com/video/shows"
+      },
+      {
+        "label": "Show Clips",
+        "href": "https://www.foxnews.com/video/topics/v-most-recent-episodes"
+      },
+      {
+        "label": "News Clips",
+        "href": "https://www.foxnews.com/video/topics/latest-news-video"
+      },
+      {
+        "label": "About",
+        "href": "https://www.foxnews.com/about"
+      },
+      {
+        "label": "Contact Us",
+        "href": "https://www.foxnews.com/contact"
+      },
+      {
+        "label": "Fox Around the World",
+        "href": "https://www.foxnews.com/story/where-in-the-world-is-fox"
+      },
+      {
+        "label": "Compliance",
+        "href": "https://www.foxnews.com/compliance"
+      },
+      {
+        "label": "Apps & Products",
+        "href": "https://www.foxnews.com/apps-products"
+      },
+      {
+        "label": "FOX News Go",
+        "href": "https://www.foxnews.com/go"
+      },
+      {
+        "label": "FOX Nation",
+        "href": "https://www.foxnews.com/shows/fox-nation"
+      },
+      {
+        "label": "Newsletters",
+        "href": "https://www.foxnews.com/newsletters"
+      },
+      {
+        "label": "RSS",
+        "href": "https://www.foxnews.com/story/foxnews-com-rss-feeds"
+      },
+      {
+        "label": "Newsletters",
+        "href": "https://www.foxnews.com/newsletters"
+      },
+      {
+        "label": "Fox News",
+        "href": "https://www.foxnews.com"
+      },
+      {
+        "label": "Terms of Use",
+        "href": "https://www.foxnews.com/terms-of-use"
+      },
+      {
+        "label": "Privacy Policy",
+        "href": "https://www.foxnews.com/privacy-policy"
+      },
+      {
+        "label": "Closed Caption Policy",
+        "href": "https://www.foxnews.com/closed-captioning"
+      },
+      {
+        "label": "Contact Us",
+        "href": "https://www.foxnews.com/contact"
+      },
+      {
+        "label": "Accessibility Statement",
+        "href": "https://www.foxnews.com/accessibility-statement"
+      },
+      {
+        "label": "News Sitemap",
+        "href": "https://www.foxnews.com/html-sitemap"
+      },
+      {
+        "label": "Video Sitemap",
+        "href": "https://www.foxnews.com/html-video-sitemap"
+      }
+    ],
+    "external": [
+      {
+        "label": "Fox Business",
+        "href": "https://www.foxbusiness.com/"
+      },
+      {
+        "label": "Fox Nation",
+        "href": "https://nation.foxnews.com/"
+      },
+      {
+        "label": "Fox News Audio",
+        "href": "https://radio.foxnews.com/"
+      },
+      {
+        "label": "Fox Weather",
+        "href": "https://www.foxweather.com/"
+      },
+      {
+        "label": "Outkick",
+        "href": "https://www.outkick.com/"
+      },
+      {
+        "label": "Fox Noticias",
+        "href": "https://noticias.foxnews.com/"
+      },
+      {
+        "label": "FIFA WORLD CUP 26",
+        "href": "https://www.foxsports.com/soccer/fifa-world-cup"
+      },
+      {
+        "label": "FOX Business",
+        "href": "https://www.foxbusiness.com/"
+      },
+      {
+        "label": "Economy",
+        "href": "https://www.foxbusiness.com/economy"
+      },
+      {
+        "label": "Personal Finance",
+        "href": "https://www.foxbusiness.com/personal-finance"
+      },
+      {
+        "label": "Markets",
+        "href": "https://www.foxbusiness.com/markets"
+      },
+      {
+        "label": "Watchlist",
+        "href": "https://www.foxbusiness.com/watchlist"
+      },
+      {
+        "label": "Lifestyle",
+        "href": "https://www.foxbusiness.com/lifestyle"
+      },
+      {
+        "label": "Real Estate",
+        "href": "https://www.foxbusiness.com/real-estate"
+      },
+      {
+        "label": "Tech",
+        "href": "https://www.foxbusiness.com/technology"
+      },
+      {
+        "label": "FOX Weather",
+        "href": "https://www.foxweather.com"
+      },
+      {
+        "label": "FOX Nation",
+        "href": "https://nation.foxnews.com"
+      },
+      {
+        "label": "FOX Noticias",
+        "href": "https://noticias.foxnews.com/shows/fox-noticias"
+      },
+      {
+        "label": "FOX News Shop",
+        "href": "https://shop.foxnews.com/"
+      },
+      {
+        "label": "FOX News Radio",
+        "href": "https://radio.foxnews.com"
+      },
+      {
+        "label": "Outkick",
+        "href": "https://www.outkick.com"
+      },
+      {
+        "label": "Podcasts",
+        "href": "https://radio.foxnews.com/podcast"
+      },
+      {
+        "label": "FOX Business",
+        "href": "https://www.foxbusiness.com/"
+      },
+      {
+        "label": "Economy",
+        "href": "https://www.foxbusiness.com/economy"
+      },
+      {
+        "label": "Personal Finance",
+        "href": "https://www.foxbusiness.com/personal-finance"
+      },
+      {
+        "label": "Markets",
+        "href": "https://www.foxbusiness.com/markets"
+      },
+      {
+        "label": "Watchlist",
+        "href": "https://www.foxbusiness.com/watchlist"
+      },
+      {
+        "label": "Lifestyle",
+        "href": "https://www.foxbusiness.com/lifestyle"
+      },
+      {
+        "label": "Real Estate",
+        "href": "https://www.foxbusiness.com/real-estate"
+      },
+      {
+        "label": "Tech",
+        "href": "https://www.foxbusiness.com/technology"
+      },
+      {
+        "label": "FOX Weather",
+        "href": "https://www.foxweather.com"
+      },
+      {
+        "label": "FOX Nation",
+        "href": "https://nation.foxnews.com"
+      },
+      {
+        "label": "FOX Noticias",
+        "href": "https://noticias.foxnews.com/shows/fox-noticias"
+      },
+      {
+        "label": "FOX News Shop",
+        "href": "https://shop.foxnews.com/"
+      },
+      {
+        "label": "FOX News Radio",
+        "href": "https://radio.foxnews.com"
+      },
+      {
+        "label": "Outkick",
+        "href": "https://www.outkick.com"
+      },
+      {
+        "label": "Podcasts",
+        "href": "https://radio.foxnews.com/podcast"
+      },
+      {
+        "label": "Facebook",
+        "href": "https://www.facebook.com/FoxNews"
+      },
+      {
+        "label": "Twitter",
+        "href": "https://twitter.com/foxnews"
+      },
+      {
+        "label": "Instagram",
+        "href": "https://www.instagram.com/foxnews/"
+      },
+      {
+        "label": "Your Privacy Choices",
+        "href": "http://privacy.foxnews.com/main/web/main"
+      },
+      {
+        "label": "Help",
+        "href": "https://help.foxnews.com"
+      },
+      {
+        "label": "Factset",
+        "href": "https://www.factset.com/"
+      },
+      {
+        "label": "FactSet Digital Solutions",
+        "href": "https://www.factset.com/solutions/business-needs/digital-solutions"
+      },
+      {
+        "label": "Legal Statement",
+        "href": "https://www.factset.com/privacy"
+      },
+      {
+        "label": "Refinitiv Lipper",
+        "href": "https://lipperalpha.refinitiv.com/"
+      },
+      {
+        "label": "",
+        "href": "https://foxbusiness.com/politics/fox-business-poll-trump-50-support-iowa"
+      },
+      {
+        "label": "Fox Business Poll: Trump over 50% support for first time in Iowa",
+        "href": "https://foxbusiness.com/politics/fox-business-poll-trump-50-support-iowa"
+      },
+      {
+        "label": "",
+        "href": "https://foxbusiness.com/politics/fox-business-poll-trump-maintains-large-lead-south-carolina-primary-race"
+      },
+      {
+        "label": "Fox Business Poll: Trump maintains large lead in South Carolina primary race",
+        "href": "https://foxbusiness.com/politics/fox-business-poll-trump-maintains-large-lead-south-carolina-primary-race"
+      },
+      {
+        "label": "",
+        "href": "https://foxbusiness.com/politics/fox-business-poll-support-haley-doubles-iowa-putting-her-top-three"
+      },
+      {
+        "label": "Fox Business Poll: Support for Haley doubles in Iowa, putting her in top three",
+        "href": "https://foxbusiness.com/politics/fox-business-poll-support-haley-doubles-iowa-putting-her-top-three"
+      },
+      {
+        "label": "",
+        "href": "https://foxbusiness.com/politics/fox-business-poll-trump-commanding-lead-south-carolina-gop-primary"
+      },
+      {
+        "label": "Fox Business Poll: Trump has commanding lead in South Carolina GOP primary",
+        "href": "https://foxbusiness.com/politics/fox-business-poll-trump-commanding-lead-south-carolina-gop-primary"
+      },
+      {
+        "label": "",
+        "href": "https://foxbusiness.com/politics/fox-business-poll-trump-leads-iowa-desantis-scott-round-out-top-3"
+      },
+      {
+        "label": "Fox Business Poll: Trump leads in Iowa, as DeSantis and Scott round out the top 3",
+        "href": "https://foxbusiness.com/politics/fox-business-poll-trump-leads-iowa-desantis-scott-round-out-top-3"
+      },
+      {
+        "label": "View More",
+        "href": "https://video.foxnews.com/playlist/politics-fox-news-polls/"
+      },
+      {
+        "label": "FIFA WORLD CUP 26",
+        "href": "https://www.foxsports.com/soccer/fifa-world-cup"
+      },
+      {
+        "label": "FOX Business",
+        "href": "https://www.foxbusiness.com/"
+      },
+      {
+        "label": "Personal Finance",
+        "href": "https://www.foxbusiness.com/personal-finance"
+      },
+      {
+        "label": "Economy",
+        "href": "https://www.foxbusiness.com/economy"
+      },
+      {
+        "label": "Markets",
+        "href": "https://www.foxbusiness.com/markets"
+      },
+      {
+        "label": "Watchlist",
+        "href": "https://www.foxbusiness.com/watchlist"
+      },
+      {
+        "label": "Lifestyle",
+        "href": "https://www.foxbusiness.com/lifestyle"
+      },
+      {
+        "label": "Real Estate",
+        "href": "https://www.foxbusiness.com/real-estate"
+      },
+      {
+        "label": "Tech",
+        "href": "https://www.foxbusiness.com/technology"
+      },
+      {
+        "label": "Careers",
+        "href": "https://foxcareers.com/Search/SearchResults?brand=Fox%20News%20Careers"
+      },
+      {
+        "label": "Advertise With Us",
+        "href": "https://www.foxadvertising.com/fox-news-media/"
+      },
+      {
+        "label": "Media Relations",
+        "href": "https://press.foxnews.com/media-contacts"
+      },
+      {
+        "label": "Corporate Information",
+        "href": "https://press.foxnews.com"
+      },
+      {
+        "label": "FOX Weather",
+        "href": "https://www.foxweather.com"
+      },
+      {
+        "label": "FOX Noticias",
+        "href": "https://noticias.foxnews.com/shows/fox-noticias"
+      },
+      {
+        "label": "FOX News Shop",
+        "href": "https://shop.foxnews.com"
+      },
+      {
+        "label": "FOX News Radio",
+        "href": "https://radio.foxnews.com"
+      },
+      {
+        "label": "Outkick",
+        "href": "https://www.outkick.com"
+      },
+      {
+        "label": "Podcasts",
+        "href": "https://radio.foxnews.com/podcast"
+      },
+      {
+        "label": "FOX One",
+        "href": "https://www.fox.com/?cmpid=org=one::ag=owned::mc=referral::src=fn::cmp=10010071001::add=621a"
+      },
+      {
+        "label": "FIFA WORLD CUP 26",
+        "href": "https://www.foxsports.com/soccer/fifa-world-cup"
+      },
+      {
+        "label": "FOX Business",
+        "href": "https://www.foxbusiness.com/"
+      },
+      {
+        "label": "Personal Finance",
+        "href": "https://www.foxbusiness.com/personal-finance"
+      },
+      {
+        "label": "Economy",
+        "href": "https://www.foxbusiness.com/economy"
+      },
+      {
+        "label": "Markets",
+        "href": "https://www.foxbusiness.com/markets"
+      },
+      {
+        "label": "Watchlist",
+        "href": "https://www.foxbusiness.com/watchlist"
+      },
+      {
+        "label": "Lifestyle",
+        "href": "https://www.foxbusiness.com/lifestyle"
+      },
+      {
+        "label": "Real Estate",
+        "href": "https://www.foxbusiness.com/real-estate"
+      },
+      {
+        "label": "Tech",
+        "href": "https://www.foxbusiness.com/technology"
+      },
+      {
+        "label": "Careers",
+        "href": "https://foxcareers.com/Search/SearchResults?brand=Fox%20News%20Careers"
+      },
+      {
+        "label": "Advertise With Us",
+        "href": "https://www.foxadvertising.com/fox-news-media/"
+      },
+      {
+        "label": "Media Relations",
+        "href": "https://press.foxnews.com/media-contacts"
+      },
+      {
+        "label": "Corporate Information",
+        "href": "https://press.foxnews.com"
+      },
+      {
+        "label": "FOX Weather",
+        "href": "https://www.foxweather.com"
+      },
+      {
+        "label": "FOX Noticias",
+        "href": "https://noticias.foxnews.com/shows/fox-noticias"
+      },
+      {
+        "label": "FOX News Shop",
+        "href": "https://shop.foxnews.com"
+      },
+      {
+        "label": "FOX News Radio",
+        "href": "https://radio.foxnews.com"
+      },
+      {
+        "label": "Outkick",
+        "href": "https://www.outkick.com"
+      },
+      {
+        "label": "Podcasts",
+        "href": "https://radio.foxnews.com/podcast"
+      },
+      {
+        "label": "FOX One",
+        "href": "https://www.fox.com/?cmpid=org=one::ag=owned::mc=referral::src=fn::cmp=10010071001::add=621a"
+      },
+      {
+        "label": "Facebook",
+        "href": "https://www.facebook.com/FoxNews"
+      },
+      {
+        "label": "Twitter",
+        "href": "https://twitter.com/foxnews"
+      },
+      {
+        "label": "Instagram",
+        "href": "https://www.instagram.com/foxnews"
+      },
+      {
+        "label": "Youtube",
+        "href": "https://www.youtube.com/FoxNewsChannel"
+      },
+      {
+        "label": "Flipboard",
+        "href": "https://flipboard.com/@FoxNews"
+      },
+      {
+        "label": "LinkedIn",
+        "href": "https://www.linkedin.com/company/fox-news-channel/"
+      },
+      {
+        "label": "Slack",
+        "href": "https://foxnews.slack.com/apps/A013AUF6VMG-fox-news"
+      },
+      {
+        "label": "Spotify",
+        "href": "https://open.spotify.com/show/7A4YfyFtNOZhqMV7F3kYVu"
+      },
+      {
+        "label": "iHeartRadio",
+        "href": "https://www.iheart.com/podcast/256-the-fox-news-rundown-31090295/"
+      },
+      {
+        "label": "Your Privacy Choices",
+        "href": "http://privacy.foxnews.com/main/web/main"
+      },
+      {
+        "label": "Help",
+        "href": "https://help.foxnews.com"
+      },
+      {
+        "label": "Factset",
+        "href": "https://www.factset.com/"
+      },
+      {
+        "label": "FactSet Digital Solutions",
+        "href": "https://www.factset.com/solutions/business-needs/digital-solutions"
+      },
+      {
+        "label": "Legal Statement",
+        "href": "https://www.factset.com/privacy"
+      },
+      {
+        "label": "Refinitiv Lipper",
+        "href": "https://lipperalpha.refinitiv.com/"
+      }
+    ],
+    "broken": []
+  },
+  "extractedAt": "2025-11-19T16:04:59Z"
+}

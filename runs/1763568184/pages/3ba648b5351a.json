@@ -1,0 +1,684 @@
+{
+  "url": "https://www.newsmax.com/world/",
+  "path": "/world/",
+  "status": 200,
+  "title": "Newsmax.com - Breaking news from around the globe: U.S. news, politics, world, health, finance, video, science, technology, live news stream",
+  "description": "Top news headlines, videos and comments from Newsmax.com, an independent news source with a conservative perspective, covering politics, the White House, Congress, Hollywood, Wall Street with trusted news on health, personal finance, culture, faith and more.",
+  "canonical": "https://www.newsmax.com/world",
+  "media": {
+    "images": [
+      {
+        "url": "https://www.queryly.com/images/whitesearchicon.png",
+        "alt": "Search Newsmax.com",
+        "width": null,
+        "height": null
+      },
+      {
+        "url": "https://www.newsmax.com/App_Themes/NewsmaxNew/images/NMAX-NYSE-Ticker-Horizontal.svg",
+        "alt": "",
+        "width": 200,
+        "height": null
+      },
+      {
+        "url": "https://www.newsmax.com/App_Themes/Newsmax/images/Social/icon-facebook.jpg",
+        "alt": "Facebook",
+        "width": 30,
+        "height": 30
+      },
+      {
+        "url": "https://www.newsmax.com/App_Themes/Newsmax/images/Social/icon-x-twitter.jpg",
+        "alt": "X",
+        "width": 28,
+        "height": 28
+      },
+      {
+        "url": "https://www.newsmax.com/App_Themes/Newsmax/images/Social/icon-truthsocial.jpg",
+        "alt": "Truth Social",
+        "width": 30,
+        "height": 30
+      },
+      {
+        "url": "https://www.newsmax.com/App_Themes/Newsmax/images/Social/icon-linkedin.jpg",
+        "alt": "LinkedIn",
+        "width": 30,
+        "height": 30
+      },
+      {
+        "url": "https://www.newsmax.com/CMSPages/GetFile.aspx?guid=1f266e44-a566-4722-8d5b-c946adb98f64&SiteName=Newsmax",
+        "alt": "Machado Unveils 'Freedom Manifesto' for Venezuela's Post-Maduro Future",
+        "width": null,
+        "height": null
+      },
+      {
+        "url": "https://www.newsmax.com/CMSPages/GetFile.aspx?guid=f82c3b1a-5927-48ff-89fe-2ec9b3796c3e&SiteName=Newsmax",
+        "alt": "KT McFarland to Newsmax: Saudis Poised to Join Abraham Accords Soon",
+        "width": 114,
+        "height": null
+      },
+      {
+        "url": "https://www.newsmax.com/app_themes/newsmaxnew/images/video.png",
+        "alt": "video",
+        "width": null,
+        "height": null
+      },
+      {
+        "url": "https://www.newsmax.com/CMSPages/GetFile.aspx?guid=e0561d34-25c8-4574-9a7b-5d5775667101&SiteName=Newsmax",
+        "alt": "Europe Could Get Cypriot Natural Gas by 2027, President Says",
+        "width": 114,
+        "height": null
+      },
+      {
+        "url": "https://www.newsmax.com/CMSPages/GetFile.aspx?guid=948eb034-7741-46c3-ad3b-dbad06e50193&SiteName=Newsmax",
+        "alt": "Ad Urges Trump: Don't Let EU 'Dictate' ESG Rules on US",
+        "width": 114,
+        "height": null
+      },
+      {
+        "url": "https://www.newsmax.com/CMSPages/GetFile.aspx?guid=55143124-301c-420a-a7cb-b1dce7ce359e&SiteName=Newsmax",
+        "alt": "With an Eye on Russia, EU Wants to Make it Easier to Deploy Tanks and Troops at Short Notice",
+        "width": 114,
+        "height": null
+      },
+      {
+        "url": "https://www.newsmax.com/CMSPages/GetFile.aspx?guid=22647746-c0c9-4167-b62c-cc63a0cc2d0d&SiteName=Newsmax",
+        "alt": "UK Defense Secretary Warns Russia it Is Ready to Deal with Any Incursions after Spy Ship Spotted",
+        "width": 114,
+        "height": null
+      },
+      {
+        "url": "https://www.newsmax.com/CMSPages/GetFile.aspx?guid=54ca789c-8210-4c1e-a206-9b9e2d32cb31&SiteName=Newsmax",
+        "alt": "Iran Ready to Restart Nuclear Talks With Trump",
+        "width": 114,
+        "height": null
+      },
+      {
+        "url": "https://www.newsmax.com/CMSPages/GetFile.aspx?guid=79f1d456-69c3-4446-b138-ee5affe67b98&SiteName=Newsmax",
+        "alt": "Nigeria's President Promises to Intensify Efforts to Rescue 24 Abducted Schoolgirls",
+        "width": 114,
+        "height": null
+      },
+      {
+        "url": "https://www.newsmax.com/CMSPages/GetFile.aspx?guid=404838f2-c2b6-48b8-8c82-470279250412&SiteName=Newsmax",
+        "alt": "Zelenskyy Aide in Ongoing Peace Talks With US",
+        "width": 114,
+        "height": null
+      },
+      {
+        "url": "https://www.newsmax.com/CMSPages/GetFile.aspx?guid=a278a362-b4e0-47ef-b5e5-b4d936ae5d46&SiteName=Newsmax",
+        "alt": "Poland Railway Saboteurs Arrested, Russia's Last Consulate Shut",
+        "width": 114,
+        "height": null
+      },
+      {
+        "url": "https://www.newsmax.com/CMSPages/GetFile.aspx?guid=14092993-2f6b-4aa7-b601-1848520b294b&SiteName=Newsmax",
+        "alt": "Romania Scrambles Fighter Jets as Russian Drone Breaches Airspace",
+        "width": 114,
+        "height": null
+      },
+      {
+        "url": "https://www.newsmax.com/CMSPages/GetFile.aspx?guid=608d9152-bde7-4e3b-bb32-7a98d1339fdf&SiteName=Newsmax",
+        "alt": "Russia: Ukraine Fired US-Made ATACMS Missiles at Voronezh",
+        "width": 114,
+        "height": null
+      },
+      {
+        "url": "https://www.newsmax.com/CMSPages/GetFile.aspx?guid=b702a9f1-04f9-46c6-840c-f78db5a24ee3&SiteName=Newsmax",
+        "alt": "Russian Barrage Kills 10 in Ukraine as Zelenskyy Heads to Turkey for Talks",
+        "width": 114,
+        "height": null
+      },
+      {
+        "url": "https://www.newsmax.com/CMSPages/GetFile.aspx?guid=2f1c4d90-35d3-4959-95d7-63aa25eb3db9&SiteName=Newsmax",
+        "alt": "Kremlin: Nothing New on Ukraine Peace Since Alaska ",
+        "width": 114,
+        "height": null
+      },
+      {
+        "url": "https://www.newsmax.com/CMSPages/GetFile.aspx?guid=883ac20f-87f7-4967-a2cc-e8f3197fa854&SiteName=Newsmax",
+        "alt": "Saudi Crown Prince Heads to a US Congress No Longer Railing Against Him",
+        "width": 114,
+        "height": null
+      },
+      {
+        "url": "https://www.newsmax.com/CMSPages/GetFile.aspx?guid=0b569447-6570-4fee-9feb-f9a662c7c7ce&SiteName=Newsmax",
+        "alt": "China Threatens More Countermeasures Over Japan PM's Taiwan Remarks",
+        "width": 114,
+        "height": null
+      },
+      {
+        "url": "https://www.newsmax.com/CMSPages/GetFile.aspx?guid=626f8589-3df7-4443-9c61-767fd8bacdf8&SiteName=Newsmax",
+        "alt": "Israel Strike in Lebanon Kills 1, Injures 11",
+        "width": 114,
+        "height": null
+      },
+      {
+        "url": "https://www.newsmax.com/CMSPages/GetFile.aspx?guid=d641e4d6-dce4-4cc2-8bae-283e21a91b53&SiteName=Newsmax",
+        "alt": "US Army Brass in Kyiv for 'Fact-Finding Mission'",
+        "width": 114,
+        "height": null
+      },
+      {
+        "url": "https://www.newsmax.com/CMSPages/GetFile.aspx?guid=713ff12b-2774-4810-a93b-3b7a9b6681b9&SiteName=Newsmax",
+        "alt": "Erdogan: Turkey 'Closer Than Ever' to Ending Terrorism",
+        "width": 114,
+        "height": null
+      },
+      {
+        "url": "https://www.newsmax.com/App_Themes/NewsmaxNew/images/SMS-Banner-300x600-v2.jpg",
+        "alt": "Get Newsmax Text Alerts",
+        "width": null,
+        "height": null
+      },
+      {
+        "url": "https://www.newsmax.com/akam/13/pixel_220c3151?a=dD1jNmVmODczNTgwMzY2NWEyZjAyYjBmODc1OTU2NzNlNGJkZGJiODFmJmpzPW9mZg==",
+        "alt": "",
+        "width": null,
+        "height": null
+      }
+    ],
+    "videos": [
+      {
+        "url": "https://www.googletagmanager.com/ns.html?id=GTM-WL644C",
+        "type": "embed"
+      }
+    ],
+    "gifs": []
+  },
+  "files": [],
+  "words": {
+    "headings": [
+      {
+        "tag": "h2",
+        "text": "WATCH TV LIVE"
+      },
+      {
+        "tag": "h1",
+        "text": "Machado Unveils 'Freedom Manifesto' for Venezuela's Post-Maduro Future"
+      },
+      {
+        "tag": "h2",
+        "text": "KT McFarland to Newsmax: Saudis Poised to Join Abraham Accords Soon"
+      },
+      {
+        "tag": "h2",
+        "text": "Europe Could Get Cypriot Natural Gas by 2027, President Says"
+      },
+      {
+        "tag": "h2",
+        "text": "Ad Urges Trump: Don't Let EU 'Dictate' ESG Rules on US"
+      },
+      {
+        "tag": "h2",
+        "text": "With an Eye on Russia, EU Wants to Make it Easier to Deploy Tanks and Troops at Short Notice"
+      },
+      {
+        "tag": "h2",
+        "text": "UK Defense Secretary Warns Russia it Is Ready to Deal with Any Incursions after Spy Ship Spotted"
+      },
+      {
+        "tag": "h2",
+        "text": "Iran Ready to Restart Nuclear Talks With Trump"
+      },
+      {
+        "tag": "h2",
+        "text": "Nigeria's President Promises to Intensify Efforts to Rescue 24 Abducted Schoolgirls"
+      },
+      {
+        "tag": "h2",
+        "text": "Ukraine Pushes for Political Decision From EU on Frozen Assets"
+      },
+      {
+        "tag": "h2",
+        "text": "Zelenskyy Aide in Ongoing Peace Talks With US"
+      },
+      {
+        "tag": "h2",
+        "text": "Poland Railway Saboteurs Arrested, Russia's Last Consulate Shut"
+      },
+      {
+        "tag": "h2",
+        "text": "Romania Scrambles Fighter Jets as Russian Drone Breaches Airspace"
+      },
+      {
+        "tag": "h2",
+        "text": "Russia: Ukraine Fired US-Made ATACMS Missiles at Voronezh"
+      },
+      {
+        "tag": "h2",
+        "text": "Russian Barrage Kills 10 in Ukraine as Zelenskyy Heads to Turkey for Talks"
+      },
+      {
+        "tag": "h2",
+        "text": "Kremlin: Nothing New on Ukraine Peace Since Alaska"
+      },
+      {
+        "tag": "h2",
+        "text": "Saudi Crown Prince Heads to a US Congress No Longer Railing Against Him"
+      },
+      {
+        "tag": "h2",
+        "text": "China Threatens More Countermeasures Over Japan PM's Taiwan Remarks"
+      },
+      {
+        "tag": "h2",
+        "text": "Mountain of Illegally Dumped Trash near Oxford River Causes Outcry in England"
+      },
+      {
+        "tag": "h2",
+        "text": "Israel Strike in Lebanon Kills 1, Injures 11"
+      },
+      {
+        "tag": "h2",
+        "text": "US Army Brass in Kyiv for 'Fact-Finding Mission'"
+      },
+      {
+        "tag": "h2",
+        "text": "Erdogan: Turkey 'Closer Than Ever' to Ending Terrorism"
+      }
+    ],
+    "paragraphs": [
+      "Newsmax, Moneynews, Newsmax Health, and Independent. American. are registered trademarks of Newsmax Media, Inc. Newsmax TV, and Newsmax World are trademarks of Newsmax Media, Inc."
+    ],
+    "wordCount": 25
+  },
+  "links": {
+    "internal": [
+      {
+        "label": "NEWSMAX",
+        "href": "https://www.newsmax.com/"
+      },
+      {
+        "label": "HEALTH",
+        "href": "https://www.newsmax.com/health/"
+      },
+      {
+        "label": "MONEY",
+        "href": "https://www.newsmax.com/finance/"
+      },
+      {
+        "label": "WORLD",
+        "href": "https://www.newsmax.com/world/"
+      },
+      {
+        "label": "",
+        "href": "https://www.newsmax.com/world"
+      },
+      {
+        "label": "Newsmax",
+        "href": "https://www.newsmax.com/"
+      },
+      {
+        "label": "Health",
+        "href": "https://www.newsmax.com/health/"
+      },
+      {
+        "label": "Money",
+        "href": "https://www.newsmax.com/finance/"
+      },
+      {
+        "label": "World",
+        "href": "https://www.newsmax.com/world/"
+      },
+      {
+        "label": "Home",
+        "href": "https://www.newsmax.com/"
+      },
+      {
+        "label": "Platinum",
+        "href": "https://www.newsmax.com/platinum/"
+      },
+      {
+        "label": "Newsfront",
+        "href": "https://www.newsmax.com/newsfront/"
+      },
+      {
+        "label": "Politics",
+        "href": "https://www.newsmax.com/politics/"
+      },
+      {
+        "label": "Opinion",
+        "href": "https://www.newsmax.com/insiders/"
+      },
+      {
+        "label": "The Wire",
+        "href": "https://www.newsmax.com/thewire/"
+      },
+      {
+        "label": "Books",
+        "href": "https://www.newsmax.com/books/"
+      },
+      {
+        "label": "Best Lists",
+        "href": "https://www.newsmax.com/newsmaxbest/"
+      },
+      {
+        "label": "Specials",
+        "href": "https://www.newsmax.com/specials/"
+      },
+      {
+        "label": "Sci & Tech",
+        "href": "https://www.newsmax.com/sciencetechnology/"
+      },
+      {
+        "label": "Games",
+        "href": "https://www.newsmax.com/games/"
+      },
+      {
+        "label": "Subscribe",
+        "href": "https://www.newsmax.com/nmsubscribe"
+      },
+      {
+        "label": "Machado Unveils 'Freedom Manifesto' for Venezuela's Post-Maduro Future",
+        "href": "https://www.newsmax.com/world/globaltalk/venezuela-maria-corina-machado-freedom-manifesto/2025/11/18/id/1235079/"
+      },
+      {
+        "label": "",
+        "href": "https://www.newsmax.com/world/globaltalk/venezuela-maria-corina-machado-freedom-manifesto/2025/11/18/id/1235079/"
+      },
+      {
+        "label": "Global Talk",
+        "href": "https://www.newsmax.com/world/globaltalk/"
+      },
+      {
+        "label": "KT McFarland to Newsmax: Saudis Poised to Join Abraham Accords Soon",
+        "href": "https://www.newsmax.com/newsfront/kt-mcfarland-abraham-accords-saudi-arabia/2025/11/19/id/1235177/"
+      },
+      {
+        "label": "[Full\u00a0Story]",
+        "href": "https://www.newsmax.com/newsfront/kt-mcfarland-abraham-accords-saudi-arabia/2025/11/19/id/1235177/"
+      },
+      {
+        "label": "",
+        "href": "https://www.newsmax.com/newsfront/kt-mcfarland-abraham-accords-saudi-arabia/2025/11/19/id/1235177/"
+      },
+      {
+        "label": "Europe Could Get Cypriot Natural Gas by 2027, President Says",
+        "href": "https://www.newsmax.com/world/globaltalk/cyprus-natural-gas-hydrocarbons-energy/2025/11/19/id/1235182/"
+      },
+      {
+        "label": "[Full\u00a0Story]",
+        "href": "https://www.newsmax.com/world/globaltalk/cyprus-natural-gas-hydrocarbons-energy/2025/11/19/id/1235182/"
+      },
+      {
+        "label": "Ad Urges Trump: Don't Let EU 'Dictate' ESG Rules on US",
+        "href": "https://www.newsmax.com/politics/ad-campaign-eu-trade/2025/11/19/id/1235167/"
+      },
+      {
+        "label": "[Full\u00a0Story]",
+        "href": "https://www.newsmax.com/politics/ad-campaign-eu-trade/2025/11/19/id/1235167/"
+      },
+      {
+        "label": "",
+        "href": "https://www.newsmax.com/politics/ad-campaign-eu-trade/2025/11/19/id/1235167/"
+      },
+      {
+        "label": "With an Eye on Russia, EU Wants to Make it Easier to Deploy Tanks and Troops at Short Notice",
+        "href": "https://www.newsmax.com/world/globaltalk/european-union-defense-weapons-military-investment-russia-ukraine/2025/11/19/id/1235173/"
+      },
+      {
+        "label": "[Full\u00a0Story]",
+        "href": "https://www.newsmax.com/world/globaltalk/european-union-defense-weapons-military-investment-russia-ukraine/2025/11/19/id/1235173/"
+      },
+      {
+        "label": "UK Defense Secretary Warns Russia it Is Ready to Deal with Any Incursions after Spy Ship Spotted",
+        "href": "https://www.newsmax.com/world/globaltalk/britain-defense-russia-spy-ship/2025/11/19/id/1235172/"
+      },
+      {
+        "label": "[Full\u00a0Story]",
+        "href": "https://www.newsmax.com/world/globaltalk/britain-defense-russia-spy-ship/2025/11/19/id/1235172/"
+      },
+      {
+        "label": "Iran Ready to Restart Nuclear Talks With Trump",
+        "href": "https://www.newsmax.com/newsfront/iran-u-s-nuclear/2025/11/19/id/1235166/"
+      },
+      {
+        "label": "[Full\u00a0Story]",
+        "href": "https://www.newsmax.com/newsfront/iran-u-s-nuclear/2025/11/19/id/1235166/"
+      },
+      {
+        "label": "",
+        "href": "https://www.newsmax.com/newsfront/iran-u-s-nuclear/2025/11/19/id/1235166/"
+      },
+      {
+        "label": "Nigeria's President Promises to Intensify Efforts to Rescue 24 Abducted Schoolgirls",
+        "href": "https://www.newsmax.com/world/globaltalk/nigeria-school-abduction/2025/11/19/id/1235162/"
+      },
+      {
+        "label": "[Full\u00a0Story]",
+        "href": "https://www.newsmax.com/world/globaltalk/nigeria-school-abduction/2025/11/19/id/1235162/"
+      },
+      {
+        "label": "Ukraine Pushes for Political Decision From EU on Frozen Assets",
+        "href": "https://www.newsmax.com/world/globaltalk/ukraine-political-decision/2025/11/19/id/1235159/"
+      },
+      {
+        "label": "[Full\u00a0Story]",
+        "href": "https://www.newsmax.com/world/globaltalk/ukraine-political-decision/2025/11/19/id/1235159/"
+      },
+      {
+        "label": "Zelenskyy Aide in Ongoing Peace Talks With US",
+        "href": "https://www.newsmax.com/world/globaltalk/zelenskyy-aide-u-s/2025/11/19/id/1235156/"
+      },
+      {
+        "label": "[Full\u00a0Story]",
+        "href": "https://www.newsmax.com/world/globaltalk/zelenskyy-aide-u-s/2025/11/19/id/1235156/"
+      },
+      {
+        "label": "Poland Railway Saboteurs Arrested, Russia's Last Consulate Shut",
+        "href": "https://www.newsmax.com/world/globaltalk/poland-railway-sabotage/2025/11/19/id/1235136/"
+      },
+      {
+        "label": "[Full\u00a0Story]",
+        "href": "https://www.newsmax.com/world/globaltalk/poland-railway-sabotage/2025/11/19/id/1235136/"
+      },
+      {
+        "label": "Romania Scrambles Fighter Jets as Russian Drone Breaches Airspace",
+        "href": "https://www.newsmax.com/world/globaltalk/romania-fighter-jets-drone/2025/11/19/id/1235158/"
+      },
+      {
+        "label": "[Full\u00a0Story]",
+        "href": "https://www.newsmax.com/world/globaltalk/romania-fighter-jets-drone/2025/11/19/id/1235158/"
+      },
+      {
+        "label": "Russia: Ukraine Fired US-Made ATACMS Missiles at Voronezh",
+        "href": "https://www.newsmax.com/world/globaltalk/russia-ukraine-war/2025/11/19/id/1235154/"
+      },
+      {
+        "label": "[Full\u00a0Story]",
+        "href": "https://www.newsmax.com/world/globaltalk/russia-ukraine-war/2025/11/19/id/1235154/"
+      },
+      {
+        "label": "Russian Barrage Kills 10 in Ukraine as Zelenskyy Heads to Turkey for Talks",
+        "href": "https://www.newsmax.com/world/globaltalk/russia-ukraine-war/2025/11/19/id/1235135/"
+      },
+      {
+        "label": "[Full\u00a0Story]",
+        "href": "https://www.newsmax.com/world/globaltalk/russia-ukraine-war/2025/11/19/id/1235135/"
+      },
+      {
+        "label": "Kremlin: Nothing New on Ukraine Peace Since Alaska",
+        "href": "https://www.newsmax.com/world/globaltalk/russia-war-ukraine/2025/11/19/id/1235152/"
+      },
+      {
+        "label": "[Full\u00a0Story]",
+        "href": "https://www.newsmax.com/world/globaltalk/russia-war-ukraine/2025/11/19/id/1235152/"
+      },
+      {
+        "label": "Saudi Crown Prince Heads to a US Congress No Longer Railing Against Him",
+        "href": "https://www.newsmax.com/politics/mohammed-bin-salman-u-s-congress/2025/11/19/id/1235151/"
+      },
+      {
+        "label": "[Full\u00a0Story]",
+        "href": "https://www.newsmax.com/politics/mohammed-bin-salman-u-s-congress/2025/11/19/id/1235151/"
+      },
+      {
+        "label": "China Threatens More Countermeasures Over Japan PM's Taiwan Remarks",
+        "href": "https://www.newsmax.com/world/globaltalk/china-japan-taiwan/2025/11/19/id/1235147/"
+      },
+      {
+        "label": "[Full\u00a0Story]",
+        "href": "https://www.newsmax.com/world/globaltalk/china-japan-taiwan/2025/11/19/id/1235147/"
+      },
+      {
+        "label": "Mountain of Illegally Dumped Trash near Oxford River Causes Outcry in England",
+        "href": "https://www.newsmax.com/world/globaltalk/illegal-dump-uk-oxford-kidlington-england-gang/2025/11/19/id/1235148/"
+      },
+      {
+        "label": "[Full\u00a0Story]",
+        "href": "https://www.newsmax.com/world/globaltalk/illegal-dump-uk-oxford-kidlington-england-gang/2025/11/19/id/1235148/"
+      },
+      {
+        "label": "Israel Strike in Lebanon Kills 1, Injures 11",
+        "href": "https://www.newsmax.com/newsfront/lebanon-israel-airstrike/2025/11/19/id/1235137/"
+      },
+      {
+        "label": "[Full\u00a0Story]",
+        "href": "https://www.newsmax.com/newsfront/lebanon-israel-airstrike/2025/11/19/id/1235137/"
+      },
+      {
+        "label": "US Army Brass in Kyiv for 'Fact-Finding Mission'",
+        "href": "https://www.newsmax.com/politics/army-secretary-dan-driscoll/2025/11/19/id/1235142/"
+      },
+      {
+        "label": "[Full\u00a0Story]",
+        "href": "https://www.newsmax.com/politics/army-secretary-dan-driscoll/2025/11/19/id/1235142/"
+      },
+      {
+        "label": "Erdogan: Turkey 'Closer Than Ever' to Ending Terrorism",
+        "href": "https://www.newsmax.com/world/globaltalk/erdogan-turkey-terrorism/2025/11/19/id/1235144/"
+      },
+      {
+        "label": "[Full\u00a0Story]",
+        "href": "https://www.newsmax.com/world/globaltalk/erdogan-turkey-terrorism/2025/11/19/id/1235144/"
+      },
+      {
+        "label": "More Global Talk",
+        "href": "https://www.newsmax.com/world/globaltalk/"
+      },
+      {
+        "label": "Privacy",
+        "href": "https://www.newsmax.com/privacystatement/"
+      },
+      {
+        "label": "Home",
+        "href": "https://www.newsmax.com/"
+      },
+      {
+        "label": "Platinum",
+        "href": "https://www.newsmax.com/platinum/"
+      },
+      {
+        "label": "Newsfront",
+        "href": "https://www.newsmax.com/newsfront/"
+      },
+      {
+        "label": "Politics",
+        "href": "https://www.newsmax.com/politics/"
+      },
+      {
+        "label": "Opinion",
+        "href": "https://www.newsmax.com/insiders/"
+      },
+      {
+        "label": "The Wire",
+        "href": "https://www.newsmax.com/thewire/"
+      },
+      {
+        "label": "Books",
+        "href": "https://www.newsmax.com/books/"
+      },
+      {
+        "label": "Best Lists",
+        "href": "https://www.newsmax.com/newsmaxbest/"
+      },
+      {
+        "label": "Specials",
+        "href": "https://www.newsmax.com/specials/"
+      },
+      {
+        "label": "Sci & Tech",
+        "href": "https://www.newsmax.com/sciencetechnology/"
+      },
+      {
+        "label": "Games",
+        "href": "https://www.newsmax.com/games/"
+      },
+      {
+        "label": "Contact",
+        "href": "https://www.newsmax.com/contact/"
+      },
+      {
+        "label": "Advertise",
+        "href": "https://www.newsmax.com/advertise/"
+      },
+      {
+        "label": "RSS",
+        "href": "https://www.newsmax.com/rss/"
+      },
+      {
+        "label": "Archives",
+        "href": "https://www.newsmax.com/archives/"
+      },
+      {
+        "label": "Privacy\u00a0Policy",
+        "href": "https://www.newsmax.com/privacystatement/"
+      },
+      {
+        "label": "Terms\u00a0&\u00a0Conditions",
+        "href": "https://www.newsmax.com/termsconditions/"
+      }
+    ],
+    "external": [
+      {
+        "label": "WATCH TV LIVE",
+        "href": "https://www.newsmaxtv.com"
+      },
+      {
+        "label": "TV",
+        "href": "https://www.newsmaxtv.com/"
+      },
+      {
+        "label": "",
+        "href": "https://ir.newsmax.com/"
+      },
+      {
+        "label": "NewsmaxTV",
+        "href": "http://www.newsmaxtv.com/"
+      },
+      {
+        "label": "",
+        "href": "http://facebook.com/Newsmax"
+      },
+      {
+        "label": "",
+        "href": "http://twitter.com/Newsmax"
+      },
+      {
+        "label": "",
+        "href": "https://truthsocial.com/@NewsMax"
+      },
+      {
+        "label": "",
+        "href": "https://www.linkedin.com/company/newsmax-media-inc-/"
+      },
+      {
+        "label": "",
+        "href": "https://ir.newsmax.com/"
+      },
+      {
+        "label": "TOP",
+        "href": "javascript:"
+      },
+      {
+        "label": "Shop",
+        "href": "https://shop.newsmax.com/"
+      },
+      {
+        "label": "Careers",
+        "href": "https://recruiting.ultipro.com/NEW1027/JobBoard/3d5ae180-49c4-20f7-d7b4-adfe940978a7/"
+      }
+    ],
+    "broken": []
+  },
+  "extractedAt": "2025-11-19T16:03:09Z"
+}

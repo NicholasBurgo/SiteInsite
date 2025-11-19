@@ -9,6 +9,7 @@ from statistics import median
 from typing import List, Dict, Any, Optional
 from backend.core.types import InsightReport, InsightCategoryScore, InsightIssue, InsightAffectedPage, InsightStats
 from backend.storage.runs import RunStore
+from backend.storage.simhash import SimHash
 
 
 def percentile(data: List[float], p: float) -> float:
@@ -22,6 +23,251 @@ def percentile(data: List[float], p: float) -> float:
     if f + 1 < len(sorted_data):
         return sorted_data[f] + c * (sorted_data[f + 1] - sorted_data[f])
     return sorted_data[f]
+
+
+def clamp_0_100(value: float) -> float:
+    """Clamp a value to the range [0, 100]."""
+    return max(0.0, min(100.0, value))
+
+
+def calculate_content_depth_score(
+    avg_words_per_page: float,
+    pages_count: int,
+    pages_dir: str,
+    pages_index: List[Dict[str, Any]]
+) -> float:
+    """
+    Calculate Content Depth Score (0-100) based on:
+    - Normalized average words per page (0.5 weight)
+    - Unique content ratio using SimHash (0.3 weight)
+    - Keyword coverage score from headings/titles (0.2 weight)
+    
+    Rewards purposeful depth, not raw volume.
+    """
+    # 1. Normalized avg words per page (0-100 scale)
+    # Recommended range: 300-2000 words for content-heavy pages
+    # Below 300: penalize, above 2000: cap bonus
+    if avg_words_per_page <= 0:
+        normalized_words = 0.0
+    elif avg_words_per_page < 100:
+        normalized_words = (avg_words_per_page / 100) * 30  # 0-30
+    elif avg_words_per_page < 300:
+        normalized_words = 30 + ((avg_words_per_page - 100) / 200) * 40  # 30-70
+    elif avg_words_per_page <= 2000:
+        normalized_words = 70 + ((avg_words_per_page - 300) / 1700) * 30  # 70-100
+    else:
+        normalized_words = 100.0  # Cap at 100
+    
+    # 2. Unique content ratio using SimHash (0-100 scale)
+    # Estimate uniqueness by comparing page content hashes
+    unique_content_ratio = 100.0  # Default to high if we can't compute
+    if pages_count > 0 and os.path.exists(pages_dir):
+        simhash = SimHash()
+        content_hashes = []
+        unique_count = 0
+        
+        for filename in os.listdir(pages_dir):
+            if not filename.endswith('.json'):
+                continue
+            page_file = os.path.join(pages_dir, filename)
+            try:
+                with open(page_file, 'r') as f:
+                    page_data = json.load(f)
+                
+                # Extract text content
+                text_content = page_data.get("text", "") or ""
+                title = page_data.get("title", "") or ""
+                # Use title + first 1000 chars for hash
+                content_for_hash = f"{title}\n{text_content[:1000]}"
+                
+                if content_for_hash.strip():
+                    page_hash = simhash.compute(content_for_hash)
+                    # Check if similar to existing hashes
+                    is_unique = True
+                    for existing_hash in content_hashes:
+                        if simhash.similarity(page_hash, existing_hash) > 0.8:
+                            is_unique = False
+                            break
+                    
+                    if is_unique:
+                        unique_count += 1
+                    content_hashes.append(page_hash)
+            except Exception:
+                continue
+        
+        if len(content_hashes) > 0:
+            unique_content_ratio = (unique_count / len(content_hashes)) * 100.0
+    
+    # 3. Keyword coverage score (0-100 scale)
+    # Estimate based on presence of headings and titles
+    keyword_coverage_score = 50.0  # Default baseline
+    if pages_count > 0 and os.path.exists(pages_dir):
+        total_headings = 0
+        pages_with_headings = 0
+        
+        for filename in os.listdir(pages_dir):
+            if not filename.endswith('.json'):
+                continue
+            page_file = os.path.join(pages_dir, filename)
+            try:
+                with open(page_file, 'r') as f:
+                    page_data = json.load(f)
+                
+                words_data = page_data.get("words", {})
+                headings = words_data.get("headings", [])
+                title = page_data.get("title", "")
+                
+                if headings:
+                    total_headings += len(headings)
+                    pages_with_headings += 1
+                elif title:
+                    pages_with_headings += 1
+            except Exception:
+                continue
+        
+        if pages_count > 0:
+            # Reward pages with headings/titles
+            heading_coverage = (pages_with_headings / pages_count) * 100.0
+            avg_headings_per_page = total_headings / pages_count if pages_count > 0 else 0
+            # Combine coverage and density
+            keyword_coverage_score = clamp_0_100(
+                (heading_coverage * 0.6) + (min(avg_headings_per_page / 5, 1.0) * 40)
+            )
+    
+    # Combine with weights
+    content_depth_score = clamp_0_100(
+        0.5 * normalized_words +
+        0.3 * unique_content_ratio +
+        0.2 * keyword_coverage_score
+    )
+    
+    return round(content_depth_score, 2)
+
+
+def determine_nav_type(
+    nav_items: List[Any],
+    pages_count: int,
+    pages_dir: str,
+    pages_index: List[Dict[str, Any]]
+) -> str:
+    """
+    Determine navigation type based on site structure.
+    
+    Returns one of:
+    - "single_page": <= 5 pages, no nav tag
+    - "simple_nav": nav tag with few links
+    - "multi_section": nav tag with many top-level links
+    - "app_style": many pages but few nav links (SPA-like)
+    - "implicit_content_links": many internal links in body, no nav tag
+    - "none_detected": no clear navigation pattern
+    """
+    # Count internal links from pages
+    total_internal_links = 0
+    if os.path.exists(pages_dir):
+        for filename in os.listdir(pages_dir):
+            if not filename.endswith('.json'):
+                continue
+            page_file = os.path.join(pages_dir, filename)
+            try:
+                with open(page_file, 'r') as f:
+                    page_data = json.load(f)
+                links = page_data.get("links", {})
+                internal_links = links.get("internal", [])
+                total_internal_links += len(internal_links)
+            except Exception:
+                continue
+    
+    nav_link_count = len(nav_items) if nav_items else 0
+    
+    # Decision logic
+    if pages_count <= 5 and nav_link_count == 0:
+        return "single_page"
+    elif nav_link_count > 0:
+        if nav_link_count >= 5:
+            return "multi_section"
+        else:
+            return "simple_nav"
+    elif total_internal_links > pages_count * 3:  # Many internal links
+        return "implicit_content_links"
+    elif pages_count > 20 and nav_link_count < 3:
+        return "app_style"
+    else:
+        return "none_detected"
+
+
+def calculate_crawlability_score(
+    pages_count: int,
+    pages_dir: str,
+    pages_index: List[Dict[str, Any]],
+    base_url: Optional[str]
+) -> float:
+    """
+    Calculate Crawlability Score (0-100) based on:
+    - Number of internal links
+    - Presence of consistent nav or link hubs
+    - Depth vs breadth (how many pages reachable from homepage within N hops)
+    - Link density
+    
+    High score: Most pages reachable within 2-3 hops, healthy internal link count
+    Low score: Many isolated pages, very few internal links
+    """
+    if pages_count == 0:
+        return 0.0
+    
+    # Count total internal links
+    total_internal_links = 0
+    pages_with_internal_links = 0
+    link_density_per_page = []
+    
+    if os.path.exists(pages_dir):
+        for filename in os.listdir(pages_dir):
+            if not filename.endswith('.json'):
+                continue
+            page_file = os.path.join(pages_dir, filename)
+            try:
+                with open(page_file, 'r') as f:
+                    page_data = json.load(f)
+                links = page_data.get("links", {})
+                internal_links = links.get("internal", [])
+                link_count = len(internal_links)
+                total_internal_links += link_count
+                link_density_per_page.append(link_count)
+                if link_count > 0:
+                    pages_with_internal_links += 1
+            except Exception:
+                continue
+    
+    # Calculate metrics
+    avg_internal_links_per_page = total_internal_links / pages_count if pages_count > 0 else 0
+    pages_with_links_ratio = pages_with_internal_links / pages_count if pages_count > 0 else 0
+    
+    # Score based on link density
+    # Good sites have 5-20 internal links per page on average
+    if avg_internal_links_per_page >= 5:
+        link_density_score = 100.0
+    elif avg_internal_links_per_page >= 2:
+        link_density_score = 50 + ((avg_internal_links_per_page - 2) / 3) * 50  # 50-100
+    elif avg_internal_links_per_page >= 0.5:
+        link_density_score = (avg_internal_links_per_page / 0.5) * 50  # 0-50
+    else:
+        link_density_score = 0.0
+    
+    # Score based on pages with links ratio
+    # Most pages should have at least some internal links
+    pages_with_links_score = pages_with_links_ratio * 100.0
+    
+    # Estimate reachability (simplified: assume homepage links to many pages)
+    # If we have many internal links, pages are likely reachable
+    reachability_score = min(avg_internal_links_per_page / 10 * 100, 100.0)
+    
+    # Combine scores (weighted)
+    crawlability_score = clamp_0_100(
+        0.4 * link_density_score +
+        0.3 * pages_with_links_score +
+        0.3 * reachability_score
+    )
+    
+    return round(crawlability_score, 2)
 
 
 def build_insight_report(run_store: RunStore, run_id: str) -> InsightReport:
@@ -787,6 +1033,30 @@ def build_insight_report(run_store: RunStore, run_id: str) -> InsightReport:
     
     structure_score = max(0, min(100, structure_score))
     
+    # Calculate new context-aware metrics
+    pages_dir = os.path.join(run_dir, "pages")
+    content_depth_score = calculate_content_depth_score(
+        avg_words_per_page, pages_count, pages_dir, pages_index
+    )
+    nav_type = determine_nav_type(nav_items, pages_count, pages_dir, pages_index)
+    crawlability_score = calculate_crawlability_score(
+        pages_count, pages_dir, pages_index, base_url
+    )
+    
+    # Optionally incorporate content_depth_score into content_score
+    # Blend: 70% existing content_score, 30% content_depth_score
+    content_score_blended = round(
+        0.7 * content_score + 0.3 * (content_depth_score / 100 * 100)
+    )
+    content_score = max(0, min(100, content_score_blended))
+    
+    # Optionally incorporate crawlability_score into structure_score
+    # Blend: 80% existing structure_score, 20% crawlability_score
+    structure_score_blended = round(
+        0.8 * structure_score + 0.2 * (crawlability_score / 100 * 100)
+    )
+    structure_score = max(0, min(100, structure_score_blended))
+    
     # Build category scores
     categories = [
         InsightCategoryScore(
@@ -819,6 +1089,9 @@ def build_insight_report(run_store: RunStore, run_id: str) -> InsightReport:
         baseUrl=base_url,
         overallScore=overall_score,
         categories=categories,
-        stats=stats
+        stats=stats,
+        contentDepthScore=content_depth_score,
+        navType=nav_type,
+        crawlabilityScore=crawlability_score
     )
 

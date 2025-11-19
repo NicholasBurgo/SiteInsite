@@ -1,0 +1,1 @@
+{"run_id": "1763568783", "started_at": 1763568783.3935544, "status": "completed", "pages": [], "errors": [{"url": "https://www.newsmax.com/", "error_type": "fetch_failed", "timestamp": 1763568803.5418599}], "botAvoidanceEnabled": false, "completed_at": 1763568803.5470104, "pageLoad": {"pages": [], "summary": {}}}

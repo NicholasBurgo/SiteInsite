@@ -1,0 +1,470 @@
+{
+  "baseUrl": "https://foxnews.com",
+  "nav": [
+    {
+      "id": "3ec73ec7",
+      "label": "U.S.",
+      "href": "https://www.foxnews.com/us",
+      "order": 0,
+      "path": "/us",
+      "children": [
+        {
+          "id": "89b91abe",
+          "label": "Blue City Crime",
+          "href": "https://www.foxnews.com/category/us/blue-city-crime",
+          "order": 0,
+          "path": "/category/us/blue-city-crime"
+        },
+        {
+          "id": "ebf54cbc",
+          "label": "Campus Radicals",
+          "href": "https://www.foxnews.com/category/us/campus-radicals",
+          "order": 1,
+          "path": "/category/us/campus-radicals"
+        },
+        {
+          "id": "fd712e53",
+          "label": "Border Crisis",
+          "href": "https://www.foxnews.com/category/us/immigration",
+          "order": 2,
+          "path": "/category/us/immigration"
+        },
+        {
+          "id": "44fc9421",
+          "label": "True Crime",
+          "href": "https://www.foxnews.com/true-crime",
+          "order": 3,
+          "path": "/true-crime"
+        }
+      ]
+    },
+    {
+      "id": "b5c6fcdc",
+      "label": "Politics",
+      "href": "https://www.foxnews.com/politics",
+      "order": 1,
+      "path": "/politics",
+      "children": [
+        {
+          "id": "bba0f814",
+          "label": "Donald Trump",
+          "href": "https://www.foxnews.com/category/person/donald-trump",
+          "order": 0,
+          "path": "/category/person/donald-trump"
+        },
+        {
+          "id": "d9df74d8",
+          "label": "Senate",
+          "href": "https://www.foxnews.com/category/politics/senate",
+          "order": 1,
+          "path": "/category/politics/senate"
+        },
+        {
+          "id": "3e440ec6",
+          "label": "House",
+          "href": "https://www.foxnews.com/category/politics/house-of-representatives",
+          "order": 2,
+          "path": "/category/politics/house-of-representatives"
+        },
+        {
+          "id": "5765e4a5",
+          "label": "Judiciary",
+          "href": "https://www.foxnews.com/category/politics/judiciary",
+          "order": 3,
+          "path": "/category/politics/judiciary"
+        },
+        {
+          "id": "a72c2f0a",
+          "label": "Foreign Policy",
+          "href": "https://www.foxnews.com/category/politics/foreign-policy",
+          "order": 4,
+          "path": "/category/politics/foreign-policy"
+        },
+        {
+          "id": "2ee6ce42",
+          "label": "Fox News Polls",
+          "href": "https://www.foxnews.com/official-polls",
+          "order": 5,
+          "path": "/official-polls"
+        },
+        {
+          "id": "df9f66c3",
+          "label": "2025 Elections Coverage",
+          "href": "https://www.foxnews.com/elections",
+          "order": 6,
+          "path": "/elections"
+        }
+      ]
+    },
+    {
+      "id": "c279d3d6",
+      "label": "World",
+      "href": "https://www.foxnews.com/world",
+      "order": 2,
+      "path": "/world",
+      "children": [
+        {
+          "id": "e02289f7",
+          "label": "U.N.",
+          "href": "https://www.foxnews.com/category/world/united-nations",
+          "order": 0,
+          "path": "/category/world/united-nations"
+        },
+        {
+          "id": "febc1095",
+          "label": "Conflicts",
+          "href": "https://www.foxnews.com/category/world/conflicts",
+          "order": 1,
+          "path": "/category/world/conflicts"
+        },
+        {
+          "id": "921bcbfd",
+          "label": "Terrorism",
+          "href": "https://www.foxnews.com/category/world/terrorism",
+          "order": 2,
+          "path": "/category/world/terrorism"
+        },
+        {
+          "id": "c3b45f34",
+          "label": "Disasters",
+          "href": "https://www.foxnews.com/category/disasters",
+          "order": 3,
+          "path": "/category/disasters"
+        },
+        {
+          "id": "f307c82b",
+          "label": "Global Economy",
+          "href": "https://www.foxnews.com/category/world/global-economy",
+          "order": 4,
+          "path": "/category/world/global-economy"
+        },
+        {
+          "id": "c6cb90e4",
+          "label": "Environment",
+          "href": "https://www.foxnews.com/category/environment",
+          "order": 5,
+          "path": "/category/environment"
+        },
+        {
+          "id": "1dc9c72e",
+          "label": "Religion",
+          "href": "https://www.foxnews.com/category/world/religion",
+          "order": 6,
+          "path": "/category/world/religion"
+        },
+        {
+          "id": "59a2d2f6",
+          "label": "Scandals",
+          "href": "https://www.foxnews.com/category/world/scandals",
+          "order": 7,
+          "path": "/category/world/scandals"
+        }
+      ]
+    },
+    {
+      "id": "cc236f12",
+      "label": "Opinion",
+      "href": "https://www.foxnews.com/opinion",
+      "order": 3,
+      "path": "/opinion",
+      "children": []
+    },
+    {
+      "id": "53b12752",
+      "label": "Media",
+      "href": "https://www.foxnews.com/media",
+      "order": 4,
+      "path": "/media",
+      "children": [
+        {
+          "id": "bec57c94",
+          "label": "Fox Nation Coverage",
+          "href": "https://www.foxnews.com/shows/fox-nation",
+          "order": 0,
+          "path": "/shows/fox-nation"
+        }
+      ]
+    },
+    {
+      "id": "16db7b35",
+      "label": "Entertainment",
+      "href": "https://www.foxnews.com/entertainment",
+      "order": 5,
+      "path": "/entertainment",
+      "children": [
+        {
+          "id": "3d499b7b",
+          "label": "Prince Andrew",
+          "href": "https://www.foxnews.com/category/person/prince-andrew",
+          "order": 0,
+          "path": "/category/person/prince-andrew"
+        },
+        {
+          "id": "12674653",
+          "label": "Katy Perry",
+          "href": "https://www.foxnews.com/category/person/katy-perry",
+          "order": 1,
+          "path": "/category/person/katy-perry"
+        },
+        {
+          "id": "69d2f9df",
+          "label": "Royal Families",
+          "href": "https://www.foxnews.com/category/world/personalities/british-royals",
+          "order": 2,
+          "path": "/category/world/personalities/british-royals"
+        },
+        {
+          "id": "529e692d",
+          "label": "Country Music",
+          "href": "https://www.foxnews.com/category/entertainment/genres/country",
+          "order": 3,
+          "path": "/category/entertainment/genres/country"
+        },
+        {
+          "id": "0eb8ccd3",
+          "label": "Nicole Kidman",
+          "href": "https://www.foxnews.com/category/person/nicole-kidman",
+          "order": 4,
+          "path": "/category/person/nicole-kidman"
+        }
+      ]
+    },
+    {
+      "id": "b4b09a5b",
+      "label": "Sports",
+      "href": "https://www.foxnews.com/sports",
+      "order": 6,
+      "path": "/sports",
+      "children": [
+        {
+          "id": "ba69cdcf",
+          "label": "NFL",
+          "href": "https://www.foxnews.com/category/sports/nfl",
+          "order": 0,
+          "path": "/category/sports/nfl"
+        },
+        {
+          "id": "aaedce3c",
+          "label": "College Football",
+          "href": "https://www.foxnews.com/category/sports/ncaa-fb",
+          "order": 1,
+          "path": "/category/sports/ncaa-fb"
+        },
+        {
+          "id": "fad7b42d",
+          "label": "MLB",
+          "href": "https://www.foxnews.com/category/sports/mlb",
+          "order": 2,
+          "path": "/category/sports/mlb"
+        },
+        {
+          "id": "eed70cea",
+          "label": "NASCAR",
+          "href": "https://www.foxnews.com/category/auto/nascar",
+          "order": 3,
+          "path": "/category/auto/nascar"
+        },
+        {
+          "id": "e0e3183b",
+          "label": "INDYCAR",
+          "href": "https://www.foxnews.com/category/auto/indycar",
+          "order": 4,
+          "path": "/category/auto/indycar"
+        },
+        {
+          "id": "9d3d3943",
+          "label": "NBA",
+          "href": "https://www.foxnews.com/category/sports/nba",
+          "order": 5,
+          "path": "/category/sports/nba"
+        },
+        {
+          "id": "6a81d214",
+          "label": "NHL",
+          "href": "https://www.foxnews.com/category/sports/nhl",
+          "order": 6,
+          "path": "/category/sports/nhl"
+        },
+        {
+          "id": "c559d3d3",
+          "label": "Golf",
+          "href": "https://www.foxnews.com/category/sports/golf",
+          "order": 7,
+          "path": "/category/sports/golf"
+        },
+        {
+          "id": "7e7301a7",
+          "label": "Tennis",
+          "href": "https://www.foxnews.com/category/sports/tennis",
+          "order": 8,
+          "path": "/category/sports/tennis"
+        },
+        {
+          "id": "6d3309e0",
+          "label": "FIFA WORLD CUP 26",
+          "href": "https://www.foxsports.com/soccer/fifa-world-cup",
+          "order": 9,
+          "path": "/soccer/fifa-world-cup"
+        },
+        {
+          "id": "6da81953",
+          "label": "UFC",
+          "href": "https://www.foxnews.com/category/sports/ufc",
+          "order": 10,
+          "path": "/category/sports/ufc"
+        },
+        {
+          "id": "ff6feedc",
+          "label": "WWE",
+          "href": "https://www.foxnews.com/category/organization/wwe",
+          "order": 11,
+          "path": "/category/organization/wwe"
+        }
+      ]
+    },
+    {
+      "id": "c847b72d",
+      "label": "Lifestyle",
+      "href": "https://www.foxnews.com/lifestyle",
+      "order": 7,
+      "path": "/lifestyle",
+      "children": [
+        {
+          "id": "bbe3d057",
+          "label": "Travel",
+          "href": "https://www.foxnews.com/travel",
+          "order": 0,
+          "path": "/travel"
+        },
+        {
+          "id": "a946f701",
+          "label": "Food & Drink",
+          "href": "https://www.foxnews.com/food-drink",
+          "order": 1,
+          "path": "/food-drink"
+        },
+        {
+          "id": "9ca71c5c",
+          "label": "Faith",
+          "href": "https://www.foxnews.com/faith-values",
+          "order": 2,
+          "path": "/faith-values"
+        },
+        {
+          "id": "653906e7",
+          "label": "Discovery",
+          "href": "https://www.foxnews.com/category/science/archaeology",
+          "order": 3,
+          "path": "/category/science/archaeology"
+        },
+        {
+          "id": "ea045e87",
+          "label": "Games & Quizzes",
+          "href": "https://www.foxnews.com/games",
+          "order": 4,
+          "path": "/games"
+        }
+      ]
+    },
+    {
+      "id": "c1063af4",
+      "label": "Health",
+      "href": "https://www.foxnews.com/health",
+      "order": 8,
+      "path": "/health",
+      "children": [
+        {
+          "id": "29d2c10f",
+          "label": "Weight Loss",
+          "href": "https://www.foxnews.com/category/health/nutrition-and-fitness/weight-loss",
+          "order": 0,
+          "path": "/category/health/nutrition-and-fitness/weight-loss"
+        },
+        {
+          "id": "d8e1890f",
+          "label": "Cancer",
+          "href": "https://www.foxnews.com/category/health/cancer",
+          "order": 1,
+          "path": "/category/health/cancer"
+        },
+        {
+          "id": "49a01b49",
+          "label": "Brain Health",
+          "href": "https://www.foxnews.com/category/health/brain-health",
+          "order": 2,
+          "path": "/category/health/brain-health"
+        },
+        {
+          "id": "ad19078a",
+          "label": "Sleep",
+          "href": "https://www.foxnews.com/category/health/sleep-disorders",
+          "order": 3,
+          "path": "/category/health/sleep-disorders"
+        },
+        {
+          "id": "659f1d00",
+          "label": "Heart Health",
+          "href": "https://www.foxnews.com/category/health/heart-health",
+          "order": 4,
+          "path": "/category/health/heart-health"
+        },
+        {
+          "id": "b65983da",
+          "label": "Healthy Living",
+          "href": "https://www.foxnews.com/category/health/healthy-living",
+          "order": 5,
+          "path": "/category/health/healthy-living"
+        },
+        {
+          "id": "235e8885",
+          "label": "Mental Health",
+          "href": "https://www.foxnews.com/category/health/mental-health",
+          "order": 6,
+          "path": "/category/health/mental-health"
+        },
+        {
+          "id": "8abfa9ce",
+          "label": "MAHA",
+          "href": "https://www.foxnews.com/category/health/maha",
+          "order": 7,
+          "path": "/category/health/maha"
+        }
+      ]
+    },
+    {
+      "id": "6ed2d1ca",
+      "label": "Video",
+      "href": "https://www.foxnews.com/video",
+      "order": 9,
+      "path": "/video",
+      "children": []
+    },
+    {
+      "id": "484d9ccb",
+      "label": "More",
+      "href": "https://foxnews.com#",
+      "order": 11,
+      "path": "/",
+      "children": []
+    }
+  ],
+  "footer": {
+    "columns": [
+      {
+        "heading": null,
+        "links": [
+          {
+            "label": "See All Games",
+            "href": "https://www.foxnews.com/games"
+          }
+        ]
+      }
+    ],
+    "socials": [],
+    "contact": {}
+  },
+  "brand": {
+    "logo": "https://static.foxnews.com/static/orion/styles/img/fox-news/pages/games/game-hub/logos/scattergories.svg",
+    "name": "Fox News - Breaking News Updates | Latest News Headlines | Photos & News Videos"
+  }
+}

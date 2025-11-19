@@ -1,0 +1,1 @@
+{"run_id": "1763579756", "started_at": 1763579756.523562, "status": "completed", "pages": [], "errors": [{"url": "https://www.caterpillar.com/", "error_type": "fetch_failed", "timestamp": 1763579776.5580266}], "botAvoidanceEnabled": false, "completed_at": 1763579776.5585482, "pageLoad": {"pages": [], "summary": {}}}

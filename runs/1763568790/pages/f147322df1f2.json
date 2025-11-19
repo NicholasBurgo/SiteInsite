@@ -1,0 +1,686 @@
+{
+  "url": "https://www.newsmax.com/newsmaxbest/",
+  "path": "/newsmaxbest/",
+  "status": 200,
+  "title": "Newsmax.com - Breaking news from around the globe: U.S. news, politics, world, health, finance, video, science, technology, live news stream",
+  "description": "Top news headlines, videos and comments from Newsmax.com, an independent news source with a conservative perspective, covering politics, the White House, Congress, Hollywood, Wall Street with trusted news on health, personal finance, culture, faith and more.",
+  "canonical": "https://www.newsmax.com/newsmaxbest/",
+  "media": {
+    "images": [
+      {
+        "url": "https://www.queryly.com/images/whitesearchicon.png",
+        "alt": "Search Newsmax.com",
+        "width": null,
+        "height": null
+      },
+      {
+        "url": "https://www.newsmax.com/App_Themes/NewsmaxNew/images/NMAX-NYSE-Ticker-Horizontal.svg",
+        "alt": "",
+        "width": 200,
+        "height": null
+      },
+      {
+        "url": "https://www.newsmax.com/App_Themes/Newsmax/images/Social/icon-facebook.jpg",
+        "alt": "Facebook",
+        "width": 30,
+        "height": 30
+      },
+      {
+        "url": "https://www.newsmax.com/App_Themes/Newsmax/images/Social/icon-x-twitter.jpg",
+        "alt": "X",
+        "width": 28,
+        "height": 28
+      },
+      {
+        "url": "https://www.newsmax.com/App_Themes/Newsmax/images/Social/icon-truthsocial.jpg",
+        "alt": "Truth Social",
+        "width": 30,
+        "height": 30
+      },
+      {
+        "url": "https://www.newsmax.com/App_Themes/Newsmax/images/Social/icon-linkedin.jpg",
+        "alt": "LinkedIn",
+        "width": 30,
+        "height": 30
+      },
+      {
+        "url": "https://www.newsmax.com/App_Themes/NewsmaxNew/images/head.png",
+        "alt": "Best Lists",
+        "width": null,
+        "height": null
+      },
+      {
+        "url": "https://www.newsmax.com/CMSPages/GetFile.aspx?guid=95f4aa5a-dbbc-4b77-a93d-26ba02a86b6f&maxsidesize=114",
+        "alt": "Newsmax's List of Major Milestones in U.S. Naval History",
+        "width": null,
+        "height": null
+      },
+      {
+        "url": "https://www.newsmax.com/CMSPages/GetFile.aspx?guid=c279adbd-a61a-43d6-ad71-39f3485cbd7c&maxsidesize=114",
+        "alt": "Newsmax's List of Some of the Top Heroes of 9/11",
+        "width": null,
+        "height": null
+      },
+      {
+        "url": "https://www.newsmax.com/CMSPages/GetFile.aspx?guid=666cbdfa-e0e9-45a6-bca2-64879a2813a3&maxsidesize=114",
+        "alt": "Newsmax's List of the Best in Late Night Talk Shows",
+        "width": null,
+        "height": null
+      },
+      {
+        "url": "https://www.newsmax.com/CMSPages/GetFile.aspx?guid=8dd5c6d1-92c7-49cd-aa59-9261f7b1b6d5&maxsidesize=114",
+        "alt": "Top Events in the Life of Julius Caesar",
+        "width": null,
+        "height": null
+      },
+      {
+        "url": "https://www.newsmax.com/CMSPages/GetFile.aspx?guid=84e4b458-79c2-44e2-b684-4594abab9928&maxsidesize=114",
+        "alt": "Newsmax's List of Major Milestones in U.S. Army History",
+        "width": null,
+        "height": null
+      },
+      {
+        "url": "https://www.newsmax.com/CMSPages/GetFile.aspx?guid=f2fb726a-8115-44c1-a059-ca27b4616d93&maxsidesize=114",
+        "alt": "Newsmax's List of the 8 Most Notable Popes in History",
+        "width": null,
+        "height": null
+      },
+      {
+        "url": "https://www.newsmax.com/CMSPages/GetFile.aspx?guid=3e50f566-aebc-4ea3-ac65-1a44b41d5509&maxsidesize=114",
+        "alt": "The 8 Biggest Hate Crime Hoaxes Uncovered in 2024",
+        "width": null,
+        "height": null
+      },
+      {
+        "url": "https://www.newsmax.com/CMSPages/GetFile.aspx?guid=cceb55bc-941c-4489-b26a-7bd9233dc5a4&maxsidesize=114",
+        "alt": "The Best Films of All Time, Per Critics and Audiences",
+        "width": null,
+        "height": null
+      },
+      {
+        "url": "https://www.newsmax.com/CMSPages/GetFile.aspx?guid=622d962c-d0b6-4e71-83de-ed70d79a9156&maxsidesize=114",
+        "alt": "Newsmax's List of 8 Top Fake News Stories in 2024",
+        "width": null,
+        "height": null
+      },
+      {
+        "url": "https://www.newsmax.com/CMSPages/GetFile.aspx?guid=17db08dd-d249-430b-b401-aea33ecd9ae1&maxsidesize=114",
+        "alt": "Newsmax's List of the Worst U.S. Presidents in History",
+        "width": null,
+        "height": null
+      },
+      {
+        "url": "https://www.newsmax.com/CMSPages/GetFile.aspx?guid=a7babd0b-fc12-4ed0-bef2-4650daba5817&maxsidesize=114",
+        "alt": "Newsmax's List of the Most Controversial Presidential Pardons",
+        "width": null,
+        "height": null
+      },
+      {
+        "url": "https://www.newsmax.com/CMSPages/GetFile.aspx?guid=59ac0268-f402-4cbc-97f8-ca4e1121bd6e&maxsidesize=114",
+        "alt": "Newsmax's Top 10 Things to Give Thanks For This Year",
+        "width": null,
+        "height": null
+      },
+      {
+        "url": "https://www.newsmax.com/CMSPages/GetFile.aspx?guid=4fe880bd-68eb-4aab-b389-ff107b6d1205&maxsidesize=114",
+        "alt": "Newsmax's Top 10 Facts About Christopher Columbus",
+        "width": null,
+        "height": null
+      },
+      {
+        "url": "https://www.newsmax.com/CMSPages/GetFile.aspx?guid=d034659f-5151-4558-8024-8d99371872c9&maxsidesize=114",
+        "alt": "Newsmax's Top 10 Examples of American Culture and Traditions",
+        "width": null,
+        "height": null
+      },
+      {
+        "url": "https://www.newsmax.com/CMSPages/GetFile.aspx?guid=9bd9fd71-e30f-4dc4-814d-cd9d426944a1&maxsidesize=114",
+        "alt": "U.S. Presidents Ranked by Their Golf Game",
+        "width": null,
+        "height": null
+      },
+      {
+        "url": "https://www.newsmax.com/CMSPages/GetFile.aspx?guid=77967c7f-ad00-4d7e-a4de-25d1064940da&maxsidesize=114",
+        "alt": "Newsmax's List of 8 Huge Presidential Campaign Blunders in History",
+        "width": null,
+        "height": null
+      },
+      {
+        "url": "https://www.newsmax.com/CMSPages/GetFile.aspx?guid=777a1712-6e09-446f-aea8-7e379fe2cb67&maxsidesize=114",
+        "alt": "The Most Significant Landmark Supreme Court Decisions",
+        "width": null,
+        "height": null
+      },
+      {
+        "url": "https://www.newsmax.com/CMSPages/GetFile.aspx?guid=774e8e50-2b7a-41a3-a510-cc9d5290b2c9&maxsidesize=114",
+        "alt": "Newsmax's List of the Best Films Commemorating Teachers",
+        "width": null,
+        "height": null
+      },
+      {
+        "url": "https://www.newsmax.com/CMSPages/GetFile.aspx?guid=3e6e156f-870b-4032-a266-80e5c7956543&maxsidesize=114",
+        "alt": "Newsmax's List of 10 Top Celebrities Who Are Pro-Life",
+        "width": null,
+        "height": null
+      },
+      {
+        "url": "https://www.newsmax.com/CMSPages/GetFile.aspx?guid=4df333fd-890f-4cb9-917d-cd9aafa19963&maxsidesize=114",
+        "alt": "Newsmax's List of the 10 Best Films for Valentine's Day",
+        "width": null,
+        "height": null
+      },
+      {
+        "url": "https://www.newsmax.com/CMSPages/GetFile.aspx?guid=4192a4db-be60-49d2-a381-64595e4bad16&maxsidesize=114",
+        "alt": "Top Events in the Life of Martin Luther King Jr.",
+        "width": null,
+        "height": null
+      },
+      {
+        "url": "https://www.newsmax.com/CMSPages/GetFile.aspx?guid=f9132f79-cf10-4417-bffa-d251e3567b4f&maxsidesize=114",
+        "alt": "2023's Brand Winners , and Losers",
+        "width": null,
+        "height": null
+      },
+      {
+        "url": "https://www.newsmax.com/CMSPages/GetFile.aspx?guid=8f6e4d53-c9be-4627-bb93-4ecee8c59851&maxsidesize=114",
+        "alt": "Newsmax's List of the Best Classic Christmas Movies",
+        "width": null,
+        "height": null
+      },
+      {
+        "url": "https://www.newsmax.com/CMSPages/GetFile.aspx?guid=88023a21-4ad6-403e-9c29-1c70f7e0014c&maxsidesize=114",
+        "alt": "Newsmax's Top 10 List of Things to be Thankful for this Thanksgiving",
+        "width": null,
+        "height": null
+      },
+      {
+        "url": "https://www.newsmax.com/App_Themes/NewsmaxNew/images/SMS-Banner-300x600-v2.jpg",
+        "alt": "Get Newsmax Text Alerts",
+        "width": null,
+        "height": null
+      },
+      {
+        "url": "https://www.newsmax.com/App_Themes/NewsmaxNew/images/qrcode/white/wh-app-apple.png",
+        "alt": "Apple",
+        "width": null,
+        "height": null
+      },
+      {
+        "url": "https://www.newsmax.com/App_Themes/NewsmaxNew/images/qrcode/white/wh-app-google.png",
+        "alt": "Android",
+        "width": null,
+        "height": null
+      },
+      {
+        "url": "https://www.newsmax.com/App_Themes/NewsmaxNew/images/qrcode/white/wh-app-amazon.png",
+        "alt": "Amazon",
+        "width": null,
+        "height": null
+      },
+      {
+        "url": "https://www.newsmax.com/App_Themes/NewsmaxNew/images/qrcode/white/wh-app-samsung.png",
+        "alt": "Samsung",
+        "width": null,
+        "height": null
+      },
+      {
+        "url": "https://www.newsmax.com/App_Themes/NewsmaxNew/images/qrcode/white/wh-app-vizio.png",
+        "alt": "Vizio",
+        "width": null,
+        "height": null
+      },
+      {
+        "url": "https://www.newsmax.com/App_Themes/NewsmaxNew/images/qrcode/white/wh-app-roku.png",
+        "alt": "Roku",
+        "width": null,
+        "height": null
+      },
+      {
+        "url": "https://www.newsmax.com/App_Themes/NewsmaxNew/images/qrcode/white/wh-app-sony.png",
+        "alt": "Sony",
+        "width": null,
+        "height": null
+      },
+      {
+        "url": "https://www.newsmax.com/App_Themes/NewsmaxNew/images/qrcode/white/wh-app-lg.png",
+        "alt": "LG",
+        "width": null,
+        "height": null
+      },
+      {
+        "url": "https://www.newsmax.com/App_Themes/NewsmaxNew/images/qrcode/newsmaxqr-80.png",
+        "alt": "Scan QR code to get the NewsmaxTV App",
+        "width": null,
+        "height": null
+      },
+      {
+        "url": "https://www.newsmax.com/akam/13/pixel_220c3151?a=dD1jNmVmODczNTgwMzY2NWEyZjAyYjBmODc1OTU2NzNlNGJkZGJiODFmJmpzPW9mZg==",
+        "alt": "",
+        "width": null,
+        "height": null
+      }
+    ],
+    "videos": [
+      {
+        "url": "https://www.googletagmanager.com/ns.html?id=GTM-WL644C",
+        "type": "embed"
+      }
+    ],
+    "gifs": []
+  },
+  "files": [],
+  "words": {
+    "headings": [
+      {
+        "tag": "h2",
+        "text": "WATCH TV LIVE"
+      },
+      {
+        "tag": "h1",
+        "text": "Top Best"
+      },
+      {
+        "tag": "h5",
+        "text": "Download the Newsmax App"
+      }
+    ],
+    "paragraphs": [
+      "More Top Best Stories",
+      "Interest-Based Advertising | Do not sell or share my personal information",
+      "Newsmax, Moneynews, Newsmax Health, and Independent. American. are registered trademarks of Newsmax Media, Inc. Newsmax TV, and Newsmax World are trademarks of Newsmax Media, Inc."
+    ],
+    "wordCount": 40
+  },
+  "links": {
+    "internal": [
+      {
+        "label": "NEWSMAX",
+        "href": "https://www.newsmax.com/"
+      },
+      {
+        "label": "HEALTH",
+        "href": "https://www.newsmax.com/health/"
+      },
+      {
+        "label": "MONEY",
+        "href": "https://www.newsmax.com/finance/"
+      },
+      {
+        "label": "WORLD",
+        "href": "https://www.newsmax.com/world/"
+      },
+      {
+        "label": "",
+        "href": "https://www.newsmax.com/"
+      },
+      {
+        "label": "Newsmax",
+        "href": "https://www.newsmax.com/"
+      },
+      {
+        "label": "Health",
+        "href": "https://www.newsmax.com/health/"
+      },
+      {
+        "label": "Money",
+        "href": "https://www.newsmax.com/finance/"
+      },
+      {
+        "label": "World",
+        "href": "https://www.newsmax.com/world/"
+      },
+      {
+        "label": "Contact",
+        "href": "https://www.newsmax.com/contact/"
+      },
+      {
+        "label": "Advertise",
+        "href": "https://www.newsmax.com/advertise/"
+      },
+      {
+        "label": "Home",
+        "href": "https://www.newsmax.com/"
+      },
+      {
+        "label": "Platinum",
+        "href": "https://www.newsmax.com/platinum/"
+      },
+      {
+        "label": "Podcast",
+        "href": "https://www.newsmax.com/listen/"
+      },
+      {
+        "label": "Newsfront",
+        "href": "https://www.newsmax.com/newsfront/"
+      },
+      {
+        "label": "Politics",
+        "href": "https://www.newsmax.com/politics/"
+      },
+      {
+        "label": "Opinion",
+        "href": "https://www.newsmax.com/insiders/"
+      },
+      {
+        "label": "Wire",
+        "href": "https://www.newsmax.com/thewire/"
+      },
+      {
+        "label": "Books",
+        "href": "https://www.newsmax.com/books/"
+      },
+      {
+        "label": "Best Lists",
+        "href": "https://www.newsmax.com/newsmaxbest/"
+      },
+      {
+        "label": "Social",
+        "href": "https://www.newsmax.com/social/"
+      },
+      {
+        "label": "Games",
+        "href": "https://www.newsmax.com/games/"
+      },
+      {
+        "label": "Top Best",
+        "href": "https://www.newsmax.com/best-lists/"
+      },
+      {
+        "label": "ARCHIVE",
+        "href": "https://www.newsmax.com/archives/bestlists/342/2025/11/"
+      },
+      {
+        "label": "RSS",
+        "href": "https://www.newsmax.com/rss/bestlists/342/"
+      },
+      {
+        "label": "Newsmax's List of Major Milestones in U.S. Naval History",
+        "href": "https://www.newsmax.com/bestlists/continental-revolutionary-women/2025/10/31/id/1232645/"
+      },
+      {
+        "label": "Newsmax's List of Some of the Top Heroes of 9/11",
+        "href": "https://www.newsmax.com/bestlists/heroes-shanksville-nypd/2025/09/26/id/1227956/"
+      },
+      {
+        "label": "Newsmax's List of the Best in Late Night Talk Shows",
+        "href": "https://www.newsmax.com/bestlists/carson-maher-gutfeld/2025/08/29/id/1224411/"
+      },
+      {
+        "label": "Top Events in the Life of Julius Caesar",
+        "href": "https://www.newsmax.com/bestlists/cato-julian-pompey/2025/07/25/id/1220084/"
+      },
+      {
+        "label": "Newsmax's List of Major Milestones in U.S. Army History",
+        "href": "https://www.newsmax.com/bestlists/korean-mexican-vietnam/2025/06/27/id/1216747/"
+      },
+      {
+        "label": "Newsmax's List of Major Milestones in U.S. Army History",
+        "href": "https://www.newsmax.com/bestlists/gulf-mexcian-vietnam/2025/06/27/id/1216728/"
+      },
+      {
+        "label": "Newsmax's List of the 8 Most Notable Popes in History",
+        "href": "https://www.newsmax.com/bestlists/popes-history/2025/05/21/id/1211824/"
+      },
+      {
+        "label": "The 8 Biggest Hate Crime Hoaxes Uncovered in 2024",
+        "href": "https://www.newsmax.com/bestlists/hate-crime-hoax-2024/2025/04/23/id/1208053/"
+      },
+      {
+        "label": "The Best Films of All Time, Per Critics and Audiences",
+        "href": "https://www.newsmax.com/bestlists/disney-stewart-welles/2025/03/28/id/1204784/"
+      },
+      {
+        "label": "Newsmax's List of 8 Top Fake News Stories in 2024",
+        "href": "https://www.newsmax.com/bestlists/abc-bloodbath-cnn/2025/02/27/id/1200716/"
+      },
+      {
+        "label": "Newsmax's List of the Worst U.S. Presidents in History",
+        "href": "https://www.newsmax.com/lists/presidents-history/2025/01/31/id/1197303/"
+      },
+      {
+        "label": "Newsmax's List of the Most Controversial Presidential Pardons",
+        "href": "https://www.newsmax.com/bestlists/burisma-mormons/2024/12/23/id/1192717/"
+      },
+      {
+        "label": "Newsmax's Top 10 Things to Give Thanks For This Year",
+        "href": "https://www.newsmax.com/bestlists/filibuster-garland-mcconnell/2024/11/20/id/1188808/"
+      },
+      {
+        "label": "Newsmax's Top 10 Facts About Christopher Columbus",
+        "href": "https://www.newsmax.com/bestlists/indigenous-knights-spain/2024/10/14/id/1183999/"
+      },
+      {
+        "label": "Newsmax's Top 10 Examples of American Culture and Traditions",
+        "href": "https://www.newsmax.com/bestlists/assimilate-reliance-roosevelt/2024/09/27/id/1181975/"
+      },
+      {
+        "label": "U.S. Presidents Ranked by Their Golf Game",
+        "href": "https://www.newsmax.com/bestlists/campobello-clubs-fdr/2024/08/22/id/1177529/"
+      },
+      {
+        "label": "Newsmax's List of 8 Huge Presidential Campaign Blunders in History",
+        "href": "https://www.newsmax.com/bestlists/clinton-dukakis-ford/2024/07/29/id/1174363/"
+      },
+      {
+        "label": "The Most Significant Landmark Supreme Court Decisions",
+        "href": "https://www.newsmax.com/bestlists/dobbs-gideon-marbury/2024/06/28/id/1170501/"
+      },
+      {
+        "label": "Newsmax's List of the Best Films Commemorating Teachers",
+        "href": "https://www.newsmax.com/bestlists/teachers/2024/05/22/id/1165710/"
+      },
+      {
+        "label": "Newsmax's List of 10 Top Celebrities Who Are Pro-Life",
+        "href": "https://www.newsmax.com/bestlists/gosnell-norris-sheen/2024/04/23/id/1162094/"
+      },
+      {
+        "label": "Newsmax's List of the 10 Best Films for Valentine's Day",
+        "href": "https://www.newsmax.com/bestlists/princess-sleepless-seattle/2024/02/13/id/1153431/"
+      },
+      {
+        "label": "Top Events in the Life of Martin Luther King Jr.",
+        "href": "https://www.newsmax.com/bestlists/mlk-rfk-jfk/2024/01/11/id/1149254/"
+      },
+      {
+        "label": "2023's Brand Winners - and Losers",
+        "href": "https://www.newsmax.com/johntantillo/woke-groupthink/2023/12/27/id/1147309/"
+      },
+      {
+        "label": "Newsmax's List of the Best Classic Christmas Movies",
+        "href": "https://www.newsmax.com/bestlists/grant-hepburn-stewart/2023/12/19/id/1146522/"
+      },
+      {
+        "label": "Newsmax's Top 10 List of Things to be Thankful for this Thanksgiving",
+        "href": "https://www.newsmax.com/bestlists/house-football-scotus/2023/11/08/id/1141478/"
+      },
+      {
+        "label": "More Top Best Stories",
+        "href": "https://www.newsmax.com/archives/bestlists/342/2025/11/"
+      },
+      {
+        "label": "Privacy",
+        "href": "https://www.newsmax.com/privacystatement/"
+      },
+      {
+        "label": "Home",
+        "href": "https://www.newsmax.com/"
+      },
+      {
+        "label": "Platinum",
+        "href": "https://www.newsmax.com/platinum/"
+      },
+      {
+        "label": "Podcast",
+        "href": "https://www.newsmax.com/listen/"
+      },
+      {
+        "label": "Newsfront",
+        "href": "https://www.newsmax.com/newsfront/"
+      },
+      {
+        "label": "Politics",
+        "href": "https://www.newsmax.com/politics/"
+      },
+      {
+        "label": "Opinion",
+        "href": "https://www.newsmax.com/insiders/"
+      },
+      {
+        "label": "Wire",
+        "href": "https://www.newsmax.com/thewire/"
+      },
+      {
+        "label": "Books",
+        "href": "https://www.newsmax.com/books/"
+      },
+      {
+        "label": "Best Lists",
+        "href": "https://www.newsmax.com/newsmaxbest/"
+      },
+      {
+        "label": "Social",
+        "href": "https://www.newsmax.com/social/"
+      },
+      {
+        "label": "Games",
+        "href": "https://www.newsmax.com/games/"
+      },
+      {
+        "label": "Interest-Based Advertising",
+        "href": "https://www.newsmax.com/privacystatement#digitalAdvertising"
+      },
+      {
+        "label": "Do not sell or share my personal information",
+        "href": "https://www.newsmax.com/donotsell"
+      },
+      {
+        "label": "About",
+        "href": "https://www.newsmax.com/about/"
+      },
+      {
+        "label": "Contact",
+        "href": "https://www.newsmax.com/contact/"
+      },
+      {
+        "label": "Advertise",
+        "href": "https://www.newsmax.com/advertise/"
+      },
+      {
+        "label": "RSS",
+        "href": "https://www.newsmax.com/rss/"
+      },
+      {
+        "label": "Archives",
+        "href": "https://www.newsmax.com/archives/"
+      },
+      {
+        "label": "Privacy Policy",
+        "href": "https://www.newsmax.com/privacystatement/"
+      },
+      {
+        "label": "Terms & Conditions",
+        "href": "https://www.newsmax.com/termsconditions/"
+      }
+    ],
+    "external": [
+      {
+        "label": "WATCH TV LIVE",
+        "href": "https://www.newsmaxtv.com"
+      },
+      {
+        "label": "TV",
+        "href": "https://www.newsmaxtv.com/"
+      },
+      {
+        "label": "",
+        "href": "https://ir.newsmax.com/"
+      },
+      {
+        "label": "NewsmaxTV",
+        "href": "http://www.newsmaxtv.com/"
+      },
+      {
+        "label": "",
+        "href": "http://facebook.com/Newsmax"
+      },
+      {
+        "label": "",
+        "href": "http://twitter.com/Newsmax"
+      },
+      {
+        "label": "",
+        "href": "https://truthsocial.com/@NewsMax"
+      },
+      {
+        "label": "",
+        "href": "https://www.linkedin.com/company/newsmax-media-inc-/"
+      },
+      {
+        "label": "",
+        "href": "https://ir.newsmax.com/"
+      },
+      {
+        "label": "Shop",
+        "href": "https://www.newsmaxshop.com/"
+      },
+      {
+        "label": "Investors",
+        "href": "https://newsmaxinvest.com/"
+      },
+      {
+        "label": "TOP",
+        "href": "javascript:"
+      },
+      {
+        "label": "Investors",
+        "href": "https://newsmaxinvest.com/"
+      },
+      {
+        "label": "",
+        "href": "https://itunes.apple.com/us/app/newsmax/id878180850?mt=8"
+      },
+      {
+        "label": "",
+        "href": "https://play.google.com/store/apps/details?id=com.fli.android.newsmaxapp&utm_source=browser&utm_campaign=npluspage&pcampaignid=pcampaignidMKT-Other-global-all-co-prtnr-py-PartBadge-Mar2515-1"
+      },
+      {
+        "label": "",
+        "href": "https://www.amazon.com/Newsmax-Media-Inc-TV-Web/dp/B00QVZP4WW/"
+      },
+      {
+        "label": "",
+        "href": "https://www.samsung.com/us/tvs/smart-tv/samsung-tv-plus-and-smart-hub/"
+      },
+      {
+        "label": "",
+        "href": "https://www.vizio.com/en/smart-tv-apps?appName=newsmax&appId=vizio.newsmax"
+      },
+      {
+        "label": "",
+        "href": "https://channelstore.roku.com/details/24699/newsmax-tv"
+      },
+      {
+        "label": "",
+        "href": "https://play.google.com/store/apps/details?id=com.fli.android.newsmaxapp"
+      },
+      {
+        "label": "",
+        "href": "https://us.lgappstv.com/main/tvapp/detail?appId=988054&catCode1=006&moreYn=N&cateYn=Y&orderType=0&headerName=News%2FInfo&appRankCode=&sellrUsrNo=&curPage=2"
+      },
+      {
+        "label": "Shop",
+        "href": "https://www.newsmaxshop.com/"
+      },
+      {
+        "label": "Careers",
+        "href": "https://recruiting.ultipro.com/NEW1027/JobBoard/3d5ae180-49c4-20f7-d7b4-adfe940978a7/"
+      },
+      {
+        "label": "Manage Cookies",
+        "href": "javascript:void;"
+      }
+    ],
+    "broken": []
+  },
+  "extractedAt": "2025-11-19T16:13:21Z"
+}

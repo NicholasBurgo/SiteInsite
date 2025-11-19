@@ -177,6 +177,10 @@ class InsightReport(BaseModel):
     overallScore: int
     categories: list[InsightCategoryScore]
     stats: InsightStats
+    # New context-aware metrics
+    contentDepthScore: float | None = None  # 0-100
+    navType: str | None = None  # "single_page", "simple_nav", "multi_section", "app_style", "implicit_content_links", "none_detected"
+    crawlabilityScore: float | None = None  # 0-100
 
 # Competitor Comparison Models
 class ComparedSite(BaseModel):
@@ -188,6 +192,17 @@ class ComparisonMetric(BaseModel):
     primary: float | int | str
     competitors: dict[str, float | int | str]
 
+class ComparisonRow(BaseModel):
+    """A single comparison row for side-by-side comparison."""
+    metric: str  # e.g. "avg_load_time_ms", "seo_score", "content_depth_score"
+    label: str  # Human-readable label, e.g. "Avg Load Time", "SEO Score"
+    primaryValue: float | int | str | None
+    competitorValue: float | int | str | None
+    difference: float | int | None  # null for non-numeric metrics
+    direction: Literal["better", "worse", "neutral", "different"]  # "different" for nav_type
+    verdict: str  # Human-readable verdict, e.g. "You're slower", "Slightly behind"
+    category: str | None = None  # Optional category for filtering: "performance", "seo", "content", "structure", "overall"
+
 class ComparisonReport(BaseModel):
     primaryUrl: str
     competitors: list[str]
@@ -198,6 +213,8 @@ class ComparisonReport(BaseModel):
     seoComparison: dict[str, dict[str, float]]
     structureComparison: dict[str, dict[str, float]]
     opportunitySummary: list[str]  # Generated insights
+    # New structured comparison array
+    comparisons: list[ComparisonRow] = []  # Structured comparison rows for UI/PDF
 
 class ComparePayload(BaseModel):
     primaryUrl: str

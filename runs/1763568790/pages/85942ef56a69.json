@@ -1,0 +1,609 @@
+{
+  "url": "https://www.newsmax.com/advertise/",
+  "path": "/advertise/",
+  "status": 200,
+  "title": "Newsmax - Advertise",
+  "description": "Newsmax.com is one of the nation's leading independent news site focusing on breaking news, politics, finance, personal health, technology and entertainment. It provides news and analysis from Dick Morris, Bill O'Reilly, Christopher Ruddy, Susan Estrich, Ed Koch and other opinion makers.",
+  "canonical": "https://www.newsmax.com/advertise/",
+  "media": {
+    "images": [
+      {
+        "url": "https://www.queryly.com/images/whitesearchicon.png",
+        "alt": "Search Newsmax.com",
+        "width": null,
+        "height": null
+      },
+      {
+        "url": "https://www.newsmax.com/App_Themes/NewsmaxNew/images/NMAX-NYSE-Ticker-Horizontal.svg",
+        "alt": "",
+        "width": 200,
+        "height": null
+      },
+      {
+        "url": "https://www.newsmax.com/App_Themes/Newsmax/images/Social/icon-facebook.jpg",
+        "alt": "Facebook",
+        "width": 30,
+        "height": 30
+      },
+      {
+        "url": "https://www.newsmax.com/App_Themes/Newsmax/images/Social/icon-x-twitter.jpg",
+        "alt": "X",
+        "width": 28,
+        "height": 28
+      },
+      {
+        "url": "https://www.newsmax.com/App_Themes/Newsmax/images/Social/icon-truthsocial.jpg",
+        "alt": "Truth Social",
+        "width": 30,
+        "height": 30
+      },
+      {
+        "url": "https://www.newsmax.com/App_Themes/Newsmax/images/Social/icon-linkedin.jpg",
+        "alt": "LinkedIn",
+        "width": 30,
+        "height": 30
+      },
+      {
+        "url": "https://www.newsmax.com/App_Themes/NewsmaxNew/images/Advertise/2025/GAA-side-tile.jpg",
+        "alt": "Newsmax Reach",
+        "width": null,
+        "height": null
+      },
+      {
+        "url": "https://www.newsmax.com/App_Themes/NewsmaxNew/images/Advertise/2025/Newsmax-Reach-960x720.jpg?v=2",
+        "alt": "Newsmax Reach",
+        "width": null,
+        "height": null
+      },
+      {
+        "url": "https://www.newsmax.com/App_Themes/NewsmaxNew/images/Advertise/2025/Newsmax2-Is-Growing-Fast-Sidebar.jpg",
+        "alt": "Newsmax2 Is Growing Fast",
+        "width": null,
+        "height": null
+      },
+      {
+        "url": "https://www.newsmax.com/App_Themes/NewsmaxNew/images/Advertise/2025/NMRR-Q12025-1.jpg",
+        "alt": "Newsmax Ratings Report Q1 2025",
+        "width": null,
+        "height": null
+      },
+      {
+        "url": "https://www.newsmax.com/App_Themes/NewsmaxNew/images/Advertise/quotes.jpg",
+        "alt": "Newsmax Quotes",
+        "width": null,
+        "height": null
+      },
+      {
+        "url": "https://www.newsmax.com/App_Themes/NewsmaxNew/images/qrcode/white/wh-app-apple.png",
+        "alt": "Apple",
+        "width": null,
+        "height": null
+      },
+      {
+        "url": "https://www.newsmax.com/App_Themes/NewsmaxNew/images/qrcode/white/wh-app-google.png",
+        "alt": "Android",
+        "width": null,
+        "height": null
+      },
+      {
+        "url": "https://www.newsmax.com/App_Themes/NewsmaxNew/images/qrcode/white/wh-app-amazon.png",
+        "alt": "Amazon",
+        "width": null,
+        "height": null
+      },
+      {
+        "url": "https://www.newsmax.com/App_Themes/NewsmaxNew/images/qrcode/white/wh-app-samsung.png",
+        "alt": "Samsung",
+        "width": null,
+        "height": null
+      },
+      {
+        "url": "https://www.newsmax.com/App_Themes/NewsmaxNew/images/qrcode/white/wh-app-vizio.png",
+        "alt": "Vizio",
+        "width": null,
+        "height": null
+      },
+      {
+        "url": "https://www.newsmax.com/App_Themes/NewsmaxNew/images/qrcode/white/wh-app-roku.png",
+        "alt": "Roku",
+        "width": null,
+        "height": null
+      },
+      {
+        "url": "https://www.newsmax.com/App_Themes/NewsmaxNew/images/qrcode/white/wh-app-sony.png",
+        "alt": "Sony",
+        "width": null,
+        "height": null
+      },
+      {
+        "url": "https://www.newsmax.com/App_Themes/NewsmaxNew/images/qrcode/white/wh-app-lg.png",
+        "alt": "LG",
+        "width": null,
+        "height": null
+      },
+      {
+        "url": "https://www.newsmax.com/App_Themes/NewsmaxNew/images/qrcode/newsmaxqr-80.png",
+        "alt": "Scan QR code to get the NewsmaxTV App",
+        "width": null,
+        "height": null
+      },
+      {
+        "url": "https://www.newsmax.com/akam/13/pixel_220c3151?a=dD1jNmVmODczNTgwMzY2NWEyZjAyYjBmODc1OTU2NzNlNGJkZGJiODFmJmpzPW9mZg==",
+        "alt": "",
+        "width": null,
+        "height": null
+      }
+    ],
+    "videos": [
+      {
+        "url": "https://www.googletagmanager.com/ns.html?id=GTM-WL644C",
+        "type": "embed"
+      }
+    ],
+    "gifs": []
+  },
+  "files": [
+    {
+      "url": "https://www.newsmax.com/App_Themes/NewsmaxNew/images/Advertise/MediaKits/NewsmaxMediaKit_Full.pdf",
+      "type": "pdf",
+      "label": "Full Media Kit",
+      "bytes": null
+    },
+    {
+      "url": "https://www.newsmax.com/App_Themes/NewsmaxNew/images/Advertise/MediaKits/NewsmaxMediaKit_Overview.pdf",
+      "type": "pdf",
+      "label": "Overview",
+      "bytes": null
+    },
+    {
+      "url": "https://www.newsmax.com/App_Themes/NewsmaxNew/images/Advertise/MediaKits/NewsmaxMediaKit_TV.pdf",
+      "type": "pdf",
+      "label": "TV",
+      "bytes": null
+    },
+    {
+      "url": "https://www.newsmax.com/App_Themes/NewsmaxNew/images/Advertise/MediaKits/NewsmaxMediaKit_Digital.pdf",
+      "type": "pdf",
+      "label": "Digital",
+      "bytes": null
+    },
+    {
+      "url": "https://www.newsmax.com/App_Themes/NewsmaxNew/images/Advertise/MediaKits/NewsmaxMediaKit_Email.pdf",
+      "type": "pdf",
+      "label": "Email",
+      "bytes": null
+    },
+    {
+      "url": "https://www.newsmax.com/App_Themes/NewsmaxNew/images/Advertise/MediaKits/NewsmaxMediaKit_Social.pdf",
+      "type": "pdf",
+      "label": "Social Media",
+      "bytes": null
+    },
+    {
+      "url": "https://www.newsmax.com/App_Themes/NewsmaxNew/images/Advertise/MediaKits/NewsmaxMediaKit_Print.pdf",
+      "type": "pdf",
+      "label": "Print",
+      "bytes": null
+    },
+    {
+      "url": "https://www.newsmax.com/App_Themes/NewsmaxNew/images/Advertise/MediaKits/NewsmaxMediaKit_Podcasts.pdf",
+      "type": "pdf",
+      "label": "Podcasts",
+      "bytes": null
+    }
+  ],
+  "words": {
+    "headings": [
+      {
+        "tag": "h2",
+        "text": "WATCH TV LIVE"
+      },
+      {
+        "tag": "h1",
+        "text": "Newsmax Media Kit"
+      },
+      {
+        "tag": "h2",
+        "text": "Newsmax reaches an audience of the most mass-affluent and highly informed readers and viewers in America."
+      },
+      {
+        "tag": "h2",
+        "text": "See our Newsmax Reach Report."
+      },
+      {
+        "tag": "h3",
+        "text": "American"
+      },
+      {
+        "tag": "h3",
+        "text": "Australian"
+      },
+      {
+        "tag": "h3",
+        "text": "Newsmax"
+      },
+      {
+        "tag": "h3",
+        "text": "Download the Newsmax Media Kit"
+      },
+      {
+        "tag": "h5",
+        "text": "Download the Newsmax App"
+      }
+    ],
+    "paragraphs": [
+      "Newsmax has one of the best marketplaces of 45+ Americans in the media world. We call our core audience BOOMER POWER+.",
+      "They are not only America\u2019s Baby Boomers, but also those who share their values, their interests, and their buying power!",
+      "The BOOMER POWER+ audience represents 40 percent of the U.S. population, but they control over 70 percent of the nation\u2019s disposable income.",
+      "They want news sources that reflect their values.",
+      "They come to Newsmax to read the real news.",
+      "They come to us on television, on the web, on their apps, their social media and more!",
+      "And they want quality information they can trust.",
+      "A recent Reuters Institute study found Newsmax was now one of the top 12 news brands in the U.S.",
+      "We provide quality content every minute, every day.",
+      "Our news team is composed of some of the most distinguished, award-winning journalists in the industry.",
+      "We reach over 40 million Americans regularly \u2013 and they are highly responsive to our advertisers!",
+      "As a marketer, you can tap into Newsmax\u2019s powerful platforms:",
+      "For advertisers, our targeted demographic of upper-income BOOMER POWER+ viewers is hands-down one of the most attractive audiences in the marketplace.",
+      "Check us out today for great rates to reach our powerful television, digital and print audiences!",
+      "Previous Ratings Reports",
+      "Note: When emailing, please provide your name, company and phone number.",
+      "Adobe Reader is required to view the above PDF files. This is a free program available from the Adobe website. Click Here and follow the download directions on the Adobe website to get your copy of Adobe Reader.",
+      "Interest-Based Advertising | Do not sell or share my personal information",
+      "Newsmax, Moneynews, Newsmax Health, and Independent. American. are registered trademarks of Newsmax Media, Inc. Newsmax TV, and Newsmax World are trademarks of Newsmax Media, Inc."
+    ],
+    "wordCount": 299
+  },
+  "links": {
+    "internal": [
+      {
+        "label": "NEWSMAX",
+        "href": "https://www.newsmax.com/"
+      },
+      {
+        "label": "HEALTH",
+        "href": "https://www.newsmax.com/health/"
+      },
+      {
+        "label": "MONEY",
+        "href": "https://www.newsmax.com/finance/"
+      },
+      {
+        "label": "WORLD",
+        "href": "https://www.newsmax.com/world/"
+      },
+      {
+        "label": "",
+        "href": "https://www.newsmax.com/"
+      },
+      {
+        "label": "Newsmax",
+        "href": "https://www.newsmax.com/"
+      },
+      {
+        "label": "Health",
+        "href": "https://www.newsmax.com/health/"
+      },
+      {
+        "label": "Money",
+        "href": "https://www.newsmax.com/finance/"
+      },
+      {
+        "label": "World",
+        "href": "https://www.newsmax.com/world/"
+      },
+      {
+        "label": "Contact",
+        "href": "https://www.newsmax.com/contact/"
+      },
+      {
+        "label": "Advertise",
+        "href": "https://www.newsmax.com/advertise/"
+      },
+      {
+        "label": "Home",
+        "href": "https://www.newsmax.com/"
+      },
+      {
+        "label": "Platinum",
+        "href": "https://www.newsmax.com/platinum/"
+      },
+      {
+        "label": "Podcast",
+        "href": "https://www.newsmax.com/listen/"
+      },
+      {
+        "label": "Newsfront",
+        "href": "https://www.newsmax.com/newsfront/"
+      },
+      {
+        "label": "Politics",
+        "href": "https://www.newsmax.com/politics/"
+      },
+      {
+        "label": "Opinion",
+        "href": "https://www.newsmax.com/insiders/"
+      },
+      {
+        "label": "Wire",
+        "href": "https://www.newsmax.com/thewire/"
+      },
+      {
+        "label": "Books",
+        "href": "https://www.newsmax.com/books/"
+      },
+      {
+        "label": "Best Lists",
+        "href": "https://www.newsmax.com/newsmaxbest/"
+      },
+      {
+        "label": "Social",
+        "href": "https://www.newsmax.com/social/"
+      },
+      {
+        "label": "Games",
+        "href": "https://www.newsmax.com/games/"
+      },
+      {
+        "label": "See our Newsmax Reach Report",
+        "href": "https://www.newsmax.com/the-newsmax-reach/"
+      },
+      {
+        "label": "",
+        "href": "https://www.newsmax.com/advertise/NewsmaxGrowingAffluentAudience"
+      },
+      {
+        "label": "",
+        "href": "https://www.newsmax.com/the-newsmax-reach"
+      },
+      {
+        "label": "",
+        "href": "https://www.newsmax.com/advertise/Newsmax2IsGrowingFast"
+      },
+      {
+        "label": "",
+        "href": "https://www.newsmax.com/advertise/NewsmaxRatingsReport2025"
+      },
+      {
+        "label": "2024 Q3",
+        "href": "https://www.newsmax.com/advertise/BiggestQuarterEver"
+      },
+      {
+        "label": "2024 Q2",
+        "href": "https://www.newsmax.com/advertise/NewsmaxRoars"
+      },
+      {
+        "label": "2024 Q1",
+        "href": "https://www.newsmax.com/advertise/Newsmax2024Q1"
+      },
+      {
+        "label": "2023",
+        "href": "https://www.newsmax.com/advertise/NewsmaxExecutiveReport"
+      },
+      {
+        "label": "Full Media Kit",
+        "href": "https://www.newsmax.com/App_Themes/NewsmaxNew/images/Advertise/MediaKits/NewsmaxMediaKit_Full.pdf"
+      },
+      {
+        "label": "Overview",
+        "href": "https://www.newsmax.com/App_Themes/NewsmaxNew/images/Advertise/MediaKits/NewsmaxMediaKit_Overview.pdf"
+      },
+      {
+        "label": "TV",
+        "href": "https://www.newsmax.com/App_Themes/NewsmaxNew/images/Advertise/MediaKits/NewsmaxMediaKit_TV.pdf"
+      },
+      {
+        "label": "Digital",
+        "href": "https://www.newsmax.com/App_Themes/NewsmaxNew/images/Advertise/MediaKits/NewsmaxMediaKit_Digital.pdf"
+      },
+      {
+        "label": "Email",
+        "href": "https://www.newsmax.com/App_Themes/NewsmaxNew/images/Advertise/MediaKits/NewsmaxMediaKit_Email.pdf"
+      },
+      {
+        "label": "Social Media",
+        "href": "https://www.newsmax.com/App_Themes/NewsmaxNew/images/Advertise/MediaKits/NewsmaxMediaKit_Social.pdf"
+      },
+      {
+        "label": "Print",
+        "href": "https://www.newsmax.com/App_Themes/NewsmaxNew/images/Advertise/MediaKits/NewsmaxMediaKit_Print.pdf"
+      },
+      {
+        "label": "Podcasts",
+        "href": "https://www.newsmax.com/App_Themes/NewsmaxNew/images/Advertise/MediaKits/NewsmaxMediaKit_Podcasts.pdf"
+      },
+      {
+        "label": "Home",
+        "href": "https://www.newsmax.com/"
+      },
+      {
+        "label": "Platinum",
+        "href": "https://www.newsmax.com/platinum/"
+      },
+      {
+        "label": "Podcast",
+        "href": "https://www.newsmax.com/listen/"
+      },
+      {
+        "label": "Newsfront",
+        "href": "https://www.newsmax.com/newsfront/"
+      },
+      {
+        "label": "Politics",
+        "href": "https://www.newsmax.com/politics/"
+      },
+      {
+        "label": "Opinion",
+        "href": "https://www.newsmax.com/insiders/"
+      },
+      {
+        "label": "Wire",
+        "href": "https://www.newsmax.com/thewire/"
+      },
+      {
+        "label": "Books",
+        "href": "https://www.newsmax.com/books/"
+      },
+      {
+        "label": "Best Lists",
+        "href": "https://www.newsmax.com/newsmaxbest/"
+      },
+      {
+        "label": "Social",
+        "href": "https://www.newsmax.com/social/"
+      },
+      {
+        "label": "Games",
+        "href": "https://www.newsmax.com/games/"
+      },
+      {
+        "label": "Interest-Based Advertising",
+        "href": "https://www.newsmax.com/privacystatement#digitalAdvertising"
+      },
+      {
+        "label": "Do not sell or share my personal information",
+        "href": "https://www.newsmax.com/donotsell"
+      },
+      {
+        "label": "About",
+        "href": "https://www.newsmax.com/about/"
+      },
+      {
+        "label": "Contact",
+        "href": "https://www.newsmax.com/contact/"
+      },
+      {
+        "label": "Advertise",
+        "href": "https://www.newsmax.com/advertise/"
+      },
+      {
+        "label": "RSS",
+        "href": "https://www.newsmax.com/rss/"
+      },
+      {
+        "label": "Archives",
+        "href": "https://www.newsmax.com/archives/"
+      },
+      {
+        "label": "Privacy Policy",
+        "href": "https://www.newsmax.com/privacystatement/"
+      },
+      {
+        "label": "Terms & Conditions",
+        "href": "https://www.newsmax.com/termsconditions/"
+      }
+    ],
+    "external": [
+      {
+        "label": "WATCH TV LIVE",
+        "href": "https://www.newsmaxtv.com"
+      },
+      {
+        "label": "TV",
+        "href": "https://www.newsmaxtv.com/"
+      },
+      {
+        "label": "",
+        "href": "https://ir.newsmax.com/"
+      },
+      {
+        "label": "NewsmaxTV",
+        "href": "http://www.newsmaxtv.com/"
+      },
+      {
+        "label": "",
+        "href": "http://facebook.com/Newsmax"
+      },
+      {
+        "label": "",
+        "href": "http://twitter.com/Newsmax"
+      },
+      {
+        "label": "",
+        "href": "https://truthsocial.com/@NewsMax"
+      },
+      {
+        "label": "",
+        "href": "https://www.linkedin.com/company/newsmax-media-inc-/"
+      },
+      {
+        "label": "",
+        "href": "https://ir.newsmax.com/"
+      },
+      {
+        "label": "Shop",
+        "href": "https://www.newsmaxshop.com/"
+      },
+      {
+        "label": "Investors",
+        "href": "https://newsmaxinvest.com/"
+      },
+      {
+        "label": "tvadcopy@newsmax.com",
+        "href": "mailto:tvadcopy@newsmax.com"
+      },
+      {
+        "label": "adcopy@newsmax.com",
+        "href": "mailto:adcopy@newsmax.com"
+      },
+      {
+        "label": "Click Here",
+        "href": "https://get.adobe.com/reader/"
+      },
+      {
+        "label": "TOP",
+        "href": "javascript:"
+      },
+      {
+        "label": "Investors",
+        "href": "https://newsmaxinvest.com/"
+      },
+      {
+        "label": "",
+        "href": "https://itunes.apple.com/us/app/newsmax/id878180850?mt=8"
+      },
+      {
+        "label": "",
+        "href": "https://play.google.com/store/apps/details?id=com.fli.android.newsmaxapp&utm_source=browser&utm_campaign=npluspage&pcampaignid=pcampaignidMKT-Other-global-all-co-prtnr-py-PartBadge-Mar2515-1"
+      },
+      {
+        "label": "",
+        "href": "https://www.amazon.com/Newsmax-Media-Inc-TV-Web/dp/B00QVZP4WW/"
+      },
+      {
+        "label": "",
+        "href": "https://www.samsung.com/us/tvs/smart-tv/samsung-tv-plus-and-smart-hub/"
+      },
+      {
+        "label": "",
+        "href": "https://www.vizio.com/en/smart-tv-apps?appName=newsmax&appId=vizio.newsmax"
+      },
+      {
+        "label": "",
+        "href": "https://channelstore.roku.com/details/24699/newsmax-tv"
+      },
+      {
+        "label": "",
+        "href": "https://play.google.com/store/apps/details?id=com.fli.android.newsmaxapp"
+      },
+      {
+        "label": "",
+        "href": "https://us.lgappstv.com/main/tvapp/detail?appId=988054&catCode1=006&moreYn=N&cateYn=Y&orderType=0&headerName=News%2FInfo&appRankCode=&sellrUsrNo=&curPage=2"
+      },
+      {
+        "label": "Shop",
+        "href": "https://www.newsmaxshop.com/"
+      },
+      {
+        "label": "Careers",
+        "href": "https://recruiting.ultipro.com/NEW1027/JobBoard/3d5ae180-49c4-20f7-d7b4-adfe940978a7/"
+      },
+      {
+        "label": "Manage Cookies",
+        "href": "javascript:void;"
+      }
+    ],
+    "broken": []
+  },
+  "extractedAt": "2025-11-19T16:13:17Z"
+}

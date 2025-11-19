@@ -1,1 +1,0 @@
-{"run_id": "1763563363", "started_at": 1763563363.6819303, "status": "completed", "pages": [], "errors": [{"url": "https://mrhandyman.com", "error_type": "fetch_failed", "timestamp": 1763563364.3155577}], "botAvoidanceEnabled": false, "completed_at": 1763563364.3158183, "pageLoad": {"pages": [], "summary": {}}}

@@ -1,0 +1,12 @@
+{
+  "baseUrl": "https://www.newsmax.com/",
+  "nav": [],
+  "footer": {
+    "columns": [],
+    "socials": [],
+    "contact": {}
+  },
+  "brand": {
+    "name": "Newsmax \u2013 Breaking News | News Videos | Politics, Health, Finance"
+  }
+}

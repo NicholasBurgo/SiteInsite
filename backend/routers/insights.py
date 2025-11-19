@@ -10,7 +10,7 @@ from datetime import datetime
 from fastapi import APIRouter, HTTPException, Query
 from fastapi.responses import StreamingResponse
 import pdfkit
-from backend.core.types import InsightReport, ComparePayload, ComparisonReport, ComparedSite
+from backend.core.types import InsightReport, ComparePayload, ComparisonReport, ComparedSite, ComparisonRow
 from backend.storage.runs import RunStore
 from backend.insights.summary import build_insight_report
 from backend.insights.comparison import generate_opportunities
@@ -80,6 +80,160 @@ async def get_insight_summary(run_id: str) -> InsightReport:
     except Exception as e:
         raise HTTPException(status_code=500, detail=f"Error generating insight report: {str(e)}")
 
+def generate_comparison_rows_for_pdf(primary_report: InsightReport, competitor_reports: list[InsightReport]) -> list[ComparisonRow]:
+    """
+    Generate comparison rows for PDF export when competitors are provided.
+    Compares primary report against the first competitor (or aggregates if multiple).
+    """
+    if not competitor_reports:
+        return []
+    
+    # Use first competitor for comparison (can extend to multiple later)
+    competitor = competitor_reports[0]
+    comparisons = []
+    
+    def get_category_score(r: InsightReport, category: str) -> float:
+        cat = next((c for c in r.categories if c.category == category), None)
+        return float(cat.score) if cat else 0.0
+    
+    # Overall Score
+    primary_overall = float(primary_report.overallScore)
+    comp_overall = float(competitor.overallScore)
+    diff_overall = primary_overall - comp_overall
+    comparisons.append(ComparisonRow(
+        metric="overall_score",
+        label="Overall Score",
+        primaryValue=round(primary_overall, 1),
+        competitorValue=round(comp_overall, 1),
+        difference=round(diff_overall, 1),
+        direction="better" if diff_overall > 5 else "worse" if diff_overall < -5 else "neutral",
+        verdict="Slightly ahead overall" if diff_overall > 5 else "Slightly behind overall" if diff_overall < -5 else "Similar overall",
+        category="overall"
+    ))
+    
+    # Category Scores
+    for category in ["performance", "seo", "content", "structure"]:
+        primary_score = get_category_score(primary_report, category)
+        comp_score = get_category_score(competitor, category)
+        diff = primary_score - comp_score
+        
+        if abs(diff) < 3:
+            verdict = f"Similar {category}"
+            direction = "neutral"
+        elif diff > 10:
+            verdict = f"Stronger {category}"
+            direction = "better"
+        elif diff > 0:
+            verdict = f"Slightly ahead in {category}"
+            direction = "better"
+        elif diff < -10:
+            verdict = f"{category.capitalize()} lags behind"
+            direction = "worse"
+        else:
+            verdict = f"Slightly behind in {category}"
+            direction = "worse"
+        
+        comparisons.append(ComparisonRow(
+            metric=f"{category}_score",
+            label=category.capitalize(),
+            primaryValue=round(primary_score, 1),
+            competitorValue=round(comp_score, 1),
+            difference=round(diff, 1),
+            direction=direction,
+            verdict=verdict,
+            category=category
+        ))
+    
+    # Performance Metrics
+    primary_load = primary_report.stats.avgLoadMs
+    comp_load = competitor.stats.avgLoadMs
+    load_diff = primary_load - comp_load
+    comparisons.append(ComparisonRow(
+        metric="avg_load_time_ms",
+        label="Avg Load Time",
+        primaryValue=round(primary_load, 0),
+        competitorValue=round(comp_load, 0),
+        difference=round(load_diff, 0),
+        direction="worse" if load_diff > 200 else "better" if load_diff < -200 else "neutral",
+        verdict=f"You're {abs(load_diff):.0f}ms slower" if load_diff > 200 else f"You're {abs(load_diff):.0f}ms faster" if load_diff < -200 else "Similar load times",
+        category="performance"
+    ))
+    
+    # Content Depth Score
+    if primary_report.contentDepthScore is not None and competitor.contentDepthScore is not None:
+        primary_depth = primary_report.contentDepthScore
+        comp_depth = competitor.contentDepthScore
+        depth_diff = primary_depth - comp_depth
+        comparisons.append(ComparisonRow(
+            metric="content_depth_score",
+            label="Content Depth",
+            primaryValue=round(primary_depth, 1),
+            competitorValue=round(comp_depth, 1),
+            difference=round(depth_diff, 1),
+            direction="worse" if depth_diff < -5 else "better" if depth_diff > 5 else "neutral",
+            verdict="Needs richer content" if depth_diff < -5 else "Stronger content depth" if depth_diff > 5 else "Similar content depth",
+            category="content"
+        ))
+    
+    # Navigation Type
+    if primary_report.navType and competitor.navType:
+        nav_same = primary_report.navType == competitor.navType
+        comparisons.append(ComparisonRow(
+            metric="nav_type",
+            label="Navigation Type",
+            primaryValue=primary_report.navType,
+            competitorValue=competitor.navType,
+            difference=None,
+            direction="different" if not nav_same else "neutral",
+            verdict="Different structure types" if not nav_same else "Similar navigation structure",
+            category="structure"
+        ))
+    
+    # Crawlability Score
+    if primary_report.crawlabilityScore is not None and competitor.crawlabilityScore is not None:
+        primary_crawl = primary_report.crawlabilityScore
+        comp_crawl = competitor.crawlabilityScore
+        crawl_diff = primary_crawl - comp_crawl
+        comparisons.append(ComparisonRow(
+            metric="crawlability_score",
+            label="Crawlability",
+            primaryValue=round(primary_crawl, 1),
+            competitorValue=round(comp_crawl, 1),
+            difference=round(crawl_diff, 1),
+            direction="worse" if crawl_diff < -10 else "better" if crawl_diff > 10 else "neutral",
+            verdict="Bots find them easier" if crawl_diff < -10 else "Better bot traversal" if crawl_diff > 10 else "Similar crawlability",
+            category="structure"
+        ))
+    
+    # Pages count
+    pages_diff = primary_report.stats.pagesCount - competitor.stats.pagesCount
+    comparisons.append(ComparisonRow(
+        metric="pages_count",
+        label="Total Pages",
+        primaryValue=primary_report.stats.pagesCount,
+        competitorValue=competitor.stats.pagesCount,
+        difference=pages_diff,
+        direction="better" if pages_diff > 0 else "worse" if pages_diff < 0 else "neutral",
+        verdict=f"{abs(pages_diff)} {'more' if pages_diff > 0 else 'fewer'} pages" if pages_diff != 0 else "Similar page count",
+        category="content"
+    ))
+    
+    # Total Words
+    words_diff = primary_report.stats.totalWords - competitor.stats.totalWords
+    comparisons.append(ComparisonRow(
+        metric="total_words",
+        label="Total Words",
+        primaryValue=primary_report.stats.totalWords,
+        competitorValue=competitor.stats.totalWords,
+        difference=words_diff,
+        direction="better" if words_diff > 0 else "worse" if words_diff < 0 else "neutral",
+        verdict=f"{abs(words_diff):,} {'more' if words_diff > 0 else 'fewer'} words" if words_diff != 0 else "Similar word count",
+        category="content"
+    ))
+    
+    return comparisons
+
+
 @router.get("/api/insights/{run_id}/export")
 async def export_insight_report_pdf(
     run_id: str, 
@@ -112,6 +266,11 @@ async def export_insight_report_pdf(
                     print(f"Warning: Failed to load competitor report {comp_run_id}: {e}")
                     continue
         
+        # Generate comparison rows if competitors exist
+        comparison_rows = []
+        if competitor_reports:
+            comparison_rows = generate_comparison_rows_for_pdf(report, competitor_reports)
+        
         # Compute top fixes: sort by severity (high > medium > low) then affectedPages length
         def severity_rank(sev: str) -> int:
             if sev == "high":
@@ -132,190 +291,454 @@ async def export_insight_report_pdf(
         )
         top_issues = all_issues_sorted[:5]
         
-        # Build HTML report (same structure as before, optimized for PDF)
+        # Helper function to format values for display
+        def format_value(val, is_time=False):
+            if val is None:
+                return "—"
+            if isinstance(val, (int, float)):
+                if is_time:
+                    return f"{val:.0f} ms"
+                return f"{val:,.0f}" if isinstance(val, float) else f"{val:,}"
+            return str(val)
+        
+        def format_difference(diff, is_time=False):
+            if diff is None:
+                return "—"
+            if isinstance(diff, (int, float)):
+                sign = "+" if diff > 0 else ""
+                if is_time:
+                    return f"{sign}{diff:.0f} ms"
+                return f"{sign}{diff:,.0f}" if isinstance(diff, float) else f"{sign}{diff:,}"
+            return str(diff)
+        
+        # Build HTML report with new structure
         html = f"""<!doctype html>
 <html lang="en">
 <head>
   <meta charset="utf-8" />
   <title>SiteInsite Report – {report.baseUrl or report.runId}</title>
   <style>
+    @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
+    :root {{
+      --brand-bg: #0D0F12;
+      --brand-text: #E6EBF0;
+      --accent: #4A90E2;
+      --accent-alt: #A8C5DA;
+      --neutral-light: #F4F5F7;
+      --neutral-dark: #1F2328;
+      --good: #00C853;
+      --bad: #D32F2F;
+      --neutral: #9CA3AF;
+    }}
     body {{
-      font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
-      margin: 2rem;
-      background: #ffffff;
-      color: #111827;
+      font-family: Inter, sans-serif;
+      background: white;
+      color: #0D0F12;
+      margin: 48px;
+      font-size: 12px;
+      font-weight: 400;
     }}
-    h1, h2, h3 {{
-      margin-top: 0;
-      margin-bottom: 0.4rem;
-    }}
-    p {{
-      margin: 0.2rem 0;
-    }}
-    .score {{
-      font-size: 2.5rem;
+    h1, h2, h3, h4 {{
+      font-family: Inter, sans-serif;
       font-weight: 700;
+      color: #0D0F12;
+    }}
+    h1 {{
+      font-size: 24px;
+      margin-bottom: 16px;
+    }}
+    h2 {{
+      border-left: 6px solid var(--accent-alt);
+      padding-left: 14px;
+      margin-top: 40px;
+      margin-bottom: 12px;
+      font-size: 20px;
+      font-weight: bold;
+      color: #0D0F12;
+    }}
+    h3 {{
+      font-size: 16px;
+      margin-top: 20px;
+      margin-bottom: 8px;
+      color: #0D0F12;
+    }}
+    h4 {{
+      font-size: 14px;
+      margin-top: 16px;
+      margin-bottom: 8px;
+      color: #0D0F12;
+    }}
+    .muted {{
+      color: var(--neutral);
+      font-size: 11px;
     }}
     .section {{
-      background: #f9fafb;
-      border-radius: 0.75rem;
-      padding: 1.25rem 1.5rem;
-      margin-bottom: 1.2rem;
-      border: 1px solid #e5e7eb;
+      margin-bottom: 32px;
+      page-break-inside: avoid;
     }}
-    .grid {{
-      display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
-      gap: 0.75rem;
+    .card {{
+      background: var(--neutral-light);
+      padding: 14px;
+      margin-bottom: 8px;
+      border-radius: 8px;
+      border: 1px solid #E5E7EB;
+      color: #0D0F12;
     }}
-    .small {{
-      font-size: 0.85rem;
-      color: #6b7280;
+    .card strong {{
+      color: #0D0F12;
+      font-weight: 700;
+    }}
+    .score-big {{
+      font-size: 32px;
+      font-weight: 700;
+      color: #0D0F12;
+      font-family: Inter, sans-serif;
+    }}
+    .pill {{
+      display: inline-block;
+      padding: 4px 8px;
+      border-radius: 4px;
+      font-size: 10px;
+      font-weight: 600;
+      color: white;
+    }}
+    table {{
+      width: 100%;
+      border-collapse: collapse;
+      margin-top: 10px;
+      font-size: 12px;
+    }}
+    th, td {{
+      padding: 8px;
+      text-align: left;
+      border: 1px solid rgba(31, 35, 40, 0.15);
+      color: #0D0F12;
+    }}
+    th {{
+      background: var(--neutral-dark);
+      color: var(--brand-text);
+      font-weight: 700;
+    }}
+    tr:nth-child(even) {{
+      background: #F9FAFB;
+    }}
+    tr:nth-child(odd) {{
+      background: transparent;
+    }}
+    .text-right {{
+      text-align: right;
+    }}
+    .text-center {{
+      text-align: center;
+    }}
+    .badge-good {{
+      display: inline-block;
+      padding: 4px 8px;
+      border-radius: 4px;
+      font-size: 10px;
+      color: white;
+      background: var(--good);
+      font-weight: 600;
+    }}
+    .badge-bad {{
+      display: inline-block;
+      padding: 4px 8px;
+      border-radius: 4px;
+      font-size: 10px;
+      color: white;
+      background: var(--bad);
+      font-weight: 600;
+    }}
+    .badge-neutral {{
+      display: inline-block;
+      padding: 4px 8px;
+      border-radius: 4px;
+      font-size: 10px;
+      color: #0D0F12;
+      background: var(--accent-alt);
+      font-weight: 600;
     }}
     ul {{
       padding-left: 1.25rem;
+      margin: 8px 0;
+      color: #0D0F12;
     }}
-    ol {{
-      padding-left: 1.25rem;
+    li {{
+      margin-bottom: 6px;
+      color: #0D0F12;
+    }}
+    .report-info {{
+      color: var(--neutral);
+      font-size: 11px;
+      margin-top: 16px;
+    }}
+    .score-section {{
+      margin-top: 16px;
     }}
   </style>
 </head>
 <body>
-  <h1>SiteInsite Website Insight Report</h1>
-  <p class="small">
-    Site: <strong>{report.baseUrl or "Unknown"}</strong><br/>
-    Run ID: {report.runId}<br/>
-    Generated: {generated_at}
-  </p>
-
+  <!-- Branded Header -->
+  <div style="background: #0D0F12; padding: 32px 0; text-align: center; border-bottom: 3px solid #4A90E2;">
+    <img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI4MDAiIGhlaWdodD0iMjAwIiB2aWV3Qm94PSIwIDAgODAwIDIwMCI+CiAgPHJlY3Qgd2lkdGg9IjgwMCIgaGVpZ2h0PSIyMDAiIGZpbGw9IiMwRDBGMTIiIC8+CiAgPHRleHQgeD0iNTAlIiB5PSI1MCUiIGRvbWluYW50LWJhc2VsaW5lPSJtaWRkbGUiIHRleHQtYW5jaG9yPSJtaWRkbGUiCiAgICAgICAgZm9udC1mYW1pbHk9IkludGVyLCBzeXN0ZW0tdWksIC1hcHBsZS1zeXN0ZW0sIEJsaW5rTWFjU3lzdGVtRm9udCwgJ1NlZ29lIFVJJywgc2Fucy1zZXJpZiIKICAgICAgICBmb250LXNpemU9IjY0IiBmaWxsPSIjRTZFQkYwIiBsZXR0ZXItc3BhY2luZz0iNiI+CiAgICBOT1ZJQU4gU1RVRElPUwogIDwvdGV4dD4KPC9zdmc+Cg==" alt="NOVIAN STUDIOS" style="width: 65%; max-width: 900px;" />
+    <div style="margin-top: 12px; font-family: Inter, sans-serif; font-size: 14px; color: #A8C5DA; letter-spacing: 0.12em;">WEBSITE INSIGHT REPORT</div>
+  </div>
+  
+  <!-- Cover / Header Section -->
   <div class="section">
-    <h2>Overall Score</h2>
-    <div class="score">{report.overallScore}/100</div>
+    <div class="report-info">
+      Site: {report.baseUrl or "Unknown"}<br />
+      Run ID: {report.runId}<br />
+      Generated: {generated_at}
+    </div>
+    <div class="score-section">
+      <div class="muted">Overall Score</div>
+      <div class="score-big">{report.overallScore}/100</div>
+    </div>
   </div>
 """
         
-        # Add Top Fixes section before Key Stats
+        # Top Fixes Section
         if top_issues:
             html += """
   <div class="section">
     <h2>Top Fixes</h2>
-    <p class="small">Focus on these changes first to get the biggest impact.</p>
-    <ol>
+    <p class="muted">Focus on these changes first for the biggest impact.</p>
 """
-            for issue in top_issues:
+            for idx, issue in enumerate(top_issues, 1):
                 example_urls = ""
                 if issue.affectedPages:
                     sample = issue.affectedPages[:3]
                     urls_str = "; ".join(p.url for p in sample)
                     if len(issue.affectedPages) > 3:
                         urls_str += f" (+{len(issue.affectedPages) - 3} more)"
-                    example_urls = f"<br/><span class='small'><strong>Examples:</strong> {urls_str}</span>"
+                    example_urls = f'<div class="muted" style="margin-top: 4px;">Examples: {urls_str}</div>'
                 
                 html += f"""
-      <li>
-        <strong>{issue.title}</strong> – {issue.description}{example_urls}
-      </li>
+    <div class="card">
+      <strong>{idx}. {issue.title}</strong>
+      <div class="muted" style="margin-top: 4px;">{issue.description}</div>
+      {example_urls}
+    </div>
 """
             html += """
-    </ol>
   </div>
 """
         
+        # Key Stats Section
         html += f"""
   <div class="section">
     <h2>Key Stats</h2>
-    <div class="grid">
-      <div><strong>Pages</strong><br/>{report.stats.pagesCount}</div>
-      <div><strong>Total Words</strong><br/>{report.stats.totalWords}</div>
-      <div><strong>Avg Words/Page</strong><br/>{report.stats.avgWordsPerPage:.1f}</div>
-      <div><strong>Total Media</strong><br/>{report.stats.totalMediaItems}</div>
-      <div><strong>Avg Load Time</strong><br/>{report.stats.avgLoadMs:.0f} ms</div>
-      <div><strong>Median Load Time</strong><br/>{report.stats.medianLoadMs:.0f} ms</div>
-      <div><strong>P90 Load Time</strong><br/>{report.stats.p90LoadMs:.0f} ms</div>
-      <div><strong>Slow Pages (&gt;1500ms)</strong><br/>{report.stats.slowPagesCount}</div>
-      <div><strong>Very Slow Pages (&gt;3000ms)</strong><br/>{report.stats.verySlowPagesCount}</div>
-      <div><strong>Avg Page Size</strong><br/>{report.stats.avgPageSizeKb:.1f} KB</div>
-      <div><strong>Max Page Size</strong><br/>{report.stats.maxPageSizeKb:.1f} KB</div>
-    </div>
-  </div>
+    <table>
+      <tr>
+        <th>Pages</th>
+        <th>Total Words</th>
+        <th>Avg Words/Page</th>
+        <th>Total Media</th>
+      </tr>
+      <tr>
+        <td>{report.stats.pagesCount}</td>
+        <td>{report.stats.totalWords:,}</td>
+        <td>{report.stats.avgWordsPerPage:.1f}</td>
+        <td>{report.stats.totalMediaItems}</td>
+      </tr>
+    </table>
 
+    <table>
+      <tr>
+        <th>Avg Load Time</th>
+        <th>Median Load Time</th>
+        <th>90th Percentile</th>
+        <th>Slow Pages</th>
+        <th>Very Slow Pages</th>
+      </tr>
+      <tr>
+        <td>{report.stats.avgLoadMs:.0f} ms</td>
+        <td>{report.stats.medianLoadMs:.0f} ms</td>
+        <td>{report.stats.p90LoadMs:.0f} ms</td>
+        <td>{report.stats.slowPagesCount}</td>
+        <td>{report.stats.verySlowPagesCount}</td>
+      </tr>
+    </table>
+  </div>
+"""
+        
+        # Category Sections
+        for cat in report.categories:
+            # Get summary text (first issue description or default)
+            summary_text = "Review issues below for details."
+            if cat.issues:
+                summary_text = cat.issues[0].description[:150] + "..." if len(cat.issues[0].description) > 150 else cat.issues[0].description
+            
+            html += f"""
   <div class="section">
-    <h2>HTTP Statuses</h2>
+    <h2>{cat.category.title()}</h2>
+    <div class="score-big">{cat.score}/100</div>
+    <p class="muted" style="margin-top: 8px;">
+      {summary_text}
+    </p>
+    
+    <h3>Key Issues</h3>
     <ul>
-      {"".join(f"<li>{code}: {count}</li>" for code, count in report.stats.statusCounts.items())}
+"""
+            # Show top 5 issues per category
+            for issue in cat.issues[:5]:
+                example_text = ""
+                if issue.affectedPages:
+                    example_url = issue.affectedPages[0].url
+                    more_count = len(issue.affectedPages) - 1
+                    example_text = f' <span class="muted">— e.g., {example_url}' + (f', +{more_count} more' if more_count > 0 else '') + '</span>'
+                
+                html += f"""
+      <li>
+        <strong>{issue.title}</strong>{example_text}
+      </li>
+"""
+            if len(cat.issues) > 5:
+                html += f"""
+      <li class="muted">+{len(cat.issues) - 5} more issues not shown</li>
+"""
+            html += """
     </ul>
   </div>
-
-  <div class="section">
-    <h2>Category Scores & Issues</h2>
-    <div class="grid">
 """
         
-        for cat in report.categories:
+        # Competitive Overview Section (NEW)
+        if comparison_rows:
+            competitor_name = competitor_reports[0].baseUrl or competitor_reports[0].runId if competitor_reports else "Competitor"
             html += f"""
-      <div style="page-break-inside: avoid; margin-bottom: 1rem;">
-        <h3>{cat.category.title()}</h3>
-        <div class="score" style="font-size:1.6rem">{cat.score}/100</div>
+  <div class="section" style="page-break-before: always;">
+    <h2>Competitive Overview</h2>
+    <p class="muted">
+      Comparing <strong>{report.baseUrl or report.runId}</strong> against <strong>{competitor_name}</strong>.
+    </p>
+    
+    <table>
+      <tr style="background: var(--neutral-dark); color: var(--brand-text);">
+        <th style="padding: 8px; text-align:left;">Metric</th>
+        <th style="padding: 8px;">Your Site</th>
+        <th style="padding: 8px;">Competitor</th>
+        <th style="padding: 8px;">Difference</th>
+        <th style="padding: 8px;">Verdict</th>
+      </tr>
 """
-            for issue in cat.issues:
+            row_idx = 0
+            for row in comparison_rows:
+                row_idx += 1
+                primary_display = format_value(row.primaryValue, is_time="load_time" in row.metric or "ms" in str(row.primaryValue))
+                comp_display = format_value(row.competitorValue, is_time="load_time" in row.metric or "ms" in str(row.competitorValue))
+                diff_display = format_difference(row.difference, is_time="load_time" in row.metric or "ms" in str(row.difference) if row.difference else False)
+                
+                badge_class = "badge-good" if row.direction == "better" else "badge-bad" if row.direction == "worse" else "badge-neutral"
+                row_style = 'background: #F9FAFB;' if row_idx % 2 == 0 else ''
+                
                 html += f"""
-        <div style="margin-top: 0.5rem; margin-bottom: 0.5rem;">
-          <p><strong>{issue.title}</strong> – {issue.description}</p>
+      <tr style="{row_style}">
+        <td><strong>{row.label}</strong></td>
+        <td>{primary_display}</td>
+        <td>{comp_display}</td>
+        <td class="text-right">{diff_display}</td>
+        <td>
+          <span class="{badge_class}">{row.verdict}</span>
+        </td>
+      </tr>
 """
-                if issue.affectedPages:
-                    html += "<ul>"
-                    for p in issue.affectedPages[:50]:  # limit to 50 per issue in PDF
-                        note = f" — {p.note}" if p.note else ""
-                        html += f"<li>{p.url}{note}</li>"
-                    html += "</ul>"
-                    if len(issue.affectedPages) > 50:
-                        html += f"<p class='small'>+ {len(issue.affectedPages) - 50} more pages not shown…</p>"
-                html += "</div>"
-            html += "</div>"
-        
-        html += """    </div>
+            html += """
+    </table>
+  </div>
+"""
+            
+            # Detailed Category Comparison Sections
+            for category in ["performance", "seo", "content", "structure"]:
+                cat_rows = [r for r in comparison_rows if r.category == category]
+                if not cat_rows:
+                    # Fallback: match by metric name
+                    cat_rows = [r for r in comparison_rows if category in r.metric]
+                
+                if cat_rows:
+                    html += f"""
+  <div class="section">
+    <h2>{category.title()} Comparison</h2>
+    <table>
+      <tr style="background: var(--neutral-dark); color: var(--brand-text);">
+        <th style="padding: 8px; text-align:left;">Metric</th>
+        <th style="padding: 8px;">Your Site</th>
+        <th style="padding: 8px;">Competitor</th>
+        <th style="padding: 8px;">Difference</th>
+        <th style="padding: 8px;">Verdict</th>
+      </tr>
+"""
+                    row_idx = 0
+                    for row in cat_rows:
+                        row_idx += 1
+                        primary_display = format_value(row.primaryValue, is_time="load_time" in row.metric or "ms" in str(row.primaryValue))
+                        comp_display = format_value(row.competitorValue, is_time="load_time" in row.metric or "ms" in str(row.competitorValue))
+                        diff_display = format_difference(row.difference, is_time="load_time" in row.metric or "ms" in str(row.difference) if row.difference else False)
+                        
+                        badge_class = "badge-good" if row.direction == "better" else "badge-bad" if row.direction == "worse" else "badge-neutral"
+                        row_style = 'background: #F9FAFB;' if row_idx % 2 == 0 else ''
+                        
+                        html += f"""
+      <tr style="{row_style}">
+        <td>{row.label}</td>
+        <td>{primary_display}</td>
+        <td>{comp_display}</td>
+        <td class="text-right">{diff_display}</td>
+        <td>
+          <span class="{badge_class}">{row.verdict}</span>
+        </td>
+      </tr>
+"""
+                    html += """
+    </table>
   </div>
 """
         
-        # Add Competitors Section if competitors are provided
+        # Competitor Snapshot Appendix
         if competitor_reports:
             html += """
   <div class="section" style="page-break-before: always;">
-    <h2>Competitor Comparison</h2>
-    <p class="small">Summary reports for competitor sites analyzed alongside this audit.</p>
+    <h2>Competitor Details</h2>
+    <p class="muted">Detailed snapshots for each competitor site.</p>
 """
             for comp_report in competitor_reports:
                 html += f"""
-    <div style="page-break-inside: avoid; margin-bottom: 2rem; padding: 1rem; background: #ffffff; border: 1px solid #e5e7eb; border-radius: 0.5rem;">
+    <div class="card" style="margin-bottom: 16px;">
       <h3>{comp_report.baseUrl or comp_report.runId}</h3>
-      <div class="score" style="font-size: 1.8rem; margin: 0.5rem 0;">{comp_report.overallScore}/100</div>
+      <div class="muted">Overall Score: {comp_report.overallScore}/100</div>
       
-      <div class="grid" style="margin-top: 1rem;">
-        <div><strong>Pages</strong><br/>{comp_report.stats.pagesCount}</div>
-        <div><strong>Total Words</strong><br/>{comp_report.stats.totalWords}</div>
-        <div><strong>Avg Words/Page</strong><br/>{comp_report.stats.avgWordsPerPage:.1f}</div>
-        <div><strong>Total Media</strong><br/>{comp_report.stats.totalMediaItems}</div>
-        <div><strong>Avg Load Time</strong><br/>{comp_report.stats.avgLoadMs:.0f} ms</div>
-        <div><strong>P90 Load Time</strong><br/>{comp_report.stats.p90LoadMs:.0f} ms</div>
-        <div><strong>Slow Pages</strong><br/>{comp_report.stats.slowPagesCount}</div>
-        <div><strong>Very Slow Pages</strong><br/>{comp_report.stats.verySlowPagesCount}</div>
-        <div><strong>Avg Page Size</strong><br/>{comp_report.stats.avgPageSizeKb:.1f} KB</div>
-      </div>
-      
-      <div style="margin-top: 1rem;">
-        <h4>Category Scores</h4>
-        <div class="grid">
+      <table style="margin-top: 12px;">
+        <tr>
+          <th>Category</th>
+          <th>Score</th>
+        </tr>
 """
                 for cat in comp_report.categories:
                     html += f"""
-          <div>
-            <strong>{cat.category.title()}</strong><br/>
-            <span style="font-size: 1.2rem; font-weight: 600;">{cat.score}/100</span>
-          </div>
+        <tr>
+          <td>{cat.category.title()}</td>
+          <td>{cat.score}/100</td>
+        </tr>
 """
                 html += """
-        </div>
-      </div>
+      </table>
+      
+      <table style="margin-top: 12px;">
+        <tr>
+          <th>Pages</th>
+          <th>Total Words</th>
+          <th>Avg Load Time</th>
+          <th>Slow Pages</th>
+        </tr>
+        <tr>
+"""
+                html += f"""
+          <td>{comp_report.stats.pagesCount}</td>
+          <td>{comp_report.stats.totalWords:,}</td>
+          <td>{comp_report.stats.avgLoadMs:.0f} ms</td>
+          <td>{comp_report.stats.slowPagesCount}</td>
+        </tr>
+      </table>
     </div>
 """
             html += """
@@ -354,6 +777,160 @@ async def export_insight_report_pdf(
         raise
     except Exception as e:
         raise HTTPException(status_code=500, detail=f"Error generating PDF export: {str(e)}")
+
+
+def generate_comparison_rows(site_reports: list[ComparedSite], primary_url: str) -> list[ComparisonRow]:
+    """
+    Generate structured comparison rows for side-by-side comparison.
+    
+    Creates human-readable comparison rows with verdicts for each metric.
+    """
+    if len(site_reports) < 2:
+        return []
+    
+    primary = site_reports[0]
+    competitors = site_reports[1:]
+    
+    # For now, compare primary against first competitor (can extend to multiple later)
+    competitor = competitors[0] if competitors else None
+    if not competitor:
+        return []
+    
+    comparisons = []
+    
+    def get_category_score(report: InsightReport, category: str) -> float:
+        """Get score for a specific category."""
+        cat = next((c for c in report.categories if c.category == category), None)
+        return float(cat.score) if cat else 0.0
+    
+    # Overall Score
+    primary_overall = float(primary.report.overallScore)
+    comp_overall = float(competitor.report.overallScore)
+    diff_overall = primary_overall - comp_overall
+    comparisons.append(ComparisonRow(
+        metric="overall_score",
+        label="Overall Score",
+        primaryValue=round(primary_overall, 1),
+        competitorValue=round(comp_overall, 1),
+        difference=round(diff_overall, 1),
+        direction="better" if diff_overall > 5 else "worse" if diff_overall < -5 else "neutral",
+        verdict="Slightly ahead overall" if diff_overall > 5 else "Slightly behind overall" if diff_overall < -5 else "Similar overall",
+        category="overall"
+    ))
+    
+    # Category Scores
+    for category in ["performance", "seo", "content", "structure"]:
+        primary_score = get_category_score(primary.report, category)
+        comp_score = get_category_score(competitor.report, category)
+        diff = primary_score - comp_score
+        
+        if abs(diff) < 3:
+            verdict = f"Similar {category}"
+            direction = "neutral"
+        elif diff > 10:
+            verdict = f"Stronger {category}"
+            direction = "better"
+        elif diff > 0:
+            verdict = f"Slightly ahead in {category}"
+            direction = "better"
+        elif diff < -10:
+            verdict = f"{category.capitalize()} lags behind"
+            direction = "worse"
+        else:
+            verdict = f"Slightly behind in {category}"
+            direction = "worse"
+        
+        comparisons.append(ComparisonRow(
+            metric=f"{category}_score",
+            label=category.capitalize(),
+            primaryValue=round(primary_score, 1),
+            competitorValue=round(comp_score, 1),
+            difference=round(diff, 1),
+            direction=direction,
+            verdict=verdict,
+            category=category
+        ))
+    
+    # Performance Metrics
+    primary_load = primary.report.stats.avgLoadMs
+    comp_load = competitor.report.stats.avgLoadMs
+    load_diff = primary_load - comp_load
+    comparisons.append(ComparisonRow(
+        metric="avg_load_time_ms",
+        label="Avg Load Time",
+        primaryValue=round(primary_load, 0),
+        competitorValue=round(comp_load, 0),
+        difference=round(load_diff, 0),
+        direction="worse" if load_diff > 200 else "better" if load_diff < -200 else "neutral",
+        verdict=f"You're {abs(load_diff):.0f}ms slower" if load_diff > 200 else f"You're {abs(load_diff):.0f}ms faster" if load_diff < -200 else "Similar load times",
+        category="performance"
+    ))
+    
+    # Content Depth Score
+    if primary.report.contentDepthScore is not None and competitor.report.contentDepthScore is not None:
+        primary_depth = primary.report.contentDepthScore
+        comp_depth = competitor.report.contentDepthScore
+        depth_diff = primary_depth - comp_depth
+        comparisons.append(ComparisonRow(
+            metric="content_depth_score",
+            label="Content Depth",
+            primaryValue=round(primary_depth, 1),
+            competitorValue=round(comp_depth, 1),
+            difference=round(depth_diff, 1),
+            direction="worse" if depth_diff < -5 else "better" if depth_diff > 5 else "neutral",
+            verdict="Needs richer content" if depth_diff < -5 else "Stronger content depth" if depth_diff > 5 else "Similar content depth",
+            category="content"
+        ))
+    
+    # Navigation Type
+    if primary.report.navType and competitor.report.navType:
+        nav_same = primary.report.navType == competitor.report.navType
+        comparisons.append(ComparisonRow(
+            metric="nav_type",
+            label="Navigation Type",
+            primaryValue=primary.report.navType,
+            competitorValue=competitor.report.navType,
+            difference=None,
+            direction="different" if not nav_same else "neutral",
+            verdict="Different structure types" if not nav_same else "Similar navigation structure",
+            category="structure"
+        ))
+    
+    # Crawlability Score
+    if primary.report.crawlabilityScore is not None and competitor.report.crawlabilityScore is not None:
+        primary_crawl = primary.report.crawlabilityScore
+        comp_crawl = competitor.report.crawlabilityScore
+        crawl_diff = primary_crawl - comp_crawl
+        comparisons.append(ComparisonRow(
+            metric="crawlability_score",
+            label="Crawlability",
+            primaryValue=round(primary_crawl, 1),
+            competitorValue=round(comp_crawl, 1),
+            difference=round(crawl_diff, 1),
+            direction="worse" if crawl_diff < -10 else "better" if crawl_diff > 10 else "neutral",
+            verdict="Bots find them easier" if crawl_diff < -10 else "Better bot traversal" if crawl_diff > 10 else "Similar crawlability",
+            category="structure"
+        ))
+    
+    # SEO-specific metrics
+    # Missing H1 percentage (estimate from issues)
+    primary_seo_issues = [cat.issues for cat in primary.report.categories if cat.category == "seo"]
+    comp_seo_issues = [cat.issues for cat in competitor.report.categories if cat.category == "seo"]
+    primary_missing_h1 = sum(1 for issues in primary_seo_issues for issue in issues if "H1" in issue.title)
+    comp_missing_h1 = sum(1 for issues in comp_seo_issues for issue in issues if "H1" in issue.title)
+    if primary_missing_h1 != comp_missing_h1:
+        comparisons.append(ComparisonRow(
+            metric="missing_h1_count",
+            label="Missing H1 Pages",
+            primaryValue=primary_missing_h1,
+            competitorValue=comp_missing_h1,
+            difference=primary_missing_h1 - comp_missing_h1,
+            direction="worse" if primary_missing_h1 > comp_missing_h1 else "better",
+            verdict=f"{primary_missing_h1} vs {comp_missing_h1} pages missing H1",
+            category="seo"
+        ))
+    
+    return comparisons
 
 
 async def wait_for_run_completion(run_id: str, timeout: int = 600) -> bool:
@@ -563,6 +1140,9 @@ async def compare_sites(payload: ComparePayload) -> ComparisonReport:
         # Generate opportunities
         opps = generate_opportunities(site_reports)
         
+        # Generate structured comparison rows for UI/PDF
+        comparisons = generate_comparison_rows(site_reports, payload.primaryUrl)
+        
         return ComparisonReport(
             primaryUrl=payload.primaryUrl,
             competitors=payload.competitors,
@@ -572,7 +1152,8 @@ async def compare_sites(payload: ComparePayload) -> ComparisonReport:
             contentComparison=content_comp,
             seoComparison=seo_comp,
             structureComparison=structure_comp,
-            opportunitySummary=opps
+            opportunitySummary=opps,
+            comparisons=comparisons
         )
     except HTTPException:
         raise
@@ -651,195 +1232,392 @@ def build_comparison_pdf_html(report: ComparisonReport) -> str:
         return False
     
     html = f"""
-<html>
+<!doctype html>
+<html lang="en">
 <head>
-<style>
-body {{
-  font-family: Arial, sans-serif;
-  padding: 40px;
-  background: #f8fafc;
-}}
-h1, h2, h3 {{
-  margin-bottom: 8px;
-}}
-.section {{
-  background: #ffffff;
-  padding: 20px;
-  border-radius: 8px;
-  margin-bottom: 25px;
-  border: 1px solid #e5e7eb;
-}}
-table {{
-  width: 100%;
-  border-collapse: collapse;
-  margin-top: 12px;
-}}
-th, td {{
-  border: 1px solid #d1d5db;
-  padding: 8px;
-  font-size: 14px;
-  text-align: left;
-}}
-th {{
-  background: #f3f4f6;
-}}
-.small {{
-  font-size: 12px;
-  color: #444;
-}}
-pre {{
-  font-size: 10px;
-  overflow-x: auto;
-  background: #f9fafb;
-  padding: 10px;
-  border-radius: 4px;
-  border: 1px solid #e5e7eb;
-}}
-</style>
+  <meta charset="utf-8" />
+  <title>SiteInsite Comparison Report</title>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
+    :root {{
+      --brand-bg: #0D0F12;
+      --brand-text: #E6EBF0;
+      --accent: #4A90E2;
+      --accent-alt: #A8C5DA;
+      --neutral-light: #F4F5F7;
+      --neutral-dark: #1F2328;
+      --good: #00C853;
+      --bad: #D32F2F;
+      --neutral: #9CA3AF;
+    }}
+    body {{
+      font-family: Inter, sans-serif;
+      background: white;
+      color: #0D0F12;
+      margin: 48px;
+      font-size: 12px;
+      font-weight: 400;
+    }}
+    h1, h2, h3, h4 {{
+      font-family: Inter, sans-serif;
+      font-weight: 700;
+      color: #0D0F12;
+    }}
+    h1 {{
+      font-size: 24px;
+      margin-bottom: 16px;
+    }}
+    h2 {{
+      border-left: 6px solid var(--accent-alt);
+      padding-left: 14px;
+      margin-top: 40px;
+      margin-bottom: 12px;
+      font-size: 20px;
+      font-weight: bold;
+      color: #0D0F12;
+    }}
+    h3 {{
+      font-size: 16px;
+      margin-top: 20px;
+      margin-bottom: 8px;
+      color: #0D0F12;
+    }}
+    h4 {{
+      font-size: 14px;
+      margin-top: 16px;
+      margin-bottom: 8px;
+      color: #0D0F12;
+    }}
+    .section {{
+      margin-bottom: 32px;
+      page-break-inside: avoid;
+    }}
+    table {{
+      width: 100%;
+      border-collapse: collapse;
+      margin-top: 10px;
+      font-size: 12px;
+    }}
+    th, td {{
+      padding: 8px;
+      text-align: left;
+      border: 1px solid rgba(31, 35, 40, 0.15);
+      color: #0D0F12;
+    }}
+    th {{
+      background: var(--neutral-dark);
+      color: var(--brand-text);
+      font-weight: 700;
+    }}
+    tr:nth-child(even) {{
+      background: #F9FAFB;
+    }}
+    tr:nth-child(odd) {{
+      background: transparent;
+    }}
+    .small {{
+      font-size: 12px;
+      color: var(--neutral);
+    }}
+    .muted {{
+      color: var(--neutral);
+      font-size: 11px;
+    }}
+    .badge-good {{
+      display: inline-block;
+      padding: 4px 8px;
+      border-radius: 4px;
+      font-size: 10px;
+      color: white;
+      background: var(--good);
+      font-weight: 600;
+    }}
+    .badge-bad {{
+      display: inline-block;
+      padding: 4px 8px;
+      border-radius: 4px;
+      font-size: 10px;
+      color: white;
+      background: var(--bad);
+      font-weight: 600;
+    }}
+    .badge-neutral {{
+      display: inline-block;
+      padding: 4px 8px;
+      border-radius: 4px;
+      font-size: 10px;
+      color: #0D0F12;
+      background: var(--accent-alt);
+      font-weight: 600;
+    }}
+    pre {{
+      font-size: 10px;
+      overflow-x: auto;
+      background: var(--neutral-light);
+      padding: 10px;
+      border-radius: 4px;
+      border: 1px solid #E5E7EB;
+      color: #0D0F12;
+    }}
+    ul {{
+      padding-left: 1.25rem;
+      margin: 8px 0;
+      color: #0D0F12;
+    }}
+    li {{
+      margin-bottom: 6px;
+      color: #0D0F12;
+    }}
+  </style>
 </head>
 <body>
+  <!-- Branded Header -->
+  <div style="background: #0D0F12; padding: 32px 0; text-align: center; border-bottom: 3px solid #4A90E2;">
+    <img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI4MDAiIGhlaWdodD0iMjAwIiB2aWV3Qm94PSIwIDAgODAwIDIwMCI+CiAgPHJlY3Qgd2lkdGg9IjgwMCIgaGVpZ2h0PSIyMDAiIGZpbGw9IiMwRDBGMTIiIC8+CiAgPHRleHQgeD0iNTAlIiB5PSI1MCUiIGRvbWluYW50LWJhc2VsaW5lPSJtaWRkbGUiIHRleHQtYW5jaG9yPSJtaWRkbGUiCiAgICAgICAgZm9udC1mYW1pbHk9IkludGVyLCBzeXN0ZW0tdWksIC1hcHBsZS1zeXN0ZW0sIEJsaW5rTWFjU3lzdGVtRm9udCwgJ1NlZ29lIFVJJywgc2Fucy1zZXJpZiIKICAgICAgICBmb250LXNpemU9IjY0IiBmaWxsPSIjRTZFQkYwIiBsZXR0ZXItc3BhY2luZz0iNiI+CiAgICBOT1ZJQU4gU1RVRElPUwogIDwvdGV4dD4KPC9zdmc+Cg==" alt="NOVIAN STUDIOS" style="width: 65%; max-width: 900px;" />
+    <div style="margin-top: 12px; font-family: Inter, sans-serif; font-size: 14px; color: #A8C5DA; letter-spacing: 0.12em;">WEBSITE INSIGHT REPORT</div>
+  </div>
+  
 """
     
     # Cover Page
+    primary_site = next((s for s in report.siteReports if s.url == primary), None)
+    competitor_site = report.siteReports[1] if len(report.siteReports) > 1 else None
+    competitor_name = competitor_site.url if competitor_site else (competitors[0] if competitors else "Competitor")
+    
     html += f"""
-<div class="section">
-  <h1>Competitor Battle Report</h1>
-  <p><strong>Your site:</strong> {primary}</p>
-  <p><strong>Competitors:</strong> {", ".join(competitors)}</p>
-  <p class="small">Generated by SiteInsite</p>
-</div>
+    <div class="section">
+      <h1>Competitor Comparison Report</h1>
+      <p class="muted"><strong>Your site:</strong> {primary}</p>
+      <p class="muted"><strong>Competitor:</strong> {competitor_name}</p>
+    </div>
 """
     
-    # Score Showdown Table
-    html += """
-<div class="section">
-  <h2>Score Comparison</h2>
-  <table>
-    <tr>
-      <th>Metric</th>
-      <th>Your Site</th>
-"""
-    for comp in competitors:
-        html += f"<th>{comp}</th>"
-    html += "</tr>"
-    
-    for metric, values in report.scoreComparison.items():
-        html += f"<tr><td>{metric.title()}</td>"
-        html += f"<td>{values.get(primary, 'N/A')}</td>"
-        for comp in competitors:
-            html += f"<td>{values.get(comp, 'N/A')}</td>"
-        html += "</tr>"
-    
-    html += """
-  </table>
-</div>
-"""
-    
-    # Content Depth Comparison
-    html += """
-<div class="section">
-  <h2>Content Depth</h2>
-  <table>
-    <tr><th>Site</th><th>Total Words</th><th>Avg Words/Page</th><th>Long-Form Pages (>600 words)</th></tr>
-"""
-    for site in report.siteReports:
-        rpt = site.report
-        long_form = calculate_long_form_pages(site)
+    # Competitive Overview Section (NEW)
+    if report.comparisons:
         html += f"""
-    <tr>
-      <td>{site.url}</td>
-      <td>{rpt.stats.totalWords:,}</td>
-      <td>{rpt.stats.avgWordsPerPage:.1f}</td>
-      <td>{long_form}</td>
-    </tr>"""
-    html += """
-  </table>
-</div>
+    <div class="section" style="page-break-before: always;">
+      <h2>Competitive Overview</h2>
+      <p class="muted">Side-by-side comparison of key metrics.</p>
+      <table>
+        <tr style="background: var(--neutral-dark); color: var(--brand-text);">
+          <th style="padding: 8px; text-align:left;">Metric</th>
+          <th style="padding: 8px;">Your Site</th>
+          <th style="padding: 8px;">{competitor_name}</th>
+          <th style="padding: 8px;">Difference</th>
+          <th style="padding: 8px;">Verdict</th>
+        </tr>
+"""
+        row_idx = 0
+        for comp_row in report.comparisons:
+            row_idx += 1
+            primary_val = comp_row.primaryValue
+            comp_val = comp_row.competitorValue
+            diff = comp_row.difference
+            diff_str = f"{diff:+.1f}" if diff is not None else "—"
+            badge_class = "badge-good" if comp_row.direction == "better" else "badge-bad" if comp_row.direction == "worse" else "badge-neutral"
+            row_style = 'background: #F9FAFB;' if row_idx % 2 == 0 else ''
+            html += f"""
+        <tr style="{row_style}">
+          <td><strong>{comp_row.label}</strong></td>
+          <td>{primary_val}</td>
+          <td>{comp_val}</td>
+          <td>{diff_str}</td>
+          <td><span class="{badge_class}">{comp_row.verdict}</span></td>
+        </tr>"""
+        html += """
+      </table>
+    </div>
 """
     
-    # Performance Showdown
-    html += """
-<div class="section">
-  <h2>Performance Comparison</h2>
-  <table>
-    <tr><th>Site</th><th>Avg Load (ms)</th><th>P90 Load (ms)</th><th>Slow Pages</th><th>Very Slow</th></tr>
+    # Detailed Category Comparison Sections
+    if report.comparisons:
+        # Performance Comparison
+        perf_comps = [c for c in report.comparisons if "performance" in c.metric or "load_time" in c.metric]
+        if perf_comps:
+            html += f"""
+    <div class="section">
+      <h2>Performance Comparison</h2>
+      <p class="muted">Load times and performance metrics.</p>
+      <table>
+        <tr style="background: var(--neutral-dark); color: var(--brand-text);">
+          <th style="padding: 8px; text-align:left;">Metric</th>
+          <th style="padding: 8px;">Your Site</th>
+          <th style="padding: 8px;">{competitor_name}</th>
+          <th style="padding: 8px;">Verdict</th>
+        </tr>
 """
-    for site in report.siteReports:
-        s = site.report.stats
-        html += f"""
-    <tr>
-      <td>{site.url}</td>
-      <td>{s.avgLoadMs:.0f}</td>
-      <td>{s.p90LoadMs:.0f}</td>
-      <td>{s.slowPagesCount}</td>
-      <td>{s.verySlowPagesCount}</td>
-    </tr>"""
-    html += "</table></div>"
-    
-    # Technical SEO / Indexability Table
-    html += """
-<div class="section">
-  <h2>Technical SEO Comparison</h2>
-  <table>
-    <tr><th>Site</th><th>Noindex Pages</th><th>Missing Sitemap</th><th>Missing Robots</th><th>Missing Viewport</th></tr>
+            row_idx = 0
+            for comp_row in perf_comps:
+                row_idx += 1
+                badge_class = "badge-good" if comp_row.direction == "better" else "badge-bad" if comp_row.direction == "worse" else "badge-neutral"
+                row_style = 'background: #F9FAFB;' if row_idx % 2 == 0 else ''
+                html += f"""
+        <tr style="{row_style}">
+          <td>{comp_row.label}</td>
+          <td>{comp_row.primaryValue}</td>
+          <td>{comp_row.competitorValue}</td>
+          <td><span class="{badge_class}">{comp_row.verdict}</span></td>
+        </tr>"""
+            html += "</table></div>"
+        
+        # SEO Comparison
+        seo_comps = [c for c in report.comparisons if "seo" in c.metric or "h1" in c.metric]
+        if seo_comps:
+            html += f"""
+    <div class="section">
+      <h2>SEO Comparison</h2>
+      <p class="muted">On-page SEO and technical SEO metrics.</p>
+      <table>
+        <tr style="background: var(--neutral-dark); color: var(--brand-text);">
+          <th style="padding: 8px; text-align:left;">Metric</th>
+          <th style="padding: 8px;">Your Site</th>
+          <th style="padding: 8px;">{competitor_name}</th>
+          <th style="padding: 8px;">Verdict</th>
+        </tr>
 """
-    for site in report.siteReports:
-        rpt = site.report
-        noindex_count = count_noindex_pages(site)
-        sitemap_missing = check_sitemap_missing(site)
-        robots_missing = check_robots_missing(site)
-        no_viewport_count = count_no_viewport_pages(site)
-        html += f"""
-    <tr>
-      <td>{site.url}</td>
-      <td>{noindex_count}</td>
-      <td>{'Yes' if sitemap_missing else 'No'}</td>
-      <td>{'Yes' if robots_missing else 'No'}</td>
-      <td>{no_viewport_count}</td>
-    </tr>"""
-    html += "</table></div>"
+            row_idx = 0
+            for comp_row in seo_comps:
+                row_idx += 1
+                badge_class = "badge-good" if comp_row.direction == "better" else "badge-bad" if comp_row.direction == "worse" else "badge-neutral"
+                row_style = 'background: #F9FAFB;' if row_idx % 2 == 0 else ''
+                html += f"""
+        <tr style="{row_style}">
+          <td>{comp_row.label}</td>
+          <td>{comp_row.primaryValue}</td>
+          <td>{comp_row.competitorValue}</td>
+          <td><span class="{badge_class}">{comp_row.verdict}</span></td>
+        </tr>"""
+            html += "</table></div>"
+        
+        # Content & Depth Comparison
+        content_comps = [c for c in report.comparisons if "content" in c.metric]
+        if content_comps:
+            html += f"""
+    <div class="section">
+      <h2>Content & Depth Comparison</h2>
+      <p class="muted">Content quality and depth metrics.</p>
+      <table>
+        <tr style="background: var(--neutral-dark); color: var(--brand-text);">
+          <th style="padding: 8px; text-align:left;">Metric</th>
+          <th style="padding: 8px;">Your Site</th>
+          <th style="padding: 8px;">{competitor_name}</th>
+          <th style="padding: 8px;">Verdict</th>
+        </tr>
+"""
+            row_idx = 0
+            for comp_row in content_comps:
+                row_idx += 1
+                badge_class = "badge-good" if comp_row.direction == "better" else "badge-bad" if comp_row.direction == "worse" else "badge-neutral"
+                row_style = 'background: #F9FAFB;' if row_idx % 2 == 0 else ''
+                html += f"""
+        <tr style="{row_style}">
+          <td>{comp_row.label}</td>
+          <td>{comp_row.primaryValue}</td>
+          <td>{comp_row.competitorValue}</td>
+          <td><span class="{badge_class}">{comp_row.verdict}</span></td>
+        </tr>"""
+            html += "</table></div>"
+        
+        # Structure & Crawlability Comparison
+        structure_comps = [c for c in report.comparisons if "structure" in c.metric or "nav" in c.metric or "crawlability" in c.metric]
+        if structure_comps:
+            html += f"""
+    <div class="section">
+      <h2>Structure & Crawlability Comparison</h2>
+      <p class="muted">Navigation structure and bot crawlability.</p>
+      <table>
+        <tr style="background: var(--neutral-dark); color: var(--brand-text);">
+          <th style="padding: 8px; text-align:left;">Metric</th>
+          <th style="padding: 8px;">Your Site</th>
+          <th style="padding: 8px;">{competitor_name}</th>
+          <th style="padding: 8px;">Verdict</th>
+        </tr>
+"""
+            row_idx = 0
+            for comp_row in structure_comps:
+                row_idx += 1
+                badge_class = "badge-good" if comp_row.direction == "better" else "badge-bad" if comp_row.direction == "worse" else "badge-neutral"
+                row_style = 'background: #F9FAFB;' if row_idx % 2 == 0 else ''
+                html += f"""
+        <tr style="{row_style}">
+          <td>{comp_row.label}</td>
+          <td>{comp_row.primaryValue}</td>
+          <td>{comp_row.competitorValue}</td>
+          <td><span class="{badge_class}">{comp_row.verdict}</span></td>
+        </tr>"""
+            html += "</table></div>"
     
     # Opportunity Summary Section
-    html += """
-<div class="section">
-  <h2>Top Opportunities</h2>
-  <ul>
+    if report.opportunitySummary:
+        html += """
+    <div class="section">
+      <h2>Top Opportunities</h2>
+      <ul>
 """
-    for opp in report.opportunitySummary:
-        html += f"<li>{opp}</li>"
-    html += "</ul></div>"
-    
-    # Optional: Individual Reports Appendix
-    html += """
-<div class="section">
-  <h2>Full Reports</h2>
-  <p class="small">Each site's full InsightReport is attached below.</p>
-</div>
+        for opp in report.opportunitySummary:
+            html += f"        <li>{opp}</li>"
+        html += """
+      </ul>
+    </div>
 """
     
+    # Competitor Snapshots Appendix (moved to end)
+    html += """
+    <div class="section" style="page-break-before: always;">
+      <h2>Competitor Details</h2>
+      <p class="muted">Detailed snapshots for each competitor site.</p>
+    </div>
+"""
+    
+    # Show competitor snapshots (skip primary, show only competitors)
     for site in report.siteReports:
-        # Serialize report to JSON (compatible with both Pydantic v1 and v2)
-        try:
-            # Try Pydantic v2 method first
-            report_json = site.report.model_dump_json(indent=2)
-        except AttributeError:
-            # Fall back to Pydantic v1 method
-            try:
-                report_json = site.report.json(indent=2)
-            except AttributeError:
-                # Last resort: use dict() and json.dumps
-                report_dict = site.report.dict() if hasattr(site.report, 'dict') else site.report.model_dump()
-                report_json = json.dumps(report_dict, indent=2, default=str)
+        if site.url == primary:
+            continue  # Skip primary site in appendix
         
         html += f"""
     <div class="section">
-      <h3>{site.url}</h3>
-      <pre class="small">{report_json}</pre>
+      <h3>Competitor Details: {site.url}</h3>
+      <p class="muted"><strong>Overall Score:</strong> {site.report.overallScore}/100</p>
+      <div style="margin-top: 1rem;">
+        <h4>Category Scores</h4>
+        <table>
+          <tr><th>Category</th><th>Score</th></tr>"""
+        for cat in site.report.categories:
+            html += f"          <tr><td>{cat.category.title()}</td><td>{cat.score}/100</td></tr>"
+        html += """
+        </table>
+      </div>
+      <div style="margin-top: 1rem;">
+        <h4>Key Stats</h4>
+        <table>
+          <tr><th>Metric</th><th>Value</th></tr>"""
+        stats = site.report.stats
+        html += f"""
+          <tr><td>Pages</td><td>{stats.pagesCount}</td></tr>
+          <tr><td>Total Words</td><td>{stats.totalWords:,}</td></tr>
+          <tr><td>Avg Words/Page</td><td>{stats.avgWordsPerPage:.1f}</td></tr>
+          <tr><td>Avg Load Time</td><td>{stats.avgLoadMs:.0f} ms</td></tr>
+          <tr><td>P90 Load Time</td><td>{stats.p90LoadMs:.0f} ms</td></tr>
+          <tr><td>Slow Pages</td><td>{stats.slowPagesCount}</td></tr>
+          <tr><td>Very Slow Pages</td><td>{stats.verySlowPagesCount}</td></tr>
+          <tr><td>Avg Page Size</td><td>{stats.avgPageSizeKb:.1f} KB</td></tr>
+          <tr><td>Max Page Size</td><td>{stats.maxPageSizeKb:.1f} KB</td></tr>"""
+        if site.report.contentDepthScore is not None:
+            html += f"          <tr><td>Content Depth Score</td><td>{site.report.contentDepthScore:.1f}/100</td></tr>"
+        if site.report.navType:
+            html += f"          <tr><td>Navigation Type</td><td>{site.report.navType}</td></tr>"
+        if site.report.crawlabilityScore is not None:
+            html += f"          <tr><td>Crawlability Score</td><td>{site.report.crawlabilityScore:.1f}/100</td></tr>"
+        html += """
+        </table>
+      </div>
     </div>
-    """
+"""
     
     # Close HTML
-    html += "</body></html>"
+    html += """
+</body>
+</html>"""
     return html
 
 

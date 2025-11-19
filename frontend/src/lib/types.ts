@@ -177,4 +177,38 @@ export interface InsightReport {
   overallScore: number;
   categories: InsightCategoryScore[];
   stats: InsightStats;
+  // New context-aware metrics
+  contentDepthScore?: number | null; // 0-100
+  navType?: string | null; // "single_page", "simple_nav", "multi_section", "app_style", "implicit_content_links", "none_detected"
+  crawlabilityScore?: number | null; // 0-100
+}
+
+// Competitor Comparison Types
+export interface ComparedSite {
+  url: string;
+  report: InsightReport;
+}
+
+export interface ComparisonRow {
+  metric: string; // e.g. "avg_load_time_ms", "seo_score", "content_depth_score"
+  label: string; // Human-readable label, e.g. "Avg Load Time", "SEO Score"
+  primaryValue: number | string | null;
+  competitorValue: number | string | null;
+  difference: number | null; // null for non-numeric metrics
+  direction: "better" | "worse" | "neutral" | "different"; // "different" for nav_type
+  verdict: string; // Human-readable verdict, e.g. "You're slower", "Slightly behind"
+}
+
+export interface ComparisonReport {
+  primaryUrl: string;
+  competitors: string[];
+  siteReports: ComparedSite[];
+  scoreComparison: Record<string, Record<string, number>>;
+  performanceComparison: Record<string, Record<string, number>>;
+  contentComparison: Record<string, Record<string, number>>;
+  seoComparison: Record<string, Record<string, number>>;
+  structureComparison: Record<string, Record<string, number>>;
+  opportunitySummary: string[];
+  // New structured comparison array
+  comparisons: ComparisonRow[];
 }
