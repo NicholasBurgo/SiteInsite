@@ -9,21 +9,25 @@ from backend.crawl.fetch import FetchResponse
 from backend.extract.nav_footer import extract_navigation, extract_footer
 from backend.extract.files_words_links import extract_structured_content
 from backend.insights.page_type import infer_page_type, extract_page_features, PageFeatures
+from backend.core.config import settings
+from backend.extract.pool import get_extraction_pool
 
-async def extract_html(resp: FetchResponse, run_id: str = None) -> dict:
+
+def _extract_html_sync(html_content: bytes, url: str, content_type: str, status: int, path: str, 
+                       load_time_ms: int | None, content_length_bytes: int | None, run_id: str | None = None) -> dict:
     """
-    Extract content from HTML response using readability and trafilatura.
-    Enhanced with structured content extraction for confirmation UI.
+    Synchronous HTML extraction function for multiprocessing.
+    This is the CPU-bound part that runs in worker processes.
     """
     try:
-        html_content = resp.content.decode('utf-8', errors='ignore')
-        soup = BeautifulSoup(html_content, 'html.parser')
+        html_str = html_content.decode('utf-8', errors='ignore')
+        soup = BeautifulSoup(html_str, 'html.parser')
         
         # Extract title
-        title = _extract_title(soup, resp.url)
+        title = _extract_title(soup, url)
         
         # Extract text using readability
-        doc = Document(html_content)
+        doc = Document(html_str)
         readable_html = doc.summary()
         readable_text = trafilatura.extract(readable_html) or ""
         
@@ -31,10 +35,10 @@ async def extract_html(resp: FetchResponse, run_id: str = None) -> dict:
         meta = _extract_meta(soup)
         
         # Extract links
-        links = _extract_links(soup, resp.url)
+        links = _extract_links(soup, url)
         
         # Extract images
-        images = _extract_images(soup, resp.url)
+        images = _extract_images(soup, url)
         
         # Extract headings
         headings = _extract_headings(soup)
@@ -49,17 +53,17 @@ async def extract_html(resp: FetchResponse, run_id: str = None) -> dict:
         word_count = len(readable_text.split()) if readable_text else 0
         
         # Generate unique pageId from URL
-        page_id = hashlib.md5(resp.url.encode()).hexdigest()[:12]
+        page_id = hashlib.md5(url.encode()).hexdigest()[:12]
         
         # Extract structured content for confirmation UI
-        structured_content = extract_structured_content(soup, resp.url, resp.url)
-        structured_content["status"] = resp.status
+        structured_content = extract_structured_content(soup, url, url)
+        structured_content["status"] = status
         
         # Infer page type
         # Build page data dict for feature extraction
         page_data_for_features = {
             "words": {"wordCount": word_count, "paragraphs": [], "headings": headings},
-            "links": {"internal": [l for l in links if resp.url.split('/')[2] in l.get("url", "")]},
+            "links": {"internal": [l for l in links if url.split('/')[2] in l.get("url", "")]},
             "media": {"images": images}
         }
         # Count paragraphs from readable text
@@ -67,27 +71,23 @@ async def extract_html(resp: FetchResponse, run_id: str = None) -> dict:
         page_data_for_features["words"]["paragraphs"] = paragraphs
         
         features = extract_page_features(page_data_for_features)
-        detected_page_type = infer_page_type(resp.url, features)
+        detected_page_type = infer_page_type(url, features)
         
-        # Save structured content if run_id provided
-        if run_id:
-            _save_structured_content(run_id, page_id, structured_content)
-        
-        return {
+        result = {
             "summary": {
                 "pageId": page_id,
-                "url": resp.url,
-                "contentType": resp.content_type,
+                "url": url,
+                "contentType": content_type,
                 "title": title,
                 "words": word_count,
                 "images": len(images),
                 "links": len(links),
-                "status": resp.status,
-                "status_code": resp.status,
-                "path": resp.path,
+                "status": status,
+                "status_code": status,
+                "path": path,
                 "type": "HTML",
-                "load_time_ms": resp.load_time_ms,
-                "content_length_bytes": resp.content_length_bytes,
+                "load_time_ms": load_time_ms,
+                "content_length_bytes": content_length_bytes,
                 "page_type": detected_page_type
             },
             "meta": meta,
@@ -106,8 +106,169 @@ async def extract_html(resp: FetchResponse, run_id: str = None) -> dict:
                 "table_count": len(tables),
                 "page_type": detected_page_type
             },
-            "structuredContent": structured_content
+            "structuredContent": structured_content,
+            "_run_id": run_id  # Pass run_id for saving
         }
+        
+        return result
+    except Exception as e:
+        print(f"HTML extraction error: {e}")
+        # Return error response
+        page_id = hashlib.md5(url.encode()).hexdigest()[:12]
+        return {
+            "summary": {
+                "pageId": page_id,
+                "url": url,
+                "contentType": content_type,
+                "title": None,
+                "words": 0,
+                "images": 0,
+                "links": 0,
+                "status": status,
+                "status_code": status,
+                "path": path,
+                "type": "HTML",
+                "load_time_ms": load_time_ms,
+                "content_length_bytes": content_length_bytes,
+                "page_type": "generic"
+            },
+            "meta": {},
+            "text": None,
+            "htmlExcerpt": None,
+            "headings": [],
+            "images": [],
+            "links": [],
+            "tables": [],
+            "structuredData": [],
+            "stats": {},
+            "_run_id": run_id
+        }
+
+
+async def extract_html(resp: FetchResponse, run_id: str = None) -> dict:
+    """
+    Extract content from HTML response using readability and trafilatura.
+    Enhanced with structured content extraction for confirmation UI.
+    Uses multiprocessing for CPU-bound parsing if enabled.
+    """
+    try:
+        # Use multiprocessing if enabled
+        if settings.USE_MULTIPROCESSING:
+            pool = get_extraction_pool(max_workers=settings.EXTRACTION_WORKERS)
+            result = await pool.run_extraction(
+                _extract_html_sync,
+                resp.content,  # bytes
+                resp.url,
+                resp.content_type,
+                resp.status,
+                resp.path,
+                resp.load_time_ms,
+                resp.content_length_bytes,
+                run_id
+            )
+            
+            # Save structured content if run_id provided (do this in main process)
+            if run_id and result.get("structuredContent"):
+                page_id = result["summary"]["pageId"]
+                _save_structured_content(run_id, page_id, result["structuredContent"])
+                # Remove internal field
+                result.pop("_run_id", None)
+            
+            return result
+        else:
+            # Original single-threaded extraction
+            html_content = resp.content.decode('utf-8', errors='ignore')
+            soup = BeautifulSoup(html_content, 'html.parser')
+            
+            # Extract title
+            title = _extract_title(soup, resp.url)
+            
+            # Extract text using readability
+            doc = Document(html_content)
+            readable_html = doc.summary()
+            readable_text = trafilatura.extract(readable_html) or ""
+            
+            # Extract metadata
+            meta = _extract_meta(soup)
+            
+            # Extract links
+            links = _extract_links(soup, resp.url)
+            
+            # Extract images
+            images = _extract_images(soup, resp.url)
+            
+            # Extract headings
+            headings = _extract_headings(soup)
+            
+            # Extract tables
+            tables = _extract_tables(soup)
+            
+            # Extract structured data
+            structured_data = _extract_structured_data(soup)
+            
+            # Count words
+            word_count = len(readable_text.split()) if readable_text else 0
+            
+            # Generate unique pageId from URL
+            page_id = hashlib.md5(resp.url.encode()).hexdigest()[:12]
+            
+            # Extract structured content for confirmation UI
+            structured_content = extract_structured_content(soup, resp.url, resp.url)
+            structured_content["status"] = resp.status
+            
+            # Infer page type
+            # Build page data dict for feature extraction
+            page_data_for_features = {
+                "words": {"wordCount": word_count, "paragraphs": [], "headings": headings},
+                "links": {"internal": [l for l in links if resp.url.split('/')[2] in l.get("url", "")]},
+                "media": {"images": images}
+            }
+            # Count paragraphs from readable text
+            paragraphs = [p.strip() for p in readable_text.split('\n\n') if p.strip() and len(p.strip()) > 20]
+            page_data_for_features["words"]["paragraphs"] = paragraphs
+            
+            features = extract_page_features(page_data_for_features)
+            detected_page_type = infer_page_type(resp.url, features)
+            
+            # Save structured content if run_id provided
+            if run_id:
+                _save_structured_content(run_id, page_id, structured_content)
+            
+            return {
+                "summary": {
+                    "pageId": page_id,
+                    "url": resp.url,
+                    "contentType": resp.content_type,
+                    "title": title,
+                    "words": word_count,
+                    "images": len(images),
+                    "links": len(links),
+                    "status": resp.status,
+                    "status_code": resp.status,
+                    "path": resp.path,
+                    "type": "HTML",
+                    "load_time_ms": resp.load_time_ms,
+                    "content_length_bytes": resp.content_length_bytes,
+                    "page_type": detected_page_type
+                },
+                "meta": meta,
+                "text": readable_text,
+                "htmlExcerpt": readable_html[:1000] if readable_html else None,
+                "headings": headings,
+                "images": images,
+                "links": links,
+                "tables": tables,
+                "structuredData": structured_data,
+                "stats": {
+                    "word_count": word_count,
+                    "image_count": len(images),
+                    "link_count": len(links),
+                    "heading_count": len(headings),
+                    "table_count": len(tables),
+                    "page_type": detected_page_type
+                },
+                "structuredContent": structured_content
+            }
     except Exception as e:
         print(f"HTML extraction error: {e}")
         return _create_error_response(resp, "HTML")

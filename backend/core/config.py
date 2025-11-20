@@ -21,5 +21,7 @@ class Settings(BaseSettings):
     PERF_MODE: PerfMode = Field("controlled", description="Performance measurement mode: controlled, realistic, or stress")
     PERF_SAMPLES_PER_URL: int = Field(3, description="Number of performance samples to take per URL in controlled mode")
     PERF_BANDWIDTH_MBPS: float = Field(5.0, description="Simulated bandwidth in Mbps for throttling calculation")
+    USE_MULTIPROCESSING: bool = Field(True, description="Use multiprocessing for CPU-bound extraction tasks (auto-detects CPU cores)")
+    EXTRACTION_WORKERS: int | None = Field(12, description="Number of extraction worker processes (12 by default, None = auto-detect: CPU cores - 1)")
 
 settings = Settings()
