@@ -143,11 +143,11 @@ class RunManager:
                     performance_samples = None
                 
                 if not resp:
-                    state.store.log_error(url, "fetch_failed")
+                    await state.store.log_error(url, "fetch_failed")
                     return
                 if getattr(resp, "blocked_reason", None):
                     reason = resp.blocked_reason
-                    state.store.log_error(url, f"bot_blocked:{reason}")
+                    await state.store.log_error(url, f"bot_blocked:{reason}")
                     if state.bot_strategy:
                         state.bot_strategy.record_block(url, reason, resp.status)
                     return
@@ -174,7 +174,7 @@ class RunManager:
                 if performance_samples:
                     doc["performance_samples"] = performance_samples
                 
-                state.store.save_doc(doc)
+                await state.store.save_doc(doc)
                 
                 # Add to confirmation store pages index
                 if doc.get("summary"):
@@ -183,7 +183,7 @@ class RunManager:
                         # Use effective_load_ms if available, otherwise load_time_ms
                         load_time = resp.effective_load_ms if resp.effective_load_ms is not None else resp.load_time_ms
                         
-                        state.confirmation_store.add_page_to_index({
+                        await state.confirmation_store.add_page_to_index({
                             "pageId": summary.get("pageId"),
                             "title": summary.get("title"),
                             "path": summary.get("path", "/"),

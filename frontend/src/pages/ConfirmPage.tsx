@@ -10,6 +10,8 @@ import { PrimeResponse, PageContent, ConfirmationTab } from '../lib/types.confir
 import PrimeTabs from '../components/PrimeTabs';
 import ContentTabs from '../components/ContentTabs';
 import InsightsTab from '../components/InsightsTab';
+import PerformanceTab from '../components/PerformanceTab';
+import SEOTab from '../components/SEOTab';
 import { TopBar } from '../components/TopBar';
 import CompetitorStep from '../components/CompetitorStep';
 import CompetitorsTab from '../components/CompetitorsTab';
@@ -18,7 +20,11 @@ const ConfirmPage: React.FC = () => {
   const { runId } = useParams<{ runId: string }>();
   const navigate = useNavigate();
   
-  const [activeTab, setActiveTab] = useState<ConfirmationTab>('prime');
+  const [activeTab, setActiveTab] = useState<ConfirmationTab>('extracted');
+  const [extractedSubTab, setExtractedSubTab] = useState<'prime' | 'content'>('prime');
+  const [showExtractedDropdown, setShowExtractedDropdown] = useState(false);
+  const extractedButtonRef = useRef<HTMLButtonElement>(null);
+  const [dropdownPosition, setDropdownPosition] = useState({ top: 0, left: 0 });
   const [primeData, setPrimeData] = useState<PrimeResponse | null>(null);
   const [pageContent, setPageContent] = useState<PageContent | null>(null);
   const [selectedPagePath, setSelectedPagePath] = useState<string>('');
@@ -175,23 +181,54 @@ const ConfirmPage: React.FC = () => {
     loadPageContent(pagePath);
   };
 
-  // Auto-load first page content when switching to Content tab
+  // Auto-load first page content when switching to Content sub-tab
   useEffect(() => {
-    if (activeTab === 'content' && primeData && primeData.pages.length > 0 && !selectedPagePath) {
-      // Auto-select and load first page when entering content tab with no selection
+    if (activeTab === 'extracted' && extractedSubTab === 'content' && primeData && primeData.pages.length > 0 && !selectedPagePath) {
+      // Auto-select and load first page when entering content sub-tab with no selection
       const firstPage = primeData.pages[0];
       setSelectedPagePath(firstPage.path);
       loadPageContent(firstPage.path);
     }
-  }, [activeTab, primeData]);
+  }, [activeTab, extractedSubTab, primeData]);
 
-  // Clear page content when switching away from content tab
+  // Clear page content when switching away from content sub-tab
   useEffect(() => {
-    if (activeTab !== 'content') {
+    if (extractedSubTab !== 'content') {
       setPageContent(null);
       setSelectedPagePath('');
     }
+  }, [extractedSubTab]);
+
+  // Close dropdown when clicking outside or switching tabs
+  useEffect(() => {
+    const handleClickOutside = (event: MouseEvent) => {
+      const target = event.target as HTMLElement;
+      // Don't close if clicking inside dropdown button or dropdown menu
+      if (!target.closest('.extracted-dropdown') && !target.closest('.extracted-dropdown-menu')) {
+        setShowExtractedDropdown(false);
+      }
+    };
+    document.addEventListener('mousedown', handleClickOutside);
+    return () => document.removeEventListener('mousedown', handleClickOutside);
+  }, []);
+
+  // Close dropdown when switching away from extracted tab
+  useEffect(() => {
+    if (activeTab !== 'extracted') {
+      setShowExtractedDropdown(false);
+    }
   }, [activeTab]);
+
+  // Update dropdown position when it opens
+  useEffect(() => {
+    if (showExtractedDropdown && extractedButtonRef.current) {
+      const rect = extractedButtonRef.current.getBoundingClientRect();
+      setDropdownPosition({
+        top: rect.bottom + window.scrollY,
+        left: rect.left + window.scrollX
+      });
+    }
+  }, [showExtractedDropdown]);
 
   const showToast = (message: string, type: 'success' | 'error') => {
     setToast({ message, type });
@@ -420,32 +457,112 @@ const ConfirmPage: React.FC = () => {
       />
 
       {/* Tab Navigation */}
-      <div className="bg-white dark:bg-gray-800 border-b border-gray-200 dark:border-gray-700">
-        <nav className="flex space-x-8 px-6">
+      <div className="bg-white dark:bg-gray-800 border-b border-gray-200 dark:border-gray-700 relative">
+        <nav className="flex space-x-8 px-6 overflow-x-auto">
           {[
-            { id: 'prime', label: 'Prime' },
-            { id: 'content', label: 'Content' },
+            { id: 'extracted', label: 'Extracted' },
             { id: 'insights', label: 'Insights' },
+            { id: 'performance', label: 'Performance' },
+            { id: 'seo', label: 'SEO' },
             { id: 'competitors', label: 'Competitors' }
           ].map((tab) => (
-            <button
-              key={tab.id}
-              onClick={() => setActiveTab(tab.id as ConfirmationTab)}
-              className={`py-4 px-1 border-b-2 font-medium text-sm ${
-                activeTab === tab.id
-                  ? 'border-blue-500 dark:border-blue-400 text-blue-600 dark:text-blue-400'
-                  : 'border-transparent text-gray-500 dark:text-gray-400 hover:text-gray-700 dark:hover:text-gray-300 hover:border-gray-300 dark:hover:border-gray-600'
-              }`}
-            >
-              {tab.label}
-            </button>
+            <div key={tab.id} className="flex-shrink-0">
+              {tab.id === 'extracted' ? (
+                <div className="extracted-dropdown">
+                  <button
+                    ref={extractedButtonRef}
+                    type="button"
+                    onClick={(e) => {
+                      e.preventDefault();
+                      e.stopPropagation();
+                      // ONLY toggle dropdown - NO navigation at all
+                      setShowExtractedDropdown(!showExtractedDropdown);
+                    }}
+                    className={`py-4 px-1 border-b-2 font-medium text-sm whitespace-nowrap flex items-center ${
+                      activeTab === tab.id
+                        ? 'border-blue-500 dark:border-blue-400 text-blue-600 dark:text-blue-400'
+                        : 'border-transparent text-gray-500 dark:text-gray-400 hover:text-gray-700 dark:hover:text-gray-300 hover:border-gray-300 dark:hover:border-gray-600'
+                    }`}
+                  >
+                    Extracted
+                    <svg className={`ml-2 w-4 h-4 transition-transform ${showExtractedDropdown && activeTab === 'extracted' ? 'rotate-180' : ''}`} fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" />
+                    </svg>
+                  </button>
+                </div>
+              ) : (
+                <button
+                  onClick={() => setActiveTab(tab.id as ConfirmationTab)}
+                  className={`py-4 px-1 border-b-2 font-medium text-sm whitespace-nowrap ${
+                    activeTab === tab.id
+                      ? 'border-blue-500 dark:border-blue-400 text-blue-600 dark:text-blue-400'
+                      : 'border-transparent text-gray-500 dark:text-gray-400 hover:text-gray-700 dark:hover:text-gray-300 hover:border-gray-300 dark:hover:border-gray-600'
+                  }`}
+                >
+                  {tab.label}
+                </button>
+              )}
+            </div>
           ))}
         </nav>
       </div>
 
+      {/* Dropdown overlay - positioned fixed to overlay page content */}
+      {showExtractedDropdown && extractedButtonRef.current && (
+        <div 
+          className="fixed z-50 mt-1 extracted-dropdown-menu"
+          style={{
+            top: `${dropdownPosition.top}px`,
+            left: `${dropdownPosition.left}px`
+          }}
+          onClick={(e) => e.stopPropagation()}
+        >
+          <div className="bg-white dark:bg-gray-800 border border-gray-200 dark:border-gray-700 rounded-md shadow-lg min-w-[150px]">
+            <button
+              type="button"
+              onClick={(e) => {
+                e.preventDefault();
+                e.stopPropagation();
+                console.log('Prime clicked');
+                // Navigate to Prime sub-tab - update all state at once
+                setActiveTab('extracted');
+                setExtractedSubTab('prime');
+                setShowExtractedDropdown(false);
+              }}
+              className={`w-full text-left px-4 py-2 text-sm ${
+                extractedSubTab === 'prime'
+                  ? 'bg-blue-50 dark:bg-blue-900/20 text-blue-600 dark:text-blue-400'
+                  : 'text-gray-700 dark:text-gray-300 hover:bg-gray-50 dark:hover:bg-gray-700'
+              }`}
+            >
+              Prime
+            </button>
+            <button
+              type="button"
+              onClick={(e) => {
+                e.preventDefault();
+                e.stopPropagation();
+                console.log('Content clicked');
+                // Navigate to Content sub-tab - update all state at once
+                setActiveTab('extracted');
+                setExtractedSubTab('content');
+                setShowExtractedDropdown(false);
+              }}
+              className={`w-full text-left px-4 py-2 text-sm ${
+                extractedSubTab === 'content'
+                  ? 'bg-blue-50 dark:bg-blue-900/20 text-blue-600 dark:text-blue-400'
+                  : 'text-gray-700 dark:text-gray-300 hover:bg-gray-50 dark:hover:bg-gray-700'
+              }`}
+            >
+              Content
+            </button>
+          </div>
+        </div>
+      )}
+
       <div className="flex">
-        {/* Left Sidebar - Only on Content tab */}
-        {activeTab === 'content' && (
+        {/* Left Sidebar - Show on Extracted tab when Content sub-tab is active */}
+        {activeTab === 'extracted' && extractedSubTab === 'content' && (
           <div className="w-64 bg-white dark:bg-gray-800 shadow-sm border-r border-gray-200 dark:border-gray-700 flex flex-col">
             <div className="p-4">
               <h3 className="text-sm font-medium text-gray-900 dark:text-gray-100 mb-3">All Pages</h3>
@@ -559,6 +676,34 @@ const ConfirmPage: React.FC = () => {
         <div className="flex-1">
           {/* Tab Content */}
           <div className="p-6">
+            {activeTab === 'extracted' && (
+              <div>
+                {/* Sub-tab Content */}
+                {extractedSubTab === 'prime' && (
+                  <PrimeTabs
+                    data={primeData}
+                    onNavigationUpdate={handleNavigationUpdate}
+                    onFooterUpdate={handleFooterUpdate}
+                    saving={saving}
+                    onPageSelect={(pagePath) => {
+                      setExtractedSubTab('content');
+                      handlePageSelect(pagePath);
+                    }}
+                  />
+                )}
+
+                {extractedSubTab === 'content' && (
+                  <ContentTabs
+                    pageContent={pageContent}
+                    onContentUpdate={handlePageContentUpdate}
+                    loading={loading}
+                    saving={saving}
+                    selectedPagePath={selectedPagePath}
+                  />
+                )}
+              </div>
+            )}
+
             {activeTab === 'competitors' && (
               <div className="max-w-6xl mx-auto space-y-6">
                 {!comparisonResult ? (
@@ -588,27 +733,20 @@ const ConfirmPage: React.FC = () => {
               </div>
             )}
             
-            {activeTab === 'prime' && (
-              <PrimeTabs
-                data={primeData}
-                onNavigationUpdate={handleNavigationUpdate}
-                onFooterUpdate={handleFooterUpdate}
-                saving={saving}
-              />
-            )}
-            
-            {activeTab === 'content' && (
-              <ContentTabs
-                pageContent={pageContent}
-                onContentUpdate={handlePageContentUpdate}
-                loading={loading}
-                saving={saving}
-                selectedPagePath={selectedPagePath}
-              />
-            )}
-            
             {activeTab === 'insights' && (
               <InsightsTab
+                runId={runId || ''}
+              />
+            )}
+            
+            {activeTab === 'performance' && (
+              <PerformanceTab
+                runId={runId || ''}
+              />
+            )}
+            
+            {activeTab === 'seo' && (
+              <SEOTab
                 runId={runId || ''}
               />
             )}

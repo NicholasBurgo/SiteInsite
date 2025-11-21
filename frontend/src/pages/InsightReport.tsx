@@ -7,6 +7,7 @@ import { useParams, useNavigate } from 'react-router-dom';
 import { fetchInsightSummary } from '../lib/api';
 import { InsightReport as InsightReportType } from '../lib/types';
 import { TopBar } from '../components/TopBar';
+import SeoOverviewSection from '../components/SeoOverviewSection';
 
 const InsightReport: React.FC = () => {
   const { runId } = useParams<{ runId: string }>();
@@ -213,46 +214,14 @@ const InsightReport: React.FC = () => {
           )}
         </div>
 
-        {/* SEO Section */}
+        {/* [SEO_UI_OVERVIEW_SECTION] Unified SEO Overview Section */}
         <div className="mb-8">
-          <div className="flex items-center justify-between mb-4">
-            <h2 className="text-xl font-semibold text-gray-900">SEO Analysis</h2>
-            <div className={`text-2xl font-bold ${getScoreColor(report.categories.find(c => c.category === 'seo')?.score || 0)}`}>
-              {report.categories.find(c => c.category === 'seo')?.score || 0}
-            </div>
-          </div>
-          {report.categories.find(c => c.category === 'seo')?.issues.length > 0 ? (
-            <div className="space-y-2">
-              {report.categories.find(c => c.category === 'seo')?.issues.map((issue) => (
-                <div key={issue.id} className={`border rounded-lg p-4 ${getSeverityColor(issue.severity)}`}>
-                  <div className="flex items-center justify-between mb-2">
-                    <h3 className="font-medium">{issue.title}</h3>
-                    <span className="text-xs px-2 py-1 rounded-full bg-white/50">
-                      {issue.severity}
-                    </span>
-                  </div>
-                  <p className="text-sm mb-2">{issue.description}</p>
-                  {issue.affectedPages.length > 0 && (
-                    <div className="text-xs mt-2">
-                      <div className="font-medium mb-1">Affected Pages:</div>
-                      <div className="space-y-1">
-                        {issue.affectedPages.slice(0, 5).map((url, idx) => (
-                          <div key={idx} className="truncate">• {url}</div>
-                        ))}
-                        {issue.affectedPages.length > 5 && (
-                          <div>... and {issue.affectedPages.length - 5} more</div>
-                        )}
-                      </div>
-                    </div>
-                  )}
-                </div>
-              ))}
-            </div>
-          ) : (
-            <div className="bg-green-50 border border-green-200 rounded-lg p-4 text-green-800">
-              ✓ No SEO issues detected
-            </div>
-          )}
+          <SeoOverviewSection
+            seo={report.seo}
+            seoCategoryScore={report.categories.find(c => c.category === 'seo')?.score}
+            seoCategoryIssues={report.categories.find(c => c.category === 'seo')?.issues}
+            seoKeywords={report.seo_keywords}
+          />
         </div>
 
         {/* Content Section */}

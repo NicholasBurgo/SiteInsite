@@ -8,6 +8,7 @@ import time
 from typing import List, Dict, Any, Optional
 from urllib.parse import urlparse
 from backend.extract.nav_footer import extract_navigation, extract_footer
+from backend.storage.async_io import get_async_writer
 
 
 class ConfirmationStore:
@@ -127,51 +128,51 @@ class ConfirmationStore:
         
         return robots_present, sitemap_present
     
-    def add_page_to_index(self, page_data: Dict[str, Any]):
-        """Add page to pages_index.json."""
-        try:
-            with open(self.pages_index_file, 'r') as f:
-                pages_index = json.load(f)
+    async def add_page_to_index(self, page_data: Dict[str, Any]):
+        """Add page to pages_index.json asynchronously."""
+        writer = get_async_writer()
+        
+        def update_index(new_page_data, existing_index):
+            """Update function to add or update page in index."""
+            if existing_index is None:
+                existing_index = []
             
-            # Check if page already exists
-            page_id = page_data.get("pageId")
-            existing_page = next((p for p in pages_index if p.get("pageId") == page_id), None)
+            page_id = new_page_data.get("pageId")
+            existing_page = next((p for p in existing_index if p.get("pageId") == page_id), None)
             
             if existing_page:
                 # Update existing page
                 existing_page.update({
-                    "titleGuess": page_data.get("title"),
-                    "path": page_data.get("path", "/"),
-                    "url": page_data.get("url"),
-                    "status": page_data.get("status"),
-                    "status_code": page_data.get("status_code"),
-                    "words": page_data.get("words", 0),
-                    "mediaCount": page_data.get("mediaCount", 0),
-                    "loadTimeMs": page_data.get("loadTimeMs"),
-                    "contentLengthBytes": page_data.get("contentLengthBytes"),
-                    "page_type": page_data.get("page_type")  # Preserve existing or add new
+                    "titleGuess": new_page_data.get("title"),
+                    "path": new_page_data.get("path", "/"),
+                    "url": new_page_data.get("url"),
+                    "status": new_page_data.get("status"),
+                    "status_code": new_page_data.get("status_code"),
+                    "words": new_page_data.get("words", 0),
+                    "mediaCount": new_page_data.get("mediaCount", 0),
+                    "loadTimeMs": new_page_data.get("loadTimeMs"),
+                    "contentLengthBytes": new_page_data.get("contentLengthBytes"),
+                    "page_type": new_page_data.get("page_type")
                 })
             else:
                 # Add new page
-                pages_index.append({
+                existing_index.append({
                     "pageId": page_id,
-                    "titleGuess": page_data.get("title"),
-                    "path": page_data.get("path", "/"),
-                    "url": page_data.get("url"),
-                    "status": page_data.get("status"),
-                    "status_code": page_data.get("status_code"),
-                    "words": page_data.get("words", 0),
-                    "mediaCount": page_data.get("mediaCount", 0),
-                    "loadTimeMs": page_data.get("loadTimeMs"),
-                    "contentLengthBytes": page_data.get("contentLengthBytes"),
-                    "page_type": page_data.get("page_type", "generic")
+                    "titleGuess": new_page_data.get("title"),
+                    "path": new_page_data.get("path", "/"),
+                    "url": new_page_data.get("url"),
+                    "status": new_page_data.get("status"),
+                    "status_code": new_page_data.get("status_code"),
+                    "words": new_page_data.get("words", 0),
+                    "mediaCount": new_page_data.get("mediaCount", 0),
+                    "loadTimeMs": new_page_data.get("loadTimeMs"),
+                    "contentLengthBytes": new_page_data.get("contentLengthBytes"),
+                    "page_type": new_page_data.get("page_type", "generic")
                 })
             
-            with open(self.pages_index_file, 'w') as f:
-                json.dump(pages_index, f, indent=2)
-                
-        except Exception as e:
-            print(f"Error adding page to index: {e}")
+            return existing_index
+        
+        await writer.write_json(self.pages_index_file, page_data, update_func=update_index)
     
     def get_site_data(self) -> Dict[str, Any]:
         """Get site-level data (nav, footer, brand)."""
@@ -231,14 +232,11 @@ class ConfirmationStore:
             print(f"Error reading page content: {e}")
         return None
     
-    def update_page_content(self, page_id: str, content: Dict[str, Any]):
-        """Update structured content for a specific page."""
-        try:
-            page_file = os.path.join(self.pages_dir, f"{page_id}.json")
-            with open(page_file, 'w') as f:
-                json.dump(content, f, indent=2)
-        except Exception as e:
-            print(f"Error updating page content: {e}")
+    async def update_page_content(self, page_id: str, content: Dict[str, Any]):
+        """Update structured content for a specific page asynchronously."""
+        page_file = os.path.join(self.pages_dir, f"{page_id}.json")
+        writer = get_async_writer()
+        await writer.write_json(page_file, content)
     
     def _extract_brand_info(self, soup, base_url: str) -> Optional[Dict[str, Any]]:
         """Extract basic brand information."""

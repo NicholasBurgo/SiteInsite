@@ -7,6 +7,7 @@ from backend.core.types import PageSummary, PageDetail, PageResult
 from backend.crawl.frontier import Frontier
 from backend.insights.crawl_quality import compute_crawl_quality
 from backend.crawl.performance import aggregate_performance_samples, compute_performance_consistency
+from backend.storage.async_io import get_async_writer
 
 
 def percentile(data: List[float], p: float) -> float:
@@ -87,40 +88,39 @@ class RunStore:
             except Exception as e:
                 print(f"Error updating run meta: {e}")
     
-    def save_doc(self, doc: dict):
-        """Save extracted document."""
-        try:
-            # Load existing pages
-            with open(self.pages_file, 'r') as f:
-                pages = json.load(f)
-            
-            # Add new page
-            pages.append(doc)
-            
-            # Save back
-            with open(self.pages_file, 'w') as f:
-                json.dump(pages, f)
-                
-        except Exception as e:
-            print(f"Error saving document: {e}")
+    async def save_doc(self, doc: dict):
+        """Save extracted document asynchronously."""
+        writer = get_async_writer()
+        
+        def update_pages(new_doc, existing_pages):
+            """Update function to append new doc to existing pages."""
+            if existing_pages is None:
+                return [new_doc]
+            existing_pages.append(new_doc)
+            return existing_pages
+        
+        await writer.write_json(self.pages_file, doc, update_func=update_pages)
     
-    def log_error(self, url: str, error_type: str):
-        """Log error for URL."""
-        try:
-            with open(self.meta_file, 'r') as f:
-                meta = json.load(f)
-            
-            meta["errors"].append({
-                "url": url,
-                "error_type": error_type,
-                "timestamp": time.time()
-            })
-            
-            with open(self.meta_file, 'w') as f:
-                json.dump(meta, f)
-                
-        except Exception as e:
-            print(f"Error logging error: {e}")
+    async def log_error(self, url: str, error_type: str):
+        """Log error for URL asynchronously."""
+        writer = get_async_writer()
+        
+        error_entry = {
+            "url": url,
+            "error_type": error_type,
+            "timestamp": time.time()
+        }
+        
+        def update_meta(new_error, existing_meta):
+            """Update function to append error to existing meta."""
+            if existing_meta is None:
+                return {"errors": [new_error]}
+            if "errors" not in existing_meta:
+                existing_meta["errors"] = []
+            existing_meta["errors"].append(new_error)
+            return existing_meta
+        
+        await writer.write_json(self.meta_file, error_entry, update_func=update_meta)
     
     def create_mock_data(self):
         """Create mock data for testing the confirmation page."""

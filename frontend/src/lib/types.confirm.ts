@@ -118,7 +118,7 @@ export type SeedResponse = {
 };
 
 // UI State Types
-export type ConfirmationTab = 'prime' | 'content' | 'insights' | 'competitors';
+export type ConfirmationTab = 'extracted' | 'insights' | 'performance' | 'seo' | 'competitors';
 
 export type PrimeSubTab = 'nav' | 'footer' | 'pages';
 
