@@ -1220,9 +1220,10 @@ def build_insight_report(run_store: RunStore, run_id: str) -> InsightReport:
             )
         
         # Create unified SEO section
+        # [SEO_ACCURACY_PATCH] Show keyword coverage if we have keywords or metrics
         seo_section = SEOSection(
             health=seo_health_section,
-            keyword_coverage=keyword_coverage if keyword_coverage.focus_keywords else None
+            keyword_coverage=keyword_coverage if (keyword_coverage.focus_keywords or keyword_coverage.keyword_metrics) else None
         )
     except Exception as e:
         print(f"Warning: Failed to compute unified SEO section: {e}")

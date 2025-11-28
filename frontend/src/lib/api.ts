@@ -1,34 +1,76 @@
+/**
+ * API client functions for interacting with the SiteInsite backend.
+ */
+
+/**
+ * Start a new website audit run.
+ * @param body - Audit configuration including URL and crawl parameters
+ * @returns Promise resolving to run start response with runId
+ */
 export async function startRun(body: { url: string; maxPages?: number; maxDepth?: number; concurrency?: number; renderBudget?: number; botAvoidanceEnabled?: boolean; }) {
   const r = await fetch("/api/runs/start", { method: "POST", headers: { "Content-Type": "application/json" }, body: JSON.stringify(body) });
   return r.json();
 }
 
+/**
+ * Get current progress for an audit run.
+ * @param runId - Unique identifier for the audit run
+ * @returns Promise resolving to progress data
+ */
 export async function getProgress(runId: string) {
   const r = await fetch(`/api/runs/${runId}/progress`);
   return r.json();
 }
 
+/**
+ * Get extraction status for a run.
+ * @param runId - Unique identifier for the audit run
+ * @returns Promise resolving to extraction status
+ */
 export async function getExtractionStatus(runId: string) {
   const r = await fetch(`/api/confirm/${runId}/status`);
   return r.json();
 }
 
+/**
+ * List pages for an audit run with pagination.
+ * @param runId - Unique identifier for the audit run
+ * @param p - Page number (1-indexed)
+ * @param size - Number of items per page
+ * @returns Promise resolving to list of page summaries
+ */
 export async function listPages(runId: string, p = 1, size = 100) {
   const r = await fetch(`/api/pages/${runId}?page=${p}&size=${size}`);
   return r.json();
 }
 
+/**
+ * Get detailed information for a specific page.
+ * @param runId - Unique identifier for the audit run
+ * @param pageId - Unique identifier for the page
+ * @returns Promise resolving to page detail data
+ */
 export async function getPage(runId: string, pageId: string) {
   const r = await fetch(`/api/pages/${runId}/${pageId}`);
   return r.json();
 }
 
-// Review API functions
+/**
+ * Get aggregated draft model for a run.
+ * @param runId - Unique identifier for the audit run
+ * @returns Promise resolving to draft model data
+ */
 export async function getDraft(runId: string) {
   const r = await fetch(`/api/review/${runId}/draft`);
   return r.json();
 }
 
+/**
+ * Confirm and save the edited draft model.
+ * @param runId - Unique identifier for the audit run
+ * @param draft - Draft model data to confirm
+ * @returns Promise resolving to confirmation response
+ */
 export async function confirmDraft(runId: string, draft: any) {
   const r = await fetch(`/api/review/${runId}/confirm`, {
     method: "POST",
@@ -38,22 +80,45 @@ export async function confirmDraft(runId: string, draft: any) {
   return r.json();
 }
 
+/**
+ * Get confirmed draft model if it exists.
+ * @param runId - Unique identifier for the audit run
+ * @returns Promise resolving to confirmed draft data
+ */
 export async function getConfirmed(runId: string) {
   const r = await fetch(`/api/review/${runId}/confirmed`);
   return r.json();
 }
 
+/**
+ * Get run summary statistics.
+ * @param runId - Unique identifier for the audit run
+ * @returns Promise resolving to run summary data
+ */
 export async function getRunSummary(runId: string) {
   const r = await fetch(`/api/review/${runId}/summary`);
   return r.json();
 }
 
+/**
+ * Fetch insight summary report for a run.
+ * @param runId - Unique identifier for the audit run
+ * @returns Promise resolving to insight summary data
+ * @throws Error if request fails
+ */
 export async function fetchInsightSummary(runId: string) {
   const res = await fetch(`/api/insights/${runId}/summary`);
   if (!res.ok) throw new Error("Failed to load insight summary");
   return res.json();
 }
 
+/**
+ * Export insight report as PDF.
+ * @param runId - Unique identifier for the audit run
+ * @param competitorRunIds - Optional list of competitor run IDs for comparison
+ * @returns Promise that resolves when download completes
+ * @throws Error if export fails
+ */
 export async function exportInsightReport(runId: string, competitorRunIds?: string[]): Promise<void> {
   let url = `/api/insights/${runId}/export`;
   if (competitorRunIds && competitorRunIds.length > 0) {
@@ -81,7 +146,12 @@ export async function exportInsightReport(runId: string, competitorRunIds?: stri
   window.URL.revokeObjectURL(downloadUrl);
 }
 
-// Competitor suggestion API
+/**
+ * Get suggested competitor URLs based on a domain.
+ * @param url - Primary website URL to suggest competitors for
+ * @returns Promise resolving to list of suggested competitor URLs
+ * @throws Error if request fails
+ */
 export async function suggestCompetitors(url: string) {
   const res = await fetch(`/api/competitors/suggest?url=${encodeURIComponent(url)}`);
   if (!res.ok) {
@@ -90,7 +160,14 @@ export async function suggestCompetitors(url: string) {
   return res.json();
 }
 
-// Comparison API
+/**
+ * Run comparison audit between primary site and competitors.
+ * @param primaryUrl - Primary website URL to compare
+ * @param competitors - List of competitor URLs
+ * @param botAvoidanceEnabled - Optional flag to enable bot avoidance
+ * @returns Promise resolving to comparison report data
+ * @throws Error if request fails
+ */
 export async function runComparison(primaryUrl: string, competitors: string[], botAvoidanceEnabled?: boolean) {
   const res = await fetch("/api/compare", {
     method: "POST",
@@ -107,7 +184,11 @@ export async function runComparison(primaryUrl: string, competitors: string[], b
   return res.json();
 }
 
-// Utility functions
+/**
+ * Format duration in seconds to human-readable string.
+ * @param seconds - Duration in seconds
+ * @returns Formatted duration string (e.g., "5m 30s", "2h 15m")
+ */
 export function formatDuration(seconds: number): string {
   if (seconds < 60) {
     return `${seconds}s`;
@@ -122,6 +203,11 @@ export function formatDuration(seconds: number): string {
   }
 }
 
+/**
+ * Get Tailwind CSS classes for status badge colors.
+ * @param status - Status string (running, completed, error, stopped)
+ * @returns Tailwind CSS class string for status badge
+ */
 export function getStatusColor(status: string): string {
   switch (status) {
     case 'running':
@@ -137,7 +223,10 @@ export function getStatusColor(status: string): string {
   }
 }
 
-// Mock React Query hooks (these would normally be real hooks)
+/**
+ * Mock React Query hook for fetching runs list.
+ * @returns Mock hook return value with runs data
+ */
 export function useRuns() {
   return {
     data: { 

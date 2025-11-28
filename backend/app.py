@@ -1,3 +1,8 @@
+"""
+Main FastAPI application entry point.
+
+Configures the API server, CORS middleware, and registers all route handlers.
+"""
 from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
 from backend.core.config import settings
@@ -31,6 +36,13 @@ app.include_router(confirm.router, prefix="/api/confirm", tags=["confirm"])
 app.include_router(insights.router, tags=["insights"])
 app.include_router(competitors.router, tags=["competitors"])
 
+
 @app.get("/health", tags=["meta"])
 async def health():
+    """
+    Health check endpoint.
+    
+    Returns:
+        dict: Simple health status response
+    """
     return {"ok": True}

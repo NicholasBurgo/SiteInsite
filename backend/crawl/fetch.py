@@ -1,3 +1,8 @@
+"""
+Async HTTP client for fetching web pages with rate limiting and performance measurement.
+
+Supports multiple performance measurement modes and bot avoidance strategies.
+"""
 import aiohttp
 import asyncio
 from typing import Optional, Literal, List, Dict, Any
@@ -6,6 +11,7 @@ from time import perf_counter
 from backend.core.config import Settings
 from backend.crawl.bot_avoidance import BotAvoidanceStrategy
 from backend.crawl.performance import simulate_bandwidth_throttling
+
 
 @dataclass
 class FetchResponse:

@@ -1,3 +1,9 @@
+"""
+File-based storage for audit runs.
+
+Manages persistence of page data, metadata, and statistics using JSON files.
+Supports pagination, filtering, and async I/O operations.
+"""
 import os
 import json
 import time
@@ -11,7 +17,16 @@ from backend.storage.async_io import get_async_writer
 
 
 def percentile(data: List[float], p: float) -> float:
-    """Calculate the p-th percentile of a list of numbers."""
+    """
+    Calculate the p-th percentile of a list of numbers.
+    
+    Args:
+        data: List of numeric values
+        p: Percentile value (0-100)
+    
+    Returns:
+        float: The p-th percentile value
+    """
     if not data:
         return 0.0
     sorted_data = sorted(data)
@@ -24,7 +39,15 @@ def percentile(data: List[float], p: float) -> float:
 
 
 def compute_stats_from_values(values: List[float]) -> Dict[str, Any]:
-    """Compute statistical metrics from a list of values."""
+    """
+    Compute statistical metrics from a list of values.
+    
+    Args:
+        values: List of numeric values
+    
+    Returns:
+        dict: Statistics including average, median, percentiles, min, max, stdev, count
+    """
     if not values:
         return {}
     
@@ -51,9 +74,20 @@ def compute_stats_from_values(values: List[float]) -> Dict[str, Any]:
 class RunStore:
     """
     File-based storage for extraction runs.
+    
+    Manages JSON file storage for pages and metadata, with support for
+    async I/O, pagination, filtering, and statistics computation.
     """
     
     def __init__(self, run_id: str, data_dir: str = "runs", meta_overrides: dict | None = None):
+        """
+        Initialize run storage.
+        
+        Args:
+            run_id: Unique identifier for the audit run
+            data_dir: Base directory for storing run data
+            meta_overrides: Optional dictionary to override metadata values
+        """
         self.run_id = run_id
         self.data_dir = data_dir
         self.run_dir = os.path.join(data_dir, run_id)

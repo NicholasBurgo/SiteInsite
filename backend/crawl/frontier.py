@@ -1,7 +1,14 @@
+"""
+URL frontier for managing crawl queue with politeness and deduplication.
+
+Handles URL normalization, depth tracking, and domain filtering to ensure
+crawls stay within configured limits and respect site boundaries.
+"""
 import asyncio
 from urllib.parse import urljoin, urlparse
 from typing import Set, List, Optional
 from collections import deque
+
 
 class Frontier:
     """

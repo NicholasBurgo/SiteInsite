@@ -22,11 +22,14 @@ STOPWORDS = {
     "call", "who", "oil", "sit", "now", "find", "down", "day", "did", "get", "come", "made", "may", "part"
 }
 
-# [SEO_KEYWORDS_PATCH] Generic business words that should not be selected alone
-GENERIC = {
-    "company", "support", "service", "services", "solutions", "products", "product",
-    "team", "group", "systems", "business", "platform", "tools"
+# [SEO_ACCURACY_PATCH] Generic business words that should not be selected alone
+GENERIC_BUSINESS = {
+    "company", "platform", "service", "services", "solution", "solutions",
+    "product", "products", "tools", "tool", "support", "systems",
+    "business", "team"
 }
+# Backward compatibility alias
+GENERIC = GENERIC_BUSINESS
 
 # [SEO_ACCURACY_PATCH] Page type importance weights for keyword coverage scoring
 PAGE_TYPE_WEIGHTS = {
@@ -141,8 +144,9 @@ def tokenize(text: str) -> List[str]:
 
 def extract_ngrams(text: str, min_n: int = 2, max_n: int = 3) -> List[str]:
     """
-    [SEO_KEYWORDS_PATCH] Extract n-grams (phrases) from normalized text.
+    [SEO_ACCURACY_PATCH] Extract n-grams (phrases) from normalized text.
     Returns 2-3 word phrases, normalized and filtered.
+    Only extracts from important sources (title/H1/H2/nav), not body text.
     """
     normalized = normalize_text(text)
     if not normalized:
@@ -157,14 +161,16 @@ def extract_ngrams(text: str, min_n: int = 2, max_n: int = 3) -> List[str]:
     for n in range(min_n, min(max_n + 1, len(words) + 1)):
         for i in range(len(words) - n + 1):
             phrase_words = words[i:i + n]
-            # Filter out stopwords from phrase
+            # [SEO_ACCURACY_PATCH] Filter out stopwords from phrase
             filtered_phrase = [w for w in phrase_words if w.lower() not in STOPWORDS]
             # Only keep phrase if it has at least min_n meaningful words
             if len(filtered_phrase) >= min_n:
                 phrase = ' '.join(filtered_phrase)
                 # Filter out numeric-only and very short phrases
                 if len(phrase) >= 4 and not phrase.replace(' ', '').isdigit():
-                    phrases.append(phrase)
+                    # [SEO_ACCURACY_PATCH] Filter out phrases where all words are generic business words
+                    if not all(w.lower() in GENERIC_BUSINESS for w in filtered_phrase):
+                        phrases.append(phrase)
     
     return phrases
 
@@ -345,23 +351,23 @@ def infer_focus_keywords(run_store: RunStore, max_keywords: int = 20) -> List[st
                     # Count occurrences in slug
                     phrase_occurrences[phrase] += count_keyword_occurrences(slug, phrase)
             
-            # [SEO_KEYWORDS_PATCH] Also track single words from titles/H1/H2 for fallback
+            # [SEO_ACCURACY_PATCH] Also track single words from titles/H1/H2 for fallback
             if title:
                 title_tokens = tokenize(title)
                 for token in title_tokens:
-                    if token.lower() not in GENERIC:  # Skip generic words
+                    if token.lower() not in GENERIC_BUSINESS:  # Skip generic words
                         single_word_scores[token] += 3
             
             for h1_text in h1_texts:
                 h1_tokens = tokenize(h1_text)
                 for token in h1_tokens:
-                    if token.lower() not in GENERIC:
+                    if token.lower() not in GENERIC_BUSINESS:
                         single_word_scores[token] += 2
             
             for h2_text in h2_texts:
                 h2_tokens = tokenize(h2_text)
                 for token in h2_tokens:
-                    if token.lower() not in GENERIC:
+                    if token.lower() not in GENERIC_BUSINESS:
                         single_word_scores[token] += 1
         
         except Exception:
@@ -418,12 +424,16 @@ def infer_focus_keywords(run_store: RunStore, max_keywords: int = 20) -> List[st
         # Filter: remove phrases that are too short or numeric-only
         if len(phrase) < 4 or phrase.replace(' ', '').isdigit():
             continue
-        # Filter: remove phrases where all tokens are STOPWORDS or GENERIC
+        # [SEO_ACCURACY_PATCH] Filter: remove phrases where all tokens are STOPWORDS or GENERIC_BUSINESS
         phrase_words = phrase.split()
-        if all(w.lower() in STOPWORDS or w.lower() in GENERIC for w in phrase_words):
+        if all(w.lower() in STOPWORDS or w.lower() in GENERIC_BUSINESS for w in phrase_words):
             continue
-        # Filter: remove single-word candidates that are in STOPWORDS or GENERIC
-        if len(phrase_words) == 1 and (phrase_words[0].lower() in STOPWORDS or phrase_words[0].lower() in GENERIC):
+        # [SEO_ACCURACY_PATCH] Filter: remove phrases containing only generic business nouns
+        # e.g., "platform services solutions" should be filtered out
+        if all(w.lower() in GENERIC_BUSINESS for w in phrase_words):
+            continue
+        # Filter: remove single-word candidates that are in STOPWORDS or GENERIC_BUSINESS
+        if len(phrase_words) == 1 and (phrase_words[0].lower() in STOPWORDS or phrase_words[0].lower() in GENERIC_BUSINESS):
             continue
         
         # Compute phrase_score according to new formula
@@ -443,8 +453,8 @@ def infer_focus_keywords(run_store: RunStore, max_keywords: int = 20) -> List[st
     # Add single words as fallback (only if no good phrases found)
     if len(candidates) < max_keywords:
         for word, count in single_word_scores.most_common(max_keywords * 2):
-            # Filter: skip generic words, short words, numeric-only
-            if (word.lower() in GENERIC or 
+            # [SEO_ACCURACY_PATCH] Filter: skip generic words, short words, numeric-only
+            if (word.lower() in GENERIC_BUSINESS or 
                 len(word) < 3 or 
                 word.isdigit() or
                 any(c['keyword'] == word for c in candidates)):  # Avoid duplicates
@@ -729,7 +739,8 @@ def compute_keyword_metrics_for_run(
         avg_density = sum(page_densities) / len(page_densities) if page_densities else 0.0
         
         # [SEO_ACCURACY_PATCH] New scoring formula: zero score if no coverage
-        if weighted_pages_used == 0:
+        # CRITICAL: If keyword is unused (pages_used == 0), all scores must be 0
+        if pages_used == 0 or weighted_pages_used <= 0.0 or total_weight <= 0.0:
             coverage_score = 0.0
             onpage_score = 0.0
             density_component = 0.0

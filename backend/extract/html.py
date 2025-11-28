@@ -1,3 +1,9 @@
+"""
+HTML content extraction module.
+
+Extracts text, metadata, links, images, headings, and structured data from HTML pages.
+Uses readability and trafilatura for content extraction, BeautifulSoup for parsing.
+"""
 import re
 import hashlib
 import os
@@ -14,11 +20,34 @@ from backend.extract.pool import get_extraction_pool
 from backend.storage.async_io import get_async_writer
 
 
-def _extract_html_sync(html_content: bytes, url: str, content_type: str, status: int, path: str, 
-                       load_time_ms: int | None, content_length_bytes: int | None, run_id: str | None = None) -> dict:
+def _extract_html_sync(
+    html_content: bytes,
+    url: str,
+    content_type: str,
+    status: int,
+    path: str,
+    load_time_ms: int | None,
+    content_length_bytes: int | None,
+    run_id: str | None = None
+) -> dict:
     """
     Synchronous HTML extraction function for multiprocessing.
+    
     This is the CPU-bound part that runs in worker processes.
+    Extracts all content from HTML including text, metadata, links, images, etc.
+    
+    Args:
+        html_content: Raw HTML content bytes
+        url: Source URL
+        content_type: Content-Type header value
+        status: HTTP status code
+        path: URL path
+        load_time_ms: Page load time in milliseconds
+        content_length_bytes: Content length in bytes
+        run_id: Optional run ID for context
+    
+    Returns:
+        dict: Extracted page data with summary, meta, text, headings, images, links, etc.
     """
     try:
         html_str = html_content.decode('utf-8', errors='ignore')

@@ -1,14 +1,23 @@
+"""
+Application configuration and settings management.
+
+Uses Pydantic Settings for environment variable loading and validation.
+"""
 from pydantic_settings import BaseSettings
 from pydantic import Field
 from typing import Literal
 
-# SiteInsite version
 SITEINSITE_VERSION = "1.0.0"
 
-# Performance measurement modes
 PerfMode = Literal["controlled", "realistic", "stress"]
 
+
 class Settings(BaseSettings):
+    """
+    Application settings loaded from environment variables.
+    
+    All settings can be overridden via environment variables using uppercase names.
+    """
     BASE_USER_AGENT: str = Field("SiteInsite/1.0 (+contact@example.com)")
     GLOBAL_CONCURRENCY: int = 12
     PER_HOST_LIMIT: int = 6
@@ -23,5 +32,6 @@ class Settings(BaseSettings):
     PERF_BANDWIDTH_MBPS: float = Field(5.0, description="Simulated bandwidth in Mbps for throttling calculation")
     USE_MULTIPROCESSING: bool = Field(True, description="Use multiprocessing for CPU-bound extraction tasks (auto-detects CPU cores)")
     EXTRACTION_WORKERS: int | None = Field(12, description="Number of extraction worker processes (12 by default, None = auto-detect: CPU cores - 1)")
+
 
 settings = Settings()

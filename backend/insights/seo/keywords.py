@@ -558,34 +558,42 @@ def compute_keyword_metrics_for_run(
         anchor_hits = stats['anchor_hits']
         page_densities = stats['page_densities']
         
-        # Coverage score: how many pages use this keyword
-        coverage_score = clamp_0_100(100.0 * pages_used / total_pages if total_pages > 0 else 0.0)
-        
-        # On-page score: weighted combination of title/H1/H2/slug/anchor hits
-        def normalized(n: int, total: int) -> float:
-            """Normalize count to 0-1 range."""
-            return min(1.0, n / total) if total > 0 else 0.0
-        
-        onpage_score_raw = (
-            0.3 * normalized(title_hits, total_pages) +
-            0.2 * normalized(h1_hits, total_pages) +
-            0.2 * normalized(h2_hits, total_pages) +
-            0.15 * normalized(slug_hits, total_pages) +
-            0.15 * normalized(anchor_hits, total_pages)
-        )
-        onpage_score = clamp_0_100(onpage_score_raw * 100.0)
-        
-        # Density score: average density across pages where keyword appears
-        avg_density = sum(page_densities) / len(page_densities) if page_densities else 0.0
-        density_score = compute_density_score(avg_density)
-        
-        # Total score: weighted combination
-        total_score = round(
-            0.3 * coverage_score +
-            0.4 * onpage_score +
-            0.3 * density_score,
-            1
-        )
+        # [SEO_ACCURACY_PATCH] CRITICAL: If keyword is unused (pages_used == 0), all scores must be 0
+        if pages_used == 0:
+            coverage_score = 0.0
+            onpage_score = 0.0
+            density_score = 0.0
+            total_score = 0.0
+            avg_density = 0.0
+        else:
+            # Coverage score: how many pages use this keyword
+            coverage_score = clamp_0_100(100.0 * pages_used / total_pages if total_pages > 0 else 0.0)
+            
+            # On-page score: weighted combination of title/H1/H2/slug/anchor hits
+            def normalized(n: int, total: int) -> float:
+                """Normalize count to 0-1 range."""
+                return min(1.0, n / total) if total > 0 else 0.0
+            
+            onpage_score_raw = (
+                0.3 * normalized(title_hits, total_pages) +
+                0.2 * normalized(h1_hits, total_pages) +
+                0.2 * normalized(h2_hits, total_pages) +
+                0.15 * normalized(slug_hits, total_pages) +
+                0.15 * normalized(anchor_hits, total_pages)
+            )
+            onpage_score = clamp_0_100(onpage_score_raw * 100.0)
+            
+            # Density score: average density across pages where keyword appears
+            avg_density = sum(page_densities) / len(page_densities) if page_densities else 0.0
+            density_score = compute_density_score(avg_density)
+            
+            # Total score: weighted combination
+            total_score = round(
+                0.3 * coverage_score +
+                0.4 * onpage_score +
+                0.3 * density_score,
+                1
+            )
         
         keyword_metrics.append(KeywordMetrics(
             keyword=keyword,
@@ -673,9 +681,11 @@ def compute_keyword_coverage_summary(run_id: str, run_store: RunStore) -> Keywor
                 keyword_metrics=[]
             )
         
-        # Compute overall keyword score (weighted average of per-keyword scores)
-        total_score_sum = sum(km.total_score for km in keyword_metrics)
-        overall_score = round(total_score_sum / len(keyword_metrics), 1) if keyword_metrics else 0.0
+        # [SEO_ACCURACY_PATCH] Compute overall keyword score as weighted average using importance_weight
+        # Use importance_weight if available, otherwise weight all keywords equally
+        num = sum(km.total_score * (km.importance_weight or 1.0) for km in keyword_metrics)
+        den = sum(km.importance_weight or 1.0 for km in keyword_metrics) or 1.0
+        overall_score = round(num / den, 1)
         
         return KeywordCoverageSummary(
             overall_score=overall_score,

@@ -1,3 +1,7 @@
+/**
+ * TypeScript type definitions for SiteInsite API responses and requests.
+ */
+
 export interface StartRunRequest {
   url: string;
   maxPages?: number;
