@@ -12,6 +12,7 @@ interface ContentTabsProps {
   loading: boolean;
   saving: boolean;
   selectedPagePath?: string;
+  onBack?: () => void;
 }
 
 const ContentTabs: React.FC<ContentTabsProps> = ({
@@ -19,7 +20,8 @@ const ContentTabs: React.FC<ContentTabsProps> = ({
   onContentUpdate,
   loading,
   saving,
-  selectedPagePath
+  selectedPagePath,
+  onBack
 }) => {
   const [activeSubTab, setActiveSubTab] = useState<ContentSubTab>('media');
   const [editingContent, setEditingContent] = useState(false);

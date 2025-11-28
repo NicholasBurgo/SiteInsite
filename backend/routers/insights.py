@@ -10,15 +10,80 @@ from datetime import datetime
 from fastapi import APIRouter, HTTPException, Query
 from fastapi.responses import StreamingResponse
 import pdfkit
-from backend.core.types import InsightReport, ComparePayload, ComparisonReport, ComparedSite, ComparisonRow
+from backend.core.types import InsightReport, ComparePayload, ComparisonReport, ComparedSite, ComparisonRow, SiteKeywordSummary, KeywordComparisonSummary
 from backend.storage.runs import RunStore
 from backend.insights.summary import build_insight_report
 from backend.insights.comparison import generate_opportunities
+from backend.insights.seo_keywords import compute_site_keyword_summary, compute_keyword_comparison
 from backend.pdf_config import get_pdfkit_config
 from backend.routers.runs import manager as run_manager
 from backend.core.types import StartRunRequest
 
 router = APIRouter()
+
+@router.get("/api/insights/{run_id}/seo_keywords", response_model=SiteKeywordSummary)
+async def get_seo_keywords(run_id: str) -> SiteKeywordSummary:
+    """
+    Get SEO keyword summary for a single run.
+    
+    Returns keyword-level SEO metrics including:
+    - Focus keywords identified from the site
+    - Per-keyword statistics (pages used, occurrences, title/H1/H2/slug/anchor hits)
+    - Per-keyword scores (coverage, on-page, density, total)
+    - Overall SEO keyword score (0-100)
+    """
+    try:
+        run_store = RunStore(run_id)
+        if not os.path.exists(run_store.run_dir):
+            raise HTTPException(status_code=404, detail="Run not found")
+        
+        return compute_site_keyword_summary(run_id, run_store)
+    except HTTPException:
+        raise
+    except Exception as e:
+        raise HTTPException(status_code=500, detail=f"Error generating SEO keyword summary: {str(e)}")
+
+
+@router.get("/api/insights/{primary_run_id}/seo_keywords/compare", response_model=KeywordComparisonSummary)
+async def get_seo_keywords_compare(
+    primary_run_id: str,
+    competitor_run_ids: str = Query(..., description="Comma-separated list of competitor run IDs")
+) -> KeywordComparisonSummary:
+    """
+    Get SEO keyword comparison between primary run and competitors.
+    
+    Uses the primary run's focus keywords as the universe and compares
+    how well each site (primary + competitors) performs on those keywords.
+    
+    Returns:
+    - Focus keywords (from primary run)
+    - Overall keyword scores per site
+    - Per-keyword scores per site
+    """
+    try:
+        run_store = RunStore(primary_run_id)
+        if not os.path.exists(run_store.run_dir):
+            raise HTTPException(status_code=404, detail="Primary run not found")
+        
+        # Parse competitor run IDs
+        competitor_list = [rid.strip() for rid in competitor_run_ids.split(',') if rid.strip()]
+        
+        # Verify competitor runs exist
+        for comp_run_id in competitor_list:
+            comp_store = RunStore(comp_run_id)
+            if not os.path.exists(comp_store.run_dir):
+                raise HTTPException(status_code=404, detail=f"Competitor run not found: {comp_run_id}")
+        
+        # Compute comparison
+        def run_store_factory(run_id: str) -> RunStore:
+            return RunStore(run_id)
+        
+        return compute_keyword_comparison(primary_run_id, competitor_list, run_store_factory)
+    except HTTPException:
+        raise
+    except Exception as e:
+        raise HTTPException(status_code=500, detail=f"Error generating SEO keyword comparison: {str(e)}")
+
 
 @router.get("/api/insights/{run_id}/summary", response_model=InsightReport)
 async def get_insight_summary(run_id: str) -> InsightReport:
@@ -1175,6 +1240,129 @@ async def export_insight_report_pdf(
     </div>
 """
             html += """
+  </div>
+"""
+        
+        # [SEO_UNIFIED_SECTION] Unified SEO Summary Section (before competitor analysis)
+        if report.seo:
+            html += """
+  <div class="section" style="page-break-before: always;">
+    <h1>SEO Summary</h1>
+"""
+            # SEO Health Subsection
+            if report.seo.health:
+                seo_health = report.seo.health
+                html += f"""
+    <h2>Technical SEO Health</h2>
+    <div class="score-big" style="margin-bottom: 16px;">{seo_health.score}/100</div>
+    <p class="muted" style="margin-top: 8px; margin-bottom: 16px;">
+      Technical SEO elements like titles, descriptions, headings, and indexability affect search engine visibility.
+    </p>
+"""
+                if seo_health.issues:
+                    html += """
+    <h3>SEO Issues</h3>
+"""
+                    for issue in seo_health.issues[:5]:  # Show top 5 issues
+                        html += f"""
+    <div class="issue-block">
+      <h4>{issue.title} <span class="severity {issue.severity}">{issue.severity.title()}</span></h4>
+      <p>{issue.description}</p>
+    </div>
+"""
+                else:
+                    html += """
+    <p class="muted">✓ No SEO health issues detected</p>
+"""
+            
+            # Keyword Coverage Subsection
+            if report.seo.keyword_coverage and report.seo.keyword_coverage.keyword_metrics:
+                kw_cov = report.seo.keyword_coverage
+                html += f"""
+    <h2>Keyword Coverage & Scoring</h2>
+    <p class="muted" style="margin-top: 8px; margin-bottom: 16px;">
+      This score measures how consistently your key topics are used in titles, headings, URLs, links, and content.
+    </p>
+    <div class="score-big" style="margin-bottom: 16px;">{kw_cov.overall_score:.1f}/100</div>
+    <p class="muted" style="margin-bottom: 16px;">
+      Focus Keywords: {len(kw_cov.focus_keywords)} | Overall Score: {kw_cov.overall_score:.1f}/100
+    </p>
+    <table>
+      <tr>
+        <th>Keyword</th>
+        <th>Pages Using</th>
+        <th>Title</th>
+        <th>H1</th>
+        <th>H2</th>
+        <th>URL</th>
+        <th>Anchor</th>
+        <th>Score</th>
+      </tr>
+"""
+                # Show top 10 keywords sorted by score
+                top_keywords = sorted(kw_cov.keyword_metrics, key=lambda km: km.total_score, reverse=True)[:10]
+                for km in top_keywords:
+                    html += f"""
+      <tr>
+        <td><strong>{km.keyword}</strong></td>
+        <td>{km.pages_used}</td>
+        <td class="text-center">{'✓' if km.title_hits > 0 else '—'}</td>
+        <td class="text-center">{'✓' if km.h1_hits > 0 else '—'}</td>
+        <td class="text-center">{'✓' if km.h2_hits > 0 else '—'}</td>
+        <td class="text-center">{'✓' if km.slug_hits > 0 else '—'}</td>
+        <td class="text-center">{'✓' if km.anchor_hits > 0 else '—'}</td>
+        <td class="text-right"><strong>{km.total_score:.1f}</strong></td>
+      </tr>
+"""
+                html += """
+    </table>
+"""
+            
+            html += """
+  </div>
+"""
+        
+        # [SEO_UNIFIED_SECTION] Backward compatibility: also check old format
+        elif report.seo_keywords and report.seo_keywords.keyword_metrics:
+            seo_kw = report.seo_keywords
+            html += f"""
+  <div class="section">
+    <h2>SEO Keyword Coverage & Scoring</h2>
+    <p class="muted" style="margin-top: 8px; margin-bottom: 16px;">
+      This score measures how consistently your key topics are used in titles, headings, URLs, links, and content.
+    </p>
+    <div class="score-big" style="margin-bottom: 16px;">{seo_kw.overall_keyword_score:.1f}/100</div>
+    <p class="muted" style="margin-bottom: 16px;">
+      Focus Keywords: {seo_kw.total_focus_keywords} | Overall Score: {seo_kw.overall_keyword_score:.1f}/100
+    </p>
+    <table>
+      <tr>
+        <th>Keyword</th>
+        <th>Pages Using</th>
+        <th>Title</th>
+        <th>H1</th>
+        <th>H2</th>
+        <th>URL</th>
+        <th>Anchor</th>
+        <th>Score</th>
+      </tr>
+"""
+            top_keywords = sorted(seo_kw.keyword_metrics, key=lambda km: km.total_score, reverse=True)[:10]
+            for km in top_keywords:
+                html += f"""
+      <tr>
+        <td><strong>{km.keyword}</strong></td>
+        <td>{km.pages_used}</td>
+        <td class="text-center">{'✓' if km.title_hits > 0 else '—'}</td>
+        <td class="text-center">{'✓' if km.h1_hits > 0 else '—'}</td>
+        <td class="text-center">{'✓' if km.h2_hits > 0 else '—'}</td>
+        <td class="text-center">{'✓' if km.slug_hits > 0 else '—'}</td>
+        <td class="text-center">{'✓' if km.anchor_hits > 0 else '—'}</td>
+        <td class="text-right"><strong>{km.total_score:.1f}</strong></td>
+      </tr>
+"""
+            html += """
+    </table>
   </div>
 """
         

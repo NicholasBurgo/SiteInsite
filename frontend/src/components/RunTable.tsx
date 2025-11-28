@@ -1,3 +1,6 @@
+/**
+ * Table component for displaying and sorting audit pages.
+ */
 import React, { useMemo, useState } from 'react';
 import { PageSummary } from '../lib/types';
 
@@ -7,6 +10,12 @@ interface RunTableProps {
   selectedPageId?: string;
 }
 
+/**
+ * Table component displaying pages with sorting by load time.
+ * @param pages - List of page summaries to display
+ * @param onPageSelect - Callback when a page row is clicked
+ * @param selectedPageId - Currently selected page ID for highlighting
+ */
 export function RunTable({ pages, onPageSelect, selectedPageId }: RunTableProps) {
   const [loadSortDirection, setLoadSortDirection] = useState<'none' | 'asc' | 'desc'>('none');
 

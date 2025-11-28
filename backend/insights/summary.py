@@ -7,9 +7,11 @@ import json
 import uuid
 from statistics import median
 from typing import List, Dict, Any, Optional
-from backend.core.types import InsightReport, InsightCategoryScore, InsightIssue, InsightAffectedPage, InsightStats
+from backend.core.types import InsightReport, InsightCategoryScore, InsightIssue, InsightAffectedPage, InsightStats, SEOSection, SeoHealthSection
 from backend.storage.runs import RunStore
 from backend.storage.simhash import SimHash
+from backend.insights.seo import compute_seo_health, compute_keyword_coverage_summary
+from backend.insights.seo_keywords import compute_site_keyword_summary  # Backward compatibility
 
 
 def percentile(data: List[float], p: float) -> float:
@@ -695,114 +697,23 @@ def build_insight_report(run_store: RunStore, run_id: str) -> InsightReport:
                 # Skip pages that can't be loaded
                 continue
     
-    # Build SEO issues
-    if pages_missing_title:
-        missing_title_pct = (len(pages_missing_title) / pages_count) * 100
-        seo_issues.append(InsightIssue(
-            id=str(uuid.uuid4()),
-            category="seo",
-            severity="high" if missing_title_pct > 20 else "medium",
-            title="Missing Page Titles",
-            description=f"{len(pages_missing_title)} pages ({missing_title_pct:.1f}%) are missing page titles.",
-            affectedPages=[
-                InsightAffectedPage(url=p["url"], note=p.get("note"))
-                for p in pages_missing_title
-            ]
-        ))
-    
-    if pages_missing_description:
-        missing_desc_pct = (len(pages_missing_description) / pages_count) * 100
-        seo_issues.append(InsightIssue(
-            id=str(uuid.uuid4()),
-            category="seo",
-            severity="high" if missing_desc_pct > 20 else "medium",
-            title="Missing Meta Descriptions",
-            description=f"{len(pages_missing_description)} pages ({missing_desc_pct:.1f}%) are missing meta descriptions.",
-            affectedPages=[
-                InsightAffectedPage(url=p["url"], note=p.get("note"))
-                for p in pages_missing_description
-            ]
-        ))
-    
-    if pages_missing_h1:
-        missing_h1_pct = (len(pages_missing_h1) / pages_count) * 100
-        seo_issues.append(InsightIssue(
-            id=str(uuid.uuid4()),
-            category="seo",
-            severity="medium" if missing_h1_pct > 10 else "low",
-            title="Missing H1 Headings",
-            description=f"{len(pages_missing_h1)} pages ({missing_h1_pct:.1f}%) are missing H1 headings.",
-            affectedPages=[
-                InsightAffectedPage(url=p["url"], note=p.get("note"))
-                for p in pages_missing_h1
-            ]
-        ))
-    
-    if pages_with_broken_links:
-        seo_issues.append(InsightIssue(
-            id=str(uuid.uuid4()),
-            category="seo",
-            severity="high",
-            title="Broken Links Detected",
-            description=f"{len(pages_with_broken_links)} pages contain broken links.",
-            affectedPages=[
-                InsightAffectedPage(
-                    url=p["url"],
-                    note=f"{p.get('broken_count', 0)} broken links" if p.get("broken_count") else None
-                )
-                for p in pages_with_broken_links
-            ]
-        ))
-    
-    if images_missing_alt:
-        seo_issues.append(InsightIssue(
-            id=str(uuid.uuid4()),
-            category="seo",
-            severity="medium",
-            title="Images Missing Alt Text",
-            description=f"{len(images_missing_alt)} pages contain images without alt text.",
-            affectedPages=[
-                InsightAffectedPage(
-                    url=p["url"],
-                    note=f"{p.get('missing_alt_count', 0)} images without alt" if p.get("missing_alt_count") else None
-                )
-                for p in images_missing_alt
-            ]
-        ))
-    
-    # NEW: SEO - Indexability & crawlability issues
-    if noindex_pages:
-        seo_issues.append(InsightIssue(
-            id="seo_noindex_pages",
-            category="seo",
-            severity="medium",
-            title="Noindex Pages",
-            description=f"{len(noindex_pages)} pages are marked as noindex. Make sure this is intentional.",
-            affectedPages=[
-                InsightAffectedPage(url=p["url"], note=p.get("note"))
-                for p in noindex_pages
-            ]
-        ))
-    
-    if not robots_present:
-        seo_issues.append(InsightIssue(
-            id="seo_no_robots_txt",
-            category="seo",
-            severity="low",
-            title="robots.txt Not Detected",
-            description="A robots.txt file was not detected. While optional, adding one helps control how search engines crawl your site.",
-            affectedPages=[]
-        ))
-    
-    if not sitemap_present:
-        seo_issues.append(InsightIssue(
-            id="seo_no_sitemap",
-            category="seo",
-            severity="low",
-            title="Sitemap Not Detected",
-            description="An XML sitemap was not detected. Adding one helps search engines discover and index important pages.",
-            affectedPages=[]
-        ))
+    # [SEO_UNIFIED_SECTION] Compute SEO health using new unified module
+    seo_health_result = None
+    try:
+        seo_health_result = compute_seo_health(
+            run_store,
+            pages_index,
+            pages_data,
+            site_data,
+            pages_count
+        )
+        seo_issues = seo_health_result['issues']
+        seo_score = seo_health_result['score']
+    except Exception as e:
+        print(f"Warning: Failed to compute SEO health: {e}")
+        # Fallback to empty issues if computation fails
+        seo_issues = []
+        seo_score = 100
     
     # Calculate important pages metrics for content issues (needed before building issues)
     important_content_pages_for_issues = [
@@ -1161,55 +1072,8 @@ def build_insight_report(run_store: RunStore, run_id: str) -> InsightReport:
     
     performance_score = max(0, min(100, performance_score))
     
-    # SEO scoring with stricter penalties
-    seo_score = 100
-    
-    missing_title_ratio = len(pages_missing_title) / pages_count if pages_count else 0
-    missing_desc_ratio = len(pages_missing_description) / pages_count if pages_count else 0
-    missing_h1_ratio = len(pages_missing_h1) / pages_count if pages_count else 0
-    broken_link_count = len(pages_with_broken_links)
-    images_missing_alt_count = len(images_missing_alt)
-    images_missing_alt_ratio = images_missing_alt_count / pages_count if pages_count else 0
-    
-    if missing_title_ratio >= 0.1:  # 10% or more
-        seo_score -= 10
-    if missing_title_ratio > 0.3:
-        seo_score -= 10
-    
-    if missing_desc_ratio >= 0.1:  # 10% or more
-        seo_score -= 10
-    if missing_desc_ratio > 0.3:
-        seo_score -= 10
-    
-    if missing_h1_ratio >= 0.1:  # 10% or more
-        seo_score -= 5
-    if missing_h1_ratio > 0.3:
-        seo_score -= 10
-    
-    if broken_link_count > 0:
-        seo_score -= 5
-    if broken_link_count > 10:
-        seo_score -= 10
-    
-    # Penalize images missing alt text
-    if images_missing_alt_ratio >= 0.3:  # 30% or more pages have images without alt
-        seo_score -= 10
-    elif images_missing_alt_ratio >= 0.1:  # 10% or more pages have images without alt
-        seo_score -= 5
-    elif images_missing_alt_count > 0:  # Any pages with missing alt text
-        seo_score -= 2
-    
-    # NEW: Penalize indexability issues
-    if noindex_pages and len(noindex_pages) / pages_count > 0.3:
-        seo_score -= 5
-    
-    if not robots_present:
-        seo_score -= 2
-    
-    if not sitemap_present:
-        seo_score -= 2
-    
-    seo_score = max(0, min(100, seo_score))
+    # [SEO_UNIFIED_SECTION] SEO score is now computed in compute_seo_health()
+    # seo_score is set above from seo_health_result
     
     # Content scoring with page-type aware penalties
     # Only penalize based on important content pages
@@ -1341,6 +1205,36 @@ def build_insight_report(run_store: RunStore, run_id: str) -> InsightReport:
     stats.badPagesCount = len(bad_pages)
     stats.brokenInternalLinksCount = len(broken_internal_links_global)
     
+    # [SEO_UNIFIED_SECTION] Compute unified SEO section (health + keyword coverage)
+    seo_section = None
+    try:
+        # Compute keyword coverage
+        keyword_coverage = compute_keyword_coverage_summary(run_id, run_store)
+        
+        # Build SEO health section
+        seo_health_section = None
+        if seo_health_result:
+            seo_health_section = SeoHealthSection(
+                score=seo_health_result['score'],
+                issues=seo_health_result['issues']
+            )
+        
+        # Create unified SEO section
+        # [SEO_ACCURACY_PATCH] Show keyword coverage if we have keywords or metrics
+        seo_section = SEOSection(
+            health=seo_health_section,
+            keyword_coverage=keyword_coverage if (keyword_coverage.focus_keywords or keyword_coverage.keyword_metrics) else None
+        )
+    except Exception as e:
+        print(f"Warning: Failed to compute unified SEO section: {e}")
+    
+    # [SEO_UNIFIED_SECTION] Backward compatibility: compute old format
+    seo_keywords_summary = None
+    try:
+        seo_keywords_summary = compute_site_keyword_summary(run_id, run_store)
+    except Exception as e:
+        print(f"Warning: Failed to compute SEO keyword summary (backward compat): {e}")
+    
     return InsightReport(
         runId=run_id,
         baseUrl=base_url,
@@ -1352,6 +1246,8 @@ def build_insight_report(run_store: RunStore, run_id: str) -> InsightReport:
         crawlabilityScore=crawlability_score,
         perfMode=perf_mode,
         performanceConsistency=performance_consistency if performance_consistency != "unknown" else None,
-        consistencyNote=consistency_note if consistency_note else None
+        consistencyNote=consistency_note if consistency_note else None,
+        seo=seo_section,  # [SEO_UNIFIED_SECTION] New unified SEO section
+        seo_keywords=seo_keywords_summary  # Backward compatibility
     )
 

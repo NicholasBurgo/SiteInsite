@@ -1,3 +1,6 @@
+/**
+ * Main application component with routing configuration.
+ */
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import { Generator } from './pages/Generator';
 import { Review } from './pages/Review';
@@ -10,6 +13,10 @@ import InsightReport from './pages/InsightReport';
 import { DarkModeProvider } from './contexts/DarkModeContext';
 import { DarkModeToggle } from './components/DarkModeToggle';
 
+/**
+ * Root application component.
+ * Sets up routing and dark mode provider.
+ */
 export default function App() {
   return (
     <DarkModeProvider>

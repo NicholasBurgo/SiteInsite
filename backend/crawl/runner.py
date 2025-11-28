@@ -1,4 +1,12 @@
-import asyncio, time, json
+"""
+Main crawl orchestration module.
+
+Manages audit run lifecycle, coordinates crawling, extraction, and storage.
+Supports multiple performance measurement modes and concurrent execution.
+"""
+import asyncio
+import time
+import json
 from dataclasses import dataclass
 from typing import Dict
 from backend.core.config import settings
@@ -13,6 +21,7 @@ from backend.extract.json_csv import extract_json_csv
 from backend.storage.runs import RunStore
 from backend.storage.confirmation import ConfirmationStore
 
+
 @dataclass
 class RunState:
     frontier: Frontier
@@ -25,10 +34,26 @@ class RunState:
     is_complete: bool = False
 
 class RunManager:
+    """
+    Manages multiple concurrent audit runs.
+    
+    Handles run lifecycle, progress tracking, and resource cleanup.
+    """
+    
     def __init__(self):
+        """Initialize the run manager with empty run registry."""
         self._runs: Dict[str, RunState] = {}
 
     async def start(self, req) -> str:
+        """
+        Start a new audit run.
+        
+        Args:
+            req: StartRunRequest containing URL and crawl configuration
+        
+        Returns:
+            str: Run ID for tracking the audit
+        """
         run_id = str(int(time.time()))
         bot_enabled = bool(req.botAvoidanceEnabled) if hasattr(req, "botAvoidanceEnabled") else False
         perf_mode = getattr(req, "perfMode", None) or settings.PERF_MODE
@@ -84,7 +109,14 @@ class RunManager:
         return run_id
     
     async def _preflight_test(self, run_id: str, base_url: str, fetcher: Fetcher):
-        """Run pre-flight ping test and store results in meta.json"""
+        """
+        Run pre-flight ping test and store results in meta.json.
+        
+        Args:
+            run_id: Unique identifier for the audit run
+            base_url: Base URL to test
+            fetcher: Fetcher instance for making requests
+        """
         try:
             await fetcher.__aenter__()
             preflight_result = await preflight_ping_test(base_url, fetcher.session, num_samples=7)
@@ -104,6 +136,13 @@ class RunManager:
             print(f"Pre-flight ping test failed: {e}")
 
     async def _worker_loop(self, run_id: str, effective_concurrency: int | None = None):
+        """
+        Main worker loop for processing URLs in the crawl queue.
+        
+        Args:
+            run_id: Unique identifier for the audit run
+            effective_concurrency: Number of concurrent workers to use
+        """
         state = self._runs[run_id]
         concurrency = effective_concurrency or settings.GLOBAL_CONCURRENCY
         sem = asyncio.Semaphore(concurrency)
@@ -143,11 +182,11 @@ class RunManager:
                     performance_samples = None
                 
                 if not resp:
-                    state.store.log_error(url, "fetch_failed")
+                    await state.store.log_error(url, "fetch_failed")
                     return
                 if getattr(resp, "blocked_reason", None):
                     reason = resp.blocked_reason
-                    state.store.log_error(url, f"bot_blocked:{reason}")
+                    await state.store.log_error(url, f"bot_blocked:{reason}")
                     if state.bot_strategy:
                         state.bot_strategy.record_block(url, reason, resp.status)
                     return
@@ -174,7 +213,7 @@ class RunManager:
                 if performance_samples:
                     doc["performance_samples"] = performance_samples
                 
-                state.store.save_doc(doc)
+                await state.store.save_doc(doc)
                 
                 # Add to confirmation store pages index
                 if doc.get("summary"):
@@ -183,7 +222,7 @@ class RunManager:
                         # Use effective_load_ms if available, otherwise load_time_ms
                         load_time = resp.effective_load_ms if resp.effective_load_ms is not None else resp.load_time_ms
                         
-                        state.confirmation_store.add_page_to_index({
+                        await state.confirmation_store.add_page_to_index({
                             "pageId": summary.get("pageId"),
                             "title": summary.get("title"),
                             "path": summary.get("path", "/"),
@@ -213,14 +252,34 @@ class RunManager:
         state.is_complete = True
 
     async def progress(self, run_id: str):
+        """
+        Get current progress for an audit run.
+        
+        Args:
+            run_id: Unique identifier for the audit run
+        
+        Returns:
+            dict: Progress snapshot with queued, visited, and error counts, or None if run not found
+        """
         st = self._runs.get(run_id)
-        if not st: return None
+        if not st:
+            return None
         snapshot = st.store.progress_snapshot(st.frontier)
         snapshot["is_complete"] = st.is_complete
         return snapshot
 
     async def stop(self, run_id: str):
+        """
+        Stop an audit run and finalize storage.
+        
+        Args:
+            run_id: Unique identifier for the audit run
+        
+        Returns:
+            bool: True if run was stopped, False if run not found
+        """
         st = self._runs.pop(run_id, None)
-        if not st: return False
+        if not st:
+            return False
         st.store.finalize()
         return True

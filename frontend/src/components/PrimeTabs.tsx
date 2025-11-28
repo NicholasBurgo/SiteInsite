@@ -12,13 +12,15 @@ interface PrimeTabsProps {
   onNavigationUpdate: (nav: NavNode[]) => void;
   onFooterUpdate: (footer: any) => void;
   saving: boolean;
+  onPageSelect?: (pagePath: string) => void;
 }
 
 const PrimeTabs: React.FC<PrimeTabsProps> = ({
   data,
   onNavigationUpdate,
   onFooterUpdate,
-  saving
+  saving,
+  onPageSelect
 }) => {
   const { runId } = useParams<{ runId: string }>();
   const [activeSubTab, setActiveSubTab] = useState<PrimeSubTab>('nav');
@@ -326,10 +328,17 @@ const PrimeTabs: React.FC<PrimeTabsProps> = ({
               </thead>
               <tbody className="bg-white dark:bg-gray-800 divide-y divide-gray-200 dark:divide-gray-700">
                 {pagesData.map((page, index) => (
-                  <tr key={page.pageId} className="hover:bg-gray-50 dark:hover:bg-gray-700">
+                  <tr 
+                    key={page.pageId} 
+                    className={`hover:bg-gray-50 dark:hover:bg-gray-700 ${onPageSelect ? 'cursor-pointer' : ''}`}
+                    onClick={() => onPageSelect && onPageSelect(page.path)}
+                  >
                     <td className="px-6 py-4 whitespace-nowrap text-sm text-gray-900 dark:text-gray-100">{index + 1}</td>
                     <td className="px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-900 dark:text-gray-100">
                       {page.titleGuess || 'Untitled'}
+                      {onPageSelect && (
+                        <span className="ml-2 text-xs text-blue-600 dark:text-blue-400">(click to view content)</span>
+                      )}
                     </td>
                     <td className="px-6 py-4 whitespace-nowrap text-sm text-gray-500 dark:text-gray-400">{page.path}</td>
                     <td className="px-6 py-4 whitespace-nowrap">

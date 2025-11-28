@@ -1,3 +1,7 @@
+/**
+ * TypeScript type definitions for SiteInsite API responses and requests.
+ */
+
 export interface StartRunRequest {
   url: string;
   maxPages?: number;
@@ -172,6 +176,46 @@ export interface InsightStats {
   maxPageSizeKb: number;
 }
 
+export interface KeywordMetrics {
+  keyword: string;
+  pages_used: number;
+  total_occurrences: number;
+  title_hits: number;
+  h1_hits: number;
+  h2_hits: number;
+  slug_hits: number;
+  anchor_hits: number;
+  avg_density: number; // 0.0 – 1.0
+  coverage_score: number; // 0–100
+  onpage_score: number; // 0–100
+  total_score: number; // 0–100
+}
+
+export interface SiteKeywordSummary {
+  run_id: string;
+  domain?: string | null;
+  overall_keyword_score: number; // 0–100
+  total_focus_keywords: number;
+  keyword_metrics: KeywordMetrics[];
+}
+
+// [SEO_UNIFIED_SECTION] Unified SEO structure
+export interface KeywordCoverageSummary {
+  overall_score: number; // 0–100
+  focus_keywords: string[];
+  keyword_metrics: KeywordMetrics[];
+}
+
+export interface SeoHealthSection {
+  score: number; // 0–100
+  issues: InsightIssue[];
+}
+
+export interface SEOSection {
+  health?: SeoHealthSection | null;
+  keyword_coverage?: KeywordCoverageSummary | null;
+}
+
 export interface InsightReport {
   runId: string;
   baseUrl: string | null;
@@ -186,6 +230,10 @@ export interface InsightReport {
   perfMode?: string | null; // "controlled", "realistic", "stress"
   performanceConsistency?: string | null; // "stable", "unstable"
   consistencyNote?: string | null; // Human-readable note about consistency
+  // [SEO_UNIFIED_SECTION] Unified SEO section (health + keyword coverage)
+  seo?: SEOSection | null;
+  // Backward compatibility
+  seo_keywords?: SiteKeywordSummary | null;
 }
 
 // Competitor Comparison Types

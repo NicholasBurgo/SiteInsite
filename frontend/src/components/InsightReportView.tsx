@@ -4,6 +4,7 @@
  */
 import React from 'react';
 import { InsightReport as InsightReportType } from '../lib/types';
+import SeoOverviewSection from './SeoOverviewSection';
 
 interface InsightReportViewProps {
   report: InsightReportType;
@@ -197,56 +198,13 @@ const InsightReportView: React.FC<InsightReportViewProps> = ({ report }) => {
         )}
       </div>
 
-      {/* SEO Section */}
-      <div>
-        <div className="flex items-center justify-between mb-4">
-          <h2 className="text-xl font-semibold text-gray-900 dark:text-gray-100">SEO Analysis</h2>
-          <div className={`text-2xl font-bold ${getScoreColor(report.categories.find(c => c.category === 'seo')?.score || 0)}`}>
-            {report.categories.find(c => c.category === 'seo')?.score || 0}
-          </div>
-        </div>
-        {report.categories.find(c => c.category === 'seo')?.issues.length > 0 ? (
-          <div className="space-y-2">
-            {report.categories.find(c => c.category === 'seo')?.issues.map((issue) => (
-              <div key={issue.id} className={`border rounded-lg p-4 ${getSeverityColor(issue.severity)}`}>
-                <div className="flex items-center justify-between mb-2">
-                  <h3 className="font-medium dark:text-gray-200">{issue.title}</h3>
-                  <span className="text-xs px-2 py-1 rounded-full bg-white/50 dark:bg-gray-800/50">
-                    {issue.severity}
-                  </span>
-                </div>
-                <p className="text-sm mb-2 dark:text-gray-300">{issue.description}</p>
-                {issue.affectedPages && issue.affectedPages.length > 0 && (
-                  <div className="mt-2">
-                    <p className="text-xs font-medium text-gray-500 dark:text-gray-400 mb-1">
-                      Affected pages ({issue.affectedPages.length}):
-                    </p>
-                    <ul className="text-xs text-gray-700 dark:text-gray-300 space-y-1 max-h-40 overflow-y-auto">
-                      {issue.affectedPages.slice(0, 20).map((p, idx) => (
-                        <li key={idx} className="truncate">
-                          <span className="font-mono">{p.url}</span>
-                          {p.note && (
-                            <span className="text-gray-500 dark:text-gray-400"> — {p.note}</span>
-                          )}
-                        </li>
-                      ))}
-                    </ul>
-                    {issue.affectedPages.length > 20 && (
-                      <p className="text-[11px] text-gray-400 dark:text-gray-500 mt-1">
-                        Showing first 20 URLs…
-                      </p>
-                    )}
-                  </div>
-                )}
-              </div>
-            ))}
-          </div>
-        ) : (
-          <div className="bg-green-50 dark:bg-green-900/20 border border-green-200 dark:border-green-800 rounded-lg p-4 text-green-800 dark:text-green-300">
-            ✓ No SEO issues detected
-          </div>
-        )}
-      </div>
+      {/* [SEO_UI_OVERVIEW_SECTION] Unified SEO Overview Section */}
+      <SeoOverviewSection
+        seo={report.seo}
+        seoCategoryScore={report.categories.find(c => c.category === 'seo')?.score}
+        seoCategoryIssues={report.categories.find(c => c.category === 'seo')?.issues}
+        seoKeywords={report.seo_keywords}
+      />
 
       {/* Content Section */}
       <div>

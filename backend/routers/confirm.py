@@ -190,7 +190,7 @@ async def update_page_content(run_id: str, page_path: str = Query(..., descripti
         page_id = page.get("pageId")
         
         # Update page content
-        store.update_page_content(page_id, content)
+        await store.update_page_content(page_id, content)
         
         return {"message": "Page content updated successfully"}
     except HTTPException:
@@ -259,7 +259,7 @@ async def update_page_type(run_id: str, page_id: str, page_type_data: Dict[str, 
             if "stats" not in page_content:
                 page_content["stats"] = {}
             page_content["stats"]["page_type"] = page_type
-            store.update_page_content(page_id, page_content)
+            await store.update_page_content(page_id, page_content)
         
         return {"message": "Page type updated successfully", "page_type": page_type}
     except HTTPException:

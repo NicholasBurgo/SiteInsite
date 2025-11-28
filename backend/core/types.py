@@ -176,6 +176,55 @@ class InsightStats(BaseModel):
     badPagesCount: int = 0  # 404, 410, 5xx pages
     brokenInternalLinksCount: int = 0  # Total broken internal links found
 
+class KeywordMetrics(BaseModel):
+    keyword: str
+    pages_used: int
+    total_occurrences: int
+    title_hits: int
+    h1_hits: int
+    h2_hits: int
+    slug_hits: int
+    anchor_hits: int
+    avg_density: float  # 0.0 – 1.0 within pages where keyword occurs
+    coverage_score: float  # 0–100 (how broadly the keyword is used across pages)
+    onpage_score: float  # 0–100 (titles, headings, URL, anchors)
+    total_score: float  # 0–100 (aggregate keyword score)
+    # [SEO_ACCURACY_PATCH] Optional fields for debugging and weighted scoring
+    weighted_pages_used: float | None = None  # Weighted count of pages using keyword
+    importance_weight: float | None = None  # 3.0 if homepage, 2.0 if landing/product, 1.0 otherwise
+    density_score: float | None = None  # Density component score (0-100)
+
+class SiteKeywordSummary(BaseModel):
+    run_id: str
+    domain: str | None = None
+    overall_keyword_score: float  # 0–100
+    total_focus_keywords: int
+    keyword_metrics: list[KeywordMetrics]
+
+# [SEO_UNIFIED_SECTION] New unified SEO structure
+class KeywordCoverageSummary(BaseModel):
+    overall_score: float  # 0–100
+    focus_keywords: list[str]
+    keyword_metrics: list[KeywordMetrics]
+
+class SeoHealthSection(BaseModel):
+    score: int  # 0–100
+    issues: list[InsightIssue]
+
+class SEOSection(BaseModel):
+    health: SeoHealthSection | None = None
+    keyword_coverage: KeywordCoverageSummary | None = None
+
+class KeywordComparisonEntry(BaseModel):
+    keyword: str
+    site_scores: dict[str, float]  # key = run_id or domain, value = 0–100
+
+class KeywordComparisonSummary(BaseModel):
+    focus_keywords: list[str]
+    sites: list[str]  # e.g. run ids or domains
+    overall_scores: dict[str, float]
+    per_keyword: list[KeywordComparisonEntry]
+
 class InsightReport(BaseModel):
     runId: str
     baseUrl: str | None
@@ -190,6 +239,10 @@ class InsightReport(BaseModel):
     perfMode: str | None = None  # "controlled", "realistic", "stress"
     performanceConsistency: str | None = None  # "stable", "unstable"
     consistencyNote: str | None = None  # Human-readable note about consistency
+    # [SEO_UNIFIED_SECTION] Unified SEO section (health + keyword coverage)
+    seo: SEOSection | None = None
+    # Backward compatibility: keep old field for now
+    seo_keywords: SiteKeywordSummary | None = None
 
 # Competitor Comparison Models
 class ComparedSite(BaseModel):

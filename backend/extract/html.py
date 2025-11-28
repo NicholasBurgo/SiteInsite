@@ -1,3 +1,9 @@
+"""
+HTML content extraction module.
+
+Extracts text, metadata, links, images, headings, and structured data from HTML pages.
+Uses readability and trafilatura for content extraction, BeautifulSoup for parsing.
+"""
 import re
 import hashlib
 import os
@@ -11,13 +17,37 @@ from backend.extract.files_words_links import extract_structured_content
 from backend.insights.page_type import infer_page_type, extract_page_features, PageFeatures
 from backend.core.config import settings
 from backend.extract.pool import get_extraction_pool
+from backend.storage.async_io import get_async_writer
 
 
-def _extract_html_sync(html_content: bytes, url: str, content_type: str, status: int, path: str, 
-                       load_time_ms: int | None, content_length_bytes: int | None, run_id: str | None = None) -> dict:
+def _extract_html_sync(
+    html_content: bytes,
+    url: str,
+    content_type: str,
+    status: int,
+    path: str,
+    load_time_ms: int | None,
+    content_length_bytes: int | None,
+    run_id: str | None = None
+) -> dict:
     """
     Synchronous HTML extraction function for multiprocessing.
+    
     This is the CPU-bound part that runs in worker processes.
+    Extracts all content from HTML including text, metadata, links, images, etc.
+    
+    Args:
+        html_content: Raw HTML content bytes
+        url: Source URL
+        content_type: Content-Type header value
+        status: HTTP status code
+        path: URL path
+        load_time_ms: Page load time in milliseconds
+        content_length_bytes: Content length in bytes
+        run_id: Optional run ID for context
+    
+    Returns:
+        dict: Extracted page data with summary, meta, text, headings, images, links, etc.
     """
     try:
         html_str = html_content.decode('utf-8', errors='ignore')
@@ -170,7 +200,7 @@ async def extract_html(resp: FetchResponse, run_id: str = None) -> dict:
             # Save structured content if run_id provided (do this in main process)
             if run_id and result.get("structuredContent"):
                 page_id = result["summary"]["pageId"]
-                _save_structured_content(run_id, page_id, result["structuredContent"])
+                await _save_structured_content(run_id, page_id, result["structuredContent"])
                 # Remove internal field
                 result.pop("_run_id", None)
             
@@ -232,7 +262,7 @@ async def extract_html(resp: FetchResponse, run_id: str = None) -> dict:
             
             # Save structured content if run_id provided
             if run_id:
-                _save_structured_content(run_id, page_id, structured_content)
+                await _save_structured_content(run_id, page_id, structured_content)
             
             return {
                 "summary": {
@@ -507,8 +537,8 @@ def _extract_structured_data(soup: BeautifulSoup) -> list:
     
     return structured
 
-def _save_structured_content(run_id: str, page_id: str, content: dict):
-    """Save structured content to run directory."""
+async def _save_structured_content(run_id: str, page_id: str, content: dict):
+    """Save structured content to run directory asynchronously."""
     try:
         run_dir = os.path.join("runs", run_id)
         pages_dir = os.path.join(run_dir, "pages")
@@ -516,10 +546,10 @@ def _save_structured_content(run_id: str, page_id: str, content: dict):
         # Ensure directories exist
         os.makedirs(pages_dir, exist_ok=True)
         
-        # Save page content
+        # Save page content using async writer
         page_file = os.path.join(pages_dir, f"{page_id}.json")
-        with open(page_file, 'w') as f:
-            json.dump(content, f, indent=2)
+        writer = get_async_writer()
+        await writer.write_json(page_file, content)
             
     except Exception as e:
         print(f"Error saving structured content: {e}")
