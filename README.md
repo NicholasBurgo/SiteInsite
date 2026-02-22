@@ -250,7 +250,7 @@ Access the application at http://localhost:5173
 
 ## Configuration
 
-Copy `env.example` to `.env`:
+Copy `.env.example` to `.env`:
 
 - `GLOBAL_CONCURRENCY`: Concurrent requests (default: 12)
 - `PER_HOST_LIMIT`: Requests per host (default: 6)
@@ -316,8 +316,6 @@ SiteInsite/
 
 ## License
 
-Copyright (c) 2025 Nicholas Burgo & Andrew Ponder. All Rights Reserved.
+MIT License - Copyright (c) 2025 Nicholas Burgo
 
-This software and associated documentation files are the confidential and proprietary property of Nicholas Burgo & Andrew Ponder.
-
-Unauthorized use or reproduction of this software, in any form, is strictly prohibited.
+See [LICENSE](LICENSE) for full details.

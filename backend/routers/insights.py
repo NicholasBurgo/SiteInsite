@@ -6,6 +6,9 @@ import io
 import json
 import asyncio
 import time
+import logging
+
+logger = logging.getLogger(__name__)
 from datetime import datetime
 from fastapi import APIRouter, HTTPException, Query
 from fastapi.responses import StreamingResponse
@@ -328,7 +331,7 @@ async def export_insight_report_pdf(
                         competitor_reports.append(comp_report)
                 except Exception as e:
                     # Skip failed competitor reports, but continue
-                    print(f"Warning: Failed to load competitor report {comp_run_id}: {e}")
+                    logger.warning("Failed to load competitor report %s: %s", comp_run_id, e)
                     continue
         
         # Generate comparison rows if competitors exist
@@ -893,7 +896,7 @@ async def export_insight_report_pdf(
       <p><strong>Samples:</strong> {preflight.get('samples', 0)}</p>
 """
         except Exception as e:
-            print(f"Error loading pre-flight data: {e}")
+            logger.error("Error loading pre-flight data: %s", e)
         
         # Get JS vs Raw stats from performance_stats
         js_raw_info = ""
@@ -921,7 +924,7 @@ async def export_insight_report_pdf(
                         js_raw_info += f"""
       <p><strong>JS Pages:</strong> avg {js_stats.get('average', 0):.0f} ms, p90 {js_stats.get('p90', 0):.0f} ms, count {js_stats.get('count', 0)}</p>"""
         except Exception as e:
-            print(f"Error loading JS/Raw stats: {e}")
+            logger.error("Error loading JS/Raw stats: %s", e)
         
         # Build measurement mode note
         mode_note = ""
@@ -1651,7 +1654,7 @@ async def export_insight_report_pdf(
         except Exception as e:
             import traceback
             error_detail = f"Error generating PDF: {str(e)}\n{traceback.format_exc()}"
-            print(error_detail)  # Log to console for debugging
+            logger.error(error_detail)
             raise HTTPException(status_code=500, detail=f"Error generating PDF: {str(e)}")
         
         buffer = io.BytesIO(pdf_bytes)

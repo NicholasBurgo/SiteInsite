@@ -7,8 +7,11 @@ Supports multiple performance measurement modes and concurrent execution.
 import asyncio
 import time
 import json
+import logging
 from dataclasses import dataclass
 from typing import Dict
+
+logger = logging.getLogger(__name__)
 from backend.core.config import settings
 from backend.crawl.frontier import Frontier
 from backend.crawl.fetch import Fetcher
@@ -99,7 +102,7 @@ class RunManager:
             with open(store.meta_file, 'w') as f:
                 json.dump(meta, f)
         except Exception as e:
-            print(f"Error updating run meta with effective settings: {e}")
+            logger.error("Error updating run meta with effective settings: %s", e)
         
         # Run pre-flight ping test in controlled mode
         if perf_mode == "controlled":
@@ -129,11 +132,11 @@ class RunManager:
                 meta["preflight"] = preflight_result
                 with open(store.meta_file, 'w') as f:
                     json.dump(meta, f)
-                print(f"Pre-flight ping test completed: {preflight_result}")
+                logger.info("Pre-flight ping test completed: %s", preflight_result)
             except Exception as e:
-                print(f"Error storing pre-flight results: {e}")
+                logger.error("Error storing pre-flight results: %s", e)
         except Exception as e:
-            print(f"Pre-flight ping test failed: {e}")
+            logger.warning("Pre-flight ping test failed: %s", e)
 
     async def _worker_loop(self, run_id: str, effective_concurrency: int | None = None):
         """
@@ -197,9 +200,9 @@ class RunManager:
                     if url == state.frontier.start_url:
                         try:
                             state.confirmation_store.extract_site_data(resp.content.decode('utf-8', errors='ignore'), url)
-                            print(f"Extracted site data for base URL: {url}")
+                            logger.info("Extracted site data for base URL: %s", url)
                         except Exception as e:
-                            print(f"Error extracting site data: {e}")
+                            logger.error("Error extracting site data: %s", e)
                 elif ct in ("application/pdf",):
                     doc = await extract_pdf(resp)
                 elif ct in ("application/vnd.openxmlformats-officedocument.wordprocessingml.document",):
@@ -235,9 +238,9 @@ class RunManager:
                             "contentLengthBytes": summary.get("content_length_bytes"),
                             "page_type": summary.get("page_type", "generic")
                         })
-                        print(f"Added page to index: {summary.get('pageId')}")
+                        logger.debug("Added page to index: %s", summary.get('pageId'))
                     except Exception as e:
-                        print(f"Error adding page to index: {e}")
+                        logger.error("Error adding page to index: %s", e)
                 for link in doc.get("links", []):
                     if isinstance(link, dict):
                         url = link.get("url")

@@ -64,8 +64,7 @@ export function RunView() {
   const handleExport = () => {
     if (!runId) return
     
-    // This would trigger an export API call
-    console.log('Export functionality would go here')
+    // Export API call placeholder
   }
 
   if (!runId) {

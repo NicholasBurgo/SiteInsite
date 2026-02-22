@@ -13,6 +13,8 @@ backend/scraper_advanced/output/
 __pycache__/
 *.py[cod]
 *$py.class
+.pytest_cache/
+.ruff_cache/
 *.so
 .Python
 build/
@@ -63,9 +65,8 @@ build/
 .DS_Store
 
 # Environment variables
-.env
-.env.local
-.env.*.local
+.env*
+!.env.example
 
 # Logs
 *.log

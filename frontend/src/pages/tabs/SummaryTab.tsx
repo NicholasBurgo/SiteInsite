@@ -51,8 +51,7 @@ export default function SummaryTab({ draft, confirmedFields, onToggleConfirmatio
   };
 
   const handleReviewLowConfidence = () => {
-    // This would typically navigate to a filtered view or highlight low confidence items
-    console.log('Reviewing low confidence items...');
+    // Navigate to filtered view for low confidence items
   };
 
   return (

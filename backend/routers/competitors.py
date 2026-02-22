@@ -47,13 +47,7 @@ async def suggest_competitors(url: str = Query(..., description="Primary website
                 detail="Invalid URL: could not extract domain"
             )
         
-        # TODO: Replace placeholder competitor suggestions with real SERP scraping
-        # TODO: Extract keywords from homepage content and search for competitors
-        # TODO: Support industry-specific competitor presets
-        # TODO: Use stored competitor history to track trends over time
-        
-        # Naive competitor guessing using simple variations.
-        # Later will replace with SERP-based discovery.
+        # Naive competitor guessing using simple domain variations.
         suggestions = [
             f"https://{root}online.com",
             f"https://{root}services.com",

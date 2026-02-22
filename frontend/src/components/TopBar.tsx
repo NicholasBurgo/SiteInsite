@@ -33,11 +33,6 @@ export function TopBar({ runId, baseUrl, onExportSeed, onExportReport, onBack, s
           </div>
         </div>
         <div className="flex items-center space-x-4">
-          <div className="text-sm text-gray-500 dark:text-gray-400">
-            <a href="http://localhost:5051/docs" target="_blank" className="underline hover:text-gray-700 dark:hover:text-gray-300">
-              API Docs
-            </a>
-          </div>
           {onExportReport && (
             <button
               onClick={onExportReport}

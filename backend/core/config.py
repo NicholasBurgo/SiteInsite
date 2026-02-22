@@ -26,7 +26,7 @@ class Settings(BaseSettings):
     RENDER_ENABLED: bool = False
     RENDER_BUDGET: float = 0.10
     DATA_DIR: str = "runs"
-    CORS_ORIGINS: list[str] = ["http://localhost:5173", "*"]
+    CORS_ORIGINS: list[str] = ["http://localhost:5173"]
     PERF_MODE: PerfMode = Field("controlled", description="Performance measurement mode: controlled, realistic, or stress")
     PERF_SAMPLES_PER_URL: int = Field(3, description="Number of performance samples to take per URL in controlled mode")
     PERF_BANDWIDTH_MBPS: float = Field(5.0, description="Simulated bandwidth in Mbps for throttling calculation")
